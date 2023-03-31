@@ -34,7 +34,8 @@ cols_renamed[vars.to.replace] <- df2
 # format data for scatter graph
 scatter = cols_renamed%>% 
   select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, cta, omap_id, unique_CT_for_tissue_block) %>% 
-  filter(!is.na(tissue_block_volume),!is.na(number_of_cells_total), excluded!="TRUE", source!="SPARC-UCLA", source!="KPMP-IU/OSU",source!="Azimuth") %>% 
+  filter(excluded!="TRUE") %>% 
+  # filter(!is.na(tissue_block_volume),!is.na(number_of_cells_total), excluded!="TRUE", source!="SPARC-UCLA", source!="KPMP-IU/OSU",source!="Azimuth") %>% 
   group_by(
     source,
     HuBMAP_tissue_block_id, 
@@ -51,10 +52,10 @@ scatter[scatter$organ%in%c("Kidney (Left)", "Kidney (Right)"),]$organ = "Kidney"
 scatter[scatter$organ%in%c("Lung (Left)", "Lung (Right)"),]$organ = "Lung"
 
 scatter_theme <- theme(
-  plot.title = element_text(family = "Arial", face = "bold", size = (20)),
-  legend.title = element_text(colour = "black", face = "bold.italic", family = "Arial", size=20),
-  legend.text = element_text(face = "italic", colour = "black", family = "Arial", size=20),
-  axis.title = element_text(family = "Arial", size = (20), colour = "black"),
+  plot.title = element_text(family = "Arial", face = "bold", size = (35)),
+  legend.title = element_text(colour = "black", face = "bold.italic", family = "Arial", size=35),
+  legend.text = element_text(face = "italic", colour = "black", family = "Arial", size=25),
+  axis.title = element_text(family = "Arial", size = (35), colour = "black"),
   axis.text = element_text(family = "Arial", colour = "black", size = (20)),
   legend.key.size = unit(3,"line"),
   # panel.background =  element_rect(fill = 'black', color = 'black')
@@ -83,7 +84,7 @@ ggplot(data = scatter, aes(
   guides(
     color = guide_legend( title = "Organ", override.aes = list(size = 10)),
     shape= guide_legend( title = "Source", override.aes = list(size = 10)),
-    size = guide_legend( title = "Number of unique cell types for tissue block")
+    size = guide_legend( title = "Number of unique cell \n types for tissue block")
     )+
    # scale_color_brewer(type="qual",palette=1,direction=-1)+
   scale_color_brewer(palette="Paired")+
@@ -91,8 +92,8 @@ ggplot(data = scatter, aes(
   ggtitle("Total number of cells per tissue block over volume")+
  labs(y = "Total number of cells per tissue block", x = "Volume of tissue block")+
 scatter_theme+ 
-  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+ 
-  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.')) 
+  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
+  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))
 
 # Fig. 1 Sankey diagram
 
