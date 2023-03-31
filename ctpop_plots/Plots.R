@@ -25,10 +25,16 @@ cols_renamed %>%
   filter(!is.na(tissue_block_volume), is.na(number_of_cells_total)) %>% 
   group_by(HuBMAP_tissue_block_id)
 
+# replace NA in excluded col with FALSE
+vars.to.replace <- c("excluded")
+df2 <- cols_renamed[vars.to.replace]
+df2[is.na(df2)] <- FALSE
+cols_renamed[vars.to.replace] <- df2
+
 # format data for scatter graph
 scatter = cols_renamed%>% 
-  select(source,paper_id,organ,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, cta, omap_id, unique_CT_for_tissue_block) %>% 
-  filter(!is.na(tissue_block_volume),!is.na(number_of_cells_total)) %>% 
+  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, cta, omap_id, unique_CT_for_tissue_block) %>% 
+  filter(!is.na(tissue_block_volume),!is.na(number_of_cells_total), excluded!="TRUE", source!="SPARC-UCLA", source!="KPMP-IU/OSU",source!="Azimuth") %>% 
   group_by(
     source,
     HuBMAP_tissue_block_id, 
