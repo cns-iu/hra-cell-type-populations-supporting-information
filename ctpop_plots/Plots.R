@@ -49,27 +49,37 @@ scatter_hubmap = cols_renamed%>%
 
 # NEED DIFFERENT PROCESS TO GET COUNTS FOR NON-HUBMAP TISSUE BLOCKS, needs to be 25 TOTAL!
 scatter_cxg = cols_renamed%>% 
-  select(source,dataset_id,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, non_hubmap_donor_id, cta, omap_id, unique_CT_for_tissue_block) %>% 
+  select(source,dataset_id,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, non_hubmap_donor_id, cta, omap_id, unique_CT_for_tissue_block, CxG_dataset_id_donor_id_organ, unique_CT_for_tissue_block) %>% 
   filter(excluded!="TRUE", source=="CxG") %>% 
   group_by(
-    dataset_id,
-    non_hubmap_donor_id,
+    # dataset_id,
+    # non_hubmap_donor_id,
+    # organ,
+    CxG_dataset_id_donor_id_organ,
+    unique_CT_for_tissue_block,
+    tissue_block_volume,
     organ
   ) %>% 
   # unique()
-  summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total))))
+  summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total)))) %>% 
+  add_column(source="CxG")
 
 scatter_gtex = cols_renamed%>% 
   select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, cta, dataset_id, omap_id, unique_CT_for_tissue_block) %>% 
   filter(excluded!="TRUE", source=="GTEx") %>% 
   group_by(
     dataset_id,
+    unique_CT_for_tissue_block,
+    tissue_block_volume,
+    organ
   ) %>% 
-  summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total))))
+  summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total))))%>% 
+  add_column(source="GTEx")
 
+scatter = bind_rows(scatter_hubmap, scatter_gtex, scatter_cxg)
 
-scatter[scatter$organ%in%c("Kidney (Left)", "Kidney (Right)"),]$organ = "Kidney"
-scatter[scatter$organ%in%c("Lung (Left)", "Lung (Right)"),]$organ = "Lung"
+# scatter[scatter$organ%in%c("Kidney (Left)", "Kidney (Right)"),]$organ = "Kidney"
+# scatter[scatter$organ%in%c("Lung (Left)", "Lung (Right)"),]$organ = "Lung"
 
 scatter_theme <- theme(
   plot.title = element_text(family = "Arial", face = "bold", size = (35)),
