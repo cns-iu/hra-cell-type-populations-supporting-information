@@ -25,10 +25,17 @@ cols_renamed %>%
   filter(!is.na(tissue_block_volume), is.na(number_of_cells_total)) %>% 
   group_by(HuBMAP_tissue_block_id)
 
+# replace NA in excluded col with FALSE
+vars.to.replace <- c("excluded")
+df2 <- cols_renamed[vars.to.replace]
+df2[is.na(df2)] <- FALSE
+cols_renamed[vars.to.replace] <- df2
+
 # format data for scatter graph
-scatter = cols_renamed%>% 
-  select(source,paper_id,organ,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, cta, omap_id, unique_CT_for_tissue_block) %>% 
-  filter(!is.na(tissue_block_volume),!is.na(number_of_cells_total)) %>% 
+# Hubmap: 128
+scatter_hubmap = cols_renamed%>% 
+  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, cta, omap_id, unique_CT_for_tissue_block) %>% 
+  filter(excluded!="TRUE", source=="HuBMAP") %>% 
   group_by(
     source,
     HuBMAP_tissue_block_id, 
@@ -36,19 +43,49 @@ scatter = cols_renamed%>%
     tissue_block_volume, 
     unique_CT_for_tissue_block,
     paper_id,
-    organ,
-    rui_organ
+    organ
     ) %>% 
   summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total))))
 
-scatter[scatter$organ%in%c("Kidney (Left)", "Kidney (Right)"),]$organ = "Kidney"
-scatter[scatter$organ%in%c("Lung (Left)", "Lung (Right)"),]$organ = "Lung"
+# NEED DIFFERENT PROCESS TO GET COUNTS FOR NON-HUBMAP TISSUE BLOCKS, needs to be 25 TOTAL!
+scatter_cxg = cols_renamed%>% 
+  select(source,dataset_id,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, non_hubmap_donor_id, cta, omap_id, unique_CT_for_tissue_block, CxG_dataset_id_donor_id_organ, unique_CT_for_tissue_block) %>% 
+  filter(excluded!="TRUE", source=="CxG") %>% 
+  group_by(
+    # dataset_id,
+    # non_hubmap_donor_id,
+    # organ,
+    CxG_dataset_id_donor_id_organ,
+    unique_CT_for_tissue_block,
+    tissue_block_volume,
+    organ
+  ) %>% 
+  # unique()
+  summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total)))) %>% 
+  add_column(source="CxG")
+
+scatter_gtex = cols_renamed%>% 
+  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, cta, dataset_id, omap_id, unique_CT_for_tissue_block) %>% 
+  filter(excluded!="TRUE", source=="GTEx") %>% 
+  group_by(
+    dataset_id,
+    unique_CT_for_tissue_block,
+    tissue_block_volume,
+    organ
+  ) %>% 
+  summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total))))%>% 
+  add_column(source="GTEx")
+
+scatter = bind_rows(scatter_hubmap, scatter_gtex, scatter_cxg)
+
+# scatter[scatter$organ%in%c("Kidney (Left)", "Kidney (Right)"),]$organ = "Kidney"
+# scatter[scatter$organ%in%c("Lung (Left)", "Lung (Right)"),]$organ = "Lung"
 
 scatter_theme <- theme(
-  plot.title = element_text(family = "Arial", face = "bold", size = (20)),
-  legend.title = element_text(colour = "black", face = "bold.italic", family = "Arial", size=20),
-  legend.text = element_text(face = "italic", colour = "black", family = "Arial", size=20),
-  axis.title = element_text(family = "Arial", size = (20), colour = "black"),
+  plot.title = element_text(family = "Arial", face = "bold", size = (35)),
+  legend.title = element_text(colour = "black", face = "bold.italic", family = "Arial", size=35),
+  legend.text = element_text(face = "italic", colour = "black", family = "Arial", size=25),
+  axis.title = element_text(family = "Arial", size = (35), colour = "black"),
   axis.text = element_text(family = "Arial", colour = "black", size = (20)),
   legend.key.size = unit(3,"line"),
   # panel.background =  element_rect(fill = 'black', color = 'black')
@@ -77,7 +114,7 @@ ggplot(data = scatter, aes(
   guides(
     color = guide_legend( title = "Organ", override.aes = list(size = 10)),
     shape= guide_legend( title = "Source", override.aes = list(size = 10)),
-    size = guide_legend( title = "Number of unique cell types for tissue block")
+    size = guide_legend( title = "Number of unique cell \n types for tissue block")
     )+
    # scale_color_brewer(type="qual",palette=1,direction=-1)+
   scale_color_brewer(palette="Paired")+
@@ -85,8 +122,8 @@ ggplot(data = scatter, aes(
   ggtitle("Total number of cells per tissue block over volume")+
  labs(y = "Total number of cells per tissue block", x = "Volume of tissue block")+
 scatter_theme+ 
-  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+ 
-  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.')) 
+  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
+  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))
 
 # Fig. 1 Sankey diagram
 
