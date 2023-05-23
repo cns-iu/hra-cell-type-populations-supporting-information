@@ -14,14 +14,15 @@ raw=read_sheet("https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk
 cols_renamed = raw %>% 
   rename(
     tissue_block_volume= `tissue_block_volume (if registered) [millimeters^3]`,
-    cta = `cta... (Azimuth, popV, Ctypist)`,
+    # cta = `cta... (Azimuth, popV, Ctypist)`,
     rui_organ = `rui_organ (if registered)`
   )
 cols_renamed
 
 # number of tissue blocks with RUI but without CT info; 643 on March 9, 2023
 cols_renamed %>%
-  select(-cta, -omap_id) %>%
+  # select(-cta, -omap_id) %>%
+  select(-omap_id) %>%
   filter(!is.na(tissue_block_volume), is.na(number_of_cells_total)) %>% 
   group_by(HuBMAP_tissue_block_id)
 
@@ -34,7 +35,7 @@ cols_renamed[vars.to.replace] <- df2
 # format data for scatter graph
 # Hubmap: 128
 scatter_hubmap = cols_renamed%>% 
-  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, cta, omap_id, unique_CT_for_tissue_block) %>% 
+  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, omap_id, unique_CT_for_tissue_block) %>% 
   filter(excluded!="TRUE", source=="HuBMAP") %>% 
   group_by(
     source,
@@ -49,7 +50,7 @@ scatter_hubmap = cols_renamed%>%
 
 # NEED DIFFERENT PROCESS TO GET COUNTS FOR NON-HUBMAP TISSUE BLOCKS, needs to be 25 TOTAL!
 scatter_cxg = cols_renamed%>% 
-  select(source,dataset_id,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, non_hubmap_donor_id, cta, omap_id, unique_CT_for_tissue_block, CxG_dataset_id_donor_id_organ, unique_CT_for_tissue_block) %>% 
+  select(source,dataset_id,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, non_hubmap_donor_id, omap_id, unique_CT_for_tissue_block, CxG_dataset_id_donor_id_organ, unique_CT_for_tissue_block) %>% 
   filter(excluded!="TRUE", source=="CxG") %>% 
   group_by(
     # dataset_id,
@@ -65,7 +66,7 @@ scatter_cxg = cols_renamed%>%
   add_column(source="CxG")
 
 scatter_gtex = cols_renamed%>% 
-  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, cta, dataset_id, omap_id, unique_CT_for_tissue_block) %>% 
+  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, dataset_id, omap_id, unique_CT_for_tissue_block) %>% 
   filter(excluded!="TRUE", source=="GTEx") %>% 
   group_by(
     dataset_id,
@@ -94,6 +95,38 @@ scatter_theme <- theme(
 # Fig. 1 scatter graph
 # We expect to see 2 CxG dots with large unique CT for brain
 
+clr_bg   <- "black"
+clr_bg2  <- "gray10"
+clr_grid <- "gray30"
+clr_text <- "#d600ff"
+
+theme_cyberpunk <- function() {
+  theme(
+    # Plot / Panel
+    plot.background = element_rect(fill = clr_bg, colour = clr_bg),
+    # plot.margin = margin(1.5, 2, 1.5, 1.5, "cm"),
+    panel.background = element_rect(fill = clr_bg, color = clr_bg),
+    # Grid
+    panel.grid = element_line(colour = clr_grid, size = 1),
+    panel.grid.major = element_line(colour = clr_grid, size = 1),
+    panel.grid.minor = element_line(colour = clr_grid, size = 1),
+    axis.ticks.x = element_line(colour = clr_grid, size = 1),
+    axis.line.y = element_line(colour = clr_grid, size = 0.5),
+    axis.line.x = element_line(colour = clr_grid, size = 0.5),
+    # Text
+    plot.title = element_text(colour = clr_text),
+    plot.subtitle = element_text(colour = clr_text),
+    axis.text = element_text(colour = clr_text),
+    axis.title = element_text(colour = clr_text),
+    # Legend
+    legend.background = element_blank(),
+    legend.key = element_blank(),
+    legend.title = element_text(colour = clr_text),
+    legend.text = element_text(colour = "gray80", size = 12, face = "bold"),
+    # Strip
+    strip.background = element_rect(fill = clr_bg2, color = clr_bg2)
+  )
+}
 
 ggplot(data = scatter, aes(
   x = tissue_block_volume, y = total_per_tissue_block, 
@@ -121,9 +154,10 @@ ggplot(data = scatter, aes(
   # scale_fill_fermenter()
   ggtitle("Total number of cells per tissue block over volume")+
  labs(y = "Total number of cells per tissue block", x = "Volume of tissue block")+
-scatter_theme+ 
+scatter_theme+
   scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))
+  # theme_cyberpunk
 
 # Fig. 1 Sankey diagram
 
@@ -221,4 +255,17 @@ ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrat
   scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
   scatter_theme
+
+
+# Bar graph for Unity
+# load data
+cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L.csv")
+cells_raw
+
+ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
+geom_bar(stat = "count")+
+  facet_wrap(~`anatomical structure`)+
+  # scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  theme(axis.text.x = element_text(angle=90))
+
 
