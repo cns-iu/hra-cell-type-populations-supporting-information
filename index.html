@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Computing and visualizing 53.1M cells of 1,183 types in 1,558 anatomical structures of the Human Reference Atlas"
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        hr {
+            border: none;
+            border-top: thin solid;
+            background-color: rgb(66, 66, 66);
+        }
+        
+        th.table-section-header {
+            font-style: italic;
+        }
+        
+        td.left {
+            text-align: left;
+        }
+        
+        td.right {
+            text-align: right;
+        }
+        
+        th.right {
+            text-align: right;
+        }
+        
+        ul.no-bullets {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        h1 {
+            margin-top: 30px;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        model-viewer-div {
+            height: 400px;
+        }
+    </style>
+    <script>
+        showIframe = function(id, url) {
+            var iframe = document.getElementById(id);
+            iframe.src = url;
+            iframe.height = 600;
+            var p = document.getElementById(id + "-message");
+            if (p) {
+                p.classList.remove("hidden")
+            }
+        }
+    </script>
+    <!-- Import the <model-viewer> component -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Companion Website for “Computing and visualizing 53.1M cells of 1,183 types in 1,558 anatomical structures of the Human Reference Atlas”</h1>
+                <p></p>
+                <p>Andreas Bueckle<sup>1*</sup>, Lu Chen<sup>2</sup>, Vicky Daiya<sup>1</sup>, Devin Wright
+                    <sup>1</sup>, Fusheng Wang<sup>2</sup>, Katy Börner<sup>1*</sup></p>
+
+                <ul class="no-bullets">
+                    <li><sup>1</sup> Department of Intelligent Systems Engineering, Luddy School of Informatics, Computing, and Engineering, Indiana University, Bloomington, IN 47408, USA</li>
+                    <li></li><sup>2</sup> Department of Computer Science, Stony Brook University, Stony Brook, 11794, NY, USA
+                    </li>
+                </ul>
+                <p><sup>*</sup> Corresponding authors</p>
+            </div>
+
+
+
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <p> <a target="_blank">Preprint on
+                        bioRxiv (forthcoming)</a></p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h1>Exemplary 3D visualization of cell type populations for 4 anatomical structures in the VH Female, Left Kidney (forthcoming)</h1>
+                <p>This 3D visualization shows 50 unique cell types but only 0.01% of all the cells (3,310 out of 331,010) found in these anatomical structures based on experimental data registered into them (for performance reasons). A 5x5x5 mm tissue block
+                    is shown for scale. Please click and drag your left mouse button to rotate the camera around the kidney; click drag the right mouse button to pan; use the mouse scroll wheel to zoom in and out.
+                    <p><strong>This will be replaced with an interactive Unity web build.</strong></p>
+                </p>
+                <img src="images/unity_preview.jpg">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h1>Bar graphs for cell type populations</h1>
+                <p>Shown here are bar graphs for the cell type populations of the four anatomical structures shown in the kidney aboive (VH female, left) specifically for the cortex and three renal pyramids, based on collision detection results from eight
+                    tissue blocks. Visualized are 331,010 cells of 50 unique types. Note that the y-axis is scaled logarithmically to account for the vast ranges in numbers of cells per cell types.
+
+                </p>
+                <img src="images/as_ct_bar_graphs_log10.png" width="100%">
+            </div>
+        </div>
+        <hr>
+    </div>
+
+</html>
