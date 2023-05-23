@@ -265,7 +265,7 @@ cells_raw
 ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
 geom_bar(stat = "count")+
   facet_wrap(~`anatomical structure`)+
-  # scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
   theme(axis.text.x = element_text(angle=90))
 
 
