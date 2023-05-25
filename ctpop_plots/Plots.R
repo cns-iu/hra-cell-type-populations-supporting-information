@@ -260,12 +260,26 @@ ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrat
 # Bar graph for Unity
 # load data
 cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L.csv")
-cells_raw
+cells_raw$`anatomical structure`
+
+# rename AS
+cells_raw = cells_raw %>% mutate(
+  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_renal_pyramid_L_a', 'Renal Pyramid A'),
+  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_renal_pyramid_L_b', 'Renal Pyramid B'),
+  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_renal_pyramid_L_h', 'Renal Pyramid H'),
+  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_outer_cortex_of_kidney_L', 'Cortex'),
+  )
 
 ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
 geom_bar(stat = "count")+
-  facet_wrap(~`anatomical structure`)+
+  facet_wrap(~`anatomical structure`, ncol=1)+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
-  theme(axis.text.x = element_text(angle=90))
+  theme(axis.text.x = element_text(angle=90, size = 12),
+        axis.text.y = element_text(size = 12),
+        plot.title = element_text(size = 20),
+        axis.title = element_text(size = 15),
+        strip.text = element_text(size=15)
+        )+
+  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for VHF L Kidney", fill="Cell Type")
 
 
