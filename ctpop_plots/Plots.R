@@ -6,6 +6,9 @@ library(ggrepel) # to jitter labels
 library(networkD3) #for Sankey
 library(RColorBrewer) # for plots
 
+# load other scripts
+source("Themes.R")
+
 # load data
 # raw = read_sheet('https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/edit#gid=0', skip=1)
 raw=read_sheet("https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/edit#gid=1529271254", sheet="Training/Prediction",skip=0)
@@ -81,54 +84,15 @@ scatter = bind_rows(scatter_hubmap, scatter_gtex, scatter_cxg)
 
 # scatter[scatter$organ%in%c("Kidney (Left)", "Kidney (Right)"),]$organ = "Kidney"
 # scatter[scatter$organ%in%c("Lung (Left)", "Lung (Right)"),]$organ = "Lung"
+ 
 
-scatter_theme <- theme(
-  plot.title = element_text(family = "Arial", face = "bold", size = (35)),
-  legend.title = element_text(colour = "black", face = "bold.italic", family = "Arial", size=35),
-  legend.text = element_text(face = "italic", colour = "black", family = "Arial", size=25),
-  axis.title = element_text(family = "Arial", size = (35), colour = "black"),
-  axis.text = element_text(family = "Arial", colour = "black", size = (20)),
-  legend.key.size = unit(3,"line"),
-  # panel.background =  element_rect(fill = 'black', color = 'black')
-) 
 
-# Fig. 1 scatter graph
+
+# Fig. 2 scatter graph
 # We expect to see 2 CxG dots with large unique CT for brain
 
-clr_bg   <- "black"
-clr_bg2  <- "gray10"
-clr_grid <- "gray30"
-clr_text <- "#d600ff"
 
-theme_cyberpunk <- function() {
-  theme(
-    # Plot / Panel
-    plot.background = element_rect(fill = clr_bg, colour = clr_bg),
-    # plot.margin = margin(1.5, 2, 1.5, 1.5, "cm"),
-    panel.background = element_rect(fill = clr_bg, color = clr_bg),
-    # Grid
-    panel.grid = element_line(colour = clr_grid, size = 1),
-    panel.grid.major = element_line(colour = clr_grid, size = 1),
-    panel.grid.minor = element_line(colour = clr_grid, size = 1),
-    axis.ticks.x = element_line(colour = clr_grid, size = 1),
-    axis.line.y = element_line(colour = clr_grid, size = 0.5),
-    axis.line.x = element_line(colour = clr_grid, size = 0.5),
-    # Text
-    plot.title = element_text(colour = clr_text),
-    plot.subtitle = element_text(colour = clr_text),
-    axis.text = element_text(colour = clr_text),
-    axis.title = element_text(colour = clr_text),
-    # Legend
-    legend.background = element_blank(),
-    legend.key = element_blank(),
-    legend.title = element_text(colour = clr_text),
-    legend.text = element_text(colour = "gray80", size = 12, face = "bold"),
-    # Strip
-    strip.background = element_rect(fill = clr_bg2, color = clr_bg2)
-  )
-}
-
-ggplot(data = scatter, aes(
+g <- ggplot(data = scatter, aes(
   x = tissue_block_volume, y = total_per_tissue_block, 
   color=organ, 
   # shape=source,
@@ -140,14 +104,14 @@ ggplot(data = scatter, aes(
   facet_wrap(~source)+
   # facet_grid(vars(source), vars(organ))+
   geom_text_repel(aes(x = tissue_block_volume, y = total_per_tissue_block, label=unique_CT_for_tissue_block),
-                  size=5,
+                  size=9,
                   color="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
   guides(
     color = guide_legend( title = "Organ", override.aes = list(size = 10)),
     shape= guide_legend( title = "Source", override.aes = list(size = 10)),
-    size = guide_legend( title = "Number of unique cell \n types for tissue block")
+    size = guide_legend( title = "Number of \nunique cell \ntypes per \ntissue block")
     )+
    # scale_color_brewer(type="qual",palette=1,direction=-1)+
   scale_color_brewer(palette="Paired")+
@@ -157,9 +121,11 @@ ggplot(data = scatter, aes(
 scatter_theme+
   scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))
-  # theme_cyberpunk
+  # theme_cyberpunktheme
 
-# Fig. 1 Sankey diagram
+g + scatter_theme
+
+# Fig. 2 Sankey diagram
 
 # reformat data we we get source|donor_sex|organ
 # need two tibbles: 
@@ -167,7 +133,8 @@ scatter_theme+
 # LINKS with Source, Target, Value
 
 subset_sankey = cols_renamed %>% 
-  select(source, donor_sex, organ) %>% 
+  select(source, donor_sex, organ, excluded) %>% 
+  filter(excluded==FALSE) %>%
   replace_na(list(donor_sex = "unknown")) 
 
 s = subset_sankey %>% 
@@ -235,26 +202,30 @@ names(nodes)[1] = "name"
 # draw Sankey diagram
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name",
-                   units = "occurrences", fontSize = 15, nodeWidth = 30)
+                   units = "occurrences", fontSize = 20, nodeWidth = 40)
 
 p
 
 
-# Fig. 2a
+# Fig. 3a
 
 plot_raw=read_sheet("https://docs.google.com/spreadsheets/d/19ZxHSkX5P_2ngredl0bcncaD0uukBRX3LxlWSC3hysE/edit#gid=0", sheet="Fig2a",skip=0)
 
-ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrations, size=20))+
+s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrations))+
   geom_point()+
   scatter_theme+
-  geom_text_repel(aes(x=number_of_anatomical_structures_as, y=number_of_registrations, label=Organ),
+  geom_text_repel(aes(x=number_of_anatomical_structures_as, y=number_of_registrations, label=Name),
                   size=5,
                   color="black",
                   alpha=.5,
-                  max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
-  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
-  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
-  scatter_theme
+                  max.overlaps = getOption("ggrepel.max.overlaps", default = 15),) +
+  labs(y = "Total number of tissue block registrations", x = "Total number of anatomical structures in 3D model")+
+  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$number_of_anatomical_structures_as)+5, by = 10))+
+  scale_y_continuous(breaks = seq(0, max(plot_raw$number_of_registrations) + 5, by = 5))
+
+
+
+s + scatter_theme
 
 
 # Bar graph for Unity
@@ -274,12 +245,7 @@ ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
 geom_bar(stat = "count")+
   facet_wrap(~`anatomical structure`, ncol=1)+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
-  theme(axis.text.x = element_text(angle=90, size = 12),
-        axis.text.y = element_text(size = 12),
-        plot.title = element_text(size = 20),
-        axis.title = element_text(size = 15),
-        strip.text = element_text(size=15)
-        )+
-  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for VHF L Kidney", fill="Cell Type")
+  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for VHF L Kidney", fill="Cell Type")+
+  bar_graph_theme
 
 
