@@ -241,11 +241,11 @@ cells_raw = cells_raw %>% mutate(
   `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_outer_cortex_of_kidney_L', 'Cortex'),
   )
 
-ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
+s = ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
 geom_bar(stat = "count")+
   facet_wrap(~`anatomical structure`, ncol=1)+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
-  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for VHF L Kidney", fill="Cell Type")+
-  bar_graph_theme
+  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for VHF L Kidney", fill="Cell Type")
 
+s + bar_graph_theme
 

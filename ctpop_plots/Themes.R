@@ -15,6 +15,7 @@ bar_graph_theme <-  scatter_theme +
   theme(
                         legend.text = element_text(face = "italic", colour = "black", family = "Arial", size=10),
                         legend.key.size = unit(1,"line"),
+                        axis.text.x = element_text(hjust=1,vjust=0.2)
 )
 
 
