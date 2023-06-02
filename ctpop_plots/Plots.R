@@ -1,96 +1,18 @@
-#Load the required libraries
-library(googlesheets4)
-library("tidyverse")
+# load required libraries
+library(tidyverse)
 library(scales) #for scatter graph
 library(ggrepel) # to jitter labels
 library(networkD3) #for Sankey
 library(RColorBrewer) # for plots
+library(ggcorrplot) # for tissue block similarity matrix
+library(lsa) # for tissue block similarity matrix
 
 # load other scripts
+source("DataPreparation.R")
 source("Themes.R")
 
-# load data
-# raw = read_sheet('https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/edit#gid=0', skip=1)
-raw=read_sheet("https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/edit#gid=1529271254", sheet="Training/Prediction",skip=0)
-
-# rename columns
-cols_renamed = raw %>% 
-  rename(
-    tissue_block_volume= `tissue_block_volume (if registered) [millimeters^3]`,
-    # cta = `cta... (Azimuth, popV, Ctypist)`,
-    rui_organ = `rui_organ (if registered)`
-  )
-cols_renamed
-
-# number of tissue blocks with RUI but without CT info; 643 on March 9, 2023
-cols_renamed %>%
-  # select(-cta, -omap_id) %>%
-  select(-omap_id) %>%
-  filter(!is.na(tissue_block_volume), is.na(number_of_cells_total)) %>% 
-  group_by(HuBMAP_tissue_block_id)
-
-# replace NA in excluded col with FALSE
-vars.to.replace <- c("excluded")
-df2 <- cols_renamed[vars.to.replace]
-df2[is.na(df2)] <- FALSE
-cols_renamed[vars.to.replace] <- df2
-
-# format data for scatter graph
-# Hubmap: 128
-scatter_hubmap = cols_renamed%>% 
-  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, omap_id, unique_CT_for_tissue_block) %>% 
-  filter(excluded!="TRUE", source=="HuBMAP") %>% 
-  group_by(
-    source,
-    HuBMAP_tissue_block_id, 
-    sample_id,
-    tissue_block_volume, 
-    unique_CT_for_tissue_block,
-    paper_id,
-    organ
-    ) %>% 
-  summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total))))
-
-# NEED DIFFERENT PROCESS TO GET COUNTS FOR NON-HUBMAP TISSUE BLOCKS, needs to be 25 TOTAL!
-scatter_cxg = cols_renamed%>% 
-  select(source,dataset_id,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, non_hubmap_donor_id, omap_id, unique_CT_for_tissue_block, CxG_dataset_id_donor_id_organ, unique_CT_for_tissue_block) %>% 
-  filter(excluded!="TRUE", source=="CxG") %>% 
-  group_by(
-    # dataset_id,
-    # non_hubmap_donor_id,
-    # organ,
-    CxG_dataset_id_donor_id_organ,
-    unique_CT_for_tissue_block,
-    tissue_block_volume,
-    organ
-  ) %>% 
-  # unique()
-  summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total)))) %>% 
-  add_column(source="CxG")
-
-scatter_gtex = cols_renamed%>% 
-  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, dataset_id, omap_id, unique_CT_for_tissue_block) %>% 
-  filter(excluded!="TRUE", source=="GTEx") %>% 
-  group_by(
-    dataset_id,
-    unique_CT_for_tissue_block,
-    tissue_block_volume,
-    organ
-  ) %>% 
-  summarise(total_per_tissue_block = sum(as.double(unlist(number_of_cells_total))))%>% 
-  add_column(source="GTEx")
-
-scatter = bind_rows(scatter_hubmap, scatter_gtex, scatter_cxg)
-
-# scatter[scatter$organ%in%c("Kidney (Left)", "Kidney (Right)"),]$organ = "Kidney"
-# scatter[scatter$organ%in%c("Lung (Left)", "Lung (Right)"),]$organ = "Lung"
- 
-
-
-
-# Fig. 2 scatter graph
+# Fig. 2 b scatter graph
 # We expect to see 2 CxG dots with large unique CT for brain
-
 
 g <- ggplot(data = scatter, aes(
   x = tissue_block_volume, y = total_per_tissue_block, 
@@ -125,7 +47,7 @@ scatter_theme+
 
 g + scatter_theme
 
-# Fig. 2 Sankey diagram
+# Fig. 2a Sankey diagram
 
 # reformat data we we get source|donor_sex|organ
 # need two tibbles: 
@@ -199,39 +121,96 @@ prep_links = prep_links[,c(4,5,3)]
 names(prep_links)[1:2] = c("source", "target")
 names(nodes)[1] = "name"
 
+# Give a color for each group for brewer.pal(n=10,"Paired") and brewer.pal(n=3,"Dark2")
+my_color <- 'd3.scaleOrdinal() .domain([
+
+"Brain",
+"Breast", 
+"Heart", 
+"Kidney", 
+"Lung", 
+"Prostate", 
+"Skin", 
+"CxG",
+"HuBMAP",
+"GTEx",
+"Male",
+"Female",
+"unknown"
+
+]) 
+
+.range([
+"#A6CEE3", 
+"#1F78B4", 
+"#B2DF8A", 
+"#33A02C", 
+"#FB9A99",
+"#E31A1C",
+"#FDBF6F",
+"#FF7F00",
+"#CAB2D6",
+"#6A3D9A",
+"#1B9E77",
+"#D95F02",
+"#7570B3"
+
+])'
+
 # draw Sankey diagram
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
-                   Target = "target", Value = "value", NodeID = "name",
+                   Target = "target", Value = "value", NodeID = "name", colourScale = my_color,
                    units = "occurrences", fontSize = 20, nodeWidth = 40)
 
 p
 
 
-# Fig. 3a
+# Fig. 3a (scatter graph block volume)
 
 plot_raw=read_sheet("https://docs.google.com/spreadsheets/d/19ZxHSkX5P_2ngredl0bcncaD0uukBRX3LxlWSC3hysE/edit#gid=0", sheet="Fig2a",skip=0)
 
-s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrations))+
+s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrations, size=20, colour=Sex))+
   geom_point()+
   scatter_theme+
   geom_text_repel(aes(x=number_of_anatomical_structures_as, y=number_of_registrations, label=Name),
-                  size=5,
+                  size=4,
                   color="black",
                   alpha=.5,
-                  max.overlaps = getOption("ggrepel.max.overlaps", default = 15),) +
-  labs(y = "Total number of tissue block registrations", x = "Total number of anatomical structures in 3D model")+
-  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$number_of_anatomical_structures_as)+5, by = 10))+
-  scale_y_continuous(breaks = seq(0, max(plot_raw$number_of_registrations) + 5, by = 5))
-
-
+                  max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
+  labs(y = "Total number of tissue block registrations for the organ", x = "Total number of anatomical structures in 3D model")+
+  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$number_of_anatomical_structures_as)+5, by = 20))+
+  scale_y_continuous(breaks = seq(0, max(plot_raw$number_of_registrations) + 5, by = 5))+
+  scale_colour_brewer(type = "qual", palette = "Dark2")+
+  guides(size="none", colour = guide_legend(override.aes = list(size=7)))+
+  theme(legend.position = "bottom")
+  coord_flip()
+  
 
 s + scatter_theme
 
+# Fig 3. b (similarity matrix)
+corr <- round(cor(mtcars), 1)
+ggcorrplot(corr, method = "circle")
+p.mat <- cor_pmat(mtcars)
+p.mat
 
-# Bar graph for Unity
+ggcorrplot(corr,
+           p.mat = p.mat, hc.order = TRUE,
+           type = "lower", insig = "blank"
+)
+
+#define vectors
+a <- c(23, 34, 44, 45, 42, 27, 33, 34)
+b <- c(17, 18, 22, 26, 26, 29, 31, 30)
+
+#calculate cosine similarity
+cosine(a, b)
+
+
+
+# Fig. 4a bar graph for CTPop (AS) 
 # load data
 cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L.csv")
-cells_raw$`anatomical structure`
 
 # rename AS
 cells_raw = cells_raw %>% mutate(
@@ -245,7 +224,26 @@ s = ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
 geom_bar(stat = "count")+
   facet_wrap(~`anatomical structure`, ncol=1)+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
-  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for VHF L Kidney", fill="Cell Type")
+  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left Kidney", fill="Cell Type")
 
 s + bar_graph_theme
+
+# frequency per cell type
+keep = cells_raw %>% group_by(cell_type, `anatomical structure`) %>% tally()
+keep = keep[order(keep$n, decreasing = TRUE),] %>% head(10)
+keep
+
+# cc <- with_frequency %>% count (cell_frequency) %>% filter (n<30) 
+# cc
+
+f = ggplot(keep, aes(x = cell_type, y=n, fill=cell_type))+
+  geom_bar(stat = "identity")+
+  scale_fill_brewer(type="qual", palette = "Paired")+
+  # facet_wrap(~`anatomical structure`)+
+  labs(x = "Cell Type", y = "Cell Count", title = "Top 10 cell types in cortex of female, left kidney", fill="Cell Type")
+
+f+ bar_graph_theme+
+  theme(axis.text.x = element_text(size=15), legend.text = element_text(size=15))
+
+
 
