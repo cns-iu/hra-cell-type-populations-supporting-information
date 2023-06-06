@@ -13,7 +13,7 @@ source("Themes.R")
 
 # Fig. 2 b scatter graph
 
-g <- ggplot(data = scatter, aes(
+p <- ggplot(data = scatter, aes(
   x = tissue_block_volume, y = total_per_tissue_block, 
   color=organ, 
   # shape=source,
@@ -26,7 +26,7 @@ g <- ggplot(data = scatter, aes(
   # facet_grid(vars(source), vars(organ))+
   geom_text_repel(aes(x = tissue_block_volume, y = total_per_tissue_block, label=unique_CT_for_tissue_block),
                   size=9,
-                  outline="black",
+                  color="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
   guides(
@@ -44,7 +44,7 @@ scatter_theme+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))
   # theme_cyberpunktheme
 
-g + scatter_theme
+p + scatter_theme
 
 # Fig. 2a Sankey diagram
 
@@ -168,12 +168,12 @@ p
 
 plot_raw=read_sheet("https://docs.google.com/spreadsheets/d/19ZxHSkX5P_2ngredl0bcncaD0uukBRX3LxlWSC3hysE/edit#gid=0", sheet="Fig2a",skip=0)
 
-s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrations, size=20, colour=Sex))+
+p = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrations, size=20, colour=Sex))+
   geom_point()+
   scatter_theme+
   geom_text_repel(aes(x=number_of_anatomical_structures_as, y=number_of_registrations, label=Name),
                   size=4,
-                  outline="black",
+                  color="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
   labs(y = "Total number of tissue block registrations for the organ", x = "Total number of anatomical structures in 3D model")+
@@ -185,9 +185,9 @@ s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_regis
   coord_flip()
   
 
-s + scatter_theme
+p + scatter_theme
 
-# Fig 3. b (similarity matrix)
+# Fig 3. b (similarity matrix), see also Python code
 corr <- round(cor(mtcars), 1)
 ggcorrplot(corr, method = "circle")
 p.mat <- cor_pmat(mtcars)
@@ -212,45 +212,74 @@ cosine(a, b)
 cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L_0603.csv")
 
 # rename AS
-cells_raw = cells_raw %>% mutate(
-  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_renal_pyramid_L_a', 'Renal Pyramid A'),
-  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_renal_pyramid_L_b', 'Renal Pyramid B'),
-  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_renal_pyramid_L_h', 'Renal Pyramid H'),
-  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_outer_cortex_of_kidney_L', 'Cortex'),
+cells_raw = cells_raw %>%rename(anatomical_structure =  `anatomical structure`) %>%  mutate(
+  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_renal_pyramid_L_a', 'Renal Pyramid A'),
+  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_renal_pyramid_L_b', 'Renal Pyramid B'),
+  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_renal_pyramid_L_h', 'Renal Pyramid H'),
+  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_outer_cortex_of_kidney_L', 'Cortex'),
   )
 
-s = ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
+p = ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
 geom_bar(stat = "count")+
-  facet_wrap(~`anatomical structure`, ncol=1)+
+  facet_wrap(~anatomical_structure, ncol=1)+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
   # scale_fill_brewer(palette = "Spectral")+
   scale_fill_viridis_d(option = "turbo")+
   labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left Kidney", fill="Cell Type")
 
-s + bar_graph_theme
+p + bar_graph_theme
 
-# get colors assigned by scale_fill_viridis_d
-colors = viridis_pal(option = "turbo")(length(unique(cells_raw$cell_type)))
-cells = cells_raw %>% group_by(cell_type) %>% tally()
-mapping = cells %>% mutate(colors = colors)
+all = cells_raw%>% group_by(cell_type, anatomical_structure) %>% tally() %>% mutate(outline="black") 
+only_top = all %>% arrange(desc(n)) %>% head(10)%>% mutate(outline="red")
+
+all
+only_top
+
+plot = all %>% left_join(only_top, by=c("cell_type", "anatomical_structure"))
+plot
+
+p = ggplot(plot, aes(x = cell_type, y=n.x, fill=cell_type, color=outline.y))+
+  geom_bar(stat = "identity", linewidth=1.5)+
+  facet_wrap(~anatomical_structure, ncol=1)+
+  scale_color_identity()+
+  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  # scale_fill_brewer(palette = "Spectral")+
+  scale_fill_viridis_d(option = "turbo")+
+  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left Kidney", fill="Cell Type")
+
+p+
+  bar_graph_theme
+
+
+# get and export color mapping  by scale_fill_viridis_d for use outside of R
+# unique_groups = plot %>% group_by(cell_type, anatomical_structure)
+cell_type_groups = plot %>% group_by(cell_type)
+n_colors = cell_type_groups$cell_type %>% unique()
+colors = viridis_pal(option = "turbo")(length(n_colors))
+cells = cells_raw %>% group_by(cell_type, anatomical_structure) %>% tally()
+cells
+
+mapping = cells %>% mutate(colors = "yellow")
+ n_groups(unique_cells)
 mapping
 mapping %>% write_csv("color_mapping.csv")
 mapping %>% view()
 
-# frequency per top 10 most frequent cell type
+# var graph showing frequency per top 10 most frequent cell type (all in cortex)
 # top_10 = cells_raw %>% group_by(cell_type, `anatomical structure`) %>% tally()
 top_10 = cells_raw %>% group_by(cell_type) %>% tally()
 top_10 = top_10[order(top_10$n, decreasing = TRUE),] %>% head(10) %>% arrange(cell_type) %>% mutate(outline="red")
 top_10
 
-top_10_with_colors = top_10 %>% left_join(mapping, by="cell_type")
+top_10_with_colors = top_10 %>% left_join(mapping, by=c("cell_type"))
 top_10_with_colors
+
 
 # cc <- with_frequency %>% count (cell_frequency) %>% filter (n<30) 
 # cc
 
-f = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors))+
-  geom_bar(stat = "identity", linewidth=3)+
+f = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors, color=outline))+
+  geom_bar(stat = "identity", linewidth=2)+
   scale_fill_identity()+
   scale_color_identity()+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+

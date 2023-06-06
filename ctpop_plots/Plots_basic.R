@@ -26,7 +26,7 @@ g <- ggplot(data = scatter, aes(
   # facet_grid(vars(source), vars(organ))+
   geom_text_repel(aes(x = tissue_block_volume, y = total_per_tissue_block, label=unique_CT_for_tissue_block),
                   size=9,
-                  outline="black",
+                  color="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
   guides(
@@ -173,7 +173,7 @@ s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_regis
   scatter_theme+
   geom_text_repel(aes(x=number_of_anatomical_structures_as, y=number_of_registrations, label=Name),
                   size=4,
-                  outline="black",
+                  color="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
   labs(y = "Total number of tissue block registrations for the organ", x = "Total number of anatomical structures in 3D model")+
@@ -182,7 +182,6 @@ s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_regis
   scale_colour_brewer(type = "qual", palette = "Dark2")+
   guides(size="none", colour = guide_legend(override.aes = list(size=7)))+
   theme(legend.position = "bottom")
-  coord_flip()
   
 
 s + scatter_theme
@@ -235,7 +234,6 @@ cells = cells_raw %>% group_by(cell_type) %>% tally()
 mapping = cells %>% mutate(colors = colors)
 mapping
 mapping %>% write_csv("color_mapping.csv")
-mapping %>% view()
 
 # frequency per top 10 most frequent cell type
 # top_10 = cells_raw %>% group_by(cell_type, `anatomical structure`) %>% tally()
@@ -249,7 +247,7 @@ top_10_with_colors
 # cc <- with_frequency %>% count (cell_frequency) %>% filter (n<30) 
 # cc
 
-f = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors, color=outline))+
+f = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors))+
   geom_bar(stat = "identity", linewidth=3)+
   scale_fill_identity()+
   scale_color_identity()+
