@@ -1,39 +1,39 @@
-cell_type,n,colors
-Afferent / Efferent Arteriole Endothelial,251,#30123BFF
-Ascending Thin Limb,7069,#38276CFF
-Ascending Vasa Recta Endothelial,464,#3F3A96FF
-B,83,#434DB8FF
-Connecting Tubule,101089,#4660D5FF
-Connecting Tubule Principal,94,#4772EAFF
-Cortical Collecting Duct Intercalated Type A,4975,#4683F9FF
-Cortical Collecting Duct Principal,2637,#4295FFFF
-Cortical Thick Ascending Limb,8570,#38A5FBFF
-Cortical Vascular Smooth Muscle / Pericyte,1247,#2CB7F0FF
-Descending Thin Limb Type 1,9123,#20C7DFFF
-Descending Thin Limb Type 2,13741,#19D5CEFF
-Descending Thin Limb Type 3,125,#19E1BBFF
-Descending Vasa Recta Endothelial,209,#21EBABFF
-Distal Convoluted Tubule Type 1,31322,#33F296FF
-Fibroblast,612,#4CF87FFF
-Glomerular Capillary Endothelial,997,#66FD68FF
-Inner Medullary Collecting Duct,130497,#81FF53FF
-Intercalated Type B,413,#99FE42FF
-Lymphatic Endothelial,496,#ACFB38FF
-M2 Macrophage,2998,#BEF434FF
-Macula Densa,1294,#CFEB34FF
-Medullary Fibroblast,656,#DEDF37FF
-Medullary Thick Ascending Limb,34010,#EBD23AFF
-Mesangial,165,#F5C43AFF
-Monocyte-derived,5,#FBB537FF
-Natural Killer T,744,#FEA331FF
-Non-classical monocyte,82,#FE9029FF
-Outer Medullary Collecting Duct Intercalated Type A,12915,#FA7B1FFF
-Outer Medullary Collecting Duct Principal,172,#F46617FF
-Papillary Tip Epithelial,910,#EC540FFF
-Parietal Epithelial,668,#E3440AFF
-Peritubular Capilary Endothelial,13805,#D73606FF
-Podocyte,4383,#C92904FF
-Proximal Tubule Epithelial Segment 1,22164,#B81E02FF
-Proximal Tubule Epithelial Segment 3,10916,#A61401FF
-T,1406,#920B01FF
-Vascular Smooth Muscle / Pericyte,1178,#7A0403FF
+color_array,cell_type
+#30123BFF,Afferent / Efferent Arteriole Endothelial
+#38276CFF,Ascending Thin Limb
+#3F3A96FF,Ascending Vasa Recta Endothelial
+#434DB8FF,B
+#4660D5FF,Connecting Tubule
+#4772EAFF,Connecting Tubule Principal
+#4683F9FF,Cortical Collecting Duct Intercalated Type A
+#4295FFFF,Cortical Collecting Duct Principal
+#38A5FBFF,Cortical Thick Ascending Limb
+#2CB7F0FF,Cortical Vascular Smooth Muscle / Pericyte
+#20C7DFFF,Descending Thin Limb Type 1
+#19D5CEFF,Descending Thin Limb Type 2
+#19E1BBFF,Descending Thin Limb Type 3
+#21EBABFF,Descending Vasa Recta Endothelial
+#33F296FF,Distal Convoluted Tubule Type 1
+#4CF87FFF,Fibroblast
+#66FD68FF,Glomerular Capillary Endothelial
+#81FF53FF,Inner Medullary Collecting Duct
+#99FE42FF,Intercalated Type B
+#ACFB38FF,Lymphatic Endothelial
+#BEF434FF,M2 Macrophage
+#CFEB34FF,Macula Densa
+#DEDF37FF,Medullary Fibroblast
+#EBD23AFF,Medullary Thick Ascending Limb
+#F5C43AFF,Mesangial
+#FBB537FF,Monocyte-derived
+#FEA331FF,Natural Killer T
+#FE9029FF,Non-classical monocyte
+#FA7B1FFF,Outer Medullary Collecting Duct Intercalated Type A
+#F46617FF,Outer Medullary Collecting Duct Principal
+#EC540FFF,Papillary Tip Epithelial
+#E3440AFF,Parietal Epithelial
+#D73606FF,Peritubular Capilary Endothelial
+#C92904FF,Podocyte
+#B81E02FF,Proximal Tubule Epithelial Segment 1
+#A61401FF,Proximal Tubule Epithelial Segment 3
+#920B01FF,T
+#7A0403FF,Vascular Smooth Muscle / Pericyte

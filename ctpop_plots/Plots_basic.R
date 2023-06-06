@@ -168,7 +168,7 @@ p
 
 plot_raw=read_sheet("https://docs.google.com/spreadsheets/d/19ZxHSkX5P_2ngredl0bcncaD0uukBRX3LxlWSC3hysE/edit#gid=0", sheet="Fig2a",skip=0)
 
-s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrations, size=20, colour=Sex))+
+p = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrations, size=20, colour=Sex))+
   geom_point()+
   scatter_theme+
   geom_text_repel(aes(x=number_of_anatomical_structures_as, y=number_of_registrations, label=Name),
@@ -184,7 +184,7 @@ s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_regis
   theme(legend.position = "bottom")
   
 
-s + scatter_theme
+p + scatter_theme
 
 # Fig 3. b (similarity matrix)
 corr <- round(cor(mtcars), 1)
@@ -211,22 +211,22 @@ cosine(a, b)
 cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L_0603.csv")
 
 # rename AS
-cells_raw = cells_raw %>% mutate(
-  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_renal_pyramid_L_a', 'Renal Pyramid A'),
-  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_renal_pyramid_L_b', 'Renal Pyramid B'),
-  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_renal_pyramid_L_h', 'Renal Pyramid H'),
-  `anatomical structure`  = str_replace(`anatomical structure` , 'VH_F_outer_cortex_of_kidney_L', 'Cortex'),
-  )
+cells_raw = cells_raw %>%rename(anatomical_structure =  `anatomical structure`) %>%  mutate(
+  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_renal_pyramid_L_a', 'Renal Pyramid A'),
+  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_renal_pyramid_L_b', 'Renal Pyramid B'),
+  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_renal_pyramid_L_h', 'Renal Pyramid H'),
+  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_outer_cortex_of_kidney_L', 'Cortex'),
+)
 
-s = ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
+p = ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
 geom_bar(stat = "count")+
-  facet_wrap(~`anatomical structure`, ncol=1)+
+  facet_wrap(~anatomical_structure, ncol=1)+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
   # scale_fill_brewer(palette = "Spectral")+
   scale_fill_viridis_d(option = "turbo")+
   labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left Kidney", fill="Cell Type")
 
-s + bar_graph_theme
+p + bar_graph_theme
 
 # get colors assigned by scale_fill_viridis_d
 colors = viridis_pal(option = "turbo")(length(unique(cells_raw$cell_type)))
@@ -247,7 +247,7 @@ top_10_with_colors
 # cc <- with_frequency %>% count (cell_frequency) %>% filter (n<30) 
 # cc
 
-f = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors))+
+p = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors))+
   geom_bar(stat = "identity", linewidth=3)+
   scale_fill_identity()+
   scale_color_identity()+
@@ -255,7 +255,7 @@ f = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors))+
   # scale_fill_brewer(type="qual", palette = "Paired")+
   labs(x = "Cell Type", y = "Cell Count", title = "Top 10 cell types in cortex of female, left kidney", fill="Cell Type")
 
-f+ bar_graph_theme+
+p+ bar_graph_theme+
   theme(axis.text.x = element_text(size=15), legend.text = element_text(size=15))
 
 
