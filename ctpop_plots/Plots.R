@@ -12,7 +12,6 @@ source("DataPreparation.R")
 source("Themes.R")
 
 # Fig. 2 b scatter graph
-# We expect to see 2 CxG dots with large unique CT for brain
 
 g <- ggplot(data = scatter, aes(
   x = tissue_block_volume, y = total_per_tissue_block, 
@@ -27,7 +26,7 @@ g <- ggplot(data = scatter, aes(
   # facet_grid(vars(source), vars(organ))+
   geom_text_repel(aes(x = tissue_block_volume, y = total_per_tissue_block, label=unique_CT_for_tissue_block),
                   size=9,
-                  color="black",
+                  outline="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
   guides(
@@ -174,7 +173,7 @@ s = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_regis
   scatter_theme+
   geom_text_repel(aes(x=number_of_anatomical_structures_as, y=number_of_registrations, label=Name),
                   size=4,
-                  color="black",
+                  outline="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
   labs(y = "Total number of tissue block registrations for the organ", x = "Total number of anatomical structures in 3D model")+
@@ -210,7 +209,7 @@ cosine(a, b)
 
 # Fig. 4a bar graph for CTPop (AS) 
 # load data
-cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L.csv")
+cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L_0603.csv")
 
 # rename AS
 cells_raw = cells_raw %>% mutate(
@@ -224,26 +223,44 @@ s = ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
 geom_bar(stat = "count")+
   facet_wrap(~`anatomical structure`, ncol=1)+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  # scale_fill_brewer(palette = "Spectral")+
+  scale_fill_viridis_d(option = "turbo")+
   labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left Kidney", fill="Cell Type")
 
 s + bar_graph_theme
 
-# frequency per cell type
-keep = cells_raw %>% group_by(cell_type, `anatomical structure`) %>% tally()
-keep = keep[order(keep$n, decreasing = TRUE),] %>% head(10)
-keep
+# get colors assigned by scale_fill_viridis_d
+colors = viridis_pal(option = "turbo")(length(unique(cells_raw$cell_type)))
+cells = cells_raw %>% group_by(cell_type) %>% tally()
+mapping = cells %>% mutate(colors = colors)
+mapping
+mapping %>% write_csv("color_mapping.csv")
+mapping %>% view()
+
+# frequency per top 10 most frequent cell type
+# top_10 = cells_raw %>% group_by(cell_type, `anatomical structure`) %>% tally()
+top_10 = cells_raw %>% group_by(cell_type) %>% tally()
+top_10 = top_10[order(top_10$n, decreasing = TRUE),] %>% head(10) %>% arrange(cell_type) %>% mutate(outline="red")
+top_10
+
+top_10_with_colors = top_10 %>% left_join(mapping, by="cell_type")
+top_10_with_colors
 
 # cc <- with_frequency %>% count (cell_frequency) %>% filter (n<30) 
 # cc
 
-f = ggplot(keep, aes(x = cell_type, y=n, fill=cell_type))+
-  geom_bar(stat = "identity")+
-  scale_fill_brewer(type="qual", palette = "Paired")+
-  # facet_wrap(~`anatomical structure`)+
+f = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors, color=outline))+
+  geom_bar(stat = "identity", linewidth=3)+
+  scale_fill_identity()+
+  scale_color_identity()+
+  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  # scale_fill_brewer(type="qual", palette = "Paired")+
   labs(x = "Cell Type", y = "Cell Count", title = "Top 10 cell types in cortex of female, left kidney", fill="Cell Type")
 
 f+ bar_graph_theme+
   theme(axis.text.x = element_text(size=15), legend.text = element_text(size=15))
+
+
 
 
 
