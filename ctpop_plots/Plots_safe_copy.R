@@ -249,7 +249,7 @@ top_10_with_colors
 # cc <- with_frequency %>% count (cell_frequency) %>% filter (n<30) 
 # cc
 
-f = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors, color=outline))+
+f = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors))+
   geom_bar(stat = "identity", linewidth=3)+
   scale_fill_identity()+
   scale_color_identity()+
