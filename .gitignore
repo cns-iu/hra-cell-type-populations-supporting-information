@@ -55,3 +55,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Node.js excludes
+node_modules/
+
+# scratch directories
+scratch/
