@@ -752,18 +752,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM892.HQDK.764",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 6 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/cc5da33c5239011f75c06918dad38914",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/fc5560162deab57641085cdf8bcdfe87",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM578.SRZG.769",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 6 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/cc5da33c5239011f75c06918dad38914",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/06ff98c01295ca5ea504a676f73f9a09",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -829,18 +829,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM679.ZVHH.999",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 10 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/539d08c341db65d371ae0687bb314bb3",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/323c68262eb07f786041b6253e9e83ca",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM432.BPZM.698",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 10 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/539d08c341db65d371ae0687bb314bb3",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/cd887a6beabc794992876ad7ee591f69",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -900,20 +900,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM349.BJZL.272",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/c4200fa2bd88eca844b722075153da94",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/e35c788dcdcb18c64ad300097b0b863c",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM393.CCBZ.572",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/c4200fa2bd88eca844b722075153da94",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ba35e752b5c6b18f75753e76774dda65",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -968,20 +968,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM729.RCXL.887",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b114506555e5aeb25ee9defd6b79ff08",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/13/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/2dc005024c64b82e95e6e69d56407c0e",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM469.MJBC.894",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b114506555e5aeb25ee9defd6b79ff08",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/5a7c5763aebc834b79aefd375bef42df",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -1036,54 +1036,54 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM799.ZJDP.379",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 3 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/681f7f1d0a87427cf182f231a01ca6f0",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/23/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/503f9caeffb9ee1e1324793c977d2342",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM375.WFJK.667",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 3 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/681f7f1d0a87427cf182f231a01ca6f0",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/34dc58df212563c90d9d86782f4209ba",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM244.FRPJ.636",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 3 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/681f7f1d0a87427cf182f231a01ca6f0",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/6b19b8025b7928aa2eb3c43c00955b93",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM734.NTJP.672",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 3 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/681f7f1d0a87427cf182f231a01ca6f0",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/9186e3ea01394e87058709a57c16189d",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM834.MLPZ.788",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 3 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/681f7f1d0a87427cf182f231a01ca6f0",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/7059a2640939695ca30fd80370465507",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM985.TJZD.778",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 3 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/681f7f1d0a87427cf182f231a01ca6f0",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/17be751d961c5baf6c1dbe2e70c5d93c",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -1464,38 +1464,38 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM987.ZCTQ.736",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "4 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2c523a98b87af1d9c7c7499b3817822f",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/13/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/6c8b810d8727dfc1dba7774a26d885a5",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM793.QCGM.999",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "4 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2c523a98b87af1d9c7c7499b3817822f",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/813af4ad3207830e0e7b2559413028bf",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM426.HLCN.236",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "4 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2c523a98b87af1d9c7c7499b3817822f",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/639de42ac2f34ff8a03940b7161f1ead",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM734.DSQM.939",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "4 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2c523a98b87af1d9c7c7499b3817822f",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/8b3db0f2c19af6ab7f5a9b3afbec9c23",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -1643,18 +1643,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM932.TBDW.952",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 13 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/a5a5a3bff1df2a6c378d85316161bd5b",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/23/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/2fddd5c64171027565fa163280b1652a",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM839.TQNM.958",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 13 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/a5a5a3bff1df2a6c378d85316161bd5b",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/46e8ffd2350efd19f771c6fb6a51f6cc",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -1711,20 +1711,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM297.TTGF.282",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/744f20be06ec72b749601754fb881955",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/dd9c7ba448d249b4d8d99e444c592c54",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM689.QPMR.542",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/744f20be06ec72b749601754fb881955",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ccab7ac016bef55c42e1a99d28a95546",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -1783,11 +1783,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM439.JPZX.574",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/d1b746040b9016e82acb4a5afe20062d",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/82400009b02f7651f3edf5b292f7cd9a",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -1867,135 +1867,135 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM837.TDQQ.538",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/23/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/4a4c98d9dd27afd652cdab74f9952bf1",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM238.MHWZ.654",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/42a767c2036382d7f015989cad1ce138",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM265.NXDR.935",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/4038c7a3510b38f0cd036aa4955246eb",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM375.KNVL.645",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/af3e387f2441f172cbe7de29ea5c3c16",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM398.CFZH.458",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/8fcb96b98c87178e2666435a3b3a5350",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM444.BXPJ.728",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/1e56c595c3f0e1cf126a80e00fd31c54",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM459.BBRT.432",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ae97b76308cc66379e3cab55ca3c86ad",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM523.FKWF.269",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/eb7483e17dc656d065ed2c1595663998",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM678.FRJC.827",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/45aadbf99c097775e6004a978b5a731b",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM723.QMLJ.829",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/b2d42d1143a168014996df6d07d5bdf8",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM797.PDPS.368",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/1b83223cf1f4446c625adbfb375ab3fd",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM834.TDFD.294",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/bbe9f1a95a61f32656ed4452fed9d424",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM922.KSKR.637",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/5fba3cd9628ce41299533961b00763a4",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM938.FTBC.347",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/34730c1fb6e55ece2567c4ffe53ca466",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM984.LZDJ.635",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/1b2dede6f4a92c4114ae0e581b5466ce",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -2069,20 +2069,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM724.LVHJ.956",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/d9e64e77d26d9fb8133d7754d1c3f6d0",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/15/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/d11c49c38ffba032b8a95e28a781f54b",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM374.BXTC.899",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/d9e64e77d26d9fb8133d7754d1c3f6d0",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/fbecb40eb616c4b5434b5d04f950ffb0",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -2111,23 +2111,21 @@
         "sample_type": "Tissue Block",
         "rui_location": {
           "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-          "@id": "http://purl.org/ccf/1.5/a441638e-859b-4695-87fc-26c76e79da0e",
+          "@id": "http://purl.org/ccf/1.5/5764d42e-95e4-4e5a-b36e-ca498354906d",
           "@type": "SpatialEntity",
           "ccf_annotations": [
-            "http://purl.obolibrary.org/obo/UBERON_0000362",
-            "http://purl.obolibrary.org/obo/UBERON_0004200",
             "http://purl.obolibrary.org/obo/UBERON_0001223"
           ],
-          "creation_date": "2022-06-08",
+          "creation_date": "2022-03-04",
           "creator": "Amanda Knoten",
           "creator_first_name": "Amanda",
           "creator_last_name": "Knoten",
           "dimension_units": "millimeter",
           "placement": {
             "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/a441638e-859b-4695-87fc-26c76e79da0e_placement",
+            "@id": "http://purl.org/ccf/1.5/5764d42e-95e4-4e5a-b36e-ca498354906d_placement",
             "@type": "SpatialPlacement",
-            "placement_date": "2022-06-08",
+            "placement_date": "2022-03-04",
             "rotation_order": "XYZ",
             "rotation_units": "degree",
             "scaling_units": "ratio",
@@ -2147,34 +2145,34 @@
           "y_dimension": 3,
           "z_dimension": 2
         },
-        "@id": "https://entity.api.hubmapconsortium.org/entities/a85a325cfed5d998289565eba4f4028c",
-        "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-        "link": "https://portal.hubmapconsortium.org/browse/sample/a85a325cfed5d998289565eba4f4028c",
+        "@id": "https://entity.api.hubmapconsortium.org/entities/92db984e67e05befc9c3d7567ba8333c",
+        "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
+        "link": "https://portal.hubmapconsortium.org/browse/sample/92db984e67e05befc9c3d7567ba8333c",
         "sections": [],
         "datasets": [
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM537.SKND.632",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "4 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/a85a325cfed5d998289565eba4f4028c",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/cf3ba9b4cc97302d70d28139ae8e4c13",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM886.ZXXN.298",
             "@type": "Dataset",
-            "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-            "description": "4 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/a85a325cfed5d998289565eba4f4028c",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/6a75230d8d1063fcc8568537212211f5",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
         ],
-        "section_count": 1,
-        "section_size": 2,
+        "section_count": 2,
+        "section_size": 1,
         "section_units": "millimeter",
-        "description": "4 x 3 x 2 millimeter, 2 millimeter, 1 Sections"
+        "description": "4 x 3 x 2 millimeter, 1 millimeter, 2 Sections"
       },
       {
         "@type": "Sample",
@@ -2223,18 +2221,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM563.FJNH.776",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "4 x 4 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/80cd48a30567c0e5d5520e47dd4b3560",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/9d37d91769087f8082a514f6eed10bbc",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM982.TTRB.258",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "4 x 4 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/80cd48a30567c0e5d5520e47dd4b3560",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/0c3ce767d87527f41fd705fd469390a0",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -2311,20 +2309,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM494.MQQL.234",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/726d0ab1980e05cd349766bcd9577315",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/79022070eab3517655e57a85b2438e7a",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM572.JLDL.664",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/726d0ab1980e05cd349766bcd9577315",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/180dd06ae35a0fc771f0afe5deefcf23",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -2381,20 +2379,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM879.RZJJ.974",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/0ec930e0f4a8fcf12ea136a28e1acad4",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/13/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/897c8d98e62b782b81f4b1bbf85e49bc",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM733.GBWP.269",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/0ec930e0f4a8fcf12ea136a28e1acad4",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/85c24a9f09f198de788e4ec2afe37f29",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -2475,20 +2473,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM837.HQNL.776",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/7007f3154a610f88a61c268890f14ee4",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/611d301d6755508efd91a6d924d7c400",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM425.MSBX.963",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/7007f3154a610f88a61c268890f14ee4",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/bfa9c4267a38dd190adbaf134364e876",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -2553,20 +2551,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM772.WGBN.852",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/0be6dee31365fd1e590a45263df043c6",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/15/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/30cca46b98006c525d3df89d6b6374e4",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM959.QMBB.765",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/0be6dee31365fd1e590a45263df043c6",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/e54c803efc899f4a6cb0f727734076eb",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -2637,18 +2635,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM994.XRGN.328",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e3b74d607c3b20c9c2349d98c235ce72",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/91d725656c8439a58d92ccadc01465bf",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM826.RGXW.276",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e3b74d607c3b20c9c2349d98c235ce72",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/24eaa9730abe57c1c22f74573b846a6f",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -2723,18 +2721,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM865.TRVX.355",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "2 x 4 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b6293bba61e3956b6546f4e6f47c8c3c",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/fe391b9ac729ec7b73d55d66e1e74438",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM982.TPNQ.737",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "2 x 4 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b6293bba61e3956b6546f4e6f47c8c3c",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/fa6d9c732c7f239422ec6b357136fcd4",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -2799,18 +2797,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM692.FLDL.779",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "2 x 4 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e92386147334ee241991e25d8ae3e04f",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/4fee7d4cc398bcb85e3c2a31b7baf999",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM375.ZKZZ.765",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "2 x 4 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e92386147334ee241991e25d8ae3e04f",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/cfc125d6d916f121e92a8406a0502a38",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -2884,38 +2882,38 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM786.HSRC.868",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 0.2 millimeter, 11 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2f8bb4ef2d9b8d23eebc24d1d5db36cd",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/76b410b314b455d86dfa098c97b8acf6",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM272.FWMV.423",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 0.2 millimeter, 11 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2f8bb4ef2d9b8d23eebc24d1d5db36cd",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/13/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/8b205b7d32b404e39106405cfc0beaad",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM442.SBCR.983",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 0.2 millimeter, 11 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2f8bb4ef2d9b8d23eebc24d1d5db36cd",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/d7d67aebcb007199c87fce9b7fb4ce62",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM542.DVXG.466",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 0.2 millimeter, 11 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2f8bb4ef2d9b8d23eebc24d1d5db36cd",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/8e549f307987dbb78a5c974adf4c778d",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 11,
@@ -2988,36 +2986,36 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM532.RKTB.483",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 8 x 2 millimeter, 0.4 millimeter, 5 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f7c5d23701bf7e9fd88b93aa0f48443d",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/9194b6a9ed87b1ce0a6744cc26bd3eca",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM268.RGJT.587",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 8 x 2 millimeter, 0.4 millimeter, 5 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f7c5d23701bf7e9fd88b93aa0f48443d",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/29/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/c05a38c5210b870281b5aea01e290339",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM264.RWRW.668",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 8 x 2 millimeter, 0.4 millimeter, 5 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f7c5d23701bf7e9fd88b93aa0f48443d",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/c686b93a809ec1f54a0d96bc25d3d207",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM773.WCXC.264",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 8 x 2 millimeter, 0.4 millimeter, 5 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f7c5d23701bf7e9fd88b93aa0f48443d",
+            "label": "Registered 5/8/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/0487454555924b54dd3f5b5232e3c77e",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -3082,18 +3080,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM297.XVDG.492",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "1 x 5 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/3d74b962e316efbfba104370f5c87e2d",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/107f237dc1c866e9e9b215c7354c8d6a",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM224.GLDC.549",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "1 x 5 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/3d74b962e316efbfba104370f5c87e2d",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/fd0c0fcde5a331c9dfff52b520c7d792",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -3176,18 +3174,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM938.FTRX.289",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 4 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/243c742cc28978c406d650984d6eeffd",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/5302ee81cb9692dfda92b2c5dad37198",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM382.HNKL.447",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 4 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/243c742cc28978c406d650984d6eeffd",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/9049f48b97dc5edc737b67783a47e918",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -3254,18 +3252,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM356.QPJF.839",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/aadeb3ec91f8886051108dbb45ddec76",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/8f27d93b71147597f38de827f233930e",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM537.LTFK.379",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/aadeb3ec91f8886051108dbb45ddec76",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/69a0ada10f4f119f99ce5f66cf3b1a94",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -3340,18 +3338,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM388.SGMJ.342",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2957761e1ed24c63f53714bd0d9bf25f",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/5bc39f0a0deb7632f5cb9650d5e7067c",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM892.MXFF.848",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2957761e1ed24c63f53714bd0d9bf25f",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/2d27debfce3d25040af54fb77b25427b",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -3428,38 +3426,38 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM384.DLRM.527",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 13 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/57cac4cbeaa9612c03727decf3f10c6d",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/316772d6487538152b82e056fa74471d",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM826.VZFT.824",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 13 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/57cac4cbeaa9612c03727decf3f10c6d",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/11/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/7b15d0833426852e59a08f6c6a75f4d8",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM369.FCNZ.863",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 13 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/57cac4cbeaa9612c03727decf3f10c6d",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/db9e2006effe3168b4b4f28b96e65d34",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM476.PRMC.228",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 13 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/57cac4cbeaa9612c03727decf3f10c6d",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/34e7063ba681c9218a2566c3659abd26",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -3529,38 +3527,38 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM697.GKCG.783",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/1c938bdcf482f2793bbaf6b49a72b306",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/0b2dd0e14711d1f77e15ff1c731ef069",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM742.PSCP.565",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/1c938bdcf482f2793bbaf6b49a72b306",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/cb75fa61840081ea61c83bd9d76c7061",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM836.FPBQ.686",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/1c938bdcf482f2793bbaf6b49a72b306",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a828f46ccc3886bbf7a55a064bb36162",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM876.KWMX.349",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/1c938bdcf482f2793bbaf6b49a72b306",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/634b65e0ded3ff0bd00f6f78d8493bd0",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -3635,38 +3633,38 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM884.TGCL.432",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 10 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/940f8fa7e80db959e52b7c0506981e7a",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/11/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/aeb2f6902721eb8c7d44c1c3669c640c",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM987.RLTF.378",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 10 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/940f8fa7e80db959e52b7c0506981e7a",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/86ad3859bb98f5d35e5f2ce553e64164",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM394.VPCK.634",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 10 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/940f8fa7e80db959e52b7c0506981e7a",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/7836f1c899015976a0fee6c1f6c03963",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM729.HSHS.983",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 10 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/940f8fa7e80db959e52b7c0506981e7a",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/3a0a396f8972113cc393169a9f8e5696",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -3745,18 +3743,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM243.TTRM.823",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/a7c3ea8269b3a97ac9f39cb4a970666c",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/23/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/142389945aef42b17d85cbd7bee073fd",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM764.ZCQR.585",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "5 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/a7c3ea8269b3a97ac9f39cb4a970666c",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/99c5c80509be87d2356d19a9ed8b22ff",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -3832,20 +3830,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM584.JCQV.788",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/8d7ce3aab7013e416263d23b0c048900",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/93204c7af92f0bad431735d7c9c9185a",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM694.TNFF.778",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/8d7ce3aab7013e416263d23b0c048900",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/8aedc8552f5f7d9d8482a1f98755e394",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -3902,20 +3900,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM372.TFNT.572",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/4eb373e9332ec51776a2ca2f79001022",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a2268636667d51ce05ddea2451621434",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM854.GCMW.458",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/4eb373e9332ec51776a2ca2f79001022",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a522097fdfebd6da968fadaf63e8fe55",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -3971,20 +3969,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM688.LGBS.644",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/015f9976f3fed4c35dbbaad622a413d9",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/2f9777369594ff09a82bd51f6251ed83",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM545.PQSZ.997",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/015f9976f3fed4c35dbbaad622a413d9",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ad5c82405456343b3babecc86ec42afc",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -4058,38 +4056,38 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM275.PDRR.759",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 10 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/9af60cec8d8411323f601d13896c4601",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/15/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a4fe3e811e2bfc795dbbb133f6b6a8a4",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM745.XMRR.874",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 10 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/9af60cec8d8411323f601d13896c4601",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/15/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a8560706a0a6bcffd974ed4dd8082571",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM687.FWNC.555",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 10 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/9af60cec8d8411323f601d13896c4601",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/e16384faf175ed7196aa262f5c602275",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM729.TFXC.825",
             "@type": "Dataset",
-            "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 10 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/9af60cec8d8411323f601d13896c4601",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/f31df7345e5d56154ba469c6d5c477b3",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -4166,18 +4164,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM752.ZRBH.538",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/454f281ae77ccd7a1e2ab86f90c07263",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/8d6cb8fe53f4e885ffae4a09d1207d1b",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM574.NFCS.842",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/454f281ae77ccd7a1e2ab86f90c07263",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ec88a6b161dce97a2361b1479c69a036",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -4236,18 +4234,18 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM785.LNQZ.992",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2c43806e840ffc9861abadf827c292fc",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/df811b74923e105691a021be3fa35e54",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM992.XNZH.647",
             "@type": "Dataset",
-            "label": "Registered 9/23/2022, Diane Salamon, TMC-UCSD",
-            "description": "3 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2c43806e840ffc9861abadf827c292fc",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/f1b130f1200ae1fabe56cb506245490c",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -4328,126 +4326,126 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM476.ZWMS.768",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 12/22/2021, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/71e7e38c9d8a2f211e3ef47d7b8f3fe6",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM252.BMWF.224",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/d34706323794467348995af37072b5ee",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM288.RCTV.965",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/c5e4adcf2ef956864a087d1691e8e8cd",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM328.FTJW.669",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ade674f0277942c9a1297494fcf3511d",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM349.KWMK.599",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/2746ce8d450265ace2c6aee762c8dfda",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM349.XPRZ.258",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/d7bd2925c466eedc009c1cd272011529",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM363.LDZL.423",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/614073f249f8881b2fe4a29db6bea266",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM445.NPKW.958",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/6f87add44880de684e6a9a5625344bbb",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM644.GBKD.967",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/670135e38ac4107e0d07dae1bdcf4936",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM695.XTNF.836",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/19be408fb97c09f603c906921d7b0945",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM744.MBPT.666",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/de80a443ed15e1f783c68d5e0b2d7216",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM777.SVZT.454",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/9b64312cac3c359e0fef53555057c996",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM879.NCTL.468",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/869ff5b556a0e0f24a48aa673d0bc343",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM939.CNSV.893",
             "@type": "Dataset",
-            "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
-            "description": "3 x 12 x 2 millimeter, 0.5 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2256c64aacd92af7028ffb33e478cf46",
+            "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/df71091620312eacc28a6accccfb2aa4",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -4522,20 +4520,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM254.SXWG.373",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/6b3e25fa18988fd88b87618c7e3e6cc4",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/13/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a2b20bdf8e9602ea775a84cbb10472d3",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM846.WXJK.587",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/6b3e25fa18988fd88b87618c7e3e6cc4",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a36cbc166280d04c3701509b2bb11c8a",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -4593,20 +4591,20 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM843.QHNR.854",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/bc7d5947e9913136c91776544a0f52d8",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/15/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: salmon_sn_rnaseq_10x, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/c429e51920537c11fa91d1bc69085c1d",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM793.VKVL.982",
             "@type": "Dataset",
-            "label": "Registered 6/9/2022, Amanda Knoten, TMC-UCSD",
-            "description": "3 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/bc7d5947e9913136c91776544a0f52d8",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/10/2023, Bill Shirey, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/f70d71db827901040b76926a9116bcb2",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 1,
@@ -4677,9 +4675,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM238.ZKPC.934",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "30 x 13 x 7 millimeter, 0.3 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/27d32c5c8e5af5bef285fa773beee5b6",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ce30489adeb0c18b028055b8b60707ca",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -4755,72 +4753,72 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM245.VSKK.846",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "6 x 15 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e76e073b21e99c230e0ee376722c041d",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/e30d1d413f45c48edbfdf0ecf9d58dcc",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM368.FDDS.927",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "6 x 15 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e76e073b21e99c230e0ee376722c041d",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/e4cb7061eafcb4605b138b56dd8b10c0",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM379.ZGKM.223",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "6 x 15 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e76e073b21e99c230e0ee376722c041d",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/26dc619ecea3f40441064f18e1a8b879",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM393.NWNB.684",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "6 x 15 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e76e073b21e99c230e0ee376722c041d",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/026ab5fb8cf7681220b423d453a583aa",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM587.JPLF.798",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "6 x 15 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e76e073b21e99c230e0ee376722c041d",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/d97b9b0aa1c0c6929d0db414e1d67825",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM775.RVQX.376",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "6 x 15 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e76e073b21e99c230e0ee376722c041d",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/9f08125dfdae4906881b62479471d65a",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM882.KDTH.685",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "6 x 15 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e76e073b21e99c230e0ee376722c041d",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/7b85597b6a56b4119792423b23f2a40d",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM975.WHWM.552",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "6 x 15 x 2 millimeter, 1 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e76e073b21e99c230e0ee376722c041d",
+            "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/1b015d3b973ac6510bbb40f4112f0486",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -4882,54 +4880,54 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM396.JHNS.692",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f2d94e194470a4d748fb388db47f9598",
+            "label": "Registered 2/12/2022, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/055730a8c5486ec9bf66af90102e5626",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM443.TQKQ.624",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f2d94e194470a4d748fb388db47f9598",
+            "label": "Registered 2/12/2022, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/52fab90faa97ba44dfde29e1fe740f48",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM673.WGZS.593",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f2d94e194470a4d748fb388db47f9598",
+            "label": "Registered 2/12/2022, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/fa18feb84ec1c2fd66286ac47da24b9c",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM725.BRBB.566",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f2d94e194470a4d748fb388db47f9598",
+            "label": "Registered 2/12/2022, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/fa3f5482e3502d7d5d86c61157ee6a7a",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM775.HGSK.536",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f2d94e194470a4d748fb388db47f9598",
+            "label": "Registered 2/12/2022, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/c7038c10b1766e639ce263d5a177e5fd",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM955.DXVQ.765",
             "@type": "Dataset",
-            "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
-            "description": "5 x 12 x 2 millimeter, 2 millimeter, 1 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f2d94e194470a4d748fb388db47f9598",
+            "label": "Registered 2/12/2022, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: SNARE-RNAseq2, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/048723fd5863d45d8a8e867f21e8af9f",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -5015,9 +5013,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM246.DMSS.835",
             "@type": "Dataset",
-            "label": "Registered 9/23/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/173fbebb10c3af766e26b1d6c9c8d563",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/05197e30394fd88affff0a9c214c8c4c",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -5088,9 +5086,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM347.VDHS.379",
             "@type": "Dataset",
-            "label": "Registered 9/23/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/fed53eab5847287de706a8dafa6faf8f",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/26b642ddbae00e7ff6570ddd57557e26",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -5156,9 +5154,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM432.RXTV.994",
             "@type": "Dataset",
-            "label": "Registered 9/23/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/bb2f22ab105c49476def20e47e9c1206",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/68e6dfa4807ca615883f73a5067115cb",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -5224,9 +5222,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM475.LXDL.227",
             "@type": "Dataset",
-            "label": "Registered 9/23/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "15 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/5d53bd5a71569c59c90d1608cd3da5c9",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/0736735768692d6ca0cd96149b743be1",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -5297,9 +5295,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM526.VJKT.388",
             "@type": "Dataset",
-            "label": "Registered 9/23/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/aff08197f187418318e12cd70c9a6e3d",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/3fe18ec025f612ca2c5308d4c234da50",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -5362,27 +5360,27 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM578.ZCCJ.565",
             "@type": "Dataset",
-            "label": "Registered 9/23/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 1.3 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/6e5e5be224d88f38aa390d0c389839c7",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a8652e9e3c545e61e1ffe9d54a8f1fd2",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM883.SPLD.238",
             "@type": "Dataset",
-            "label": "Registered 9/23/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 1.3 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/6e5e5be224d88f38aa390d0c389839c7",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/3b1490026022f850e4d3c3fb5e2283c9",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           },
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM969.CJQL.629",
             "@type": "Dataset",
-            "label": "Registered 9/23/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 1.3 millimeter, 4 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/6e5e5be224d88f38aa390d0c389839c7",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/8e5c8f0cc61aad4fcbc5cc119bdf4c96",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -5442,9 +5440,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM695.VNZJ.522",
             "@type": "Dataset",
-            "label": "Registered 9/23/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "15 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/46f5c8d7dc8d545c540748347d20a9b7",
+            "label": "Registered 3/6/2023, Blue Lake, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/065295e6e58b1d3555a261c1bfe3b3fe",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -5519,11 +5517,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM256.KFVT.324",
             "@type": "Dataset",
-            "label": "Registered 9/28/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "20 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/7e68adff1c4ad41005fe77eb71641fa4",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/15/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/f37e71fbc717aac007cfc9efc6de2cf8",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -5583,11 +5581,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM373.FNMG.689",
             "@type": "Dataset",
-            "label": "Registered 9/28/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "25 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/1a4319c0159c674a014d94b6ad493bb7",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/7d59d1738906d1ffcdbb4888c21cce10",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -5649,11 +5647,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM385.CJKX.252",
             "@type": "Dataset",
-            "label": "Registered 6/18/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/06fd15efbba53f1bd8d1ba4ed9f55421",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/20/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/37ff32a1868159ac3132808b2630259f",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -5715,11 +5713,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM582.WWWJ.738",
             "@type": "Dataset",
-            "label": "Registered 9/27/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "15 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/825e4d48c77f4b0444f1dcc3834e1a2d",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/344179be08a7ec69aeaf28af0f1f8851",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -5777,11 +5775,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM747.WJZS.473",
             "@type": "Dataset",
-            "label": "Registered 9/27/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "15 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/878fba1e9cb02481bda8e38dc243c7de",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/dd21322b70f989119896aafc756ad46d",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6056,11 +6054,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM344.HZNN.755",
             "@type": "Dataset",
-            "label": "Registered 9/27/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/4237515bdd85c238189fc4c366575bf3",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/15/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/faa74840f52d939f81d3e31ff5f0c154",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6113,11 +6111,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM442.GZFZ.522",
             "@type": "Dataset",
-            "label": "Registered 9/27/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/096733e700ef7ab31bedf6bef6d5b9b2",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/4c5234a24a4a21ca98f74d15b3dfb4a7",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6178,11 +6176,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM658.SBTV.949",
             "@type": "Dataset",
-            "label": "Registered 6/18/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/5ae0128190e5c96a3dc3f46dd7675e97",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/20/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a0810df5aa077448298477f9877984b5",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6237,11 +6235,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM869.ZBCZ.787",
             "@type": "Dataset",
-            "label": "Registered 9/27/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/86651c9d116a80ff359fe95a9455ab8b",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/752094adce2ac00d828efe9c916ea338",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6296,11 +6294,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM953.CTWH.676",
             "@type": "Dataset",
-            "label": "Registered 9/28/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/ad3231b7dc48068b9b884f6ba967de85",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ad932200f9745e46d6f7bfd9458ad892",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6368,11 +6366,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM379.QCJT.435",
             "@type": "Dataset",
-            "label": "Registered 10/18/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "15 x 7.5 x 7.5 millimeter, 3.8 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/9f7b7b28fae00c8539bc0243df8fb207",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/2a599987cc11b2d575e4a17bd1605e80",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6427,11 +6425,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM635.DQXB.362",
             "@type": "Dataset",
-            "label": "Registered 10/18/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 7.5 x 7.5 millimeter, 3.8 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/ab2b437444d182648bbad8aa499d0f80",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/15/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/f3c71aa5a83d255ac8dfd77601e24242",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6581,9 +6579,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM398.NCVN.256",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "28 x 12 x 7 millimeter, 0.3 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/9778e9d083094862b2874f3007f8fe76",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/59f249caa2fe225f030205c2abd86051",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -6655,11 +6653,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM434.GKNQ.757",
             "@type": "Dataset",
-            "label": "Registered 9/28/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "15 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b98686d9df0b06f26fa5c4cd417331a0",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a9de37eaa11fc1aeba7845119ce3f314",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6717,11 +6715,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM473.NKMR.872",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/6c7f7b91ee218f5bad7d8c498f7fe428",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/19/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/b6426e91da0b8406ad86d294e5109130",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6776,11 +6774,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM879.KGML.575",
             "@type": "Dataset",
-            "label": "Registered 9/28/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "15 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e03ab23235245440a8d68e2d17d39c02",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/13/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/a4ca4cc7c4b518c13e2ed9444d3d2c79",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6835,11 +6833,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM897.WVVR.437",
             "@type": "Dataset",
-            "label": "Registered 9/28/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "15 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/92292494fe566fcd19a54d27edca52f0",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/12/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/4320a3ed03eeab0fe31ba8f62ad901d5",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6894,11 +6892,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM943.VFSK.297",
             "@type": "Dataset",
-            "label": "Registered 9/27/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "7.5 x 15 x 9 millimeter, 4.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/ac36bf37661605311f87c821f90d04f8",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/167281fa2a3d19ac21d1e894c7338ba4",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -6971,11 +6969,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM458.TNQX.264",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/9676700b170c789e5d30815f314820a2",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/19/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/5675bd912880943c5d1a685689583ab2",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7033,11 +7031,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM464.RSZW.375",
             "@type": "Dataset",
-            "label": "Registered 1/6/2023, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/d70713396f2dc6660dce41530e1ba652",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/19/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/413402fca1843c88670022fd9b68ff7e",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7109,11 +7107,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM484.RGWP.797",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/61057e570ac5cf33f8592a6bd7ccbba6",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/24/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/b6773910c8802ec2c42df963666b556e",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7171,11 +7169,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM685.XWPB.694",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/248b0fd5d87bdd9368ef0a398a5ebb70",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/24/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/94bf99bf1a1220192fee134a616ddee2",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7237,11 +7235,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM769.JMPX.755",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/fca90c1aae343dab921575f3f40d9792",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/20/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/2134f530b39671bd120cd85731d51fc0",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7299,11 +7297,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM927.ZWBG.769",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f2deaab37fb026044244f2cbfa87d152",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/19/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/8edfd1b291e958ee35c64cdb6a5e519d",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7373,9 +7371,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM494.XDQW.356",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "43 x 20 x 8 millimeter, 0.3 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/f187ff9a4631540a9aced9086c512d5e",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ec85791b4b73e76bf32bb40bad60fb50",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -7453,11 +7451,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM527.PTXH.326",
             "@type": "Dataset",
-            "label": "Registered 6/18/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/638a483d2daac131b79c4d242ac7efc3",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/24/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/4e1fd30d374f3e8987b32b71bfae5949",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7515,11 +7513,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM584.CZDB.483",
             "@type": "Dataset",
-            "label": "Registered 6/18/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b9ae8c019f2ce4a20e2f4b6ae7cda9af",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/24/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/2f7fd2a7aeb375ea5ec0ea0e74a82d85",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7577,11 +7575,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM972.JCHH.759",
             "@type": "Dataset",
-            "label": "Registered 6/18/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/6bd10b73ec3bb100b691b9ed3f8c4e37",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/24/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/01279a23c49b258b9330619a081014e4",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7654,11 +7652,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM532.ZJRQ.263",
             "@type": "Dataset",
-            "label": "Registered 6/18/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/678a20084899d8fae3733967a8c7bbb8",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/15/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/b4ed22922fe9efcc68bb656da04052cb",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7717,11 +7715,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM722.TLKZ.444",
             "@type": "Dataset",
-            "label": "Registered 9/28/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "15 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/814bd0449a4b88dd432b4ad7e1ebe4f8",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/14/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/d5ee243308d5ea913389c5b53c74e8f0",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7781,11 +7779,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM757.RLFF.943",
             "@type": "Dataset",
-            "label": "Registered 6/18/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/fbb9843273bf419bfff9634878a42fef",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/7/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/fdacb21245e14fd126bfce05ae191857",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7843,11 +7841,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM822.JFXK.683",
             "@type": "Dataset",
-            "label": "Registered 6/18/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/9727d9bc9b938a988c88ae21738e00b5",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/24/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/6d0fb7332754d87825bcbecd61426dad",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7905,11 +7903,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM889.BXPN.494",
             "@type": "Dataset",
-            "label": "Registered 6/18/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/7c911d2636459124eabc69883afe4cbc",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/24/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/099a05e6266e1edfdab4db55810f7caf",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -7981,11 +7979,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM539.HMRR.435",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/2d12da4d0e33de3e1eb5a786159ca50a",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/24/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/670885433c560930ba4d39eed22db604",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -8043,11 +8041,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM558.LPPJ.448",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/7ab3d70585473e79dc516dbebadd84b1",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 3/3/2023, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/00f1fbb3ecfcaaf4d8d54a7866b0fcad",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -8105,11 +8103,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM625.MGXD.586",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/b13245e551fa45a24b170ac11b01a264",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 6/24/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/811f5f5929e4ccb954817512b5322cf3",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -8167,11 +8165,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM724.RVJD.893",
             "@type": "Dataset",
-            "label": "Registered 6/21/2022, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 5 millimeter, 2.5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/7525947ef401f6d2c1f8b1708a7eb2f4",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 7/20/2022, HuBMAP Process, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/ce9355bc05cd0244041e0440469992a8",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -8242,9 +8240,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM592.JGSQ.253",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "37 x 24 x 5 millimeter, 0.2 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/8cfd588e5bc4a31ea61d3a11eae0cf61",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/6c75548f017fe5891f2ddc91566565f0",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -8471,9 +8469,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM666.JCGS.862",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "14 x 12 x 6 millimeter, 0.2 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/e6a61a2aaec9809abf19f1f7b562f237",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/215f1050fc286dcc579edfd9c2494de1",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -8686,11 +8684,11 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM668.RQWZ.595",
             "@type": "Dataset",
-            "label": "Registered 9/27/2021, GLORIA PRYHUBER, TMC-UCSD",
-            "description": "10 x 10 x 10 millimeter, 5 millimeter, 2 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/6bd977affa23b9c72775f5da7bb008b3",
-            "technology": "OTHER",
-            "thumbnail": "assets/icons/ico-unknown.svg"
+            "label": "Registered 4/11/2022, Joel Welling, TMC-UCSD",
+            "description": "Data/Assay Types: snRNAseq-10xGenomics-v3, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/1755c89573c4b5839396402b7e007d3f",
+            "technology": "10x",
+            "thumbnail": "assets/icons/ico-bulk-10x.svg"
           }
         ],
         "section_count": 2,
@@ -8761,9 +8759,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM732.FZVZ.656",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "28 x 11 x 7 millimeter, 0.3 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/d78afa907431bb4c943e39de3e994c27",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/060dfa0fdf2b840864f62d2cd1a7a456",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -8916,9 +8914,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM746.VTDZ.959",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "21 x 11 x 6 millimeter, 0.2 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/7e54c74b70ad6e71177f1705f2eecafe",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/0ca0721ae67b78b5eed7c0ef20dc6ac1",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -8991,9 +8989,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM747.SPWK.779",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "36 x 17 x 13 millimeter, 0.5 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/726f5d11ea3999141d7c3c37ec267d8b",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/72b0dc83701c045d954b457baed40697",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -9289,9 +9287,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM875.SBHJ.939",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "23 x 14 x 11 millimeter, 0.4 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/1176b219b9ca81e0c5adef05ce695302",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/65e850415322baad58626e3a228478dc",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
@@ -9322,7 +9320,7 @@
         "sample_type": "Tissue Block",
         "rui_location": {
           "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-          "@id": "http://purl.org/ccf/1.5/68f1c1d3-a7db-45d5-a755-8074327b9776",
+          "@id": "http://purl.org/ccf/1.5/3c6d73d4-216e-4241-b864-92f6636c4d80",
           "@type": "SpatialEntity",
           "ccf_annotations": [
             "http://purl.obolibrary.org/obo/UBERON_0002084"
@@ -9334,31 +9332,31 @@
           "dimension_units": "millimeter",
           "placement": {
             "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-            "@id": "http://purl.org/ccf/1.5/68f1c1d3-a7db-45d5-a755-8074327b9776_placement",
+            "@id": "http://purl.org/ccf/1.5/3c6d73d4-216e-4241-b864-92f6636c4d80_placement",
             "@type": "SpatialPlacement",
             "placement_date": "2022-02-16",
             "rotation_order": "XYZ",
             "rotation_units": "degree",
             "scaling_units": "ratio",
-            "target": "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1",
+            "target": "http://purl.org/ccf/latest/ccf.owl#VHMHeart",
             "translation_units": "millimeter",
-            "x_rotation": 32,
+            "x_rotation": 41,
             "x_scaling": 1,
-            "x_translation": 174.542,
-            "y_rotation": 21,
+            "x_translation": 102.382,
+            "y_rotation": 12,
             "y_scaling": 1,
-            "y_translation": 54.992,
-            "z_rotation": -19,
+            "y_translation": 54.602,
+            "z_rotation": -25,
             "z_scaling": 1,
-            "z_translation": 50.749
+            "z_translation": 69.821
           },
-          "x_dimension": 16,
+          "x_dimension": 10,
           "y_dimension": 16,
-          "z_dimension": 16
+          "z_dimension": 10
         },
-        "@id": "https://entity.api.hubmapconsortium.org/entities/e9b990a54c0dbd47ea9504f06934dc0f",
-        "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
-        "link": "https://portal.hubmapconsortium.org/browse/sample/e9b990a54c0dbd47ea9504f06934dc0f",
+        "@id": "https://entity.api.hubmapconsortium.org/entities/60282a6fe6045167528b1f98b983b5d7",
+        "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
+        "link": "https://portal.hubmapconsortium.org/browse/sample/60282a6fe6045167528b1f98b983b5d7",
         "sections": [],
         "datasets": [
           {
@@ -9371,10 +9369,10 @@
             "thumbnail": "assets/icons/ico-unknown.svg"
           }
         ],
-        "section_count": 0,
-        "section_size": 16,
+        "section_count": 8,
+        "section_size": 1.3,
         "section_units": "millimeter",
-        "description": "16 x 16 x 16 millimeter, 16 millimeter, 0 Sections"
+        "description": "10 x 16 x 10 millimeter, 1.3 millimeter, 8 Sections"
       }
     ]
   },
@@ -9439,9 +9437,9 @@
           {
             "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#HBM975.FVCG.922",
             "@type": "Dataset",
-            "label": "Registered 9/10/2021, Liz McDonough, RTI-General Electric",
-            "description": "17 x 12 x 9 millimeter, 0.3 millimeter, 26 Sections",
-            "link": "https://portal.hubmapconsortium.org/browse/sample/8360fe86ced2d235571ebcd59ec2d545",
+            "label": "Registered 3/18/2022, Liz McDonough, RTI-General Electric",
+            "description": "Data/Assay Types: cell-dive, ",
+            "link": "https://portal.hubmapconsortium.org/browse/dataset/fa238ec2a83302fb4af92442c3683a23",
             "technology": "OTHER",
             "thumbnail": "assets/icons/ico-unknown.svg"
           }

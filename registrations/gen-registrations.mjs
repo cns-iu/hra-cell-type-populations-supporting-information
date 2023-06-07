@@ -8,6 +8,7 @@ const BASE_IRI='https://cns-iu.github.io/hra-cell-type-populations-supporting-in
 const OUTPUT='rui_locations.jsonld'
 const HUBMAP_TOKEN=process.env.HUBMAP_TOKEN;
 
+// A HuBMAP Token is required as some datasets are unpublished
 if (!HUBMAP_TOKEN) {
   console.log('Please run `export HUBMAP_TOKEN=xxxYourTokenyyy` and try again.')
   process.exit();
@@ -17,48 +18,73 @@ if (!HUBMAP_TOKEN) {
 const ALIASES = {
   'https://dw-dot.github.io/hra-cell-type-populations-rui-json-lds/AllenWangLungMap_rui_locations.jsonld': 'https://cns-iu.github.io/hra-cell-type-populations-rui-json-lds/AllenWangLungMap_rui_locations.jsonld'
 }
-const dataSources = {};
 
+// Cache for url => retrieved registration data
+const dataSourcesCache = {};
+
+/**
+ * Grab and normalize registration data from the given url
+ * 
+ * @param {string} url link to a rui_locations.jsonld to download from 
+ * @returns rui_locations.jsonld data (list of donor objects)
+ */
 async function getDataSource(url) {
   url = ALIASES[url] || url;
+
+  // Add token for HuBMAP's registrations if available
   if (url === 'https://ccf-api.hubmapconsortium.org/v1/hubmap/rui_locations.jsonld' && HUBMAP_TOKEN) {
     url += `?token=${HUBMAP_TOKEN}`; 
   }
-  if (!dataSources[url]) {
+  if (!dataSourcesCache[url]) {
     const graph = await fetch(url).then(r => r.json());
+
+    // Normalize results to array of donors
     if (Array.isArray(graph)) {
-      dataSources[url] = graph;
+      dataSourcesCache[url] = graph;
     } else if (graph['@graph']) {
-      dataSources[url] = graph['@graph'];
+      dataSourcesCache[url] = graph['@graph'];
     } else if (graph['@type']) {
-      dataSources[url] = [ graph ];
+      dataSourcesCache[url] = [ graph ];
     }
   }
-  return dataSources[url];
+  return dataSourcesCache[url];
 }
 
+/**
+ * Find registration data in a set of registrations given some criteria
+ *
+ * @param {object[]} data a list of Donor information in the rui_locations.jsonld format 
+ * @param { { donorId?, ruiLocation?, sampleId?, datasetId? } } param1 ids to search for
+ * @returns returns object with matched donor, block, section, dataset depending on what is matched
+ */
 function findInData(data, { donorId, ruiLocation, sampleId, datasetId }) {
   for (const donor of data) {
+    // If a donor is found, return it
     if (donor['@id'] === donorId) {
       return { donor };
     }
 
+    // Search blocks
     for (const block of donor.samples ?? []) {
       if (block['@id'] === sampleId || block.rui_location['@id'] === ruiLocation) {
         return { donor, block };
       }
 
-      for (const section of block.samples ?? []) {
+      // Search sections
+      for (const section of block.sections ?? []) {
         if (section['@id'] === sampleId) {
           return { donor, block, section };
         }
 
+        // Search section datasets
         for (const sectionDataset of section.datasets ?? []) {
           if (sectionDataset['@id'] === datasetId) {
             return { donor, block, section, dataset: sectionDataset };
           }
         }
       }
+
+      // Search block datasets
       for (const blockDataset of block.datasets ?? []) {
         if (blockDataset['@id'] === datasetId) {
           return { donor, block, dataset: blockDataset };
@@ -68,7 +94,16 @@ function findInData(data, { donorId, ruiLocation, sampleId, datasetId }) {
   }
 }
 
-function getHbmToUuidLookup(hubmap_ids, token) {
+/**
+ * Get a lookup table that converts given hubmap_ids to (optionally prefixed) UUIDs.
+ * If more than 10,000 IDs, please split up into multiple 10k ID calls.
+ * 
+ * @param {string[]} hubmap_ids a list of hubmap_ids to generate a lookup to Uuid for
+ * @param {*} token the hubmap token (for unpublished data)
+ * @param {string} prefix prefix for the UUID (often to convert to an HRA-compatible IRI)
+ * @returns a lookup table from hubmap_id to (optionally prefixed) UUIDs.
+ */
+function getHbmToUuidLookup(hubmap_ids, token, prefix = 'https://entity.api.hubmapconsortium.org/entities/') {
   return fetch('https://search.api.hubmapconsortium.org/v3/portal/search', {
     method: 'POST',
     headers: token
@@ -90,10 +125,17 @@ function getHbmToUuidLookup(hubmap_ids, token) {
   })
     .then((r) => r.json())
     .then((r) => r.hits.hits.map((n) => n._source))
-    .then((r) => r.reduce((acc, row) => (acc[row.hubmap_id] = `https://entity.api.hubmapconsortium.org/entities/${row.uuid}`, acc), {}))
+    .then((r) => r.reduce((acc, row) => (acc[row.hubmap_id] = `${prefix}${row.uuid}`, acc), {}))
 }
 
-const allDatasets = await fetch(CSV_URL, {redirect: 'follow'}).then(r => r.text()).then(r => Papa.parse(r, { header: true, fields: FIELDS }).data.filter(row => row.excluded !== 'TRUE'));
+// Grab the datasets list from the given CSV_URL and convert to array of objects
+const allDatasets = await fetch(CSV_URL, { redirect: 'follow' })
+  .then((r) => r.text())
+  .then((r) =>
+    Papa.parse(r, { header: true, fields: FIELDS }).data.filter(
+      (row) => row.excluded !== 'TRUE'
+    )
+  );
 
 const hbmLookup = await getHbmToUuidLookup([
   ...allDatasets.filter(d => d.source === 'HuBMAP').map(d => d.dataset_id),
@@ -106,10 +148,13 @@ const blocks = {};
 const datasets = {};
 
 for (const dataset of allDatasets) {
+  // Grab registrations where this dataset occurs in
   const data = await getDataSource(dataset.ccf_api_endpoint);
 
   let id;
   let result;
+
+  // Custom processing per dataset source (GTEx, HuBMAP, and CxG)
   if (dataset.source === 'GTEx') {
     id = dataset.dataset_id;
     result = findInData(data, { sampleId: dataset.sample_id });
@@ -132,6 +177,8 @@ for (const dataset of allDatasets) {
       result = findInData(data, { sampleId });
     }
   }
+
+  // If data is found, add it to the growing list of registrations to output
   if (result) {
     const donorId = result.donor['@id'];
     if (!donors[donorId]) {
@@ -158,12 +205,14 @@ for (const dataset of allDatasets) {
     const datasetIri = `${BASE_IRI}${id}`
     let hraDataset;
     if (result.dataset) {
+      // Copy dataset over with new '@id' matching our dataset id
       hraDataset = Object.assign(
         { '@id': datasetIri }, // makes sure '@id' is first
         result.dataset,
         { '@id': datasetIri }
       );
     } else {
+      // If no Dataset was matched, make a new one
       hraDataset = {
         '@id': datasetIri,
         '@type': 'Dataset',
@@ -186,4 +235,5 @@ if (savedDatasets !== allDatasets.length) {
   console.log(`There was some problem saving out at least one dataset. Saved: ${savedDatasets} Expected: ${allDatasets.length}`);
 }
 
+// Write out the new rui_locations.jsonld file
 writeFileSync(OUTPUT, JSON.stringify(results, null, 2));
