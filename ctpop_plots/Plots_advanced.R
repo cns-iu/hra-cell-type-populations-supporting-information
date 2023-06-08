@@ -1,12 +1,3 @@
-# load required libraries
-library(tidyverse)
-library(scales) #for scatter graph
-library(ggrepel) # to jitter labels
-library(networkD3) #for Sankey
-library(RColorBrewer) # for plots
-library(ggcorrplot) # for tissue block similarity matrix
-library(lsa) # for tissue block similarity matrix
-
 # load other scripts
 source("Plots_basic.R")
 
@@ -34,7 +25,8 @@ p = ggplot(plot, aes(x = cell_type, y=n.x, fill=cell_type, color=outline.y))+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
   # scale_fill_brewer(palette = "Spectral")+
   scale_fill_viridis_d(option = "turbo")+
-  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left Kidney", fill="Cell Type")
+  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left kidney", fill="Cell Type")+
+  guides(fill="none")
 
 p+
   bar_graph_theme

@@ -1,6 +1,6 @@
 # load required libraries
 library(tidyverse)
-library(scales) #for scatter graph
+library(scales) #for scatter graph and bar graph
 library(ggrepel) # to jitter labels
 library(networkD3) #for Sankey
 library(RColorBrewer) # for plots
@@ -221,10 +221,11 @@ cells_raw = cells_raw %>%rename(anatomical_structure =  `anatomical structure`) 
 p = ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
 geom_bar(stat = "count")+
   facet_wrap(~anatomical_structure, ncol=1)+
-  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  scale_y_continuous(trans = "log10", labels=scales::number_format(big.mark = ",", decimal.mark = '.'))+
   # scale_fill_brewer(palette = "Spectral")+
   scale_fill_viridis_d(option = "turbo")+
-  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left Kidney", fill="Cell Type")
+  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left kidney", fill="Cell Type")+
+  guides(fill="none")
 
 p + bar_graph_theme
 
