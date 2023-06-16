@@ -22,7 +22,7 @@ cols_renamed %>%
   group_by(HuBMAP_tissue_block_id)
 
 # replace NA in excluded col with FALSE
-vars.to.replace <- c("excluded")
+vars.to.replace <- c("excluded_from_atlas_construction")
 df2 <- cols_renamed[vars.to.replace]
 df2[is.na(df2)] <- FALSE
 cols_renamed[vars.to.replace] <- df2
@@ -30,8 +30,8 @@ cols_renamed[vars.to.replace] <- df2
 # format data for scatter graph
 # Hubmap: 128
 scatter_hubmap = cols_renamed%>% 
-  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, omap_id, unique_CT_for_tissue_block) %>% 
-  filter(excluded!="TRUE", source=="HuBMAP") %>% 
+  select(source,paper_id,organ,excluded_from_atlas_construction,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, omap_id, unique_CT_for_tissue_block) %>% 
+  filter(excluded_from_atlas_construction!="TRUE", source=="HuBMAP") %>% 
   group_by(
     source,
     HuBMAP_tissue_block_id, 
@@ -45,8 +45,8 @@ scatter_hubmap = cols_renamed%>%
 
 # NEED DIFFERENT PROCESS TO GET COUNTS FOR NON-HUBMAP TISSUE BLOCKS, needs to be 25 TOTAL!
 scatter_cxg = cols_renamed%>% 
-  select(source,dataset_id,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, non_hubmap_donor_id, omap_id, unique_CT_for_tissue_block, CxG_dataset_id_donor_id_organ, unique_CT_for_tissue_block) %>% 
-  filter(excluded!="TRUE", source=="CxG") %>% 
+  select(source,dataset_id,paper_id,organ,excluded_from_atlas_construction,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, non_hubmap_donor_id, omap_id, unique_CT_for_tissue_block, CxG_dataset_id_donor_id_organ, unique_CT_for_tissue_block) %>% 
+  filter(excluded_from_atlas_construction!="TRUE", source=="CxG") %>% 
   group_by(
     # dataset_id,
     # non_hubmap_donor_id,
@@ -61,8 +61,8 @@ scatter_cxg = cols_renamed%>%
   add_column(source="CxG")
 
 scatter_gtex = cols_renamed%>% 
-  select(source,paper_id,organ,excluded,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, dataset_id, omap_id, unique_CT_for_tissue_block) %>% 
-  filter(excluded!="TRUE", source=="GTEx") %>% 
+  select(source,paper_id,organ,excluded_from_atlas_construction,sample_id, rui_organ, HuBMAP_tissue_block_id, number_of_cells_total, tissue_block_volume, dataset_id, omap_id, unique_CT_for_tissue_block) %>% 
+  filter(excluded_from_atlas_construction!="TRUE", source=="GTEx") %>% 
   group_by(
     dataset_id,
     unique_CT_for_tissue_block,
