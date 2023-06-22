@@ -24,16 +24,16 @@ if (!existsSync('tissue-bar-graphs')) {
 }
 
 // Generate registrations
-if (CLEAN || !existsSync('rui_locations.jsonld')) {
+if (CLEAN || !existsSync('../data/rui_locations.jsonld')) {
   sh.exec('npm run generate:registrations');
 }
 
 // Generate cell summaries
-if (CLEAN || !existsSync('cell-summaries.jsonld')) {
+if (CLEAN || !existsSync('../data/cell-summaries.jsonld')) {
   sh.exec('npm run generate:cell-summaries');
 }
 
 // Combine the data
-if (CLEAN || !existsSync('rui_locations_with_summaries.jsonld')) {
+if (CLEAN || !existsSync('../data/rui_locations_with_summaries.jsonld')) {
   sh.exec('npm run generate:combined-data');
 }
