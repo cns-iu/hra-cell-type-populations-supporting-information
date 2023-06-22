@@ -5,7 +5,7 @@ import Papa from 'papaparse';
 const CSV_URL='https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/export?format=csv&gid=1529271254'
 const FIELDS='dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ'.split(',');
 const BASE_IRI='https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#';
-const OUTPUT='rui_locations.jsonld'
+const OUTPUT='../registrations/rui_locations.jsonld'
 const HUBMAP_TOKEN=process.env.HUBMAP_TOKEN;
 
 // A HuBMAP Token is required as some datasets are unpublished
@@ -35,7 +35,7 @@ async function getDataSource(url) {
   if (url === 'https://ccf-api.hubmapconsortium.org/v1/hubmap/rui_locations.jsonld' && HUBMAP_TOKEN) {
     url += `?token=${HUBMAP_TOKEN}`; 
   }
-  if (!dataSourcesCache[url]) {
+  if (!dataSourcesCache[url] && url) {
     const graph = await fetch(url).then(r => r.json());
 
     // Normalize results to array of donors
@@ -47,7 +47,7 @@ async function getDataSource(url) {
       dataSourcesCache[url] = [ graph ];
     }
   }
-  return dataSourcesCache[url];
+  return dataSourcesCache[url] || [];
 }
 
 /**

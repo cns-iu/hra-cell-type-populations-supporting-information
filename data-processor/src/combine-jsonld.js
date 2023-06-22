@@ -1,7 +1,8 @@
 import { readFileSync, writeFileSync } from 'fs';
 
-const summaries = JSON.parse(readFileSync('cell-summaries.jsonld'));
-const donors = JSON.parse(readFileSync('rui_locations.jsonld'));
+const OUTPUT='../registrations/rui_locations_with_summaries.jsonld';
+const summaries = JSON.parse(readFileSync('../registrations/cell-summaries.jsonld'));
+const donors = JSON.parse(readFileSync('../registrations/rui_locations.jsonld'));
 
 const summaryLookup = summaries['@graph']
   .reduce((acc, summary) => (acc[summary['cell_source']] = summary, acc), {});
@@ -26,4 +27,4 @@ for (const donor of donors['@graph']) {
   }
 }
 
-writeFileSync('rui_locations_with_summaries.jsonld', JSON.stringify(donors, null, 2));
+writeFileSync(OUTPUT, JSON.stringify(donors, null, 2));

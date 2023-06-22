@@ -1,0 +1,21 @@
+{
+  "name": "ctpop-data-processor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "generate:registrations": "node ./src/gen-registrations.js",
+    "generate:cell-summaries": "node ./src/gen-cell-summaries.js",
+    "generate:combined-data": "node ./src/combine-jsonld.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.3.0",
+    "papaparse": "^5.4.1",
+    "shelljs": "^0.8.5"
+  }
+}
