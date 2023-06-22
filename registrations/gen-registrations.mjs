@@ -1,9 +1,9 @@
 // Requires Node v18+ (for fetch support)
-import { writeFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import Papa from 'papaparse';
 
 const CSV_URL='https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/export?format=csv&gid=1529271254'
-const FIELDS='dataset_id,source,excluded,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ'.split(',');
+const FIELDS='dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ'.split(',');
 const BASE_IRI='https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#';
 const OUTPUT='rui_locations.jsonld'
 const HUBMAP_TOKEN=process.env.HUBMAP_TOKEN;
@@ -133,7 +133,7 @@ const allDatasets = await fetch(CSV_URL, { redirect: 'follow' })
   .then((r) => r.text())
   .then((r) =>
     Papa.parse(r, { header: true, fields: FIELDS }).data.filter(
-      (row) => row.excluded !== 'TRUE'
+      (row) => row.excluded_from_atlas_construction !== 'TRUE'
     )
   );
 
@@ -183,8 +183,8 @@ for (const dataset of allDatasets) {
     const donorId = result.donor['@id'];
     if (!donors[donorId]) {
       donors[donorId] = {
-        '@context': 'https://hubmapconsortium.github.io/hubmap-ontology/ccf-entity-context.jsonld',
         ...result.donor,
+        '@context': undefined,
         samples: []
       };
       results.push(donors[donorId]);
@@ -236,4 +236,8 @@ if (savedDatasets !== allDatasets.length) {
 }
 
 // Write out the new rui_locations.jsonld file
-writeFileSync(OUTPUT, JSON.stringify(results, null, 2));
+const jsonld = {
+  ...JSON.parse(readFileSync('ccf-context.jsonld')),
+  '@graph': results
+};
+writeFileSync(OUTPUT, JSON.stringify(jsonld, null, 2));

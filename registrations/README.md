@@ -4,8 +4,10 @@
 
 - You can view the latest version in an EUI instance [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/)
 - You can review the registrations [here](rui_locations.jsonld)
+- You can review the cell summaries [here](cell-summaries.jsonld)
+- You can review the combined data [here](rui_locations_with_summaries.jsonld)
 
-## Rebuilding the rui_locations.jsonld file
+## Rebuilding the jsonld files
 
 To rebuild the rui_locations.jsonld file:
 
@@ -15,7 +17,7 @@ To rebuild the rui_locations.jsonld file:
 
 3. Install the prerequisites: `npm ci`
 
-4. Finally run `npm start` to regenerate the rui_locations.jsonld
+4. Finally run `npm start` to regenerate the rui_locations.jsonld, cell-summaries.jsonld, and rui_locations_with_summaries.jsonld
 
 To recap:
 
