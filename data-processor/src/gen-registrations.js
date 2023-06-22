@@ -4,8 +4,8 @@ import Papa from 'papaparse';
 
 const CSV_URL='https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/export?format=csv&gid=1529271254'
 const FIELDS='dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ'.split(',');
-const BASE_IRI='https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/rui_locations.jsonld#';
-const OUTPUT='../registrations/rui_locations.jsonld'
+const BASE_IRI='https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/rui_locations.jsonld#';
+const OUTPUT='../data/rui_locations.jsonld'
 const HUBMAP_TOKEN=process.env.HUBMAP_TOKEN;
 
 // A HuBMAP Token is required as some datasets are unpublished
