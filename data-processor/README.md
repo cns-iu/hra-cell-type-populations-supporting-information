@@ -2,10 +2,10 @@
 
 ## Quick Start
 
-- You can view the latest version in an EUI instance [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/registrations/)
-- You can review the registrations [here](rui_locations.jsonld)
-- You can review the cell summaries [here](cell-summaries.jsonld)
-- You can review the combined data [here](rui_locations_with_summaries.jsonld)
+- You can view the latest version in an EUI instance [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/)
+- You can review the registrations [here](../data/rui_locations.jsonld)
+- You can review the cell summaries [here](../data/cell-summaries.jsonld)
+- You can review the combined data [here](../data/rui_locations_with_summaries.jsonld)
 
 ## Rebuilding the jsonld files
 
