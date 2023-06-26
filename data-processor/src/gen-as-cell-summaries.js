@@ -20,8 +20,8 @@ function handleCellSummaries(dataset, collisions) {
   const cellSummaryRows = getCellSummaryRows(dataset);
   for (const cell of cellSummaryRows) {
     for (const collision of collisions) {
-      const asIri = collision.representation_of;
-      const weightedCellCount = cell.count * collision.percentage_of_tissue_block;
+      const asIri = collision.as_id;
+      const weightedCellCount = cell.count * collision.percentage;
 
       const summary = asCellSummaries[asIri] = asCellSummaries[asIri] || {
         '@type': 'CellSummary',
@@ -50,7 +50,7 @@ function handleCellSummaries(dataset, collisions) {
 function finalizeAsCellSummaries() {
   return Object.values(asCellSummaries).map((summary) => {
     const cellCount = summary.summary.reduce((acc, s) => acc + s.count, 0);
-    summary.summary.forEach(s => s.percentage = s.count / cellCount * 100);
+    summary.summary.forEach(s => s.percentage = s.count / cellCount);
     return summary;
   });
 }

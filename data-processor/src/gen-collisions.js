@@ -23,9 +23,11 @@ for (const donor of donors['@graph']) {
         '@type': 'CollisionSummary',
         collision_source: block.rui_location['@id'],
         collision_method: 'MESH',
-        collisions: collisions.map(c => ({
+        collisions: collisions.filter(c => c.percentage_of_tissue_block > 0 && c.representation_of !== '-').map(c => ({
           '@type': 'CollisionItem',
-          ...c
+          as_id: c.representation_of,
+          as_label: c.label,
+          percentage: c.percentage_of_tissue_block
         }))
       });
       

@@ -9,6 +9,19 @@
       "@prefix": true
     },
     
+
+    "as_id": {
+      "@type": "@id"
+    },
+    "all_collisions": {
+      "@id": "ccf:has_collision_summary"
+    },
+    "collision_source": {
+      "@reverse": "ccf:has_collision_summary"
+    },
+    "collisions": {
+      "@id": "ccf:has_collision_item"
+    },
     "summaries": {
       "@id": "ccf:has_cell_summary"
     },

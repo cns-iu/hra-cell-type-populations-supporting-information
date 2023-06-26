@@ -46,18 +46,21 @@ function normalizeCellType(id, label) {
  */
 function getCTSummary(path, datasetIri) {
   const rows = Papa.parse(readFileSync(path).toString(), { header: true }).data;
+  const summary = rows.map(r => ({
+      '@type': 'CellSummaryRow',
+      cell_id: normalizeCellType(r.cell_type_ontology_id, r.cell_type),
+      cell_label: r.cell_type,
+      count: +r.count
+    }))
+    .filter(r => r.cell_label || r.cell_id);
+  const maxCount = summary.reduce((acc, s) => acc + s.count, 0);
+  summary.forEach(s => s.percentage = s.count / maxCount);
+
   return {
     '@type': 'CellSummary',
     cell_source: datasetIri,
     annotation_method: 'Ad-Hoc',
-    summary: rows.map(r => ({
-      '@type': 'CellSummaryRow',
-      cell_id: normalizeCellType(r.cell_type_ontology_id, r.cell_type),
-      cell_label: r.cell_type,
-      count: +r.count,
-      percentage: +r.percentage
-    }))
-    .filter(r => r.cell_label || r.cell_id)
+    summary
   };
 }
 
