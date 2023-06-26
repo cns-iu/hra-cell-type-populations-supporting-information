@@ -131,9 +131,8 @@ function tryRelatedHbmIds(id, datasetIri, token) {
 const allDatasets = await fetch(CSV_URL, { redirect: 'follow' })
   .then((r) => r.text())
   .then((r) =>
-    Papa.parse(r, { header: true, fields: FIELDS }).data.filter(
-      (row) => row.excluded_from_atlas_construction !== 'TRUE'
-    )
+    Papa.parse(r, { header: true, fields: FIELDS }).data
+    // .filter((row) => row.excluded_from_atlas_construction !== 'TRUE')
   );
 
 const results = [];
