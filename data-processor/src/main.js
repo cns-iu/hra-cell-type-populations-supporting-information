@@ -39,6 +39,6 @@ if (CLEAN || !existsSync('../data/collisions.jsonld')) {
 }
 
 // Combine the data
-if (CLEAN || !existsSync('../data/rui_locations_with_summaries.jsonld')) {
+if (CLEAN || !existsSync('../data/enriched_rui_locations.jsonld')) {
   sh.exec('npm run generate:combined-data');
 }

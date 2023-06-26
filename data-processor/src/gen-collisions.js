@@ -22,9 +22,9 @@ for (const donor of donors['@graph']) {
       results.push({
         '@type': 'CollisionSummary',
         collision_source: block.rui_location['@id'],
-        collition_method: 'MESH',
+        collision_method: 'MESH',
         collisions: collisions.map(c => ({
-          '@type': 'Collision',
+          '@type': 'CollisionItem',
           ...c
         }))
       });

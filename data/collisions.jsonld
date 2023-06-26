@@ -145,10 +145,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2109804.44224585,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
           "intersection_volume": 1000,
@@ -166,10 +166,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1833227.3262579252,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_skin",
           "intersection_volume": 1000,
@@ -187,10 +187,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1.1932078113407396,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_main_lactiferous_ducts_R",
           "intersection_volume": 0,
@@ -204,7 +204,7 @@
           "tissue_volume": 400
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 726890.7114561738,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_fat_R",
           "intersection_volume": 384.8,
@@ -222,10 +222,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 174591.38859003442,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -243,10 +243,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 113080.27590387041,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_apical_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -260,7 +260,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 155013.6722653357,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_posterior_bronchopulmonary_segment",
           "intersection_volume": 980,
@@ -278,10 +278,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 33225.90134453539,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_cardiac_atrium",
           "intersection_volume": 564,
@@ -299,10 +299,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 27714.91711157488,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_cardiac_atrium",
           "intersection_volume": 321.6,
@@ -320,10 +320,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4502.338753224233,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_peripheral_zone_of_prostate_R",
           "intersection_volume": 319.2,
@@ -337,7 +337,7 @@
           "tissue_volume": 700
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1846.3797002366734,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_central_zone_of_prostate_R",
           "intersection_volume": 33.6,
@@ -351,7 +351,7 @@
           "tissue_volume": 700
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4398.494894308656,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_peripheral_zone_of_prostate_L",
           "intersection_volume": 320.6,
@@ -365,7 +365,7 @@
           "tissue_volume": 700
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1753.8123471207089,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_central_zone_of_prostate_L",
           "intersection_volume": 30.099999999999998,
@@ -379,7 +379,7 @@
           "tissue_volume": 700
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6.506044629495488,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ejaculatory_duct",
           "intersection_volume": 0,
@@ -397,10 +397,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6251.962236821093,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_kidney_capsule_L",
           "intersection_volume": 5.159999999999999,
@@ -414,7 +414,7 @@
           "tissue_volume": 60
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 119897.3006204218,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
           "intersection_volume": 40.5,
@@ -432,10 +432,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 3093.1728906729513,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_e",
           "intersection_volume": 14.299999999999999,
@@ -449,7 +449,7 @@
           "tissue_volume": 100
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 7937.076400845168,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_of_kidney_L",
           "intersection_volume": 66.10000000000001,
@@ -463,7 +463,7 @@
           "tissue_volume": 100
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 119897.3006204218,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
           "intersection_volume": 9.2,
@@ -477,7 +477,7 @@
           "tissue_volume": 100
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 39325.42900374378,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_L",
           "intersection_volume": 85.2,
@@ -495,16 +495,16 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/6ce58ee2-74b9-4137-9325-ced797dcd6ac",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": []
     },
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/19fee435-ebad-476c-bc9a-e11d2cee035e",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1685.7997616979503,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ureter_L",
           "intersection_volume": 0.568,
@@ -522,10 +522,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/9fa9fb64-7e86-4fcc-bc14-cd7a9ff421fe",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1685.7997616979503,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ureter_L",
           "intersection_volume": 0,
@@ -543,10 +543,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/df0b33f7-371a-47a4-a636-a27db19bdbc9",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 109924.98451694223,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_R",
           "intersection_volume": 48,
@@ -560,7 +560,7 @@
           "tissue_volume": 48
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 23707.44497576003,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_R",
           "intersection_volume": 0,
@@ -578,10 +578,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/69ac0df4-f442-4d62-90dc-86fcbc38eb23",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4454.755408253576,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_a",
           "intersection_volume": 40,
@@ -599,16 +599,16 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/1994d754-ccc2-4853-94f8-cbd2cbe83fcb",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": []
     },
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1702.3886560514197,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_R_i",
           "intersection_volume": 54.053999999999995,
@@ -626,16 +626,16 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f3e1e325-c002-42bb-a61c-043a5ec1ca70",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": []
     },
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/4ae53bc8-b6da-4ba9-9030-a93ae44389b9",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 52318.486980407615,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
           "intersection_volume": 18,
@@ -653,10 +653,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 52318.486980407615,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
           "intersection_volume": 0,
@@ -670,7 +670,7 @@
           "tissue_volume": 120
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 3490.2346421466227,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_R_a",
           "intersection_volume": 119.88,
@@ -688,16 +688,16 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/825ec2b8-1291-4633-8a63-b35c7cd709bd",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": []
     },
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/5764d42e-95e4-4e5a-b36e-ca498354906d",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 668.6659597939507,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ureter",
           "intersection_volume": 8.52,
@@ -715,10 +715,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/c5e652ed-7e40-41de-bfc0-a73f05a0c66a",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 668.6659597939507,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ureter",
           "intersection_volume": 4.96,
@@ -736,10 +736,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/29e439fb-cfec-4c2d-a14e-3bc60eb8e255",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 29.417921736041613,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_L_h",
           "intersection_volume": 3.4079999999999995,
@@ -753,7 +753,7 @@
           "tissue_volume": 12
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2112.7873270933665,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_h",
           "intersection_volume": 12,
@@ -767,7 +767,7 @@
           "tissue_volume": 12
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 39325.42900374378,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_L",
           "intersection_volume": 0,
@@ -785,16 +785,16 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/8835013d-ef68-40ae-80fb-c5f07f4cc4c6",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": []
     },
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/72ea5aad-4be7-4478-afc0-7736bc0d90e3",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 29.417921736041613,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_L_h",
           "intersection_volume": 11.040000000000001,
@@ -808,7 +808,7 @@
           "tissue_volume": 12
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2112.7873270933665,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_h",
           "intersection_volume": 8.244,
@@ -826,10 +826,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/4e2e6f98-ec16-4627-a06a-d3cdc282ee1c",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 52318.486980407615,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
           "intersection_volume": 6.468,
@@ -847,16 +847,16 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/08cd7da7-0323-4560-940c-9237a6b3e7c5",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": []
     },
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 132321.25643167266,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_L",
           "intersection_volume": 16,
@@ -874,10 +874,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 8149.50311414705,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_a",
           "intersection_volume": 9.216,
@@ -895,10 +895,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/8f99a469-7d51-46dc-919d-2e002eeae868",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2480.1476405575104,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_b",
           "intersection_volume": 30,
@@ -916,10 +916,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 119897.3006204218,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
           "intersection_volume": 48,
@@ -937,10 +937,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 72301.89436880287,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_L",
           "intersection_volume": 0,
@@ -954,7 +954,7 @@
           "tissue_volume": 10
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2673.2509528132887,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_j",
           "intersection_volume": 9.99,
@@ -972,10 +972,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2149.5983209770147,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_h",
           "intersection_volume": 23.951999999999998,
@@ -993,10 +993,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 84566.4834520329,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_R",
           "intersection_volume": 11.532,
@@ -1010,7 +1010,7 @@
           "tissue_volume": 12
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 10055.261678806379,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_kidney_capsule_R",
           "intersection_volume": 0.372,
@@ -1028,10 +1028,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 119897.3006204218,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
           "intersection_volume": 12,
@@ -1049,10 +1049,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/bd004aeb-6e60-4d5b-8d40-cfdd55b8b6fe",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 132321.25643167266,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_L",
           "intersection_volume": 26,
@@ -1066,7 +1066,7 @@
           "tissue_volume": 52
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 72301.89436880287,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_L",
           "intersection_volume": 15.235999999999999,
@@ -1080,7 +1080,7 @@
           "tissue_volume": 52
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 8149.50311414705,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_a",
           "intersection_volume": 9.203999999999999,
@@ -1098,10 +1098,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/1f414fc5-cb93-45b7-a1b8-0cd21dfa9f7d",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1685.7997616979503,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ureter_L",
           "intersection_volume": 0.28,
@@ -1119,10 +1119,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f3f2fabb-6802-4fd4-920e-1914293db252",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6220.839356878388,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_a",
           "intersection_volume": 0.04,
@@ -1136,7 +1136,7 @@
           "tissue_volume": 40
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 119897.3006204218,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
           "intersection_volume": 40,
@@ -1154,10 +1154,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 52318.486980407615,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
           "intersection_volume": 0,
@@ -1171,7 +1171,7 @@
           "tissue_volume": 50
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 3490.2346421466227,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_R_a",
           "intersection_volume": 49.35,
@@ -1185,7 +1185,7 @@
           "tissue_volume": 50
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 84566.4834520329,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_R",
           "intersection_volume": 1.95,
@@ -1203,10 +1203,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/30bfa399-ca75-4790-a7ec-dfb3c594300c",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 52318.486980407615,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
           "intersection_volume": 0,
@@ -1224,10 +1224,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/2a9e525a-4ad9-4085-bca9-31a2d0512008",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 84566.4834520329,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_R",
           "intersection_volume": 29.43,
@@ -1241,7 +1241,7 @@
           "tissue_volume": 30
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 10055.261678806379,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_kidney_capsule_R",
           "intersection_volume": 0,
@@ -1259,10 +1259,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/85ad9566-c363-4b61-a522-6576b253d9af",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2260.911816312626,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_R_f",
           "intersection_volume": 30,
@@ -1280,10 +1280,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/c07ec91d-9dbe-4132-a93c-b960895b009d",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6220.839356878388,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_a",
           "intersection_volume": 21.880000000000003,
@@ -1297,7 +1297,7 @@
           "tissue_volume": 40
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 119897.3006204218,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
           "intersection_volume": 22.040000000000003,
@@ -1315,10 +1315,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1911.7967343114315,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_d",
           "intersection_volume": 11.328,
@@ -1332,7 +1332,7 @@
           "tissue_volume": 12
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 32.276429899249116,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_R_d",
           "intersection_volume": 5.712,
@@ -1346,7 +1346,7 @@
           "tissue_volume": 12
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 23707.44497576003,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_R",
           "intersection_volume": 0,
@@ -1364,10 +1364,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 109924.98451694223,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_R",
           "intersection_volume": 12,
@@ -1385,10 +1385,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 132321.25643167266,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_L",
           "intersection_volume": 24.696,
@@ -1402,7 +1402,7 @@
           "tissue_volume": 72
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 72301.89436880287,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_L",
           "intersection_volume": 0.432,
@@ -1416,7 +1416,7 @@
           "tissue_volume": 72
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2896.4763032763044,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_k",
           "intersection_volume": 43.704,
@@ -1434,10 +1434,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/3a25960a-8e7a-4020-8dfb-8ce6c3423e35",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1685.7997616979503,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ureter_L",
           "intersection_volume": 0.168,
@@ -1455,10 +1455,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/7f7fe1b0-d9f6-48c2-a304-2ea5874c7392",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6220.839356878388,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_a",
           "intersection_volume": 30,
@@ -1472,7 +1472,7 @@
           "tissue_volume": 30
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 119897.3006204218,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
           "intersection_volume": 1.2,
@@ -1490,10 +1490,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1833227.3262579252,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_skin",
           "intersection_volume": 2730,
@@ -1511,10 +1511,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 109924.98451694223,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_R",
           "intersection_volume": 180,
@@ -1532,10 +1532,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/6a6392a9-8ac1-4666-a684-83d310ca055f",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 109924.98451694223,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_R",
           "intersection_volume": 120,
@@ -1553,10 +1553,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/594902fb-c4c1-47c3-b98e-3101b93a73e4",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229964.967376884,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
           "intersection_volume": 295,
@@ -1570,7 +1570,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 665.0720323461572,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchus",
           "intersection_volume": 0,
@@ -1584,7 +1584,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 162410.67838873283,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
           "intersection_volume": 500,
@@ -1602,10 +1602,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/fd4fcec2-93c3-428f-ad3a-6c7ac4196da0",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229964.967376884,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
           "intersection_volume": 125,
@@ -1619,7 +1619,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 162410.67838873283,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
           "intersection_volume": 500,
@@ -1637,10 +1637,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/d51b9d67-837f-4451-a6c6-0b63c7879736",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229964.967376884,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
           "intersection_volume": 500,
@@ -1658,10 +1658,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f15f5400-2ef9-45fc-bf0f-72f14d6f8f9e",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229964.967376884,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
           "intersection_volume": 750,
@@ -1679,10 +1679,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/aba1ebe3-af18-40cc-b536-b89843049ca5",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 162410.67838873283,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
           "intersection_volume": 500,
@@ -1700,10 +1700,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/95190b47-b491-448a-8e9b-06d804bf2aa1",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229964.967376884,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
           "intersection_volume": 500,
@@ -1721,10 +1721,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/d662fd53-e925-4921-8d8b-bc91eed1519b",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229964.967376884,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
           "intersection_volume": 746.25,
@@ -1742,10 +1742,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/616ef33e-ebcc-4ece-b440-ca218440c8b4",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 134220.5204724595,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_basal_bronchopulmonary_segment",
           "intersection_volume": 0,
@@ -1759,7 +1759,7 @@
           "tissue_volume": 2000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 130425.01976049297,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_inferior_bronchopulmonary_segment",
           "intersection_volume": 1750,
@@ -1773,7 +1773,7 @@
           "tissue_volume": 2000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 74774.75406217681,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_medial_basal_bronchopulmonary_segment",
           "intersection_volume": 0,
@@ -1791,10 +1791,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/76c77da1-c978-48fe-b30b-aeff33a5d054",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 299217.88085006404,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
           "intersection_volume": 95,
@@ -1808,7 +1808,7 @@
           "tissue_volume": 2500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6110.627309348264,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
           "intersection_volume": 60,
@@ -1822,7 +1822,7 @@
           "tissue_volume": 2500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": -31882.546652878846,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_L",
           "intersection_volume": 434.99999999999994,
@@ -1836,7 +1836,7 @@
           "tissue_volume": 2500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1850.032560770765,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
           "intersection_volume": 7.5,
@@ -1850,7 +1850,7 @@
           "tissue_volume": 2500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": -14467.802594773204,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_upper_L",
           "intersection_volume": 434.99999999999994,
@@ -1864,7 +1864,7 @@
           "tissue_volume": 2500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 444225.1660432583,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
           "intersection_volume": 2490,
@@ -1878,7 +1878,7 @@
           "tissue_volume": 2500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4557.780981819779,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchus",
           "intersection_volume": 732.5,
@@ -1896,10 +1896,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/8c2283cd-667a-4fa1-9026-50e30bcfdcd1",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 299217.88085006404,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -1913,7 +1913,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 254.0222038066852,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchus",
           "intersection_volume": 17,
@@ -1927,7 +1927,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6110.627309348264,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
           "intersection_volume": 5,
@@ -1941,7 +1941,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 130425.01976049297,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_inferior_bronchopulmonary_segment",
           "intersection_volume": 81,
@@ -1955,7 +1955,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 608.5577220324557,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingular_bronchus",
           "intersection_volume": 171,
@@ -1969,7 +1969,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 390.2277124929794,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_inferior_bronchus",
           "intersection_volume": 0,
@@ -1987,10 +1987,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/3e6d37df-e4f3-4654-b06d-3a76c2e665ea",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 299217.88085006404,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
           "intersection_volume": 1500,
@@ -2004,7 +2004,7 @@
           "tissue_volume": 1500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6110.627309348264,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
           "intersection_volume": 24,
@@ -2018,7 +2018,7 @@
           "tissue_volume": 1500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 608.5577220324557,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingular_bronchus",
           "intersection_volume": 0,
@@ -2032,7 +2032,7 @@
           "tissue_volume": 1500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 444225.1660432583,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
           "intersection_volume": 1003.5000000000001,
@@ -2046,7 +2046,7 @@
           "tissue_volume": 1500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4557.780981819779,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchus",
           "intersection_volume": 307.5,
@@ -2064,10 +2064,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/840b29a9-5a04-41cc-908d-0c4fa5720366",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 240984.6890340136,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_posterior_bronchopulmonary_segment",
           "intersection_volume": 1467,
@@ -2081,7 +2081,7 @@
           "tissue_volume": 1500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 174591.38859003442,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
           "intersection_volume": 1500,
@@ -2099,10 +2099,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/39e72b20-77e5-45a5-bb0e-f374ea5894ad",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 1463.3999999999999,
@@ -2120,10 +2120,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/ce5f3bd0-f091-49fe-8fe5-67004848078b",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 73988.45321948585,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_right_ventricle",
           "intersection_volume": 275,
@@ -2141,10 +2141,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/1995aefd-5289-4652-a7e0-cc66c495649f",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229312.78018826462,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
           "intersection_volume": 1491.7630000000001,
@@ -2158,7 +2158,7 @@
           "tissue_volume": 2197
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 78714.75572486868,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
           "intersection_volume": 347.126,
@@ -2172,7 +2172,7 @@
           "tissue_volume": 2197
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 65894.53465930313,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_interventricular_septum",
           "intersection_volume": 127.426,
@@ -2190,10 +2190,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/0cd47185-8e8a-4f56-a167-bf93de928553",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 185551.3043128985,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
           "intersection_volume": 600,
@@ -2207,7 +2207,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 83916.23058980214,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
           "intersection_volume": 484,
@@ -2225,10 +2225,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f8a20a09-a700-439b-a518-60347cd7b156",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 149921.38883926737,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
           "intersection_volume": 602,
@@ -2242,7 +2242,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 185551.3043128985,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
           "intersection_volume": 431,
@@ -2256,7 +2256,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 83916.23058980214,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
           "intersection_volume": 237,
@@ -2274,10 +2274,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/ca4a4754-6937-4d08-9eb0-bf400492c22c",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 149921.38883926737,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -2295,10 +2295,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/09b9e49f-dd9c-4f9f-a7dc-258ac0d08530",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 185551.3043128985,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
           "intersection_volume": 245,
@@ -2312,7 +2312,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 83916.23058980214,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
           "intersection_volume": 737,
@@ -2330,10 +2330,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/25c3d20d-d856-4a22-b926-6ee9a5f4a1d4",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 185551.3043128985,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
           "intersection_volume": 927,
@@ -2347,7 +2347,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 83916.23058980214,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
           "intersection_volume": 116,
@@ -2365,10 +2365,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/8af0476d-e6e6-4b55-afae-5eec8c9c1cb5",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 149921.38883926737,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
           "intersection_volume": 287.71875,
@@ -2382,7 +2382,7 @@
           "tissue_volume": 843.75
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 185551.3043128985,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
           "intersection_volume": 634.5,
@@ -2400,10 +2400,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/3c299376-82f1-4c1f-b283-2c03cb7922e2",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 149921.38883926737,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
           "intersection_volume": 172.6875,
@@ -2417,7 +2417,7 @@
           "tissue_volume": 562.5
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 185551.3043128985,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
           "intersection_volume": 432,
@@ -2435,10 +2435,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/87df967f-1311-43ac-a306-04e47d2f4a60",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 1463.3999999999999,
@@ -2456,10 +2456,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2109804.44224585,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
           "intersection_volume": 2352,
@@ -2477,10 +2477,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/559cb26d-2bed-41a6-8cdf-d5da5f4b52d2",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 161360.70898339496,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
           "intersection_volume": 1500,
@@ -2498,10 +2498,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/9131c76e-62cb-4433-a216-64e9fa0450c5",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 151252.07470394362,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchopulmonary_segment",
           "intersection_volume": 36,
@@ -2515,7 +2515,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 161360.70898339496,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -2533,10 +2533,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f1c3f780-6627-4c56-aada-97cb158f540d",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 151252.07470394362,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchopulmonary_segment",
           "intersection_volume": 1500,
@@ -2550,7 +2550,7 @@
           "tissue_volume": 1500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 161360.70898339496,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
           "intersection_volume": 901.5,
@@ -2568,10 +2568,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/dcbd8b51-3a18-4025-97c1-e1867e346a18",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4465.799100864554,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_bronchial_cartilage",
           "intersection_volume": 3,
@@ -2585,7 +2585,7 @@
           "tissue_volume": 1500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 374148.9387129613,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
           "intersection_volume": 1416,
@@ -2599,7 +2599,7 @@
           "tissue_volume": 1500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 149921.38883926737,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
           "intersection_volume": 130.5,
@@ -2613,7 +2613,7 @@
           "tissue_volume": 1500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2374.754759128717,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchus",
           "intersection_volume": 6,
@@ -2631,10 +2631,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/05310dee-180d-4e59-8c58-b101d12f4c73",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 234868.6743737205,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_superior_bronchopulmonary_segment",
           "intersection_volume": 588.2624999999999,
@@ -2648,7 +2648,7 @@
           "tissue_volume": 1012.5
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 161360.70898339496,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
           "intersection_volume": 869.7375,
@@ -2666,10 +2666,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/e7d21a48-63dd-45d8-aedd-e4abed52d5d8",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 151252.07470394362,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchopulmonary_segment",
           "intersection_volume": 494,
@@ -2683,7 +2683,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": -2918.4971156375714,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_hilum_upper_R",
           "intersection_volume": 5,
@@ -2697,7 +2697,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": -13356.056814130154,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_hilum_R",
           "intersection_volume": 5,
@@ -2715,10 +2715,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/c5d8b584-d6b7-4a98-8330-a97ecec688f8",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 234868.6743737205,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_superior_bronchopulmonary_segment",
           "intersection_volume": 337.5,
@@ -2732,7 +2732,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 161360.70898339496,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
           "intersection_volume": 499,
@@ -2750,10 +2750,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/2243b679-6c6c-4b66-9479-fef2640f2872",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 374148.9387129613,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
           "intersection_volume": 1000,
@@ -2771,10 +2771,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/4890aa9b-26a3-4db5-b25a-66e18cbc2158",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 374148.9387129613,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
           "intersection_volume": 1000,
@@ -2792,10 +2792,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/965b263e-b1b5-44c3-86ef-bb682091be05",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2537.34632998989,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchus",
           "intersection_volume": 47.5,
@@ -2809,7 +2809,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4465.799100864554,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_bronchial_cartilage",
           "intersection_volume": 14,
@@ -2823,7 +2823,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 374148.9387129613,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
           "intersection_volume": 500,
@@ -2841,10 +2841,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/3545c186-aafd-4477-adc5-6ee21219cf87",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 374148.9387129613,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
           "intersection_volume": 1000,
@@ -2862,16 +2862,16 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/ab0a9d87-8479-41ef-85f2-e8bfea4a8bbd",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": []
     },
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/527bfb3c-5cea-4131-a73a-72687feb8024",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6110.627309348264,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
           "intersection_volume": 7,
@@ -2885,7 +2885,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": -31882.546652878846,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_L",
           "intersection_volume": 0,
@@ -2899,7 +2899,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1850.032560770765,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
           "intersection_volume": 29,
@@ -2913,7 +2913,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": -14467.802594773204,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_upper_L",
           "intersection_volume": 0,
@@ -2927,7 +2927,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 444225.1660432583,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
           "intersection_volume": 996,
@@ -2941,7 +2941,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4557.780981819779,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchus",
           "intersection_volume": 26,
@@ -2959,10 +2959,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/56b136e7-40dd-477a-b5b6-9be0bb98374c",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6110.627309348264,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
           "intersection_volume": 0,
@@ -2976,7 +2976,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1850.032560770765,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
           "intersection_volume": 1,
@@ -2990,7 +2990,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 174591.38859003442,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -3008,10 +3008,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/0364c64a-5b0a-493f-a5ee-3adfc837211c",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 240984.6890340136,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_posterior_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -3025,7 +3025,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 174591.38859003442,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
           "intersection_volume": 791,
@@ -3043,10 +3043,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f4a116d7-f844-4d4a-bc8f-632151125313",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 444225.1660432583,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -3064,10 +3064,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/853a9e2c-10ba-4491-9d9d-3551c0c5f26d",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 299217.88085006404,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
           "intersection_volume": 728.25,
@@ -3081,7 +3081,7 @@
           "tissue_volume": 750
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 444225.1660432583,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
           "intersection_volume": 750,
@@ -3099,10 +3099,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/5b4b476b-01e1-4d13-95e5-d17770f9ffa9",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6110.627309348264,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
           "intersection_volume": 2,
@@ -3116,7 +3116,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1850.032560770765,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
           "intersection_volume": 98,
@@ -3130,7 +3130,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 240984.6890340136,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_posterior_bronchopulmonary_segment",
           "intersection_volume": 6,
@@ -3144,7 +3144,7 @@
           "tissue_volume": 1000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 444225.1660432583,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
           "intersection_volume": 948,
@@ -3162,10 +3162,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/c8cdaa06-847b-4747-9a00-d89761cea031",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 174591.38859003442,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -3183,10 +3183,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/cfa23a23-1cef-4a6f-8303-d1198e91a773",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 240984.6890340136,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_posterior_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -3204,10 +3204,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/95881dfc-b806-40ca-85fd-0e02d647c999",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 353229.4321451719,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_posterior_bronchopulmonary_segment",
           "intersection_volume": 190,
@@ -3221,7 +3221,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6110.627309348264,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
           "intersection_volume": 4,
@@ -3235,7 +3235,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1456.963575946762,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_apical_bronchus",
           "intersection_volume": 14.5,
@@ -3249,7 +3249,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 72834.22809616149,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_apical_bronchopulmonary_segment",
           "intersection_volume": 0,
@@ -3263,7 +3263,7 @@
           "tissue_volume": 500
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 309071.5618475564,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_anterior_bronchopulmonary_segment",
           "intersection_volume": 483.5,
@@ -3281,10 +3281,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/0f4be9aa-dfce-414f-9d40-47cb38f5eee8",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 309071.5618475564,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_anterior_bronchopulmonary_segment",
           "intersection_volume": 500,
@@ -3302,10 +3302,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/74d8c134-9489-4599-afa7-95bd8cf9fc8a",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 309071.5618475564,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_anterior_bronchopulmonary_segment",
           "intersection_volume": 489.5,
@@ -3323,10 +3323,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/11fcf508-762d-4f0c-b5c5-dad0cf38f4de",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 309071.5618475564,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_anterior_bronchopulmonary_segment",
           "intersection_volume": 500,
@@ -3344,16 +3344,16 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f1d552fe-cc92-478c-890c-cb95adc4b846",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": []
     },
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/04baf323-eda0-4f72-bea1-aa943aa70894",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229312.78018826462,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
           "intersection_volume": 3862.528,
@@ -3371,10 +3371,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/16e98d8c-8983-48c2-bb41-7b1cfbbf2e4a",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229312.78018826462,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
           "intersection_volume": 2670.122,
@@ -3392,10 +3392,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2109804.44224585,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
           "intersection_volume": 1008,
@@ -3413,10 +3413,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/886e391d-0151-46d3-8a51-084bf6a06910",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 1417.6,
@@ -3434,10 +3434,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/de8bd0bf-7765-44c4-9d22-5ff5c0586816",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 1463.3999999999999,
@@ -3455,10 +3455,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/8d3e8fa1-185d-479b-83d9-9dfe2ead2d3e",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229964.967376884,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
           "intersection_volume": 1000,
@@ -3476,10 +3476,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2109804.44224585,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
           "intersection_volume": 1397.088,
@@ -3497,10 +3497,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/da28394d-789a-4fba-842a-f8ba5046b221",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 1417.6,
@@ -3518,10 +3518,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2109804.44224585,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
           "intersection_volume": 1386,
@@ -3539,10 +3539,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 2109804.44224585,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
           "intersection_volume": 644.436,
@@ -3560,10 +3560,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/118235b7-38a4-4fcf-8834-bad5765f5eeb",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 1417.6,
@@ -3581,10 +3581,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/3156203b-0238-447d-9aae-c4341f2da943",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 1463.3999999999999,
@@ -3602,10 +3602,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/2816c343-c908-45bf-8964-974b1c54a5b9",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229312.78018826462,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
           "intersection_volume": 3862.528,
@@ -3623,10 +3623,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1833227.3262579252,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_skin",
           "intersection_volume": 357.742,
@@ -3644,10 +3644,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/3c6d73d4-216e-4241-b864-92f6636c4d80",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 1417.6,
@@ -3665,10 +3665,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 1833227.3262579252,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_skin",
           "intersection_volume": 734.4000000000001,
@@ -3686,10 +3686,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/0c1510fa-83b7-43aa-aa70-d261835ce604_LungMap_Female_AllenWangLungMap_FEMALE_tissueblock_RUI",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4465.799100864554,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_bronchial_cartilage",
           "intersection_volume": 0.6,
@@ -3703,7 +3703,7 @@
           "tissue_volume": 75
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 588.9754895789944,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchus",
           "intersection_volume": 52.275,
@@ -3717,7 +3717,7 @@
           "tissue_volume": 75
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 149921.38883926737,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
           "intersection_volume": 75,
@@ -3731,7 +3731,7 @@
           "tissue_volume": 75
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 83916.23058980214,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
           "intersection_volume": 36.225,
@@ -3749,10 +3749,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/bb8f70e2-273f-4902-a2ce-70a110aee2ec_AllenWangLungMap_MALE_tissueblock_RUI",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 6110.627309348264,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
           "intersection_volume": 1.95,
@@ -3766,7 +3766,7 @@
           "tissue_volume": 75
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 665.0720323461572,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchus",
           "intersection_volume": 13.65,
@@ -3780,7 +3780,7 @@
           "tissue_volume": 75
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 162410.67838873283,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
           "intersection_volume": 75,
@@ -3798,10 +3798,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 21669.139141786578,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_Allen_middle_temporal_gyrus_R",
           "intersection_volume": 95.39999999999999,
@@ -3815,7 +3815,7 @@
           "tissue_volume": 100
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 219513.90685564512,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_Allen_white_matter_of_forebrain_R",
           "intersection_volume": 4.2,
@@ -3833,10 +3833,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 21669.134254605084,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_Allen_middle_temporal_gyrus_R",
           "intersection_volume": 96.8,
@@ -3850,7 +3850,7 @@
           "tissue_volume": 100
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 219513.88829480502,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_Allen_white_matter_of_forebrain_R",
           "intersection_volume": 2.9000000000000004,
@@ -3868,10 +3868,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229312.78018826462,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
           "intersection_volume": 6972.4800000000005,
@@ -3889,10 +3889,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229312.78018826462,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
           "intersection_volume": 2687.1600000000003,
@@ -3910,10 +3910,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 78714.75572486868,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
           "intersection_volume": 2023.1999999999998,
@@ -3931,10 +3931,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/53b083ab-cb70-4096-b385-85590ddc370c",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 18115.968468297848,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_cardiac_atrium",
           "intersection_volume": 553.3919999999999,
@@ -3948,7 +3948,7 @@
           "tissue_volume": 4536
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 3612.9788196425684,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_aortic_valve",
           "intersection_volume": 22.68,
@@ -3966,10 +3966,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 229312.78018826462,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
           "intersection_volume": 3549.1499999999996,
@@ -3983,7 +3983,7 @@
           "tissue_volume": 7425
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 78714.75572486868,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
           "intersection_volume": 883.5749999999999,
@@ -3997,7 +3997,7 @@
           "tissue_volume": 7425
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 4401.498768462402,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_papillary_muscle_of_heart_posmed",
           "intersection_volume": 631.125,
@@ -4011,7 +4011,7 @@
           "tissue_volume": 7425
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 65894.53465930313,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_interventricular_septum",
           "intersection_volume": 5531.625,
@@ -4029,10 +4029,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/9f2c1d5d-2ad4-4a7a-ad95-622c7328b554",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 33225.90134453539,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_cardiac_atrium",
           "intersection_volume": 2096.64,
@@ -4050,10 +4050,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 3397.6319999999996,
@@ -4071,10 +4071,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 2406.144,
@@ -4092,10 +4092,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 73988.45321948585,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_right_ventricle",
           "intersection_volume": 1348.032,
@@ -4113,10 +4113,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 73988.45321948585,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_right_ventricle",
           "intersection_volume": 765.45,
@@ -4130,7 +4130,7 @@
           "tissue_volume": 2430
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 838.3499999999999,
@@ -4144,7 +4144,7 @@
           "tissue_volume": 2430
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 28091.876066633104,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_interventricular_septum",
           "intersection_volume": 1334.0700000000002,
@@ -4162,10 +4162,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/bb9dbc76-88b2-43ad-9401-e1e87424efa5",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 121604.20702742106,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
           "intersection_volume": 0,
@@ -4179,7 +4179,7 @@
           "tissue_volume": 8000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 3027.4597496806114,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_aortic_valve",
           "intersection_volume": 80,
@@ -4193,7 +4193,7 @@
           "tissue_volume": 8000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 3141.4046443684797,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_mitral_valve",
           "intersection_volume": 0,
@@ -4207,7 +4207,7 @@
           "tissue_volume": 8000
         },
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 31346.0636820313,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_cardiac_atrium",
           "intersection_volume": 4584,
@@ -4225,10 +4225,10 @@
     {
       "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/7296fad6-bf8e-49da-8f4a-ef76ee4cfeac",
-      "collition_method": "MESH",
+      "collision_method": "MESH",
       "collisions": [
         {
-          "@type": "Collision",
+          "@type": "CollisionItem",
           "AS_volume": 27714.91711157488,
           "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_cardiac_atrium",
           "intersection_volume": 705.76,
