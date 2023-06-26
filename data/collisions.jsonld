@@ -15,7 +15,8 @@
       "@id": "ccf:has_collision_summary"
     },
     "collision_source": {
-      "@reverse": "ccf:has_collision_summary"
+      "@reverse": "ccf:has_collision_summary",
+      "@type": "@id"
     },
     "collisions": {
       "@id": "ccf:has_collision_item"
@@ -24,7 +25,8 @@
       "@id": "ccf:has_cell_summary"
     },
     "cell_source": {
-      "@reverse": "ccf:has_cell_summary"
+      "@reverse": "ccf:has_cell_summary",
+      "@type": "@id"
     },
     "annotation_method": {
       "@id": "ccf:cell_annotation_method"
