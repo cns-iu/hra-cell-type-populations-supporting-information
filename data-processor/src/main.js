@@ -33,6 +33,11 @@ if (CLEAN || !existsSync('../data/cell-summaries.jsonld')) {
   sh.exec('npm run generate:cell-summaries');
 }
 
+// Generate rui location collisions
+if (CLEAN || !existsSync('../data/collisions.jsonld')) {
+  sh.exec('npm run generate:collisions');
+}
+
 // Combine the data
 if (CLEAN || !existsSync('../data/rui_locations_with_summaries.jsonld')) {
   sh.exec('npm run generate:combined-data');

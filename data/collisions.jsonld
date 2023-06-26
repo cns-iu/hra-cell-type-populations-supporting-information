@@ -1,0 +1,4247 @@
+{
+  "@context": {
+    "CL": {
+      "@id": "http://purl.obolibrary.org/obo/CL_",
+      "@prefix": true
+    },
+    "ASCTB-TEMP": {
+      "@id": "https://purl.org/ccf/ASCTB-TEMP_",
+      "@prefix": true
+    },
+    "summaries": {
+      "@id": "ccf:has_cell_summary"
+    },
+    "cell_source": {
+      "@reverse": "ccf:has_cell_summary"
+    },
+    "annotation_method": {
+      "@id": "ccf:cell_annotation_method"
+    },
+    "summary": {
+      "@id": "ccf:has_cell_summary_row"
+    },
+    "cell_id": {
+      "@type": "@id"
+    },
+    "count": {
+      "@id": "ccf:cell_count"
+    },
+    "percentage": {
+      "@id": "ccf:percentage_of_total"
+    },
+    "@base": "http://purl.org/ccf/",
+    "@vocab": "http://purl.org/ccf/",
+    "ccf": "http://purl.org/ccf/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "label": "rdfs:label",
+    "description": "rdfs:comment",
+    "link": "ccf:url",
+    "sex": "ccf:sex",
+    "age": "ccf:age",
+    "bmi": "ccf:bmi",
+    "consortium_name": "ccf:consortium_name",
+    "provider_name": "ccf:tissue_provider_name",
+    "provider_uuid": "ccf:tissue_provider_uuid",
+    "donor": {
+      "@id": "ccf:comes_from",
+      "@type": "@id"
+    },
+    "samples": {
+      "@reverse": "donor"
+    },
+    "sections": {
+      "@id": "ccf:subdivided_into_sections",
+      "@type": "@id"
+    },
+    "datasets": {
+      "@id": "ccf:generates_dataset",
+      "@type": "@id"
+    },
+    "sample_type": "ccf:sample_type",
+    "section_count": "ccf:section_count",
+    "section_size": "ccf:section_size",
+    "section_units": "ccf:section_size_unit",
+    "section_number": "ccf:section_number",
+    "rui_location": {
+      "@id": "ccf:has_registration_location",
+      "@type": "@id"
+    },
+    "ccf_annotations": {
+      "@id": "ccf:collides_with",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "representation_of": {
+      "@id": "ccf:representation_of",
+      "@type": "@id"
+    },
+    "reference_organ": {
+      "@id": "ccf:has_reference_organ",
+      "@type": "@id"
+    },
+    "extraction_set_for": {
+      "@id": "ccf:extraction_set_for",
+      "@type": "@id"
+    },
+    "extraction_set": {
+      "@id": "ccf:has_extraction_set",
+      "@type": "@id"
+    },
+    "organ_owner_sex": "ccf:organ_owner_sex",
+    "side": "ccf:organ_side",
+    "rui_rank": "ccf:rui_rank",
+    "slice_thickness": "ccf:slice_thickness",
+    "slice_count": "ccf:slice_count",
+    "object": {
+      "@id": "ccf:has_object_reference",
+      "@type": "@id"
+    },
+    "creation_date": "dcterms:created",
+    "updated_date": "ccf:updated_date",
+    "creator": "dcterms:creator",
+    "creator_first_name": "ccf:creator_first_name",
+    "creator_last_name": "ccf:creator_last_name",
+    "placement": {
+      "@reverse": "ccf:placement_for"
+    },
+    "placement_date": "dcterms:created",
+    "rotation_order": "ccf:rotation_order",
+    "dimension_units": "ccf:dimension_unit",
+    "rotation_units": "ccf:rotation_unit",
+    "scaling_units": "ccf:scaling_unit",
+    "translation_units": "ccf:translation_unit",
+    "source": {
+      "@id": "ccf:placement_for",
+      "@type": "@id"
+    },
+    "target": {
+      "@id": "ccf:placement_relative_to",
+      "@type": "@id"
+    },
+    "x_rotation": "ccf:x_rotation",
+    "y_rotation": "ccf:y_rotation",
+    "z_rotation": "ccf:z_rotation",
+    "x_scaling": "ccf:x_scaling",
+    "y_scaling": "ccf:y_scaling",
+    "z_scaling": "ccf:z_scaling",
+    "x_translation": "ccf:x_translation",
+    "y_translation": "ccf:y_translation",
+    "z_translation": "ccf:z_translation",
+    "x_dimension": "ccf:x_dimension",
+    "y_dimension": "ccf:y_dimension",
+    "z_dimension": "ccf:z_dimension",
+    "ontology_terms": {
+      "@id": "ccf:has_ontology_term",
+      "@type": "@id"
+    },
+    "technology": "ccf:technology",
+    "thumbnail": "ccf:thumbnail",
+    "file": "ccf:file_url",
+    "file_format": "ccf:file_format",
+    "file_subpath": "ccf:file_subpath"
+  },
+  "@graph": [
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2109804.44224585,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_M_skin",
+          "organ": "VH_M_Skin",
+          "percentage_of_AS": 0.00047397757819464894,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1833227.3262579252,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_skin",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_F_skin",
+          "organ": "3d-vh-f-skin",
+          "percentage_of_AS": 0.00054548608657348,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1.1932078113407396,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_main_lactiferous_ducts_R",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "main lactiferous duct",
+          "node_name": "VH_F_main_lactiferous_ducts_R",
+          "organ": "3d-vh-f-mammary-gland-r",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62102",
+          "tissue_volume": 400
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 726890.7114561738,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_fat_R",
+          "intersection_volume": 384.8,
+          "is_closed": true,
+          "label": "Interlobar adipose tissue of right mammary gland",
+          "node_name": "VH_F_fat_R",
+          "organ": "3d-vh-f-mammary-gland-r",
+          "percentage_of_AS": 0.0005293780673426595,
+          "percentage_of_tissue_block": 0.962,
+          "representation_of": "http://purl.org/sig/ont/fma/fma73165",
+          "tissue_volume": 400
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 174591.38859003442,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Left apical bronchopulmonary segment",
+          "node_name": "VH_M_left_apical_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.005727659354082711,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7385",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 113080.27590387041,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_apical_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Left apical bronchopulmonary segment",
+          "node_name": "VH_F_left_apical_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.00884327520433449,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7385",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 155013.6722653357,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_posterior_bronchopulmonary_segment",
+          "intersection_volume": 980,
+          "is_closed": true,
+          "label": "Left posterior bronchopulmonary segment",
+          "node_name": "VH_F_left_posterior_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.006322022991123916,
+          "percentage_of_tissue_block": 0.98,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7386",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 33225.90134453539,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_cardiac_atrium",
+          "intersection_volume": 564,
+          "is_closed": true,
+          "label": "right cardiac atrium",
+          "node_name": "VH_F_right_cardiac_atrium",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.016974708801775217,
+          "percentage_of_tissue_block": 0.705,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "tissue_volume": 800
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 27714.91711157488,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_cardiac_atrium",
+          "intersection_volume": 321.6,
+          "is_closed": true,
+          "label": "right cardiac atrium",
+          "node_name": "VH_M_right_cardiac_atrium",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.011603859347848699,
+          "percentage_of_tissue_block": 0.402,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "tissue_volume": 800
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 4502.338753224233,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_peripheral_zone_of_prostate_R",
+          "intersection_volume": 319.2,
+          "is_closed": true,
+          "label": "peripheral zone of prostate",
+          "node_name": "VH_M_peripheral_zone_of_prostate_R",
+          "organ": "VH_M_Prostate",
+          "percentage_of_AS": 0.07089648680286732,
+          "percentage_of_tissue_block": 0.456,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_8410026",
+          "tissue_volume": 700
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 1846.3797002366734,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_central_zone_of_prostate_R",
+          "intersection_volume": 33.6,
+          "is_closed": true,
+          "label": "central zone of prostate",
+          "node_name": "VH_M_central_zone_of_prostate_R",
+          "organ": "VH_M_Prostate",
+          "percentage_of_AS": 0.01819777372752369,
+          "percentage_of_tissue_block": 0.048,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_8410027",
+          "tissue_volume": 700
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 4398.494894308656,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_peripheral_zone_of_prostate_L",
+          "intersection_volume": 320.6,
+          "is_closed": true,
+          "label": "peripheral zone of prostate",
+          "node_name": "VH_M_peripheral_zone_of_prostate_L",
+          "organ": "VH_M_Prostate",
+          "percentage_of_AS": 0.07288856931829885,
+          "percentage_of_tissue_block": 0.458,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_8410026",
+          "tissue_volume": 700
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 1753.8123471207089,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_central_zone_of_prostate_L",
+          "intersection_volume": 30.099999999999998,
+          "is_closed": true,
+          "label": "central zone of prostate",
+          "node_name": "VH_M_central_zone_of_prostate_L",
+          "organ": "VH_M_Prostate",
+          "percentage_of_AS": 0.01716261152421247,
+          "percentage_of_tissue_block": 0.043,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_8410027",
+          "tissue_volume": 700
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 6.506044629495488,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ejaculatory_duct",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "ejaculatory duct",
+          "node_name": "VH_M_ejaculatory_duct",
+          "organ": "VH_M_Prostate",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0000999",
+          "tissue_volume": 700
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 6251.962236821093,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_kidney_capsule_L",
+          "intersection_volume": 5.159999999999999,
+          "is_closed": true,
+          "label": "kidney capsule",
+          "node_name": "VH_M_kidney_capsule_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.0008253408777183659,
+          "percentage_of_tissue_block": 0.086,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002015",
+          "tissue_volume": 60
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 119897.3006204218,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "intersection_volume": 40.5,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.00033778908941592753,
+          "percentage_of_tissue_block": 0.675,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 60
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 3093.1728906729513,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_e",
+          "intersection_volume": 14.299999999999999,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_M_renal_pyramid_L_e",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.004623084614222416,
+          "percentage_of_tissue_block": 0.143,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 100
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 7937.076400845168,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_of_kidney_L",
+          "intersection_volume": 66.10000000000001,
+          "is_closed": true,
+          "label": "hilum of kidney",
+          "node_name": "VH_M_hilum_of_kidney_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.008328003494203665,
+          "percentage_of_tissue_block": 0.661,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0008716",
+          "tissue_volume": 100
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 119897.3006204218,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "intersection_volume": 9.2,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.00007673233636114896,
+          "percentage_of_tissue_block": 0.092,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 100
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 39325.42900374378,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_L",
+          "intersection_volume": 85.2,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_M_renal_column_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.0021665370768590717,
+          "percentage_of_tissue_block": 0.852,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 100
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/6ce58ee2-74b9-4137-9325-ced797dcd6ac",
+      "collition_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/19fee435-ebad-476c-bc9a-e11d2cee035e",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1685.7997616979503,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ureter_L",
+          "intersection_volume": 0.568,
+          "is_closed": true,
+          "label": "left ureter",
+          "node_name": "VH_M_ureter_L",
+          "organ": "VH_M_Ureter_L",
+          "percentage_of_AS": 0.00033693206803393186,
+          "percentage_of_tissue_block": 0.071,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "tissue_volume": 8
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9fa9fb64-7e86-4fcc-bc14-cd7a9ff421fe",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1685.7997616979503,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ureter_L",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "left ureter",
+          "node_name": "VH_M_ureter_L",
+          "organ": "VH_M_Ureter_L",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "tissue_volume": 18
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/df0b33f7-371a-47a4-a636-a27db19bdbc9",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 109924.98451694223,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_R",
+          "intersection_volume": 48,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_R",
+          "organ": "VH_M_Kidney_R",
+          "percentage_of_AS": 0.00043666142152243813,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 48
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 23707.44497576003,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_R",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_M_renal_column_R",
+          "organ": "VH_M_Kidney_R",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 48
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/69ac0df4-f442-4d62-90dc-86fcbc38eb23",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 4454.755408253576,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_a",
+          "intersection_volume": 40,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_M_renal_pyramid_a",
+          "organ": "VH_M_Kidney_R",
+          "percentage_of_AS": 0.008979168626382887,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 40
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1994d754-ccc2-4853-94f8-cbd2cbe83fcb",
+      "collition_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1702.3886560514197,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_R_i",
+          "intersection_volume": 54.053999999999995,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_R_i",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.03175185631545193,
+          "percentage_of_tissue_block": 0.693,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 78
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f3e1e325-c002-42bb-a61c-043a5ec1ca70",
+      "collition_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/4ae53bc8-b6da-4ba9-9030-a93ae44389b9",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 52318.486980407615,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
+          "intersection_volume": 18,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_F_renal_column_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.0003440466465848046,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 18
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 52318.486980407615,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_F_renal_column_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 120
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 3490.2346421466227,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_R_a",
+          "intersection_volume": 119.88,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_R_a",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.034347260941249895,
+          "percentage_of_tissue_block": 0.999,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 120
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/825ec2b8-1291-4633-8a63-b35c7cd709bd",
+      "collition_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5764d42e-95e4-4e5a-b36e-ca498354906d",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 668.6659597939507,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ureter",
+          "intersection_volume": 8.52,
+          "is_closed": true,
+          "label": "left ureter",
+          "node_name": "VH_F_left_ureter",
+          "organ": "VH_F_Ureter_L",
+          "percentage_of_AS": 0.0127417881457962,
+          "percentage_of_tissue_block": 0.355,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "tissue_volume": 24
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/c5e652ed-7e40-41de-bfc0-a73f05a0c66a",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 668.6659597939507,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ureter",
+          "intersection_volume": 4.96,
+          "is_closed": true,
+          "label": "left ureter",
+          "node_name": "VH_F_left_ureter",
+          "organ": "VH_F_Ureter_L",
+          "percentage_of_AS": 0.007417754601308586,
+          "percentage_of_tissue_block": 0.155,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "tissue_volume": 32
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/29e439fb-cfec-4c2d-a14e-3bc60eb8e255",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 29.417921736041613,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_L_h",
+          "intersection_volume": 3.4079999999999995,
+          "is_closed": true,
+          "label": "renal papilla",
+          "node_name": "VH_M_renal_papilla_L_h",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.11584774854522302,
+          "percentage_of_tissue_block": 0.284,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001228",
+          "tissue_volume": 12
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 2112.7873270933665,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_h",
+          "intersection_volume": 12,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_M_renal_pyramid_L_h",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.005679700860620368,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 12
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 39325.42900374378,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_L",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_M_renal_column_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 12
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8835013d-ef68-40ae-80fb-c5f07f4cc4c6",
+      "collition_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/72ea5aad-4be7-4478-afc0-7736bc0d90e3",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 29.417921736041613,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_L_h",
+          "intersection_volume": 11.040000000000001,
+          "is_closed": true,
+          "label": "renal papilla",
+          "node_name": "VH_M_renal_papilla_L_h",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.3752814389493141,
+          "percentage_of_tissue_block": 0.92,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001228",
+          "tissue_volume": 12
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 2112.7873270933665,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_h",
+          "intersection_volume": 8.244,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_M_renal_pyramid_L_h",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.0039019544912461926,
+          "percentage_of_tissue_block": 0.687,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 12
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/4e2e6f98-ec16-4627-a06a-d3cdc282ee1c",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 52318.486980407615,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
+          "intersection_volume": 6.468,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_F_renal_column_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.00012362742833947312,
+          "percentage_of_tissue_block": 0.539,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 12
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/08cd7da7-0323-4560-940c-9237a6b3e7c5",
+      "collition_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 132321.25643167266,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_L",
+          "intersection_volume": 16,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_F_outer_cortex_of_kidney_L",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.00012091783611699601,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 16
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 8149.50311414705,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_a",
+          "intersection_volume": 9.216,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_L_a",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.0011308664922161419,
+          "percentage_of_tissue_block": 0.576,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 16
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8f99a469-7d51-46dc-919d-2e002eeae868",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2480.1476405575104,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_b",
+          "intersection_volume": 30,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_L_b",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.012096054085415787,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 30
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 119897.3006204218,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "intersection_volume": 48,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.00040034262449295115,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 48
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 72301.89436880287,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_L",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_F_renal_column_L",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 10
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 2673.2509528132887,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_j",
+          "intersection_volume": 9.99,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_L_j",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.003737022889484684,
+          "percentage_of_tissue_block": 0.999,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 10
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2149.5983209770147,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_h",
+          "intersection_volume": 23.951999999999998,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_L_h",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.011142546849921973,
+          "percentage_of_tissue_block": 0.998,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 24
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 84566.4834520329,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_R",
+          "intersection_volume": 11.532,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_F_outer_cortex_of_kidney_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.0001363660818004935,
+          "percentage_of_tissue_block": 0.961,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 12
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 10055.261678806379,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_kidney_capsule_R",
+          "intersection_volume": 0.372,
+          "is_closed": true,
+          "label": "kidney capsule",
+          "node_name": "VH_F_kidney_capsule_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.00003699555634480103,
+          "percentage_of_tissue_block": 0.031,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002015",
+          "tissue_volume": 12
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 119897.3006204218,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "intersection_volume": 12,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.00010008565612323779,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 12
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/bd004aeb-6e60-4d5b-8d40-cfdd55b8b6fe",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 132321.25643167266,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_L",
+          "intersection_volume": 26,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_F_outer_cortex_of_kidney_L",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.00019649148369011853,
+          "percentage_of_tissue_block": 0.5,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 52
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 72301.89436880287,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_L",
+          "intersection_volume": 15.235999999999999,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_F_renal_column_L",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.00021072753532961502,
+          "percentage_of_tissue_block": 0.293,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 52
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 8149.50311414705,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_a",
+          "intersection_volume": 9.203999999999999,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_L_a",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.001129394009804402,
+          "percentage_of_tissue_block": 0.177,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 52
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1f414fc5-cb93-45b7-a1b8-0cd21dfa9f7d",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1685.7997616979503,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ureter_L",
+          "intersection_volume": 0.28,
+          "is_closed": true,
+          "label": "left ureter",
+          "node_name": "VH_M_ureter_L",
+          "organ": "VH_M_Ureter_L",
+          "percentage_of_AS": 0.00016609327297447348,
+          "percentage_of_tissue_block": 0.035,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "tissue_volume": 8
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f3f2fabb-6802-4fd4-920e-1914293db252",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 6220.839356878388,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_a",
+          "intersection_volume": 0.04,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_M_renal_pyramid_L_a",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.000006430000471845003,
+          "percentage_of_tissue_block": 0.001,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 40
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 119897.3006204218,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "intersection_volume": 40,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.00033361885374412595,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 40
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 52318.486980407615,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_F_renal_column_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 50
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 3490.2346421466227,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_R_a",
+          "intersection_volume": 49.35,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_R_a",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.014139450512601622,
+          "percentage_of_tissue_block": 0.987,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 50
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 84566.4834520329,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_R",
+          "intersection_volume": 1.95,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_F_outer_cortex_of_kidney_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.00002305878074149864,
+          "percentage_of_tissue_block": 0.039,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 50
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/30bfa399-ca75-4790-a7ec-dfb3c594300c",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 52318.486980407615,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_R",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_F_renal_column_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 12
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2a9e525a-4ad9-4085-bca9-31a2d0512008",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 84566.4834520329,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_R",
+          "intersection_volume": 29.43,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_F_outer_cortex_of_kidney_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.00034801021396015645,
+          "percentage_of_tissue_block": 0.981,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 30
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 10055.261678806379,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_kidney_capsule_R",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "kidney capsule",
+          "node_name": "VH_F_kidney_capsule_R",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002015",
+          "tissue_volume": 30
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/85ad9566-c363-4b61-a522-6576b253d9af",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2260.911816312626,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_R_f",
+          "intersection_volume": 30,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_R_f",
+          "organ": "VH_F_Kidney_R",
+          "percentage_of_AS": 0.013268982798686817,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 30
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/c07ec91d-9dbe-4132-a93c-b960895b009d",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 6220.839356878388,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_a",
+          "intersection_volume": 21.880000000000003,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_M_renal_pyramid_L_a",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.003517210258099217,
+          "percentage_of_tissue_block": 0.547,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 40
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 119897.3006204218,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "intersection_volume": 22.040000000000003,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.00018382398841301342,
+          "percentage_of_tissue_block": 0.551,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 40
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1911.7967343114315,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_d",
+          "intersection_volume": 11.328,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_M_renal_pyramid_d",
+          "organ": "VH_M_Kidney_R",
+          "percentage_of_AS": 0.0059253161158265,
+          "percentage_of_tissue_block": 0.944,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 12
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 32.276429899249116,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_R_d",
+          "intersection_volume": 5.712,
+          "is_closed": true,
+          "label": "renal papilla",
+          "node_name": "VH_M_renal_papilla_R_d",
+          "organ": "VH_M_Kidney_R",
+          "percentage_of_AS": 0.17697124551352206,
+          "percentage_of_tissue_block": 0.476,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001228",
+          "tissue_volume": 12
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 23707.44497576003,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_R",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_M_renal_column_R",
+          "organ": "VH_M_Kidney_R",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 12
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 109924.98451694223,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_R",
+          "intersection_volume": 12,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_R",
+          "organ": "VH_M_Kidney_R",
+          "percentage_of_AS": 0.00010916535538060953,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 12
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 132321.25643167266,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_L",
+          "intersection_volume": 24.696,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_F_outer_cortex_of_kidney_L",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.00018663668004658337,
+          "percentage_of_tissue_block": 0.343,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 72
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 72301.89436880287,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_column_L",
+          "intersection_volume": 0.432,
+          "is_closed": true,
+          "label": "renal column",
+          "node_name": "VH_F_renal_column_L",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.000005974947181832088,
+          "percentage_of_tissue_block": 0.006,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "tissue_volume": 72
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 2896.4763032763044,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_k",
+          "intersection_volume": 43.704,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_F_renal_pyramid_L_k",
+          "organ": "VH_F_Kidney_L",
+          "percentage_of_AS": 0.015088678595631837,
+          "percentage_of_tissue_block": 0.607,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 72
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3a25960a-8e7a-4020-8dfb-8ce6c3423e35",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1685.7997616979503,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_ureter_L",
+          "intersection_volume": 0.168,
+          "is_closed": true,
+          "label": "left ureter",
+          "node_name": "VH_M_ureter_L",
+          "organ": "VH_M_Ureter_L",
+          "percentage_of_AS": 0.0000996559637846841,
+          "percentage_of_tissue_block": 0.021,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "tissue_volume": 8
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/7f7fe1b0-d9f6-48c2-a304-2ea5874c7392",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 6220.839356878388,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_a",
+          "intersection_volume": 30,
+          "is_closed": true,
+          "label": "renal pyramid",
+          "node_name": "VH_M_renal_pyramid_L_a",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.0048225003538837526,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "tissue_volume": 30
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 119897.3006204218,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "intersection_volume": 1.2,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_L",
+          "organ": "VH_M_Kidney_L",
+          "percentage_of_AS": 0.000010008565612323779,
+          "percentage_of_tissue_block": 0.04,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 30
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1833227.3262579252,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_skin",
+          "intersection_volume": 2730,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_F_skin",
+          "organ": "3d-vh-f-skin",
+          "percentage_of_AS": 0.0014891770163456006,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 2730
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 109924.98451694223,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_R",
+          "intersection_volume": 180,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_R",
+          "organ": "VH_M_Kidney_R",
+          "percentage_of_AS": 0.001637480330709143,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 180
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/6a6392a9-8ac1-4666-a684-83d310ca055f",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 109924.98451694223,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_R",
+          "intersection_volume": 120,
+          "is_closed": true,
+          "label": "outer cortex of kidney",
+          "node_name": "VH_M_outer_cortex_of_kidney_R",
+          "organ": "VH_M_Kidney_R",
+          "percentage_of_AS": 0.0010916535538060953,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "tissue_volume": 120
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/594902fb-c4c1-47c3-b98e-3101b93a73e4",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229964.967376884,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 295,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_M_right_medial_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0012828040869222123,
+          "percentage_of_tissue_block": 0.59,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 665.0720323461572,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchus",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "Lateral segmental bronchus",
+          "node_name": "VH_M_right_lateral_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7402",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 162410.67838873283,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
+          "intersection_volume": 500,
+          "is_closed": true,
+          "label": "Right Lateral Bronchopulmonary Segment",
+          "node_name": "VH_M_right_lateral_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0030786153038733152,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7361",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/fd4fcec2-93c3-428f-ad3a-6c7ac4196da0",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229964.967376884,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 125,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_M_right_medial_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0005435610537805984,
+          "percentage_of_tissue_block": 0.25,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 162410.67838873283,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
+          "intersection_volume": 500,
+          "is_closed": true,
+          "label": "Right Lateral Bronchopulmonary Segment",
+          "node_name": "VH_M_right_lateral_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0030786153038733152,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7361",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/d51b9d67-837f-4451-a6c6-0b63c7879736",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229964.967376884,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 500,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_M_right_medial_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0021742442151223935,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f15f5400-2ef9-45fc-bf0f-72f14d6f8f9e",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229964.967376884,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 750,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_M_right_medial_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0032613663226835907,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 750
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/aba1ebe3-af18-40cc-b536-b89843049ca5",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 162410.67838873283,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
+          "intersection_volume": 500,
+          "is_closed": true,
+          "label": "Right Lateral Bronchopulmonary Segment",
+          "node_name": "VH_M_right_lateral_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0030786153038733152,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7361",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/95190b47-b491-448a-8e9b-06d804bf2aa1",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229964.967376884,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 500,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_M_right_medial_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0021742442151223935,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/d662fd53-e925-4921-8d8b-bc91eed1519b",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229964.967376884,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 746.25,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_M_right_medial_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0032450594910701726,
+          "percentage_of_tissue_block": 0.995,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 750
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/616ef33e-ebcc-4ece-b440-ca218440c8b4",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 134220.5204724595,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_basal_bronchopulmonary_segment",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "left anterior basal bronchopulmonary segment",
+          "node_name": "VH_M_left_anterior_basal_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7378",
+          "tissue_volume": 2000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 130425.01976049297,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_inferior_bronchopulmonary_segment",
+          "intersection_volume": 1750,
+          "is_closed": true,
+          "label": "Inferior lingular bronchopulmonary segment",
+          "node_name": "VH_M_left_lingula_inferior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0134176709592502,
+          "percentage_of_tissue_block": 0.875,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7375",
+          "tissue_volume": 2000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 74774.75406217681,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_medial_basal_bronchopulmonary_segment",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "Left Medial Basal Bronchopulmonary Segment",
+          "node_name": "VH_M_left_medial_basal_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7377",
+          "tissue_volume": 2000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/76c77da1-c978-48fe-b30b-aeff33a5d054",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 299217.88085006404,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "intersection_volume": 95,
+          "is_closed": true,
+          "label": "Superior lingular bronchopulmonary segment",
+          "node_name": "VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.00031749439482062176,
+          "percentage_of_tissue_block": 0.038,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7374",
+          "tissue_volume": 2500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 6110.627309348264,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
+          "intersection_volume": 60,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_M_bronchial_cartilage",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.009818959161232068,
+          "percentage_of_tissue_block": 0.024,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 2500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": -31882.546652878846,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_L",
+          "intersection_volume": 434.99999999999994,
+          "is_closed": true,
+          "label": "left lung hilus",
+          "node_name": "VH_M_hilum_L",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": -0.013643828541554772,
+          "percentage_of_tissue_block": 0.174,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004887",
+          "tissue_volume": 2500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 1850.032560770765,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
+          "intersection_volume": 7.5,
+          "is_closed": true,
+          "label": "Left apical segmental bronchus",
+          "node_name": "VH_M_left_apical_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.004053982702269484,
+          "percentage_of_tissue_block": 0.003,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7426",
+          "tissue_volume": 2500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": -14467.802594773204,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_upper_L",
+          "intersection_volume": 434.99999999999994,
+          "is_closed": true,
+          "label": "left lung hilus",
+          "node_name": "VH_M_hilum_upper_L",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": -0.03006676357038164,
+          "percentage_of_tissue_block": 0.174,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004887",
+          "tissue_volume": 2500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 444225.1660432583,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "intersection_volume": 2490,
+          "is_closed": true,
+          "label": "Left Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_left_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0056052655057312216,
+          "percentage_of_tissue_block": 0.996,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7373",
+          "tissue_volume": 2500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 4557.780981819779,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchus",
+          "intersection_volume": 732.5,
+          "is_closed": true,
+          "label": "Left anterior segmental bronchus",
+          "node_name": "VH_M_left_anterior_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.16071417273489427,
+          "percentage_of_tissue_block": 0.293,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7428",
+          "tissue_volume": 2500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8c2283cd-667a-4fa1-9026-50e30bcfdcd1",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 299217.88085006404,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Superior lingular bronchopulmonary segment",
+          "node_name": "VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.003342046261269703,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7374",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 254.0222038066852,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchus",
+          "intersection_volume": 17,
+          "is_closed": true,
+          "label": "Superior lingular bronchus",
+          "node_name": "VH_M_left_lingula_superior_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.06692328365490939,
+          "percentage_of_tissue_block": 0.017,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7430",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 6110.627309348264,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
+          "intersection_volume": 5,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_M_bronchial_cartilage",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.000818246596769339,
+          "percentage_of_tissue_block": 0.005,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 130425.01976049297,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_inferior_bronchopulmonary_segment",
+          "intersection_volume": 81,
+          "is_closed": true,
+          "label": "Inferior lingular bronchopulmonary segment",
+          "node_name": "VH_M_left_lingula_inferior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0006210464843995807,
+          "percentage_of_tissue_block": 0.081,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7375",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 608.5577220324557,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingular_bronchus",
+          "intersection_volume": 171,
+          "is_closed": true,
+          "label": "-",
+          "node_name": "VH_M_left_lingular_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.2809922441356848,
+          "percentage_of_tissue_block": 0.171,
+          "representation_of": "-",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 390.2277124929794,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_inferior_bronchus",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "Inferior lingular bronchus",
+          "node_name": "VH_M_left_lingula_inferior_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7431",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3e6d37df-e4f3-4654-b06d-3a76c2e665ea",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 299217.88085006404,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "intersection_volume": 1500,
+          "is_closed": true,
+          "label": "Superior lingular bronchopulmonary segment",
+          "node_name": "VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.005013069391904554,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7374",
+          "tissue_volume": 1500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 6110.627309348264,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
+          "intersection_volume": 24,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_M_bronchial_cartilage",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.003927583664492827,
+          "percentage_of_tissue_block": 0.016,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 1500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 608.5577220324557,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingular_bronchus",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "-",
+          "node_name": "VH_M_left_lingular_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "-",
+          "tissue_volume": 1500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 444225.1660432583,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "intersection_volume": 1003.5000000000001,
+          "is_closed": true,
+          "label": "Left Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_left_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0022589895321290287,
+          "percentage_of_tissue_block": 0.669,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7373",
+          "tissue_volume": 1500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 4557.780981819779,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchus",
+          "intersection_volume": 307.5,
+          "is_closed": true,
+          "label": "Left anterior segmental bronchus",
+          "node_name": "VH_M_left_anterior_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.06746704179655971,
+          "percentage_of_tissue_block": 0.205,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7428",
+          "tissue_volume": 1500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/840b29a9-5a04-41cc-908d-0c4fa5720366",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 240984.6890340136,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_posterior_bronchopulmonary_segment",
+          "intersection_volume": 1467,
+          "is_closed": true,
+          "label": "Left posterior bronchopulmonary segment",
+          "node_name": "VH_M_left_posterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.006087523675800587,
+          "percentage_of_tissue_block": 0.978,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7386",
+          "tissue_volume": 1500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 174591.38859003442,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
+          "intersection_volume": 1500,
+          "is_closed": true,
+          "label": "Left apical bronchopulmonary segment",
+          "node_name": "VH_M_left_apical_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.008591489031124066,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7385",
+          "tissue_volume": 1500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/39e72b20-77e5-45a5-bb0e-f374ea5894ad",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 1463.3999999999999,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.01203412312593767,
+          "percentage_of_tissue_block": 0.813,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 1800
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ce5f3bd0-f091-49fe-8fe5-67004848078b",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 73988.45321948585,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_right_ventricle",
+          "intersection_volume": 275,
+          "is_closed": true,
+          "label": "heart right ventricle",
+          "node_name": "VH_M_heart_right_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.0037167961760765,
+          "percentage_of_tissue_block": 0.275,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1995aefd-5289-4652-a7e0-cc66c495649f",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229312.78018826462,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
+          "intersection_volume": 1491.7630000000001,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_F_left_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.006505363542211953,
+          "percentage_of_tissue_block": 0.679,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 2197
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 78714.75572486868,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
+          "intersection_volume": 347.126,
+          "is_closed": true,
+          "label": "heart right ventricle",
+          "node_name": "VH_F_right_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.004409922851228909,
+          "percentage_of_tissue_block": 0.158,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "tissue_volume": 2197
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 65894.53465930313,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_interventricular_septum",
+          "intersection_volume": 127.426,
+          "is_closed": true,
+          "label": "interventricular septum",
+          "node_name": "VH_F_interventricular_septum",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.0019337870835394045,
+          "percentage_of_tissue_block": 0.058,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002094",
+          "tissue_volume": 2197
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/0cd47185-8e8a-4f56-a167-bf93de928553",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 185551.3043128985,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "intersection_volume": 600,
+          "is_closed": true,
+          "label": "Right anterior basal bronchopulmonary segment",
+          "node_name": "VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.00323360701894183,
+          "percentage_of_tissue_block": 0.6,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7364",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 83916.23058980214,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
+          "intersection_volume": 484,
+          "is_closed": true,
+          "label": "Right Lateral Bronchopulmonary Segment",
+          "node_name": "VH_F_right_lateral_bronchopulmonary_segmennt",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.005767656585599994,
+          "percentage_of_tissue_block": 0.484,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7361",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f8a20a09-a700-439b-a518-60347cd7b156",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 149921.38883926737,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 602,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_F_right_medial_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.004015437721467561,
+          "percentage_of_tissue_block": 0.602,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 185551.3043128985,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "intersection_volume": 431,
+          "is_closed": true,
+          "label": "Right anterior basal bronchopulmonary segment",
+          "node_name": "VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.002322807708606548,
+          "percentage_of_tissue_block": 0.431,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7364",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 83916.23058980214,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
+          "intersection_volume": 237,
+          "is_closed": true,
+          "label": "Right Lateral Bronchopulmonary Segment",
+          "node_name": "VH_F_right_lateral_bronchopulmonary_segmennt",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.002824245063609914,
+          "percentage_of_tissue_block": 0.237,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7361",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ca4a4754-6937-4d08-9eb0-bf400492c22c",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 149921.38883926737,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_F_right_medial_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.006670162328019204,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/09b9e49f-dd9c-4f9f-a7dc-258ac0d08530",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 185551.3043128985,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "intersection_volume": 245,
+          "is_closed": true,
+          "label": "Right anterior basal bronchopulmonary segment",
+          "node_name": "VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0013203895327345806,
+          "percentage_of_tissue_block": 0.245,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7364",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 83916.23058980214,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
+          "intersection_volume": 737,
+          "is_closed": true,
+          "label": "Right Lateral Bronchopulmonary Segment",
+          "node_name": "VH_F_right_lateral_bronchopulmonary_segmennt",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.008782567982618172,
+          "percentage_of_tissue_block": 0.737,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7361",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/25c3d20d-d856-4a22-b926-6ee9a5f4a1d4",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 185551.3043128985,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "intersection_volume": 927,
+          "is_closed": true,
+          "label": "Right anterior basal bronchopulmonary segment",
+          "node_name": "VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.004995922844265127,
+          "percentage_of_tissue_block": 0.927,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7364",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 83916.23058980214,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
+          "intersection_volume": 116,
+          "is_closed": true,
+          "label": "Right Lateral Bronchopulmonary Segment",
+          "node_name": "VH_F_right_lateral_bronchopulmonary_segmennt",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0013823309172099158,
+          "percentage_of_tissue_block": 0.116,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7361",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8af0476d-e6e6-4b55-afae-5eec8c9c1cb5",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 149921.38883926737,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 287.71875,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_F_right_medial_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0019191307673147755,
+          "percentage_of_tissue_block": 0.341,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 843.75
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 185551.3043128985,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "intersection_volume": 634.5,
+          "is_closed": true,
+          "label": "Right anterior basal bronchopulmonary segment",
+          "node_name": "VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.003419539422530985,
+          "percentage_of_tissue_block": 0.752,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7364",
+          "tissue_volume": 843.75
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3c299376-82f1-4c1f-b283-2c03cb7922e2",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 149921.38883926737,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 172.6875,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_F_right_medial_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0011518536570198164,
+          "percentage_of_tissue_block": 0.307,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 562.5
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 185551.3043128985,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "intersection_volume": 432,
+          "is_closed": true,
+          "label": "Right anterior basal bronchopulmonary segment",
+          "node_name": "VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0023281970536381176,
+          "percentage_of_tissue_block": 0.768,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7364",
+          "tissue_volume": 562.5
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/87df967f-1311-43ac-a306-04e47d2f4a60",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 1463.3999999999999,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.01203412312593767,
+          "percentage_of_tissue_block": 0.813,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 1800
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2109804.44224585,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
+          "intersection_volume": 2352,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_M_skin",
+          "organ": "VH_M_Skin",
+          "percentage_of_AS": 0.0011147952639138142,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 2352
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/559cb26d-2bed-41a6-8cdf-d5da5f4b52d2",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 161360.70898339496,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
+          "intersection_volume": 1500,
+          "is_closed": true,
+          "label": "Right Posterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_posterior_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.009295943290348083,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7339",
+          "tissue_volume": 1500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9131c76e-62cb-4433-a216-64e9fa0450c5",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 151252.07470394362,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchopulmonary_segment",
+          "intersection_volume": 36,
+          "is_closed": true,
+          "label": "Right Apical Bronchopulmonary Segment",
+          "node_name": "VH_F_right_apical_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.00023801326408556936,
+          "percentage_of_tissue_block": 0.036,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7338",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 161360.70898339496,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Right Posterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_posterior_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.006197295526898722,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7339",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f1c3f780-6627-4c56-aada-97cb158f540d",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 151252.07470394362,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchopulmonary_segment",
+          "intersection_volume": 1500,
+          "is_closed": true,
+          "label": "Right Apical Bronchopulmonary Segment",
+          "node_name": "VH_F_right_apical_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.009917219336898724,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7338",
+          "tissue_volume": 1500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 161360.70898339496,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
+          "intersection_volume": 901.5,
+          "is_closed": true,
+          "label": "Right Posterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_posterior_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0055868619174991975,
+          "percentage_of_tissue_block": 0.601,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7339",
+          "tissue_volume": 1500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/dcbd8b51-3a18-4025-97c1-e1867e346a18",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 4465.799100864554,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_bronchial_cartilage",
+          "intersection_volume": 3,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_F_bronchial_cartilage",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.000671772270145161,
+          "percentage_of_tissue_block": 0.002,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 1500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 374148.9387129613,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
+          "intersection_volume": 1416,
+          "is_closed": true,
+          "label": "Right Anterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_anterior_bronchopulmonary_segm",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0037845891127498924,
+          "percentage_of_tissue_block": 0.944,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7359",
+          "tissue_volume": 1500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 149921.38883926737,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 130.5,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_F_right_medial_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0008704561838065062,
+          "percentage_of_tissue_block": 0.087,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 1500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 2374.754759128717,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchus",
+          "intersection_volume": 6,
+          "is_closed": true,
+          "label": "Right anterior segmental bronchus",
+          "node_name": "VH_F_right_anterior_bronchus",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.002526576682049208,
+          "percentage_of_tissue_block": 0.004,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7400",
+          "tissue_volume": 1500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/05310dee-180d-4e59-8c58-b101d12f4c73",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 234868.6743737205,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_superior_bronchopulmonary_segment",
+          "intersection_volume": 588.2624999999999,
+          "is_closed": true,
+          "label": "Right Superior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_superior_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.002504644357399331,
+          "percentage_of_tissue_block": 0.581,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7366",
+          "tissue_volume": 1012.5
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 161360.70898339496,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
+          "intersection_volume": 869.7375,
+          "is_closed": true,
+          "label": "Right Posterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_posterior_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.005390020318326077,
+          "percentage_of_tissue_block": 0.859,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7339",
+          "tissue_volume": 1012.5
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/e7d21a48-63dd-45d8-aedd-e4abed52d5d8",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 151252.07470394362,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchopulmonary_segment",
+          "intersection_volume": 494,
+          "is_closed": true,
+          "label": "Right Apical Bronchopulmonary Segment",
+          "node_name": "VH_F_right_apical_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0032660709016186463,
+          "percentage_of_tissue_block": 0.988,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7338",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": -2918.4971156375714,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_hilum_upper_R",
+          "intersection_volume": 5,
+          "is_closed": true,
+          "label": "right lung hilus",
+          "node_name": "VH_F_hilum_upper_R",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": -0.0017132105333287973,
+          "percentage_of_tissue_block": 0.01,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004888",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": -13356.056814130154,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_hilum_R",
+          "intersection_volume": 5,
+          "is_closed": true,
+          "label": "right lung hilus",
+          "node_name": "VH_F_hilum_R",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": -0.00037436198943914404,
+          "percentage_of_tissue_block": 0.01,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004888",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/c5d8b584-d6b7-4a98-8330-a97ecec688f8",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 234868.6743737205,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_superior_bronchopulmonary_segment",
+          "intersection_volume": 337.5,
+          "is_closed": true,
+          "label": "Right Superior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_superior_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0014369732400455143,
+          "percentage_of_tissue_block": 0.675,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7366",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 161360.70898339496,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_posterior_bronchopulmonary_segment",
+          "intersection_volume": 499,
+          "is_closed": true,
+          "label": "Right Posterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_posterior_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.003092450467922462,
+          "percentage_of_tissue_block": 0.998,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7339",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2243b679-6c6c-4b66-9479-fef2640f2872",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 374148.9387129613,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Right Anterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_anterior_bronchopulmonary_segm",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0026727324242583985,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7359",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/4890aa9b-26a3-4db5-b25a-66e18cbc2158",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 374148.9387129613,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Right Anterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_anterior_bronchopulmonary_segm",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0026727324242583985,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7359",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/965b263e-b1b5-44c3-86ef-bb682091be05",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2537.34632998989,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchus",
+          "intersection_volume": 47.5,
+          "is_closed": true,
+          "label": "Right apical segmental bronchus",
+          "node_name": "VH_F_right_apical_bronchus",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.01872034551948187,
+          "percentage_of_tissue_block": 0.095,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7398",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 4465.799100864554,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_bronchial_cartilage",
+          "intersection_volume": 14,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_F_bronchial_cartilage",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0031349372606774176,
+          "percentage_of_tissue_block": 0.028,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 374148.9387129613,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
+          "intersection_volume": 500,
+          "is_closed": true,
+          "label": "Right Anterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_anterior_bronchopulmonary_segm",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0013363662121291993,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7359",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3545c186-aafd-4477-adc5-6ee21219cf87",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 374148.9387129613,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Right Anterior Bronchopulmonary Segment",
+          "node_name": "VH_F_right_anterior_bronchopulmonary_segm",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0026727324242583985,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7359",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ab0a9d87-8479-41ef-85f2-e8bfea4a8bbd",
+      "collition_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/527bfb3c-5cea-4131-a73a-72687feb8024",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 6110.627309348264,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
+          "intersection_volume": 7,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_M_bronchial_cartilage",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0011455452354770747,
+          "percentage_of_tissue_block": 0.007,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": -31882.546652878846,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_L",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "left lung hilus",
+          "node_name": "VH_M_hilum_L",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004887",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 1850.032560770765,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
+          "intersection_volume": 29,
+          "is_closed": true,
+          "label": "Left apical segmental bronchus",
+          "node_name": "VH_M_left_apical_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.015675399782108673,
+          "percentage_of_tissue_block": 0.029,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7426",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": -14467.802594773204,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_upper_L",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "left lung hilus",
+          "node_name": "VH_M_hilum_upper_L",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004887",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 444225.1660432583,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "intersection_volume": 996,
+          "is_closed": true,
+          "label": "Left Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_left_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0022421062022924885,
+          "percentage_of_tissue_block": 0.996,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7373",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 4557.780981819779,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchus",
+          "intersection_volume": 26,
+          "is_closed": true,
+          "label": "Left anterior segmental bronchus",
+          "node_name": "VH_M_left_anterior_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.005704530363286349,
+          "percentage_of_tissue_block": 0.026,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7428",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56b136e7-40dd-477a-b5b6-9be0bb98374c",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 6110.627309348264,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_M_bronchial_cartilage",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 1850.032560770765,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
+          "intersection_volume": 1,
+          "is_closed": true,
+          "label": "Left apical segmental bronchus",
+          "node_name": "VH_M_left_apical_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0005405310269692646,
+          "percentage_of_tissue_block": 0.001,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7426",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 174591.38859003442,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Left apical bronchopulmonary segment",
+          "node_name": "VH_M_left_apical_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.005727659354082711,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7385",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/0364c64a-5b0a-493f-a5ee-3adfc837211c",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 240984.6890340136,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_posterior_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Left posterior bronchopulmonary segment",
+          "node_name": "VH_M_left_posterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.004149641224131279,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7386",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 174591.38859003442,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
+          "intersection_volume": 791,
+          "is_closed": true,
+          "label": "Left apical bronchopulmonary segment",
+          "node_name": "VH_M_left_apical_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.004530578549079424,
+          "percentage_of_tissue_block": 0.791,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7385",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f4a116d7-f844-4d4a-bc8f-632151125313",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 444225.1660432583,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Left Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_left_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0022511106448719767,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7373",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/853a9e2c-10ba-4491-9d9d-3551c0c5f26d",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 299217.88085006404,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "intersection_volume": 728.25,
+          "is_closed": true,
+          "label": "Superior lingular bronchopulmonary segment",
+          "node_name": "VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0024338451897696614,
+          "percentage_of_tissue_block": 0.971,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7374",
+          "tissue_volume": 750
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 444225.1660432583,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "intersection_volume": 750,
+          "is_closed": true,
+          "label": "Left Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_left_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0016883329836539823,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7373",
+          "tissue_volume": 750
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5b4b476b-01e1-4d13-95e5-d17770f9ffa9",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 6110.627309348264,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
+          "intersection_volume": 2,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_M_bronchial_cartilage",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0003272986387077356,
+          "percentage_of_tissue_block": 0.002,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 1850.032560770765,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
+          "intersection_volume": 98,
+          "is_closed": true,
+          "label": "Left apical segmental bronchus",
+          "node_name": "VH_M_left_apical_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.05297204064298793,
+          "percentage_of_tissue_block": 0.098,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7426",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 240984.6890340136,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_posterior_bronchopulmonary_segment",
+          "intersection_volume": 6,
+          "is_closed": true,
+          "label": "Left posterior bronchopulmonary segment",
+          "node_name": "VH_M_left_posterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.000024897847344787678,
+          "percentage_of_tissue_block": 0.006,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7386",
+          "tissue_volume": 1000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 444225.1660432583,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "intersection_volume": 948,
+          "is_closed": true,
+          "label": "Left Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_left_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.002134052891338634,
+          "percentage_of_tissue_block": 0.948,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7373",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/c8cdaa06-847b-4747-9a00-d89761cea031",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 174591.38859003442,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Left apical bronchopulmonary segment",
+          "node_name": "VH_M_left_apical_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.005727659354082711,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7385",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/cfa23a23-1cef-4a6f-8303-d1198e91a773",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 240984.6890340136,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_posterior_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Left posterior bronchopulmonary segment",
+          "node_name": "VH_M_left_posterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.004149641224131279,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7386",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/95881dfc-b806-40ca-85fd-0e02d647c999",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 353229.4321451719,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_posterior_bronchopulmonary_segment",
+          "intersection_volume": 190,
+          "is_closed": true,
+          "label": "Right Posterior Bronchopulmonary Segment",
+          "node_name": "VH_M_right_posterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0005378940221547362,
+          "percentage_of_tissue_block": 0.38,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7339",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 6110.627309348264,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
+          "intersection_volume": 4,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_M_bronchial_cartilage",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0006545972774154712,
+          "percentage_of_tissue_block": 0.008,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 1456.963575946762,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_apical_bronchus",
+          "intersection_volume": 14.5,
+          "is_closed": true,
+          "label": "Right superior segmental bronchus",
+          "node_name": "VH_M_right_apical_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.009952204872779768,
+          "percentage_of_tissue_block": 0.029,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7416",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 72834.22809616149,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_apical_bronchopulmonary_segment",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "Right Apical Bronchopulmonary Segment",
+          "node_name": "VH_M_right_apical_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7338",
+          "tissue_volume": 500
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 309071.5618475564,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_anterior_bronchopulmonary_segment",
+          "intersection_volume": 483.5,
+          "is_closed": true,
+          "label": "Right Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_right_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0015643626256319147,
+          "percentage_of_tissue_block": 0.967,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7359",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/0f4be9aa-dfce-414f-9d40-47cb38f5eee8",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 309071.5618475564,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_anterior_bronchopulmonary_segment",
+          "intersection_volume": 500,
+          "is_closed": true,
+          "label": "Right Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_right_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.001617748320198464,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7359",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/74d8c134-9489-4599-afa7-95bd8cf9fc8a",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 309071.5618475564,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_anterior_bronchopulmonary_segment",
+          "intersection_volume": 489.5,
+          "is_closed": true,
+          "label": "Right Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_right_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0015837756054742963,
+          "percentage_of_tissue_block": 0.979,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7359",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/11fcf508-762d-4f0c-b5c5-dad0cf38f4de",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 309071.5618475564,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_anterior_bronchopulmonary_segment",
+          "intersection_volume": 500,
+          "is_closed": true,
+          "label": "Right Anterior Bronchopulmonary Segment",
+          "node_name": "VH_M_right_anterior_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.001617748320198464,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7359",
+          "tissue_volume": 500
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f1d552fe-cc92-478c-890c-cb95adc4b846",
+      "collition_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/04baf323-eda0-4f72-bea1-aa943aa70894",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229312.78018826462,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
+          "intersection_volume": 3862.528,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_F_left_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.01684392817892175,
+          "percentage_of_tissue_block": 0.943,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 4096
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/16e98d8c-8983-48c2-bb41-7b1cfbbf2e4a",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229312.78018826462,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
+          "intersection_volume": 2670.122,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_F_left_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.011644017388860069,
+          "percentage_of_tissue_block": 0.863,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 3094
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2109804.44224585,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
+          "intersection_volume": 1008,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_M_skin",
+          "organ": "VH_M_Skin",
+          "percentage_of_AS": 0.00047776939882020615,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 1008
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/886e391d-0151-46d3-8a51-084bf6a06910",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 1417.6,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.01165749141952251,
+          "percentage_of_tissue_block": 0.886,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 1600
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/de8bd0bf-7765-44c4-9d22-5ff5c0586816",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 1463.3999999999999,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.01203412312593767,
+          "percentage_of_tissue_block": 0.813,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 1800
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8d3e8fa1-185d-479b-83d9-9dfe2ead2d3e",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229964.967376884,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 1000,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_M_right_medial_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.004348488430244787,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 1000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2109804.44224585,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
+          "intersection_volume": 1397.088,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_M_skin",
+          "organ": "VH_M_Skin",
+          "percentage_of_AS": 0.0006621883867648057,
+          "percentage_of_tissue_block": 0.648,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 2156
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/da28394d-789a-4fba-842a-f8ba5046b221",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 1417.6,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.01165749141952251,
+          "percentage_of_tissue_block": 0.886,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 1600
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2109804.44224585,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
+          "intersection_volume": 1386,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_M_skin",
+          "organ": "VH_M_Skin",
+          "percentage_of_AS": 0.0006569329233777835,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 1386
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 2109804.44224585,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
+          "intersection_volume": 644.436,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_M_skin",
+          "organ": "VH_M_Skin",
+          "percentage_of_AS": 0.0003054482145814468,
+          "percentage_of_tissue_block": 0.081,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 7956
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/118235b7-38a4-4fcf-8834-bad5765f5eeb",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 1417.6,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.01165749141952251,
+          "percentage_of_tissue_block": 0.886,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 1600
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3156203b-0238-447d-9aae-c4341f2da943",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 1463.3999999999999,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.01203412312593767,
+          "percentage_of_tissue_block": 0.813,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 1800
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2816c343-c908-45bf-8964-974b1c54a5b9",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229312.78018826462,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
+          "intersection_volume": 3862.528,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_F_left_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.01684392817892175,
+          "percentage_of_tissue_block": 0.943,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 4096
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1833227.3262579252,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_skin",
+          "intersection_volume": 357.742,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_F_skin",
+          "organ": "3d-vh-f-skin",
+          "percentage_of_AS": 0.0001951432835829699,
+          "percentage_of_tissue_block": 0.101,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 3542
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3c6d73d4-216e-4241-b864-92f6636c4d80",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 1417.6,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.01165749141952251,
+          "percentage_of_tissue_block": 0.886,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 1600
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 1833227.3262579252,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_skin",
+          "intersection_volume": 734.4000000000001,
+          "is_closed": true,
+          "label": "skin of body",
+          "node_name": "VH_F_skin",
+          "organ": "3d-vh-f-skin",
+          "percentage_of_AS": 0.0004006049819795638,
+          "percentage_of_tissue_block": 0.4,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "tissue_volume": 1836
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/0c1510fa-83b7-43aa-aa70-d261835ce604_LungMap_Female_AllenWangLungMap_FEMALE_tissueblock_RUI",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 4465.799100864554,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_bronchial_cartilage",
+          "intersection_volume": 0.6,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_F_bronchial_cartilage",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0001343544540290322,
+          "percentage_of_tissue_block": 0.008,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 75
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 588.9754895789944,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchus",
+          "intersection_volume": 52.275,
+          "is_closed": true,
+          "label": "Lateral segmental bronchus",
+          "node_name": "VH_F_right_lateral_bronchus",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0887558156916966,
+          "percentage_of_tissue_block": 0.697,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7402",
+          "tissue_volume": 75
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 149921.38883926737,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
+          "intersection_volume": 75,
+          "is_closed": true,
+          "label": "Right Medial Bronchopulmonary Segment",
+          "node_name": "VH_F_right_medial_bronchopulmonary_segment",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0005002621746014403,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7360",
+          "tissue_volume": 75
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 83916.23058980214,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
+          "intersection_volume": 36.225,
+          "is_closed": true,
+          "label": "Right Lateral Bronchopulmonary Segment",
+          "node_name": "VH_F_right_lateral_bronchopulmonary_segmennt",
+          "organ": "VH_F_Lung",
+          "percentage_of_AS": 0.0004316804954821483,
+          "percentage_of_tissue_block": 0.483,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7361",
+          "tissue_volume": 75
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/bb8f70e2-273f-4902-a2ce-70a110aee2ec_AllenWangLungMap_MALE_tissueblock_RUI",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 6110.627309348264,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
+          "intersection_volume": 1.95,
+          "is_closed": true,
+          "label": "Cartilage of bronchus",
+          "node_name": "VH_M_bronchial_cartilage",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.0003191161727400422,
+          "percentage_of_tissue_block": 0.026,
+          "representation_of": "http://purl.org/sig/ont/fma/fma62649",
+          "tissue_volume": 75
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 665.0720323461572,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchus",
+          "intersection_volume": 13.65,
+          "is_closed": true,
+          "label": "Lateral segmental bronchus",
+          "node_name": "VH_M_right_lateral_bronchus",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.02052409263376668,
+          "percentage_of_tissue_block": 0.182,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7402",
+          "tissue_volume": 75
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 162410.67838873283,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
+          "intersection_volume": 75,
+          "is_closed": true,
+          "label": "Right Lateral Bronchopulmonary Segment",
+          "node_name": "VH_M_right_lateral_bronchopulmonary_segment",
+          "organ": "VH_M_Lung",
+          "percentage_of_AS": 0.00046179229558099727,
+          "percentage_of_tissue_block": 1,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7361",
+          "tissue_volume": 75
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 21669.139141786578,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_Allen_middle_temporal_gyrus_R",
+          "intersection_volume": 95.39999999999999,
+          "is_closed": true,
+          "label": "middle temporal gyrus",
+          "node_name": "Allen_middle_temporal_gyrus_R",
+          "organ": "Allen_F_Brain",
+          "percentage_of_AS": 0.004402574526647045,
+          "percentage_of_tissue_block": 0.954,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002771",
+          "tissue_volume": 100
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 219513.90685564512,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_Allen_white_matter_of_forebrain_R",
+          "intersection_volume": 4.2,
+          "is_closed": true,
+          "label": "-",
+          "node_name": "Allen_white_matter_of_forebrain_R",
+          "organ": "Allen_F_Brain",
+          "percentage_of_AS": 0.000019133184134716204,
+          "percentage_of_tissue_block": 0.042,
+          "representation_of": "-",
+          "tissue_volume": 100
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 21669.134254605084,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_Allen_middle_temporal_gyrus_R",
+          "intersection_volume": 96.8,
+          "is_closed": true,
+          "label": "middle temporal gyrus",
+          "node_name": "Allen_middle_temporal_gyrus_R",
+          "organ": "Allen_M_Brain",
+          "percentage_of_AS": 0.004467183546081369,
+          "percentage_of_tissue_block": 0.968,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002771",
+          "tissue_volume": 100
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 219513.88829480502,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_Allen_white_matter_of_forebrain_R",
+          "intersection_volume": 2.9000000000000004,
+          "is_closed": true,
+          "label": "-",
+          "node_name": "Allen_white_matter_of_forebrain_R",
+          "organ": "Allen_M_Brain",
+          "percentage_of_AS": 0.000013211009210065691,
+          "percentage_of_tissue_block": 0.029,
+          "representation_of": "-",
+          "tissue_volume": 100
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229312.78018826462,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
+          "intersection_volume": 6972.4800000000005,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_F_left_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.03040598083663558,
+          "percentage_of_tissue_block": 0.807,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 8640
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229312.78018826462,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
+          "intersection_volume": 2687.1600000000003,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_F_left_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.01171831765239537,
+          "percentage_of_tissue_block": 0.914,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 2940
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 78714.75572486868,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
+          "intersection_volume": 2023.1999999999998,
+          "is_closed": true,
+          "label": "heart right ventricle",
+          "node_name": "VH_F_right_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.025702931824773508,
+          "percentage_of_tissue_block": 0.843,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "tissue_volume": 2400
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/53b083ab-cb70-4096-b385-85590ddc370c",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 18115.968468297848,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_cardiac_atrium",
+          "intersection_volume": 553.3919999999999,
+          "is_closed": true,
+          "label": "left cardiac atrium",
+          "node_name": "VH_F_left_cardiac_atrium",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.03054719381789672,
+          "percentage_of_tissue_block": 0.122,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002079",
+          "tissue_volume": 4536
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 3612.9788196425684,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_aortic_valve",
+          "intersection_volume": 22.68,
+          "is_closed": true,
+          "label": "aortic valve",
+          "node_name": "VH_F_aortic_valve",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.0062773686567705175,
+          "percentage_of_tissue_block": 0.005,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002137",
+          "tissue_volume": 4536
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 229312.78018826462,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_ventricle",
+          "intersection_volume": 3549.1499999999996,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_F_left_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.0154773318656124,
+          "percentage_of_tissue_block": 0.478,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 7425
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 78714.75572486868,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
+          "intersection_volume": 883.5749999999999,
+          "is_closed": true,
+          "label": "heart right ventricle",
+          "node_name": "VH_F_right_ventricle",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.011225023718403645,
+          "percentage_of_tissue_block": 0.119,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "tissue_volume": 7425
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 4401.498768462402,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_papillary_muscle_of_heart_posmed",
+          "intersection_volume": 631.125,
+          "is_closed": true,
+          "label": "Posteromedial head of posterior papillary muscle of left ventricle",
+          "node_name": "VH_F_papillary_muscle_of_heart_posmed",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.1433886576368336,
+          "percentage_of_tissue_block": 0.085,
+          "representation_of": "http://purl.org/sig/ont/fma/fma7267",
+          "tissue_volume": 7425
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 65894.53465930313,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_interventricular_septum",
+          "intersection_volume": 5531.625,
+          "is_closed": true,
+          "label": "interventricular septum",
+          "node_name": "VH_F_interventricular_septum",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.08394664335366141,
+          "percentage_of_tissue_block": 0.745,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002094",
+          "tissue_volume": 7425
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9f2c1d5d-2ad4-4a7a-ad95-622c7328b554",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 33225.90134453539,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_cardiac_atrium",
+          "intersection_volume": 2096.64,
+          "is_closed": true,
+          "label": "right cardiac atrium",
+          "node_name": "VH_F_right_cardiac_atrium",
+          "organ": "VH_F_Heart",
+          "percentage_of_AS": 0.06310257706055672,
+          "percentage_of_tissue_block": 0.48,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "tissue_volume": 4368
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 3397.6319999999996,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.027940085981020813,
+          "percentage_of_tissue_block": 0.948,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 3584
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 2406.144,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.019786683855908274,
+          "percentage_of_tissue_block": 0.964,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 2496
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 73988.45321948585,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_right_ventricle",
+          "intersection_volume": 1348.032,
+          "is_closed": true,
+          "label": "heart right ventricle",
+          "node_name": "VH_M_heart_right_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.01821949157392275,
+          "percentage_of_tissue_block": 0.708,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "tissue_volume": 1904
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 73988.45321948585,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_right_ventricle",
+          "intersection_volume": 765.45,
+          "is_closed": true,
+          "label": "heart right ventricle",
+          "node_name": "VH_M_heart_right_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.010345533210828208,
+          "percentage_of_tissue_block": 0.315,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "tissue_volume": 2430
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 838.3499999999999,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.006894087141335141,
+          "percentage_of_tissue_block": 0.345,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 2430
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 28091.876066633104,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_interventricular_septum",
+          "intersection_volume": 1334.0700000000002,
+          "is_closed": true,
+          "label": "interventricular septum",
+          "node_name": "VH_M_interventricular_septum",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.04748953031245138,
+          "percentage_of_tissue_block": 0.549,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002094",
+          "tissue_volume": 2430
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/bb9dbc76-88b2-43ad-9401-e1e87424efa5",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 121604.20702742106,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_heart_left_ventricle",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "heart left ventricle",
+          "node_name": "VH_M_heart_left_ventricle",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "tissue_volume": 8000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 3027.4597496806114,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_aortic_valve",
+          "intersection_volume": 80,
+          "is_closed": true,
+          "label": "aortic valve",
+          "node_name": "VH_M_aortic_valve",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.026424793924490583,
+          "percentage_of_tissue_block": 0.01,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002137",
+          "tissue_volume": 8000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 3141.4046443684797,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_mitral_valve",
+          "intersection_volume": 0,
+          "is_closed": true,
+          "label": "mitral valve",
+          "node_name": "VH_M_mitral_valve",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0,
+          "percentage_of_tissue_block": 0,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002135",
+          "tissue_volume": 8000
+        },
+        {
+          "@type": "Collision",
+          "AS_volume": 31346.0636820313,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_cardiac_atrium",
+          "intersection_volume": 4584,
+          "is_closed": true,
+          "label": "left cardiac atrium",
+          "node_name": "VH_M_left_cardiac_atrium",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.1462384574503278,
+          "percentage_of_tissue_block": 0.573,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002079",
+          "tissue_volume": 8000
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/7296fad6-bf8e-49da-8f4a-ef76ee4cfeac",
+      "collition_method": "MESH",
+      "collisions": [
+        {
+          "@type": "Collision",
+          "AS_volume": 27714.91711157488,
+          "id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_cardiac_atrium",
+          "intersection_volume": 705.76,
+          "is_closed": true,
+          "label": "right cardiac atrium",
+          "node_name": "VH_M_right_cardiac_atrium",
+          "organ": "VH_M_Heart",
+          "percentage_of_AS": 0.025464986857393335,
+          "percentage_of_tissue_block": 0.401,
+          "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "tissue_volume": 1760
+        }
+      ]
+    }
+  ]
+}
