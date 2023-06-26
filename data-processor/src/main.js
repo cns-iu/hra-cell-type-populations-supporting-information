@@ -42,3 +42,8 @@ if (CLEAN || !existsSync('../data/collisions.jsonld')) {
 if (CLEAN || !existsSync('../data/enriched_rui_locations.jsonld')) {
   sh.exec('npm run generate:combined-data');
 }
+
+// Generate anatomical structures' cell type summaries
+if (CLEAN || !existsSync('../data/as-cell-summaries.jsonld')) {
+  sh.exec('npm run generate:as-cell-summaries');
+}
