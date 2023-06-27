@@ -28,9 +28,9 @@ if (CLEAN || !existsSync('../data/rui_locations.jsonld')) {
   sh.exec('npm run generate:registrations');
 }
 
-// Generate cell summaries
-if (CLEAN || !existsSync('../data/cell-summaries.jsonld')) {
-  sh.exec('npm run generate:cell-summaries');
+// Generate dataset cell summaries
+if (CLEAN || !existsSync('../data/dataset-cell-summaries.jsonld')) {
+  sh.exec('npm run generate:dataset-cell-summaries');
 }
 
 // Generate rui location collisions

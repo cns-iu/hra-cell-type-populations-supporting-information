@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 
 const OUTPUT='../data/enriched_rui_locations.jsonld';
 const collisions = JSON.parse(readFileSync('../data/collisions.jsonld'));
-const summaries = JSON.parse(readFileSync('../data/cell-summaries.jsonld'));
+const summaries = JSON.parse(readFileSync('../data/dataset-cell-summaries.jsonld'));
 const donors = JSON.parse(readFileSync('../data/rui_locations.jsonld'));
 
 const summaryLookup = summaries['@graph']
@@ -26,6 +26,7 @@ function enricheRuiLocation(ruiLocation) {
   if (collision) {
     ruiLocation.all_collisions = ruiLocation.all_collisions ?? [];
     ruiLocation.all_collisions.push(collision);
+    delete collision.collision_source;
   }
 }
 

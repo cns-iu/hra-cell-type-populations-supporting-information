@@ -139,7 +139,7 @@ Investigate HBM473.QGDG.848, https://entity.api.hubmapconsortium.org/entities/8a
 Investigate HuBMAP: HBM473.QGDG.848
 There was some problem saving out at least one dataset. Saved: 385 Expected: 449
 
-> ctpop-data-processor@1.0.0 generate:cell-summaries
+> ctpop-data-processor@1.0.0 generate:dataset-cell-summaries
 > node ./src/gen-cell-summaries.js
 
 Investigate Azimuth: undefined
@@ -757,6 +757,15 @@ Investigate SenNet: SNT933.NCMX.273
 Investigate SenNet: SNT476.SJKS.855
 There was some problem saving out at least one dataset. Saved: 3613 Expected: 4226
 
+> ctpop-data-processor@1.0.0 generate:collisions
+> node ./src/gen-collisions.js
+
+WARNING 8 RUI locations had zero collisions
+
 > ctpop-data-processor@1.0.0 generate:combined-data
 > node ./src/combine-jsonld.js
+
+
+> ctpop-data-processor@1.0.0 generate:as-cell-summaries
+> node ./src/gen-as-cell-summaries.js
 

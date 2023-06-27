@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node ./src/main.js",
     "generate:registrations": "node ./src/gen-registrations.js",
-    "generate:cell-summaries": "node ./src/gen-cell-summaries.js",
+    "generate:dataset-cell-summaries": "node ./src/gen-cell-summaries.js",
     "generate:collisions": "node ./src/gen-collisions.js",
     "generate:combined-data": "node ./src/combine-jsonld.js",
     "generate:as-cell-summaries": "node ./src/gen-as-cell-summaries.js",
