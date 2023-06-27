@@ -1,0 +1,2293 @@
+{
+  "@context": {
+    "CL": {
+      "@id": "http://purl.obolibrary.org/obo/CL_",
+      "@prefix": true
+    },
+    "ASCTB-TEMP": {
+      "@id": "https://purl.org/ccf/ASCTB-TEMP_",
+      "@prefix": true
+    },
+    "as_id": {
+      "@type": "@id"
+    },
+    "all_collisions": {
+      "@id": "ccf:has_collision_summary"
+    },
+    "collision_source": {
+      "@reverse": "ccf:has_collision_summary",
+      "@type": "@id"
+    },
+    "collisions": {
+      "@id": "ccf:has_collision_item"
+    },
+    "summaries": {
+      "@id": "ccf:has_cell_summary"
+    },
+    "cell_source": {
+      "@reverse": "ccf:has_cell_summary",
+      "@type": "@id"
+    },
+    "annotation_method": {
+      "@id": "ccf:cell_annotation_method"
+    },
+    "summary": {
+      "@id": "ccf:has_cell_summary_row"
+    },
+    "cell_id": {
+      "@type": "@id"
+    },
+    "count": {
+      "@id": "ccf:cell_count"
+    },
+    "percentage": {
+      "@id": "ccf:percentage_of_total"
+    },
+    "@base": "http://purl.org/ccf/",
+    "@vocab": "http://purl.org/ccf/",
+    "ccf": "http://purl.org/ccf/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "label": "rdfs:label",
+    "description": "rdfs:comment",
+    "link": "ccf:url",
+    "sex": "ccf:sex",
+    "age": "ccf:age",
+    "bmi": "ccf:bmi",
+    "consortium_name": "ccf:consortium_name",
+    "provider_name": "ccf:tissue_provider_name",
+    "provider_uuid": "ccf:tissue_provider_uuid",
+    "donor": {
+      "@id": "ccf:comes_from",
+      "@type": "@id"
+    },
+    "samples": {
+      "@reverse": "donor"
+    },
+    "sections": {
+      "@id": "ccf:subdivided_into_sections",
+      "@type": "@id"
+    },
+    "datasets": {
+      "@id": "ccf:generates_dataset",
+      "@type": "@id"
+    },
+    "sample_type": "ccf:sample_type",
+    "section_count": "ccf:section_count",
+    "section_size": "ccf:section_size",
+    "section_units": "ccf:section_size_unit",
+    "section_number": "ccf:section_number",
+    "rui_location": {
+      "@id": "ccf:has_registration_location",
+      "@type": "@id"
+    },
+    "ccf_annotations": {
+      "@id": "ccf:collides_with",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "representation_of": {
+      "@id": "ccf:representation_of",
+      "@type": "@id"
+    },
+    "reference_organ": {
+      "@id": "ccf:has_reference_organ",
+      "@type": "@id"
+    },
+    "extraction_set_for": {
+      "@id": "ccf:extraction_set_for",
+      "@type": "@id"
+    },
+    "extraction_set": {
+      "@id": "ccf:has_extraction_set",
+      "@type": "@id"
+    },
+    "organ_owner_sex": "ccf:organ_owner_sex",
+    "side": "ccf:organ_side",
+    "rui_rank": "ccf:rui_rank",
+    "slice_thickness": "ccf:slice_thickness",
+    "slice_count": "ccf:slice_count",
+    "object": {
+      "@id": "ccf:has_object_reference",
+      "@type": "@id"
+    },
+    "creation_date": "dcterms:created",
+    "updated_date": "ccf:updated_date",
+    "creator": "dcterms:creator",
+    "creator_first_name": "ccf:creator_first_name",
+    "creator_last_name": "ccf:creator_last_name",
+    "placement": {
+      "@reverse": "ccf:placement_for"
+    },
+    "placement_date": "dcterms:created",
+    "rotation_order": "ccf:rotation_order",
+    "dimension_units": "ccf:dimension_unit",
+    "rotation_units": "ccf:rotation_unit",
+    "scaling_units": "ccf:scaling_unit",
+    "translation_units": "ccf:translation_unit",
+    "source": {
+      "@id": "ccf:placement_for",
+      "@type": "@id"
+    },
+    "target": {
+      "@id": "ccf:placement_relative_to",
+      "@type": "@id"
+    },
+    "x_rotation": "ccf:x_rotation",
+    "y_rotation": "ccf:y_rotation",
+    "z_rotation": "ccf:z_rotation",
+    "x_scaling": "ccf:x_scaling",
+    "y_scaling": "ccf:y_scaling",
+    "z_scaling": "ccf:z_scaling",
+    "x_translation": "ccf:x_translation",
+    "y_translation": "ccf:y_translation",
+    "z_translation": "ccf:z_translation",
+    "x_dimension": "ccf:x_dimension",
+    "y_dimension": "ccf:y_dimension",
+    "z_dimension": "ccf:z_dimension",
+    "ontology_terms": {
+      "@id": "ccf:has_ontology_term",
+      "@type": "@id"
+    },
+    "technology": "ccf:technology",
+    "thumbnail": "ccf:thumbnail",
+    "file": "ccf:file_url",
+    "file_format": "ccf:file_format",
+    "file_subpath": "ccf:file_subpath"
+  },
+  "@graph": [
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma73165",
+          "as_label": "Interlobar adipose tissue of right mammary gland",
+          "percentage": 0.962
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7385",
+          "as_label": "Left apical bronchopulmonary segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7385",
+          "as_label": "Left apical bronchopulmonary segment",
+          "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7386",
+          "as_label": "Left posterior bronchopulmonary segment",
+          "percentage": 0.98
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "as_label": "right cardiac atrium",
+          "percentage": 0.705
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "as_label": "right cardiac atrium",
+          "percentage": 0.402
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_8410026",
+          "as_label": "peripheral zone of prostate",
+          "percentage": 0.456
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_8410027",
+          "as_label": "central zone of prostate",
+          "percentage": 0.048
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_8410026",
+          "as_label": "peripheral zone of prostate",
+          "percentage": 0.458
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_8410027",
+          "as_label": "central zone of prostate",
+          "percentage": 0.043
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002015",
+          "as_label": "kidney capsule",
+          "percentage": 0.086
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 0.675
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.143
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0008716",
+          "as_label": "hilum of kidney",
+          "percentage": 0.661
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 0.092
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "as_label": "renal column",
+          "percentage": 0.852
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/6ce58ee2-74b9-4137-9325-ced797dcd6ac",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/19fee435-ebad-476c-bc9a-e11d2cee035e",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "as_label": "left ureter",
+          "percentage": 0.071
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9fa9fb64-7e86-4fcc-bc14-cd7a9ff421fe",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/df0b33f7-371a-47a4-a636-a27db19bdbc9",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/69ac0df4-f442-4d62-90dc-86fcbc38eb23",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1994d754-ccc2-4853-94f8-cbd2cbe83fcb",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.693
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f3e1e325-c002-42bb-a61c-043a5ec1ca70",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/4ae53bc8-b6da-4ba9-9030-a93ae44389b9",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "as_label": "renal column",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.999
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/825ec2b8-1291-4633-8a63-b35c7cd709bd",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5764d42e-95e4-4e5a-b36e-ca498354906d",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "as_label": "left ureter",
+          "percentage": 0.355
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/c5e652ed-7e40-41de-bfc0-a73f05a0c66a",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "as_label": "left ureter",
+          "percentage": 0.155
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/29e439fb-cfec-4c2d-a14e-3bc60eb8e255",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001228",
+          "as_label": "renal papilla",
+          "percentage": 0.284
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8835013d-ef68-40ae-80fb-c5f07f4cc4c6",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/72ea5aad-4be7-4478-afc0-7736bc0d90e3",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001228",
+          "as_label": "renal papilla",
+          "percentage": 0.92
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.687
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/4e2e6f98-ec16-4627-a06a-d3cdc282ee1c",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "as_label": "renal column",
+          "percentage": 0.539
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/08cd7da7-0323-4560-940c-9237a6b3e7c5",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.576
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8f99a469-7d51-46dc-919d-2e002eeae868",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.999
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.998
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 0.961
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002015",
+          "as_label": "kidney capsule",
+          "percentage": 0.031
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/bd004aeb-6e60-4d5b-8d40-cfdd55b8b6fe",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 0.5
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "as_label": "renal column",
+          "percentage": 0.293
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.177
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1f414fc5-cb93-45b7-a1b8-0cd21dfa9f7d",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "as_label": "left ureter",
+          "percentage": 0.035
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f3f2fabb-6802-4fd4-920e-1914293db252",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.987
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 0.039
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/30bfa399-ca75-4790-a7ec-dfb3c594300c",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2a9e525a-4ad9-4085-bca9-31a2d0512008",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 0.981
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/85ad9566-c363-4b61-a522-6576b253d9af",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/c07ec91d-9dbe-4132-a93c-b960895b009d",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.547
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 0.551
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.944
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001228",
+          "as_label": "renal papilla",
+          "percentage": 0.476
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 0.343
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "as_label": "renal column",
+          "percentage": 0.006
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 0.607
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3a25960a-8e7a-4020-8dfb-8ce6c3423e35",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001223",
+          "as_label": "left ureter",
+          "percentage": 0.021
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/7f7fe1b0-d9f6-48c2-a304-2ea5874c7392",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 0.04
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/6a6392a9-8ac1-4666-a684-83d310ca055f",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/594902fb-c4c1-47c3-b98e-3101b93a73e4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 0.59
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/fd4fcec2-93c3-428f-ad3a-6c7ac4196da0",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 0.25
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/d51b9d67-837f-4451-a6c6-0b63c7879736",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f15f5400-2ef9-45fc-bf0f-72f14d6f8f9e",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/aba1ebe3-af18-40cc-b536-b89843049ca5",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/95190b47-b491-448a-8e9b-06d804bf2aa1",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/d662fd53-e925-4921-8d8b-bc91eed1519b",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 0.995
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/616ef33e-ebcc-4ece-b440-ca218440c8b4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7375",
+          "as_label": "Inferior lingular bronchopulmonary segment",
+          "percentage": 0.875
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/76c77da1-c978-48fe-b30b-aeff33a5d054",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7374",
+          "as_label": "Superior lingular bronchopulmonary segment",
+          "percentage": 0.038
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.024
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004887",
+          "as_label": "left lung hilus",
+          "percentage": 0.174
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7426",
+          "as_label": "Left apical segmental bronchus",
+          "percentage": 0.003
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004887",
+          "as_label": "left lung hilus",
+          "percentage": 0.174
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "percentage": 0.996
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7428",
+          "as_label": "Left anterior segmental bronchus",
+          "percentage": 0.293
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8c2283cd-667a-4fa1-9026-50e30bcfdcd1",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7374",
+          "as_label": "Superior lingular bronchopulmonary segment",
+          "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7430",
+          "as_label": "Superior lingular bronchus",
+          "percentage": 0.017
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.005
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7375",
+          "as_label": "Inferior lingular bronchopulmonary segment",
+          "percentage": 0.081
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3e6d37df-e4f3-4654-b06d-3a76c2e665ea",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7374",
+          "as_label": "Superior lingular bronchopulmonary segment",
+          "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.016
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "percentage": 0.669
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7428",
+          "as_label": "Left anterior segmental bronchus",
+          "percentage": 0.205
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/840b29a9-5a04-41cc-908d-0c4fa5720366",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7386",
+          "as_label": "Left posterior bronchopulmonary segment",
+          "percentage": 0.978
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7385",
+          "as_label": "Left apical bronchopulmonary segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/39e72b20-77e5-45a5-bb0e-f374ea5894ad",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.813
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ce5f3bd0-f091-49fe-8fe5-67004848078b",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "as_label": "heart right ventricle",
+          "percentage": 0.275
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1995aefd-5289-4652-a7e0-cc66c495649f",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.679
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "as_label": "heart right ventricle",
+          "percentage": 0.158
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002094",
+          "as_label": "interventricular septum",
+          "percentage": 0.058
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/0cd47185-8e8a-4f56-a167-bf93de928553",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "percentage": 0.6
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "percentage": 0.484
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f8a20a09-a700-439b-a518-60347cd7b156",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 0.602
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "percentage": 0.431
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "percentage": 0.237
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ca4a4754-6937-4d08-9eb0-bf400492c22c",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/09b9e49f-dd9c-4f9f-a7dc-258ac0d08530",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "percentage": 0.245
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "percentage": 0.737
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/25c3d20d-d856-4a22-b926-6ee9a5f4a1d4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "percentage": 0.927
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "percentage": 0.116
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8af0476d-e6e6-4b55-afae-5eec8c9c1cb5",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 0.341
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "percentage": 0.752
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3c299376-82f1-4c1f-b283-2c03cb7922e2",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 0.307
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "percentage": 0.768
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/87df967f-1311-43ac-a306-04e47d2f4a60",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.813
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/559cb26d-2bed-41a6-8cdf-d5da5f4b52d2",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7339",
+          "as_label": "Right Posterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9131c76e-62cb-4433-a216-64e9fa0450c5",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7338",
+          "as_label": "Right Apical Bronchopulmonary Segment",
+          "percentage": 0.036
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7339",
+          "as_label": "Right Posterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f1c3f780-6627-4c56-aada-97cb158f540d",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7338",
+          "as_label": "Right Apical Bronchopulmonary Segment",
+          "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7339",
+          "as_label": "Right Posterior Bronchopulmonary Segment",
+          "percentage": 0.601
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/dcbd8b51-3a18-4025-97c1-e1867e346a18",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.002
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7359",
+          "as_label": "Right Anterior Bronchopulmonary Segment",
+          "percentage": 0.944
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 0.087
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7400",
+          "as_label": "Right anterior segmental bronchus",
+          "percentage": 0.004
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/05310dee-180d-4e59-8c58-b101d12f4c73",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7366",
+          "as_label": "Right Superior Bronchopulmonary Segment",
+          "percentage": 0.581
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7339",
+          "as_label": "Right Posterior Bronchopulmonary Segment",
+          "percentage": 0.859
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/e7d21a48-63dd-45d8-aedd-e4abed52d5d8",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7338",
+          "as_label": "Right Apical Bronchopulmonary Segment",
+          "percentage": 0.988
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004888",
+          "as_label": "right lung hilus",
+          "percentage": 0.01
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004888",
+          "as_label": "right lung hilus",
+          "percentage": 0.01
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/c5d8b584-d6b7-4a98-8330-a97ecec688f8",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7366",
+          "as_label": "Right Superior Bronchopulmonary Segment",
+          "percentage": 0.675
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7339",
+          "as_label": "Right Posterior Bronchopulmonary Segment",
+          "percentage": 0.998
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2243b679-6c6c-4b66-9479-fef2640f2872",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7359",
+          "as_label": "Right Anterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/4890aa9b-26a3-4db5-b25a-66e18cbc2158",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7359",
+          "as_label": "Right Anterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/965b263e-b1b5-44c3-86ef-bb682091be05",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7398",
+          "as_label": "Right apical segmental bronchus",
+          "percentage": 0.095
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.028
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7359",
+          "as_label": "Right Anterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3545c186-aafd-4477-adc5-6ee21219cf87",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7359",
+          "as_label": "Right Anterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ab0a9d87-8479-41ef-85f2-e8bfea4a8bbd",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/527bfb3c-5cea-4131-a73a-72687feb8024",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.007
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7426",
+          "as_label": "Left apical segmental bronchus",
+          "percentage": 0.029
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "percentage": 0.996
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7428",
+          "as_label": "Left anterior segmental bronchus",
+          "percentage": 0.026
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56b136e7-40dd-477a-b5b6-9be0bb98374c",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7426",
+          "as_label": "Left apical segmental bronchus",
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7385",
+          "as_label": "Left apical bronchopulmonary segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/0364c64a-5b0a-493f-a5ee-3adfc837211c",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7386",
+          "as_label": "Left posterior bronchopulmonary segment",
+          "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7385",
+          "as_label": "Left apical bronchopulmonary segment",
+          "percentage": 0.791
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f4a116d7-f844-4d4a-bc8f-632151125313",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/853a9e2c-10ba-4491-9d9d-3551c0c5f26d",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7374",
+          "as_label": "Superior lingular bronchopulmonary segment",
+          "percentage": 0.971
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5b4b476b-01e1-4d13-95e5-d17770f9ffa9",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.002
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7426",
+          "as_label": "Left apical segmental bronchus",
+          "percentage": 0.098
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7386",
+          "as_label": "Left posterior bronchopulmonary segment",
+          "percentage": 0.006
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "percentage": 0.948
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/c8cdaa06-847b-4747-9a00-d89761cea031",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7385",
+          "as_label": "Left apical bronchopulmonary segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/cfa23a23-1cef-4a6f-8303-d1198e91a773",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7386",
+          "as_label": "Left posterior bronchopulmonary segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/95881dfc-b806-40ca-85fd-0e02d647c999",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7339",
+          "as_label": "Right Posterior Bronchopulmonary Segment",
+          "percentage": 0.38
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.008
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7416",
+          "as_label": "Right superior segmental bronchus",
+          "percentage": 0.029
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7359",
+          "as_label": "Right Anterior Bronchopulmonary Segment",
+          "percentage": 0.967
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/0f4be9aa-dfce-414f-9d40-47cb38f5eee8",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7359",
+          "as_label": "Right Anterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/74d8c134-9489-4599-afa7-95bd8cf9fc8a",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7359",
+          "as_label": "Right Anterior Bronchopulmonary Segment",
+          "percentage": 0.979
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/11fcf508-762d-4f0c-b5c5-dad0cf38f4de",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7359",
+          "as_label": "Right Anterior Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f1d552fe-cc92-478c-890c-cb95adc4b846",
+      "collision_method": "MESH",
+      "collisions": []
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/04baf323-eda0-4f72-bea1-aa943aa70894",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.943
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/16e98d8c-8983-48c2-bb41-7b1cfbbf2e4a",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.863
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/886e391d-0151-46d3-8a51-084bf6a06910",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.886
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/de8bd0bf-7765-44c4-9d22-5ff5c0586816",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.813
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8d3e8fa1-185d-479b-83d9-9dfe2ead2d3e",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 0.648
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/da28394d-789a-4fba-842a-f8ba5046b221",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.886
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 0.081
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/118235b7-38a4-4fcf-8834-bad5765f5eeb",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.886
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3156203b-0238-447d-9aae-c4341f2da943",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.813
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2816c343-c908-45bf-8964-974b1c54a5b9",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.943
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 0.101
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3c6d73d4-216e-4241-b864-92f6636c4d80",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.886
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "percentage": 0.4
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/0c1510fa-83b7-43aa-aa70-d261835ce604_LungMap_Female_AllenWangLungMap_FEMALE_tissueblock_RUI",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.008
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7402",
+          "as_label": "Lateral segmental bronchus",
+          "percentage": 0.697
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "percentage": 0.483
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/bb8f70e2-273f-4902-a2ce-70a110aee2ec_AllenWangLungMap_MALE_tissueblock_RUI",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma62649",
+          "as_label": "Cartilage of bronchus",
+          "percentage": 0.026
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7402",
+          "as_label": "Lateral segmental bronchus",
+          "percentage": 0.182
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002771",
+          "as_label": "middle temporal gyrus",
+          "percentage": 0.954
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002771",
+          "as_label": "middle temporal gyrus",
+          "percentage": 0.968
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.807
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.914
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "as_label": "heart right ventricle",
+          "percentage": 0.843
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/53b083ab-cb70-4096-b385-85590ddc370c",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002079",
+          "as_label": "left cardiac atrium",
+          "percentage": 0.122
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002137",
+          "as_label": "aortic valve",
+          "percentage": 0.005
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.478
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "as_label": "heart right ventricle",
+          "percentage": 0.119
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.org/sig/ont/fma/fma7267",
+          "as_label": "Posteromedial head of posterior papillary muscle of left ventricle",
+          "percentage": 0.085
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002094",
+          "as_label": "interventricular septum",
+          "percentage": 0.745
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/9f2c1d5d-2ad4-4a7a-ad95-622c7328b554",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "as_label": "right cardiac atrium",
+          "percentage": 0.48
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.948
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.964
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "as_label": "heart right ventricle",
+          "percentage": 0.708
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "as_label": "heart right ventricle",
+          "percentage": 0.315
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+          "as_label": "heart left ventricle",
+          "percentage": 0.345
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002094",
+          "as_label": "interventricular septum",
+          "percentage": 0.549
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/bb9dbc76-88b2-43ad-9401-e1e87424efa5",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002137",
+          "as_label": "aortic valve",
+          "percentage": 0.01
+        },
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002079",
+          "as_label": "left cardiac atrium",
+          "percentage": 0.573
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/7296fad6-bf8e-49da-8f4a-ef76ee4cfeac",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "as_label": "right cardiac atrium",
+          "percentage": 0.401
+        }
+      ]
+    }
+  ]
+}
