@@ -1,0 +1,2126 @@
+organ,as_label,cell_label,mean_cell_count,cell_count
+VHFAllenBrain,middle temporal gyrus,L2/3-6 intratelencephalic projecting glutamatergic cortical neuron,8132.259259259259259259,219571
+VHFAllenBrain,middle temporal gyrus,L5 extratelencephalic projecting glutamatergic cortical neuron,32.259259259259259259,871
+VHFAllenBrain,middle temporal gyrus,L6b glutamatergic cortical neuron,189.74074074074074074,5123
+VHFAllenBrain,middle temporal gyrus,astrocyte of the cerebral cortex,712.576923076923076923,18527
+VHFAllenBrain,middle temporal gyrus,caudal ganglionic eminence derived GABAergic cortical interneuron,99.629629629629629629,2690
+VHFAllenBrain,middle temporal gyrus,cerebral cortex endothelial cell,27.148148148148148148,733
+VHFAllenBrain,middle temporal gyrus,chandelier pvalb GABAergic cortical interneuron,134.407407407407407407,3629
+VHFAllenBrain,middle temporal gyrus,corticothalamic-projecting glutamatergic cortical neuron,216.333333333333333333,5841
+VHFAllenBrain,middle temporal gyrus,lamp5 GABAergic cortical interneuron,715.444444444444444444,19317
+VHFAllenBrain,middle temporal gyrus,microglial cell,415.555555555555555555,11220
+VHFAllenBrain,middle temporal gyrus,near-projecting glutamatergic cortical neuron,279.74074074074074074,7553
+VHFAllenBrain,middle temporal gyrus,oligodendrocyte,1197.666666666666666666,32337
+VHFAllenBrain,middle temporal gyrus,oligodendrocyte precursor cell,382.518518518518518518,10328
+VHFAllenBrain,middle temporal gyrus,pvalb GABAergic cortical interneuron,1102.925925925925925925,29779
+VHFAllenBrain,middle temporal gyrus,sncg GABAergic cortical interneuron,264.846153846153846153,6886
+VHFAllenBrain,middle temporal gyrus,sst GABAergic cortical interneuron,700.111111111111111111,18903
+VHFAllenBrain,middle temporal gyrus,vascular leptomeningeal cell,49.84,1246
+VHFAllenBrain,middle temporal gyrus,vip GABAergic cortical interneuron,1184.259259259259259259,31975
+VHFColon,descending colon,B,4922,4922
+VHFColon,descending colon,CD4+ T cell,4224,4224
+VHFColon,descending colon,CD57+ Enterocyte,4,4
+VHFColon,descending colon,CD66+ Enterocyte,2189,2189
+VHFColon,descending colon,CD7+ Immune,48,48
+VHFColon,descending colon,CD8+ T,2219,2219
+VHFColon,descending colon,Cycling TA,3785,3785
+VHFColon,descending colon,DC,1190,1190
+VHFColon,descending colon,Endothelial,3723,3723
+VHFColon,descending colon,Enterocyte,9947,9947
+VHFColon,descending colon,Goblet,5597,5597
+VHFColon,descending colon,ICC,700,700
+VHFColon,descending colon,Lymphatic,920,920
+VHFColon,descending colon,M1 Macrophage,318,318
+VHFColon,descending colon,M2 Macrophage,1717,1717
+VHFColon,descending colon,MUC1+ Enterocyte,136,136
+VHFColon,descending colon,NK,23,23
+VHFColon,descending colon,Nerve,1049,1049
+VHFColon,descending colon,Neuroendocrine,526,526
+VHFColon,descending colon,Neutrophil,4,4
+VHFColon,descending colon,Paneth,0,0
+VHFColon,descending colon,Plasma,1686,1686
+VHFColon,descending colon,Smooth muscle,2935,2935
+VHFColon,descending colon,Stroma,943,943
+VHFColon,descending colon,TA,2489,2489
+VHFColon,sigmoid colon,B,1,1
+VHFColon,sigmoid colon,CD4+ T cell,24,24
+VHFColon,sigmoid colon,CD57+ Enterocyte,0,0
+VHFColon,sigmoid colon,CD66+ Enterocyte,16,16
+VHFColon,sigmoid colon,CD7+ Immune,0,0
+VHFColon,sigmoid colon,CD8+ T,16,16
+VHFColon,sigmoid colon,Cycling TA,13,13
+VHFColon,sigmoid colon,DC,91,91
+VHFColon,sigmoid colon,Endothelial,1591,1591
+VHFColon,sigmoid colon,Enterocyte,153,153
+VHFColon,sigmoid colon,Goblet,41,41
+VHFColon,sigmoid colon,ICC,169,169
+VHFColon,sigmoid colon,Lymphatic,500,500
+VHFColon,sigmoid colon,M1 Macrophage,13,13
+VHFColon,sigmoid colon,M2 Macrophage,1155,1155
+VHFColon,sigmoid colon,MUC1+ Enterocyte,0,0
+VHFColon,sigmoid colon,NK,7,7
+VHFColon,sigmoid colon,Nerve,1158,1158
+VHFColon,sigmoid colon,Neuroendocrine,2,2
+VHFColon,sigmoid colon,Neutrophil,27,27
+VHFColon,sigmoid colon,Paneth,0,0
+VHFColon,sigmoid colon,Plasma,0,0
+VHFColon,sigmoid colon,Smooth muscle,6810,6810
+VHFColon,sigmoid colon,Stroma,2390,2390
+VHFColon,sigmoid colon,TA,53,53
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,B cell,10.096774193548387096,313
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,CD14-positive monocyte,27.84,696
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,"CD14-positive, CD16-positive monocyte",35.206896551724137931,1021
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,"CD4-positive, alpha-beta cytotoxic T cell",18.828571428571428571,659
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,"CD8-positive, alpha-beta cytotoxic T cell",15.787878787878787878,521
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,"activated CD4-positive, alpha-beta T cell",11.833333333333333333,284
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,"activated CD8-positive, alpha-beta T cell",23.727272727272727272,783
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,capillary endothelial cell,524.666666666666666666,18888
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,dendritic cell,6.862068965517241379,199
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,endothelial cell,179.111111111111111111,6448
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,endothelial cell of artery,172,6192
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,endothelial cell of lymphatic vessel,11.26923076923076923,293
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,epicardial adipocyte,56.323529411764705882,1915
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,fibroblast,713.027777777777777777,25669
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,macrophage,144.722222222222222222,5210
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,mast cell,22.451612903225806451,696
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,mature NK T cell,13.266666666666666666,398
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,mesothelial cell,20.5,164
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,monocyte,11.588235294117647058,394
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,native cell,361.388888888888888888,13010
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,natural killer cell,38.774193548387096774,1202
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,neural cell,49.638888888888888888,1787
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,pericyte,942,33912
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,regular atrial cardiac myocyte,895.583333333333333333,10747
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,regular ventricular cardiac myocyte,2617.541666666666666666,62821
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,smooth muscle cell,189,6804
+VHFHeart,Posteromedial head of posterior papillary muscle of left ventricle,vein endothelial cell,90.888888888888888888,3272
+VHFHeart,aortic valve,B cell,10.096774193548387096,313
+VHFHeart,aortic valve,CD14-positive monocyte,26.807692307692307692,697
+VHFHeart,aortic valve,"CD14-positive, CD16-positive monocyte",33.129032258064516129,1027
+VHFHeart,aortic valve,"CD4-positive, alpha-beta cytotoxic T cell",17.894736842105263157,680
+VHFHeart,aortic valve,"CD8-positive, alpha-beta cytotoxic T cell",14.611111111111111111,526
+VHFHeart,aortic valve,"activated CD4-positive, alpha-beta T cell",10.814814814814814814,292
+VHFHeart,aortic valve,"activated CD8-positive, alpha-beta T cell",22.611111111111111111,814
+VHFHeart,aortic valve,capillary endothelial cell,484.575,19383
+VHFHeart,aortic valve,dendritic cell,6.545454545454545454,216
+VHFHeart,aortic valve,endothelial cell,164.925,6597
+VHFHeart,aortic valve,endothelial cell of artery,157.6,6304
+VHFHeart,aortic valve,endothelial cell of lymphatic vessel,10.607142857142857142,297
+VHFHeart,aortic valve,epicardial adipocyte,52.657894736842105263,2001
+VHFHeart,aortic valve,fibroblast,709.8,28392
+VHFHeart,aortic valve,macrophage,138.575,5543
+VHFHeart,aortic valve,mast cell,20.911764705882352941,711
+VHFHeart,aortic valve,mature NK T cell,12.935483870967741935,401
+VHFHeart,aortic valve,mesothelial cell,18.333333333333333333,165
+VHFHeart,aortic valve,monocyte,10.605263157894736842,403
+VHFHeart,aortic valve,native cell,346.5,13860
+VHFHeart,aortic valve,natural killer cell,36.60606060606060606,1208
+VHFHeart,aortic valve,neural cell,46.375,1855
+VHFHeart,aortic valve,pericyte,898.7,35948
+VHFHeart,aortic valve,regular atrial cardiac myocyte,857.76923076923076923,11151
+VHFHeart,aortic valve,regular ventricular cardiac myocyte,2611.481481481481481481,70510
+VHFHeart,aortic valve,smooth muscle cell,172.95,6918
+VHFHeart,aortic valve,vein endothelial cell,87.075,3483
+VHFHeart,heart left ventricle,Adipocyte,76.25,305
+VHFHeart,heart left ventricle,Arterial Endothelial,371.25,1485
+VHFHeart,heart left ventricle,Atrial Cardiomyocyte,21.25,85
+VHFHeart,heart left ventricle,B,2166,8664
+VHFHeart,heart left ventricle,B cell,10.096774193548387096,939
+VHFHeart,heart left ventricle,CD14-positive monocyte,27.142857142857142857,2090
+VHFHeart,heart left ventricle,"CD14-positive, CD16-positive monocyte",33.791208791208791208,3075
+VHFHeart,heart left ventricle,"CD4-positive, alpha-beta cytotoxic T cell",18.189189189189189189,2019
+VHFHeart,heart left ventricle,"CD8-positive, alpha-beta cytotoxic T cell",14.980952380952380952,1573
+VHFHeart,heart left ventricle,Capillary Endothelial,757,3028
+VHFHeart,heart left ventricle,Endocardial,175.75,703
+VHFHeart,heart left ventricle,Endothelial,4,16
+VHFHeart,heart left ventricle,Fibroblast,24794.5,99178
+VHFHeart,heart left ventricle,Lymphatic Endothelial,56.5,226
+VHFHeart,heart left ventricle,Macrophage,674.25,2697
+VHFHeart,heart left ventricle,Mast,67.5,270
+VHFHeart,heart left ventricle,Mesothelial,254.25,1017
+VHFHeart,heart left ventricle,Monocyte/cDC,1025,4100
+VHFHeart,heart left ventricle,NK,190.75,763
+VHFHeart,heart left ventricle,Neuronal,61.75,247
+VHFHeart,heart left ventricle,Pericyte,925.75,3703
+VHFHeart,heart left ventricle,Smooth Muscle,337.75,1351
+VHFHeart,heart left ventricle,T,116,464
+VHFHeart,heart left ventricle,Venous Endothelial,284.75,1139
+VHFHeart,heart left ventricle,Ventricular Cardiomycoyte,20966,83864
+VHFHeart,heart left ventricle,"activated CD4-positive, alpha-beta T cell",11.128205128205128205,868
+VHFHeart,heart left ventricle,"activated CD8-positive, alpha-beta T cell",22.961904761904761904,2411
+VHFHeart,heart left ventricle,capillary endothelial cell,497.017241379310344827,57654
+VHFHeart,heart left ventricle,dendritic cell,6.642105263157894736,631
+VHFHeart,heart left ventricle,endothelial cell,169.327586206896551724,19642
+VHFHeart,heart left ventricle,endothelial cell of artery,162.06896551724137931,18800
+VHFHeart,heart left ventricle,endothelial cell of lymphatic vessel,10.817073170731707317,887
+VHFHeart,heart left ventricle,epicardial adipocyte,53.790909090909090909,5917
+VHFHeart,heart left ventricle,fibroblast,710.801724137931034482,82453
+VHFHeart,heart left ventricle,macrophage,140.482758620689655172,16296
+VHFHeart,heart left ventricle,mast cell,21.393939393939393939,2118
+VHFHeart,heart left ventricle,mature NK T cell,13.043478260869565217,1200
+VHFHeart,heart left ventricle,mesothelial cell,19,494
+VHFHeart,heart left ventricle,monocyte,10.90909090909090909,1200
+VHFHeart,heart left ventricle,native cell,351.120689655172413793,40730
+VHFHeart,heart left ventricle,natural killer cell,37.298969072164948453,3618
+VHFHeart,heart left ventricle,neural cell,47.38793103448275862,5497
+VHFHeart,heart left ventricle,pericyte,912.13793103448275862,105808
+VHFHeart,heart left ventricle,regular atrial cardiac myocyte,869.710526315789473684,33049
+VHFHeart,heart left ventricle,regular ventricular cardiac myocyte,2613.346153846153846153,203841
+VHFHeart,heart left ventricle,smooth muscle cell,177.931034482758620689,20640
+VHFHeart,heart left ventricle,vein endothelial cell,88.258620689655172413,10238
+VHFHeart,heart right ventricle,Adipocyte,33,33
+VHFHeart,heart right ventricle,Arterial Endothelial,313,313
+VHFHeart,heart right ventricle,Atrial Cardiomyocyte,34,34
+VHFHeart,heart right ventricle,B,2015,2015
+VHFHeart,heart right ventricle,B cell,10.096774193548387096,626
+VHFHeart,heart right ventricle,CD14-positive monocyte,27.313725490196078431,1393
+VHFHeart,heart right ventricle,"CD14-positive, CD16-positive monocyte",34.133333333333333333,2048
+VHFHeart,heart right ventricle,"CD4-positive, alpha-beta cytotoxic T cell",18.342465753424657534,1339
+VHFHeart,heart right ventricle,"CD8-positive, alpha-beta cytotoxic T cell",15.173913043478260869,1047
+VHFHeart,heart right ventricle,Capillary Endothelial,928,928
+VHFHeart,heart right ventricle,Endocardial,94,94
+VHFHeart,heart right ventricle,Endothelial,1,1
+VHFHeart,heart right ventricle,Fibroblast,11647,11647
+VHFHeart,heart right ventricle,Lymphatic Endothelial,116,116
+VHFHeart,heart right ventricle,Macrophage,1046,1046
+VHFHeart,heart right ventricle,Mast,108,108
+VHFHeart,heart right ventricle,Mesothelial,275,275
+VHFHeart,heart right ventricle,Monocyte/cDC,1607,1607
+VHFHeart,heart right ventricle,NK,319,319
+VHFHeart,heart right ventricle,Neuronal,45,45
+VHFHeart,heart right ventricle,Pericyte,970,970
+VHFHeart,heart right ventricle,Smooth Muscle,189,189
+VHFHeart,heart right ventricle,T,203,203
+VHFHeart,heart right ventricle,Venous Endothelial,478,478
+VHFHeart,heart right ventricle,Ventricular Cardiomycoyte,39927,39927
+VHFHeart,heart right ventricle,"activated CD4-positive, alpha-beta T cell",11.294117647058823529,576
+VHFHeart,heart right ventricle,"activated CD8-positive, alpha-beta T cell",23.144927536231884057,1597
+VHFHeart,heart right ventricle,capillary endothelial cell,503.565789473684210526,38271
+VHFHeart,heart right ventricle,dendritic cell,6.693548387096774193,415
+VHFHeart,heart right ventricle,endothelial cell,171.644736842105263157,13045
+VHFHeart,heart right ventricle,endothelial cell of artery,164.421052631578947368,12496
+VHFHeart,heart right ventricle,endothelial cell of lymphatic vessel,10.925925925925925925,590
+VHFHeart,heart right ventricle,epicardial adipocyte,54.388888888888888888,3916
+VHFHeart,heart right ventricle,fibroblast,711.328947368421052631,54061
+VHFHeart,heart right ventricle,macrophage,141.486842105263157894,10753
+VHFHeart,heart right ventricle,mast cell,21.646153846153846153,1407
+VHFHeart,heart right ventricle,mature NK T cell,13.098360655737704918,799
+VHFHeart,heart right ventricle,mesothelial cell,19.352941176470588235,329
+VHFHeart,heart right ventricle,monocyte,11.069444444444444444,797
+VHFHeart,heart right ventricle,native cell,353.552631578947368421,26870
+VHFHeart,heart right ventricle,natural killer cell,37.65625,2410
+VHFHeart,heart right ventricle,neural cell,47.921052631578947368,3642
+VHFHeart,heart right ventricle,pericyte,919.210526315789473684,69860
+VHFHeart,heart right ventricle,regular atrial cardiac myocyte,875.92,21898
+VHFHeart,heart right ventricle,regular ventricular cardiac myocyte,2614.333333333333333333,133331
+VHFHeart,heart right ventricle,smooth muscle cell,180.552631578947368421,13722
+VHFHeart,heart right ventricle,vein endothelial cell,88.881578947368421052,6755
+VHFHeart,interventricular septum,Adipocyte,33,33
+VHFHeart,interventricular septum,Arterial Endothelial,313,313
+VHFHeart,interventricular septum,Atrial Cardiomyocyte,34,34
+VHFHeart,interventricular septum,B,2015,2015
+VHFHeart,interventricular septum,B cell,10.096774193548387096,313
+VHFHeart,interventricular septum,CD14-positive monocyte,27.84,696
+VHFHeart,interventricular septum,"CD14-positive, CD16-positive monocyte",35.206896551724137931,1021
+VHFHeart,interventricular septum,"CD4-positive, alpha-beta cytotoxic T cell",18.828571428571428571,659
+VHFHeart,interventricular septum,"CD8-positive, alpha-beta cytotoxic T cell",15.787878787878787878,521
+VHFHeart,interventricular septum,Capillary Endothelial,928,928
+VHFHeart,interventricular septum,Endocardial,94,94
+VHFHeart,interventricular septum,Endothelial,1,1
+VHFHeart,interventricular septum,Fibroblast,11647,11647
+VHFHeart,interventricular septum,Lymphatic Endothelial,116,116
+VHFHeart,interventricular septum,Macrophage,1046,1046
+VHFHeart,interventricular septum,Mast,108,108
+VHFHeart,interventricular septum,Mesothelial,275,275
+VHFHeart,interventricular septum,Monocyte/cDC,1607,1607
+VHFHeart,interventricular septum,NK,319,319
+VHFHeart,interventricular septum,Neuronal,45,45
+VHFHeart,interventricular septum,Pericyte,970,970
+VHFHeart,interventricular septum,Smooth Muscle,189,189
+VHFHeart,interventricular septum,T,203,203
+VHFHeart,interventricular septum,Venous Endothelial,478,478
+VHFHeart,interventricular septum,Ventricular Cardiomycoyte,39927,39927
+VHFHeart,interventricular septum,"activated CD4-positive, alpha-beta T cell",11.833333333333333333,284
+VHFHeart,interventricular septum,"activated CD8-positive, alpha-beta T cell",23.727272727272727272,783
+VHFHeart,interventricular septum,capillary endothelial cell,524.666666666666666666,18888
+VHFHeart,interventricular septum,dendritic cell,6.862068965517241379,199
+VHFHeart,interventricular septum,endothelial cell,179.111111111111111111,6448
+VHFHeart,interventricular septum,endothelial cell of artery,172,6192
+VHFHeart,interventricular septum,endothelial cell of lymphatic vessel,11.26923076923076923,293
+VHFHeart,interventricular septum,epicardial adipocyte,56.323529411764705882,1915
+VHFHeart,interventricular septum,fibroblast,713.027777777777777777,25669
+VHFHeart,interventricular septum,macrophage,144.722222222222222222,5210
+VHFHeart,interventricular septum,mast cell,22.451612903225806451,696
+VHFHeart,interventricular septum,mature NK T cell,13.266666666666666666,398
+VHFHeart,interventricular septum,mesothelial cell,20.5,164
+VHFHeart,interventricular septum,monocyte,11.588235294117647058,394
+VHFHeart,interventricular septum,native cell,361.388888888888888888,13010
+VHFHeart,interventricular septum,natural killer cell,38.774193548387096774,1202
+VHFHeart,interventricular septum,neural cell,49.638888888888888888,1787
+VHFHeart,interventricular septum,pericyte,942,33912
+VHFHeart,interventricular septum,regular atrial cardiac myocyte,895.583333333333333333,10747
+VHFHeart,interventricular septum,regular ventricular cardiac myocyte,2617.541666666666666666,62821
+VHFHeart,interventricular septum,smooth muscle cell,189,6804
+VHFHeart,interventricular septum,vein endothelial cell,90.888888888888888888,3272
+VHFHeart,left cardiac atrium,B cell,10.096774193548387096,313
+VHFHeart,left cardiac atrium,CD14-positive monocyte,26.807692307692307692,697
+VHFHeart,left cardiac atrium,"CD14-positive, CD16-positive monocyte",33.129032258064516129,1027
+VHFHeart,left cardiac atrium,"CD4-positive, alpha-beta cytotoxic T cell",17.894736842105263157,680
+VHFHeart,left cardiac atrium,"CD8-positive, alpha-beta cytotoxic T cell",14.611111111111111111,526
+VHFHeart,left cardiac atrium,"activated CD4-positive, alpha-beta T cell",10.814814814814814814,292
+VHFHeart,left cardiac atrium,"activated CD8-positive, alpha-beta T cell",22.611111111111111111,814
+VHFHeart,left cardiac atrium,capillary endothelial cell,484.575,19383
+VHFHeart,left cardiac atrium,dendritic cell,6.545454545454545454,216
+VHFHeart,left cardiac atrium,endothelial cell,164.925,6597
+VHFHeart,left cardiac atrium,endothelial cell of artery,157.6,6304
+VHFHeart,left cardiac atrium,endothelial cell of lymphatic vessel,10.607142857142857142,297
+VHFHeart,left cardiac atrium,epicardial adipocyte,52.657894736842105263,2001
+VHFHeart,left cardiac atrium,fibroblast,709.8,28392
+VHFHeart,left cardiac atrium,macrophage,138.575,5543
+VHFHeart,left cardiac atrium,mast cell,20.911764705882352941,711
+VHFHeart,left cardiac atrium,mature NK T cell,12.935483870967741935,401
+VHFHeart,left cardiac atrium,mesothelial cell,18.333333333333333333,165
+VHFHeart,left cardiac atrium,monocyte,10.605263157894736842,403
+VHFHeart,left cardiac atrium,native cell,346.5,13860
+VHFHeart,left cardiac atrium,natural killer cell,36.60606060606060606,1208
+VHFHeart,left cardiac atrium,neural cell,46.375,1855
+VHFHeart,left cardiac atrium,pericyte,898.7,35948
+VHFHeart,left cardiac atrium,regular atrial cardiac myocyte,857.76923076923076923,11151
+VHFHeart,left cardiac atrium,regular ventricular cardiac myocyte,2611.481481481481481481,70510
+VHFHeart,left cardiac atrium,smooth muscle cell,172.95,6918
+VHFHeart,left cardiac atrium,vein endothelial cell,87.075,3483
+VHFHeart,right cardiac atrium,Adipocyte,71,142
+VHFHeart,right cardiac atrium,B cell,10.096774193548387096,313
+VHFHeart,right cardiac atrium,CD14-positive monocyte,27.84,696
+VHFHeart,right cardiac atrium,"CD14-positive, CD16-positive monocyte",35.206896551724137931,1021
+VHFHeart,right cardiac atrium,"CD4-positive, alpha-beta cytotoxic T cell",18.828571428571428571,659
+VHFHeart,right cardiac atrium,"CD8-positive, alpha-beta cytotoxic T cell",15.787878787878787878,521
+VHFHeart,right cardiac atrium,Endothelial cell,2731,5462
+VHFHeart,right cardiac atrium,Fibroblast,3240.5,6481
+VHFHeart,right cardiac atrium,Glia,101.5,203
+VHFHeart,right cardiac atrium,Immune (lymphocyte),197,394
+VHFHeart,right cardiac atrium,Immune (myeloid),1470,2940
+VHFHeart,right cardiac atrium,Muscle,4442.5,8885
+VHFHeart,right cardiac atrium,"activated CD4-positive, alpha-beta T cell",11.833333333333333333,284
+VHFHeart,right cardiac atrium,"activated CD8-positive, alpha-beta T cell",23.727272727272727272,783
+VHFHeart,right cardiac atrium,capillary endothelial cell,524.666666666666666666,18888
+VHFHeart,right cardiac atrium,dendritic cell,6.862068965517241379,199
+VHFHeart,right cardiac atrium,endothelial cell,179.111111111111111111,6448
+VHFHeart,right cardiac atrium,endothelial cell of artery,172,6192
+VHFHeart,right cardiac atrium,endothelial cell of lymphatic vessel,11.26923076923076923,293
+VHFHeart,right cardiac atrium,epicardial adipocyte,56.323529411764705882,1915
+VHFHeart,right cardiac atrium,fibroblast,713.027777777777777777,25669
+VHFHeart,right cardiac atrium,macrophage,144.722222222222222222,5210
+VHFHeart,right cardiac atrium,mast cell,22.451612903225806451,696
+VHFHeart,right cardiac atrium,mature NK T cell,13.266666666666666666,398
+VHFHeart,right cardiac atrium,mesothelial cell,20.5,164
+VHFHeart,right cardiac atrium,monocyte,11.588235294117647058,394
+VHFHeart,right cardiac atrium,native cell,361.388888888888888888,13010
+VHFHeart,right cardiac atrium,natural killer cell,38.774193548387096774,1202
+VHFHeart,right cardiac atrium,neural cell,49.638888888888888888,1787
+VHFHeart,right cardiac atrium,pericyte,942,33912
+VHFHeart,right cardiac atrium,regular atrial cardiac myocyte,895.583333333333333333,10747
+VHFHeart,right cardiac atrium,regular ventricular cardiac myocyte,2617.541666666666666666,62821
+VHFHeart,right cardiac atrium,smooth muscle cell,189,6804
+VHFHeart,right cardiac atrium,vein endothelial cell,90.888888888888888888,3272
+VHFLargeIntestine,ascending colon,B,409,409
+VHFLargeIntestine,ascending colon,CD4+ T cell,921,921
+VHFLargeIntestine,ascending colon,CD57+ Enterocyte,0,0
+VHFLargeIntestine,ascending colon,CD66+ Enterocyte,823,823
+VHFLargeIntestine,ascending colon,CD7+ Immune,33,33
+VHFLargeIntestine,ascending colon,CD8+ T,872,872
+VHFLargeIntestine,ascending colon,Cycling TA,742,742
+VHFLargeIntestine,ascending colon,DC,277,277
+VHFLargeIntestine,ascending colon,Endothelial,1351,1351
+VHFLargeIntestine,ascending colon,Enterocyte,3271,3271
+VHFLargeIntestine,ascending colon,Goblet,2227,2227
+VHFLargeIntestine,ascending colon,ICC,243,243
+VHFLargeIntestine,ascending colon,Lymphatic,307,307
+VHFLargeIntestine,ascending colon,M1 Macrophage,57,57
+VHFLargeIntestine,ascending colon,M2 Macrophage,778,778
+VHFLargeIntestine,ascending colon,MUC1+ Enterocyte,26,26
+VHFLargeIntestine,ascending colon,NK,18,18
+VHFLargeIntestine,ascending colon,Nerve,371,371
+VHFLargeIntestine,ascending colon,Neuroendocrine,73,73
+VHFLargeIntestine,ascending colon,Neutrophil,55,55
+VHFLargeIntestine,ascending colon,Paneth,3,3
+VHFLargeIntestine,ascending colon,Plasma,1132,1132
+VHFLargeIntestine,ascending colon,Smooth muscle,1415,1415
+VHFLargeIntestine,ascending colon,Stroma,1208,1208
+VHFLargeIntestine,ascending colon,TA,700,700
+VHFLargeIntestine,caecum,B,409,409
+VHFLargeIntestine,caecum,CD4+ T cell,921,921
+VHFLargeIntestine,caecum,CD57+ Enterocyte,0,0
+VHFLargeIntestine,caecum,CD66+ Enterocyte,823,823
+VHFLargeIntestine,caecum,CD7+ Immune,33,33
+VHFLargeIntestine,caecum,CD8+ T,872,872
+VHFLargeIntestine,caecum,Cycling TA,742,742
+VHFLargeIntestine,caecum,DC,277,277
+VHFLargeIntestine,caecum,Endothelial,1351,1351
+VHFLargeIntestine,caecum,Enterocyte,3271,3271
+VHFLargeIntestine,caecum,Goblet,2227,2227
+VHFLargeIntestine,caecum,ICC,243,243
+VHFLargeIntestine,caecum,Lymphatic,307,307
+VHFLargeIntestine,caecum,M1 Macrophage,57,57
+VHFLargeIntestine,caecum,M2 Macrophage,778,778
+VHFLargeIntestine,caecum,MUC1+ Enterocyte,26,26
+VHFLargeIntestine,caecum,NK,18,18
+VHFLargeIntestine,caecum,Nerve,371,371
+VHFLargeIntestine,caecum,Neuroendocrine,73,73
+VHFLargeIntestine,caecum,Neutrophil,55,55
+VHFLargeIntestine,caecum,Paneth,3,3
+VHFLargeIntestine,caecum,Plasma,1132,1132
+VHFLargeIntestine,caecum,Smooth muscle,1415,1415
+VHFLargeIntestine,caecum,Stroma,1208,1208
+VHFLargeIntestine,caecum,TA,700,700
+VHFLargeIntestine,transverse colon,B,192,192
+VHFLargeIntestine,transverse colon,CD4+ T cell,1224,1224
+VHFLargeIntestine,transverse colon,CD57+ Enterocyte,3,3
+VHFLargeIntestine,transverse colon,CD66+ Enterocyte,808,808
+VHFLargeIntestine,transverse colon,CD7+ Immune,61,61
+VHFLargeIntestine,transverse colon,CD8+ T,610,610
+VHFLargeIntestine,transverse colon,Cycling TA,678,678
+VHFLargeIntestine,transverse colon,DC,382,382
+VHFLargeIntestine,transverse colon,Endothelial,2582,2582
+VHFLargeIntestine,transverse colon,Enterocyte,3313,3313
+VHFLargeIntestine,transverse colon,Goblet,1979,1979
+VHFLargeIntestine,transverse colon,ICC,671,671
+VHFLargeIntestine,transverse colon,Lymphatic,1033,1033
+VHFLargeIntestine,transverse colon,M1 Macrophage,86,86
+VHFLargeIntestine,transverse colon,M2 Macrophage,3507,3507
+VHFLargeIntestine,transverse colon,MUC1+ Enterocyte,20,20
+VHFLargeIntestine,transverse colon,NK,16,16
+VHFLargeIntestine,transverse colon,Nerve,2036,2036
+VHFLargeIntestine,transverse colon,Neuroendocrine,168,168
+VHFLargeIntestine,transverse colon,Neutrophil,32,32
+VHFLargeIntestine,transverse colon,Paneth,331,331
+VHFLargeIntestine,transverse colon,Plasma,734,734
+VHFLargeIntestine,transverse colon,Smooth muscle,8564,8564
+VHFLargeIntestine,transverse colon,Stroma,3641,3641
+VHFLargeIntestine,transverse colon,TA,610,610
+VHFLeftKidney,outer cortex of kidney,Afferent / Efferent Arteriole Endothelial,101.058823529411764705,1718
+VHFLeftKidney,outer cortex of kidney,Ascending Thin Limb,1911.823529411764705882,32501
+VHFLeftKidney,outer cortex of kidney,Ascending Vasa Recta Endothelial,259.529411764705882352,4412
+VHFLeftKidney,outer cortex of kidney,B,44.266666666666666666,664
+VHFLeftKidney,outer cortex of kidney,Classical Dendritic,135.857142857142857142,951
+VHFLeftKidney,outer cortex of kidney,Connecting Tubule,2871.611111111111111111,51689
+VHFLeftKidney,outer cortex of kidney,Connecting Tubule Intercalated Type A,2,4
+VHFLeftKidney,outer cortex of kidney,Connecting Tubule Principal,206.888888888888888888,3724
+VHFLeftKidney,outer cortex of kidney,Cortical Collecting Duct Intercalated Type A,649.666666666666666666,11694
+VHFLeftKidney,outer cortex of kidney,Cortical Collecting Duct Principal,6599.333333333333333333,118788
+VHFLeftKidney,outer cortex of kidney,Cortical Thick Ascending Limb,2904.722222222222222222,52285
+VHFLeftKidney,outer cortex of kidney,Cortical Vascular Smooth Muscle / Pericyte,25,425
+VHFLeftKidney,outer cortex of kidney,Cycling Mononuclear Phagocyte,5,35
+VHFLeftKidney,outer cortex of kidney,Descending Thin Limb Type 1,12469,224442
+VHFLeftKidney,outer cortex of kidney,Descending Thin Limb Type 2,16709.555555555555555555,300772
+VHFLeftKidney,outer cortex of kidney,Descending Thin Limb Type 3,106.294117647058823529,1807
+VHFLeftKidney,outer cortex of kidney,Descending Vasa Recta Endothelial,14,14
+VHFLeftKidney,outer cortex of kidney,"Descending Vasa Recta Endothelial ",141.4375,2263
+VHFLeftKidney,outer cortex of kidney,Distal Convoluted Tubule Type 1,3417.111111111111111111,61508
+VHFLeftKidney,outer cortex of kidney,Distal Convoluted Tubule Type 2,22.5,45
+VHFLeftKidney,outer cortex of kidney,Fibroblast,578.277777777777777777,10409
+VHFLeftKidney,outer cortex of kidney,Glomerular Capillary Endothelial,55.666666666666666666,1002
+VHFLeftKidney,outer cortex of kidney,Inner Medullary Collecting Duct,5102.529411764705882352,86743
+VHFLeftKidney,outer cortex of kidney,Intercalated Type B,270.470588235294117647,4598
+VHFLeftKidney,outer cortex of kidney,Lymphatic Endothelial,2.375,19
+VHFLeftKidney,outer cortex of kidney,M2 Macrophage,43.6,654
+VHFLeftKidney,outer cortex of kidney,Macula Densa,140.444444444444444444,2528
+VHFLeftKidney,outer cortex of kidney,Mast,28,196
+VHFLeftKidney,outer cortex of kidney,Medullary Fibroblast,311.117647058823529411,5289
+VHFLeftKidney,outer cortex of kidney,Medullary Thick Ascending Limb,2923.555555555555555555,52624
+VHFLeftKidney,outer cortex of kidney,Mesangial,10880.294117647058823529,184965
+VHFLeftKidney,outer cortex of kidney,Monocyte,7,7
+VHFLeftKidney,outer cortex of kidney,Monocyte-derived,65.642857142857142857,919
+VHFLeftKidney,outer cortex of kidney,Natural Killer / Natural Killer T,18,18
+VHFLeftKidney,outer cortex of kidney,Natural Killer T,2,16
+VHFLeftKidney,outer cortex of kidney,Neutrophil,2,2
+VHFLeftKidney,outer cortex of kidney,Non-classical monocyte,1,2
+VHFLeftKidney,outer cortex of kidney,Outer Medullary Collecting Duct Intercalated Type A,246.444444444444444444,4436
+VHFLeftKidney,outer cortex of kidney,Outer Medullary Collecting Duct Principal,184.411764705882352941,3135
+VHFLeftKidney,outer cortex of kidney,Papillary Tip Epithelial,1,2
+VHFLeftKidney,outer cortex of kidney,Parietal Epithelial,273.833333333333333333,4929
+VHFLeftKidney,outer cortex of kidney,Peritubular Capilary Endothelial,303,303
+VHFLeftKidney,outer cortex of kidney,"Peritubular Capilary Endothelial ",263.411764705882352941,4478
+VHFLeftKidney,outer cortex of kidney,Plasma,2,2
+VHFLeftKidney,outer cortex of kidney,Podocyte,34.777777777777777777,626
+VHFLeftKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 1,182.70588235294117647,3106
+VHFLeftKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 2,11.111111111111111111,100
+VHFLeftKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 3,176.777777777777777777,3182
+VHFLeftKidney,outer cortex of kidney,Renin-positive Juxtaglomerular Granular,1.222222222222222222,11
+VHFLeftKidney,outer cortex of kidney,Schwann / Neural,4,4
+VHFLeftKidney,outer cortex of kidney,T,302.25,4836
+VHFLeftKidney,outer cortex of kidney,Tissue-resident Macrophage,36,36
+VHFLeftKidney,outer cortex of kidney,Vascular Smooth Muscle / Pericyte,161.166666666666666666,2901
+VHFLeftKidney,renal column,Afferent / Efferent Arteriole Endothelial,113.133333333333333333,1697
+VHFLeftKidney,renal column,Ascending Thin Limb,2026.125,32418
+VHFLeftKidney,renal column,Ascending Vasa Recta Endothelial,292.8,4392
+VHFLeftKidney,renal column,B,50.846153846153846153,661
+VHFLeftKidney,renal column,Classical Dendritic,158,948
+VHFLeftKidney,renal column,Connecting Tubule,3151.375,50422
+VHFLeftKidney,renal column,Connecting Tubule Intercalated Type A,1,1
+VHFLeftKidney,renal column,Connecting Tubule Principal,232.125,3714
+VHFLeftKidney,renal column,Cortical Collecting Duct Intercalated Type A,719.8125,11517
+VHFLeftKidney,renal column,Cortical Collecting Duct Principal,7414.9375,118639
+VHFLeftKidney,renal column,Cortical Thick Ascending Limb,3236.6875,51787
+VHFLeftKidney,renal column,Cortical Vascular Smooth Muscle / Pericyte,24.8,372
+VHFLeftKidney,renal column,Cycling Mononuclear Phagocyte,5,35
+VHFLeftKidney,renal column,Descending Thin Limb Type 1,14024.625,224394
+VHFLeftKidney,renal column,Descending Thin Limb Type 2,18787.0625,300593
+VHFLeftKidney,renal column,Descending Thin Limb Type 3,112.875,1806
+VHFLeftKidney,renal column,"Descending Vasa Recta Endothelial ",150.733333333333333333,2261
+VHFLeftKidney,renal column,Distal Convoluted Tubule Type 1,3802.75,60844
+VHFLeftKidney,renal column,Distal Convoluted Tubule Type 2,1,1
+VHFLeftKidney,renal column,Fibroblast,649.1875,10387
+VHFLeftKidney,renal column,Glomerular Capillary Endothelial,54.375,870
+VHFLeftKidney,renal column,Inner Medullary Collecting Duct,5330.25,85284
+VHFLeftKidney,renal column,Intercalated Type B,304.466666666666666666,4567
+VHFLeftKidney,renal column,Lymphatic Endothelial,1,6
+VHFLeftKidney,renal column,M2 Macrophage,44.142857142857142857,618
+VHFLeftKidney,renal column,Macula Densa,153.0625,2449
+VHFLeftKidney,renal column,Mast,32,192
+VHFLeftKidney,renal column,Medullary Fibroblast,330.4375,5287
+VHFLeftKidney,renal column,Medullary Thick Ascending Limb,3263.4375,52215
+VHFLeftKidney,renal column,Mesangial,12330.4,184956
+VHFLeftKidney,renal column,Monocyte-derived,69,897
+VHFLeftKidney,renal column,Natural Killer T,1,7
+VHFLeftKidney,renal column,Non-classical monocyte,1,1
+VHFLeftKidney,renal column,Outer Medullary Collecting Duct Intercalated Type A,267.4375,4279
+VHFLeftKidney,renal column,Outer Medullary Collecting Duct Principal,195.8125,3133
+VHFLeftKidney,renal column,Parietal Epithelial,305.3125,4885
+VHFLeftKidney,renal column,"Peritubular Capilary Endothelial ",269.5,4312
+VHFLeftKidney,renal column,Podocyte,25.5,408
+VHFLeftKidney,renal column,Proximal Tubule Epithelial Segment 1,162.066666666666666666,2431
+VHFLeftKidney,renal column,Proximal Tubule Epithelial Segment 2,7.25,58
+VHFLeftKidney,renal column,Proximal Tubule Epithelial Segment 3,178,2848
+VHFLeftKidney,renal column,Renin-positive Juxtaglomerular Granular,1,8
+VHFLeftKidney,renal column,Schwann / Neural,4,4
+VHFLeftKidney,renal column,T,340.071428571428571428,4761
+VHFLeftKidney,renal column,Vascular Smooth Muscle / Pericyte,178,2848
+VHFLeftKidney,renal pyramid,Afferent / Efferent Arteriole Endothelial,86.65,1733
+VHFLeftKidney,renal pyramid,Ascending Thin Limb,1382.708333333333333333,33185
+VHFLeftKidney,renal pyramid,Ascending Vasa Recta Endothelial,238.130434782608695652,5477
+VHFLeftKidney,renal pyramid,B,41.5625,665
+VHFLeftKidney,renal pyramid,Classical Dendritic,105.666666666666666666,951
+VHFLeftKidney,renal pyramid,Connecting Tubule,2294.041666666666666666,55057
+VHFLeftKidney,renal pyramid,Connecting Tubule Intercalated Type A,1,3
+VHFLeftKidney,renal pyramid,Connecting Tubule Principal,163,3749
+VHFLeftKidney,renal pyramid,Cortical Collecting Duct Intercalated Type A,551.857142857142857142,11589
+VHFLeftKidney,renal pyramid,Cortical Collecting Duct Principal,4999.541666666666666666,119989
+VHFLeftKidney,renal pyramid,Cortical Thick Ascending Limb,2411.136363636363636363,53045
+VHFLeftKidney,renal pyramid,Cortical Vascular Smooth Muscle / Pericyte,20.210526315789473684,384
+VHFLeftKidney,renal pyramid,Cycling Mononuclear Phagocyte,4.111111111111111111,37
+VHFLeftKidney,renal pyramid,Descending Thin Limb Type 1,9577.166666666666666666,229852
+VHFLeftKidney,renal pyramid,Descending Thin Limb Type 2,12531.583333333333333333,300758
+VHFLeftKidney,renal pyramid,Descending Thin Limb Type 3,98.125,2355
+VHFLeftKidney,renal pyramid,Descending Vasa Recta Endothelial,101,303
+VHFLeftKidney,renal pyramid,"Descending Vasa Recta Endothelial ",117.2,2344
+VHFLeftKidney,renal pyramid,Distal Convoluted Tubule Type 1,2779.590909090909090909,61151
+VHFLeftKidney,renal pyramid,Distal Convoluted Tubule Type 2,1,1
+VHFLeftKidney,renal pyramid,Fibroblast,457.304347826086956521,10518
+VHFLeftKidney,renal pyramid,Glomerular Capillary Endothelial,46.315789473684210526,880
+VHFLeftKidney,renal pyramid,Inner Medullary Collecting Duct,3964.541666666666666666,95149
+VHFLeftKidney,renal pyramid,Intercalated Type B,240.631578947368421052,4572
+VHFLeftKidney,renal pyramid,Lymphatic Endothelial,1.3,13
+VHFLeftKidney,renal pyramid,M2 Macrophage,37.117647058823529411,631
+VHFLeftKidney,renal pyramid,Macula Densa,119.818181818181818181,2636
+VHFLeftKidney,renal pyramid,Mast,26.625,213
+VHFLeftKidney,renal pyramid,Medullary Fibroblast,278.583333333333333333,6686
+VHFLeftKidney,renal pyramid,Medullary Thick Ascending Limb,2440.636363636363636363,53694
+VHFLeftKidney,renal pyramid,Mesangial,10879.882352941176470588,184958
+VHFLeftKidney,renal pyramid,Monocyte,2.666666666666666666,8
+VHFLeftKidney,renal pyramid,Monocyte-derived,56.882352941176470588,967
+VHFLeftKidney,renal pyramid,Natural Killer / Natural Killer T,5,15
+VHFLeftKidney,renal pyramid,Natural Killer T,1,7
+VHFLeftKidney,renal pyramid,Neutrophil,2.25,9
+VHFLeftKidney,renal pyramid,Non-classical monocyte,1,1
+VHFLeftKidney,renal pyramid,Outer Medullary Collecting Duct Intercalated Type A,225.571428571428571428,4737
+VHFLeftKidney,renal pyramid,Outer Medullary Collecting Duct Principal,156.809523809523809523,3293
+VHFLeftKidney,renal pyramid,Papillary Tip Epithelial,174,696
+VHFLeftKidney,renal pyramid,Parietal Epithelial,257.421052631578947368,4891
+VHFLeftKidney,renal pyramid,Peritubular Capilary Endothelial,38,114
+VHFLeftKidney,renal pyramid,"Peritubular Capilary Endothelial ",218.5,4370
+VHFLeftKidney,renal pyramid,Plasma,1.666666666666666666,5
+VHFLeftKidney,renal pyramid,Podocyte,24.117647058823529411,410
+VHFLeftKidney,renal pyramid,Proximal Tubule Epithelial Segment 1,135.277777777777777777,2435
+VHFLeftKidney,renal pyramid,Proximal Tubule Epithelial Segment 2,7.25,58
+VHFLeftKidney,renal pyramid,Proximal Tubule Epithelial Segment 3,158.777777777777777777,2858
+VHFLeftKidney,renal pyramid,Renin-positive Juxtaglomerular Granular,1,10
+VHFLeftKidney,renal pyramid,Schwann / Neural,2.333333333333333333,7
+VHFLeftKidney,renal pyramid,T,268.277777777777777777,4829
+VHFLeftKidney,renal pyramid,Tissue-resident Macrophage,45.333333333333333333,136
+VHFLeftKidney,renal pyramid,Vascular Smooth Muscle / Pericyte,126.083333333333333333,3026
+VHFLeftUreter,left ureter,Afferent / Efferent Arteriole Endothelial,1.5,3
+VHFLeftUreter,left ureter,Ascending Thin Limb,1,1
+VHFLeftUreter,left ureter,Ascending Vasa Recta Endothelial,4,8
+VHFLeftUreter,left ureter,Classical Dendritic,8,8
+VHFLeftUreter,left ureter,Connecting Tubule,653,1306
+VHFLeftUreter,left ureter,Connecting Tubule Principal,1.5,3
+VHFLeftUreter,left ureter,Cortical Collecting Duct Intercalated Type A,116.5,233
+VHFLeftUreter,left ureter,Cortical Collecting Duct Principal,416,832
+VHFLeftUreter,left ureter,Cortical Vascular Smooth Muscle / Pericyte,71.5,143
+VHFLeftUreter,left ureter,Descending Thin Limb Type 1,985.5,1971
+VHFLeftUreter,left ureter,Descending Thin Limb Type 2,16.5,33
+VHFLeftUreter,left ureter,Descending Thin Limb Type 3,22,22
+VHFLeftUreter,left ureter,"Descending Vasa Recta Endothelial ",60.5,121
+VHFLeftUreter,left ureter,Distal Convoluted Tubule Type 1,10,10
+VHFLeftUreter,left ureter,Fibroblast,795,1590
+VHFLeftUreter,left ureter,Inner Medullary Collecting Duct,9378,18756
+VHFLeftUreter,left ureter,Intercalated Type B,62,62
+VHFLeftUreter,left ureter,Lymphatic Endothelial,1,1
+VHFLeftUreter,left ureter,M2 Macrophage,20,40
+VHFLeftUreter,left ureter,Mast,1,1
+VHFLeftUreter,left ureter,Medullary Fibroblast,729,1458
+VHFLeftUreter,left ureter,Non-classical monocyte,3,3
+VHFLeftUreter,left ureter,Outer Medullary Collecting Duct Intercalated Type A,19,19
+VHFLeftUreter,left ureter,Papillary Tip Epithelial,1325.5,2651
+VHFLeftUreter,left ureter,Parietal Epithelial,41.5,83
+VHFLeftUreter,left ureter,"Peritubular Capilary Endothelial ",127.5,255
+VHFLeftUreter,left ureter,Renin-positive Juxtaglomerular Granular,1,1
+VHFLeftUreter,left ureter,T,1,1
+VHFLeftUreter,left ureter,Vascular Smooth Muscle / Pericyte,13,26
+VHFLung,Cartilage of bronchus,B cell,135,540
+VHFLung,Cartilage of bronchus,T cell,278.75,1115
+VHFLung,Cartilage of bronchus,alveolar macrophage,765.25,3061
+VHFLung,Cartilage of bronchus,basal cell,17.5,70
+VHFLung,Cartilage of bronchus,blood vessel endothelial cell,2.25,9
+VHFLung,Cartilage of bronchus,chondrocyte,13.25,53
+VHFLung,Cartilage of bronchus,ciliated cell,84,336
+VHFLung,Cartilage of bronchus,club cell,99.25,397
+VHFLung,Cartilage of bronchus,dendritic cell,19,76
+VHFLung,Cartilage of bronchus,endothelial cell,237.5,950
+VHFLung,Cartilage of bronchus,endothelial cell of artery,23,92
+VHFLung,Cartilage of bronchus,enucleate erythrocyte,28.25,113
+VHFLung,Cartilage of bronchus,epithelial cell,82.25,329
+VHFLung,Cartilage of bronchus,fibroblast,625.75,2503
+VHFLung,Cartilage of bronchus,goblet cell,30.666666666666666666,92
+VHFLung,Cartilage of bronchus,lung neuroendocrine cell,6.333333333333333333,19
+VHFLung,Cartilage of bronchus,macrophage,85.5,342
+VHFLung,Cartilage of bronchus,mast cell,11,44
+VHFLung,Cartilage of bronchus,monocyte,305.5,1222
+VHFLung,Cartilage of bronchus,myofibroblast cell,59.5,238
+VHFLung,Cartilage of bronchus,native cell,203.5,814
+VHFLung,Cartilage of bronchus,natural killer cell,124.5,498
+VHFLung,Cartilage of bronchus,pericyte,92.75,371
+VHFLung,Cartilage of bronchus,smooth muscle cell,60,240
+VHFLung,Cartilage of bronchus,type I pneumocyte,346.75,1387
+VHFLung,Cartilage of bronchus,type II pneumocyte,627.5,2510
+VHFLung,Cartilage of bronchus,vascular associated smooth muscle cell,24.5,98
+VHFLung,Cartilage of bronchus,vein endothelial cell,14.75,59
+VHFLung,Lateral segmental bronchus,B cell,135,540
+VHFLung,Lateral segmental bronchus,T cell,278.75,1115
+VHFLung,Lateral segmental bronchus,alveolar macrophage,765.25,3061
+VHFLung,Lateral segmental bronchus,basal cell,17.5,70
+VHFLung,Lateral segmental bronchus,blood vessel endothelial cell,2.25,9
+VHFLung,Lateral segmental bronchus,chondrocyte,13.25,53
+VHFLung,Lateral segmental bronchus,ciliated cell,84,336
+VHFLung,Lateral segmental bronchus,club cell,99.25,397
+VHFLung,Lateral segmental bronchus,dendritic cell,19,76
+VHFLung,Lateral segmental bronchus,endothelial cell,237.5,950
+VHFLung,Lateral segmental bronchus,endothelial cell of artery,23,92
+VHFLung,Lateral segmental bronchus,enucleate erythrocyte,28.25,113
+VHFLung,Lateral segmental bronchus,epithelial cell,82.25,329
+VHFLung,Lateral segmental bronchus,fibroblast,625.75,2503
+VHFLung,Lateral segmental bronchus,goblet cell,30.666666666666666666,92
+VHFLung,Lateral segmental bronchus,lung neuroendocrine cell,6.333333333333333333,19
+VHFLung,Lateral segmental bronchus,macrophage,85.5,342
+VHFLung,Lateral segmental bronchus,mast cell,11,44
+VHFLung,Lateral segmental bronchus,monocyte,305.5,1222
+VHFLung,Lateral segmental bronchus,myofibroblast cell,59.5,238
+VHFLung,Lateral segmental bronchus,native cell,203.5,814
+VHFLung,Lateral segmental bronchus,natural killer cell,124.5,498
+VHFLung,Lateral segmental bronchus,pericyte,92.75,371
+VHFLung,Lateral segmental bronchus,smooth muscle cell,60,240
+VHFLung,Lateral segmental bronchus,type I pneumocyte,346.75,1387
+VHFLung,Lateral segmental bronchus,type II pneumocyte,627.5,2510
+VHFLung,Lateral segmental bronchus,vascular associated smooth muscle cell,24.5,98
+VHFLung,Lateral segmental bronchus,vein endothelial cell,14.75,59
+VHFLung,Left apical bronchopulmonary segment,Endothelial cell,757,757
+VHFLung,Left apical bronchopulmonary segment,Epithelial cell,9320,9320
+VHFLung,Left apical bronchopulmonary segment,Fibroblast,724,724
+VHFLung,Left apical bronchopulmonary segment,Immune (lymphocyte),414,414
+VHFLung,Left apical bronchopulmonary segment,Immune (myeloid),1957,1957
+VHFLung,Left apical bronchopulmonary segment,Muscle,88,88
+VHFLung,Left posterior bronchopulmonary segment,Endothelial cell,757,757
+VHFLung,Left posterior bronchopulmonary segment,Epithelial cell,9320,9320
+VHFLung,Left posterior bronchopulmonary segment,Fibroblast,724,724
+VHFLung,Left posterior bronchopulmonary segment,Immune (lymphocyte),414,414
+VHFLung,Left posterior bronchopulmonary segment,Immune (myeloid),1957,1957
+VHFLung,Left posterior bronchopulmonary segment,Muscle,88,88
+VHFLung,Right Lateral Bronchopulmonary Segment,B cell,135,540
+VHFLung,Right Lateral Bronchopulmonary Segment,T cell,278.75,1115
+VHFLung,Right Lateral Bronchopulmonary Segment,alveolar macrophage,765.25,3061
+VHFLung,Right Lateral Bronchopulmonary Segment,basal cell,17.5,70
+VHFLung,Right Lateral Bronchopulmonary Segment,blood vessel endothelial cell,2.25,9
+VHFLung,Right Lateral Bronchopulmonary Segment,chondrocyte,13.25,53
+VHFLung,Right Lateral Bronchopulmonary Segment,ciliated cell,84,336
+VHFLung,Right Lateral Bronchopulmonary Segment,club cell,99.25,397
+VHFLung,Right Lateral Bronchopulmonary Segment,dendritic cell,19,76
+VHFLung,Right Lateral Bronchopulmonary Segment,endothelial cell,237.5,950
+VHFLung,Right Lateral Bronchopulmonary Segment,endothelial cell of artery,23,92
+VHFLung,Right Lateral Bronchopulmonary Segment,enucleate erythrocyte,28.25,113
+VHFLung,Right Lateral Bronchopulmonary Segment,epithelial cell,82.25,329
+VHFLung,Right Lateral Bronchopulmonary Segment,fibroblast,625.75,2503
+VHFLung,Right Lateral Bronchopulmonary Segment,goblet cell,30.666666666666666666,92
+VHFLung,Right Lateral Bronchopulmonary Segment,lung neuroendocrine cell,6.333333333333333333,19
+VHFLung,Right Lateral Bronchopulmonary Segment,macrophage,85.5,342
+VHFLung,Right Lateral Bronchopulmonary Segment,mast cell,11,44
+VHFLung,Right Lateral Bronchopulmonary Segment,monocyte,305.5,1222
+VHFLung,Right Lateral Bronchopulmonary Segment,myofibroblast cell,59.5,238
+VHFLung,Right Lateral Bronchopulmonary Segment,native cell,203.5,814
+VHFLung,Right Lateral Bronchopulmonary Segment,natural killer cell,124.5,498
+VHFLung,Right Lateral Bronchopulmonary Segment,pericyte,92.75,371
+VHFLung,Right Lateral Bronchopulmonary Segment,smooth muscle cell,60,240
+VHFLung,Right Lateral Bronchopulmonary Segment,type I pneumocyte,346.75,1387
+VHFLung,Right Lateral Bronchopulmonary Segment,type II pneumocyte,627.5,2510
+VHFLung,Right Lateral Bronchopulmonary Segment,vascular associated smooth muscle cell,24.5,98
+VHFLung,Right Lateral Bronchopulmonary Segment,vein endothelial cell,14.75,59
+VHFLung,Right Medial Bronchopulmonary Segment,B cell,135,540
+VHFLung,Right Medial Bronchopulmonary Segment,T cell,278.75,1115
+VHFLung,Right Medial Bronchopulmonary Segment,alveolar macrophage,765.25,3061
+VHFLung,Right Medial Bronchopulmonary Segment,basal cell,17.5,70
+VHFLung,Right Medial Bronchopulmonary Segment,blood vessel endothelial cell,2.25,9
+VHFLung,Right Medial Bronchopulmonary Segment,chondrocyte,13.25,53
+VHFLung,Right Medial Bronchopulmonary Segment,ciliated cell,84,336
+VHFLung,Right Medial Bronchopulmonary Segment,club cell,99.25,397
+VHFLung,Right Medial Bronchopulmonary Segment,dendritic cell,19,76
+VHFLung,Right Medial Bronchopulmonary Segment,endothelial cell,237.5,950
+VHFLung,Right Medial Bronchopulmonary Segment,endothelial cell of artery,23,92
+VHFLung,Right Medial Bronchopulmonary Segment,enucleate erythrocyte,28.25,113
+VHFLung,Right Medial Bronchopulmonary Segment,epithelial cell,82.25,329
+VHFLung,Right Medial Bronchopulmonary Segment,fibroblast,625.75,2503
+VHFLung,Right Medial Bronchopulmonary Segment,goblet cell,30.666666666666666666,92
+VHFLung,Right Medial Bronchopulmonary Segment,lung neuroendocrine cell,6.333333333333333333,19
+VHFLung,Right Medial Bronchopulmonary Segment,macrophage,85.5,342
+VHFLung,Right Medial Bronchopulmonary Segment,mast cell,11,44
+VHFLung,Right Medial Bronchopulmonary Segment,monocyte,305.5,1222
+VHFLung,Right Medial Bronchopulmonary Segment,myofibroblast cell,59.5,238
+VHFLung,Right Medial Bronchopulmonary Segment,native cell,203.5,814
+VHFLung,Right Medial Bronchopulmonary Segment,natural killer cell,124.5,498
+VHFLung,Right Medial Bronchopulmonary Segment,pericyte,92.75,371
+VHFLung,Right Medial Bronchopulmonary Segment,smooth muscle cell,60,240
+VHFLung,Right Medial Bronchopulmonary Segment,type I pneumocyte,346.75,1387
+VHFLung,Right Medial Bronchopulmonary Segment,type II pneumocyte,627.5,2510
+VHFLung,Right Medial Bronchopulmonary Segment,vascular associated smooth muscle cell,24.5,98
+VHFLung,Right Medial Bronchopulmonary Segment,vein endothelial cell,14.75,59
+VHFRightKidney,kidney capsule,Afferent / Efferent Arteriole Endothelial,4,8
+VHFRightKidney,kidney capsule,Ascending Thin Limb,8,8
+VHFRightKidney,kidney capsule,Ascending Vasa Recta Endothelial,1,1
+VHFRightKidney,kidney capsule,B,24.5,49
+VHFRightKidney,kidney capsule,Classical Dendritic,12,12
+VHFRightKidney,kidney capsule,Connecting Tubule,829,1658
+VHFRightKidney,kidney capsule,Connecting Tubule Intercalated Type A,2,2
+VHFRightKidney,kidney capsule,Connecting Tubule Principal,129.5,259
+VHFRightKidney,kidney capsule,Cortical Collecting Duct Intercalated Type A,215.5,431
+VHFRightKidney,kidney capsule,Cortical Collecting Duct Principal,189,378
+VHFRightKidney,kidney capsule,Cortical Thick Ascending Limb,153,306
+VHFRightKidney,kidney capsule,Cortical Vascular Smooth Muscle / Pericyte,8,8
+VHFRightKidney,kidney capsule,Cycling Mononuclear Phagocyte,3,3
+VHFRightKidney,kidney capsule,Descending Thin Limb Type 1,449.5,899
+VHFRightKidney,kidney capsule,Descending Thin Limb Type 2,84.5,169
+VHFRightKidney,kidney capsule,Descending Thin Limb Type 3,4,4
+VHFRightKidney,kidney capsule,Descending Vasa Recta Endothelial,3,3
+VHFRightKidney,kidney capsule,"Descending Vasa Recta Endothelial ",1,1
+VHFRightKidney,kidney capsule,Distal Convoluted Tubule Type 1,563.5,1127
+VHFRightKidney,kidney capsule,Distal Convoluted Tubule Type 2,12,12
+VHFRightKidney,kidney capsule,Fibroblast,65.5,131
+VHFRightKidney,kidney capsule,Glomerular Capillary Endothelial,47.5,95
+VHFRightKidney,kidney capsule,Inner Medullary Collecting Duct,382.5,765
+VHFRightKidney,kidney capsule,Intercalated Type B,130.5,261
+VHFRightKidney,kidney capsule,Lymphatic Endothelial,24,24
+VHFRightKidney,kidney capsule,M2 Macrophage,66,66
+VHFRightKidney,kidney capsule,Macula Densa,50.5,101
+VHFRightKidney,kidney capsule,Mast,26,26
+VHFRightKidney,kidney capsule,Medullary Fibroblast,2,2
+VHFRightKidney,kidney capsule,Medullary Thick Ascending Limb,132.5,265
+VHFRightKidney,kidney capsule,Mesangial,13,13
+VHFRightKidney,kidney capsule,Monocyte,4,4
+VHFRightKidney,kidney capsule,Monocyte-derived,27.5,55
+VHFRightKidney,kidney capsule,Natural Killer / Natural Killer T,16,16
+VHFRightKidney,kidney capsule,Outer Medullary Collecting Duct Intercalated Type A,4,4
+VHFRightKidney,kidney capsule,Outer Medullary Collecting Duct Principal,8.5,17
+VHFRightKidney,kidney capsule,Papillary Tip Epithelial,1,1
+VHFRightKidney,kidney capsule,Parietal Epithelial,23,46
+VHFRightKidney,kidney capsule,Peritubular Capilary Endothelial,159,159
+VHFRightKidney,kidney capsule,"Peritubular Capilary Endothelial ",134,134
+VHFRightKidney,kidney capsule,Plasma,10,20
+VHFRightKidney,kidney capsule,Plasmacytoid Dendritic,6,12
+VHFRightKidney,kidney capsule,Podocyte,61.5,123
+VHFRightKidney,kidney capsule,Proximal Tubule Epithelial Segment 1,571,1142
+VHFRightKidney,kidney capsule,Proximal Tubule Epithelial Segment 2,45,90
+VHFRightKidney,kidney capsule,Proximal Tubule Epithelial Segment 3,295,590
+VHFRightKidney,kidney capsule,Schwann / Neural,4,4
+VHFRightKidney,kidney capsule,T,205,410
+VHFRightKidney,kidney capsule,Tissue-resident Macrophage,97,97
+VHFRightKidney,kidney capsule,Vascular Smooth Muscle / Pericyte,14,28
+VHFRightKidney,outer cortex of kidney,Afferent / Efferent Arteriole Endothelial,5.8,29
+VHFRightKidney,outer cortex of kidney,Ascending Thin Limb,19.25,77
+VHFRightKidney,outer cortex of kidney,Ascending Vasa Recta Endothelial,62.75,251
+VHFRightKidney,outer cortex of kidney,B,17,51
+VHFRightKidney,outer cortex of kidney,Classical Dendritic,4.666666666666666666,14
+VHFRightKidney,outer cortex of kidney,Connecting Tubule,747.6,3738
+VHFRightKidney,outer cortex of kidney,Connecting Tubule Intercalated Type A,2,2
+VHFRightKidney,outer cortex of kidney,Connecting Tubule Principal,56.8,284
+VHFRightKidney,outer cortex of kidney,Cortical Collecting Duct Intercalated Type A,94.8,474
+VHFRightKidney,outer cortex of kidney,Cortical Collecting Duct Principal,102.2,511
+VHFRightKidney,outer cortex of kidney,Cortical Thick Ascending Limb,203,1015
+VHFRightKidney,outer cortex of kidney,Cortical Vascular Smooth Muscle / Pericyte,34,68
+VHFRightKidney,outer cortex of kidney,Cycling Mononuclear Phagocyte,2,4
+VHFRightKidney,outer cortex of kidney,Descending Thin Limb Type 1,912.2,4561
+VHFRightKidney,outer cortex of kidney,Descending Thin Limb Type 2,139,695
+VHFRightKidney,outer cortex of kidney,Descending Thin Limb Type 3,100,400
+VHFRightKidney,outer cortex of kidney,Descending Vasa Recta Endothelial,37,74
+VHFRightKidney,outer cortex of kidney,"Descending Vasa Recta Endothelial ",14.333333333333333333,43
+VHFRightKidney,outer cortex of kidney,Distal Convoluted Tubule Type 1,425.8,2129
+VHFRightKidney,outer cortex of kidney,Distal Convoluted Tubule Type 2,12,12
+VHFRightKidney,outer cortex of kidney,Fibroblast,446.6,2233
+VHFRightKidney,outer cortex of kidney,Glomerular Capillary Endothelial,23,115
+VHFRightKidney,outer cortex of kidney,Inner Medullary Collecting Duct,656.8,3284
+VHFRightKidney,outer cortex of kidney,Intercalated Type B,66.75,267
+VHFRightKidney,outer cortex of kidney,Lymphatic Endothelial,8.25,33
+VHFRightKidney,outer cortex of kidney,M2 Macrophage,42.666666666666666666,128
+VHFRightKidney,outer cortex of kidney,Macula Densa,71.4,357
+VHFRightKidney,outer cortex of kidney,Mast,26,26
+VHFRightKidney,outer cortex of kidney,Medullary Fibroblast,155.25,621
+VHFRightKidney,outer cortex of kidney,Medullary Thick Ascending Limb,516.4,2582
+VHFRightKidney,outer cortex of kidney,Mesangial,10.5,21
+VHFRightKidney,outer cortex of kidney,Monocyte,3.5,7
+VHFRightKidney,outer cortex of kidney,Monocyte-derived,24,72
+VHFRightKidney,outer cortex of kidney,Natural Killer / Natural Killer T,10,20
+VHFRightKidney,outer cortex of kidney,Outer Medullary Collecting Duct Intercalated Type A,19.5,78
+VHFRightKidney,outer cortex of kidney,Outer Medullary Collecting Duct Principal,9.6,48
+VHFRightKidney,outer cortex of kidney,Papillary Tip Epithelial,6.666666666666666666,20
+VHFRightKidney,outer cortex of kidney,Parietal Epithelial,13.8,69
+VHFRightKidney,outer cortex of kidney,Peritubular Capilary Endothelial,100.5,201
+VHFRightKidney,outer cortex of kidney,"Peritubular Capilary Endothelial ",56.666666666666666666,170
+VHFRightKidney,outer cortex of kidney,Plasma,5.5,22
+VHFRightKidney,outer cortex of kidney,Plasmacytoid Dendritic,6,12
+VHFRightKidney,outer cortex of kidney,Podocyte,50.25,201
+VHFRightKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 1,391.666666666666666666,1175
+VHFRightKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 2,30.333333333333333333,91
+VHFRightKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 3,167.25,669
+VHFRightKidney,outer cortex of kidney,Renin-positive Juxtaglomerular Granular,2,2
+VHFRightKidney,outer cortex of kidney,Schwann / Neural,4,4
+VHFRightKidney,outer cortex of kidney,T,141.333333333333333333,424
+VHFRightKidney,outer cortex of kidney,Tissue-resident Macrophage,83.5,167
+VHFRightKidney,outer cortex of kidney,Vascular Smooth Muscle / Pericyte,17.4,87
+VHFRightKidney,renal column,Afferent / Efferent Arteriole Endothelial,3,3
+VHFRightKidney,renal column,Ascending Thin Limb,1,1
+VHFRightKidney,renal column,Ascending Vasa Recta Endothelial,1,1
+VHFRightKidney,renal column,Connecting Tubule,597,1194
+VHFRightKidney,renal column,Connecting Tubule Principal,12,12
+VHFRightKidney,renal column,Cortical Collecting Duct Intercalated Type A,7,7
+VHFRightKidney,renal column,Cortical Collecting Duct Principal,18,36
+VHFRightKidney,renal column,Cortical Vascular Smooth Muscle / Pericyte,88.5,177
+VHFRightKidney,renal column,Descending Thin Limb Type 1,600,1200
+VHFRightKidney,renal column,Descending Thin Limb Type 2,9,9
+VHFRightKidney,renal column,Descending Thin Limb Type 3,8,8
+VHFRightKidney,renal column,"Descending Vasa Recta Endothelial ",9,9
+VHFRightKidney,renal column,Distal Convoluted Tubule Type 1,10,10
+VHFRightKidney,renal column,Fibroblast,657.5,1315
+VHFRightKidney,renal column,Glomerular Capillary Endothelial,1,1
+VHFRightKidney,renal column,Inner Medullary Collecting Duct,2784,5568
+VHFRightKidney,renal column,Lymphatic Endothelial,3,3
+VHFRightKidney,renal column,M2 Macrophage,73,146
+VHFRightKidney,renal column,Macula Densa,1.5,3
+VHFRightKidney,renal column,Medullary Fibroblast,336,672
+VHFRightKidney,renal column,Medullary Thick Ascending Limb,4,4
+VHFRightKidney,renal column,Mesangial,8,8
+VHFRightKidney,renal column,Papillary Tip Epithelial,181,362
+VHFRightKidney,renal column,Parietal Epithelial,10,10
+VHFRightKidney,renal column,"Peritubular Capilary Endothelial ",32,32
+VHFRightKidney,renal column,Plasma,1,1
+VHFRightKidney,renal column,Podocyte,3,3
+VHFRightKidney,renal column,Proximal Tubule Epithelial Segment 1,1,1
+VHFRightKidney,renal column,Proximal Tubule Epithelial Segment 3,3,3
+VHFRightKidney,renal column,Renin-positive Juxtaglomerular Granular,1,1
+VHFRightKidney,renal column,T,3,3
+VHFRightKidney,renal column,Vascular Smooth Muscle / Pericyte,97,194
+VHFRightKidney,renal pyramid,Afferent / Efferent Arteriole Endothelial,21.789473684210526315,414
+VHFRightKidney,renal pyramid,Ascending Thin Limb,2169.842105263157894736,41227
+VHFRightKidney,renal pyramid,Ascending Vasa Recta Endothelial,172.6,3452
+VHFRightKidney,renal pyramid,B,167.2,2508
+VHFRightKidney,renal pyramid,Classical Dendritic,76,1064
+VHFRightKidney,renal pyramid,Connecting Tubule,1783.35,35667
+VHFRightKidney,renal pyramid,Connecting Tubule Intercalated Type A,1,1
+VHFRightKidney,renal pyramid,Connecting Tubule Principal,240,4560
+VHFRightKidney,renal pyramid,Cortical Collecting Duct Intercalated Type A,221.666666666666666666,3990
+VHFRightKidney,renal pyramid,Cortical Collecting Duct Principal,5567.052631578947368421,105774
+VHFRightKidney,renal pyramid,Cortical Thick Ascending Limb,3551.1,71022
+VHFRightKidney,renal pyramid,Cortical Vascular Smooth Muscle / Pericyte,27.941176470588235294,475
+VHFRightKidney,renal pyramid,Cycling Mononuclear Phagocyte,2.555555555555555555,23
+VHFRightKidney,renal pyramid,Descending Thin Limb Type 1,3839.05,76781
+VHFRightKidney,renal pyramid,Descending Thin Limb Type 2,9875.75,197515
+VHFRightKidney,renal pyramid,Descending Thin Limb Type 3,95.5,1910
+VHFRightKidney,renal pyramid,Descending Vasa Recta Endothelial,193.333333333333333333,580
+VHFRightKidney,renal pyramid,"Descending Vasa Recta Endothelial ",113,1808
+VHFRightKidney,renal pyramid,Distal Convoluted Tubule Type 1,6907.684210526315789473,131246
+VHFRightKidney,renal pyramid,Distal Convoluted Tubule Type 2,1,6
+VHFRightKidney,renal pyramid,Fibroblast,589.75,11795
+VHFRightKidney,renal pyramid,Glomerular Capillary Endothelial,314.764705882352941176,5351
+VHFRightKidney,renal pyramid,Inner Medullary Collecting Duct,8153.6,163072
+VHFRightKidney,renal pyramid,Intercalated Type B,205.25,3284
+VHFRightKidney,renal pyramid,Lymphatic Endothelial,202.1,2021
+VHFRightKidney,renal pyramid,M2 Macrophage,148.235294117647058823,2520
+VHFRightKidney,renal pyramid,Macula Densa,61.052631578947368421,1160
+VHFRightKidney,renal pyramid,Mast,15.625,125
+VHFRightKidney,renal pyramid,Medullary Fibroblast,319.1,6382
+VHFRightKidney,renal pyramid,Medullary Thick Ascending Limb,2297.35,45947
+VHFRightKidney,renal pyramid,Mesangial,445.714285714285714285,6240
+VHFRightKidney,renal pyramid,Monocyte,2.666666666666666666,8
+VHFRightKidney,renal pyramid,Monocyte-derived,67.3125,1077
+VHFRightKidney,renal pyramid,Natural Killer / Natural Killer T,5,10
+VHFRightKidney,renal pyramid,Natural Killer T,1,6
+VHFRightKidney,renal pyramid,Neutrophil,1.333333333333333333,4
+VHFRightKidney,renal pyramid,Outer Medullary Collecting Duct Intercalated Type A,131.263157894736842105,2494
+VHFRightKidney,renal pyramid,Outer Medullary Collecting Duct Principal,189.15,3783
+VHFRightKidney,renal pyramid,Papillary Tip Epithelial,76,304
+VHFRightKidney,renal pyramid,Parietal Epithelial,258.833333333333333333,4659
+VHFRightKidney,renal pyramid,Peritubular Capilary Endothelial,27.333333333333333333,82
+VHFRightKidney,renal pyramid,"Peritubular Capilary Endothelial ",672.4375,10759
+VHFRightKidney,renal pyramid,Plasma,3.666666666666666666,11
+VHFRightKidney,renal pyramid,Podocyte,48.533333333333333333,728
+VHFRightKidney,renal pyramid,Proximal Tubule Epithelial Segment 1,369,5904
+VHFRightKidney,renal pyramid,Proximal Tubule Epithelial Segment 2,5,70
+VHFRightKidney,renal pyramid,Proximal Tubule Epithelial Segment 3,123.052631578947368421,2338
+VHFRightKidney,renal pyramid,Renin-positive Juxtaglomerular Granular,8,64
+VHFRightKidney,renal pyramid,Schwann / Neural,1,1
+VHFRightKidney,renal pyramid,T,363.470588235294117647,6179
+VHFRightKidney,renal pyramid,Tissue-resident Macrophage,67.666666666666666666,203
+VHFRightKidney,renal pyramid,Vascular Smooth Muscle / Pericyte,12673.315789473684210526,240793
+VHFRightMammaryGland,Interlobar adipose tissue of right mammary gland,Adipocyte,880.5,1761
+VHFRightMammaryGland,Interlobar adipose tissue of right mammary gland,Endothelial cell,293.666666666666666666,881
+VHFRightMammaryGland,Interlobar adipose tissue of right mammary gland,Epithelial cell,1933,5799
+VHFRightMammaryGland,Interlobar adipose tissue of right mammary gland,Fibroblast,273,819
+VHFRightMammaryGland,Interlobar adipose tissue of right mammary gland,Immune (myeloid),119.333333333333333333,358
+VHFRightMammaryGland,Interlobar adipose tissue of right mammary gland,Muscle,50.666666666666666666,152
+VHFSkin,skin of body,Adipocyte,43,43
+VHFSkin,skin of body,"CD68 
+/ Macrophage",118.333333333333333333,355
+VHFSkin,skin of body,Endothelial cell,18,18
+VHFSkin,skin of body,Epithelial cell,66,66
+VHFSkin,skin of body,Epithelial cell (keratinocyte),13,13
+VHFSkin,skin of body,Fibroblast,13,13
+VHFSkin,skin of body,Immune (myeloid),2,2
+VHFSkin,skin of body,Melanocyte,110,110
+VHFSkin,skin of body,Muscle,6,6
+VHFSkin,skin of body,Other,55,55
+VHFSkin,skin of body,T-Killer,35.666666666666666666,107
+VHFSkin,skin of body,T-helper,1030,3090
+VHFSkin,skin of body,T-reg,101.666666666666666666,305
+VHFSmallIntestine,ascending part of duodenum,B,7556,7556
+VHFSmallIntestine,ascending part of duodenum,CD4+ T cell,3589,3589
+VHFSmallIntestine,ascending part of duodenum,CD57+ Enterocyte,2,2
+VHFSmallIntestine,ascending part of duodenum,CD66+ Enterocyte,155,155
+VHFSmallIntestine,ascending part of duodenum,CD7+ Immune,115,115
+VHFSmallIntestine,ascending part of duodenum,CD8+ T,2633,2633
+VHFSmallIntestine,ascending part of duodenum,Cycling TA,446,446
+VHFSmallIntestine,ascending part of duodenum,DC,951,951
+VHFSmallIntestine,ascending part of duodenum,Endothelial,2255,2255
+VHFSmallIntestine,ascending part of duodenum,Enterocyte,2383,2383
+VHFSmallIntestine,ascending part of duodenum,Goblet,1492,1492
+VHFSmallIntestine,ascending part of duodenum,ICC,788,788
+VHFSmallIntestine,ascending part of duodenum,Lymphatic,1129,1129
+VHFSmallIntestine,ascending part of duodenum,M1 Macrophage,184,184
+VHFSmallIntestine,ascending part of duodenum,M2 Macrophage,2017,2017
+VHFSmallIntestine,ascending part of duodenum,MUC1+ Enterocyte,17,17
+VHFSmallIntestine,ascending part of duodenum,NK,103,103
+VHFSmallIntestine,ascending part of duodenum,Nerve,1300,1300
+VHFSmallIntestine,ascending part of duodenum,Neuroendocrine,151,151
+VHFSmallIntestine,ascending part of duodenum,Neutrophil,82,82
+VHFSmallIntestine,ascending part of duodenum,Paneth,380,380
+VHFSmallIntestine,ascending part of duodenum,Plasma,563,563
+VHFSmallIntestine,ascending part of duodenum,Smooth muscle,6340,6340
+VHFSmallIntestine,ascending part of duodenum,Stroma,2516,2516
+VHFSmallIntestine,ascending part of duodenum,TA,1174,1174
+VHFSmallIntestine,descending part of duodenum,B,207,207
+VHFSmallIntestine,descending part of duodenum,CD4+ T cell,1235,1235
+VHFSmallIntestine,descending part of duodenum,CD57+ Enterocyte,154,154
+VHFSmallIntestine,descending part of duodenum,CD66+ Enterocyte,468,468
+VHFSmallIntestine,descending part of duodenum,CD7+ Immune,21,21
+VHFSmallIntestine,descending part of duodenum,CD8+ T,710,710
+VHFSmallIntestine,descending part of duodenum,Cycling TA,474,474
+VHFSmallIntestine,descending part of duodenum,DC,176,176
+VHFSmallIntestine,descending part of duodenum,Endothelial,3070,3070
+VHFSmallIntestine,descending part of duodenum,Enterocyte,4862,4862
+VHFSmallIntestine,descending part of duodenum,Goblet,1561,1561
+VHFSmallIntestine,descending part of duodenum,ICC,398,398
+VHFSmallIntestine,descending part of duodenum,Lymphatic,1266,1266
+VHFSmallIntestine,descending part of duodenum,M1 Macrophage,127,127
+VHFSmallIntestine,descending part of duodenum,M2 Macrophage,1353,1353
+VHFSmallIntestine,descending part of duodenum,MUC1+ Enterocyte,565,565
+VHFSmallIntestine,descending part of duodenum,NK,92,92
+VHFSmallIntestine,descending part of duodenum,Nerve,981,981
+VHFSmallIntestine,descending part of duodenum,Neuroendocrine,188,188
+VHFSmallIntestine,descending part of duodenum,Neutrophil,74,74
+VHFSmallIntestine,descending part of duodenum,Paneth,443,443
+VHFSmallIntestine,descending part of duodenum,Plasma,1085,1085
+VHFSmallIntestine,descending part of duodenum,Smooth muscle,2375,2375
+VHFSmallIntestine,descending part of duodenum,Stroma,1559,1559
+VHFSmallIntestine,descending part of duodenum,TA,114,114
+VHFSmallIntestine,distal part of ileum,B,32,32
+VHFSmallIntestine,distal part of ileum,CD4+ T cell,1012,1012
+VHFSmallIntestine,distal part of ileum,CD57+ Enterocyte,1,1
+VHFSmallIntestine,distal part of ileum,CD66+ Enterocyte,66,66
+VHFSmallIntestine,distal part of ileum,CD7+ Immune,52,52
+VHFSmallIntestine,distal part of ileum,CD8+ T,1109,1109
+VHFSmallIntestine,distal part of ileum,Cycling TA,780,780
+VHFSmallIntestine,distal part of ileum,DC,81,81
+VHFSmallIntestine,distal part of ileum,Endothelial,1513,1513
+VHFSmallIntestine,distal part of ileum,Enterocyte,3966,3966
+VHFSmallIntestine,distal part of ileum,Goblet,992,992
+VHFSmallIntestine,distal part of ileum,ICC,265,265
+VHFSmallIntestine,distal part of ileum,Lymphatic,625,625
+VHFSmallIntestine,distal part of ileum,M1 Macrophage,49,49
+VHFSmallIntestine,distal part of ileum,M2 Macrophage,837,837
+VHFSmallIntestine,distal part of ileum,MUC1+ Enterocyte,7,7
+VHFSmallIntestine,distal part of ileum,NK,16,16
+VHFSmallIntestine,distal part of ileum,Nerve,437,437
+VHFSmallIntestine,distal part of ileum,Neuroendocrine,174,174
+VHFSmallIntestine,distal part of ileum,Neutrophil,33,33
+VHFSmallIntestine,distal part of ileum,Paneth,370,370
+VHFSmallIntestine,distal part of ileum,Plasma,759,759
+VHFSmallIntestine,distal part of ileum,Smooth muscle,1534,1534
+VHFSmallIntestine,distal part of ileum,Stroma,1158,1158
+VHFSmallIntestine,distal part of ileum,TA,1802,1802
+VHFSmallIntestine,horizontal part of duodenum,B,7556,7556
+VHFSmallIntestine,horizontal part of duodenum,CD4+ T cell,3589,3589
+VHFSmallIntestine,horizontal part of duodenum,CD57+ Enterocyte,2,2
+VHFSmallIntestine,horizontal part of duodenum,CD66+ Enterocyte,155,155
+VHFSmallIntestine,horizontal part of duodenum,CD7+ Immune,115,115
+VHFSmallIntestine,horizontal part of duodenum,CD8+ T,2633,2633
+VHFSmallIntestine,horizontal part of duodenum,Cycling TA,446,446
+VHFSmallIntestine,horizontal part of duodenum,DC,951,951
+VHFSmallIntestine,horizontal part of duodenum,Endothelial,2255,2255
+VHFSmallIntestine,horizontal part of duodenum,Enterocyte,2383,2383
+VHFSmallIntestine,horizontal part of duodenum,Goblet,1492,1492
+VHFSmallIntestine,horizontal part of duodenum,ICC,788,788
+VHFSmallIntestine,horizontal part of duodenum,Lymphatic,1129,1129
+VHFSmallIntestine,horizontal part of duodenum,M1 Macrophage,184,184
+VHFSmallIntestine,horizontal part of duodenum,M2 Macrophage,2017,2017
+VHFSmallIntestine,horizontal part of duodenum,MUC1+ Enterocyte,17,17
+VHFSmallIntestine,horizontal part of duodenum,NK,103,103
+VHFSmallIntestine,horizontal part of duodenum,Nerve,1300,1300
+VHFSmallIntestine,horizontal part of duodenum,Neuroendocrine,151,151
+VHFSmallIntestine,horizontal part of duodenum,Neutrophil,82,82
+VHFSmallIntestine,horizontal part of duodenum,Paneth,380,380
+VHFSmallIntestine,horizontal part of duodenum,Plasma,563,563
+VHFSmallIntestine,horizontal part of duodenum,Smooth muscle,6340,6340
+VHFSmallIntestine,horizontal part of duodenum,Stroma,2516,2516
+VHFSmallIntestine,horizontal part of duodenum,TA,1174,1174
+VHFSmallIntestine,ileum,B,32,32
+VHFSmallIntestine,ileum,CD4+ T cell,1012,1012
+VHFSmallIntestine,ileum,CD57+ Enterocyte,1,1
+VHFSmallIntestine,ileum,CD66+ Enterocyte,66,66
+VHFSmallIntestine,ileum,CD7+ Immune,52,52
+VHFSmallIntestine,ileum,CD8+ T,1109,1109
+VHFSmallIntestine,ileum,Cycling TA,780,780
+VHFSmallIntestine,ileum,DC,81,81
+VHFSmallIntestine,ileum,Endothelial,1513,1513
+VHFSmallIntestine,ileum,Enterocyte,3966,3966
+VHFSmallIntestine,ileum,Goblet,992,992
+VHFSmallIntestine,ileum,ICC,265,265
+VHFSmallIntestine,ileum,Lymphatic,625,625
+VHFSmallIntestine,ileum,M1 Macrophage,49,49
+VHFSmallIntestine,ileum,M2 Macrophage,837,837
+VHFSmallIntestine,ileum,MUC1+ Enterocyte,7,7
+VHFSmallIntestine,ileum,NK,16,16
+VHFSmallIntestine,ileum,Nerve,437,437
+VHFSmallIntestine,ileum,Neuroendocrine,174,174
+VHFSmallIntestine,ileum,Neutrophil,33,33
+VHFSmallIntestine,ileum,Paneth,370,370
+VHFSmallIntestine,ileum,Plasma,759,759
+VHFSmallIntestine,ileum,Smooth muscle,1534,1534
+VHFSmallIntestine,ileum,Stroma,1158,1158
+VHFSmallIntestine,ileum,TA,1802,1802
+VHFSmallIntestine,superior part of duodenum,B,207,207
+VHFSmallIntestine,superior part of duodenum,CD4+ T cell,1235,1235
+VHFSmallIntestine,superior part of duodenum,CD57+ Enterocyte,154,154
+VHFSmallIntestine,superior part of duodenum,CD66+ Enterocyte,468,468
+VHFSmallIntestine,superior part of duodenum,CD7+ Immune,21,21
+VHFSmallIntestine,superior part of duodenum,CD8+ T,710,710
+VHFSmallIntestine,superior part of duodenum,Cycling TA,474,474
+VHFSmallIntestine,superior part of duodenum,DC,176,176
+VHFSmallIntestine,superior part of duodenum,Endothelial,3070,3070
+VHFSmallIntestine,superior part of duodenum,Enterocyte,4862,4862
+VHFSmallIntestine,superior part of duodenum,Goblet,1561,1561
+VHFSmallIntestine,superior part of duodenum,ICC,398,398
+VHFSmallIntestine,superior part of duodenum,Lymphatic,1266,1266
+VHFSmallIntestine,superior part of duodenum,M1 Macrophage,127,127
+VHFSmallIntestine,superior part of duodenum,M2 Macrophage,1353,1353
+VHFSmallIntestine,superior part of duodenum,MUC1+ Enterocyte,565,565
+VHFSmallIntestine,superior part of duodenum,NK,92,92
+VHFSmallIntestine,superior part of duodenum,Nerve,981,981
+VHFSmallIntestine,superior part of duodenum,Neuroendocrine,188,188
+VHFSmallIntestine,superior part of duodenum,Neutrophil,74,74
+VHFSmallIntestine,superior part of duodenum,Paneth,443,443
+VHFSmallIntestine,superior part of duodenum,Plasma,1085,1085
+VHFSmallIntestine,superior part of duodenum,Smooth muscle,2375,2375
+VHFSmallIntestine,superior part of duodenum,Stroma,1559,1559
+VHFSmallIntestine,superior part of duodenum,TA,114,114
+VHMAllenBrain,middle temporal gyrus,L2/3-6 intratelencephalic projecting glutamatergic cortical neuron,10824.1,216482
+VHMAllenBrain,middle temporal gyrus,L5 extratelencephalic projecting glutamatergic cortical neuron,37.95,759
+VHMAllenBrain,middle temporal gyrus,L6b glutamatergic cortical neuron,247.5,4950
+VHMAllenBrain,middle temporal gyrus,astrocyte of the cerebral cortex,844.65,16893
+VHMAllenBrain,middle temporal gyrus,caudal ganglionic eminence derived GABAergic cortical interneuron,121.5,2430
+VHMAllenBrain,middle temporal gyrus,cerebral cortex endothelial cell,18.15,363
+VHMAllenBrain,middle temporal gyrus,chandelier pvalb GABAergic cortical interneuron,137.25,2745
+VHMAllenBrain,middle temporal gyrus,corticothalamic-projecting glutamatergic cortical neuron,286,5720
+VHMAllenBrain,middle temporal gyrus,lamp5 GABAergic cortical interneuron,853.65,17073
+VHMAllenBrain,middle temporal gyrus,microglial cell,445.2,8904
+VHMAllenBrain,middle temporal gyrus,near-projecting glutamatergic cortical neuron,297.15,5943
+VHMAllenBrain,middle temporal gyrus,oligodendrocyte,1788.55,35771
+VHMAllenBrain,middle temporal gyrus,oligodendrocyte precursor cell,452.55,9051
+VHMAllenBrain,middle temporal gyrus,pvalb GABAergic cortical interneuron,1350.15,27003
+VHMAllenBrain,middle temporal gyrus,sncg GABAergic cortical interneuron,326.05,6521
+VHMAllenBrain,middle temporal gyrus,sst GABAergic cortical interneuron,1154.4,23088
+VHMAllenBrain,middle temporal gyrus,vascular leptomeningeal cell,36.05,721
+VHMAllenBrain,middle temporal gyrus,vip GABAergic cortical interneuron,1522.85,30457
+VHMColon,ascending colon,B,525.333333333333333333,1576
+VHMColon,ascending colon,CD4+ T cell,1347,4041
+VHMColon,ascending colon,CD57+ Enterocyte,13,39
+VHMColon,ascending colon,CD66+ Enterocyte,1303.333333333333333333,3910
+VHMColon,ascending colon,CD7+ Immune,30,90
+VHMColon,ascending colon,CD8+ T,1170,3510
+VHMColon,ascending colon,Cycling TA,1067.666666666666666666,3203
+VHMColon,ascending colon,DC,540.333333333333333333,1621
+VHMColon,ascending colon,Endothelial,2075.333333333333333333,6226
+VHMColon,ascending colon,Enterocyte,3796.666666666666666666,11390
+VHMColon,ascending colon,Goblet,1709.666666666666666666,5129
+VHMColon,ascending colon,ICC,296,888
+VHMColon,ascending colon,Lymphatic,567,1701
+VHMColon,ascending colon,M1 Macrophage,377.333333333333333333,1132
+VHMColon,ascending colon,M2 Macrophage,1470.666666666666666666,4412
+VHMColon,ascending colon,MUC1+ Enterocyte,404,1212
+VHMColon,ascending colon,NK,11,33
+VHMColon,ascending colon,Nerve,1467,4401
+VHMColon,ascending colon,Neuroendocrine,223.666666666666666666,671
+VHMColon,ascending colon,Neutrophil,152.666666666666666666,458
+VHMColon,ascending colon,Paneth,4,12
+VHMColon,ascending colon,Plasma,1924.333333333333333333,5773
+VHMColon,ascending colon,Smooth muscle,7642.333333333333333333,22927
+VHMColon,ascending colon,Stroma,3425,10275
+VHMColon,ascending colon,TA,728.666666666666666666,2186
+VHMColon,descending colon,B,476,1904
+VHMColon,descending colon,CD4+ T cell,1719.25,6877
+VHMColon,descending colon,CD57+ Enterocyte,0.25,1
+VHMColon,descending colon,CD66+ Enterocyte,1175.25,4701
+VHMColon,descending colon,CD7+ Immune,44.25,177
+VHMColon,descending colon,CD8+ T,1442.75,5771
+VHMColon,descending colon,Cycling TA,2338.75,9355
+VHMColon,descending colon,DC,521.75,2087
+VHMColon,descending colon,Endothelial,1916,7664
+VHMColon,descending colon,Enterocyte,4547.25,18189
+VHMColon,descending colon,Goblet,2591.5,10366
+VHMColon,descending colon,ICC,237.75,951
+VHMColon,descending colon,Lymphatic,591,2364
+VHMColon,descending colon,M1 Macrophage,439,1756
+VHMColon,descending colon,M2 Macrophage,1249.75,4999
+VHMColon,descending colon,MUC1+ Enterocyte,91.75,367
+VHMColon,descending colon,NK,12.5,50
+VHMColon,descending colon,Nerve,1047.25,4189
+VHMColon,descending colon,Neuroendocrine,180.75,723
+VHMColon,descending colon,Neutrophil,57.75,231
+VHMColon,descending colon,Paneth,1.75,7
+VHMColon,descending colon,Plasma,2396,9584
+VHMColon,descending colon,Smooth muscle,4564.5,18258
+VHMColon,descending colon,Stroma,2722.5,10890
+VHMColon,descending colon,TA,1132.25,4529
+VHMColon,rectum,B,1134.333333333333333333,3403
+VHMColon,rectum,CD4+ T cell,1140.666666666666666666,3422
+VHMColon,rectum,CD57+ Enterocyte,2,6
+VHMColon,rectum,CD66+ Enterocyte,827.666666666666666666,2483
+VHMColon,rectum,CD7+ Immune,36.666666666666666666,110
+VHMColon,rectum,CD8+ T,715.333333333333333333,2146
+VHMColon,rectum,Cycling TA,936.333333333333333333,2809
+VHMColon,rectum,DC,377.333333333333333333,1132
+VHMColon,rectum,Endothelial,1789.333333333333333333,5368
+VHMColon,rectum,Enterocyte,1223.666666666666666666,3671
+VHMColon,rectum,Goblet,1750.666666666666666666,5252
+VHMColon,rectum,ICC,237.666666666666666666,713
+VHMColon,rectum,Lymphatic,498,1494
+VHMColon,rectum,M1 Macrophage,221,663
+VHMColon,rectum,M2 Macrophage,1626,4878
+VHMColon,rectum,MUC1+ Enterocyte,61,183
+VHMColon,rectum,NK,11.666666666666666666,35
+VHMColon,rectum,Nerve,882.333333333333333333,2647
+VHMColon,rectum,Neuroendocrine,87.666666666666666666,263
+VHMColon,rectum,Neutrophil,91,273
+VHMColon,rectum,Paneth,2,6
+VHMColon,rectum,Plasma,1071.333333333333333333,3214
+VHMColon,rectum,Smooth muscle,5653.666666666666666666,16961
+VHMColon,rectum,Stroma,2974,8922
+VHMColon,rectum,TA,624.333333333333333333,1873
+VHMColon,sigmoid colon,B,1134.333333333333333333,3403
+VHMColon,sigmoid colon,CD4+ T cell,1140.666666666666666666,3422
+VHMColon,sigmoid colon,CD57+ Enterocyte,2,6
+VHMColon,sigmoid colon,CD66+ Enterocyte,827.666666666666666666,2483
+VHMColon,sigmoid colon,CD7+ Immune,36.666666666666666666,110
+VHMColon,sigmoid colon,CD8+ T,715.333333333333333333,2146
+VHMColon,sigmoid colon,Cycling TA,936.333333333333333333,2809
+VHMColon,sigmoid colon,DC,377.333333333333333333,1132
+VHMColon,sigmoid colon,Endothelial,1789.333333333333333333,5368
+VHMColon,sigmoid colon,Enterocyte,1223.666666666666666666,3671
+VHMColon,sigmoid colon,Goblet,1750.666666666666666666,5252
+VHMColon,sigmoid colon,ICC,237.666666666666666666,713
+VHMColon,sigmoid colon,Lymphatic,498,1494
+VHMColon,sigmoid colon,M1 Macrophage,221,663
+VHMColon,sigmoid colon,M2 Macrophage,1626,4878
+VHMColon,sigmoid colon,MUC1+ Enterocyte,61,183
+VHMColon,sigmoid colon,NK,11.666666666666666666,35
+VHMColon,sigmoid colon,Nerve,882.333333333333333333,2647
+VHMColon,sigmoid colon,Neuroendocrine,87.666666666666666666,263
+VHMColon,sigmoid colon,Neutrophil,91,273
+VHMColon,sigmoid colon,Paneth,2,6
+VHMColon,sigmoid colon,Plasma,1071.333333333333333333,3214
+VHMColon,sigmoid colon,Smooth muscle,5653.666666666666666666,16961
+VHMColon,sigmoid colon,Stroma,2974,8922
+VHMColon,sigmoid colon,TA,624.333333333333333333,1873
+VHMColon,transverse colon,B,189.5,379
+VHMColon,transverse colon,CD4+ T cell,327,654
+VHMColon,transverse colon,CD57+ Enterocyte,8,16
+VHMColon,transverse colon,CD66+ Enterocyte,2926.5,5853
+VHMColon,transverse colon,CD7+ Immune,8,16
+VHMColon,transverse colon,CD8+ T,650,1300
+VHMColon,transverse colon,Cycling TA,266.5,533
+VHMColon,transverse colon,DC,237.5,475
+VHMColon,transverse colon,Endothelial,1035,2070
+VHMColon,transverse colon,Enterocyte,4212.5,8425
+VHMColon,transverse colon,Goblet,343.5,687
+VHMColon,transverse colon,ICC,128.5,257
+VHMColon,transverse colon,Lymphatic,410,820
+VHMColon,transverse colon,M1 Macrophage,743.5,1487
+VHMColon,transverse colon,M2 Macrophage,864.5,1729
+VHMColon,transverse colon,MUC1+ Enterocyte,190,380
+VHMColon,transverse colon,NK,4.5,9
+VHMColon,transverse colon,Nerve,616.5,1233
+VHMColon,transverse colon,Neuroendocrine,56,112
+VHMColon,transverse colon,Neutrophil,43,86
+VHMColon,transverse colon,Paneth,0.5,1
+VHMColon,transverse colon,Plasma,1908,3816
+VHMColon,transverse colon,Smooth muscle,3257.5,6515
+VHMColon,transverse colon,Stroma,1314.5,2629
+VHMColon,transverse colon,TA,70,140
+VHMHeart,aortic valve,B cell,23.210526315789473684,882
+VHMHeart,aortic valve,CD14-positive monocyte,42.357142857142857142,1186
+VHMHeart,aortic valve,"CD14-positive, CD16-positive monocyte",66.20588235294117647,2251
+VHMHeart,aortic valve,"CD4-positive, alpha-beta cytotoxic T cell",57.928571428571428571,2433
+VHMHeart,aortic valve,"CD8-positive, alpha-beta cytotoxic T cell",65.675675675675675675,2430
+VHMHeart,aortic valve,"activated CD4-positive, alpha-beta T cell",22.878787878787878787,755
+VHMHeart,aortic valve,"activated CD8-positive, alpha-beta T cell",52.071428571428571428,2187
+VHMHeart,aortic valve,capillary endothelial cell,913.714285714285714285,38376
+VHMHeart,aortic valve,dendritic cell,14.585365853658536585,598
+VHMHeart,aortic valve,endothelial cell,158.714285714285714285,6666
+VHMHeart,aortic valve,endothelial cell of artery,333.642857142857142857,14013
+VHMHeart,aortic valve,endothelial cell of lymphatic vessel,14.28125,457
+VHMHeart,aortic valve,epicardial adipocyte,49.944444444444444444,1798
+VHMHeart,aortic valve,fibroblast,736.880952380952380952,30949
+VHMHeart,aortic valve,macrophage,216.595238095238095238,9097
+VHMHeart,aortic valve,mast cell,21.894736842105263157,832
+VHMHeart,aortic valve,mature NK T cell,27.947368421052631578,1062
+VHMHeart,aortic valve,mesothelial cell,34.5625,553
+VHMHeart,aortic valve,monocyte,34.621621621621621621,1281
+VHMHeart,aortic valve,native cell,494.309523809523809523,20761
+VHMHeart,aortic valve,natural killer cell,62.051282051282051282,2420
+VHMHeart,aortic valve,neural cell,50.142857142857142857,2106
+VHMHeart,aortic valve,pericyte,997.809523809523809523,41908
+VHMHeart,aortic valve,regular atrial cardiac myocyte,880.857142857142857142,12332
+VHMHeart,aortic valve,regular ventricular cardiac myocyte,1956.392857142857142857,54779
+VHMHeart,aortic valve,smooth muscle cell,222,9324
+VHMHeart,aortic valve,vein endothelial cell,119.119047619047619047,5003
+VHMHeart,heart left ventricle,Adipocyte,79,632
+VHMHeart,heart left ventricle,Arterial Endothelial,244.875,1959
+VHMHeart,heart left ventricle,Atrial Cardiomyocyte,20.25,162
+VHMHeart,heart left ventricle,B,3147.125,25177
+VHMHeart,heart left ventricle,B cell,23.210526315789473684,2646
+VHMHeart,heart left ventricle,CD14-positive monocyte,42.357142857142857142,3558
+VHMHeart,heart left ventricle,"CD14-positive, CD16-positive monocyte",66.20588235294117647,6753
+VHMHeart,heart left ventricle,"CD4-positive, alpha-beta cytotoxic T cell",57.928571428571428571,7299
+VHMHeart,heart left ventricle,"CD8-positive, alpha-beta cytotoxic T cell",65.675675675675675675,7290
+VHMHeart,heart left ventricle,Capillary Endothelial,849.5,6796
+VHMHeart,heart left ventricle,Endocardial,203.875,1631
+VHMHeart,heart left ventricle,Endothelial,7.5,30
+VHMHeart,heart left ventricle,Fibroblast,24351.625,194813
+VHMHeart,heart left ventricle,Lymphatic Endothelial,67.375,539
+VHMHeart,heart left ventricle,Macrophage,779.5,6236
+VHMHeart,heart left ventricle,Mast,57.75,462
+VHMHeart,heart left ventricle,Mesothelial,330.75,2646
+VHMHeart,heart left ventricle,Monocyte/cDC,755.125,6041
+VHMHeart,heart left ventricle,NK,203.75,1630
+VHMHeart,heart left ventricle,Neuronal,63.625,509
+VHMHeart,heart left ventricle,Pericyte,883.375,7067
+VHMHeart,heart left ventricle,Smooth Muscle,212.25,1698
+VHMHeart,heart left ventricle,T,108.375,867
+VHMHeart,heart left ventricle,Venous Endothelial,260.375,2083
+VHMHeart,heart left ventricle,Ventricular Cardiomycoyte,18509.5,148076
+VHMHeart,heart left ventricle,"activated CD4-positive, alpha-beta T cell",22.878787878787878787,2265
+VHMHeart,heart left ventricle,"activated CD8-positive, alpha-beta T cell",52.071428571428571428,6561
+VHMHeart,heart left ventricle,capillary endothelial cell,913.714285714285714285,115128
+VHMHeart,heart left ventricle,dendritic cell,14.585365853658536585,1794
+VHMHeart,heart left ventricle,endothelial cell,158.714285714285714285,19998
+VHMHeart,heart left ventricle,endothelial cell of artery,333.642857142857142857,42039
+VHMHeart,heart left ventricle,endothelial cell of lymphatic vessel,14.28125,1371
+VHMHeart,heart left ventricle,epicardial adipocyte,49.944444444444444444,5394
+VHMHeart,heart left ventricle,fibroblast,736.880952380952380952,92847
+VHMHeart,heart left ventricle,macrophage,216.595238095238095238,27291
+VHMHeart,heart left ventricle,mast cell,21.894736842105263157,2496
+VHMHeart,heart left ventricle,mature NK T cell,27.947368421052631578,3186
+VHMHeart,heart left ventricle,mesothelial cell,34.5625,1659
+VHMHeart,heart left ventricle,monocyte,34.621621621621621621,3843
+VHMHeart,heart left ventricle,native cell,494.309523809523809523,62283
+VHMHeart,heart left ventricle,natural killer cell,62.051282051282051282,7260
+VHMHeart,heart left ventricle,neural cell,50.142857142857142857,6318
+VHMHeart,heart left ventricle,pericyte,997.809523809523809523,125724
+VHMHeart,heart left ventricle,regular atrial cardiac myocyte,880.857142857142857142,36996
+VHMHeart,heart left ventricle,regular ventricular cardiac myocyte,1956.392857142857142857,164337
+VHMHeart,heart left ventricle,smooth muscle cell,222,27972
+VHMHeart,heart left ventricle,vein endothelial cell,119.119047619047619047,15009
+VHMHeart,heart right ventricle,Adipocyte,59,59
+VHMHeart,heart right ventricle,Arterial Endothelial,117,117
+VHMHeart,heart right ventricle,Atrial Cardiomyocyte,13,13
+VHMHeart,heart right ventricle,B,2265,2265
+VHMHeart,heart right ventricle,B cell,23.210526315789473684,1764
+VHMHeart,heart right ventricle,CD14-positive monocyte,42.357142857142857142,2372
+VHMHeart,heart right ventricle,"CD14-positive, CD16-positive monocyte",66.20588235294117647,4502
+VHMHeart,heart right ventricle,"CD4-positive, alpha-beta cytotoxic T cell",57.928571428571428571,4866
+VHMHeart,heart right ventricle,"CD8-positive, alpha-beta cytotoxic T cell",65.675675675675675675,4860
+VHMHeart,heart right ventricle,Capillary Endothelial,733,733
+VHMHeart,heart right ventricle,Endocardial,185,185
+VHMHeart,heart right ventricle,Fibroblast,39354,39354
+VHMHeart,heart right ventricle,Lymphatic Endothelial,106,106
+VHMHeart,heart right ventricle,Macrophage,591,591
+VHMHeart,heart right ventricle,Mast,98,98
+VHMHeart,heart right ventricle,Mesothelial,622,622
+VHMHeart,heart right ventricle,Monocyte/cDC,724,724
+VHMHeart,heart right ventricle,NK,236,236
+VHMHeart,heart right ventricle,Neuronal,25,25
+VHMHeart,heart right ventricle,Pericyte,658,658
+VHMHeart,heart right ventricle,Smooth Muscle,285,285
+VHMHeart,heart right ventricle,T,129,129
+VHMHeart,heart right ventricle,Venous Endothelial,51,51
+VHMHeart,heart right ventricle,Ventricular Cardiomycoyte,3198,3198
+VHMHeart,heart right ventricle,"activated CD4-positive, alpha-beta T cell",22.878787878787878787,1510
+VHMHeart,heart right ventricle,"activated CD8-positive, alpha-beta T cell",52.071428571428571428,4374
+VHMHeart,heart right ventricle,capillary endothelial cell,913.714285714285714285,76752
+VHMHeart,heart right ventricle,dendritic cell,14.585365853658536585,1196
+VHMHeart,heart right ventricle,endothelial cell,158.714285714285714285,13332
+VHMHeart,heart right ventricle,endothelial cell of artery,333.642857142857142857,28026
+VHMHeart,heart right ventricle,endothelial cell of lymphatic vessel,14.28125,914
+VHMHeart,heart right ventricle,epicardial adipocyte,49.944444444444444444,3596
+VHMHeart,heart right ventricle,fibroblast,736.880952380952380952,61898
+VHMHeart,heart right ventricle,macrophage,216.595238095238095238,18194
+VHMHeart,heart right ventricle,mast cell,21.894736842105263157,1664
+VHMHeart,heart right ventricle,mature NK T cell,27.947368421052631578,2124
+VHMHeart,heart right ventricle,mesothelial cell,34.5625,1106
+VHMHeart,heart right ventricle,monocyte,34.621621621621621621,2562
+VHMHeart,heart right ventricle,native cell,494.309523809523809523,41522
+VHMHeart,heart right ventricle,natural killer cell,62.051282051282051282,4840
+VHMHeart,heart right ventricle,neural cell,50.142857142857142857,4212
+VHMHeart,heart right ventricle,pericyte,997.809523809523809523,83816
+VHMHeart,heart right ventricle,regular atrial cardiac myocyte,880.857142857142857142,24664
+VHMHeart,heart right ventricle,regular ventricular cardiac myocyte,1956.392857142857142857,109558
+VHMHeart,heart right ventricle,smooth muscle cell,222,18648
+VHMHeart,heart right ventricle,vein endothelial cell,119.119047619047619047,10006
+VHMHeart,interventricular septum,B cell,23.210526315789473684,882
+VHMHeart,interventricular septum,CD14-positive monocyte,42.357142857142857142,1186
+VHMHeart,interventricular septum,"CD14-positive, CD16-positive monocyte",66.20588235294117647,2251
+VHMHeart,interventricular septum,"CD4-positive, alpha-beta cytotoxic T cell",57.928571428571428571,2433
+VHMHeart,interventricular septum,"CD8-positive, alpha-beta cytotoxic T cell",65.675675675675675675,2430
+VHMHeart,interventricular septum,"activated CD4-positive, alpha-beta T cell",22.878787878787878787,755
+VHMHeart,interventricular septum,"activated CD8-positive, alpha-beta T cell",52.071428571428571428,2187
+VHMHeart,interventricular septum,capillary endothelial cell,913.714285714285714285,38376
+VHMHeart,interventricular septum,dendritic cell,14.585365853658536585,598
+VHMHeart,interventricular septum,endothelial cell,158.714285714285714285,6666
+VHMHeart,interventricular septum,endothelial cell of artery,333.642857142857142857,14013
+VHMHeart,interventricular septum,endothelial cell of lymphatic vessel,14.28125,457
+VHMHeart,interventricular septum,epicardial adipocyte,49.944444444444444444,1798
+VHMHeart,interventricular septum,fibroblast,736.880952380952380952,30949
+VHMHeart,interventricular septum,macrophage,216.595238095238095238,9097
+VHMHeart,interventricular septum,mast cell,21.894736842105263157,832
+VHMHeart,interventricular septum,mature NK T cell,27.947368421052631578,1062
+VHMHeart,interventricular septum,mesothelial cell,34.5625,553
+VHMHeart,interventricular septum,monocyte,34.621621621621621621,1281
+VHMHeart,interventricular septum,native cell,494.309523809523809523,20761
+VHMHeart,interventricular septum,natural killer cell,62.051282051282051282,2420
+VHMHeart,interventricular septum,neural cell,50.142857142857142857,2106
+VHMHeart,interventricular septum,pericyte,997.809523809523809523,41908
+VHMHeart,interventricular septum,regular atrial cardiac myocyte,880.857142857142857142,12332
+VHMHeart,interventricular septum,regular ventricular cardiac myocyte,1956.392857142857142857,54779
+VHMHeart,interventricular septum,smooth muscle cell,222,9324
+VHMHeart,interventricular septum,vein endothelial cell,119.119047619047619047,5003
+VHMHeart,left cardiac atrium,B cell,23.210526315789473684,882
+VHMHeart,left cardiac atrium,CD14-positive monocyte,42.357142857142857142,1186
+VHMHeart,left cardiac atrium,"CD14-positive, CD16-positive monocyte",66.20588235294117647,2251
+VHMHeart,left cardiac atrium,"CD4-positive, alpha-beta cytotoxic T cell",57.928571428571428571,2433
+VHMHeart,left cardiac atrium,"CD8-positive, alpha-beta cytotoxic T cell",65.675675675675675675,2430
+VHMHeart,left cardiac atrium,"activated CD4-positive, alpha-beta T cell",22.878787878787878787,755
+VHMHeart,left cardiac atrium,"activated CD8-positive, alpha-beta T cell",52.071428571428571428,2187
+VHMHeart,left cardiac atrium,capillary endothelial cell,913.714285714285714285,38376
+VHMHeart,left cardiac atrium,dendritic cell,14.585365853658536585,598
+VHMHeart,left cardiac atrium,endothelial cell,158.714285714285714285,6666
+VHMHeart,left cardiac atrium,endothelial cell of artery,333.642857142857142857,14013
+VHMHeart,left cardiac atrium,endothelial cell of lymphatic vessel,14.28125,457
+VHMHeart,left cardiac atrium,epicardial adipocyte,49.944444444444444444,1798
+VHMHeart,left cardiac atrium,fibroblast,736.880952380952380952,30949
+VHMHeart,left cardiac atrium,macrophage,216.595238095238095238,9097
+VHMHeart,left cardiac atrium,mast cell,21.894736842105263157,832
+VHMHeart,left cardiac atrium,mature NK T cell,27.947368421052631578,1062
+VHMHeart,left cardiac atrium,mesothelial cell,34.5625,553
+VHMHeart,left cardiac atrium,monocyte,34.621621621621621621,1281
+VHMHeart,left cardiac atrium,native cell,494.309523809523809523,20761
+VHMHeart,left cardiac atrium,natural killer cell,62.051282051282051282,2420
+VHMHeart,left cardiac atrium,neural cell,50.142857142857142857,2106
+VHMHeart,left cardiac atrium,pericyte,997.809523809523809523,41908
+VHMHeart,left cardiac atrium,regular atrial cardiac myocyte,880.857142857142857142,12332
+VHMHeart,left cardiac atrium,regular ventricular cardiac myocyte,1956.392857142857142857,54779
+VHMHeart,left cardiac atrium,smooth muscle cell,222,9324
+VHMHeart,left cardiac atrium,vein endothelial cell,119.119047619047619047,5003
+VHMHeart,right cardiac atrium,Adipocyte,51,51
+VHMHeart,right cardiac atrium,B cell,23.210526315789473684,882
+VHMHeart,right cardiac atrium,CD14-positive monocyte,42.357142857142857142,1186
+VHMHeart,right cardiac atrium,"CD14-positive, CD16-positive monocyte",66.20588235294117647,2251
+VHMHeart,right cardiac atrium,"CD4-positive, alpha-beta cytotoxic T cell",57.928571428571428571,2433
+VHMHeart,right cardiac atrium,"CD8-positive, alpha-beta cytotoxic T cell",65.675675675675675675,2430
+VHMHeart,right cardiac atrium,Endothelial cell,2173,2173
+VHMHeart,right cardiac atrium,Fibroblast,2806,2806
+VHMHeart,right cardiac atrium,Glia,95,95
+VHMHeart,right cardiac atrium,Immune (lymphocyte),304,304
+VHMHeart,right cardiac atrium,Immune (myeloid),3459,3459
+VHMHeart,right cardiac atrium,Muscle,3179,3179
+VHMHeart,right cardiac atrium,"activated CD4-positive, alpha-beta T cell",22.878787878787878787,755
+VHMHeart,right cardiac atrium,"activated CD8-positive, alpha-beta T cell",52.071428571428571428,2187
+VHMHeart,right cardiac atrium,capillary endothelial cell,913.714285714285714285,38376
+VHMHeart,right cardiac atrium,dendritic cell,14.585365853658536585,598
+VHMHeart,right cardiac atrium,endothelial cell,158.714285714285714285,6666
+VHMHeart,right cardiac atrium,endothelial cell of artery,333.642857142857142857,14013
+VHMHeart,right cardiac atrium,endothelial cell of lymphatic vessel,14.28125,457
+VHMHeart,right cardiac atrium,epicardial adipocyte,49.944444444444444444,1798
+VHMHeart,right cardiac atrium,fibroblast,736.880952380952380952,30949
+VHMHeart,right cardiac atrium,macrophage,216.595238095238095238,9097
+VHMHeart,right cardiac atrium,mast cell,21.894736842105263157,832
+VHMHeart,right cardiac atrium,mature NK T cell,27.947368421052631578,1062
+VHMHeart,right cardiac atrium,mesothelial cell,34.5625,553
+VHMHeart,right cardiac atrium,monocyte,34.621621621621621621,1281
+VHMHeart,right cardiac atrium,native cell,494.309523809523809523,20761
+VHMHeart,right cardiac atrium,natural killer cell,62.051282051282051282,2420
+VHMHeart,right cardiac atrium,neural cell,50.142857142857142857,2106
+VHMHeart,right cardiac atrium,pericyte,997.809523809523809523,41908
+VHMHeart,right cardiac atrium,regular atrial cardiac myocyte,880.857142857142857142,12332
+VHMHeart,right cardiac atrium,regular ventricular cardiac myocyte,1956.392857142857142857,54779
+VHMHeart,right cardiac atrium,smooth muscle cell,222,9324
+VHMHeart,right cardiac atrium,vein endothelial cell,119.119047619047619047,5003
+VHMLeftKidney,hilum of kidney,Afferent / Efferent Arteriole Endothelial,16.5,33
+VHMLeftKidney,hilum of kidney,Ascending Thin Limb,1,1
+VHMLeftKidney,hilum of kidney,Ascending Vasa Recta Endothelial,141.5,283
+VHMLeftKidney,hilum of kidney,B,2,2
+VHMLeftKidney,hilum of kidney,Connecting Tubule,973,1946
+VHMLeftKidney,hilum of kidney,Connecting Tubule Principal,13,26
+VHMLeftKidney,hilum of kidney,Cortical Collecting Duct Intercalated Type A,40.5,81
+VHMLeftKidney,hilum of kidney,Cortical Collecting Duct Principal,39,78
+VHMLeftKidney,hilum of kidney,Cortical Thick Ascending Limb,466,932
+VHMLeftKidney,hilum of kidney,Cortical Vascular Smooth Muscle / Pericyte,5,10
+VHMLeftKidney,hilum of kidney,Cycling Mononuclear Phagocyte,1,1
+VHMLeftKidney,hilum of kidney,Descending Thin Limb Type 1,1440.5,2881
+VHMLeftKidney,hilum of kidney,Descending Thin Limb Type 2,192.5,385
+VHMLeftKidney,hilum of kidney,Descending Thin Limb Type 3,4,4
+VHMLeftKidney,hilum of kidney,Descending Vasa Recta Endothelial,324,324
+VHMLeftKidney,hilum of kidney,"Descending Vasa Recta Endothelial ",23,23
+VHMLeftKidney,hilum of kidney,Distal Convoluted Tubule Type 1,51,102
+VHMLeftKidney,hilum of kidney,Distal Convoluted Tubule Type 2,1.5,3
+VHMLeftKidney,hilum of kidney,Fibroblast,37.5,75
+VHMLeftKidney,hilum of kidney,Glomerular Capillary Endothelial,10,20
+VHMLeftKidney,hilum of kidney,Inner Medullary Collecting Duct,899.5,1799
+VHMLeftKidney,hilum of kidney,Intercalated Type B,3,3
+VHMLeftKidney,hilum of kidney,Lymphatic Endothelial,11,11
+VHMLeftKidney,hilum of kidney,M2 Macrophage,1,1
+VHMLeftKidney,hilum of kidney,Macula Densa,16.5,33
+VHMLeftKidney,hilum of kidney,Mast,1,1
+VHMLeftKidney,hilum of kidney,Medullary Fibroblast,113.5,227
+VHMLeftKidney,hilum of kidney,Medullary Thick Ascending Limb,1401,2802
+VHMLeftKidney,hilum of kidney,Mesangial,2,2
+VHMLeftKidney,hilum of kidney,Monocyte,6,6
+VHMLeftKidney,hilum of kidney,Monocyte-derived,16,16
+VHMLeftKidney,hilum of kidney,Natural Killer / Natural Killer T,5,5
+VHMLeftKidney,hilum of kidney,Outer Medullary Collecting Duct Intercalated Type A,45.5,91
+VHMLeftKidney,hilum of kidney,Outer Medullary Collecting Duct Principal,251.5,503
+VHMLeftKidney,hilum of kidney,Parietal Epithelial,8,8
+VHMLeftKidney,hilum of kidney,Peritubular Capilary Endothelial,104,104
+VHMLeftKidney,hilum of kidney,"Peritubular Capilary Endothelial ",26,26
+VHMLeftKidney,hilum of kidney,Plasma,1,1
+VHMLeftKidney,hilum of kidney,Podocyte,5,10
+VHMLeftKidney,hilum of kidney,Proximal Tubule Epithelial Segment 1,38,38
+VHMLeftKidney,hilum of kidney,Proximal Tubule Epithelial Segment 2,2,2
+VHMLeftKidney,hilum of kidney,Proximal Tubule Epithelial Segment 3,97.5,195
+VHMLeftKidney,hilum of kidney,Schwann / Neural,4,4
+VHMLeftKidney,hilum of kidney,T,8,8
+VHMLeftKidney,hilum of kidney,Tissue-resident Macrophage,28,28
+VHMLeftKidney,hilum of kidney,Vascular Smooth Muscle / Pericyte,61.5,123
+VHMLeftKidney,kidney capsule,Afferent / Efferent Arteriole Endothelial,10.5,21
+VHMLeftKidney,kidney capsule,Ascending Thin Limb,441.5,883
+VHMLeftKidney,kidney capsule,Ascending Vasa Recta Endothelial,253,506
+VHMLeftKidney,kidney capsule,Connecting Tubule,1039.5,2079
+VHMLeftKidney,kidney capsule,Connecting Tubule Principal,2,2
+VHMLeftKidney,kidney capsule,Cortical Collecting Duct Intercalated Type A,4.5,9
+VHMLeftKidney,kidney capsule,Cortical Collecting Duct Principal,355.5,711
+VHMLeftKidney,kidney capsule,Cortical Thick Ascending Limb,1.5,3
+VHMLeftKidney,kidney capsule,Cortical Vascular Smooth Muscle / Pericyte,7,7
+VHMLeftKidney,kidney capsule,Cycling Mononuclear Phagocyte,3,6
+VHMLeftKidney,kidney capsule,Descending Thin Limb Type 1,1551,3102
+VHMLeftKidney,kidney capsule,Descending Thin Limb Type 2,28,56
+VHMLeftKidney,kidney capsule,Descending Thin Limb Type 3,281.5,563
+VHMLeftKidney,kidney capsule,Descending Vasa Recta Endothelial,277,277
+VHMLeftKidney,kidney capsule,"Descending Vasa Recta Endothelial ",50,50
+VHMLeftKidney,kidney capsule,Distal Convoluted Tubule Type 1,1,1
+VHMLeftKidney,kidney capsule,Fibroblast,8,8
+VHMLeftKidney,kidney capsule,Glomerular Capillary Endothelial,1,1
+VHMLeftKidney,kidney capsule,Inner Medullary Collecting Duct,1129.5,2259
+VHMLeftKidney,kidney capsule,Intercalated Type B,1,1
+VHMLeftKidney,kidney capsule,M2 Macrophage,16,16
+VHMLeftKidney,kidney capsule,Macula Densa,19,19
+VHMLeftKidney,kidney capsule,Medullary Fibroblast,892,1784
+VHMLeftKidney,kidney capsule,Medullary Thick Ascending Limb,27,54
+VHMLeftKidney,kidney capsule,Mesangial,1,1
+VHMLeftKidney,kidney capsule,Monocyte,7,7
+VHMLeftKidney,kidney capsule,Monocyte-derived,32.5,65
+VHMLeftKidney,kidney capsule,Natural Killer / Natural Killer T,4,4
+VHMLeftKidney,kidney capsule,Neutrophil,3,3
+VHMLeftKidney,kidney capsule,Outer Medullary Collecting Duct Intercalated Type A,19.5,39
+VHMLeftKidney,kidney capsule,Outer Medullary Collecting Duct Principal,14,14
+VHMLeftKidney,kidney capsule,Papillary Tip Epithelial,63.5,127
+VHMLeftKidney,kidney capsule,Parietal Epithelial,4,4
+VHMLeftKidney,kidney capsule,Peritubular Capilary Endothelial,4,4
+VHMLeftKidney,kidney capsule,"Peritubular Capilary Endothelial ",1,1
+VHMLeftKidney,kidney capsule,Podocyte,4,4
+VHMLeftKidney,kidney capsule,Proximal Tubule Epithelial Segment 1,3,3
+VHMLeftKidney,kidney capsule,Proximal Tubule Epithelial Segment 3,1,2
+VHMLeftKidney,kidney capsule,Renin-positive Juxtaglomerular Granular,1,1
+VHMLeftKidney,kidney capsule,T,23,23
+VHMLeftKidney,kidney capsule,Tissue-resident Macrophage,87,87
+VHMLeftKidney,kidney capsule,Vascular Smooth Muscle / Pericyte,55,110
+VHMLeftKidney,outer cortex of kidney,Afferent / Efferent Arteriole Endothelial,9.090909090909090909,100
+VHMLeftKidney,outer cortex of kidney,Ascending Thin Limb,85.833333333333333333,1030
+VHMLeftKidney,outer cortex of kidney,Ascending Vasa Recta Endothelial,70.583333333333333333,847
+VHMLeftKidney,outer cortex of kidney,B,34.5,138
+VHMLeftKidney,outer cortex of kidney,Classical Dendritic,11,22
+VHMLeftKidney,outer cortex of kidney,Connecting Tubule,743.357142857142857142,10407
+VHMLeftKidney,outer cortex of kidney,Connecting Tubule Intercalated Type A,4,12
+VHMLeftKidney,outer cortex of kidney,Connecting Tubule Principal,38,342
+VHMLeftKidney,outer cortex of kidney,Cortical Collecting Duct Intercalated Type A,116.384615384615384615,1513
+VHMLeftKidney,outer cortex of kidney,Cortical Collecting Duct Principal,117.357142857142857142,1643
+VHMLeftKidney,outer cortex of kidney,Cortical Thick Ascending Limb,340.785714285714285714,4771
+VHMLeftKidney,outer cortex of kidney,Cortical Vascular Smooth Muscle / Pericyte,16.7,167
+VHMLeftKidney,outer cortex of kidney,Cycling Mononuclear Phagocyte,3,15
+VHMLeftKidney,outer cortex of kidney,Descending Thin Limb Type 1,732.571428571428571428,10256
+VHMLeftKidney,outer cortex of kidney,Descending Thin Limb Type 2,121.076923076923076923,1574
+VHMLeftKidney,outer cortex of kidney,Descending Thin Limb Type 3,72.222222222222222222,650
+VHMLeftKidney,outer cortex of kidney,Descending Vasa Recta Endothelial,128,640
+VHMLeftKidney,outer cortex of kidney,"Descending Vasa Recta Endothelial ",15.571428571428571428,109
+VHMLeftKidney,outer cortex of kidney,Distal Convoluted Tubule Type 1,202.166666666666666666,2426
+VHMLeftKidney,outer cortex of kidney,Distal Convoluted Tubule Type 2,11.125,89
+VHMLeftKidney,outer cortex of kidney,Fibroblast,55.714285714285714285,780
+VHMLeftKidney,outer cortex of kidney,Glomerular Capillary Endothelial,26.083333333333333333,313
+VHMLeftKidney,outer cortex of kidney,Inner Medullary Collecting Duct,844.846153846153846153,10983
+VHMLeftKidney,outer cortex of kidney,Intercalated Type B,23.272727272727272727,256
+VHMLeftKidney,outer cortex of kidney,Lymphatic Endothelial,8.2,41
+VHMLeftKidney,outer cortex of kidney,M2 Macrophage,19.857142857142857142,139
+VHMLeftKidney,outer cortex of kidney,Macula Densa,72.384615384615384615,941
+VHMLeftKidney,outer cortex of kidney,Mast,6.333333333333333333,19
+VHMLeftKidney,outer cortex of kidney,Medullary Fibroblast,192.363636363636363636,2116
+VHMLeftKidney,outer cortex of kidney,Medullary Thick Ascending Limb,515.866666666666666666,7738
+VHMLeftKidney,outer cortex of kidney,Mesangial,7,42
+VHMLeftKidney,outer cortex of kidney,Monocyte,8.2,41
+VHMLeftKidney,outer cortex of kidney,Monocyte-derived,37.333333333333333333,336
+VHMLeftKidney,outer cortex of kidney,Natural Killer / Natural Killer T,7.6,38
+VHMLeftKidney,outer cortex of kidney,Natural Killer T,1,1
+VHMLeftKidney,outer cortex of kidney,Neutrophil,6.75,27
+VHMLeftKidney,outer cortex of kidney,Outer Medullary Collecting Duct Intercalated Type A,20,220
+VHMLeftKidney,outer cortex of kidney,Outer Medullary Collecting Duct Principal,47.666666666666666666,572
+VHMLeftKidney,outer cortex of kidney,Papillary Tip Epithelial,26.8,134
+VHMLeftKidney,outer cortex of kidney,Parietal Epithelial,11.181818181818181818,123
+VHMLeftKidney,outer cortex of kidney,Peritubular Capilary Endothelial,90,450
+VHMLeftKidney,outer cortex of kidney,"Peritubular Capilary Endothelial ",39.5,316
+VHMLeftKidney,outer cortex of kidney,Plasma,14.5,58
+VHMLeftKidney,outer cortex of kidney,Plasmacytoid Dendritic,8.5,17
+VHMLeftKidney,outer cortex of kidney,Podocyte,29.818181818181818181,328
+VHMLeftKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 1,305.2,3052
+VHMLeftKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 2,66.875,535
+VHMLeftKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 3,122.75,1473
+VHMLeftKidney,outer cortex of kidney,Renin-positive Juxtaglomerular Granular,2.5,5
+VHMLeftKidney,outer cortex of kidney,Schwann / Neural,5.5,11
+VHMLeftKidney,outer cortex of kidney,T,88.428571428571428571,619
+VHMLeftKidney,outer cortex of kidney,Tissue-resident Macrophage,67.4,337
+VHMLeftKidney,outer cortex of kidney,Vascular Smooth Muscle / Pericyte,26.461538461538461538,344
+VHMLeftKidney,renal column,Afferent / Efferent Arteriole Endothelial,16.5,33
+VHMLeftKidney,renal column,Ascending Thin Limb,1,1
+VHMLeftKidney,renal column,Ascending Vasa Recta Endothelial,141.5,283
+VHMLeftKidney,renal column,B,2,2
+VHMLeftKidney,renal column,Connecting Tubule,973,1946
+VHMLeftKidney,renal column,Connecting Tubule Principal,13,26
+VHMLeftKidney,renal column,Cortical Collecting Duct Intercalated Type A,40.5,81
+VHMLeftKidney,renal column,Cortical Collecting Duct Principal,39,78
+VHMLeftKidney,renal column,Cortical Thick Ascending Limb,466,932
+VHMLeftKidney,renal column,Cortical Vascular Smooth Muscle / Pericyte,5,10
+VHMLeftKidney,renal column,Cycling Mononuclear Phagocyte,1,1
+VHMLeftKidney,renal column,Descending Thin Limb Type 1,1440.5,2881
+VHMLeftKidney,renal column,Descending Thin Limb Type 2,192.5,385
+VHMLeftKidney,renal column,Descending Thin Limb Type 3,4,4
+VHMLeftKidney,renal column,Descending Vasa Recta Endothelial,324,324
+VHMLeftKidney,renal column,"Descending Vasa Recta Endothelial ",23,23
+VHMLeftKidney,renal column,Distal Convoluted Tubule Type 1,51,102
+VHMLeftKidney,renal column,Distal Convoluted Tubule Type 2,1.5,3
+VHMLeftKidney,renal column,Fibroblast,37.5,75
+VHMLeftKidney,renal column,Glomerular Capillary Endothelial,10,20
+VHMLeftKidney,renal column,Inner Medullary Collecting Duct,899.5,1799
+VHMLeftKidney,renal column,Intercalated Type B,3,3
+VHMLeftKidney,renal column,Lymphatic Endothelial,11,11
+VHMLeftKidney,renal column,M2 Macrophage,1,1
+VHMLeftKidney,renal column,Macula Densa,16.5,33
+VHMLeftKidney,renal column,Mast,1,1
+VHMLeftKidney,renal column,Medullary Fibroblast,113.5,227
+VHMLeftKidney,renal column,Medullary Thick Ascending Limb,1401,2802
+VHMLeftKidney,renal column,Mesangial,2,2
+VHMLeftKidney,renal column,Monocyte,6,6
+VHMLeftKidney,renal column,Monocyte-derived,16,16
+VHMLeftKidney,renal column,Natural Killer / Natural Killer T,5,5
+VHMLeftKidney,renal column,Outer Medullary Collecting Duct Intercalated Type A,45.5,91
+VHMLeftKidney,renal column,Outer Medullary Collecting Duct Principal,251.5,503
+VHMLeftKidney,renal column,Parietal Epithelial,8,8
+VHMLeftKidney,renal column,Peritubular Capilary Endothelial,104,104
+VHMLeftKidney,renal column,"Peritubular Capilary Endothelial ",26,26
+VHMLeftKidney,renal column,Plasma,1,1
+VHMLeftKidney,renal column,Podocyte,5,10
+VHMLeftKidney,renal column,Proximal Tubule Epithelial Segment 1,38,38
+VHMLeftKidney,renal column,Proximal Tubule Epithelial Segment 2,2,2
+VHMLeftKidney,renal column,Proximal Tubule Epithelial Segment 3,97.5,195
+VHMLeftKidney,renal column,Schwann / Neural,4,4
+VHMLeftKidney,renal column,T,8,8
+VHMLeftKidney,renal column,Tissue-resident Macrophage,28,28
+VHMLeftKidney,renal column,Vascular Smooth Muscle / Pericyte,61.5,123
+VHMLeftKidney,renal papilla,Ascending Thin Limb,726,1452
+VHMLeftKidney,renal papilla,Ascending Vasa Recta Endothelial,14.5,29
+VHMLeftKidney,renal papilla,Connecting Tubule,1047,2094
+VHMLeftKidney,renal papilla,Cortical Collecting Duct Principal,1445,2890
+VHMLeftKidney,renal papilla,Descending Thin Limb Type 1,3540.5,7081
+VHMLeftKidney,renal papilla,Descending Thin Limb Type 2,6.5,13
+VHMLeftKidney,renal papilla,Descending Thin Limb Type 3,88.5,177
+VHMLeftKidney,renal papilla,"Descending Vasa Recta Endothelial ",49,49
+VHMLeftKidney,renal papilla,Distal Convoluted Tubule Type 1,2,2
+VHMLeftKidney,renal papilla,Fibroblast,10,10
+VHMLeftKidney,renal papilla,Glomerular Capillary Endothelial,1,1
+VHMLeftKidney,renal papilla,Inner Medullary Collecting Duct,3745.5,7491
+VHMLeftKidney,renal papilla,Lymphatic Endothelial,1,1
+VHMLeftKidney,renal papilla,Medullary Fibroblast,249,498
+VHMLeftKidney,renal papilla,Medullary Thick Ascending Limb,7,14
+VHMLeftKidney,renal papilla,Papillary Tip Epithelial,81.5,163
+VHMLeftKidney,renal papilla,Parietal Epithelial,21,21
+VHMLeftKidney,renal papilla,Vascular Smooth Muscle / Pericyte,4.5,9
+VHMLeftKidney,renal pyramid,Afferent / Efferent Arteriole Endothelial,12.25,49
+VHMLeftKidney,renal pyramid,Ascending Thin Limb,224.857142857142857142,1574
+VHMLeftKidney,renal pyramid,Ascending Vasa Recta Endothelial,49.571428571428571428,347
+VHMLeftKidney,renal pyramid,B,2,2
+VHMLeftKidney,renal pyramid,Connecting Tubule,648.25,5186
+VHMLeftKidney,renal pyramid,Connecting Tubule Principal,9.333333333333333333,28
+VHMLeftKidney,renal pyramid,Cortical Collecting Duct Intercalated Type A,19.6,98
+VHMLeftKidney,renal pyramid,Cortical Collecting Duct Principal,401.125,3209
+VHMLeftKidney,renal pyramid,Cortical Thick Ascending Limb,352.333333333333333333,2114
+VHMLeftKidney,renal pyramid,Cortical Vascular Smooth Muscle / Pericyte,4.25,17
+VHMLeftKidney,renal pyramid,Cycling Mononuclear Phagocyte,1,1
+VHMLeftKidney,renal pyramid,Descending Thin Limb Type 1,1448.111111111111111111,13033
+VHMLeftKidney,renal pyramid,Descending Thin Limb Type 2,78.5,628
+VHMLeftKidney,renal pyramid,Descending Thin Limb Type 3,33.857142857142857142,237
+VHMLeftKidney,renal pyramid,Descending Vasa Recta Endothelial,324,324
+VHMLeftKidney,renal pyramid,"Descending Vasa Recta Endothelial ",17.666666666666666666,106
+VHMLeftKidney,renal pyramid,Distal Convoluted Tubule Type 1,50.5,303
+VHMLeftKidney,renal pyramid,Distal Convoluted Tubule Type 2,1.5,3
+VHMLeftKidney,renal pyramid,Fibroblast,20.5,164
+VHMLeftKidney,renal pyramid,Glomerular Capillary Endothelial,7,42
+VHMLeftKidney,renal pyramid,Inner Medullary Collecting Duct,1371,12339
+VHMLeftKidney,renal pyramid,Intercalated Type B,2.5,10
+VHMLeftKidney,renal pyramid,Lymphatic Endothelial,4.333333333333333333,13
+VHMLeftKidney,renal pyramid,M2 Macrophage,2,6
+VHMLeftKidney,renal pyramid,Macula Densa,11.5,69
+VHMLeftKidney,renal pyramid,Mast,1,1
+VHMLeftKidney,renal pyramid,Medullary Fibroblast,100.75,806
+VHMLeftKidney,renal pyramid,Medullary Thick Ascending Limb,713.777777777777777777,6424
+VHMLeftKidney,renal pyramid,Mesangial,1.5,3
+VHMLeftKidney,renal pyramid,Monocyte,6,6
+VHMLeftKidney,renal pyramid,Monocyte-derived,9,18
+VHMLeftKidney,renal pyramid,Natural Killer / Natural Killer T,5,5
+VHMLeftKidney,renal pyramid,Natural Killer T,1,1
+VHMLeftKidney,renal pyramid,Outer Medullary Collecting Duct Intercalated Type A,25.333333333333333333,152
+VHMLeftKidney,renal pyramid,Outer Medullary Collecting Duct Principal,86.833333333333333333,521
+VHMLeftKidney,renal pyramid,Papillary Tip Epithelial,42,168
+VHMLeftKidney,renal pyramid,Parietal Epithelial,5.833333333333333333,35
+VHMLeftKidney,renal pyramid,Peritubular Capilary Endothelial,104,104
+VHMLeftKidney,renal pyramid,"Peritubular Capilary Endothelial ",16,64
+VHMLeftKidney,renal pyramid,Plasma,1,1
+VHMLeftKidney,renal pyramid,Podocyte,12.5,50
+VHMLeftKidney,renal pyramid,Proximal Tubule Epithelial Segment 1,74,222
+VHMLeftKidney,renal pyramid,Proximal Tubule Epithelial Segment 2,2.333333333333333333,7
+VHMLeftKidney,renal pyramid,Proximal Tubule Epithelial Segment 3,140.75,563
+VHMLeftKidney,renal pyramid,Schwann / Neural,4,4
+VHMLeftKidney,renal pyramid,T,8,8
+VHMLeftKidney,renal pyramid,Tissue-resident Macrophage,28,28
+VHMLeftKidney,renal pyramid,Vascular Smooth Muscle / Pericyte,19.125,153
+VHMLeftUreter,left ureter,Afferent / Efferent Arteriole Endothelial,5.5,11
+VHMLeftUreter,left ureter,Ascending Thin Limb,1.5,3
+VHMLeftUreter,left ureter,Ascending Vasa Recta Endothelial,1,2
+VHMLeftUreter,left ureter,B,1,1
+VHMLeftUreter,left ureter,Connecting Tubule,1471.5,5886
+VHMLeftUreter,left ureter,Connecting Tubule Principal,2.5,5
+VHMLeftUreter,left ureter,Cortical Collecting Duct Intercalated Type A,1,2
+VHMLeftUreter,left ureter,Cortical Collecting Duct Principal,58.5,117
+VHMLeftUreter,left ureter,Cortical Vascular Smooth Muscle / Pericyte,71.75,287
+VHMLeftUreter,left ureter,Descending Thin Limb Type 1,1563.5,6254
+VHMLeftUreter,left ureter,Descending Thin Limb Type 2,1,1
+VHMLeftUreter,left ureter,Descending Thin Limb Type 3,1.5,3
+VHMLeftUreter,left ureter,"Descending Vasa Recta Endothelial ",10.666666666666666666,32
+VHMLeftUreter,left ureter,Fibroblast,469.75,1879
+VHMLeftUreter,left ureter,Inner Medullary Collecting Duct,7727,30908
+VHMLeftUreter,left ureter,Intercalated Type B,1,1
+VHMLeftUreter,left ureter,Lymphatic Endothelial,7.333333333333333333,22
+VHMLeftUreter,left ureter,M2 Macrophage,81.75,327
+VHMLeftUreter,left ureter,Macula Densa,1,1
+VHMLeftUreter,left ureter,Medullary Fibroblast,547.5,2190
+VHMLeftUreter,left ureter,Mesangial,1,1
+VHMLeftUreter,left ureter,Monocyte-derived,2,2
+VHMLeftUreter,left ureter,Non-classical monocyte,3,6
+VHMLeftUreter,left ureter,Outer Medullary Collecting Duct Principal,134,134
+VHMLeftUreter,left ureter,Papillary Tip Epithelial,576.5,2306
+VHMLeftUreter,left ureter,Parietal Epithelial,7,14
+VHMLeftUreter,left ureter,"Peritubular Capilary Endothelial ",7,21
+VHMLeftUreter,left ureter,Podocyte,3,3
+VHMLeftUreter,left ureter,Proximal Tubule Epithelial Segment 1,1,2
+VHMLeftUreter,left ureter,Proximal Tubule Epithelial Segment 3,1,1
+VHMLeftUreter,left ureter,Schwann / Neural,3,6
+VHMLeftUreter,left ureter,Vascular Smooth Muscle / Pericyte,188.666666666666666666,566
+VHMLung,Cartilage of bronchus,B cell,98.8,494
+VHMLung,Cartilage of bronchus,T cell,397,1985
+VHMLung,Cartilage of bronchus,alveolar macrophage,911.8,4559
+VHMLung,Cartilage of bronchus,basal cell,26.8,134
+VHMLung,Cartilage of bronchus,blood vessel endothelial cell,6.5,26
+VHMLung,Cartilage of bronchus,chondrocyte,68.2,341
+VHMLung,Cartilage of bronchus,ciliated cell,66,330
+VHMLung,Cartilage of bronchus,club cell,178.8,894
+VHMLung,Cartilage of bronchus,dendritic cell,25.4,127
+VHMLung,Cartilage of bronchus,endothelial cell,363.4,1817
+VHMLung,Cartilage of bronchus,endothelial cell of artery,17.6,88
+VHMLung,Cartilage of bronchus,enucleate erythrocyte,17.8,89
+VHMLung,Cartilage of bronchus,epithelial cell,178,890
+VHMLung,Cartilage of bronchus,fibroblast,914,4570
+VHMLung,Cartilage of bronchus,goblet cell,35.75,143
+VHMLung,Cartilage of bronchus,lung neuroendocrine cell,12.25,49
+VHMLung,Cartilage of bronchus,macrophage,161.2,806
+VHMLung,Cartilage of bronchus,mast cell,17,85
+VHMLung,Cartilage of bronchus,monocyte,284.6,1423
+VHMLung,Cartilage of bronchus,myofibroblast cell,64,320
+VHMLung,Cartilage of bronchus,native cell,278.4,1392
+VHMLung,Cartilage of bronchus,natural killer cell,114.6,573
+VHMLung,Cartilage of bronchus,pericyte,86.4,432
+VHMLung,Cartilage of bronchus,smooth muscle cell,41.8,209
+VHMLung,Cartilage of bronchus,type I pneumocyte,446.2,2231
+VHMLung,Cartilage of bronchus,type II pneumocyte,943.2,4716
+VHMLung,Cartilage of bronchus,vascular associated smooth muscle cell,20.2,101
+VHMLung,Cartilage of bronchus,vein endothelial cell,19.6,98
+VHMLung,Lateral segmental bronchus,B cell,98.8,494
+VHMLung,Lateral segmental bronchus,T cell,397,1985
+VHMLung,Lateral segmental bronchus,alveolar macrophage,911.8,4559
+VHMLung,Lateral segmental bronchus,basal cell,26.8,134
+VHMLung,Lateral segmental bronchus,blood vessel endothelial cell,6.5,26
+VHMLung,Lateral segmental bronchus,chondrocyte,68.2,341
+VHMLung,Lateral segmental bronchus,ciliated cell,66,330
+VHMLung,Lateral segmental bronchus,club cell,178.8,894
+VHMLung,Lateral segmental bronchus,dendritic cell,25.4,127
+VHMLung,Lateral segmental bronchus,endothelial cell,363.4,1817
+VHMLung,Lateral segmental bronchus,endothelial cell of artery,17.6,88
+VHMLung,Lateral segmental bronchus,enucleate erythrocyte,17.8,89
+VHMLung,Lateral segmental bronchus,epithelial cell,178,890
+VHMLung,Lateral segmental bronchus,fibroblast,914,4570
+VHMLung,Lateral segmental bronchus,goblet cell,35.75,143
+VHMLung,Lateral segmental bronchus,lung neuroendocrine cell,12.25,49
+VHMLung,Lateral segmental bronchus,macrophage,161.2,806
+VHMLung,Lateral segmental bronchus,mast cell,17,85
+VHMLung,Lateral segmental bronchus,monocyte,284.6,1423
+VHMLung,Lateral segmental bronchus,myofibroblast cell,64,320
+VHMLung,Lateral segmental bronchus,native cell,278.4,1392
+VHMLung,Lateral segmental bronchus,natural killer cell,114.6,573
+VHMLung,Lateral segmental bronchus,pericyte,86.4,432
+VHMLung,Lateral segmental bronchus,smooth muscle cell,41.8,209
+VHMLung,Lateral segmental bronchus,type I pneumocyte,446.2,2231
+VHMLung,Lateral segmental bronchus,type II pneumocyte,943.2,4716
+VHMLung,Lateral segmental bronchus,vascular associated smooth muscle cell,20.2,101
+VHMLung,Lateral segmental bronchus,vein endothelial cell,19.6,98
+VHMLung,Left apical bronchopulmonary segment,Endothelial cell,994.5,1989
+VHMLung,Left apical bronchopulmonary segment,Epithelial cell,7377.5,14755
+VHMLung,Left apical bronchopulmonary segment,Fibroblast,376,752
+VHMLung,Left apical bronchopulmonary segment,Immune (lymphocyte),155.5,311
+VHMLung,Left apical bronchopulmonary segment,Immune (myeloid),2071,4142
+VHMLung,Left apical bronchopulmonary segment,Muscle,37.5,75
+VHMLung,Right Lateral Bronchopulmonary Segment,AT1,1274,3822
+VHMLung,Right Lateral Bronchopulmonary Segment,AT2,757,2271
+VHMLung,Right Lateral Bronchopulmonary Segment,Adventitial fibroblasts,8.666666666666666666,26
+VHMLung,Right Lateral Bronchopulmonary Segment,Alveolar fibroblasts,101,303
+VHMLung,Right Lateral Bronchopulmonary Segment,Alveolar macrophages,2.5,5
+VHMLung,Right Lateral Bronchopulmonary Segment,B cell,98.8,494
+VHMLung,Right Lateral Bronchopulmonary Segment,B cells,68.333333333333333333,205
+VHMLung,Right Lateral Bronchopulmonary Segment,Basal resting,71,213
+VHMLung,Right Lateral Bronchopulmonary Segment,CD4 T cells,410.666666666666666666,1232
+VHMLung,Right Lateral Bronchopulmonary Segment,CD8 T cells,670,2010
+VHMLung,Right Lateral Bronchopulmonary Segment,Classical monocytes,10,30
+VHMLung,Right Lateral Bronchopulmonary Segment,Club (nasal),6,6
+VHMLung,Right Lateral Bronchopulmonary Segment,Club (non-nasal),25.333333333333333333,76
+VHMLung,Right Lateral Bronchopulmonary Segment,DC2,1,1
+VHMLung,Right Lateral Bronchopulmonary Segment,EC aerocyte capillary,52.333333333333333333,157
+VHMLung,Right Lateral Bronchopulmonary Segment,EC arterial,33,99
+VHMLung,Right Lateral Bronchopulmonary Segment,EC general capillary,1387.333333333333333333,4162
+VHMLung,Right Lateral Bronchopulmonary Segment,EC venous pulmonary,4.333333333333333333,13
+VHMLung,Right Lateral Bronchopulmonary Segment,EC venous systemic,116.333333333333333333,349
+VHMLung,Right Lateral Bronchopulmonary Segment,Goblet (bronchial),44,44
+VHMLung,Right Lateral Bronchopulmonary Segment,Goblet (nasal),5,5
+VHMLung,Right Lateral Bronchopulmonary Segment,Ionocyte,1,1
+VHMLung,Right Lateral Bronchopulmonary Segment,Lymphatic EC mature,24.333333333333333333,73
+VHMLung,Right Lateral Bronchopulmonary Segment,Mast cells,5.5,11
+VHMLung,Right Lateral Bronchopulmonary Segment,Monocyte-derived Mφ,1,1
+VHMLung,Right Lateral Bronchopulmonary Segment,Multiciliated (nasal),1,1
+VHMLung,Right Lateral Bronchopulmonary Segment,Multiciliated (non-nasal),136.333333333333333333,409
+VHMLung,Right Lateral Bronchopulmonary Segment,Myofibroblasts,13,13
+VHMLung,Right Lateral Bronchopulmonary Segment,NK cells,8.5,17
+VHMLung,Right Lateral Bronchopulmonary Segment,Pericytes,56.333333333333333333,169
+VHMLung,Right Lateral Bronchopulmonary Segment,Plasma cells,29,87
+VHMLung,Right Lateral Bronchopulmonary Segment,Plasmacytoid DCs,1,1
+VHMLung,Right Lateral Bronchopulmonary Segment,SMG serous (bronchial),100,100
+VHMLung,Right Lateral Bronchopulmonary Segment,Smooth muscle,80,240
+VHMLung,Right Lateral Bronchopulmonary Segment,Suprabasal,1,1
+VHMLung,Right Lateral Bronchopulmonary Segment,T cell,397,1985
+VHMLung,Right Lateral Bronchopulmonary Segment,Transitional Club-AT2,67.333333333333333333,202
+VHMLung,Right Lateral Bronchopulmonary Segment,Tuft,1,1
+VHMLung,Right Lateral Bronchopulmonary Segment,alveolar macrophage,911.8,4559
+VHMLung,Right Lateral Bronchopulmonary Segment,basal cell,26.8,134
+VHMLung,Right Lateral Bronchopulmonary Segment,blood vessel endothelial cell,6.5,26
+VHMLung,Right Lateral Bronchopulmonary Segment,chondrocyte,68.2,341
+VHMLung,Right Lateral Bronchopulmonary Segment,ciliated cell,66,330
+VHMLung,Right Lateral Bronchopulmonary Segment,club cell,178.8,894
+VHMLung,Right Lateral Bronchopulmonary Segment,dendritic cell,25.4,127
+VHMLung,Right Lateral Bronchopulmonary Segment,endothelial cell,363.4,1817
+VHMLung,Right Lateral Bronchopulmonary Segment,endothelial cell of artery,17.6,88
+VHMLung,Right Lateral Bronchopulmonary Segment,enucleate erythrocyte,17.8,89
+VHMLung,Right Lateral Bronchopulmonary Segment,epithelial cell,178,890
+VHMLung,Right Lateral Bronchopulmonary Segment,fibroblast,914,4570
+VHMLung,Right Lateral Bronchopulmonary Segment,goblet cell,35.75,143
+VHMLung,Right Lateral Bronchopulmonary Segment,lung neuroendocrine cell,12.25,49
+VHMLung,Right Lateral Bronchopulmonary Segment,macrophage,161.2,806
+VHMLung,Right Lateral Bronchopulmonary Segment,mast cell,17,85
+VHMLung,Right Lateral Bronchopulmonary Segment,monocyte,284.6,1423
+VHMLung,Right Lateral Bronchopulmonary Segment,myofibroblast cell,64,320
+VHMLung,Right Lateral Bronchopulmonary Segment,native cell,278.4,1392
+VHMLung,Right Lateral Bronchopulmonary Segment,natural killer cell,114.6,573
+VHMLung,Right Lateral Bronchopulmonary Segment,pericyte,86.4,432
+VHMLung,Right Lateral Bronchopulmonary Segment,smooth muscle cell,41.8,209
+VHMLung,Right Lateral Bronchopulmonary Segment,type I pneumocyte,446.2,2231
+VHMLung,Right Lateral Bronchopulmonary Segment,type II pneumocyte,943.2,4716
+VHMLung,Right Lateral Bronchopulmonary Segment,vascular associated smooth muscle cell,20.2,101
+VHMLung,Right Lateral Bronchopulmonary Segment,vein endothelial cell,19.6,98
+VHMLung,Right Medial Bronchopulmonary Segment,AT1,1191.125,9529
+VHMLung,Right Medial Bronchopulmonary Segment,AT2,1496.625,11973
+VHMLung,Right Medial Bronchopulmonary Segment,Adventitial fibroblasts,21.75,174
+VHMLung,Right Medial Bronchopulmonary Segment,Alveolar fibroblasts,202.375,1619
+VHMLung,Right Medial Bronchopulmonary Segment,Alveolar macrophages,65.666666666666666666,394
+VHMLung,Right Medial Bronchopulmonary Segment,B cells,81.25,650
+VHMLung,Right Medial Bronchopulmonary Segment,Basal resting,41.142857142857142857,288
+VHMLung,Right Medial Bronchopulmonary Segment,CD4 T cells,1478.5,11828
+VHMLung,Right Medial Bronchopulmonary Segment,CD8 T cells,608.75,4870
+VHMLung,Right Medial Bronchopulmonary Segment,Classical monocytes,21,168
+VHMLung,Right Medial Bronchopulmonary Segment,Club (nasal),4.5,9
+VHMLung,Right Medial Bronchopulmonary Segment,Club (non-nasal),31.857142857142857142,223
+VHMLung,Right Medial Bronchopulmonary Segment,DC2,8.75,35
+VHMLung,Right Medial Bronchopulmonary Segment,EC aerocyte capillary,50.875,407
+VHMLung,Right Medial Bronchopulmonary Segment,EC arterial,83.875,671
+VHMLung,Right Medial Bronchopulmonary Segment,EC general capillary,1807.5,14460
+VHMLung,Right Medial Bronchopulmonary Segment,EC venous pulmonary,15.25,61
+VHMLung,Right Medial Bronchopulmonary Segment,EC venous systemic,161.875,1295
+VHMLung,Right Medial Bronchopulmonary Segment,Goblet (bronchial),44,44
+VHMLung,Right Medial Bronchopulmonary Segment,Goblet (nasal),3,6
+VHMLung,Right Medial Bronchopulmonary Segment,Ionocyte,2.833333333333333333,17
+VHMLung,Right Medial Bronchopulmonary Segment,Lymphatic EC mature,46.625,373
+VHMLung,Right Medial Bronchopulmonary Segment,Mast cells,22.666666666666666666,136
+VHMLung,Right Medial Bronchopulmonary Segment,Monocyte-derived Mφ,1.666666666666666666,5
+VHMLung,Right Medial Bronchopulmonary Segment,Multiciliated (nasal),1,1
+VHMLung,Right Medial Bronchopulmonary Segment,Multiciliated (non-nasal),164.625,1317
+VHMLung,Right Medial Bronchopulmonary Segment,Myofibroblasts,7.6,38
+VHMLung,Right Medial Bronchopulmonary Segment,NK cells,12,72
+VHMLung,Right Medial Bronchopulmonary Segment,Pericytes,106.5,852
+VHMLung,Right Medial Bronchopulmonary Segment,Plasma cells,36,288
+VHMLung,Right Medial Bronchopulmonary Segment,Plasmacytoid DCs,1.666666666666666666,5
+VHMLung,Right Medial Bronchopulmonary Segment,SMG serous (bronchial),34,102
+VHMLung,Right Medial Bronchopulmonary Segment,Smooth muscle,93.625,749
+VHMLung,Right Medial Bronchopulmonary Segment,Suprabasal,1,1
+VHMLung,Right Medial Bronchopulmonary Segment,Transitional Club-AT2,109.125,873
+VHMLung,Right Medial Bronchopulmonary Segment,Tuft,1,1
+VHMProstate,central zone of prostate,Endothelial cell,706.5,5652
+VHMProstate,central zone of prostate,Epithelial cell,5768.25,46146
+VHMProstate,central zone of prostate,Fibroblast,285.5,2284
+VHMProstate,central zone of prostate,Glia,22.333333333333333333,134
+VHMProstate,central zone of prostate,Immune (lymphocyte),227.333333333333333333,1364
+VHMProstate,central zone of prostate,Immune (myeloid),257,2056
+VHMProstate,central zone of prostate,Muscle,560.75,4486
+VHMProstate,peripheral zone of prostate,Endothelial cell,706.5,5652
+VHMProstate,peripheral zone of prostate,Epithelial cell,5768.25,46146
+VHMProstate,peripheral zone of prostate,Fibroblast,285.5,2284
+VHMProstate,peripheral zone of prostate,Glia,22.333333333333333333,134
+VHMProstate,peripheral zone of prostate,Immune (lymphocyte),227.333333333333333333,1364
+VHMProstate,peripheral zone of prostate,Immune (myeloid),257,2056
+VHMProstate,peripheral zone of prostate,Muscle,560.75,4486
+VHMRightKidney,outer cortex of kidney,Afferent / Efferent Arteriole Endothelial,37.724137931034482758,1094
+VHMRightKidney,outer cortex of kidney,Ascending Thin Limb,2203.586206896551724137,63904
+VHMRightKidney,outer cortex of kidney,Ascending Vasa Recta Endothelial,184.071428571428571428,5154
+VHMRightKidney,outer cortex of kidney,B,3.25,52
+VHMRightKidney,outer cortex of kidney,Classical Dendritic,213.142857142857142857,5968
+VHMRightKidney,outer cortex of kidney,Connecting Tubule,1800.333333333333333333,54010
+VHMRightKidney,outer cortex of kidney,Connecting Tubule Intercalated Type A,7.862068965517241379,228
+VHMRightKidney,outer cortex of kidney,Connecting Tubule Principal,87.033333333333333333,2611
+VHMRightKidney,outer cortex of kidney,Cortical Collecting Duct Intercalated Type A,99.633333333333333333,2989
+VHMRightKidney,outer cortex of kidney,Cortical Collecting Duct Principal,491.166666666666666666,14735
+VHMRightKidney,outer cortex of kidney,Cortical Thick Ascending Limb,6862.1,205863
+VHMRightKidney,outer cortex of kidney,Cortical Vascular Smooth Muscle / Pericyte,116.310344827586206896,3373
+VHMRightKidney,outer cortex of kidney,Cycling Mononuclear Phagocyte,2,4
+VHMRightKidney,outer cortex of kidney,Descending Thin Limb Type 1,647,18763
+VHMRightKidney,outer cortex of kidney,Descending Thin Limb Type 2,1199.965517241379310344,34799
+VHMRightKidney,outer cortex of kidney,Descending Thin Limb Type 3,53.172413793103448275,1542
+VHMRightKidney,outer cortex of kidney,Descending Vasa Recta Endothelial,2,2
+VHMRightKidney,outer cortex of kidney,"Descending Vasa Recta Endothelial ",66.571428571428571428,1864
+VHMRightKidney,outer cortex of kidney,Distal Convoluted Tubule Type 1,2230.866666666666666666,66926
+VHMRightKidney,outer cortex of kidney,Distal Convoluted Tubule Type 2,47.166666666666666666,1415
+VHMRightKidney,outer cortex of kidney,Fibroblast,1497.3,44919
+VHMRightKidney,outer cortex of kidney,Glomerular Capillary Endothelial,178.275862068965517241,5170
+VHMRightKidney,outer cortex of kidney,Inner Medullary Collecting Duct,2052.13793103448275862,59512
+VHMRightKidney,outer cortex of kidney,Intercalated Type B,185.666666666666666666,5570
+VHMRightKidney,outer cortex of kidney,Lymphatic Endothelial,11.06896551724137931,321
+VHMRightKidney,outer cortex of kidney,M2 Macrophage,95.724137931034482758,2776
+VHMRightKidney,outer cortex of kidney,Macula Densa,125.066666666666666666,3752
+VHMRightKidney,outer cortex of kidney,Mast,19.071428571428571428,534
+VHMRightKidney,outer cortex of kidney,Medullary Fibroblast,57.517241379310344827,1668
+VHMRightKidney,outer cortex of kidney,Medullary Thick Ascending Limb,342.333333333333333333,10270
+VHMRightKidney,outer cortex of kidney,Mesangial,90.866666666666666666,2726
+VHMRightKidney,outer cortex of kidney,Monocyte,2,2
+VHMRightKidney,outer cortex of kidney,Monocyte-derived,87.862068965517241379,2548
+VHMRightKidney,outer cortex of kidney,Natural Killer / Natural Killer T,12,12
+VHMRightKidney,outer cortex of kidney,Natural Killer T,2.357142857142857142,33
+VHMRightKidney,outer cortex of kidney,Neutrophil,1.5625,25
+VHMRightKidney,outer cortex of kidney,Non-classical monocyte,3,51
+VHMRightKidney,outer cortex of kidney,Outer Medullary Collecting Duct Intercalated Type A,224.2,6726
+VHMRightKidney,outer cortex of kidney,Outer Medullary Collecting Duct Principal,69.714285714285714285,1952
+VHMRightKidney,outer cortex of kidney,Papillary Tip Epithelial,5.76923076923076923,150
+VHMRightKidney,outer cortex of kidney,Parietal Epithelial,113.733333333333333333,3412
+VHMRightKidney,outer cortex of kidney,Peritubular Capilary Endothelial,126,126
+VHMRightKidney,outer cortex of kidney,"Peritubular Capilary Endothelial ",257.275862068965517241,7461
+VHMRightKidney,outer cortex of kidney,Plasma,15.192307692307692307,395
+VHMRightKidney,outer cortex of kidney,Plasmacytoid Dendritic,1.25,10
+VHMRightKidney,outer cortex of kidney,Podocyte,383.233333333333333333,11497
+VHMRightKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 1,2769.566666666666666666,83087
+VHMRightKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 2,17.8,445
+VHMRightKidney,outer cortex of kidney,Proximal Tubule Epithelial Segment 3,1481.4,44442
+VHMRightKidney,outer cortex of kidney,Renin-positive Juxtaglomerular Granular,1.454545454545454545,32
+VHMRightKidney,outer cortex of kidney,Schwann / Neural,17.965517241379310344,521
+VHMRightKidney,outer cortex of kidney,T,4.818181818181818181,106
+VHMRightKidney,outer cortex of kidney,Tissue-resident Macrophage,39,39
+VHMRightKidney,outer cortex of kidney,Vascular Smooth Muscle / Pericyte,74.966666666666666666,2249
+VHMRightKidney,renal papilla,Ascending Thin Limb,12.5,25
+VHMRightKidney,renal papilla,Ascending Vasa Recta Endothelial,3.5,7
+VHMRightKidney,renal papilla,Connecting Tubule,12.5,25
+VHMRightKidney,renal papilla,Cortical Collecting Duct Intercalated Type A,1,1
+VHMRightKidney,renal papilla,Cortical Collecting Duct Principal,23,46
+VHMRightKidney,renal papilla,Descending Thin Limb Type 1,80,160
+VHMRightKidney,renal papilla,Descending Thin Limb Type 2,5,5
+VHMRightKidney,renal papilla,Descending Thin Limb Type 3,8,16
+VHMRightKidney,renal papilla,Descending Vasa Recta Endothelial,3,3
+VHMRightKidney,renal papilla,Inner Medullary Collecting Duct,146.5,293
+VHMRightKidney,renal papilla,Intercalated Type B,1,1
+VHMRightKidney,renal papilla,Medullary Fibroblast,33.5,67
+VHMRightKidney,renal papilla,Monocyte-derived,2,2
+VHMRightKidney,renal papilla,Natural Killer / Natural Killer T,1,1
+VHMRightKidney,renal papilla,Non-classical monocyte,2,2
+VHMRightKidney,renal papilla,Outer Medullary Collecting Duct Principal,3,6
+VHMRightKidney,renal papilla,Papillary Tip Epithelial,1,1
+VHMRightKidney,renal papilla,Parietal Epithelial,1,1
+VHMRightKidney,renal papilla,Peritubular Capilary Endothelial,2,2
+VHMRightKidney,renal papilla,Plasma,1,1
+VHMRightKidney,renal papilla,T,1,1
+VHMRightKidney,renal papilla,Vascular Smooth Muscle / Pericyte,2,2
+VHMRightKidney,renal pyramid,Afferent / Efferent Arteriole Endothelial,2,2
+VHMRightKidney,renal pyramid,Ascending Thin Limb,8.75,35
+VHMRightKidney,renal pyramid,Ascending Vasa Recta Endothelial,7,28
+VHMRightKidney,renal pyramid,B,1,1
+VHMRightKidney,renal pyramid,Connecting Tubule,32.25,129
+VHMRightKidney,renal pyramid,Connecting Tubule Principal,5,5
+VHMRightKidney,renal pyramid,Cortical Collecting Duct Intercalated Type A,13,39
+VHMRightKidney,renal pyramid,Cortical Collecting Duct Principal,72.75,291
+VHMRightKidney,renal pyramid,Cortical Thick Ascending Limb,630,1260
+VHMRightKidney,renal pyramid,Cortical Vascular Smooth Muscle / Pericyte,1,2
+VHMRightKidney,renal pyramid,Descending Thin Limb Type 1,599,2396
+VHMRightKidney,renal pyramid,Descending Thin Limb Type 2,24.333333333333333333,73
+VHMRightKidney,renal pyramid,Descending Thin Limb Type 3,5.5,22
+VHMRightKidney,renal pyramid,Descending Vasa Recta Endothelial,3,3
+VHMRightKidney,renal pyramid,"Descending Vasa Recta Endothelial ",11,22
+VHMRightKidney,renal pyramid,Distal Convoluted Tubule Type 1,35,70
+VHMRightKidney,renal pyramid,Fibroblast,1,1
+VHMRightKidney,renal pyramid,Glomerular Capillary Endothelial,4.5,9
+VHMRightKidney,renal pyramid,Inner Medullary Collecting Duct,609.5,2438
+VHMRightKidney,renal pyramid,Intercalated Type B,2,4
+VHMRightKidney,renal pyramid,Macula Densa,18.5,37
+VHMRightKidney,renal pyramid,Medullary Fibroblast,18.75,75
+VHMRightKidney,renal pyramid,Medullary Thick Ascending Limb,715,1430
+VHMRightKidney,renal pyramid,Monocyte-derived,2,2
+VHMRightKidney,renal pyramid,Natural Killer / Natural Killer T,1,1
+VHMRightKidney,renal pyramid,Non-classical monocyte,1.5,3
+VHMRightKidney,renal pyramid,Outer Medullary Collecting Duct Intercalated Type A,16.5,33
+VHMRightKidney,renal pyramid,Outer Medullary Collecting Duct Principal,6,24
+VHMRightKidney,renal pyramid,Papillary Tip Epithelial,1,1
+VHMRightKidney,renal pyramid,Parietal Epithelial,1,2
+VHMRightKidney,renal pyramid,Peritubular Capilary Endothelial,2,2
+VHMRightKidney,renal pyramid,"Peritubular Capilary Endothelial ",20,20
+VHMRightKidney,renal pyramid,Plasma,1,1
+VHMRightKidney,renal pyramid,Podocyte,28,28
+VHMRightKidney,renal pyramid,Proximal Tubule Epithelial Segment 1,52.5,105
+VHMRightKidney,renal pyramid,Proximal Tubule Epithelial Segment 2,4,8
+VHMRightKidney,renal pyramid,Proximal Tubule Epithelial Segment 3,21.5,43
+VHMRightKidney,renal pyramid,T,1,1
+VHMRightKidney,renal pyramid,Vascular Smooth Muscle / Pericyte,2,4
+VHMSkin,skin of body,Adipocyte,19,19
+VHMSkin,skin of body,"CD68 
+/ Macrophage",106.2,531
+VHMSkin,skin of body,Endothelial cell,1004,1004
+VHMSkin,skin of body,Epithelial cell,502,502
+VHMSkin,skin of body,Epithelial cell (keratinocyte),1930,1930
+VHMSkin,skin of body,Fibroblast,516,516
+VHMSkin,skin of body,Immune (lymphocyte),75,75
+VHMSkin,skin of body,Immune (myeloid),177,177
+VHMSkin,skin of body,Melanocyte,162,162
+VHMSkin,skin of body,Muscle,180,180
+VHMSkin,skin of body,Other,396,396
+VHMSkin,skin of body,T-Killer,38.6,193
+VHMSkin,skin of body,T-helper,1027,5135
+VHMSkin,skin of body,T-reg,127.8,639
+VHMSmallIntestine,ascending part of duodenum,B,82.333333333333333333,247
+VHMSmallIntestine,ascending part of duodenum,CD4+ T cell,1790,5370
+VHMSmallIntestine,ascending part of duodenum,CD57+ Enterocyte,40.666666666666666666,122
+VHMSmallIntestine,ascending part of duodenum,CD66+ Enterocyte,225.666666666666666666,677
+VHMSmallIntestine,ascending part of duodenum,CD7+ Immune,259.333333333333333333,778
+VHMSmallIntestine,ascending part of duodenum,CD8+ T,2963.333333333333333333,8890
+VHMSmallIntestine,ascending part of duodenum,Cycling TA,625,1875
+VHMSmallIntestine,ascending part of duodenum,DC,429.666666666666666666,1289
+VHMSmallIntestine,ascending part of duodenum,Endothelial,3945.666666666666666666,11837
+VHMSmallIntestine,ascending part of duodenum,Enterocyte,10326.333333333333333333,30979
+VHMSmallIntestine,ascending part of duodenum,Goblet,2208.333333333333333333,6625
+VHMSmallIntestine,ascending part of duodenum,ICC,660.333333333333333333,1981
+VHMSmallIntestine,ascending part of duodenum,Lymphatic,581.666666666666666666,1745
+VHMSmallIntestine,ascending part of duodenum,M1 Macrophage,587.666666666666666666,1763
+VHMSmallIntestine,ascending part of duodenum,M2 Macrophage,1847.333333333333333333,5542
+VHMSmallIntestine,ascending part of duodenum,MUC1+ Enterocyte,615,1845
+VHMSmallIntestine,ascending part of duodenum,NK,20,60
+VHMSmallIntestine,ascending part of duodenum,Nerve,2031.333333333333333333,6094
+VHMSmallIntestine,ascending part of duodenum,Neuroendocrine,363,1089
+VHMSmallIntestine,ascending part of duodenum,Neutrophil,235,705
+VHMSmallIntestine,ascending part of duodenum,Paneth,575,1725
+VHMSmallIntestine,ascending part of duodenum,Plasma,2600.666666666666666666,7802
+VHMSmallIntestine,ascending part of duodenum,Smooth muscle,7340.666666666666666666,22022
+VHMSmallIntestine,ascending part of duodenum,Stroma,4840,14520
+VHMSmallIntestine,ascending part of duodenum,TA,670,2010
+VHMSmallIntestine,descending part of duodenum,B,81.666666666666666666,245
+VHMSmallIntestine,descending part of duodenum,CD4+ T cell,2888.666666666666666666,8666
+VHMSmallIntestine,descending part of duodenum,CD57+ Enterocyte,130.333333333333333333,391
+VHMSmallIntestine,descending part of duodenum,CD66+ Enterocyte,424.333333333333333333,1273
+VHMSmallIntestine,descending part of duodenum,CD7+ Immune,373,1119
+VHMSmallIntestine,descending part of duodenum,CD8+ T,5785,17355
+VHMSmallIntestine,descending part of duodenum,Cycling TA,1276.333333333333333333,3829
+VHMSmallIntestine,descending part of duodenum,DC,500,1500
+VHMSmallIntestine,descending part of duodenum,Endothelial,4496.333333333333333333,13489
+VHMSmallIntestine,descending part of duodenum,Enterocyte,17723.666666666666666666,53171
+VHMSmallIntestine,descending part of duodenum,Goblet,3759.666666666666666666,11279
+VHMSmallIntestine,descending part of duodenum,ICC,265,795
+VHMSmallIntestine,descending part of duodenum,Lymphatic,929.666666666666666666,2789
+VHMSmallIntestine,descending part of duodenum,M1 Macrophage,1208,3624
+VHMSmallIntestine,descending part of duodenum,M2 Macrophage,2206.666666666666666666,6620
+VHMSmallIntestine,descending part of duodenum,MUC1+ Enterocyte,163,489
+VHMSmallIntestine,descending part of duodenum,NK,86.666666666666666666,260
+VHMSmallIntestine,descending part of duodenum,Nerve,1007.333333333333333333,3022
+VHMSmallIntestine,descending part of duodenum,Neuroendocrine,688.333333333333333333,2065
+VHMSmallIntestine,descending part of duodenum,Neutrophil,159.666666666666666666,479
+VHMSmallIntestine,descending part of duodenum,Paneth,821.333333333333333333,2464
+VHMSmallIntestine,descending part of duodenum,Plasma,4789.666666666666666666,14369
+VHMSmallIntestine,descending part of duodenum,Smooth muscle,4965.333333333333333333,14896
+VHMSmallIntestine,descending part of duodenum,Stroma,3915,11745
+VHMSmallIntestine,descending part of duodenum,TA,919.666666666666666666,2759
+VHMSmallIntestine,distal part of ileum,B,88.666666666666666666,266
+VHMSmallIntestine,distal part of ileum,CD4+ T cell,2098,6294
+VHMSmallIntestine,distal part of ileum,CD57+ Enterocyte,4,12
+VHMSmallIntestine,distal part of ileum,CD66+ Enterocyte,101.333333333333333333,304
+VHMSmallIntestine,distal part of ileum,CD7+ Immune,140.666666666666666666,422
+VHMSmallIntestine,distal part of ileum,CD8+ T,4745,14235
+VHMSmallIntestine,distal part of ileum,Cycling TA,925,2775
+VHMSmallIntestine,distal part of ileum,DC,427.666666666666666666,1283
+VHMSmallIntestine,distal part of ileum,Endothelial,3867.333333333333333333,11602
+VHMSmallIntestine,distal part of ileum,Enterocyte,11354,34062
+VHMSmallIntestine,distal part of ileum,Goblet,4618.666666666666666666,13856
+VHMSmallIntestine,distal part of ileum,ICC,582,1746
+VHMSmallIntestine,distal part of ileum,Lymphatic,859.333333333333333333,2578
+VHMSmallIntestine,distal part of ileum,M1 Macrophage,603,1809
+VHMSmallIntestine,distal part of ileum,M2 Macrophage,1790.333333333333333333,5371
+VHMSmallIntestine,distal part of ileum,MUC1+ Enterocyte,19.333333333333333333,58
+VHMSmallIntestine,distal part of ileum,NK,23.666666666666666666,71
+VHMSmallIntestine,distal part of ileum,Nerve,1833,5499
+VHMSmallIntestine,distal part of ileum,Neuroendocrine,430,1290
+VHMSmallIntestine,distal part of ileum,Neutrophil,143.666666666666666666,431
+VHMSmallIntestine,distal part of ileum,Paneth,1475,4425
+VHMSmallIntestine,distal part of ileum,Plasma,2803,8409
+VHMSmallIntestine,distal part of ileum,Smooth muscle,7738,23214
+VHMSmallIntestine,distal part of ileum,Stroma,3971.333333333333333333,11914
+VHMSmallIntestine,distal part of ileum,TA,558.333333333333333333,1675
+VHMSmallIntestine,horizontal part of duodenum,B,82.333333333333333333,247
+VHMSmallIntestine,horizontal part of duodenum,CD4+ T cell,1790,5370
+VHMSmallIntestine,horizontal part of duodenum,CD57+ Enterocyte,40.666666666666666666,122
+VHMSmallIntestine,horizontal part of duodenum,CD66+ Enterocyte,225.666666666666666666,677
+VHMSmallIntestine,horizontal part of duodenum,CD7+ Immune,259.333333333333333333,778
+VHMSmallIntestine,horizontal part of duodenum,CD8+ T,2963.333333333333333333,8890
+VHMSmallIntestine,horizontal part of duodenum,Cycling TA,625,1875
+VHMSmallIntestine,horizontal part of duodenum,DC,429.666666666666666666,1289
+VHMSmallIntestine,horizontal part of duodenum,Endothelial,3945.666666666666666666,11837
+VHMSmallIntestine,horizontal part of duodenum,Enterocyte,10326.333333333333333333,30979
+VHMSmallIntestine,horizontal part of duodenum,Goblet,2208.333333333333333333,6625
+VHMSmallIntestine,horizontal part of duodenum,ICC,660.333333333333333333,1981
+VHMSmallIntestine,horizontal part of duodenum,Lymphatic,581.666666666666666666,1745
+VHMSmallIntestine,horizontal part of duodenum,M1 Macrophage,587.666666666666666666,1763
+VHMSmallIntestine,horizontal part of duodenum,M2 Macrophage,1847.333333333333333333,5542
+VHMSmallIntestine,horizontal part of duodenum,MUC1+ Enterocyte,615,1845
+VHMSmallIntestine,horizontal part of duodenum,NK,20,60
+VHMSmallIntestine,horizontal part of duodenum,Nerve,2031.333333333333333333,6094
+VHMSmallIntestine,horizontal part of duodenum,Neuroendocrine,363,1089
+VHMSmallIntestine,horizontal part of duodenum,Neutrophil,235,705
+VHMSmallIntestine,horizontal part of duodenum,Paneth,575,1725
+VHMSmallIntestine,horizontal part of duodenum,Plasma,2600.666666666666666666,7802
+VHMSmallIntestine,horizontal part of duodenum,Smooth muscle,7340.666666666666666666,22022
+VHMSmallIntestine,horizontal part of duodenum,Stroma,4840,14520
+VHMSmallIntestine,horizontal part of duodenum,TA,670,2010
+VHMSmallIntestine,jejunum,B,80,240
+VHMSmallIntestine,jejunum,CD4+ T cell,2407.666666666666666666,7223
+VHMSmallIntestine,jejunum,CD57+ Enterocyte,3.333333333333333333,10
+VHMSmallIntestine,jejunum,CD66+ Enterocyte,225.666666666666666666,677
+VHMSmallIntestine,jejunum,CD7+ Immune,76.666666666666666666,230
+VHMSmallIntestine,jejunum,CD8+ T,3594.333333333333333333,10783
+VHMSmallIntestine,jejunum,Cycling TA,700.333333333333333333,2101
+VHMSmallIntestine,jejunum,DC,444.666666666666666666,1334
+VHMSmallIntestine,jejunum,Endothelial,3133.666666666666666666,9401
+VHMSmallIntestine,jejunum,Enterocyte,7367.666666666666666666,22103
+VHMSmallIntestine,jejunum,Goblet,2050.333333333333333333,6151
+VHMSmallIntestine,jejunum,ICC,324.333333333333333333,973
+VHMSmallIntestine,jejunum,Lymphatic,748.666666666666666666,2246
+VHMSmallIntestine,jejunum,M1 Macrophage,565.666666666666666666,1697
+VHMSmallIntestine,jejunum,M2 Macrophage,1785,5355
+VHMSmallIntestine,jejunum,MUC1+ Enterocyte,32.666666666666666666,98
+VHMSmallIntestine,jejunum,NK,12.333333333333333333,37
+VHMSmallIntestine,jejunum,Nerve,1835.333333333333333333,5506
+VHMSmallIntestine,jejunum,Neuroendocrine,239.666666666666666666,719
+VHMSmallIntestine,jejunum,Neutrophil,583,1749
+VHMSmallIntestine,jejunum,Paneth,778.333333333333333333,2335
+VHMSmallIntestine,jejunum,Plasma,2131.666666666666666666,6395
+VHMSmallIntestine,jejunum,Smooth muscle,9184.333333333333333333,27553
+VHMSmallIntestine,jejunum,Stroma,4392.666666666666666666,13178
+VHMSmallIntestine,jejunum,TA,281.333333333333333333,844
