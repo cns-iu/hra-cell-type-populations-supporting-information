@@ -47,3 +47,8 @@ if (CLEAN || !existsSync('../data/enriched_rui_locations.jsonld')) {
 if (CLEAN || !existsSync('../data/as-cell-summaries.jsonld')) {
   sh.exec('npm run generate:as-cell-summaries');
 }
+
+// Generate csv reports
+if (CLEAN || !existsSync('../data/reports')) {
+  sh.exec('npm run generate:reports');
+}

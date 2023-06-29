@@ -11,12 +11,15 @@
     "generate:collisions": "node ./src/gen-collisions.js",
     "generate:combined-data": "node ./src/combine-jsonld.js",
     "generate:as-cell-summaries": "node ./src/gen-as-cell-summaries.js",
+    "generate:reports": "node ./src/gen-reports.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "glob": "^10.3.0",
+    "jsonld": "^8.2.0",
+    "oxigraph": "^0.3.18",
     "papaparse": "^5.4.1",
     "shelljs": "^0.8.5"
   }

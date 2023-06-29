@@ -1,0 +1,8 @@
+#+ summary: Test query that finds all named graphs in the loaded SPARQL database
+
+SELECT DISTINCT ?g
+WHERE {
+  GRAPH ?g {
+    ?s ?p ?o .
+  }
+}
