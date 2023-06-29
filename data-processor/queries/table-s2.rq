@@ -125,7 +125,7 @@ WHERE {
         (COUNT(DISTINCT(?hra_ct_id)) as ?ct_in_hra)
         (COUNT(DISTINCT(?hra_exclusive_ct_id)) as ?ct_from_hra_only)
         (COUNT(DISTINCT(?cell_id)) as ?predicted_ct_count)
-    #	(GROUP_CONCAT(?cell_label; separator="; ") as ?predicted_ct_labels)
+        (GROUP_CONCAT(DISTINCT(?cell_label); separator="; ") as ?predicted_ct_labels)
         (AVG(?cell_count) as ?predicted_cells_per_ct)
     WHERE {
       ?rui_location a ccf:SpatialEntity .
