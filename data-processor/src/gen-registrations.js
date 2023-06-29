@@ -5,7 +5,7 @@ import { getHbmToUuidLookup } from './hubmap-uuid-lookup.js';
 
 const CSV_URL='https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/export?format=csv&gid=1529271254'
 const FIELDS='dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ'.split(',');
-const BASE_IRI='https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/rui_locations.jsonld#';
+const BASE_IRI='ctpop:';
 const OUTPUT='../data/rui_locations.jsonld'
 const HUBMAP_TOKEN=process.env.HUBMAP_TOKEN;
 
@@ -176,7 +176,10 @@ for (const dataset of allDatasets) {
       hraDataset = Object.assign(
         { '@id': datasetIri }, // makes sure '@id' is first
         result.dataset,
-        { '@id': datasetIri }
+        {
+          '@id': datasetIri,
+          'link': dataset.paper_id || result.dataset.link
+        }
       );
     } else {
       // If no Dataset was matched, make a new one
@@ -194,6 +197,14 @@ for (const dataset of allDatasets) {
     datasets[hraDataset['@id']] = hraDataset;
   } else {
     console.log(`Investigate ${dataset.source}: ${id}`);
+  }
+}
+
+// Delete all '@contexts' in favor of our own
+for (const donor of results) {
+  for (const block of donor.samples ?? []) {
+    delete block.rui_location['@context'];
+    delete block.rui_location.placement['@context'];
   }
 }
 

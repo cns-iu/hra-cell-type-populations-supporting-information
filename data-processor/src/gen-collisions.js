@@ -25,8 +25,11 @@ for (const donor of donors['@graph']) {
         collision_method: 'MESH',
         collisions: collisions.filter(c => c.percentage_of_tissue_block > 0 && c.representation_of !== '-').map(c => ({
           '@type': 'CollisionItem',
+          reference_organ: block.rui_location.placement.target,
+          as_3d_id: c.id,
           as_id: c.representation_of,
           as_label: c.label,
+          as_volume: c.AS_volume,
           percentage: c.percentage_of_tissue_block
         }))
       });
