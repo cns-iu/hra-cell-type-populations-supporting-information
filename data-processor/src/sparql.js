@@ -1,4 +1,4 @@
-import { Store, BlankNode, Node } from 'oxigraph';
+import { Store, BlankNode } from 'oxigraph';
 import Papa from 'papaparse';
 
 /**
