@@ -15,15 +15,17 @@ function getCollisions(ruiLocation) {
 // Find all datasets in rui_locations.jsonld and add run collision detection on them
 const results = [];
 let bad = 0;
+let one = 0;
+let other = 0;
 for (const donor of donors['@graph']) {
   for (const block of donor.samples ?? []) {
     if (block.rui_location) {
-      const collisions = await getCollisions(block.rui_location);
+      const collisions = (await getCollisions(block.rui_location)).filter(c => c.percentage_of_tissue_block > 0 && c.representation_of !== '-');
       results.push({
         '@type': 'CollisionSummary',
         collision_source: block.rui_location['@id'],
         collision_method: 'MESH',
-        collisions: collisions.filter(c => c.percentage_of_tissue_block > 0 && c.representation_of !== '-').map(c => ({
+        collisions: collisions.map(c => ({
           '@type': 'CollisionItem',
           reference_organ: block.rui_location.placement.target,
           as_3d_id: c.id,
@@ -36,11 +38,21 @@ for (const donor of donors['@graph']) {
       
       if (collisions.length === 0) {
         bad++;
+      } else if (collisions.length === 1) {
+        one++;
+      } if (collisions.length > 1) {
+        other++;
       }
     }
   }
 }
 
+if (other > 0) {
+  console.log(`${other} RUI locations had more than one collision`);
+}
+if (one > 0) {
+  console.log(`${one} RUI locations had one collision`);
+}
 if (bad > 0) {
   console.log(`WARNING ${bad} RUI locations had zero collisions`);
 }
