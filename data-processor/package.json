@@ -17,6 +17,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "fetch-sparql-endpoint": "^3.3.3",
     "glob": "^10.3.0",
     "jsonld": "^8.2.0",
     "oxigraph": "^0.3.18",

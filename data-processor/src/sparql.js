@@ -1,4 +1,5 @@
-import { Store, BlankNode } from 'oxigraph';
+import { SparqlEndpointFetcher } from 'fetch-sparql-endpoint';
+import { BlankNode, Store } from 'oxigraph';
 import Papa from 'papaparse';
 
 /**
@@ -89,11 +90,32 @@ export class SparqlRunner {
         fields = [...datum.keys()];
         output = fields.join('\t') + '\n';
       }
-      const row = fields
-        .map((f) => nodeValue(datum.get(f)))
-        .filter((v) => v);
+      const row = fields.map((f) => nodeValue(datum.get(f))).filter((v) => v);
       output += row.join('\t') + '\n';
     }
     return output;
+  }
+
+  async selectRemote(query, sparqlEndpoint) {
+    const fetcher = new SparqlEndpointFetcher({});
+    const stream = await fetcher.fetchBindings(sparqlEndpoint, query);
+    return new Promise((resolve, reject) => {
+      const results = [];
+      stream.on('data', (bindings) => {
+        const result = Object.keys(bindings).reduce(
+          (acc, key) => ((acc[key] = bindings[key]?.value), acc),
+          {}
+        );
+        results.push(result);
+      });
+      stream.on('end', () => {
+        resolve(results);
+      });
+    });
+  }
+
+  async selectCsvRemote(query, sparqlEndpoint) {
+    const data = await this.selectRemote(query, sparqlEndpoint);
+    return Papa.unparse(data);
   }
 }
