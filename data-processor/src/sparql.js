@@ -96,7 +96,14 @@ export class SparqlRunner {
     return output;
   }
 
-  async selectRemote(query, sparqlEndpoint) {
+  /**
+   * Generator that returns SPARQL query results as an array of simple objects
+   *
+   * @param {string} query the SPARQL query as a string
+   * @param {string} sparqlEndpoint the remote SPARQL endpoint to query
+   * @returns array of objects
+   */
+  async selectRemoteObjects(query, sparqlEndpoint) {
     const fetcher = new SparqlEndpointFetcher({});
     const stream = await fetcher.fetchBindings(sparqlEndpoint, query);
     return new Promise((resolve, reject) => {
@@ -114,8 +121,15 @@ export class SparqlRunner {
     });
   }
 
+  /**
+   * Run a SPARQL query and return results in csv format
+   *
+   * @param {string} query the SPARQL query as a string
+   * @param {string} sparqlEndpoint the remote SPARQL endpoint to query
+   * @returns the results of the query in csv format
+   */
   async selectCsvRemote(query, sparqlEndpoint) {
-    const data = await this.selectRemote(query, sparqlEndpoint);
+    const data = await this.selectRemoteObjects(query, sparqlEndpoint);
     return Papa.unparse(data);
   }
 }
