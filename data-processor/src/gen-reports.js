@@ -5,7 +5,7 @@ import sh from 'shelljs';
 import { getCtPopDb } from './ctpop-db.js';
 
 // Some queries don't run well in oxigraph. This allows us to run with an external sparql server.
-const remoteQueries = new Set(['table-s2']);
+const remoteQueries = new Set(['table-s2', 'rui-location-stats']);
 const SPARQL_ENDPOINT = 'https://api.triplydb.com/datasets/bherr/ctpop/services/ctpop/sparql';
 
 // Ensure reports output directory exists
