@@ -9,6 +9,7 @@
     "generate:registrations": "node ./src/gen-registrations.js",
     "generate:dataset-cell-summaries": "node ./src/gen-cell-summaries.js",
     "generate:collisions": "node ./src/gen-collisions.js",
+    "generate:corridors": "node ./src/gen-corridors.js",
     "generate:combined-data": "node ./src/combine-jsonld.js",
     "generate:as-cell-summaries": "node ./src/gen-as-cell-summaries.js",
     "generate:reports": "node ./src/gen-reports.js",

@@ -38,6 +38,11 @@ if (CLEAN || !existsSync('../data/collisions.jsonld')) {
   sh.exec('npm run generate:collisions');
 }
 
+// Generate rui location corridors
+if (CLEAN || !existsSync('../data/corridors.jsonld')) {
+  sh.exec('npm run generate:corridors');
+}
+
 // Combine the data
 if (CLEAN || !existsSync('../data/enriched_rui_locations.jsonld')) {
   sh.exec('npm run generate:combined-data');

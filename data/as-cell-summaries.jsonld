@@ -28,6 +28,13 @@
     "collisions": {
       "@id": "ccf:has_collision_item"
     },
+    "corridor_source": {
+      "@reverse": "ccf:has_corridor",
+      "@type": "@id"
+    },
+    "corridor": {
+      "@id": "ccf:has_corridor"
+    },
     "summaries": {
       "@id": "ccf:has_cell_summary"
     },
@@ -1866,321 +1873,6 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0008716",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:afferent-efferent-arteriole-endothelial",
-          "cell_label": "Afferent / Efferent Arteriole Endothelial",
-          "count": 21.813000000000002,
-          "percentage": 0.0024892509617560525
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:ascending-vasa-recta-endothelial",
-          "cell_label": "Ascending Vasa Recta Endothelial",
-          "count": 187.06300000000002,
-          "percentage": 0.0213472127932413
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:connecting-tubule",
-          "cell_label": "Connecting Tubule",
-          "count": 1286.306,
-          "percentage": 0.14679037489628113
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:connecting-tubule-principal",
-          "cell_label": "Connecting Tubule Principal",
-          "count": 17.186,
-          "percentage": 0.0019612280304744656
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cortical-collecting-duct-intercalated-type-a",
-          "cell_label": "Cortical Collecting Duct Intercalated Type A",
-          "count": 53.541,
-          "percentage": 0.006109979633401218
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cortical-collecting-duct-principal",
-          "cell_label": "Cortical Collecting Duct Principal",
-          "count": 51.55800000000001,
-          "percentage": 0.005883684091423397
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cortical-thick-ascending-limb",
-          "cell_label": "Cortical Thick Ascending Limb",
-          "count": 616.052,
-          "percentage": 0.07030248170777699
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cortical-vascular-smooth-muscle-pericyte",
-          "cell_label": "Cortical Vascular Smooth Muscle / Pericyte",
-          "count": 6.61,
-          "percentage": 0.0007543184732594098
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:descending-thin-limb-type-1",
-          "cell_label": "Descending Thin Limb Type 1",
-          "count": 1904.3410000000001,
-          "percentage": 0.21731915214603598
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:descending-thin-limb-type-2",
-          "cell_label": "Descending Thin Limb Type 2",
-          "count": 254.485,
-          "percentage": 0.029041261220487277
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:descending-thin-limb-type-3",
-          "cell_label": "Descending Thin Limb Type 3",
-          "count": 2.644,
-          "percentage": 0.00030172738930376393
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:descending-vasa-recta-endothelial",
-          "cell_label": "Descending Vasa Recta Endothelial ",
-          "count": 229.36700000000002,
-          "percentage": 0.02617485102210152
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:distal-convoluted-tubule-type-1",
-          "cell_label": "Distal Convoluted Tubule Type 1",
-          "count": 67.422,
-          "percentage": 0.007694048427245979
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:distal-convoluted-tubule-type-2",
-          "cell_label": "Distal Convoluted Tubule Type 2",
-          "count": 1.983,
-          "percentage": 0.00022629554197782295
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:fibroblast",
-          "cell_label": "Fibroblast",
-          "count": 49.575,
-          "percentage": 0.005657388549445573
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:glomerular-capillary-endothelial",
-          "cell_label": "Glomerular Capillary Endothelial",
-          "count": 13.22,
-          "percentage": 0.0015086369465188195
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:inner-medullary-collecting-duct",
-          "cell_label": "Inner Medullary Collecting Duct",
-          "count": 1189.139,
-          "percentage": 0.1357018933393678
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:m2-macrophage",
-          "cell_label": "M2 Macrophage",
-          "count": 0.661,
-          "percentage": 0.00007543184732594098
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:macula-densa",
-          "cell_label": "Macula Densa",
-          "count": 21.813000000000002,
-          "percentage": 0.0024892509617560525
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:medullary-fibroblast",
-          "cell_label": "Medullary Fibroblast",
-          "count": 150.047,
-          "percentage": 0.0171230293429886
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:medullary-thick-ascending-limb",
-          "cell_label": "Medullary Thick Ascending Limb",
-          "count": 1852.1219999999998,
-          "percentage": 0.2113600362072866
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:outer-medullary-collecting-duct-intercalated-type-a",
-          "cell_label": "Outer Medullary Collecting Duct Intercalated Type A",
-          "count": 60.151,
-          "percentage": 0.0068642981066606296
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:outer-medullary-collecting-duct-principal",
-          "cell_label": "Outer Medullary Collecting Duct Principal",
-          "count": 332.483,
-          "percentage": 0.037942219204948315
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:peritubular-capilary-endothelial",
-          "cell_label": "Peritubular Capilary Endothelial ",
-          "count": 85.93,
-          "percentage": 0.009806140152372328
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:podocyte",
-          "cell_label": "Podocyte",
-          "count": 6.609999999999999,
-          "percentage": 0.0007543184732594097
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:proximal-tubule-epithelial-segment-3",
-          "cell_label": "Proximal Tubule Epithelial Segment 3",
-          "count": 128.895,
-          "percentage": 0.014709210228558492
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:vascular-smooth-muscle-pericyte",
-          "cell_label": "Vascular Smooth Muscle / Pericyte",
-          "count": 81.30300000000001,
-          "percentage": 0.009278117221090742
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:ascending-thin-limb",
-          "cell_label": "Ascending Thin Limb",
-          "count": 0.661,
-          "percentage": 0.00007543184732594098
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:b",
-          "cell_label": "B",
-          "count": 1.322,
-          "percentage": 0.00015086369465188196
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cycling-mononuclear-phagocyte",
-          "cell_label": "Cycling Mononuclear Phagocyte",
-          "count": 0.661,
-          "percentage": 0.00007543184732594098
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:intercalated-type-b",
-          "cell_label": "Intercalated Type B",
-          "count": 1.983,
-          "percentage": 0.00022629554197782295
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:lymphatic-endothelial",
-          "cell_label": "Lymphatic Endothelial",
-          "count": 7.271000000000001,
-          "percentage": 0.0008297503205853509
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:mast",
-          "cell_label": "Mast",
-          "count": 0.661,
-          "percentage": 0.00007543184732594098
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:mesangial",
-          "cell_label": "Mesangial",
-          "count": 1.322,
-          "percentage": 0.00015086369465188196
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:monocyte",
-          "cell_label": "Monocyte",
-          "count": 3.966,
-          "percentage": 0.0004525910839556459
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:monocyte-derived",
-          "cell_label": "Monocyte-derived",
-          "count": 10.576,
-          "percentage": 0.0012069095572150557
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:natural-killer-natural-killer-t",
-          "cell_label": "Natural Killer / Natural Killer T",
-          "count": 3.305,
-          "percentage": 0.0003771592366297049
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:parietal-epithelial",
-          "cell_label": "Parietal Epithelial",
-          "count": 5.288,
-          "percentage": 0.0006034547786075279
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:plasma",
-          "cell_label": "Plasma",
-          "count": 0.661,
-          "percentage": 0.00007543184732594098
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:proximal-tubule-epithelial-segment-1",
-          "cell_label": "Proximal Tubule Epithelial Segment 1",
-          "count": 25.118000000000002,
-          "percentage": 0.0028664101983857573
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:proximal-tubule-epithelial-segment-2",
-          "cell_label": "Proximal Tubule Epithelial Segment 2",
-          "count": 1.322,
-          "percentage": 0.00015086369465188196
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:schwann-neural",
-          "cell_label": "Schwann / Neural",
-          "count": 2.644,
-          "percentage": 0.00030172738930376393
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:t",
-          "cell_label": "T",
-          "count": 5.288,
-          "percentage": 0.0006034547786075279
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:tissue-resident-macrophage",
-          "cell_label": "Tissue-resident Macrophage",
-          "count": 18.508000000000003,
-          "percentage": 0.002112091725126348
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001284",
       "annotation_method": "Aggregation",
       "summary": [
@@ -2533,6 +2225,321 @@
           "cell_label": "Classical Dendritic",
           "count": 5.688000000000001,
           "percentage": 0.00018482066092232266
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0008716",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:afferent-efferent-arteriole-endothelial",
+          "cell_label": "Afferent / Efferent Arteriole Endothelial",
+          "count": 21.813000000000002,
+          "percentage": 0.0024892509617560525
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ascending-vasa-recta-endothelial",
+          "cell_label": "Ascending Vasa Recta Endothelial",
+          "count": 187.06300000000002,
+          "percentage": 0.0213472127932413
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:connecting-tubule",
+          "cell_label": "Connecting Tubule",
+          "count": 1286.306,
+          "percentage": 0.14679037489628113
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:connecting-tubule-principal",
+          "cell_label": "Connecting Tubule Principal",
+          "count": 17.186,
+          "percentage": 0.0019612280304744656
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cortical-collecting-duct-intercalated-type-a",
+          "cell_label": "Cortical Collecting Duct Intercalated Type A",
+          "count": 53.541,
+          "percentage": 0.006109979633401218
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cortical-collecting-duct-principal",
+          "cell_label": "Cortical Collecting Duct Principal",
+          "count": 51.55800000000001,
+          "percentage": 0.005883684091423397
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cortical-thick-ascending-limb",
+          "cell_label": "Cortical Thick Ascending Limb",
+          "count": 616.052,
+          "percentage": 0.07030248170777699
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cortical-vascular-smooth-muscle-pericyte",
+          "cell_label": "Cortical Vascular Smooth Muscle / Pericyte",
+          "count": 6.61,
+          "percentage": 0.0007543184732594098
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:descending-thin-limb-type-1",
+          "cell_label": "Descending Thin Limb Type 1",
+          "count": 1904.3410000000001,
+          "percentage": 0.21731915214603598
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:descending-thin-limb-type-2",
+          "cell_label": "Descending Thin Limb Type 2",
+          "count": 254.485,
+          "percentage": 0.029041261220487277
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:descending-thin-limb-type-3",
+          "cell_label": "Descending Thin Limb Type 3",
+          "count": 2.644,
+          "percentage": 0.00030172738930376393
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:descending-vasa-recta-endothelial",
+          "cell_label": "Descending Vasa Recta Endothelial ",
+          "count": 229.36700000000002,
+          "percentage": 0.02617485102210152
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:distal-convoluted-tubule-type-1",
+          "cell_label": "Distal Convoluted Tubule Type 1",
+          "count": 67.422,
+          "percentage": 0.007694048427245979
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:distal-convoluted-tubule-type-2",
+          "cell_label": "Distal Convoluted Tubule Type 2",
+          "count": 1.983,
+          "percentage": 0.00022629554197782295
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:fibroblast",
+          "cell_label": "Fibroblast",
+          "count": 49.575,
+          "percentage": 0.005657388549445573
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:glomerular-capillary-endothelial",
+          "cell_label": "Glomerular Capillary Endothelial",
+          "count": 13.22,
+          "percentage": 0.0015086369465188195
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:inner-medullary-collecting-duct",
+          "cell_label": "Inner Medullary Collecting Duct",
+          "count": 1189.139,
+          "percentage": 0.1357018933393678
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 0.661,
+          "percentage": 0.00007543184732594098
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:macula-densa",
+          "cell_label": "Macula Densa",
+          "count": 21.813000000000002,
+          "percentage": 0.0024892509617560525
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:medullary-fibroblast",
+          "cell_label": "Medullary Fibroblast",
+          "count": 150.047,
+          "percentage": 0.0171230293429886
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:medullary-thick-ascending-limb",
+          "cell_label": "Medullary Thick Ascending Limb",
+          "count": 1852.1219999999998,
+          "percentage": 0.2113600362072866
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:outer-medullary-collecting-duct-intercalated-type-a",
+          "cell_label": "Outer Medullary Collecting Duct Intercalated Type A",
+          "count": 60.151,
+          "percentage": 0.0068642981066606296
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:outer-medullary-collecting-duct-principal",
+          "cell_label": "Outer Medullary Collecting Duct Principal",
+          "count": 332.483,
+          "percentage": 0.037942219204948315
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:peritubular-capilary-endothelial",
+          "cell_label": "Peritubular Capilary Endothelial ",
+          "count": 85.93,
+          "percentage": 0.009806140152372328
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:podocyte",
+          "cell_label": "Podocyte",
+          "count": 6.609999999999999,
+          "percentage": 0.0007543184732594097
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:proximal-tubule-epithelial-segment-3",
+          "cell_label": "Proximal Tubule Epithelial Segment 3",
+          "count": 128.895,
+          "percentage": 0.014709210228558492
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:vascular-smooth-muscle-pericyte",
+          "cell_label": "Vascular Smooth Muscle / Pericyte",
+          "count": 81.30300000000001,
+          "percentage": 0.009278117221090742
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ascending-thin-limb",
+          "cell_label": "Ascending Thin Limb",
+          "count": 0.661,
+          "percentage": 0.00007543184732594098
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 1.322,
+          "percentage": 0.00015086369465188196
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-mononuclear-phagocyte",
+          "cell_label": "Cycling Mononuclear Phagocyte",
+          "count": 0.661,
+          "percentage": 0.00007543184732594098
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:intercalated-type-b",
+          "cell_label": "Intercalated Type B",
+          "count": 1.983,
+          "percentage": 0.00022629554197782295
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic-endothelial",
+          "cell_label": "Lymphatic Endothelial",
+          "count": 7.271000000000001,
+          "percentage": 0.0008297503205853509
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mast",
+          "cell_label": "Mast",
+          "count": 0.661,
+          "percentage": 0.00007543184732594098
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mesangial",
+          "cell_label": "Mesangial",
+          "count": 1.322,
+          "percentage": 0.00015086369465188196
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:monocyte",
+          "cell_label": "Monocyte",
+          "count": 3.966,
+          "percentage": 0.0004525910839556459
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:monocyte-derived",
+          "cell_label": "Monocyte-derived",
+          "count": 10.576,
+          "percentage": 0.0012069095572150557
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:natural-killer-natural-killer-t",
+          "cell_label": "Natural Killer / Natural Killer T",
+          "count": 3.305,
+          "percentage": 0.0003771592366297049
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:parietal-epithelial",
+          "cell_label": "Parietal Epithelial",
+          "count": 5.288,
+          "percentage": 0.0006034547786075279
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 0.661,
+          "percentage": 0.00007543184732594098
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:proximal-tubule-epithelial-segment-1",
+          "cell_label": "Proximal Tubule Epithelial Segment 1",
+          "count": 25.118000000000002,
+          "percentage": 0.0028664101983857573
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:proximal-tubule-epithelial-segment-2",
+          "cell_label": "Proximal Tubule Epithelial Segment 2",
+          "count": 1.322,
+          "percentage": 0.00015086369465188196
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:schwann-neural",
+          "cell_label": "Schwann / Neural",
+          "count": 2.644,
+          "percentage": 0.00030172738930376393
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:t",
+          "cell_label": "T",
+          "count": 5.288,
+          "percentage": 0.0006034547786075279
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:tissue-resident-macrophage",
+          "cell_label": "Tissue-resident Macrophage",
+          "count": 18.508000000000003,
+          "percentage": 0.002112091725126348
         }
       ]
     },
@@ -3007,461 +3014,6 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "http://purl.org/sig/ont/fma/fma7360",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:adventitial-fibroblasts",
-          "cell_label": "Adventitial fibroblasts",
-          "count": 157.76,
-          "percentage": 0.0021120883521259354
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:alveolar-fibroblasts",
-          "cell_label": "Alveolar fibroblasts",
-          "count": 1487.55,
-          "percentage": 0.01991529556417936
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:alveolar-macrophages",
-          "cell_label": "Alveolar macrophages",
-          "count": 390.93,
-          "percentage": 0.005233764575916532
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:at1",
-          "cell_label": "AT1",
-          "count": 8618.825,
-          "percentage": 0.11538869099589134
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:at2",
-          "cell_label": "AT2",
-          "count": 10991.75,
-          "percentage": 0.14715737287322675
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:b-cells",
-          "cell_label": "B cells",
-          "count": 593.63,
-          "percentage": 0.007947508927944467
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:basal-resting",
-          "cell_label": "Basal resting",
-          "count": 199.25,
-          "percentage": 0.0026675558073091573
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cd4-t-cells",
-          "cell_label": "CD4 T cells",
-          "count": 11389.134999999998,
-          "percentage": 0.1524775568857113
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cd8-t-cells",
-          "cell_label": "CD8 T cells",
-          "count": 3747.04,
-          "percentage": 0.050165311479145325
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:classical-monocytes",
-          "cell_label": "Classical monocytes",
-          "count": 157.06,
-          "percentage": 0.0021027167633424155
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:club-nasal-",
-          "cell_label": "Club (nasal)",
-          "count": 6.54,
-          "percentage": 0.00008755741520603207
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:club-non-nasal-",
-          "cell_label": "Club (non-nasal)",
-          "count": 192.28,
-          "percentage": 0.0025742415589932485
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:ec-aerocyte-capillary",
-          "cell_label": "EC aerocyte capillary",
-          "count": 339.115,
-          "percentage": 0.0045400661861763865
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:ec-arterial",
-          "cell_label": "EC arterial",
-          "count": 651.335,
-          "percentage": 0.008720062543305948
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:ec-general-capillary",
-          "cell_label": "EC general capillary",
-          "count": 12624.735,
-          "percentage": 0.16901974988702223
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:ec-venous-pulmonary",
-          "cell_label": "EC venous pulmonary",
-          "count": 59.84,
-          "percentage": 0.000801136961151217
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:ec-venous-systemic",
-          "cell_label": "EC venous systemic",
-          "count": 1167.85,
-          "percentage": 0.015635157086905892
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:goblet-bronchial-",
-          "cell_label": "Goblet (bronchial)",
-          "count": 25.959999999999997,
-          "percentage": 0.00034755206402883675
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:goblet-nasal-",
-          "cell_label": "Goblet (nasal)",
-          "count": 3.9499999999999997,
-          "percentage": 0.00005288253670700713
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:ionocyte",
-          "cell_label": "Ionocyte",
-          "count": 16.59,
-          "percentage": 0.00022210665416942996
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:lymphatic-ec-mature",
-          "cell_label": "Lymphatic EC mature",
-          "count": 339.64,
-          "percentage": 0.004547094877764026
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:mast-cells",
-          "cell_label": "Mast cells",
-          "count": 135.125,
-          "percentage": 0.0018090513348188201
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:monocyte-derived-m-",
-          "cell_label": "Monocyte-derived Mφ",
-          "count": 4.59,
-          "percentage": 0.00006145084645193994
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:multiciliated-nasal-",
-          "cell_label": "Multiciliated (nasal)",
-          "count": 0.59,
-          "percentage": 0.000007898910546109926
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:multiciliated-non-nasal-",
-          "cell_label": "Multiciliated (non-nasal)",
-          "count": 1156.545,
-          "percentage": 0.015483805928052043
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:myofibroblasts",
-          "cell_label": "Myofibroblasts",
-          "count": 32.67,
-          "percentage": 0.00043738543651086667
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:nk-cells",
-          "cell_label": "NK cells",
-          "count": 64.58,
-          "percentage": 0.0008645960051996255
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:pericytes",
-          "cell_label": "Pericytes",
-          "count": 776.175,
-          "percentage": 0.010391418462926901
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:plasma-cells",
-          "cell_label": "Plasma cells",
-          "count": 256.34000000000003,
-          "percentage": 0.0034318758125251167
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:plasmacytoid-dcs",
-          "cell_label": "Plasmacytoid DCs",
-          "count": 4.59,
-          "percentage": 0.00006145084645193994
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:smg-serous-bronchial-",
-          "cell_label": "SMG serous (bronchial)",
-          "count": 61,
-          "percentage": 0.0008166670225639076
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:smooth-muscle",
-          "cell_label": "Smooth muscle",
-          "count": 646.3900000000001,
-          "percentage": 0.008653858962542367
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:transitional-club-at2",
-          "cell_label": "Transitional Club-AT2",
-          "count": 780.645,
-          "percentage": 0.010451262751301668
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:tuft",
-          "cell_label": "Tuft",
-          "count": 0.59,
-          "percentage": 0.000007898910546109926
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:suprabasal",
-          "cell_label": "Suprabasal",
-          "count": 0.25,
-          "percentage": 0.0000033469959941143757
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:dc2",
-          "cell_label": "DC2",
-          "count": 35,
-          "percentage": 0.0004685794391760126
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000003",
-          "cell_label": "native cell",
-          "count": 814,
-          "percentage": 0.010897818956836407
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000057",
-          "cell_label": "fibroblast",
-          "count": 2503,
-          "percentage": 0.03351012389307313
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000064",
-          "cell_label": "ciliated cell",
-          "count": 336,
-          "percentage": 0.004498362616089721
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000066",
-          "cell_label": "epithelial cell",
-          "count": 329,
-          "percentage": 0.004404646728254518
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000071",
-          "cell_label": "blood vessel endothelial cell",
-          "count": 9,
-          "percentage": 0.00012049185578811753
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000084",
-          "cell_label": "T cell",
-          "count": 1115,
-          "percentage": 0.014927602133750115
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000097",
-          "cell_label": "mast cell",
-          "count": 44,
-          "percentage": 0.0005890712949641301
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000115",
-          "cell_label": "endothelial cell",
-          "count": 950,
-          "percentage": 0.012718584777634628
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000138",
-          "cell_label": "chondrocyte",
-          "count": 53,
-          "percentage": 0.0007095631507522477
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000158",
-          "cell_label": "club cell",
-          "count": 397,
-          "percentage": 0.005315029638653629
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000160",
-          "cell_label": "goblet cell",
-          "count": 92,
-          "percentage": 0.0012316945258340902
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000186",
-          "cell_label": "myofibroblast cell",
-          "count": 238,
-          "percentage": 0.0031863401863968855
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000192",
-          "cell_label": "smooth muscle cell",
-          "count": 240,
-          "percentage": 0.0032131161543498005
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000235",
-          "cell_label": "macrophage",
-          "count": 342,
-          "percentage": 0.004578690519948466
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000236",
-          "cell_label": "B cell",
-          "count": 540,
-          "percentage": 0.007229511347287052
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000359",
-          "cell_label": "vascular associated smooth muscle cell",
-          "count": 98,
-          "percentage": 0.0013120224296928353
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000451",
-          "cell_label": "dendritic cell",
-          "count": 76,
-          "percentage": 0.0010174867822107703
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000576",
-          "cell_label": "monocyte",
-          "count": 1222,
-          "percentage": 0.016360116419231067
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000583",
-          "cell_label": "alveolar macrophage",
-          "count": 3061,
-          "percentage": 0.040980618951936415
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000595",
-          "cell_label": "enucleate erythrocyte",
-          "count": 113,
-          "percentage": 0.001512842189339698
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000623",
-          "cell_label": "natural killer cell",
-          "count": 498,
-          "percentage": 0.006667216020275837
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000646",
-          "cell_label": "basal cell",
-          "count": 70,
-          "percentage": 0.0009371588783520252
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000669",
-          "cell_label": "pericyte",
-          "count": 371,
-          "percentage": 0.004966942055265733
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002062",
-          "cell_label": "type I pneumocyte",
-          "count": 1387,
-          "percentage": 0.018569133775346556
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002063",
-          "cell_label": "type II pneumocyte",
-          "count": 2510,
-          "percentage": 0.033603839780908334
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002543",
-          "cell_label": "vein endothelial cell",
-          "count": 59,
-          "percentage": 0.0007898910546109926
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000413",
-          "cell_label": "endothelial cell of artery",
-          "count": 92,
-          "percentage": 0.0012316945258340902
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000223",
-          "cell_label": "lung neuroendocrine cell",
-          "count": 19,
-          "percentage": 0.00025437169555269257
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7361",
       "annotation_method": "Aggregation",
       "summary": [
@@ -3912,6 +3464,461 @@
           "cell_label": "lung neuroendocrine cell",
           "count": 58.177,
           "percentage": 0.001081996944884161
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/sig/ont/fma/fma7360",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:adventitial-fibroblasts",
+          "cell_label": "Adventitial fibroblasts",
+          "count": 157.76,
+          "percentage": 0.0021120883521259354
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:alveolar-fibroblasts",
+          "cell_label": "Alveolar fibroblasts",
+          "count": 1487.55,
+          "percentage": 0.01991529556417936
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:alveolar-macrophages",
+          "cell_label": "Alveolar macrophages",
+          "count": 390.93,
+          "percentage": 0.005233764575916532
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:at1",
+          "cell_label": "AT1",
+          "count": 8618.825,
+          "percentage": 0.11538869099589134
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:at2",
+          "cell_label": "AT2",
+          "count": 10991.75,
+          "percentage": 0.14715737287322675
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b-cells",
+          "cell_label": "B cells",
+          "count": 593.63,
+          "percentage": 0.007947508927944467
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:basal-resting",
+          "cell_label": "Basal resting",
+          "count": 199.25,
+          "percentage": 0.0026675558073091573
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cells",
+          "cell_label": "CD4 T cells",
+          "count": 11389.134999999998,
+          "percentage": 0.1524775568857113
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t-cells",
+          "cell_label": "CD8 T cells",
+          "count": 3747.04,
+          "percentage": 0.050165311479145325
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:classical-monocytes",
+          "cell_label": "Classical monocytes",
+          "count": 157.06,
+          "percentage": 0.0021027167633424155
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:club-nasal-",
+          "cell_label": "Club (nasal)",
+          "count": 6.54,
+          "percentage": 0.00008755741520603207
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:club-non-nasal-",
+          "cell_label": "Club (non-nasal)",
+          "count": 192.28,
+          "percentage": 0.0025742415589932485
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ec-aerocyte-capillary",
+          "cell_label": "EC aerocyte capillary",
+          "count": 339.115,
+          "percentage": 0.0045400661861763865
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ec-arterial",
+          "cell_label": "EC arterial",
+          "count": 651.335,
+          "percentage": 0.008720062543305948
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ec-general-capillary",
+          "cell_label": "EC general capillary",
+          "count": 12624.735,
+          "percentage": 0.16901974988702223
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ec-venous-pulmonary",
+          "cell_label": "EC venous pulmonary",
+          "count": 59.84,
+          "percentage": 0.000801136961151217
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ec-venous-systemic",
+          "cell_label": "EC venous systemic",
+          "count": 1167.85,
+          "percentage": 0.015635157086905892
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet-bronchial-",
+          "cell_label": "Goblet (bronchial)",
+          "count": 25.959999999999997,
+          "percentage": 0.00034755206402883675
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet-nasal-",
+          "cell_label": "Goblet (nasal)",
+          "count": 3.9499999999999997,
+          "percentage": 0.00005288253670700713
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ionocyte",
+          "cell_label": "Ionocyte",
+          "count": 16.59,
+          "percentage": 0.00022210665416942996
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic-ec-mature",
+          "cell_label": "Lymphatic EC mature",
+          "count": 339.64,
+          "percentage": 0.004547094877764026
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mast-cells",
+          "cell_label": "Mast cells",
+          "count": 135.125,
+          "percentage": 0.0018090513348188201
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:monocyte-derived-m-",
+          "cell_label": "Monocyte-derived Mφ",
+          "count": 4.59,
+          "percentage": 0.00006145084645193994
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:multiciliated-nasal-",
+          "cell_label": "Multiciliated (nasal)",
+          "count": 0.59,
+          "percentage": 0.000007898910546109926
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:multiciliated-non-nasal-",
+          "cell_label": "Multiciliated (non-nasal)",
+          "count": 1156.545,
+          "percentage": 0.015483805928052043
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:myofibroblasts",
+          "cell_label": "Myofibroblasts",
+          "count": 32.67,
+          "percentage": 0.00043738543651086667
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk-cells",
+          "cell_label": "NK cells",
+          "count": 64.58,
+          "percentage": 0.0008645960051996255
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:pericytes",
+          "cell_label": "Pericytes",
+          "count": 776.175,
+          "percentage": 0.010391418462926901
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma-cells",
+          "cell_label": "Plasma cells",
+          "count": 256.34000000000003,
+          "percentage": 0.0034318758125251167
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasmacytoid-dcs",
+          "cell_label": "Plasmacytoid DCs",
+          "count": 4.59,
+          "percentage": 0.00006145084645193994
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smg-serous-bronchial-",
+          "cell_label": "SMG serous (bronchial)",
+          "count": 61,
+          "percentage": 0.0008166670225639076
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 646.3900000000001,
+          "percentage": 0.008653858962542367
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:transitional-club-at2",
+          "cell_label": "Transitional Club-AT2",
+          "count": 780.645,
+          "percentage": 0.010451262751301668
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:tuft",
+          "cell_label": "Tuft",
+          "count": 0.59,
+          "percentage": 0.000007898910546109926
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:suprabasal",
+          "cell_label": "Suprabasal",
+          "count": 0.25,
+          "percentage": 0.0000033469959941143757
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc2",
+          "cell_label": "DC2",
+          "count": 35,
+          "percentage": 0.0004685794391760126
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000003",
+          "cell_label": "native cell",
+          "count": 814,
+          "percentage": 0.010897818956836407
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000057",
+          "cell_label": "fibroblast",
+          "count": 2503,
+          "percentage": 0.03351012389307313
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000064",
+          "cell_label": "ciliated cell",
+          "count": 336,
+          "percentage": 0.004498362616089721
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000066",
+          "cell_label": "epithelial cell",
+          "count": 329,
+          "percentage": 0.004404646728254518
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000071",
+          "cell_label": "blood vessel endothelial cell",
+          "count": 9,
+          "percentage": 0.00012049185578811753
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000084",
+          "cell_label": "T cell",
+          "count": 1115,
+          "percentage": 0.014927602133750115
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000097",
+          "cell_label": "mast cell",
+          "count": 44,
+          "percentage": 0.0005890712949641301
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000115",
+          "cell_label": "endothelial cell",
+          "count": 950,
+          "percentage": 0.012718584777634628
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000138",
+          "cell_label": "chondrocyte",
+          "count": 53,
+          "percentage": 0.0007095631507522477
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000158",
+          "cell_label": "club cell",
+          "count": 397,
+          "percentage": 0.005315029638653629
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000160",
+          "cell_label": "goblet cell",
+          "count": 92,
+          "percentage": 0.0012316945258340902
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000186",
+          "cell_label": "myofibroblast cell",
+          "count": 238,
+          "percentage": 0.0031863401863968855
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000192",
+          "cell_label": "smooth muscle cell",
+          "count": 240,
+          "percentage": 0.0032131161543498005
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000235",
+          "cell_label": "macrophage",
+          "count": 342,
+          "percentage": 0.004578690519948466
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000236",
+          "cell_label": "B cell",
+          "count": 540,
+          "percentage": 0.007229511347287052
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000359",
+          "cell_label": "vascular associated smooth muscle cell",
+          "count": 98,
+          "percentage": 0.0013120224296928353
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000451",
+          "cell_label": "dendritic cell",
+          "count": 76,
+          "percentage": 0.0010174867822107703
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000576",
+          "cell_label": "monocyte",
+          "count": 1222,
+          "percentage": 0.016360116419231067
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000583",
+          "cell_label": "alveolar macrophage",
+          "count": 3061,
+          "percentage": 0.040980618951936415
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000595",
+          "cell_label": "enucleate erythrocyte",
+          "count": 113,
+          "percentage": 0.001512842189339698
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000623",
+          "cell_label": "natural killer cell",
+          "count": 498,
+          "percentage": 0.006667216020275837
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000646",
+          "cell_label": "basal cell",
+          "count": 70,
+          "percentage": 0.0009371588783520252
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000669",
+          "cell_label": "pericyte",
+          "count": 371,
+          "percentage": 0.004966942055265733
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002062",
+          "cell_label": "type I pneumocyte",
+          "count": 1387,
+          "percentage": 0.018569133775346556
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002063",
+          "cell_label": "type II pneumocyte",
+          "count": 2510,
+          "percentage": 0.033603839780908334
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002543",
+          "cell_label": "vein endothelial cell",
+          "count": 59,
+          "percentage": 0.0007898910546109926
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000413",
+          "cell_label": "endothelial cell of artery",
+          "count": 92,
+          "percentage": 0.0012316945258340902
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000223",
+          "cell_label": "lung neuroendocrine cell",
+          "count": 19,
+          "percentage": 0.00025437169555269257
         }
       ]
     },
@@ -6199,188 +6206,6 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001052",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:nk",
-          "cell_label": "NK",
-          "count": 0.21000000000000002,
-          "percentage": 0.00048660447398056375
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:enterocyte",
-          "cell_label": "Enterocyte",
-          "count": 22.026,
-          "percentage": 0.05103785782807569
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
-          "cell_label": "MUC1+ Enterocyte",
-          "count": 1.0979999999999999,
-          "percentage": 0.002544246249669804
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:ta",
-          "cell_label": "TA",
-          "count": 11.238,
-          "percentage": 0.026040290850445593
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
-          "cell_label": "CD66+ Enterocyte",
-          "count": 14.898,
-          "percentage": 0.034521111682678275
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:paneth",
-          "cell_label": "Paneth",
-          "count": 0.036000000000000004,
-          "percentage": 0.0000834179098252395
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:smooth-muscle",
-          "cell_label": "Smooth muscle",
-          "count": 101.76600000000002,
-          "percentage": 0.2358085280909812
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:m1-macrophage",
-          "cell_label": "M1 Macrophage",
-          "count": 3.9779999999999998,
-          "percentage": 0.009217679035688963
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:goblet",
-          "cell_label": "Goblet",
-          "count": 31.512,
-          "percentage": 0.0730184770670263
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:neuroendocrine",
-          "cell_label": "Neuroendocrine",
-          "count": 1.578,
-          "percentage": 0.0036564850473396644
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
-          "cell_label": "CD57+ Enterocyte",
-          "count": 0.036000000000000004,
-          "percentage": 0.0000834179098252395
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:lymphatic",
-          "cell_label": "Lymphatic",
-          "count": 8.963999999999999,
-          "percentage": 0.02077105954648463
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cd8-t",
-          "cell_label": "CD8+ T",
-          "count": 12.876000000000001,
-          "percentage": 0.029835805747493994
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:dc",
-          "cell_label": "DC",
-          "count": 6.792,
-          "percentage": 0.015738178987028516
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:m2-macrophage",
-          "cell_label": "M2 Macrophage",
-          "count": 29.268000000000004,
-          "percentage": 0.06781876068791971
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:b",
-          "cell_label": "B",
-          "count": 20.418,
-          "percentage": 0.04731185785588166
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:neutrophil",
-          "cell_label": "Neutrophil",
-          "count": 1.6380000000000001,
-          "percentage": 0.0037955148970483968
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:endothelial",
-          "cell_label": "Endothelial",
-          "count": 32.208,
-          "percentage": 0.07463122332364759
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cycling-ta",
-          "cell_label": "Cycling TA",
-          "count": 16.854,
-          "percentage": 0.03905348478318295
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:plasma",
-          "cell_label": "Plasma",
-          "count": 19.284,
-          "percentage": 0.04468419369638662
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cd4-t-cell",
-          "cell_label": "CD4+ T cell",
-          "count": 20.532,
-          "percentage": 0.04757601457032826
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:stroma",
-          "cell_label": "Stroma",
-          "count": 53.532,
-          "percentage": 0.1240424319101311
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:nerve",
-          "cell_label": "Nerve",
-          "count": 15.882000000000001,
-          "percentage": 0.03680120121790149
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:icc",
-          "cell_label": "ICC",
-          "count": 4.2780000000000005,
-          "percentage": 0.009912828284232627
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cd7-immune",
-          "cell_label": "CD7+ Immune",
-          "count": 0.66,
-          "percentage": 0.0015293283467960573
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001159",
       "annotation_method": "Aggregation",
       "summary": [
@@ -6558,6 +6383,188 @@
           "cell_label": "CD7+ Immune",
           "count": 25.3,
           "percentage": 0.0014638518281079225
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001052",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 0.21000000000000002,
+          "percentage": 0.00048660447398056375
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 22.026,
+          "percentage": 0.05103785782807569
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 1.0979999999999999,
+          "percentage": 0.002544246249669804
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 11.238,
+          "percentage": 0.026040290850445593
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 14.898,
+          "percentage": 0.034521111682678275
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0.036000000000000004,
+          "percentage": 0.0000834179098252395
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 101.76600000000002,
+          "percentage": 0.2358085280909812
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 3.9779999999999998,
+          "percentage": 0.009217679035688963
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 31.512,
+          "percentage": 0.0730184770670263
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 1.578,
+          "percentage": 0.0036564850473396644
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 0.036000000000000004,
+          "percentage": 0.0000834179098252395
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 8.963999999999999,
+          "percentage": 0.02077105954648463
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 12.876000000000001,
+          "percentage": 0.029835805747493994
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 6.792,
+          "percentage": 0.015738178987028516
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 29.268000000000004,
+          "percentage": 0.06781876068791971
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 20.418,
+          "percentage": 0.04731185785588166
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 1.6380000000000001,
+          "percentage": 0.0037955148970483968
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 32.208,
+          "percentage": 0.07463122332364759
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 16.854,
+          "percentage": 0.03905348478318295
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 19.284,
+          "percentage": 0.04468419369638662
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 20.532,
+          "percentage": 0.04757601457032826
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 53.532,
+          "percentage": 0.1240424319101311
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 15.882000000000001,
+          "percentage": 0.03680120121790149
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 4.2780000000000005,
+          "percentage": 0.009912828284232627
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 0.66,
+          "percentage": 0.0015293283467960573
         }
       ]
     },
@@ -7291,209 +7298,6 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "http://purl.org/sig/ont/fma/fma62649",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000003",
-          "cell_label": "native cell",
-          "count": 42.704,
-          "percentage": 0.047842472966493244
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000057",
-          "cell_label": "fibroblast",
-          "count": 138.844,
-          "percentage": 0.15555077549081556
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000064",
-          "cell_label": "ciliated cell",
-          "count": 11.267999999999999,
-          "percentage": 0.012623852224298562
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000066",
-          "cell_label": "epithelial cell",
-          "count": 25.772,
-          "percentage": 0.028873084799842255
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000071",
-          "cell_label": "blood vessel endothelial cell",
-          "count": 0.748,
-          "percentage": 0.0008380050997315695
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000084",
-          "cell_label": "T cell",
-          "count": 60.529999999999994,
-          "percentage": 0.06781343407319772
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000097",
-          "cell_label": "mast cell",
-          "count": 2.5620000000000003,
-          "percentage": 0.0028702794993479695
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000115",
-          "cell_label": "endothelial cell",
-          "count": 54.842,
-          "percentage": 0.0614410102666828
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000138",
-          "cell_label": "chondrocyte",
-          "count": 9.29,
-          "percentage": 0.010407844086238342
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000158",
-          "cell_label": "club cell",
-          "count": 26.42,
-          "percentage": 0.029599057132230037
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000160",
-          "cell_label": "goblet cell",
-          "count": 4.454000000000001,
-          "percentage": 0.004989939457492528
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000186",
-          "cell_label": "myofibroblast cell",
-          "count": 10.224000000000002,
-          "percentage": 0.01145423013322937
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000192",
-          "cell_label": "smooth muscle cell",
-          "count": 7.354,
-          "percentage": 0.008238889710462516
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000235",
-          "cell_label": "macrophage",
-          "count": 23.691999999999997,
-          "percentage": 0.026542803239091365
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000236",
-          "cell_label": "B cell",
-          "count": 17.164,
-          "percentage": 0.019229304186888584
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000359",
-          "cell_label": "vascular associated smooth muscle cell",
-          "count": 3.41,
-          "percentage": 0.0038203173664233315
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000451",
-          "cell_label": "dendritic cell",
-          "count": 3.91,
-          "percentage": 0.004380481203142295
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000576",
-          "cell_label": "monocyte",
-          "count": 46.773999999999994,
-          "percentage": 0.0524022065973856
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000583",
-          "cell_label": "alveolar macrophage",
-          "count": 143.022,
-          "percentage": 0.16023150451043922
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000595",
-          "cell_label": "enucleate erythrocyte",
-          "count": 3.2180000000000004,
-          "percentage": 0.00360521445312325
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000623",
-          "cell_label": "natural killer cell",
-          "count": 18.881999999999998,
-          "percentage": 0.021154027129854938
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000646",
-          "cell_label": "basal cell",
-          "count": 4.044,
-          "percentage": 0.004530605111382977
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000669",
-          "cell_label": "pericyte",
-          "count": 14.2,
-          "percentage": 0.015908652962818563
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002062",
-          "cell_label": "type I pneumocyte",
-          "count": 69.10199999999999,
-          "percentage": 0.07741688288990763
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002063",
-          "cell_label": "type II pneumocyte",
-          "count": 142.696,
-          "percentage": 0.15986627768889844
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002543",
-          "cell_label": "vein endothelial cell",
-          "count": 3.0199999999999996,
-          "percentage": 0.0033833895737825394
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000413",
-          "cell_label": "endothelial cell of artery",
-          "count": 3.024,
-          "percentage": 0.0033878708844762915
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000223",
-          "cell_label": "lung neuroendocrine cell",
-          "count": 1.426,
-          "percentage": 0.001597587262322484
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7402",
       "annotation_method": "Aggregation",
       "summary": [
@@ -7692,6 +7496,209 @@
           "cell_label": "lung neuroendocrine cell",
           "count": 22.160999999999998,
           "percentage": 0.0012652099520029782
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/sig/ont/fma/fma62649",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000003",
+          "cell_label": "native cell",
+          "count": 42.704,
+          "percentage": 0.047842472966493244
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000057",
+          "cell_label": "fibroblast",
+          "count": 138.844,
+          "percentage": 0.15555077549081556
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000064",
+          "cell_label": "ciliated cell",
+          "count": 11.267999999999999,
+          "percentage": 0.012623852224298562
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000066",
+          "cell_label": "epithelial cell",
+          "count": 25.772,
+          "percentage": 0.028873084799842255
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000071",
+          "cell_label": "blood vessel endothelial cell",
+          "count": 0.748,
+          "percentage": 0.0008380050997315695
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000084",
+          "cell_label": "T cell",
+          "count": 60.529999999999994,
+          "percentage": 0.06781343407319772
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000097",
+          "cell_label": "mast cell",
+          "count": 2.5620000000000003,
+          "percentage": 0.0028702794993479695
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000115",
+          "cell_label": "endothelial cell",
+          "count": 54.842,
+          "percentage": 0.0614410102666828
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000138",
+          "cell_label": "chondrocyte",
+          "count": 9.29,
+          "percentage": 0.010407844086238342
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000158",
+          "cell_label": "club cell",
+          "count": 26.42,
+          "percentage": 0.029599057132230037
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000160",
+          "cell_label": "goblet cell",
+          "count": 4.454000000000001,
+          "percentage": 0.004989939457492528
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000186",
+          "cell_label": "myofibroblast cell",
+          "count": 10.224000000000002,
+          "percentage": 0.01145423013322937
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000192",
+          "cell_label": "smooth muscle cell",
+          "count": 7.354,
+          "percentage": 0.008238889710462516
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000235",
+          "cell_label": "macrophage",
+          "count": 23.691999999999997,
+          "percentage": 0.026542803239091365
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000236",
+          "cell_label": "B cell",
+          "count": 17.164,
+          "percentage": 0.019229304186888584
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000359",
+          "cell_label": "vascular associated smooth muscle cell",
+          "count": 3.41,
+          "percentage": 0.0038203173664233315
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000451",
+          "cell_label": "dendritic cell",
+          "count": 3.91,
+          "percentage": 0.004380481203142295
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000576",
+          "cell_label": "monocyte",
+          "count": 46.773999999999994,
+          "percentage": 0.0524022065973856
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000583",
+          "cell_label": "alveolar macrophage",
+          "count": 143.022,
+          "percentage": 0.16023150451043922
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000595",
+          "cell_label": "enucleate erythrocyte",
+          "count": 3.2180000000000004,
+          "percentage": 0.00360521445312325
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000623",
+          "cell_label": "natural killer cell",
+          "count": 18.881999999999998,
+          "percentage": 0.021154027129854938
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000646",
+          "cell_label": "basal cell",
+          "count": 4.044,
+          "percentage": 0.004530605111382977
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000669",
+          "cell_label": "pericyte",
+          "count": 14.2,
+          "percentage": 0.015908652962818563
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002062",
+          "cell_label": "type I pneumocyte",
+          "count": 69.10199999999999,
+          "percentage": 0.07741688288990763
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002063",
+          "cell_label": "type II pneumocyte",
+          "count": 142.696,
+          "percentage": 0.15986627768889844
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002543",
+          "cell_label": "vein endothelial cell",
+          "count": 3.0199999999999996,
+          "percentage": 0.0033833895737825394
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000413",
+          "cell_label": "endothelial cell of artery",
+          "count": 3.024,
+          "percentage": 0.0033878708844762915
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000223",
+          "cell_label": "lung neuroendocrine cell",
+          "count": 1.426,
+          "percentage": 0.001597587262322484
         }
       ]
     },

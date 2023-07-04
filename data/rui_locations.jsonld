@@ -28,6 +28,13 @@
     "collisions": {
       "@id": "ccf:has_collision_item"
     },
+    "corridor_source": {
+      "@reverse": "ccf:has_corridor",
+      "@type": "@id"
+    },
+    "corridor": {
+      "@id": "ccf:has_corridor"
+    },
     "summaries": {
       "@id": "ccf:has_cell_summary"
     },

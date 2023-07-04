@@ -907,31 +907,6 @@ VHFSkin,skin of body,Other,55,55
 VHFSkin,skin of body,T-Killer,35.666666666666667,107
 VHFSkin,skin of body,T-helper,1030,3090
 VHFSkin,skin of body,T-reg,101.666666666666667,305
-VHFSmallIntestine,ileum,B,32,32
-VHFSmallIntestine,ileum,CD4+ T cell,1012,1012
-VHFSmallIntestine,ileum,CD57+ Enterocyte,1,1
-VHFSmallIntestine,ileum,CD66+ Enterocyte,66,66
-VHFSmallIntestine,ileum,CD7+ Immune,52,52
-VHFSmallIntestine,ileum,CD8+ T,1109,1109
-VHFSmallIntestine,ileum,Cycling TA,780,780
-VHFSmallIntestine,ileum,DC,81,81
-VHFSmallIntestine,ileum,Endothelial,1513,1513
-VHFSmallIntestine,ileum,Enterocyte,3966,3966
-VHFSmallIntestine,ileum,Goblet,992,992
-VHFSmallIntestine,ileum,ICC,265,265
-VHFSmallIntestine,ileum,Lymphatic,625,625
-VHFSmallIntestine,ileum,M1 Macrophage,49,49
-VHFSmallIntestine,ileum,M2 Macrophage,837,837
-VHFSmallIntestine,ileum,MUC1+ Enterocyte,7,7
-VHFSmallIntestine,ileum,NK,16,16
-VHFSmallIntestine,ileum,Nerve,437,437
-VHFSmallIntestine,ileum,Neuroendocrine,174,174
-VHFSmallIntestine,ileum,Neutrophil,33,33
-VHFSmallIntestine,ileum,Paneth,370,370
-VHFSmallIntestine,ileum,Plasma,759,759
-VHFSmallIntestine,ileum,Smooth muscle,1534,1534
-VHFSmallIntestine,ileum,Stroma,1158,1158
-VHFSmallIntestine,ileum,TA,1802,1802
 VHFSmallIntestine,ascending part of duodenum,B,7556,7556
 VHFSmallIntestine,ascending part of duodenum,CD4+ T cell,3589,3589
 VHFSmallIntestine,ascending part of duodenum,CD57+ Enterocyte,2,2
@@ -1032,6 +1007,31 @@ VHFSmallIntestine,horizontal part of duodenum,Plasma,563,563
 VHFSmallIntestine,horizontal part of duodenum,Smooth muscle,6340,6340
 VHFSmallIntestine,horizontal part of duodenum,Stroma,2516,2516
 VHFSmallIntestine,horizontal part of duodenum,TA,1174,1174
+VHFSmallIntestine,ileum,B,32,32
+VHFSmallIntestine,ileum,CD4+ T cell,1012,1012
+VHFSmallIntestine,ileum,CD57+ Enterocyte,1,1
+VHFSmallIntestine,ileum,CD66+ Enterocyte,66,66
+VHFSmallIntestine,ileum,CD7+ Immune,52,52
+VHFSmallIntestine,ileum,CD8+ T,1109,1109
+VHFSmallIntestine,ileum,Cycling TA,780,780
+VHFSmallIntestine,ileum,DC,81,81
+VHFSmallIntestine,ileum,Endothelial,1513,1513
+VHFSmallIntestine,ileum,Enterocyte,3966,3966
+VHFSmallIntestine,ileum,Goblet,992,992
+VHFSmallIntestine,ileum,ICC,265,265
+VHFSmallIntestine,ileum,Lymphatic,625,625
+VHFSmallIntestine,ileum,M1 Macrophage,49,49
+VHFSmallIntestine,ileum,M2 Macrophage,837,837
+VHFSmallIntestine,ileum,MUC1+ Enterocyte,7,7
+VHFSmallIntestine,ileum,NK,16,16
+VHFSmallIntestine,ileum,Nerve,437,437
+VHFSmallIntestine,ileum,Neuroendocrine,174,174
+VHFSmallIntestine,ileum,Neutrophil,33,33
+VHFSmallIntestine,ileum,Paneth,370,370
+VHFSmallIntestine,ileum,Plasma,759,759
+VHFSmallIntestine,ileum,Smooth muscle,1534,1534
+VHFSmallIntestine,ileum,Stroma,1158,1158
+VHFSmallIntestine,ileum,TA,1802,1802
 VHFSmallIntestine,superior part of duodenum,B,207,207
 VHFSmallIntestine,superior part of duodenum,CD4+ T cell,1235,1235
 VHFSmallIntestine,superior part of duodenum,CD57+ Enterocyte,154,154
@@ -1999,31 +1999,6 @@ VHMSkin,skin of body,Other,396,396
 VHMSkin,skin of body,T-Killer,38.6,193
 VHMSkin,skin of body,T-helper,1027,5135
 VHMSkin,skin of body,T-reg,127.8,639
-VHMSmallIntestine,jejunum,B,80,240
-VHMSmallIntestine,jejunum,CD4+ T cell,2407.666666666666667,7223
-VHMSmallIntestine,jejunum,CD57+ Enterocyte,3.333333333333333,10
-VHMSmallIntestine,jejunum,CD66+ Enterocyte,225.666666666666667,677
-VHMSmallIntestine,jejunum,CD7+ Immune,76.666666666666667,230
-VHMSmallIntestine,jejunum,CD8+ T,3594.333333333333333,10783
-VHMSmallIntestine,jejunum,Cycling TA,700.333333333333333,2101
-VHMSmallIntestine,jejunum,DC,444.666666666666667,1334
-VHMSmallIntestine,jejunum,Endothelial,3133.666666666666667,9401
-VHMSmallIntestine,jejunum,Enterocyte,7367.666666666666667,22103
-VHMSmallIntestine,jejunum,Goblet,2050.333333333333333,6151
-VHMSmallIntestine,jejunum,ICC,324.333333333333333,973
-VHMSmallIntestine,jejunum,Lymphatic,748.666666666666667,2246
-VHMSmallIntestine,jejunum,M1 Macrophage,565.666666666666667,1697
-VHMSmallIntestine,jejunum,M2 Macrophage,1785,5355
-VHMSmallIntestine,jejunum,MUC1+ Enterocyte,32.666666666666667,98
-VHMSmallIntestine,jejunum,NK,12.333333333333333,37
-VHMSmallIntestine,jejunum,Nerve,1835.333333333333333,5506
-VHMSmallIntestine,jejunum,Neuroendocrine,239.666666666666667,719
-VHMSmallIntestine,jejunum,Neutrophil,583,1749
-VHMSmallIntestine,jejunum,Paneth,778.333333333333333,2335
-VHMSmallIntestine,jejunum,Plasma,2131.666666666666667,6395
-VHMSmallIntestine,jejunum,Smooth muscle,9184.333333333333333,27553
-VHMSmallIntestine,jejunum,Stroma,4392.666666666666667,13178
-VHMSmallIntestine,jejunum,TA,281.333333333333333,844
 VHMSmallIntestine,ascending part of duodenum,B,82.333333333333333,247
 VHMSmallIntestine,ascending part of duodenum,CD4+ T cell,1790,5370
 VHMSmallIntestine,ascending part of duodenum,CD57+ Enterocyte,40.666666666666667,122
@@ -2124,3 +2099,28 @@ VHMSmallIntestine,horizontal part of duodenum,Plasma,2600.666666666666667,7802
 VHMSmallIntestine,horizontal part of duodenum,Smooth muscle,7340.666666666666667,22022
 VHMSmallIntestine,horizontal part of duodenum,Stroma,4840,14520
 VHMSmallIntestine,horizontal part of duodenum,TA,670,2010
+VHMSmallIntestine,jejunum,B,80,240
+VHMSmallIntestine,jejunum,CD4+ T cell,2407.666666666666667,7223
+VHMSmallIntestine,jejunum,CD57+ Enterocyte,3.333333333333333,10
+VHMSmallIntestine,jejunum,CD66+ Enterocyte,225.666666666666667,677
+VHMSmallIntestine,jejunum,CD7+ Immune,76.666666666666667,230
+VHMSmallIntestine,jejunum,CD8+ T,3594.333333333333333,10783
+VHMSmallIntestine,jejunum,Cycling TA,700.333333333333333,2101
+VHMSmallIntestine,jejunum,DC,444.666666666666667,1334
+VHMSmallIntestine,jejunum,Endothelial,3133.666666666666667,9401
+VHMSmallIntestine,jejunum,Enterocyte,7367.666666666666667,22103
+VHMSmallIntestine,jejunum,Goblet,2050.333333333333333,6151
+VHMSmallIntestine,jejunum,ICC,324.333333333333333,973
+VHMSmallIntestine,jejunum,Lymphatic,748.666666666666667,2246
+VHMSmallIntestine,jejunum,M1 Macrophage,565.666666666666667,1697
+VHMSmallIntestine,jejunum,M2 Macrophage,1785,5355
+VHMSmallIntestine,jejunum,MUC1+ Enterocyte,32.666666666666667,98
+VHMSmallIntestine,jejunum,NK,12.333333333333333,37
+VHMSmallIntestine,jejunum,Nerve,1835.333333333333333,5506
+VHMSmallIntestine,jejunum,Neuroendocrine,239.666666666666667,719
+VHMSmallIntestine,jejunum,Neutrophil,583,1749
+VHMSmallIntestine,jejunum,Paneth,778.333333333333333,2335
+VHMSmallIntestine,jejunum,Plasma,2131.666666666666667,6395
+VHMSmallIntestine,jejunum,Smooth muscle,9184.333333333333333,27553
+VHMSmallIntestine,jejunum,Stroma,4392.666666666666667,13178
+VHMSmallIntestine,jejunum,TA,281.333333333333333,844
