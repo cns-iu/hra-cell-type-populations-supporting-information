@@ -28,6 +28,11 @@ if (CLEAN || !existsSync('../data/rui_locations.jsonld')) {
   sh.exec('npm run generate:registrations');
 }
 
+// Generate rui location cell summaries
+if (CLEAN || !existsSync('../data/rui-location-cell-summaries.jsonld')) {
+  sh.exec('npm run generate:rui-location-cell-summaries');
+}
+
 // Generate dataset cell summaries
 if (CLEAN || !existsSync('../data/dataset-cell-summaries.jsonld')) {
   sh.exec('npm run generate:dataset-cell-summaries');

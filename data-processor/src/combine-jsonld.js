@@ -3,18 +3,19 @@ import { readFileSync, writeFileSync } from 'fs';
 const OUTPUT='../data/enriched_rui_locations.jsonld';
 const collisions = JSON.parse(readFileSync('../data/collisions.jsonld'));
 const corridors = JSON.parse(readFileSync('../data/corridors.jsonld'));
-const summaries = JSON.parse(readFileSync('../data/dataset-cell-summaries.jsonld'));
+const datasetSummaries = JSON.parse(readFileSync('../data/dataset-cell-summaries.jsonld'));
+const ruiSummaries = JSON.parse(readFileSync('../data/rui-location-cell-summaries.jsonld'));
 const donors = JSON.parse(readFileSync('../data/rui_locations.jsonld'));
 
-const summaryLookup = summaries['@graph']
+const summaryLookup = datasetSummaries['@graph'].concat(ruiSummaries['@graph'])
   .reduce((acc, summary) => (acc[summary['cell_source']] = summary, acc), {});
 
-// Add summary to a dataset if it exists in cell-sumaries.jsonld
-function enrichDataset(dataset) {
-  const summary = summaryLookup[dataset['@id']];
+// Add summary to an object if it exists in *-cell-sumaries.jsonld
+function enrichWithSummaries(obj) {
+  const summary = summaryLookup[obj['@id']];
   if (summary) {
-    dataset.summaries = dataset.summaries ?? [];
-    dataset.summaries.push(summary);
+    obj.summaries = obj.summaries ?? [];
+    obj.summaries.push(summary);
     delete summary.cell_source;
   }
 }
@@ -38,6 +39,8 @@ function enricheRuiLocation(ruiLocation) {
     ruiLocation.corridor = corridor;
     delete corridor.corridor_source;
   }
+
+  enrichWithSummaries(ruiLocation);
 }
 
 // Find all datasets in rui_locations.jsonld and add cell summaries if they exist
@@ -47,9 +50,9 @@ for (const donor of donors['@graph']) {
       enricheRuiLocation(block.rui_location);
     }
     for (const section of block.sections ?? []) {
-      (section.datasets ?? []).forEach(enrichDataset);
+      (section.datasets ?? []).forEach(enrichWithSummaries);
     }
-    (block.datasets ?? []).forEach(enrichDataset);
+    (block.datasets ?? []).forEach(enrichWithSummaries);
   }
 }
 
