@@ -162,7 +162,8 @@ WHERE {
       }
       BIND (REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "V1.1", "") as ?organ)
     }
-    GROUP BY ?organ ?as_label 
+    GROUP BY ?organ ?as_label
+    ORDER BY ?organ ?as_label ?cell_label
   }
 }
 ORDER BY ?organ ?as_label
