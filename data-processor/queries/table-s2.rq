@@ -112,7 +112,7 @@ WHERE {
             GROUP BY ?rui_location
           }
         }
-        GROUP BY ?rui_location
+        # GROUP BY ?rui_location
       }
       BIND (REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "V1.1", "") as ?organ)
     }

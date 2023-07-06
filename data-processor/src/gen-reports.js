@@ -5,7 +5,8 @@ import sh from 'shelljs';
 import { selectCsvRemote } from './sparql.js';
 
 // SPARQL endpoint with ctpop data loaded
-const SPARQL_ENDPOINT = 'https://api.triplydb.com/datasets/bherr/ctpop/services/ctpop/sparql';
+//const SPARQL_ENDPOINT = 'https://api.triplydb.com/datasets/bherr/ctpop/services/ctpop/sparql';
+const SPARQL_ENDPOINT = 'https://lod.humanatlas.io/sparql';
 
 // Ensure reports output directory exists
 sh.mkdir('-p', '../data/reports');

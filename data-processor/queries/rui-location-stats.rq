@@ -82,6 +82,6 @@ WHERE {
           GROUP BY ?rui_location
         }
       }
-      GROUP BY ?rui_location
+      # GROUP BY ?rui_location
     }
 }

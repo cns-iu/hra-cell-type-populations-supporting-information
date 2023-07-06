@@ -1,8 +1,9 @@
 #+ summary: Test query that finds all named graphs in the loaded SPARQL database
 
-SELECT DISTINCT ?g
-WHERE {
-  GRAPH ?g {
+SELECT ?graph (COUNT(*) as ?triples) WHERE {
+  GRAPH ?graph {
     ?s ?p ?o .
   }
 }
+GROUP BY ?graph
+ORDER BY ?graph
