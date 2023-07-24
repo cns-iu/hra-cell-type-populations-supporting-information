@@ -5,7 +5,7 @@ import csv
 def main():
     """Main function to get data from AS cell summaries and perform queries"""    
     # You need a token to get this raw GitHub content from the endpoint
-    TOKEN = "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"
+    TOKEN = ""
     endpoint = "https://raw.githubusercontent.com/cns-iu/hra-cell-type-populations-supporting-information/main/data/as-cell-summaries.jsonld"
     headers = {"Authorization": "Bearer " + TOKEN}
     data = requests.get(endpoint, headers=headers).json()
