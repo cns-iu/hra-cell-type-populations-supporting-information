@@ -323,81 +323,131 @@ VHFHeart,right cardiac atrium,regular atrial cardiac myocyte,895.583333333333333
 VHFHeart,right cardiac atrium,regular ventricular cardiac myocyte,2617.54166666666666666667,62821
 VHFHeart,right cardiac atrium,smooth muscle cell,189,6804
 VHFHeart,right cardiac atrium,vein endothelial cell,90.88888888888888888889,3272
-VHFLargeIntestine,ascending colon,B,409,409
-VHFLargeIntestine,ascending colon,CD4+ T cell,921,921
-VHFLargeIntestine,ascending colon,CD57+ Enterocyte,0,0
-VHFLargeIntestine,ascending colon,CD66+ Enterocyte,823,823
-VHFLargeIntestine,ascending colon,CD7+ Immune,33,33
-VHFLargeIntestine,ascending colon,CD8+ T,872,872
-VHFLargeIntestine,ascending colon,Cycling TA,742,742
-VHFLargeIntestine,ascending colon,DC,277,277
-VHFLargeIntestine,ascending colon,Endothelial,1351,1351
-VHFLargeIntestine,ascending colon,Enterocyte,3271,3271
-VHFLargeIntestine,ascending colon,Goblet,2227,2227
-VHFLargeIntestine,ascending colon,ICC,243,243
-VHFLargeIntestine,ascending colon,Lymphatic,307,307
-VHFLargeIntestine,ascending colon,M1 Macrophage,57,57
-VHFLargeIntestine,ascending colon,M2 Macrophage,778,778
-VHFLargeIntestine,ascending colon,MUC1+ Enterocyte,26,26
-VHFLargeIntestine,ascending colon,NK,18,18
-VHFLargeIntestine,ascending colon,Nerve,371,371
-VHFLargeIntestine,ascending colon,Neuroendocrine,73,73
-VHFLargeIntestine,ascending colon,Neutrophil,55,55
-VHFLargeIntestine,ascending colon,Paneth,3,3
-VHFLargeIntestine,ascending colon,Plasma,1132,1132
-VHFLargeIntestine,ascending colon,Smooth muscle,1415,1415
-VHFLargeIntestine,ascending colon,Stroma,1208,1208
-VHFLargeIntestine,ascending colon,TA,700,700
-VHFLargeIntestine,caecum,B,409,409
-VHFLargeIntestine,caecum,CD4+ T cell,921,921
-VHFLargeIntestine,caecum,CD57+ Enterocyte,0,0
-VHFLargeIntestine,caecum,CD66+ Enterocyte,823,823
-VHFLargeIntestine,caecum,CD7+ Immune,33,33
-VHFLargeIntestine,caecum,CD8+ T,872,872
-VHFLargeIntestine,caecum,Cycling TA,742,742
-VHFLargeIntestine,caecum,DC,277,277
-VHFLargeIntestine,caecum,Endothelial,1351,1351
-VHFLargeIntestine,caecum,Enterocyte,3271,3271
-VHFLargeIntestine,caecum,Goblet,2227,2227
-VHFLargeIntestine,caecum,ICC,243,243
-VHFLargeIntestine,caecum,Lymphatic,307,307
-VHFLargeIntestine,caecum,M1 Macrophage,57,57
-VHFLargeIntestine,caecum,M2 Macrophage,778,778
-VHFLargeIntestine,caecum,MUC1+ Enterocyte,26,26
-VHFLargeIntestine,caecum,NK,18,18
-VHFLargeIntestine,caecum,Nerve,371,371
-VHFLargeIntestine,caecum,Neuroendocrine,73,73
-VHFLargeIntestine,caecum,Neutrophil,55,55
-VHFLargeIntestine,caecum,Paneth,3,3
-VHFLargeIntestine,caecum,Plasma,1132,1132
-VHFLargeIntestine,caecum,Smooth muscle,1415,1415
-VHFLargeIntestine,caecum,Stroma,1208,1208
-VHFLargeIntestine,caecum,TA,700,700
-VHFLargeIntestine,transverse colon,B,192,192
-VHFLargeIntestine,transverse colon,CD4+ T cell,1224,1224
-VHFLargeIntestine,transverse colon,CD57+ Enterocyte,3,3
-VHFLargeIntestine,transverse colon,CD66+ Enterocyte,808,808
-VHFLargeIntestine,transverse colon,CD7+ Immune,61,61
-VHFLargeIntestine,transverse colon,CD8+ T,610,610
-VHFLargeIntestine,transverse colon,Cycling TA,678,678
-VHFLargeIntestine,transverse colon,DC,382,382
-VHFLargeIntestine,transverse colon,Endothelial,2582,2582
-VHFLargeIntestine,transverse colon,Enterocyte,3313,3313
-VHFLargeIntestine,transverse colon,Goblet,1979,1979
-VHFLargeIntestine,transverse colon,ICC,671,671
-VHFLargeIntestine,transverse colon,Lymphatic,1033,1033
-VHFLargeIntestine,transverse colon,M1 Macrophage,86,86
-VHFLargeIntestine,transverse colon,M2 Macrophage,3507,3507
-VHFLargeIntestine,transverse colon,MUC1+ Enterocyte,20,20
-VHFLargeIntestine,transverse colon,NK,16,16
-VHFLargeIntestine,transverse colon,Nerve,2036,2036
-VHFLargeIntestine,transverse colon,Neuroendocrine,168,168
-VHFLargeIntestine,transverse colon,Neutrophil,32,32
-VHFLargeIntestine,transverse colon,Paneth,331,331
-VHFLargeIntestine,transverse colon,Plasma,734,734
-VHFLargeIntestine,transverse colon,Smooth muscle,8564,8564
-VHFLargeIntestine,transverse colon,Stroma,3641,3641
-VHFLargeIntestine,transverse colon,TA,610,610
+VHFLargeIntestine,ascending colon,B,208,416
+VHFLargeIntestine,ascending colon,CD4+ T cell,876,1752
+VHFLargeIntestine,ascending colon,CD57+ Enterocyte,0.5,1
+VHFLargeIntestine,ascending colon,CD66+ Enterocyte,711.5,1423
+VHFLargeIntestine,ascending colon,CD7+ Immune,30,60
+VHFLargeIntestine,ascending colon,CD8+ T,812.5,1625
+VHFLargeIntestine,ascending colon,Cycling TA,904.5,1809
+VHFLargeIntestine,ascending colon,DC,299.5,599
+VHFLargeIntestine,ascending colon,Endothelial,1259,2518
+VHFLargeIntestine,ascending colon,Enterocyte,2651,5302
+VHFLargeIntestine,ascending colon,Goblet,1876.5,3753
+VHFLargeIntestine,ascending colon,ICC,262,524
+VHFLargeIntestine,ascending colon,Lymphatic,498.5,997
+VHFLargeIntestine,ascending colon,M1 Macrophage,45.5,91
+VHFLargeIntestine,ascending colon,M2 Macrophage,921,1842
+VHFLargeIntestine,ascending colon,MUC1+ Enterocyte,223.5,447
+VHFLargeIntestine,ascending colon,NK,38.5,77
+VHFLargeIntestine,ascending colon,Nerve,341,682
+VHFLargeIntestine,ascending colon,Neuroendocrine,65,130
+VHFLargeIntestine,ascending colon,Neutrophil,95.5,191
+VHFLargeIntestine,ascending colon,Paneth,1.5,3
+VHFLargeIntestine,ascending colon,Plasma,1369,2738
+VHFLargeIntestine,ascending colon,Smooth muscle,2291,4582
+VHFLargeIntestine,ascending colon,Stroma,2168.5,4337
+VHFLargeIntestine,ascending colon,TA,897.5,1795
+VHFLargeIntestine,caecum,B,208,416
+VHFLargeIntestine,caecum,CD4+ T cell,876,1752
+VHFLargeIntestine,caecum,CD57+ Enterocyte,0.5,1
+VHFLargeIntestine,caecum,CD66+ Enterocyte,711.5,1423
+VHFLargeIntestine,caecum,CD7+ Immune,30,60
+VHFLargeIntestine,caecum,CD8+ T,812.5,1625
+VHFLargeIntestine,caecum,Cycling TA,904.5,1809
+VHFLargeIntestine,caecum,DC,299.5,599
+VHFLargeIntestine,caecum,Endothelial,1259,2518
+VHFLargeIntestine,caecum,Enterocyte,2651,5302
+VHFLargeIntestine,caecum,Goblet,1876.5,3753
+VHFLargeIntestine,caecum,ICC,262,524
+VHFLargeIntestine,caecum,Lymphatic,498.5,997
+VHFLargeIntestine,caecum,M1 Macrophage,45.5,91
+VHFLargeIntestine,caecum,M2 Macrophage,921,1842
+VHFLargeIntestine,caecum,MUC1+ Enterocyte,223.5,447
+VHFLargeIntestine,caecum,NK,38.5,77
+VHFLargeIntestine,caecum,Nerve,341,682
+VHFLargeIntestine,caecum,Neuroendocrine,65,130
+VHFLargeIntestine,caecum,Neutrophil,95.5,191
+VHFLargeIntestine,caecum,Paneth,1.5,3
+VHFLargeIntestine,caecum,Plasma,1369,2738
+VHFLargeIntestine,caecum,Smooth muscle,2291,4582
+VHFLargeIntestine,caecum,Stroma,2168.5,4337
+VHFLargeIntestine,caecum,TA,897.5,1795
+VHFLargeIntestine,descending colon,B,4,4
+VHFLargeIntestine,descending colon,CD4+ T cell,758,758
+VHFLargeIntestine,descending colon,CD57+ Enterocyte,2,2
+VHFLargeIntestine,descending colon,CD66+ Enterocyte,860,860
+VHFLargeIntestine,descending colon,CD7+ Immune,43,43
+VHFLargeIntestine,descending colon,CD8+ T,672,672
+VHFLargeIntestine,descending colon,Cycling TA,2072,2072
+VHFLargeIntestine,descending colon,DC,433,433
+VHFLargeIntestine,descending colon,Endothelial,1126,1126
+VHFLargeIntestine,descending colon,Enterocyte,1896,1896
+VHFLargeIntestine,descending colon,Goblet,1448,1448
+VHFLargeIntestine,descending colon,ICC,338,338
+VHFLargeIntestine,descending colon,Lymphatic,607,607
+VHFLargeIntestine,descending colon,M1 Macrophage,8,8
+VHFLargeIntestine,descending colon,M2 Macrophage,1177,1177
+VHFLargeIntestine,descending colon,MUC1+ Enterocyte,367,367
+VHFLargeIntestine,descending colon,NK,32,32
+VHFLargeIntestine,descending colon,Nerve,409,409
+VHFLargeIntestine,descending colon,Neuroendocrine,89,89
+VHFLargeIntestine,descending colon,Neutrophil,371,371
+VHFLargeIntestine,descending colon,Paneth,0,0
+VHFLargeIntestine,descending colon,Plasma,1773,1773
+VHFLargeIntestine,descending colon,Smooth muscle,2047,2047
+VHFLargeIntestine,descending colon,Stroma,3236,3236
+VHFLargeIntestine,descending colon,TA,736,736
+VHFLargeIntestine,sigmoid colon,B,6,6
+VHFLargeIntestine,sigmoid colon,CD4+ T cell,436,436
+VHFLargeIntestine,sigmoid colon,CD57+ Enterocyte,3,3
+VHFLargeIntestine,sigmoid colon,CD66+ Enterocyte,1243,1243
+VHFLargeIntestine,sigmoid colon,CD7+ Immune,11,11
+VHFLargeIntestine,sigmoid colon,CD8+ T,418,418
+VHFLargeIntestine,sigmoid colon,Cycling TA,1001,1001
+VHFLargeIntestine,sigmoid colon,DC,443,443
+VHFLargeIntestine,sigmoid colon,Endothelial,1288,1288
+VHFLargeIntestine,sigmoid colon,Enterocyte,2480,2480
+VHFLargeIntestine,sigmoid colon,Goblet,316,316
+VHFLargeIntestine,sigmoid colon,ICC,282,282
+VHFLargeIntestine,sigmoid colon,Lymphatic,1258,1258
+VHFLargeIntestine,sigmoid colon,M1 Macrophage,8,8
+VHFLargeIntestine,sigmoid colon,M2 Macrophage,2425,2425
+VHFLargeIntestine,sigmoid colon,MUC1+ Enterocyte,636,636
+VHFLargeIntestine,sigmoid colon,NK,54,54
+VHFLargeIntestine,sigmoid colon,Nerve,503,503
+VHFLargeIntestine,sigmoid colon,Neuroendocrine,57,57
+VHFLargeIntestine,sigmoid colon,Neutrophil,1235,1235
+VHFLargeIntestine,sigmoid colon,Paneth,0,0
+VHFLargeIntestine,sigmoid colon,Plasma,217,217
+VHFLargeIntestine,sigmoid colon,Smooth muscle,3245,3245
+VHFLargeIntestine,sigmoid colon,Stroma,3366,3366
+VHFLargeIntestine,sigmoid colon,TA,270,270
+VHFLargeIntestine,transverse colon,B,97.5,195
+VHFLargeIntestine,transverse colon,CD4+ T cell,1048,2096
+VHFLargeIntestine,transverse colon,CD57+ Enterocyte,3,6
+VHFLargeIntestine,transverse colon,CD66+ Enterocyte,932.5,1865
+VHFLargeIntestine,transverse colon,CD7+ Immune,43,86
+VHFLargeIntestine,transverse colon,CD8+ T,607,1214
+VHFLargeIntestine,transverse colon,Cycling TA,1115.5,2231
+VHFLargeIntestine,transverse colon,DC,402.5,805
+VHFLargeIntestine,transverse colon,Endothelial,2169.5,4339
+VHFLargeIntestine,transverse colon,Enterocyte,2975,5950
+VHFLargeIntestine,transverse colon,Goblet,1768.5,3537
+VHFLargeIntestine,transverse colon,ICC,766.5,1533
+VHFLargeIntestine,transverse colon,Lymphatic,1070,2140
+VHFLargeIntestine,transverse colon,M1 Macrophage,53,106
+VHFLargeIntestine,transverse colon,M2 Macrophage,2596,5192
+VHFLargeIntestine,transverse colon,MUC1+ Enterocyte,188,376
+VHFLargeIntestine,transverse colon,NK,43,86
+VHFLargeIntestine,transverse colon,Nerve,1722,3444
+VHFLargeIntestine,transverse colon,Neuroendocrine,128.5,257
+VHFLargeIntestine,transverse colon,Neutrophil,159,318
+VHFLargeIntestine,transverse colon,Paneth,165.5,331
+VHFLargeIntestine,transverse colon,Plasma,1151,2302
+VHFLargeIntestine,transverse colon,Smooth muscle,7799,15598
+VHFLargeIntestine,transverse colon,Stroma,4876.5,9753
+VHFLargeIntestine,transverse colon,TA,636,1272
 VHFLeftKidney,outer cortex of kidney,Afferent / Efferent Arteriole Endothelial,101.05882352941176470588,1718
 VHFLeftKidney,outer cortex of kidney,Ascending Thin Limb,1911.82352941176470588235,32501
 VHFLeftKidney,outer cortex of kidney,Ascending Vasa Recta Endothelial,259.52941176470588235294,4412
@@ -894,8 +944,7 @@ VHFRightMammaryGland,Interlobar adipose tissue of right mammary gland,Fibroblast
 VHFRightMammaryGland,Interlobar adipose tissue of right mammary gland,Immune (myeloid),119.33333333333333333333,358
 VHFRightMammaryGland,Interlobar adipose tissue of right mammary gland,Muscle,50.66666666666666666667,152
 VHFSkin,skin of body,Adipocyte,43,43
-VHFSkin,skin of body,"CD68 
-/ Macrophage",118.33333333333333333333,355
+VHFSkin,skin of body,CD68 / Macrophage,118.33333333333333333333,355
 VHFSkin,skin of body,Endothelial cell,18,18
 VHFSkin,skin of body,Epithelial cell,66,66
 VHFSkin,skin of body,Epithelial cell (keratinocyte),13,13
@@ -907,156 +956,181 @@ VHFSkin,skin of body,Other,55,55
 VHFSkin,skin of body,T-Killer,35.66666666666666666667,107
 VHFSkin,skin of body,T-helper,1030,3090
 VHFSkin,skin of body,T-reg,101.66666666666666666667,305
-VHFSmallIntestine,ascending part of duodenum,B,7556,7556
-VHFSmallIntestine,ascending part of duodenum,CD4+ T cell,3589,3589
-VHFSmallIntestine,ascending part of duodenum,CD57+ Enterocyte,2,2
-VHFSmallIntestine,ascending part of duodenum,CD66+ Enterocyte,155,155
-VHFSmallIntestine,ascending part of duodenum,CD7+ Immune,115,115
-VHFSmallIntestine,ascending part of duodenum,CD8+ T,2633,2633
-VHFSmallIntestine,ascending part of duodenum,Cycling TA,446,446
-VHFSmallIntestine,ascending part of duodenum,DC,951,951
-VHFSmallIntestine,ascending part of duodenum,Endothelial,2255,2255
-VHFSmallIntestine,ascending part of duodenum,Enterocyte,2383,2383
-VHFSmallIntestine,ascending part of duodenum,Goblet,1492,1492
-VHFSmallIntestine,ascending part of duodenum,ICC,788,788
-VHFSmallIntestine,ascending part of duodenum,Lymphatic,1129,1129
-VHFSmallIntestine,ascending part of duodenum,M1 Macrophage,184,184
-VHFSmallIntestine,ascending part of duodenum,M2 Macrophage,2017,2017
-VHFSmallIntestine,ascending part of duodenum,MUC1+ Enterocyte,17,17
-VHFSmallIntestine,ascending part of duodenum,NK,103,103
-VHFSmallIntestine,ascending part of duodenum,Nerve,1300,1300
-VHFSmallIntestine,ascending part of duodenum,Neuroendocrine,151,151
-VHFSmallIntestine,ascending part of duodenum,Neutrophil,82,82
-VHFSmallIntestine,ascending part of duodenum,Paneth,380,380
-VHFSmallIntestine,ascending part of duodenum,Plasma,563,563
-VHFSmallIntestine,ascending part of duodenum,Smooth muscle,6340,6340
-VHFSmallIntestine,ascending part of duodenum,Stroma,2516,2516
-VHFSmallIntestine,ascending part of duodenum,TA,1174,1174
-VHFSmallIntestine,descending part of duodenum,B,207,207
-VHFSmallIntestine,descending part of duodenum,CD4+ T cell,1235,1235
-VHFSmallIntestine,descending part of duodenum,CD57+ Enterocyte,154,154
-VHFSmallIntestine,descending part of duodenum,CD66+ Enterocyte,468,468
-VHFSmallIntestine,descending part of duodenum,CD7+ Immune,21,21
-VHFSmallIntestine,descending part of duodenum,CD8+ T,710,710
-VHFSmallIntestine,descending part of duodenum,Cycling TA,474,474
-VHFSmallIntestine,descending part of duodenum,DC,176,176
-VHFSmallIntestine,descending part of duodenum,Endothelial,3070,3070
-VHFSmallIntestine,descending part of duodenum,Enterocyte,4862,4862
-VHFSmallIntestine,descending part of duodenum,Goblet,1561,1561
-VHFSmallIntestine,descending part of duodenum,ICC,398,398
-VHFSmallIntestine,descending part of duodenum,Lymphatic,1266,1266
-VHFSmallIntestine,descending part of duodenum,M1 Macrophage,127,127
-VHFSmallIntestine,descending part of duodenum,M2 Macrophage,1353,1353
-VHFSmallIntestine,descending part of duodenum,MUC1+ Enterocyte,565,565
-VHFSmallIntestine,descending part of duodenum,NK,92,92
-VHFSmallIntestine,descending part of duodenum,Nerve,981,981
-VHFSmallIntestine,descending part of duodenum,Neuroendocrine,188,188
-VHFSmallIntestine,descending part of duodenum,Neutrophil,74,74
-VHFSmallIntestine,descending part of duodenum,Paneth,443,443
-VHFSmallIntestine,descending part of duodenum,Plasma,1085,1085
-VHFSmallIntestine,descending part of duodenum,Smooth muscle,2375,2375
-VHFSmallIntestine,descending part of duodenum,Stroma,1559,1559
-VHFSmallIntestine,descending part of duodenum,TA,114,114
-VHFSmallIntestine,distal part of ileum,B,32,32
-VHFSmallIntestine,distal part of ileum,CD4+ T cell,1012,1012
-VHFSmallIntestine,distal part of ileum,CD57+ Enterocyte,1,1
-VHFSmallIntestine,distal part of ileum,CD66+ Enterocyte,66,66
-VHFSmallIntestine,distal part of ileum,CD7+ Immune,52,52
-VHFSmallIntestine,distal part of ileum,CD8+ T,1109,1109
-VHFSmallIntestine,distal part of ileum,Cycling TA,780,780
-VHFSmallIntestine,distal part of ileum,DC,81,81
-VHFSmallIntestine,distal part of ileum,Endothelial,1513,1513
-VHFSmallIntestine,distal part of ileum,Enterocyte,3966,3966
-VHFSmallIntestine,distal part of ileum,Goblet,992,992
-VHFSmallIntestine,distal part of ileum,ICC,265,265
-VHFSmallIntestine,distal part of ileum,Lymphatic,625,625
-VHFSmallIntestine,distal part of ileum,M1 Macrophage,49,49
-VHFSmallIntestine,distal part of ileum,M2 Macrophage,837,837
-VHFSmallIntestine,distal part of ileum,MUC1+ Enterocyte,7,7
-VHFSmallIntestine,distal part of ileum,NK,16,16
-VHFSmallIntestine,distal part of ileum,Nerve,437,437
-VHFSmallIntestine,distal part of ileum,Neuroendocrine,174,174
-VHFSmallIntestine,distal part of ileum,Neutrophil,33,33
-VHFSmallIntestine,distal part of ileum,Paneth,370,370
-VHFSmallIntestine,distal part of ileum,Plasma,759,759
-VHFSmallIntestine,distal part of ileum,Smooth muscle,1534,1534
-VHFSmallIntestine,distal part of ileum,Stroma,1158,1158
-VHFSmallIntestine,distal part of ileum,TA,1802,1802
-VHFSmallIntestine,horizontal part of duodenum,B,7556,7556
-VHFSmallIntestine,horizontal part of duodenum,CD4+ T cell,3589,3589
-VHFSmallIntestine,horizontal part of duodenum,CD57+ Enterocyte,2,2
-VHFSmallIntestine,horizontal part of duodenum,CD66+ Enterocyte,155,155
-VHFSmallIntestine,horizontal part of duodenum,CD7+ Immune,115,115
-VHFSmallIntestine,horizontal part of duodenum,CD8+ T,2633,2633
-VHFSmallIntestine,horizontal part of duodenum,Cycling TA,446,446
-VHFSmallIntestine,horizontal part of duodenum,DC,951,951
-VHFSmallIntestine,horizontal part of duodenum,Endothelial,2255,2255
-VHFSmallIntestine,horizontal part of duodenum,Enterocyte,2383,2383
-VHFSmallIntestine,horizontal part of duodenum,Goblet,1492,1492
-VHFSmallIntestine,horizontal part of duodenum,ICC,788,788
-VHFSmallIntestine,horizontal part of duodenum,Lymphatic,1129,1129
-VHFSmallIntestine,horizontal part of duodenum,M1 Macrophage,184,184
-VHFSmallIntestine,horizontal part of duodenum,M2 Macrophage,2017,2017
-VHFSmallIntestine,horizontal part of duodenum,MUC1+ Enterocyte,17,17
-VHFSmallIntestine,horizontal part of duodenum,NK,103,103
-VHFSmallIntestine,horizontal part of duodenum,Nerve,1300,1300
-VHFSmallIntestine,horizontal part of duodenum,Neuroendocrine,151,151
-VHFSmallIntestine,horizontal part of duodenum,Neutrophil,82,82
-VHFSmallIntestine,horizontal part of duodenum,Paneth,380,380
-VHFSmallIntestine,horizontal part of duodenum,Plasma,563,563
-VHFSmallIntestine,horizontal part of duodenum,Smooth muscle,6340,6340
-VHFSmallIntestine,horizontal part of duodenum,Stroma,2516,2516
-VHFSmallIntestine,horizontal part of duodenum,TA,1174,1174
-VHFSmallIntestine,ileum,B,32,32
-VHFSmallIntestine,ileum,CD4+ T cell,1012,1012
-VHFSmallIntestine,ileum,CD57+ Enterocyte,1,1
-VHFSmallIntestine,ileum,CD66+ Enterocyte,66,66
-VHFSmallIntestine,ileum,CD7+ Immune,52,52
-VHFSmallIntestine,ileum,CD8+ T,1109,1109
-VHFSmallIntestine,ileum,Cycling TA,780,780
-VHFSmallIntestine,ileum,DC,81,81
-VHFSmallIntestine,ileum,Endothelial,1513,1513
-VHFSmallIntestine,ileum,Enterocyte,3966,3966
-VHFSmallIntestine,ileum,Goblet,992,992
-VHFSmallIntestine,ileum,ICC,265,265
-VHFSmallIntestine,ileum,Lymphatic,625,625
-VHFSmallIntestine,ileum,M1 Macrophage,49,49
-VHFSmallIntestine,ileum,M2 Macrophage,837,837
-VHFSmallIntestine,ileum,MUC1+ Enterocyte,7,7
-VHFSmallIntestine,ileum,NK,16,16
-VHFSmallIntestine,ileum,Nerve,437,437
-VHFSmallIntestine,ileum,Neuroendocrine,174,174
-VHFSmallIntestine,ileum,Neutrophil,33,33
-VHFSmallIntestine,ileum,Paneth,370,370
-VHFSmallIntestine,ileum,Plasma,759,759
-VHFSmallIntestine,ileum,Smooth muscle,1534,1534
-VHFSmallIntestine,ileum,Stroma,1158,1158
-VHFSmallIntestine,ileum,TA,1802,1802
-VHFSmallIntestine,superior part of duodenum,B,207,207
-VHFSmallIntestine,superior part of duodenum,CD4+ T cell,1235,1235
-VHFSmallIntestine,superior part of duodenum,CD57+ Enterocyte,154,154
-VHFSmallIntestine,superior part of duodenum,CD66+ Enterocyte,468,468
-VHFSmallIntestine,superior part of duodenum,CD7+ Immune,21,21
-VHFSmallIntestine,superior part of duodenum,CD8+ T,710,710
-VHFSmallIntestine,superior part of duodenum,Cycling TA,474,474
-VHFSmallIntestine,superior part of duodenum,DC,176,176
-VHFSmallIntestine,superior part of duodenum,Endothelial,3070,3070
-VHFSmallIntestine,superior part of duodenum,Enterocyte,4862,4862
-VHFSmallIntestine,superior part of duodenum,Goblet,1561,1561
-VHFSmallIntestine,superior part of duodenum,ICC,398,398
-VHFSmallIntestine,superior part of duodenum,Lymphatic,1266,1266
-VHFSmallIntestine,superior part of duodenum,M1 Macrophage,127,127
-VHFSmallIntestine,superior part of duodenum,M2 Macrophage,1353,1353
-VHFSmallIntestine,superior part of duodenum,MUC1+ Enterocyte,565,565
-VHFSmallIntestine,superior part of duodenum,NK,92,92
-VHFSmallIntestine,superior part of duodenum,Nerve,981,981
-VHFSmallIntestine,superior part of duodenum,Neuroendocrine,188,188
-VHFSmallIntestine,superior part of duodenum,Neutrophil,74,74
-VHFSmallIntestine,superior part of duodenum,Paneth,443,443
-VHFSmallIntestine,superior part of duodenum,Plasma,1085,1085
-VHFSmallIntestine,superior part of duodenum,Smooth muscle,2375,2375
-VHFSmallIntestine,superior part of duodenum,Stroma,1559,1559
-VHFSmallIntestine,superior part of duodenum,TA,114,114
+VHFSmallIntestine,ascending part of duodenum,B,3781,7562
+VHFSmallIntestine,ascending part of duodenum,CD4+ T cell,2254.5,4509
+VHFSmallIntestine,ascending part of duodenum,CD57+ Enterocyte,1.5,3
+VHFSmallIntestine,ascending part of duodenum,CD66+ Enterocyte,245,490
+VHFSmallIntestine,ascending part of duodenum,CD7+ Immune,69.5,139
+VHFSmallIntestine,ascending part of duodenum,CD8+ T,1822,3644
+VHFSmallIntestine,ascending part of duodenum,Cycling TA,1463,2926
+VHFSmallIntestine,ascending part of duodenum,DC,700.5,1401
+VHFSmallIntestine,ascending part of duodenum,Endothelial,2908,5816
+VHFSmallIntestine,ascending part of duodenum,Enterocyte,2809.5,5619
+VHFSmallIntestine,ascending part of duodenum,Goblet,1046,2092
+VHFSmallIntestine,ascending part of duodenum,ICC,531,1062
+VHFSmallIntestine,ascending part of duodenum,Lymphatic,1273,2546
+VHFSmallIntestine,ascending part of duodenum,M1 Macrophage,105,210
+VHFSmallIntestine,ascending part of duodenum,M2 Macrophage,2106.5,4213
+VHFSmallIntestine,ascending part of duodenum,MUC1+ Enterocyte,62.5,125
+VHFSmallIntestine,ascending part of duodenum,NK,85.5,171
+VHFSmallIntestine,ascending part of duodenum,Nerve,1503.5,3007
+VHFSmallIntestine,ascending part of duodenum,Neuroendocrine,127.5,255
+VHFSmallIntestine,ascending part of duodenum,Neutrophil,583.5,1167
+VHFSmallIntestine,ascending part of duodenum,Paneth,251,502
+VHFSmallIntestine,ascending part of duodenum,Plasma,389.5,779
+VHFSmallIntestine,ascending part of duodenum,Smooth muscle,6229.5,12459
+VHFSmallIntestine,ascending part of duodenum,Stroma,3023,6046
+VHFSmallIntestine,ascending part of duodenum,TA,1151,2302
+VHFSmallIntestine,descending part of duodenum,B,108.5,217
+VHFSmallIntestine,descending part of duodenum,CD4+ T cell,2481,4962
+VHFSmallIntestine,descending part of duodenum,CD57+ Enterocyte,97,194
+VHFSmallIntestine,descending part of duodenum,CD66+ Enterocyte,454,908
+VHFSmallIntestine,descending part of duodenum,CD7+ Immune,48.5,97
+VHFSmallIntestine,descending part of duodenum,CD8+ T,1908,3816
+VHFSmallIntestine,descending part of duodenum,Cycling TA,5094,10188
+VHFSmallIntestine,descending part of duodenum,DC,590.5,1181
+VHFSmallIntestine,descending part of duodenum,Endothelial,3739,7478
+VHFSmallIntestine,descending part of duodenum,Enterocyte,10343.5,20687
+VHFSmallIntestine,descending part of duodenum,Goblet,2839.5,5679
+VHFSmallIntestine,descending part of duodenum,ICC,509,1018
+VHFSmallIntestine,descending part of duodenum,Lymphatic,1399,2798
+VHFSmallIntestine,descending part of duodenum,M1 Macrophage,93,186
+VHFSmallIntestine,descending part of duodenum,M2 Macrophage,2294.5,4589
+VHFSmallIntestine,descending part of duodenum,MUC1+ Enterocyte,494.5,989
+VHFSmallIntestine,descending part of duodenum,NK,121,242
+VHFSmallIntestine,descending part of duodenum,Nerve,1362.5,2725
+VHFSmallIntestine,descending part of duodenum,Neuroendocrine,314.5,629
+VHFSmallIntestine,descending part of duodenum,Neutrophil,158,316
+VHFSmallIntestine,descending part of duodenum,Paneth,601.5,1203
+VHFSmallIntestine,descending part of duodenum,Plasma,2128,4256
+VHFSmallIntestine,descending part of duodenum,Smooth muscle,3632,7264
+VHFSmallIntestine,descending part of duodenum,Stroma,2949.5,5899
+VHFSmallIntestine,descending part of duodenum,TA,1441,2882
+VHFSmallIntestine,distal part of ileum,B,81.5,163
+VHFSmallIntestine,distal part of ileum,CD4+ T cell,969.5,1939
+VHFSmallIntestine,distal part of ileum,CD57+ Enterocyte,1,2
+VHFSmallIntestine,distal part of ileum,CD66+ Enterocyte,87,174
+VHFSmallIntestine,distal part of ileum,CD7+ Immune,38,76
+VHFSmallIntestine,distal part of ileum,CD8+ T,1618.5,3237
+VHFSmallIntestine,distal part of ileum,Cycling TA,1024.5,2049
+VHFSmallIntestine,distal part of ileum,DC,222.5,445
+VHFSmallIntestine,distal part of ileum,Endothelial,2009,4018
+VHFSmallIntestine,distal part of ileum,Enterocyte,3114.5,6229
+VHFSmallIntestine,distal part of ileum,Goblet,1401.5,2803
+VHFSmallIntestine,distal part of ileum,ICC,396,792
+VHFSmallIntestine,distal part of ileum,Lymphatic,1285,2570
+VHFSmallIntestine,distal part of ileum,M1 Macrophage,30,60
+VHFSmallIntestine,distal part of ileum,M2 Macrophage,1702,3404
+VHFSmallIntestine,distal part of ileum,MUC1+ Enterocyte,30.5,61
+VHFSmallIntestine,distal part of ileum,NK,32,64
+VHFSmallIntestine,distal part of ileum,Nerve,882,1764
+VHFSmallIntestine,distal part of ileum,Neuroendocrine,162.5,325
+VHFSmallIntestine,distal part of ileum,Neutrophil,89,178
+VHFSmallIntestine,distal part of ileum,Paneth,317.5,635
+VHFSmallIntestine,distal part of ileum,Plasma,689,1378
+VHFSmallIntestine,distal part of ileum,Smooth muscle,4364,8728
+VHFSmallIntestine,distal part of ileum,Stroma,3288.5,6577
+VHFSmallIntestine,distal part of ileum,TA,1471.5,2943
+VHFSmallIntestine,horizontal part of duodenum,B,3781,7562
+VHFSmallIntestine,horizontal part of duodenum,CD4+ T cell,2254.5,4509
+VHFSmallIntestine,horizontal part of duodenum,CD57+ Enterocyte,1.5,3
+VHFSmallIntestine,horizontal part of duodenum,CD66+ Enterocyte,245,490
+VHFSmallIntestine,horizontal part of duodenum,CD7+ Immune,69.5,139
+VHFSmallIntestine,horizontal part of duodenum,CD8+ T,1822,3644
+VHFSmallIntestine,horizontal part of duodenum,Cycling TA,1463,2926
+VHFSmallIntestine,horizontal part of duodenum,DC,700.5,1401
+VHFSmallIntestine,horizontal part of duodenum,Endothelial,2908,5816
+VHFSmallIntestine,horizontal part of duodenum,Enterocyte,2809.5,5619
+VHFSmallIntestine,horizontal part of duodenum,Goblet,1046,2092
+VHFSmallIntestine,horizontal part of duodenum,ICC,531,1062
+VHFSmallIntestine,horizontal part of duodenum,Lymphatic,1273,2546
+VHFSmallIntestine,horizontal part of duodenum,M1 Macrophage,105,210
+VHFSmallIntestine,horizontal part of duodenum,M2 Macrophage,2106.5,4213
+VHFSmallIntestine,horizontal part of duodenum,MUC1+ Enterocyte,62.5,125
+VHFSmallIntestine,horizontal part of duodenum,NK,85.5,171
+VHFSmallIntestine,horizontal part of duodenum,Nerve,1503.5,3007
+VHFSmallIntestine,horizontal part of duodenum,Neuroendocrine,127.5,255
+VHFSmallIntestine,horizontal part of duodenum,Neutrophil,583.5,1167
+VHFSmallIntestine,horizontal part of duodenum,Paneth,251,502
+VHFSmallIntestine,horizontal part of duodenum,Plasma,389.5,779
+VHFSmallIntestine,horizontal part of duodenum,Smooth muscle,6229.5,12459
+VHFSmallIntestine,horizontal part of duodenum,Stroma,3023,6046
+VHFSmallIntestine,horizontal part of duodenum,TA,1151,2302
+VHFSmallIntestine,ileum,B,81.5,163
+VHFSmallIntestine,ileum,CD4+ T cell,969.5,1939
+VHFSmallIntestine,ileum,CD57+ Enterocyte,1,2
+VHFSmallIntestine,ileum,CD66+ Enterocyte,87,174
+VHFSmallIntestine,ileum,CD7+ Immune,38,76
+VHFSmallIntestine,ileum,CD8+ T,1618.5,3237
+VHFSmallIntestine,ileum,Cycling TA,1024.5,2049
+VHFSmallIntestine,ileum,DC,222.5,445
+VHFSmallIntestine,ileum,Endothelial,2009,4018
+VHFSmallIntestine,ileum,Enterocyte,3114.5,6229
+VHFSmallIntestine,ileum,Goblet,1401.5,2803
+VHFSmallIntestine,ileum,ICC,396,792
+VHFSmallIntestine,ileum,Lymphatic,1285,2570
+VHFSmallIntestine,ileum,M1 Macrophage,30,60
+VHFSmallIntestine,ileum,M2 Macrophage,1702,3404
+VHFSmallIntestine,ileum,MUC1+ Enterocyte,30.5,61
+VHFSmallIntestine,ileum,NK,32,64
+VHFSmallIntestine,ileum,Nerve,882,1764
+VHFSmallIntestine,ileum,Neuroendocrine,162.5,325
+VHFSmallIntestine,ileum,Neutrophil,89,178
+VHFSmallIntestine,ileum,Paneth,317.5,635
+VHFSmallIntestine,ileum,Plasma,689,1378
+VHFSmallIntestine,ileum,Smooth muscle,4364,8728
+VHFSmallIntestine,ileum,Stroma,3288.5,6577
+VHFSmallIntestine,ileum,TA,1471.5,2943
+VHFSmallIntestine,jejunum,B,16,16
+VHFSmallIntestine,jejunum,CD4+ T cell,2699,2699
+VHFSmallIntestine,jejunum,CD57+ Enterocyte,20,20
+VHFSmallIntestine,jejunum,CD66+ Enterocyte,466,466
+VHFSmallIntestine,jejunum,CD7+ Immune,39,39
+VHFSmallIntestine,jejunum,CD8+ T,2663,2663
+VHFSmallIntestine,jejunum,Cycling TA,6598,6598
+VHFSmallIntestine,jejunum,DC,817,817
+VHFSmallIntestine,jejunum,Endothelial,3394,3394
+VHFSmallIntestine,jejunum,Enterocyte,6757,6757
+VHFSmallIntestine,jejunum,Goblet,2399,2399
+VHFSmallIntestine,jejunum,ICC,469,469
+VHFSmallIntestine,jejunum,Lymphatic,1899,1899
+VHFSmallIntestine,jejunum,M1 Macrophage,62,62
+VHFSmallIntestine,jejunum,M2 Macrophage,1992,1992
+VHFSmallIntestine,jejunum,MUC1+ Enterocyte,48,48
+VHFSmallIntestine,jejunum,NK,68,68
+VHFSmallIntestine,jejunum,Nerve,1745,1745
+VHFSmallIntestine,jejunum,Neuroendocrine,243,243
+VHFSmallIntestine,jejunum,Neutrophil,428,428
+VHFSmallIntestine,jejunum,Paneth,307,307
+VHFSmallIntestine,jejunum,Plasma,868,868
+VHFSmallIntestine,jejunum,Smooth muscle,4060,4060
+VHFSmallIntestine,jejunum,Stroma,3398,3398
+VHFSmallIntestine,jejunum,TA,2571,2571
+VHFSmallIntestine,superior part of duodenum,B,108.5,217
+VHFSmallIntestine,superior part of duodenum,CD4+ T cell,2481,4962
+VHFSmallIntestine,superior part of duodenum,CD57+ Enterocyte,97,194
+VHFSmallIntestine,superior part of duodenum,CD66+ Enterocyte,454,908
+VHFSmallIntestine,superior part of duodenum,CD7+ Immune,48.5,97
+VHFSmallIntestine,superior part of duodenum,CD8+ T,1908,3816
+VHFSmallIntestine,superior part of duodenum,Cycling TA,5094,10188
+VHFSmallIntestine,superior part of duodenum,DC,590.5,1181
+VHFSmallIntestine,superior part of duodenum,Endothelial,3739,7478
+VHFSmallIntestine,superior part of duodenum,Enterocyte,10343.5,20687
+VHFSmallIntestine,superior part of duodenum,Goblet,2839.5,5679
+VHFSmallIntestine,superior part of duodenum,ICC,509,1018
+VHFSmallIntestine,superior part of duodenum,Lymphatic,1399,2798
+VHFSmallIntestine,superior part of duodenum,M1 Macrophage,93,186
+VHFSmallIntestine,superior part of duodenum,M2 Macrophage,2294.5,4589
+VHFSmallIntestine,superior part of duodenum,MUC1+ Enterocyte,494.5,989
+VHFSmallIntestine,superior part of duodenum,NK,121,242
+VHFSmallIntestine,superior part of duodenum,Nerve,1362.5,2725
+VHFSmallIntestine,superior part of duodenum,Neuroendocrine,314.5,629
+VHFSmallIntestine,superior part of duodenum,Neutrophil,158,316
+VHFSmallIntestine,superior part of duodenum,Paneth,601.5,1203
+VHFSmallIntestine,superior part of duodenum,Plasma,2128,4256
+VHFSmallIntestine,superior part of duodenum,Smooth muscle,3632,7264
+VHFSmallIntestine,superior part of duodenum,Stroma,2949.5,5899
+VHFSmallIntestine,superior part of duodenum,TA,1441,2882
 VHMAllenBrain,middle temporal gyrus,L2/3-6 intratelencephalic projecting glutamatergic cortical neuron,10824.1,216482
 VHMAllenBrain,middle temporal gyrus,L5 extratelencephalic projecting glutamatergic cortical neuron,37.95,759
 VHMAllenBrain,middle temporal gyrus,L6b glutamatergic cortical neuron,247.5,4950
@@ -1075,131 +1149,131 @@ VHMAllenBrain,middle temporal gyrus,sncg GABAergic cortical interneuron,326.05,6
 VHMAllenBrain,middle temporal gyrus,sst GABAergic cortical interneuron,1154.4,23088
 VHMAllenBrain,middle temporal gyrus,vascular leptomeningeal cell,36.05,721
 VHMAllenBrain,middle temporal gyrus,vip GABAergic cortical interneuron,1522.85,30457
-VHMColon,ascending colon,B,525.33333333333333333333,1576
-VHMColon,ascending colon,CD4+ T cell,1347,4041
-VHMColon,ascending colon,CD57+ Enterocyte,13,39
-VHMColon,ascending colon,CD66+ Enterocyte,1303.33333333333333333333,3910
-VHMColon,ascending colon,CD7+ Immune,30,90
-VHMColon,ascending colon,CD8+ T,1170,3510
-VHMColon,ascending colon,Cycling TA,1067.66666666666666666667,3203
-VHMColon,ascending colon,DC,540.33333333333333333333,1621
-VHMColon,ascending colon,Endothelial,2075.33333333333333333333,6226
-VHMColon,ascending colon,Enterocyte,3796.66666666666666666667,11390
-VHMColon,ascending colon,Goblet,1709.66666666666666666667,5129
-VHMColon,ascending colon,ICC,296,888
-VHMColon,ascending colon,Lymphatic,567,1701
-VHMColon,ascending colon,M1 Macrophage,377.33333333333333333333,1132
-VHMColon,ascending colon,M2 Macrophage,1470.66666666666666666667,4412
-VHMColon,ascending colon,MUC1+ Enterocyte,404,1212
-VHMColon,ascending colon,NK,11,33
-VHMColon,ascending colon,Nerve,1467,4401
-VHMColon,ascending colon,Neuroendocrine,223.66666666666666666667,671
-VHMColon,ascending colon,Neutrophil,152.66666666666666666667,458
-VHMColon,ascending colon,Paneth,4,12
-VHMColon,ascending colon,Plasma,1924.33333333333333333333,5773
-VHMColon,ascending colon,Smooth muscle,7642.33333333333333333333,22927
-VHMColon,ascending colon,Stroma,3425,10275
-VHMColon,ascending colon,TA,728.66666666666666666667,2186
-VHMColon,descending colon,B,476,1904
-VHMColon,descending colon,CD4+ T cell,1719.25,6877
-VHMColon,descending colon,CD57+ Enterocyte,0.25,1
-VHMColon,descending colon,CD66+ Enterocyte,1175.25,4701
-VHMColon,descending colon,CD7+ Immune,44.25,177
-VHMColon,descending colon,CD8+ T,1442.75,5771
-VHMColon,descending colon,Cycling TA,2338.75,9355
-VHMColon,descending colon,DC,521.75,2087
-VHMColon,descending colon,Endothelial,1916,7664
-VHMColon,descending colon,Enterocyte,4547.25,18189
-VHMColon,descending colon,Goblet,2591.5,10366
-VHMColon,descending colon,ICC,237.75,951
-VHMColon,descending colon,Lymphatic,591,2364
-VHMColon,descending colon,M1 Macrophage,439,1756
-VHMColon,descending colon,M2 Macrophage,1249.75,4999
-VHMColon,descending colon,MUC1+ Enterocyte,91.75,367
-VHMColon,descending colon,NK,12.5,50
-VHMColon,descending colon,Nerve,1047.25,4189
-VHMColon,descending colon,Neuroendocrine,180.75,723
-VHMColon,descending colon,Neutrophil,57.75,231
-VHMColon,descending colon,Paneth,1.75,7
-VHMColon,descending colon,Plasma,2396,9584
-VHMColon,descending colon,Smooth muscle,4564.5,18258
-VHMColon,descending colon,Stroma,2722.5,10890
-VHMColon,descending colon,TA,1132.25,4529
-VHMColon,rectum,B,1134.33333333333333333333,3403
-VHMColon,rectum,CD4+ T cell,1140.66666666666666666667,3422
-VHMColon,rectum,CD57+ Enterocyte,2,6
-VHMColon,rectum,CD66+ Enterocyte,827.66666666666666666667,2483
-VHMColon,rectum,CD7+ Immune,36.66666666666666666667,110
-VHMColon,rectum,CD8+ T,715.33333333333333333333,2146
-VHMColon,rectum,Cycling TA,936.33333333333333333333,2809
-VHMColon,rectum,DC,377.33333333333333333333,1132
-VHMColon,rectum,Endothelial,1789.33333333333333333333,5368
-VHMColon,rectum,Enterocyte,1223.66666666666666666667,3671
-VHMColon,rectum,Goblet,1750.66666666666666666667,5252
-VHMColon,rectum,ICC,237.66666666666666666667,713
-VHMColon,rectum,Lymphatic,498,1494
-VHMColon,rectum,M1 Macrophage,221,663
-VHMColon,rectum,M2 Macrophage,1626,4878
-VHMColon,rectum,MUC1+ Enterocyte,61,183
-VHMColon,rectum,NK,11.66666666666666666667,35
-VHMColon,rectum,Nerve,882.33333333333333333333,2647
-VHMColon,rectum,Neuroendocrine,87.66666666666666666667,263
-VHMColon,rectum,Neutrophil,91,273
-VHMColon,rectum,Paneth,2,6
-VHMColon,rectum,Plasma,1071.33333333333333333333,3214
-VHMColon,rectum,Smooth muscle,5653.66666666666666666667,16961
-VHMColon,rectum,Stroma,2974,8922
-VHMColon,rectum,TA,624.33333333333333333333,1873
-VHMColon,sigmoid colon,B,1134.33333333333333333333,3403
-VHMColon,sigmoid colon,CD4+ T cell,1140.66666666666666666667,3422
-VHMColon,sigmoid colon,CD57+ Enterocyte,2,6
-VHMColon,sigmoid colon,CD66+ Enterocyte,827.66666666666666666667,2483
-VHMColon,sigmoid colon,CD7+ Immune,36.66666666666666666667,110
-VHMColon,sigmoid colon,CD8+ T,715.33333333333333333333,2146
-VHMColon,sigmoid colon,Cycling TA,936.33333333333333333333,2809
-VHMColon,sigmoid colon,DC,377.33333333333333333333,1132
-VHMColon,sigmoid colon,Endothelial,1789.33333333333333333333,5368
-VHMColon,sigmoid colon,Enterocyte,1223.66666666666666666667,3671
-VHMColon,sigmoid colon,Goblet,1750.66666666666666666667,5252
-VHMColon,sigmoid colon,ICC,237.66666666666666666667,713
-VHMColon,sigmoid colon,Lymphatic,498,1494
-VHMColon,sigmoid colon,M1 Macrophage,221,663
-VHMColon,sigmoid colon,M2 Macrophage,1626,4878
-VHMColon,sigmoid colon,MUC1+ Enterocyte,61,183
-VHMColon,sigmoid colon,NK,11.66666666666666666667,35
-VHMColon,sigmoid colon,Nerve,882.33333333333333333333,2647
-VHMColon,sigmoid colon,Neuroendocrine,87.66666666666666666667,263
-VHMColon,sigmoid colon,Neutrophil,91,273
-VHMColon,sigmoid colon,Paneth,2,6
-VHMColon,sigmoid colon,Plasma,1071.33333333333333333333,3214
-VHMColon,sigmoid colon,Smooth muscle,5653.66666666666666666667,16961
-VHMColon,sigmoid colon,Stroma,2974,8922
-VHMColon,sigmoid colon,TA,624.33333333333333333333,1873
-VHMColon,transverse colon,B,189.5,379
-VHMColon,transverse colon,CD4+ T cell,327,654
-VHMColon,transverse colon,CD57+ Enterocyte,8,16
-VHMColon,transverse colon,CD66+ Enterocyte,2926.5,5853
-VHMColon,transverse colon,CD7+ Immune,8,16
-VHMColon,transverse colon,CD8+ T,650,1300
-VHMColon,transverse colon,Cycling TA,266.5,533
-VHMColon,transverse colon,DC,237.5,475
-VHMColon,transverse colon,Endothelial,1035,2070
-VHMColon,transverse colon,Enterocyte,4212.5,8425
-VHMColon,transverse colon,Goblet,343.5,687
-VHMColon,transverse colon,ICC,128.5,257
-VHMColon,transverse colon,Lymphatic,410,820
-VHMColon,transverse colon,M1 Macrophage,743.5,1487
-VHMColon,transverse colon,M2 Macrophage,864.5,1729
-VHMColon,transverse colon,MUC1+ Enterocyte,190,380
-VHMColon,transverse colon,NK,4.5,9
-VHMColon,transverse colon,Nerve,616.5,1233
-VHMColon,transverse colon,Neuroendocrine,56,112
-VHMColon,transverse colon,Neutrophil,43,86
-VHMColon,transverse colon,Paneth,0.5,1
-VHMColon,transverse colon,Plasma,1908,3816
-VHMColon,transverse colon,Smooth muscle,3257.5,6515
-VHMColon,transverse colon,Stroma,1314.5,2629
-VHMColon,transverse colon,TA,70,140
+VHMColon,ascending colon,B,381.83333333333333333333,2291
+VHMColon,ascending colon,CD4+ T cell,1443,8658
+VHMColon,ascending colon,CD57+ Enterocyte,10.83333333333333333333,65
+VHMColon,ascending colon,CD66+ Enterocyte,1431,8586
+VHMColon,ascending colon,CD7+ Immune,43.83333333333333333333,263
+VHMColon,ascending colon,CD8+ T,1522,9132
+VHMColon,ascending colon,Cycling TA,1175.5,7053
+VHMColon,ascending colon,DC,593.66666666666666666667,3562
+VHMColon,ascending colon,Endothelial,2369.33333333333333333333,14216
+VHMColon,ascending colon,Enterocyte,5087.33333333333333333333,30524
+VHMColon,ascending colon,Goblet,1917.66666666666666666667,11506
+VHMColon,ascending colon,ICC,475.5,2853
+VHMColon,ascending colon,Lymphatic,932.33333333333333333333,5594
+VHMColon,ascending colon,M1 Macrophage,341.5,2049
+VHMColon,ascending colon,M2 Macrophage,1430.66666666666666666667,8584
+VHMColon,ascending colon,MUC1+ Enterocyte,371,2226
+VHMColon,ascending colon,NK,61.5,369
+VHMColon,ascending colon,Nerve,1140.83333333333333333333,6845
+VHMColon,ascending colon,Neuroendocrine,151.33333333333333333333,908
+VHMColon,ascending colon,Neutrophil,270,1620
+VHMColon,ascending colon,Paneth,2.83333333333333333333,17
+VHMColon,ascending colon,Plasma,1905.83333333333333333333,11435
+VHMColon,ascending colon,Smooth muscle,6996.5,41979
+VHMColon,ascending colon,Stroma,3165,18990
+VHMColon,ascending colon,TA,700.66666666666666666667,4204
+VHMColon,descending colon,B,296.14285714285714285714,2073
+VHMColon,descending colon,CD4+ T cell,1723.42857142857142857143,12064
+VHMColon,descending colon,CD57+ Enterocyte,5.71428571428571428571,40
+VHMColon,descending colon,CD66+ Enterocyte,1106.14285714285714285714,7743
+VHMColon,descending colon,CD7+ Immune,82,574
+VHMColon,descending colon,CD8+ T,1575.42857142857142857143,11028
+VHMColon,descending colon,Cycling TA,1965.71428571428571428571,13760
+VHMColon,descending colon,DC,587.28571428571428571429,4111
+VHMColon,descending colon,Endothelial,2511.14285714285714285714,17578
+VHMColon,descending colon,Enterocyte,6383.57142857142857142857,44685
+VHMColon,descending colon,Goblet,3785.85714285714285714286,26501
+VHMColon,descending colon,ICC,504.57142857142857142857,3532
+VHMColon,descending colon,Lymphatic,983.42857142857142857143,6884
+VHMColon,descending colon,M1 Macrophage,409.71428571428571428571,2868
+VHMColon,descending colon,M2 Macrophage,1685.57142857142857142857,11799
+VHMColon,descending colon,MUC1+ Enterocyte,270.42857142857142857143,1893
+VHMColon,descending colon,NK,96.28571428571428571429,674
+VHMColon,descending colon,Nerve,1804.71428571428571428571,12633
+VHMColon,descending colon,Neuroendocrine,189.85714285714285714286,1329
+VHMColon,descending colon,Neutrophil,78.42857142857142857143,549
+VHMColon,descending colon,Paneth,1.14285714285714285714,8
+VHMColon,descending colon,Plasma,2430.42857142857142857143,17013
+VHMColon,descending colon,Smooth muscle,8816.14285714285714285714,61713
+VHMColon,descending colon,Stroma,3879.28571428571428571429,27155
+VHMColon,descending colon,TA,1064.42857142857142857143,7451
+VHMColon,rectum,B,583.66666666666666666667,3502
+VHMColon,rectum,CD4+ T cell,1288,7728
+VHMColon,rectum,CD57+ Enterocyte,9.83333333333333333333,59
+VHMColon,rectum,CD66+ Enterocyte,1012.83333333333333333333,6077
+VHMColon,rectum,CD7+ Immune,62.16666666666666666667,373
+VHMColon,rectum,CD8+ T,950.66666666666666666667,5704
+VHMColon,rectum,Cycling TA,823.83333333333333333333,4943
+VHMColon,rectum,DC,582.5,3495
+VHMColon,rectum,Endothelial,1957.33333333333333333333,11744
+VHMColon,rectum,Enterocyte,3749.5,22497
+VHMColon,rectum,Goblet,2607.83333333333333333333,15647
+VHMColon,rectum,ICC,390,2340
+VHMColon,rectum,Lymphatic,857.16666666666666666667,5143
+VHMColon,rectum,M1 Macrophage,202.5,1215
+VHMColon,rectum,M2 Macrophage,1652,9912
+VHMColon,rectum,MUC1+ Enterocyte,226.83333333333333333333,1361
+VHMColon,rectum,NK,58.16666666666666666667,349
+VHMColon,rectum,Nerve,958.33333333333333333333,5750
+VHMColon,rectum,Neuroendocrine,162.33333333333333333333,974
+VHMColon,rectum,Neutrophil,134.5,807
+VHMColon,rectum,Paneth,1,6
+VHMColon,rectum,Plasma,1527.83333333333333333333,9167
+VHMColon,rectum,Smooth muscle,7353.16666666666666666667,44119
+VHMColon,rectum,Stroma,3468.83333333333333333333,20813
+VHMColon,rectum,TA,750.66666666666666666667,4504
+VHMColon,sigmoid colon,B,583.66666666666666666667,3502
+VHMColon,sigmoid colon,CD4+ T cell,1288,7728
+VHMColon,sigmoid colon,CD57+ Enterocyte,9.83333333333333333333,59
+VHMColon,sigmoid colon,CD66+ Enterocyte,1012.83333333333333333333,6077
+VHMColon,sigmoid colon,CD7+ Immune,62.16666666666666666667,373
+VHMColon,sigmoid colon,CD8+ T,950.66666666666666666667,5704
+VHMColon,sigmoid colon,Cycling TA,823.83333333333333333333,4943
+VHMColon,sigmoid colon,DC,582.5,3495
+VHMColon,sigmoid colon,Endothelial,1957.33333333333333333333,11744
+VHMColon,sigmoid colon,Enterocyte,3749.5,22497
+VHMColon,sigmoid colon,Goblet,2607.83333333333333333333,15647
+VHMColon,sigmoid colon,ICC,390,2340
+VHMColon,sigmoid colon,Lymphatic,857.16666666666666666667,5143
+VHMColon,sigmoid colon,M1 Macrophage,202.5,1215
+VHMColon,sigmoid colon,M2 Macrophage,1652,9912
+VHMColon,sigmoid colon,MUC1+ Enterocyte,226.83333333333333333333,1361
+VHMColon,sigmoid colon,NK,58.16666666666666666667,349
+VHMColon,sigmoid colon,Nerve,958.33333333333333333333,5750
+VHMColon,sigmoid colon,Neuroendocrine,162.33333333333333333333,974
+VHMColon,sigmoid colon,Neutrophil,134.5,807
+VHMColon,sigmoid colon,Paneth,1,6
+VHMColon,sigmoid colon,Plasma,1527.83333333333333333333,9167
+VHMColon,sigmoid colon,Smooth muscle,7353.16666666666666666667,44119
+VHMColon,sigmoid colon,Stroma,3468.83333333333333333333,20813
+VHMColon,sigmoid colon,TA,750.66666666666666666667,4504
+VHMColon,transverse colon,B,206.8,1034
+VHMColon,transverse colon,CD4+ T cell,987.4,4937
+VHMColon,transverse colon,CD57+ Enterocyte,7.4,37
+VHMColon,transverse colon,CD66+ Enterocyte,1501.8,7509
+VHMColon,transverse colon,CD7+ Immune,27.6,138
+VHMColon,transverse colon,CD8+ T,1011.6,5058
+VHMColon,transverse colon,Cycling TA,590.2,2951
+VHMColon,transverse colon,DC,362,1810
+VHMColon,transverse colon,Endothelial,1954,9770
+VHMColon,transverse colon,Enterocyte,3758.2,18791
+VHMColon,transverse colon,Goblet,1485.2,7426
+VHMColon,transverse colon,ICC,365.8,1829
+VHMColon,transverse colon,Lymphatic,725.6,3628
+VHMColon,transverse colon,M1 Macrophage,404.4,2022
+VHMColon,transverse colon,M2 Macrophage,1142,5710
+VHMColon,transverse colon,MUC1+ Enterocyte,193.8,969
+VHMColon,transverse colon,NK,42.4,212
+VHMColon,transverse colon,Nerve,710,3550
+VHMColon,transverse colon,Neuroendocrine,58.2,291
+VHMColon,transverse colon,Neutrophil,114.4,572
+VHMColon,transverse colon,Paneth,1.4,7
+VHMColon,transverse colon,Plasma,1436.6,7183
+VHMColon,transverse colon,Smooth muscle,3694.2,18471
+VHMColon,transverse colon,Stroma,2332.8,11664
+VHMColon,transverse colon,TA,280.6,1403
 VHMHeart,aortic valve,B cell,23.21052631578947368421,882
 VHMHeart,aortic valve,CD14-positive monocyte,42.35714285714285714286,1186
 VHMHeart,aortic valve,"CD14-positive, CD16-positive monocyte",66.20588235294117647059,2251
@@ -1985,8 +2059,7 @@ VHMRightKidney,renal pyramid,Proximal Tubule Epithelial Segment 3,21.5,43
 VHMRightKidney,renal pyramid,T,1,1
 VHMRightKidney,renal pyramid,Vascular Smooth Muscle / Pericyte,2,4
 VHMSkin,skin of body,Adipocyte,19,19
-VHMSkin,skin of body,"CD68 
-/ Macrophage",106.2,531
+VHMSkin,skin of body,CD68 / Macrophage,106.2,531
 VHMSkin,skin of body,Endothelial cell,1004,1004
 VHMSkin,skin of body,Epithelial cell,502,502
 VHMSkin,skin of body,Epithelial cell (keratinocyte),1930,1930
@@ -1999,128 +2072,128 @@ VHMSkin,skin of body,Other,396,396
 VHMSkin,skin of body,T-Killer,38.6,193
 VHMSkin,skin of body,T-helper,1027,5135
 VHMSkin,skin of body,T-reg,127.8,639
-VHMSmallIntestine,ascending part of duodenum,B,82.33333333333333333333,247
-VHMSmallIntestine,ascending part of duodenum,CD4+ T cell,1790,5370
-VHMSmallIntestine,ascending part of duodenum,CD57+ Enterocyte,40.66666666666666666667,122
-VHMSmallIntestine,ascending part of duodenum,CD66+ Enterocyte,225.66666666666666666667,677
-VHMSmallIntestine,ascending part of duodenum,CD7+ Immune,259.33333333333333333333,778
-VHMSmallIntestine,ascending part of duodenum,CD8+ T,2963.33333333333333333333,8890
-VHMSmallIntestine,ascending part of duodenum,Cycling TA,625,1875
-VHMSmallIntestine,ascending part of duodenum,DC,429.66666666666666666667,1289
-VHMSmallIntestine,ascending part of duodenum,Endothelial,3945.66666666666666666667,11837
-VHMSmallIntestine,ascending part of duodenum,Enterocyte,10326.33333333333333333333,30979
-VHMSmallIntestine,ascending part of duodenum,Goblet,2208.33333333333333333333,6625
-VHMSmallIntestine,ascending part of duodenum,ICC,660.33333333333333333333,1981
-VHMSmallIntestine,ascending part of duodenum,Lymphatic,581.66666666666666666667,1745
-VHMSmallIntestine,ascending part of duodenum,M1 Macrophage,587.66666666666666666667,1763
-VHMSmallIntestine,ascending part of duodenum,M2 Macrophage,1847.33333333333333333333,5542
-VHMSmallIntestine,ascending part of duodenum,MUC1+ Enterocyte,615,1845
-VHMSmallIntestine,ascending part of duodenum,NK,20,60
-VHMSmallIntestine,ascending part of duodenum,Nerve,2031.33333333333333333333,6094
-VHMSmallIntestine,ascending part of duodenum,Neuroendocrine,363,1089
-VHMSmallIntestine,ascending part of duodenum,Neutrophil,235,705
-VHMSmallIntestine,ascending part of duodenum,Paneth,575,1725
-VHMSmallIntestine,ascending part of duodenum,Plasma,2600.66666666666666666667,7802
-VHMSmallIntestine,ascending part of duodenum,Smooth muscle,7340.66666666666666666667,22022
-VHMSmallIntestine,ascending part of duodenum,Stroma,4840,14520
-VHMSmallIntestine,ascending part of duodenum,TA,670,2010
-VHMSmallIntestine,descending part of duodenum,B,81.66666666666666666667,245
-VHMSmallIntestine,descending part of duodenum,CD4+ T cell,2888.66666666666666666667,8666
-VHMSmallIntestine,descending part of duodenum,CD57+ Enterocyte,130.33333333333333333333,391
-VHMSmallIntestine,descending part of duodenum,CD66+ Enterocyte,424.33333333333333333333,1273
-VHMSmallIntestine,descending part of duodenum,CD7+ Immune,373,1119
-VHMSmallIntestine,descending part of duodenum,CD8+ T,5785,17355
-VHMSmallIntestine,descending part of duodenum,Cycling TA,1276.33333333333333333333,3829
-VHMSmallIntestine,descending part of duodenum,DC,500,1500
-VHMSmallIntestine,descending part of duodenum,Endothelial,4496.33333333333333333333,13489
-VHMSmallIntestine,descending part of duodenum,Enterocyte,17723.66666666666666666667,53171
-VHMSmallIntestine,descending part of duodenum,Goblet,3759.66666666666666666667,11279
-VHMSmallIntestine,descending part of duodenum,ICC,265,795
-VHMSmallIntestine,descending part of duodenum,Lymphatic,929.66666666666666666667,2789
-VHMSmallIntestine,descending part of duodenum,M1 Macrophage,1208,3624
-VHMSmallIntestine,descending part of duodenum,M2 Macrophage,2206.66666666666666666667,6620
-VHMSmallIntestine,descending part of duodenum,MUC1+ Enterocyte,163,489
-VHMSmallIntestine,descending part of duodenum,NK,86.66666666666666666667,260
-VHMSmallIntestine,descending part of duodenum,Nerve,1007.33333333333333333333,3022
-VHMSmallIntestine,descending part of duodenum,Neuroendocrine,688.33333333333333333333,2065
-VHMSmallIntestine,descending part of duodenum,Neutrophil,159.66666666666666666667,479
-VHMSmallIntestine,descending part of duodenum,Paneth,821.33333333333333333333,2464
-VHMSmallIntestine,descending part of duodenum,Plasma,4789.66666666666666666667,14369
-VHMSmallIntestine,descending part of duodenum,Smooth muscle,4965.33333333333333333333,14896
-VHMSmallIntestine,descending part of duodenum,Stroma,3915,11745
-VHMSmallIntestine,descending part of duodenum,TA,919.66666666666666666667,2759
-VHMSmallIntestine,distal part of ileum,B,88.66666666666666666667,266
-VHMSmallIntestine,distal part of ileum,CD4+ T cell,2098,6294
-VHMSmallIntestine,distal part of ileum,CD57+ Enterocyte,4,12
-VHMSmallIntestine,distal part of ileum,CD66+ Enterocyte,101.33333333333333333333,304
-VHMSmallIntestine,distal part of ileum,CD7+ Immune,140.66666666666666666667,422
-VHMSmallIntestine,distal part of ileum,CD8+ T,4745,14235
-VHMSmallIntestine,distal part of ileum,Cycling TA,925,2775
-VHMSmallIntestine,distal part of ileum,DC,427.66666666666666666667,1283
-VHMSmallIntestine,distal part of ileum,Endothelial,3867.33333333333333333333,11602
-VHMSmallIntestine,distal part of ileum,Enterocyte,11354,34062
-VHMSmallIntestine,distal part of ileum,Goblet,4618.66666666666666666667,13856
-VHMSmallIntestine,distal part of ileum,ICC,582,1746
-VHMSmallIntestine,distal part of ileum,Lymphatic,859.33333333333333333333,2578
-VHMSmallIntestine,distal part of ileum,M1 Macrophage,603,1809
-VHMSmallIntestine,distal part of ileum,M2 Macrophage,1790.33333333333333333333,5371
-VHMSmallIntestine,distal part of ileum,MUC1+ Enterocyte,19.33333333333333333333,58
-VHMSmallIntestine,distal part of ileum,NK,23.66666666666666666667,71
-VHMSmallIntestine,distal part of ileum,Nerve,1833,5499
-VHMSmallIntestine,distal part of ileum,Neuroendocrine,430,1290
-VHMSmallIntestine,distal part of ileum,Neutrophil,143.66666666666666666667,431
-VHMSmallIntestine,distal part of ileum,Paneth,1475,4425
-VHMSmallIntestine,distal part of ileum,Plasma,2803,8409
-VHMSmallIntestine,distal part of ileum,Smooth muscle,7738,23214
-VHMSmallIntestine,distal part of ileum,Stroma,3971.33333333333333333333,11914
-VHMSmallIntestine,distal part of ileum,TA,558.33333333333333333333,1675
-VHMSmallIntestine,horizontal part of duodenum,B,82.33333333333333333333,247
-VHMSmallIntestine,horizontal part of duodenum,CD4+ T cell,1790,5370
-VHMSmallIntestine,horizontal part of duodenum,CD57+ Enterocyte,40.66666666666666666667,122
-VHMSmallIntestine,horizontal part of duodenum,CD66+ Enterocyte,225.66666666666666666667,677
-VHMSmallIntestine,horizontal part of duodenum,CD7+ Immune,259.33333333333333333333,778
-VHMSmallIntestine,horizontal part of duodenum,CD8+ T,2963.33333333333333333333,8890
-VHMSmallIntestine,horizontal part of duodenum,Cycling TA,625,1875
-VHMSmallIntestine,horizontal part of duodenum,DC,429.66666666666666666667,1289
-VHMSmallIntestine,horizontal part of duodenum,Endothelial,3945.66666666666666666667,11837
-VHMSmallIntestine,horizontal part of duodenum,Enterocyte,10326.33333333333333333333,30979
-VHMSmallIntestine,horizontal part of duodenum,Goblet,2208.33333333333333333333,6625
-VHMSmallIntestine,horizontal part of duodenum,ICC,660.33333333333333333333,1981
-VHMSmallIntestine,horizontal part of duodenum,Lymphatic,581.66666666666666666667,1745
-VHMSmallIntestine,horizontal part of duodenum,M1 Macrophage,587.66666666666666666667,1763
-VHMSmallIntestine,horizontal part of duodenum,M2 Macrophage,1847.33333333333333333333,5542
-VHMSmallIntestine,horizontal part of duodenum,MUC1+ Enterocyte,615,1845
-VHMSmallIntestine,horizontal part of duodenum,NK,20,60
-VHMSmallIntestine,horizontal part of duodenum,Nerve,2031.33333333333333333333,6094
-VHMSmallIntestine,horizontal part of duodenum,Neuroendocrine,363,1089
-VHMSmallIntestine,horizontal part of duodenum,Neutrophil,235,705
-VHMSmallIntestine,horizontal part of duodenum,Paneth,575,1725
-VHMSmallIntestine,horizontal part of duodenum,Plasma,2600.66666666666666666667,7802
-VHMSmallIntestine,horizontal part of duodenum,Smooth muscle,7340.66666666666666666667,22022
-VHMSmallIntestine,horizontal part of duodenum,Stroma,4840,14520
-VHMSmallIntestine,horizontal part of duodenum,TA,670,2010
-VHMSmallIntestine,jejunum,B,80,240
-VHMSmallIntestine,jejunum,CD4+ T cell,2407.66666666666666666667,7223
-VHMSmallIntestine,jejunum,CD57+ Enterocyte,3.33333333333333333333,10
-VHMSmallIntestine,jejunum,CD66+ Enterocyte,225.66666666666666666667,677
-VHMSmallIntestine,jejunum,CD7+ Immune,76.66666666666666666667,230
-VHMSmallIntestine,jejunum,CD8+ T,3594.33333333333333333333,10783
-VHMSmallIntestine,jejunum,Cycling TA,700.33333333333333333333,2101
-VHMSmallIntestine,jejunum,DC,444.66666666666666666667,1334
-VHMSmallIntestine,jejunum,Endothelial,3133.66666666666666666667,9401
-VHMSmallIntestine,jejunum,Enterocyte,7367.66666666666666666667,22103
-VHMSmallIntestine,jejunum,Goblet,2050.33333333333333333333,6151
-VHMSmallIntestine,jejunum,ICC,324.33333333333333333333,973
-VHMSmallIntestine,jejunum,Lymphatic,748.66666666666666666667,2246
-VHMSmallIntestine,jejunum,M1 Macrophage,565.66666666666666666667,1697
-VHMSmallIntestine,jejunum,M2 Macrophage,1785,5355
-VHMSmallIntestine,jejunum,MUC1+ Enterocyte,32.66666666666666666667,98
-VHMSmallIntestine,jejunum,NK,12.33333333333333333333,37
-VHMSmallIntestine,jejunum,Nerve,1835.33333333333333333333,5506
-VHMSmallIntestine,jejunum,Neuroendocrine,239.66666666666666666667,719
-VHMSmallIntestine,jejunum,Neutrophil,583,1749
-VHMSmallIntestine,jejunum,Paneth,778.33333333333333333333,2335
-VHMSmallIntestine,jejunum,Plasma,2131.66666666666666666667,6395
-VHMSmallIntestine,jejunum,Smooth muscle,9184.33333333333333333333,27553
-VHMSmallIntestine,jejunum,Stroma,4392.66666666666666666667,13178
-VHMSmallIntestine,jejunum,TA,281.33333333333333333333,844
+VHMSmallIntestine,ascending part of duodenum,B,59,354
+VHMSmallIntestine,ascending part of duodenum,CD4+ T cell,1853.66666666666666666667,11122
+VHMSmallIntestine,ascending part of duodenum,CD57+ Enterocyte,30.66666666666666666667,184
+VHMSmallIntestine,ascending part of duodenum,CD66+ Enterocyte,301.33333333333333333333,1808
+VHMSmallIntestine,ascending part of duodenum,CD7+ Immune,286.5,1719
+VHMSmallIntestine,ascending part of duodenum,CD8+ T,5172,31032
+VHMSmallIntestine,ascending part of duodenum,Cycling TA,647,3882
+VHMSmallIntestine,ascending part of duodenum,DC,399,2394
+VHMSmallIntestine,ascending part of duodenum,Endothelial,3674.5,22047
+VHMSmallIntestine,ascending part of duodenum,Enterocyte,11743.16666666666666666667,70459
+VHMSmallIntestine,ascending part of duodenum,Goblet,2496.66666666666666666667,14980
+VHMSmallIntestine,ascending part of duodenum,ICC,692,4152
+VHMSmallIntestine,ascending part of duodenum,Lymphatic,883.66666666666666666667,5302
+VHMSmallIntestine,ascending part of duodenum,M1 Macrophage,399.16666666666666666667,2395
+VHMSmallIntestine,ascending part of duodenum,M2 Macrophage,1748,10488
+VHMSmallIntestine,ascending part of duodenum,MUC1+ Enterocyte,338.83333333333333333333,2033
+VHMSmallIntestine,ascending part of duodenum,NK,43.33333333333333333333,260
+VHMSmallIntestine,ascending part of duodenum,Nerve,1365.83333333333333333333,8195
+VHMSmallIntestine,ascending part of duodenum,Neuroendocrine,315.66666666666666666667,1894
+VHMSmallIntestine,ascending part of duodenum,Neutrophil,220.66666666666666666667,1324
+VHMSmallIntestine,ascending part of duodenum,Paneth,606.33333333333333333333,3638
+VHMSmallIntestine,ascending part of duodenum,Plasma,2784.5,16707
+VHMSmallIntestine,ascending part of duodenum,Smooth muscle,5212,31272
+VHMSmallIntestine,ascending part of duodenum,Stroma,3410.5,20463
+VHMSmallIntestine,ascending part of duodenum,TA,772.66666666666666666667,4636
+VHMSmallIntestine,descending part of duodenum,B,43.83333333333333333333,263
+VHMSmallIntestine,descending part of duodenum,CD4+ T cell,2132.16666666666666666667,12793
+VHMSmallIntestine,descending part of duodenum,CD57+ Enterocyte,187,1122
+VHMSmallIntestine,descending part of duodenum,CD66+ Enterocyte,293.66666666666666666667,1762
+VHMSmallIntestine,descending part of duodenum,CD7+ Immune,240.5,1443
+VHMSmallIntestine,descending part of duodenum,CD8+ T,3828.33333333333333333333,22970
+VHMSmallIntestine,descending part of duodenum,Cycling TA,982.5,5895
+VHMSmallIntestine,descending part of duodenum,DC,367.5,2205
+VHMSmallIntestine,descending part of duodenum,Endothelial,3713.5,22281
+VHMSmallIntestine,descending part of duodenum,Enterocyte,13295.5,79773
+VHMSmallIntestine,descending part of duodenum,Goblet,2683.33333333333333333333,16100
+VHMSmallIntestine,descending part of duodenum,ICC,528.66666666666666666667,3172
+VHMSmallIntestine,descending part of duodenum,Lymphatic,958.16666666666666666667,5749
+VHMSmallIntestine,descending part of duodenum,M1 Macrophage,693.33333333333333333333,4160
+VHMSmallIntestine,descending part of duodenum,M2 Macrophage,1985.33333333333333333333,11912
+VHMSmallIntestine,descending part of duodenum,MUC1+ Enterocyte,800.16666666666666666667,4801
+VHMSmallIntestine,descending part of duodenum,NK,86.5,519
+VHMSmallIntestine,descending part of duodenum,Nerve,1078.33333333333333333333,6470
+VHMSmallIntestine,descending part of duodenum,Neuroendocrine,462.5,2775
+VHMSmallIntestine,descending part of duodenum,Neutrophil,323,1938
+VHMSmallIntestine,descending part of duodenum,Paneth,592.66666666666666666667,3556
+VHMSmallIntestine,descending part of duodenum,Plasma,3267.16666666666666666667,19603
+VHMSmallIntestine,descending part of duodenum,Smooth muscle,4615.16666666666666666667,27691
+VHMSmallIntestine,descending part of duodenum,Stroma,3713.66666666666666666667,22282
+VHMSmallIntestine,descending part of duodenum,TA,983.66666666666666666667,5902
+VHMSmallIntestine,distal part of ileum,B,1986.66666666666666666667,11920
+VHMSmallIntestine,distal part of ileum,CD4+ T cell,3052.66666666666666666667,18316
+VHMSmallIntestine,distal part of ileum,CD57+ Enterocyte,11.66666666666666666667,70
+VHMSmallIntestine,distal part of ileum,CD66+ Enterocyte,519.33333333333333333333,3116
+VHMSmallIntestine,distal part of ileum,CD7+ Immune,115.16666666666666666667,691
+VHMSmallIntestine,distal part of ileum,CD8+ T,5251.16666666666666666667,31507
+VHMSmallIntestine,distal part of ileum,Cycling TA,839.66666666666666666667,5038
+VHMSmallIntestine,distal part of ileum,DC,778.83333333333333333333,4673
+VHMSmallIntestine,distal part of ileum,Endothelial,3967.16666666666666666667,23803
+VHMSmallIntestine,distal part of ileum,Enterocyte,9561.33333333333333333333,57368
+VHMSmallIntestine,distal part of ileum,Goblet,3827.5,22965
+VHMSmallIntestine,distal part of ileum,ICC,974.66666666666666666667,5848
+VHMSmallIntestine,distal part of ileum,Lymphatic,1203.33333333333333333333,7220
+VHMSmallIntestine,distal part of ileum,M1 Macrophage,584,3504
+VHMSmallIntestine,distal part of ileum,M2 Macrophage,2255.5,13533
+VHMSmallIntestine,distal part of ileum,MUC1+ Enterocyte,157.66666666666666666667,946
+VHMSmallIntestine,distal part of ileum,NK,138.83333333333333333333,833
+VHMSmallIntestine,distal part of ileum,Nerve,1519.66666666666666666667,9118
+VHMSmallIntestine,distal part of ileum,Neuroendocrine,291.83333333333333333333,1751
+VHMSmallIntestine,distal part of ileum,Neutrophil,283.5,1701
+VHMSmallIntestine,distal part of ileum,Paneth,994.33333333333333333333,5966
+VHMSmallIntestine,distal part of ileum,Plasma,2263.16666666666666666667,13579
+VHMSmallIntestine,distal part of ileum,Smooth muscle,7054.5,42327
+VHMSmallIntestine,distal part of ileum,Stroma,4181.33333333333333333333,25088
+VHMSmallIntestine,distal part of ileum,TA,839.83333333333333333333,5039
+VHMSmallIntestine,horizontal part of duodenum,B,59,354
+VHMSmallIntestine,horizontal part of duodenum,CD4+ T cell,1853.66666666666666666667,11122
+VHMSmallIntestine,horizontal part of duodenum,CD57+ Enterocyte,30.66666666666666666667,184
+VHMSmallIntestine,horizontal part of duodenum,CD66+ Enterocyte,301.33333333333333333333,1808
+VHMSmallIntestine,horizontal part of duodenum,CD7+ Immune,286.5,1719
+VHMSmallIntestine,horizontal part of duodenum,CD8+ T,5172,31032
+VHMSmallIntestine,horizontal part of duodenum,Cycling TA,647,3882
+VHMSmallIntestine,horizontal part of duodenum,DC,399,2394
+VHMSmallIntestine,horizontal part of duodenum,Endothelial,3674.5,22047
+VHMSmallIntestine,horizontal part of duodenum,Enterocyte,11743.16666666666666666667,70459
+VHMSmallIntestine,horizontal part of duodenum,Goblet,2496.66666666666666666667,14980
+VHMSmallIntestine,horizontal part of duodenum,ICC,692,4152
+VHMSmallIntestine,horizontal part of duodenum,Lymphatic,883.66666666666666666667,5302
+VHMSmallIntestine,horizontal part of duodenum,M1 Macrophage,399.16666666666666666667,2395
+VHMSmallIntestine,horizontal part of duodenum,M2 Macrophage,1748,10488
+VHMSmallIntestine,horizontal part of duodenum,MUC1+ Enterocyte,338.83333333333333333333,2033
+VHMSmallIntestine,horizontal part of duodenum,NK,43.33333333333333333333,260
+VHMSmallIntestine,horizontal part of duodenum,Nerve,1365.83333333333333333333,8195
+VHMSmallIntestine,horizontal part of duodenum,Neuroendocrine,315.66666666666666666667,1894
+VHMSmallIntestine,horizontal part of duodenum,Neutrophil,220.66666666666666666667,1324
+VHMSmallIntestine,horizontal part of duodenum,Paneth,606.33333333333333333333,3638
+VHMSmallIntestine,horizontal part of duodenum,Plasma,2784.5,16707
+VHMSmallIntestine,horizontal part of duodenum,Smooth muscle,5212,31272
+VHMSmallIntestine,horizontal part of duodenum,Stroma,3410.5,20463
+VHMSmallIntestine,horizontal part of duodenum,TA,772.66666666666666666667,4636
+VHMSmallIntestine,jejunum,B,67.66666666666666666667,406
+VHMSmallIntestine,jejunum,CD4+ T cell,2760.83333333333333333333,16565
+VHMSmallIntestine,jejunum,CD57+ Enterocyte,18.33333333333333333333,110
+VHMSmallIntestine,jejunum,CD66+ Enterocyte,694.5,4167
+VHMSmallIntestine,jejunum,CD7+ Immune,282,1692
+VHMSmallIntestine,jejunum,CD8+ T,9905,59430
+VHMSmallIntestine,jejunum,Cycling TA,901.66666666666666666667,5410
+VHMSmallIntestine,jejunum,DC,426.66666666666666666667,2560
+VHMSmallIntestine,jejunum,Endothelial,4311.5,25869
+VHMSmallIntestine,jejunum,Enterocyte,16975.66666666666666666667,101854
+VHMSmallIntestine,jejunum,Goblet,2852.66666666666666666667,17116
+VHMSmallIntestine,jejunum,ICC,525.33333333333333333333,3152
+VHMSmallIntestine,jejunum,Lymphatic,1121.83333333333333333333,6731
+VHMSmallIntestine,jejunum,M1 Macrophage,509.83333333333333333333,3059
+VHMSmallIntestine,jejunum,M2 Macrophage,2063.66666666666666666667,12382
+VHMSmallIntestine,jejunum,MUC1+ Enterocyte,118,708
+VHMSmallIntestine,jejunum,NK,236.66666666666666666667,1420
+VHMSmallIntestine,jejunum,Nerve,1448.83333333333333333333,8693
+VHMSmallIntestine,jejunum,Neuroendocrine,371.66666666666666666667,2230
+VHMSmallIntestine,jejunum,Neutrophil,353.33333333333333333333,2120
+VHMSmallIntestine,jejunum,Paneth,849.16666666666666666667,5095
+VHMSmallIntestine,jejunum,Plasma,2825.16666666666666666667,16951
+VHMSmallIntestine,jejunum,Smooth muscle,7494.5,44967
+VHMSmallIntestine,jejunum,Stroma,4462.83333333333333333333,26777
+VHMSmallIntestine,jejunum,TA,551.83333333333333333333,3311
