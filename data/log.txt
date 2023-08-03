@@ -2,6 +2,9 @@
 > ctpop-data-processor@1.0.0 start
 > node ./src/main.js clean
 
+From https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data
+ * branch            main       -> FETCH_HEAD
+Already up to date.
 From https://github.com/hubmapconsortium/tissue-bar-graphs
  * branch            static     -> FETCH_HEAD
 Already up to date.
@@ -9,71 +12,10 @@ Already up to date.
 > ctpop-data-processor@1.0.0 generate:registrations
 > node ./src/gen-registrations.js
 
-Investigate HBM573.TTLG.748, https://entity.api.hubmapconsortium.org/entities/4325cc3fefa49b6b6d099527bb01bdab
-Investigate HuBMAP: HBM573.TTLG.748
-Investigate HBM295.SWJJ.888, https://entity.api.hubmapconsortium.org/entities/34e59e465916de982dbd2444fad3277a
-Investigate HuBMAP: HBM295.SWJJ.888
-Investigate HBM865.VDXC.862, https://entity.api.hubmapconsortium.org/entities/6da8a421d9dc69e25764adb94c3ab39b
-Investigate HuBMAP: HBM865.VDXC.862
-Investigate HBM288.BBKK.828, https://entity.api.hubmapconsortium.org/entities/2b8dcc2d1a81515562b8d3ed6e221586
-Investigate HuBMAP: HBM288.BBKK.828
-Investigate HBM565.LSMX.645, https://entity.api.hubmapconsortium.org/entities/7055f185034f03b22983b8950c783905
-Investigate HuBMAP: HBM565.LSMX.645
-Investigate HBM832.ZSQJ.442, https://entity.api.hubmapconsortium.org/entities/b33d1dff93bd4a19fb0e7280ad180928
-Investigate HuBMAP: HBM832.ZSQJ.442
-Investigate HBM363.CKHC.928, https://entity.api.hubmapconsortium.org/entities/4d09d8397267240454e948505d22b5ff
-Investigate HuBMAP: HBM363.CKHC.928
-Investigate HBM974.CNWK.327, https://entity.api.hubmapconsortium.org/entities/87683a35dac84b19c757a72ac9ebe7d6
-Investigate HuBMAP: HBM974.CNWK.327
-Investigate HBM242.LSCK.393, https://entity.api.hubmapconsortium.org/entities/2b269613d21a845988d12a344fa89e54
-Investigate HuBMAP: HBM242.LSCK.393
-Investigate HBM852.NKST.623, https://entity.api.hubmapconsortium.org/entities/acdb17a3cd92f28a6eb8ab5904c37dd3
-Investigate HuBMAP: HBM852.NKST.623
-Investigate HBM627.KDHD.293, https://entity.api.hubmapconsortium.org/entities/3ed9afdc57afaf994670afccb55f3aad
-Investigate HuBMAP: HBM627.KDHD.293
-Investigate HBM235.VKNJ.237, https://entity.api.hubmapconsortium.org/entities/0cd6c870d7af957300eb309f4e98fc7b
-Investigate HuBMAP: HBM235.VKNJ.237
-Investigate HBM626.VJMB.795, https://entity.api.hubmapconsortium.org/entities/76fd5ac2f9eb53ceae50f0440a9cef9e
-Investigate HuBMAP: HBM626.VJMB.795
-Investigate HBM827.SJBP.777, https://entity.api.hubmapconsortium.org/entities/60ca84d81d1d5e0f3628311bcd39d04c
-Investigate HuBMAP: HBM827.SJBP.777
-Investigate HBM395.NQKF.566, https://entity.api.hubmapconsortium.org/entities/b72a7631dbd906e64dc1bcdd754c0aba
-Investigate HuBMAP: HBM395.NQKF.566
-Investigate HBM569.NBHZ.832, https://entity.api.hubmapconsortium.org/entities/3135de0b9f359f09f9e6891784b88cae
-Investigate HuBMAP: HBM569.NBHZ.832
-Investigate HBM297.MZZX.824, https://entity.api.hubmapconsortium.org/entities/2ea69d0db6a46a1fca6a6a7049856edb
-Investigate HuBMAP: HBM297.MZZX.824
-Investigate HBM823.RJNG.364, https://entity.api.hubmapconsortium.org/entities/2a70c0c2648986e08b8c5b81e6561f68
-Investigate HuBMAP: HBM823.RJNG.364
-Investigate HBM447.MNKW.592, https://entity.api.hubmapconsortium.org/entities/7de2b4da1bcc1df5eb305cedb30a20c6
-Investigate HuBMAP: HBM447.MNKW.592
-Investigate HBM488.CNNZ.544, https://entity.api.hubmapconsortium.org/entities/251e2e18951b2be556fcb756f1806f03
-Investigate HuBMAP: HBM488.CNNZ.544
-Investigate HBM238.GTNW.259, https://entity.api.hubmapconsortium.org/entities/a50c780f728db8108ff92926b50670d5
-Investigate HuBMAP: HBM238.GTNW.259
-Investigate HBM666.NDQZ.365, https://entity.api.hubmapconsortium.org/entities/c21fb09022b6695ba8e29bf82e5315e9
-Investigate HuBMAP: HBM666.NDQZ.365
-Investigate HBM285.VFDT.966, https://entity.api.hubmapconsortium.org/entities/5058beb6cdf7e9445d3e3d944822762e
-Investigate HuBMAP: HBM285.VFDT.966
-Investigate HBM772.TKCN.287, https://entity.api.hubmapconsortium.org/entities/c1a9f7ac0babf65af4a280846c91b7f7
-Investigate HuBMAP: HBM772.TKCN.287
-Investigate HBM465.ZNVW.226, https://entity.api.hubmapconsortium.org/entities/10159dd4cc20e6ec4a61e6f289bfa61f
-Investigate HuBMAP: HBM465.ZNVW.226
-Investigate HBM824.XGWZ.857, https://entity.api.hubmapconsortium.org/entities/b80365d202504a722373d912eb35c695
-Investigate HuBMAP: HBM824.XGWZ.857
-Investigate HBM363.LLBL.252, https://entity.api.hubmapconsortium.org/entities/fe1fc10cedb9ef2f97986da71c42a1b7
-Investigate HuBMAP: HBM363.LLBL.252
-Investigate HBM679.NNNK.283, https://entity.api.hubmapconsortium.org/entities/365739c4dd46f4b7b9b44ede902677fb
-Investigate HuBMAP: HBM679.NNNK.283
-Investigate HBM535.QNTP.246, https://entity.api.hubmapconsortium.org/entities/e54d820ce002802fa5964b2a2ee841bb
-Investigate HuBMAP: HBM535.QNTP.246
-Investigate HBM749.SMWP.555, https://entity.api.hubmapconsortium.org/entities/fbb2c6cd239b1978e74ffd00e93ff7db
-Investigate HuBMAP: HBM749.SMWP.555
-Investigate HBM573.SWGH.988, https://entity.api.hubmapconsortium.org/entities/852dae577b0393aa888f8c3c66cd38ac
-Investigate HuBMAP: HBM573.SWGH.988
-Investigate HBM473.QGDG.848, https://entity.api.hubmapconsortium.org/entities/819a5b3b5c325452ae3c650e50209125
-Investigate HuBMAP: HBM473.QGDG.848
-There was some problem saving out at least one dataset. Saved: 417 Expected: 449
+
+> ctpop-data-processor@1.0.0 generate:rui-location-cell-summaries
+> node ./src/gen-rui-location-cell-summaries.js
+
 
 > ctpop-data-processor@1.0.0 generate:dataset-cell-summaries
 > node ./src/gen-cell-summaries.js
@@ -146,6 +88,9 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM227.SQCR.264
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM232.KNBD.954
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM232.KNBD.954
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM233.TRXX.696
+Multiple matches for HBM238.ZKPC.934: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM238.ZKPC.934.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM238.ZKPC.934.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM239.XXRN.647
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM239.XXRN.647
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM245.VSKK.846
@@ -171,6 +116,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM277.KCLM.554
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM277.NJQB.375
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM283.GHKJ.532
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM283.GHKJ.532
+Multiple matches for HBM284.SBPR.357: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM284.SBPR.357.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM284.SBPR.357.csv
+Multiple matches for HBM284.SBPR.357: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM284.SBPR.357.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM284.SBPR.357.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM284.WKTD.796
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM284.WKTD.796
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM285.HKKN.274
@@ -180,6 +131,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM296.PCFN.989
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM298.KXFW.694
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM298.KXFW.694
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM325.QBFF.466
+Multiple matches for HBM334.QWFV.953: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM334.QWFV.953.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM334.QWFV.953.csv
+Multiple matches for HBM334.QWFV.953: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM334.QWFV.953.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM334.QWFV.953.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM335.XXBG.857
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM335.XXBG.857
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM342.FQXQ.335
@@ -190,6 +147,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM343.FLQM.896
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM344.HZNN.755
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM352.FPGR.328
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM352.FPGR.328
+Multiple matches for HBM353.NZVQ.793: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM353.NZVQ.793.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM353.NZVQ.793.csv
+Multiple matches for HBM353.NZVQ.793: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM353.NZVQ.793.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM353.NZVQ.793.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM359.CQKZ.649
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM363.NSBV.432
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM363.NSBV.432
@@ -224,6 +187,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM393.NWNB.684
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM393.NWNB.684
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM394.VPCK.634
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM394.VPCK.634
+Multiple matches for HBM394.VSKR.883: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM394.VSKR.883.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM394.VSKR.883.csv
+Multiple matches for HBM394.VSKR.883: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM394.VSKR.883.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM394.VSKR.883.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM396.BTXQ.696
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM396.JHNS.692
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM396.JHNS.692
@@ -232,6 +201,9 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM396.QSCB.763
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM397.WXXH.736
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM398.HXZL.642
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM398.HXZL.642
+Multiple matches for HBM398.NCVN.256: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM398.NCVN.256.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM398.NCVN.256.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM398.ZSNW.578
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM399.MWFF.783
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM399.MWFF.783
@@ -240,6 +212,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM422.MKWK.448
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM423.CFPF.283
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM424.HCKP.222
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM424.HCKP.222
+Multiple matches for HBM424.STVV.842: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM424.STVV.842.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM424.STVV.842.csv
+Multiple matches for HBM424.STVV.842: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM424.STVV.842.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM424.STVV.842.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM425.FXBW.445
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM425.MSBX.963
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM425.MSBX.963
@@ -250,6 +228,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM426.HLCN.236
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM426.HLCN.236
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM428.GPCD.698
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM429.GXGF.662
+Multiple matches for HBM429.LLRT.546: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM429.LLRT.546.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM429.LLRT.546.csv
+Multiple matches for HBM429.LLRT.546: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM429.LLRT.546.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM429.LLRT.546.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM433.XXZF.683
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM433.XXZF.683
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM434.GKNQ.757
@@ -261,6 +245,18 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM435.WLKV.658
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM436.QPXH.885
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM436.QPXH.885
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM437.FKCS.387
+Multiple matches for HBM438.JXJW.249: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM438.JXJW.249.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM438.JXJW.249.csv
+Multiple matches for HBM438.JXJW.249: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM438.JXJW.249.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM438.JXJW.249.csv
+Multiple matches for HBM439.WJDV.974: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM439.WJDV.974.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM439.WJDV.974.csv
+Multiple matches for HBM439.WJDV.974: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM439.WJDV.974.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM439.WJDV.974.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM442.GZFZ.522
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM442.HSFZ.838
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM442.HSFZ.838
@@ -268,6 +264,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM442.SBCR.983
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM442.SBCR.983
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM442.ZDMV.523
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM442.ZDMV.523
+Multiple matches for HBM443.LGZK.435: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM443.LGZK.435.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM443.LGZK.435.csv
+Multiple matches for HBM443.LGZK.435: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM443.LGZK.435.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM443.LGZK.435.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM443.TQKQ.624
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM443.TQKQ.624
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM446.FXTJ.757
@@ -279,11 +281,23 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM456.DHPD.338
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM458.TNQX.264
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM462.BPNZ.799
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM462.BPNZ.799
+Multiple matches for HBM462.JKCN.863: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM462.JKCN.863.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM462.JKCN.863.csv
+Multiple matches for HBM462.JKCN.863: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM462.JKCN.863.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM462.JKCN.863.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM464.RSZW.375
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM464.WWCM.665
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM464.WWCM.665
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM465.TRGV.468
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM466.RBPX.375
+Multiple matches for HBM466.XSKL.867: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM466.XSKL.867.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM466.XSKL.867.csv
+Multiple matches for HBM466.XSKL.867: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM466.XSKL.867.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM466.XSKL.867.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM469.MJBC.894
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM469.MJBC.894
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM473.BGMP.534
@@ -301,6 +315,9 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM482.FMFX.584
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM484.RGWP.797
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM488.CHLD.467
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM488.CHLD.467
+Multiple matches for HBM494.XDQW.356: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM494.XDQW.356.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM494.XDQW.356.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM495.KSXC.638
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM495.KSXC.638
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM497.CLTM.836
@@ -350,6 +367,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM572.JLDL.664
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM572.QTTV.726
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM572.RHTB.758
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM572.RHTB.758
+Multiple matches for HBM575.THQM.284: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM575.THQM.284.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM575.THQM.284.csv
+Multiple matches for HBM575.THQM.284: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM575.THQM.284.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM575.THQM.284.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM575.XFCT.276
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM575.XFCT.276
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM577.RMGR.698
@@ -361,9 +384,18 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM584.ZTDX.845
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM585.GLSD.853
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM587.JPLF.798
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM587.JPLF.798
+Multiple matches for HBM592.JGSQ.253: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM592.JGSQ.253.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM592.JGSQ.253.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM595.LMVW.678
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM595.WPQX.592
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM599.RZJF.272
+Multiple matches for HBM622.STKS.394: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM622.STKS.394.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM622.STKS.394.csv
+Multiple matches for HBM622.STKS.394: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM622.STKS.394.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM622.STKS.394.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM625.MGXD.586
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM625.SPXT.635
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM625.SPXT.635
@@ -387,6 +419,15 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM659.WFXT.729
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM659.WFXT.729
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM664.DZXQ.368
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM666.CMSP.669
+Multiple matches for HBM666.JCGS.862: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM666.JCGS.862.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM666.JCGS.862.csv
+Multiple matches for HBM666.RBCG.529: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM666.RBCG.529.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM666.RBCG.529.csv
+Multiple matches for HBM666.RBCG.529: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM666.RBCG.529.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM666.RBCG.529.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM668.RQWZ.595
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM672.FKLN.936
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM672.FKLN.936
@@ -394,10 +435,22 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM672.TRVG.967
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM673.WGZS.593
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM673.WGZS.593
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM674.XQFQ.364
+Multiple matches for HBM676.QVGZ.455: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM676.QVGZ.455.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM676.QVGZ.455.csv
+Multiple matches for HBM676.QVGZ.455: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM676.QVGZ.455.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM676.QVGZ.455.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM677.TRKR.869
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM677.TRKR.869
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM683.DSMM.562
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM683.DSMM.562
+Multiple matches for HBM683.NRPR.962: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM683.NRPR.962.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM683.NRPR.962.csv
+Multiple matches for HBM683.NRPR.962: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM683.NRPR.962.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM683.NRPR.962.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM684.LRVL.722
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM684.LRVL.722
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM685.TTXB.975
@@ -405,6 +458,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM685.XWPB.694
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM687.DTXP.559
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM687.FWNC.555
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM687.FWNC.555
+Multiple matches for HBM687.SJLD.889: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM687.SJLD.889.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM687.SJLD.889.csv
+Multiple matches for HBM687.SJLD.889: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM687.SJLD.889.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM687.SJLD.889.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM687.SQJV.939
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM687.SQJV.939
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM689.QPMR.542
@@ -430,6 +489,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM725.BRBB.566
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM725.BRBB.566
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM725.NLKP.539
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM726.PCFS.696
+Multiple matches for HBM727.DMKG.675: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM727.DMKG.675.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM727.DMKG.675.csv
+Multiple matches for HBM727.DMKG.675: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM727.DMKG.675.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM727.DMKG.675.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM727.FSWS.736
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM727.FSWS.736
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM727.SCWK.547
@@ -440,6 +505,15 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM729.KJWJ.742
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM729.KJWJ.742
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM729.TFXC.825
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM729.TFXC.825
+Multiple matches for HBM729.XTBN.693: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM729.XTBN.693.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM729.XTBN.693.csv
+Multiple matches for HBM729.XTBN.693: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM729.XTBN.693.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM729.XTBN.693.csv
+Multiple matches for HBM732.FZVZ.656: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM732.FZVZ.656.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM732.FZVZ.656.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM733.GBWP.269
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM733.GBWP.269
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM734.DSQM.939
@@ -447,9 +521,27 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM734.DSQM.939
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM734.NTJP.672
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM734.NTJP.672
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM735.LWRH.779
+Multiple matches for HBM739.HCWP.359: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM739.HCWP.359.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM739.HCWP.359.csv
+Multiple matches for HBM739.HCWP.359: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM739.HCWP.359.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM739.HCWP.359.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM742.GTJJ.334
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM742.GTJJ.334
+Multiple matches for HBM742.NHHQ.357: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM742.NHHQ.357.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM742.NHHQ.357.csv
+Multiple matches for HBM742.NHHQ.357: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM742.NHHQ.357.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM742.NHHQ.357.csv
+Multiple matches for HBM746.VTDZ.959: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM746.VTDZ.959.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM746.VTDZ.959.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM746.WTMD.298
+Multiple matches for HBM747.SPWK.779: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM747.SPWK.779.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM747.SPWK.779.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM747.WJZS.473
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM754.ZCMB.447
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM756.GKKR.272
@@ -475,12 +567,24 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM775.HGSK.536
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM775.JPHP.327
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM775.RVQX.376
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM775.RVQX.376
+Multiple matches for HBM785.FJVT.469: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM785.FJVT.469.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM785.FJVT.469.csv
+Multiple matches for HBM785.FJVT.469: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM785.FJVT.469.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM785.FJVT.469.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM788.MQNJ.698
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM788.QGNW.253
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM788.XWPV.347
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM788.XWPV.347
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM789.LTKV.978
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM789.LTKV.978
+Multiple matches for HBM792.FFJT.499: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM792.FFJT.499.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM792.FFJT.499.csv
+Multiple matches for HBM792.FFJT.499: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM792.FFJT.499.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM792.FFJT.499.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM793.TLPP.486
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM793.TLPP.486
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM793.VKVL.982
@@ -514,6 +618,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM837.RZPL.332
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM837.RZPL.332
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM843.CSNH.793
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM843.CSNH.793
+Multiple matches for HBM845.VMSZ.536: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM845.VMSZ.536.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM845.VMSZ.536.csv
+Multiple matches for HBM845.VMSZ.536: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM845.VMSZ.536.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM845.VMSZ.536.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM846.GQRK.362
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM846.GRKM.842
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM846.GRKM.842
@@ -546,6 +656,9 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM869.PRSW.424
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM869.ZBCZ.787
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM872.JGDD.956
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM874.DVHQ.638
+Multiple matches for HBM875.SBHJ.939: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM875.SBHJ.939.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM875.SBHJ.939.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM876.KWMX.349
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM876.KWMX.349
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM877.XCMK.247
@@ -563,26 +676,62 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM886.SLWK.262
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM886.ZXXN.298
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM886.ZXXN.298
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM889.BXPN.494
+Multiple matches for HBM893.MCGS.487: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM893.MCGS.487.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM893.MCGS.487.csv
+Multiple matches for HBM893.MCGS.487: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM893.MCGS.487.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM893.MCGS.487.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM894.GVBP.649
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM894.GVBP.649
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM894.MNHL.259
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM894.MNHL.259
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM894.VJNM.258
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM897.WVVR.437
+Multiple matches for HBM899.KTQM.246: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM899.KTQM.246.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM899.KTQM.246.csv
+Multiple matches for HBM899.KTQM.246: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM899.KTQM.246.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM899.KTQM.246.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM923.TSCD.525
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM923.TSCD.525
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM924.DSPX.449
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM927.HHFD.265
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM927.ZWBG.769
+Multiple matches for HBM934.KLGL.584: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM934.KLGL.584.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM934.KLGL.584.csv
+Multiple matches for HBM934.KLGL.584: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM934.KLGL.584.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM934.KLGL.584.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM935.CNXT.255
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM935.KGJC.468
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM935.KGJC.468
+Multiple matches for HBM938.KMNW.825: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM938.KMNW.825.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM938.KMNW.825.csv
+Multiple matches for HBM938.KMNW.825: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM938.KMNW.825.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM938.KMNW.825.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM943.VFSK.297
+Multiple matches for HBM945.FSHR.864: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM945.FSHR.864.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM945.FSHR.864.csv
+Multiple matches for HBM945.FSHR.864: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM945.FSHR.864.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM945.FSHR.864.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM947.CZPX.727
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM948.WLJK.772
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM953.CTWH.676
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM953.HGVS.696
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM953.HGVS.696
+Multiple matches for HBM953.KMTG.758: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM953.KMTG.758.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM953.KMTG.758.csv
+Multiple matches for HBM953.KMTG.758: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM953.KMTG.758.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM953.KMTG.758.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM953.TJCF.553
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM954.SDMK.786
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM955.DXVQ.765
@@ -591,6 +740,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM959.QMBB.765
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM959.QMBB.765
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM959.XNWL.627
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM959.XNWL.627
+Multiple matches for HBM964.FPNH.767: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM964.FPNH.767.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM964.FPNH.767.csv
+Multiple matches for HBM964.FPNH.767: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM964.FPNH.767.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM964.FPNH.767.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM965.QHWZ.774
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM968.ZDMZ.598
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM968.ZDMZ.598
@@ -601,6 +756,9 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM973.ZVNB.886
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM973.ZVNB.886
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM974.PPST.239
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM974.PPST.239
+Multiple matches for HBM975.FVCG.922: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM975.FVCG.922.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM975.FVCG.922.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM975.WHWM.552
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM975.WHWM.552
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM976.DMLB.994
@@ -618,6 +776,12 @@ Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM985.TJZD.778
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM985.TJZD.778
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM986.QDZS.837
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM993.ZZWK.542
+Multiple matches for HBM996.MDQH.988: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM996.MDQH.988.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM996.MDQH.988.csv
+Multiple matches for HBM996.MDQH.988: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM996.MDQH.988.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM996.MDQH.988.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM999.CXFH.954
 Investigate CxG: 591c028d-460a-441c-abaf-2c1fef359dba_HUVEC_donors_Endothelial_Cell_Cell_Culture
 Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP2_Lymph_Node
@@ -691,13 +855,205 @@ Investigate SPARC-UCLA: undefined
 Investigate SPARC-UCLA: undefined
 Investigate SenNet: SNT933.NCMX.273
 Investigate SenNet: SNT476.SJKS.855
+Multiple matches for HBM573.TTLG.748: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM573.TTLG.748.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM573.TTLG.748.csv
+Multiple matches for HBM573.TTLG.748: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM573.TTLG.748.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM573.TTLG.748.csv
+Multiple matches for HBM295.SWJJ.888: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM295.SWJJ.888.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM295.SWJJ.888.csv
+Multiple matches for HBM295.SWJJ.888: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM295.SWJJ.888.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM295.SWJJ.888.csv
+Multiple matches for HBM865.VDXC.862: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM865.VDXC.862.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM865.VDXC.862.csv
+Multiple matches for HBM865.VDXC.862: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM865.VDXC.862.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM865.VDXC.862.csv
+Multiple matches for HBM288.BBKK.828: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM288.BBKK.828.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM288.BBKK.828.csv
+Multiple matches for HBM288.BBKK.828: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM288.BBKK.828.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM288.BBKK.828.csv
+Multiple matches for HBM565.LSMX.645: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM565.LSMX.645.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM565.LSMX.645.csv
+Multiple matches for HBM565.LSMX.645: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM565.LSMX.645.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM565.LSMX.645.csv
+Multiple matches for HBM832.ZSQJ.442: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM832.ZSQJ.442.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM832.ZSQJ.442.csv
+Multiple matches for HBM832.ZSQJ.442: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM832.ZSQJ.442.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM832.ZSQJ.442.csv
+Multiple matches for HBM363.CKHC.928: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM363.CKHC.928.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM363.CKHC.928.csv
+Multiple matches for HBM363.CKHC.928: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM363.CKHC.928.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM363.CKHC.928.csv
+Multiple matches for HBM974.CNWK.327: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM974.CNWK.327.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM974.CNWK.327.csv
+Multiple matches for HBM974.CNWK.327: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM974.CNWK.327.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM974.CNWK.327.csv
+Multiple matches for HBM242.LSCK.393: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM242.LSCK.393.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM242.LSCK.393.csv
+Multiple matches for HBM242.LSCK.393: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM242.LSCK.393.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM242.LSCK.393.csv
+Multiple matches for HBM852.NKST.623: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM852.NKST.623.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM852.NKST.623.csv
+Multiple matches for HBM852.NKST.623: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM852.NKST.623.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM852.NKST.623.csv
+Multiple matches for HBM627.KDHD.293: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM627.KDHD.293.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM627.KDHD.293.csv
+Multiple matches for HBM627.KDHD.293: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM627.KDHD.293.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM627.KDHD.293.csv
+Multiple matches for HBM235.VKNJ.237: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM235.VKNJ.237.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM235.VKNJ.237.csv
+Multiple matches for HBM235.VKNJ.237: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM235.VKNJ.237.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM235.VKNJ.237.csv
+Multiple matches for HBM626.VJMB.795: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM626.VJMB.795.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM626.VJMB.795.csv
+Multiple matches for HBM626.VJMB.795: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM626.VJMB.795.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM626.VJMB.795.csv
+Multiple matches for HBM827.SJBP.777: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM827.SJBP.777.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM827.SJBP.777.csv
+Multiple matches for HBM827.SJBP.777: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM827.SJBP.777.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM827.SJBP.777.csv
+Multiple matches for HBM395.NQKF.566: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM395.NQKF.566.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM395.NQKF.566.csv
+Multiple matches for HBM395.NQKF.566: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM395.NQKF.566.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM395.NQKF.566.csv
+Multiple matches for HBM569.NBHZ.832: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM569.NBHZ.832.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM569.NBHZ.832.csv
+Multiple matches for HBM569.NBHZ.832: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM569.NBHZ.832.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM569.NBHZ.832.csv
+Multiple matches for HBM297.MZZX.824: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM297.MZZX.824.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM297.MZZX.824.csv
+Multiple matches for HBM297.MZZX.824: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM297.MZZX.824.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM297.MZZX.824.csv
+Multiple matches for HBM823.RJNG.364: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM823.RJNG.364.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM823.RJNG.364.csv
+Multiple matches for HBM823.RJNG.364: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM823.RJNG.364.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM823.RJNG.364.csv
+Multiple matches for HBM447.MNKW.592: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM447.MNKW.592.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM447.MNKW.592.csv
+Multiple matches for HBM447.MNKW.592: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM447.MNKW.592.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM447.MNKW.592.csv
+Multiple matches for HBM488.CNNZ.544: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM488.CNNZ.544.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM488.CNNZ.544.csv
+Multiple matches for HBM488.CNNZ.544: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM488.CNNZ.544.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM488.CNNZ.544.csv
+Multiple matches for HBM238.GTNW.259: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM238.GTNW.259.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM238.GTNW.259.csv
+Multiple matches for HBM238.GTNW.259: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM238.GTNW.259.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM238.GTNW.259.csv
+Multiple matches for HBM666.NDQZ.365: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM666.NDQZ.365.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM666.NDQZ.365.csv
+Multiple matches for HBM666.NDQZ.365: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM666.NDQZ.365.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM666.NDQZ.365.csv
+Multiple matches for HBM285.VFDT.966: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM285.VFDT.966.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM285.VFDT.966.csv
+Multiple matches for HBM285.VFDT.966: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM285.VFDT.966.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM285.VFDT.966.csv
+Multiple matches for HBM772.TKCN.287: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM772.TKCN.287.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM772.TKCN.287.csv
+Multiple matches for HBM772.TKCN.287: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM772.TKCN.287.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM772.TKCN.287.csv
+Multiple matches for HBM465.ZNVW.226: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM465.ZNVW.226.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM465.ZNVW.226.csv
+Multiple matches for HBM465.ZNVW.226: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM465.ZNVW.226.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM465.ZNVW.226.csv
+Multiple matches for HBM824.XGWZ.857: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM824.XGWZ.857.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM824.XGWZ.857.csv
+Multiple matches for HBM824.XGWZ.857: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM824.XGWZ.857.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM824.XGWZ.857.csv
+Multiple matches for HBM363.LLBL.252: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM363.LLBL.252.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM363.LLBL.252.csv
+Multiple matches for HBM363.LLBL.252: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM363.LLBL.252.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM363.LLBL.252.csv
+Multiple matches for HBM679.NNNK.283: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM679.NNNK.283.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM679.NNNK.283.csv
+Multiple matches for HBM679.NNNK.283: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM679.NNNK.283.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM679.NNNK.283.csv
+Multiple matches for HBM535.QNTP.246: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM535.QNTP.246.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM535.QNTP.246.csv
+Multiple matches for HBM535.QNTP.246: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM535.QNTP.246.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM535.QNTP.246.csv
+Multiple matches for HBM749.SMWP.555: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM749.SMWP.555.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM749.SMWP.555.csv
+Multiple matches for HBM749.SMWP.555: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM749.SMWP.555.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM749.SMWP.555.csv
+Multiple matches for HBM573.SWGH.988: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM573.SWGH.988.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM573.SWGH.988.csv
+Multiple matches for HBM573.SWGH.988: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM573.SWGH.988.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM573.SWGH.988.csv
+Multiple matches for HBM473.QGDG.848: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM473.QGDG.848.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM473.QGDG.848.csv
+Multiple matches for HBM473.QGDG.848: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM473.QGDG.848.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM473.QGDG.848.csv
 There was some problem saving out at least one dataset. Saved: 3613 Expected: 4226
 
 > ctpop-data-processor@1.0.0 generate:collisions
 > node ./src/gen-collisions.js
 
-56 RUI locations had more than one collision
-98 RUI locations had one collision
+66 RUI locations had more than one collision
+120 RUI locations had one collision
 WARNING 11 RUI locations had zero collisions
 
 > ctpop-data-processor@1.0.0 generate:corridors
@@ -718,4 +1074,5 @@ WARNING 11 RUI locations had zero collisions
 Creating report via remote SPARQL Endpoint: test
 Creating report via remote SPARQL Endpoint: table-s3
 Creating report via remote SPARQL Endpoint: table-s2
+Creating report via remote SPARQL Endpoint: rui-registered-h5ad-datasets
 Creating report via remote SPARQL Endpoint: rui-location-stats

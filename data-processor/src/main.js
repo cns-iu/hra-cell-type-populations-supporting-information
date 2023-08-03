@@ -12,6 +12,17 @@ if (!HUBMAP_TOKEN) {
   process.exit();
 }
 
+// Check out the hra-ct-summaries-mx-spatial-data repo with spatial summary csv files
+if (!existsSync('hra-ct-summaries-mx-spatial-data')) {
+  console.log('Getting static spatial cell type summary csv files...');
+  sh.exec(
+    'git clone https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data'
+  );
+} else if (CLEAN) {
+  // update hra-ct-summaries-mx-spatial-data if its already checked out an CLEAN is true
+  sh.exec('cd hra-ct-summaries-mx-spatial-data; git pull origin main');
+}
+
 // Check out the tissue-bar-graphs repo with summary csv files
 if (!existsSync('tissue-bar-graphs')) {
   console.log('Getting static cell type summary csv files...');

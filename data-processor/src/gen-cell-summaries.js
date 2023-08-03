@@ -22,6 +22,14 @@ if (!existsSync('tissue-bar-graphs')) {
   sh.exec('git clone https://github.com/hubmapconsortium/tissue-bar-graphs -b static');
 }
 
+// Check out the hra-ct-summaries-mx-spatial-data repo with spatial summary csv files
+if (!existsSync('hra-ct-summaries-mx-spatial-data')) {
+  console.log('Getting static spatial cell type summary csv files...');
+  sh.exec(
+    'git clone https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data'
+  );
+}
+
 /**
  * Normalize cell type ids, generating one if needed
  * 
@@ -73,7 +81,10 @@ function getCTSummary(path, datasetIri) {
  * @returns a cell summary in jsonld format or undefined
  */
 function findCTSummary(id, datasetIri, dirPattern = '*') {
-  const csvFiles = globSync(`tissue-bar-graphs/csv/${dirPattern}/${id}.csv`);
+  const csvFiles = globSync([
+    `hra-ct-summaries-mx-spatial-data/${dirPattern}/cell_type_counts/${id}.csv`,
+    `tissue-bar-graphs/csv/${dirPattern}/${id}.csv`
+  ]);
   let result;
   if (csvFiles.length > 0) {
     if (!datasetIri) {
@@ -81,7 +92,7 @@ function findCTSummary(id, datasetIri, dirPattern = '*') {
     }
     result = getCTSummary(csvFiles[0], datasetIri);
     if (csvFiles.length > 1) {
-      console.log(`Multiple matches for ${id}: ${csvFiles.join('\n\t')}`);
+      console.log(`Multiple matches for ${id}: \n\t${csvFiles.join('\n\t')}`);
     }
   }
   return result;

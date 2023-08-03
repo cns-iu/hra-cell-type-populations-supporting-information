@@ -9544,7 +9544,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 106,
           "percentage": 0.11434735706580366
         },
@@ -15858,7 +15858,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 70,
           "percentage": 0.06763285024154589
         },
@@ -17349,7 +17349,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 190,
           "percentage": 0.09443339960238568
         },
@@ -17384,7 +17384,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 57,
           "percentage": 0.05080213903743316
         },
@@ -17713,7 +17713,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 142,
           "percentage": 0.09653297076818491
         },
@@ -18042,7 +18042,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 93,
           "percentage": 0.17953667953667954
         },
@@ -18224,7 +18224,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 151,
           "percentage": 0.06307435254803676
         },
@@ -18259,7 +18259,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 75,
           "percentage": 0.06944444444444445
         },
@@ -18721,7 +18721,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 173,
           "percentage": 0.10260972716488731
         },
@@ -18896,7 +18896,7 @@
         {
           "@type": "CellSummaryRow",
           "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 \n/ Macrophage",
+          "cell_label": "CD68 / Macrophage",
           "count": 76,
           "percentage": 0.06109324758842444
         },
@@ -21944,6 +21944,5830 @@
           "cell_label": "regular atrial cardiac myocyte",
           "count": 12332,
           "percentage": 0.046284515405027045
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/e7d386a6-d4fb-43b2-9737-fdc6f7508d79",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 44,
+          "percentage": 0.0010850533895588271
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 1857,
+          "percentage": 0.045794185100244134
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 295,
+          "percentage": 0.007274789770905773
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1256,
+          "percentage": 0.030973342211042885
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 353,
+          "percentage": 0.008705087420778773
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 17745,
+          "percentage": 0.4375970999482134
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 139,
+          "percentage": 0.0034277822988335676
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 2877,
+          "percentage": 0.0709476954945624
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 209,
+          "percentage": 0.005154003600404429
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 22,
+          "percentage": 0.0005425266947794136
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1285,
+          "percentage": 0.031688491035979385
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 745,
+          "percentage": 0.018371926709575596
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 608,
+          "percentage": 0.014993465019358339
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 2178,
+          "percentage": 0.05371014278316195
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 16,
+          "percentage": 0.0003945648689304826
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 350,
+          "percentage": 0.008631106507854307
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 1765,
+          "percentage": 0.04352543710389386
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 370,
+          "percentage": 0.00912431259401741
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1444,
+          "percentage": 0.03560947942097605
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 684,
+          "percentage": 0.01686764814677813
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3871,
+          "percentage": 0.09546003797686864
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1684,
+          "percentage": 0.04152795245493329
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 748,
+          "percentage": 0.018445907622500063
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 6,
+          "percentage": 0.00014796182584893096
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/9a6cb9d5-afdd-429d-98ba-f157a42c7937",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 81,
+          "percentage": 0.0010477570238526413
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 3773,
+          "percentage": 0.04880478087649402
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 559,
+          "percentage": 0.007230816991773167
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1432,
+          "percentage": 0.018523309359962745
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 1014,
+          "percentage": 0.01311636570600714
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 30561,
+          "percentage": 0.3953148445180318
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 277,
+          "percentage": 0.0035830703161380453
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 3810,
+          "percentage": 0.04928338593677239
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 177,
+          "percentage": 0.0022895431261965127
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 14,
+          "percentage": 0.00018109380659181456
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 2101,
+          "percentage": 0.0271770062606716
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 1027,
+          "percentage": 0.013284524240699539
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 559,
+          "percentage": 0.007230816991773167
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 4121,
+          "percentage": 0.05330625549749056
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 11,
+          "percentage": 0.0001422879908935686
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 142,
+          "percentage": 0.0018368086097169762
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 5161,
+          "percentage": 0.0667589382728825
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1626,
+          "percentage": 0.02103275210844932
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1087,
+          "percentage": 0.01406064055466446
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 1375,
+          "percentage": 0.017785998861696073
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 9838,
+          "percentage": 0.127257204946448
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 6766,
+          "percentage": 0.0875200496714441
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 1777,
+          "percentage": 0.022985978165261035
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 19,
+          "percentage": 0.0002457701660888912
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/c89a4a3c-52d7-4508-86fb-b7e5610cb1e0",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 76,
+          "percentage": 0.0021938687142774665
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 3743,
+          "percentage": 0.10804803417816523
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 4,
+          "percentage": 0.00011546677443565614
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 433,
+          "percentage": 0.012499278332659777
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 402,
+          "percentage": 0.011604410830783443
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 6,
+          "percentage": 0.0001732001616534842
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 5194,
+          "percentage": 0.1499336066046995
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 386,
+          "percentage": 0.011142543733040817
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 2158,
+          "percentage": 0.06229432480803649
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 63,
+          "percentage": 0.0018186016973615843
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 7,
+          "percentage": 0.00020206685526239824
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1302,
+          "percentage": 0.03758443507880607
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 2135,
+          "percentage": 0.06163039085503146
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 700,
+          "percentage": 0.020206685526239825
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1709,
+          "percentage": 0.04933317937763409
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 628,
+          "percentage": 0.018128283586398015
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 420,
+          "percentage": 0.012124011315743895
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 3779,
+          "percentage": 0.10908723514808613
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 852,
+          "percentage": 0.02459442295479476
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1426,
+          "percentage": 0.04116390508631142
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 2701,
+          "percentage": 0.07796893943767681
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 4251,
+          "percentage": 0.12271231453149356
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1350,
+          "percentage": 0.038970036372033945
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 891,
+          "percentage": 0.025720224005542407
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 26,
+          "percentage": 0.0007505340338317649
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/8e8d9121-3a47-4c89-9e63-aec6659075d2",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 214,
+          "percentage": 0.003667586419647295
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 12647,
+          "percentage": 0.21674750209943616
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 8,
+          "percentage": 0.00013710603437933812
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1205,
+          "percentage": 0.020651596428387806
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 2186,
+          "percentage": 0.037464223894154144
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 6482,
+          "percentage": 0.11109016435585871
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 729,
+          "percentage": 0.012493787382817187
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 4428,
+          "percentage": 0.07588819002896365
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 157,
+          "percentage": 0.0026907059246945105
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 17,
+          "percentage": 0.0002913503230560935
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 2660,
+          "percentage": 0.045587756431129924
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 4097,
+          "percentage": 0.07021542785651853
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 1546,
+          "percentage": 0.02649574114380709
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1629,
+          "percentage": 0.027918216250492726
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 695,
+          "percentage": 0.011911086736704999
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 542,
+          "percentage": 0.009288933829200157
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 4025,
+          "percentage": 0.06898147354710449
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1988,
+          "percentage": 0.03407084954326552
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 3715,
+          "percentage": 0.06366861471490513
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 3278,
+          "percentage": 0.05617919758693379
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3679,
+          "percentage": 0.06305163756019812
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1004,
+          "percentage": 0.017206807314606935
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 1378,
+          "percentage": 0.02361651442184099
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 40,
+          "percentage": 0.0006855301718966906
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/6f055461-adb2-41fe-86c1-50d3afdf9360",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 536,
+          "percentage": 0.006054991979394952
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 10464,
+          "percentage": 0.11820790312012833
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 696,
+          "percentage": 0.007862452271751655
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1729,
+          "percentage": 0.019531867784279615
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 736,
+          "percentage": 0.008314317344840831
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 714,
+          "percentage": 0.008065791554641783
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 5391,
+          "percentage": 0.06090011522559364
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 1262,
+          "percentage": 0.014256343055963488
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 5111,
+          "percentage": 0.05773705971396941
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 285,
+          "percentage": 0.003219538645760376
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 55,
+          "percentage": 0.0006213144754976164
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 2581,
+          "percentage": 0.029156593841079055
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 10050,
+          "percentage": 0.11353109961365536
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 2308,
+          "percentage": 0.02607261471724543
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 4218,
+          "percentage": 0.047649171957253565
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 11502,
+          "percentage": 0.12993380176679242
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 488,
+          "percentage": 0.005512753891687942
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 6022,
+          "percentage": 0.06802828675357538
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1109,
+          "percentage": 0.012527959151397393
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 2992,
+          "percentage": 0.03379950746707033
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 9416,
+          "percentage": 0.10636903820519193
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 6521,
+          "percentage": 0.07366530354036285
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1645,
+          "percentage": 0.018582951130792346
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 2530,
+          "percentage": 0.028580465872890357
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 161,
+          "percentage": 0.0018187569191839316
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/bddd9066-3f8c-4330-8e33-23be89ee8a0b",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 1184,
+          "percentage": 0.008187085978232308
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 53437,
+          "percentage": 0.3695044876847972
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 274,
+          "percentage": 0.0018946465861787605
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1361,
+          "percentage": 0.009411000013829537
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 2504,
+          "percentage": 0.017314580480991302
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 1885,
+          "percentage": 0.01303433874068235
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 6343,
+          "percentage": 0.043860376993182036
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 1009,
+          "percentage": 0.006977001479760473
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 5111,
+          "percentage": 0.035341382123940314
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 1006,
+          "percentage": 0.006956257174072384
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 86,
+          "percentage": 0.0005946700963918738
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 2736,
+          "percentage": 0.01891880678753682
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 33027,
+          "percentage": 0.2283740613201676
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 593,
+          "percentage": 0.00410045775767885
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 3139,
+          "percentage": 0.021705458518303394
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 14,
+          "percentage": 0.00009680675987774689
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 121,
+          "percentage": 0.000836686996086241
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 9042,
+          "percentage": 0.0625233373438991
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 302,
+          "percentage": 0.002088260105934254
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 5920,
+          "percentage": 0.04093542989116154
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 5266,
+          "percentage": 0.03641317125115822
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 6813,
+          "percentage": 0.04711031821764926
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 972,
+          "percentage": 0.006721155042940713
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 1537,
+          "percentage": 0.010627999280864069
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 936,
+          "percentage": 0.00647222337468365
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/d9aed544-4c6e-42c2-a137-9a9381d8f8c8",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 33,
+          "percentage": 0.0006801739596430117
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 14469,
+          "percentage": 0.29822536430529506
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 21,
+          "percentage": 0.0004328379743182802
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 934,
+          "percentage": 0.01925098419110827
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 278,
+          "percentage": 0.005729950326689614
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 874,
+          "percentage": 0.018014304264484613
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 3037,
+          "percentage": 0.06259661561926748
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 472,
+          "percentage": 0.009728548756106107
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 4272,
+          "percentage": 0.08805161077560443
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 337,
+          "percentage": 0.006946018921202877
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 34,
+          "percentage": 0.000700785291753406
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1341,
+          "percentage": 0.02763979636003875
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 7349,
+          "percentage": 0.15147267967928768
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 327,
+          "percentage": 0.006739905600098934
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1620,
+          "percentage": 0.03339035801883876
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 46,
+          "percentage": 0.0009481212770781376
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 147,
+          "percentage": 0.003029865820227961
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 3053,
+          "percentage": 0.06292639693303378
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 131,
+          "percentage": 0.0027000845064616527
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 2600,
+          "percentage": 0.05358946348702517
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 2222,
+          "percentage": 0.04579837994929612
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 2884,
+          "percentage": 0.05944308180637715
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 817,
+          "percentage": 0.016839458334192137
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 995,
+          "percentage": 0.020508275449842323
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 224,
+          "percentage": 0.004616938392728322
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/470a6b74-a31b-4a50-bfff-da1b475c945b",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 103,
+          "percentage": 0.002390234846375197
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 10809,
+          "percentage": 0.25083542188805347
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 3157,
+          "percentage": 0.07326185834957764
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1520,
+          "percentage": 0.03527336860670194
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 228,
+          "percentage": 0.005291005291005291
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 607,
+          "percentage": 0.014086141279123734
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 3150,
+          "percentage": 0.07309941520467836
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 377,
+          "percentage": 0.008748723661004362
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 2570,
+          "percentage": 0.059639840341594724
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 325,
+          "percentage": 0.007542003156038243
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 593,
+          "percentage": 0.013761254989325164
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 785,
+          "percentage": 0.018216838392276988
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 2313,
+          "percentage": 0.05367585630743525
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 272,
+          "percentage": 0.006312076487515084
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1500,
+          "percentage": 0.03480924533556112
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 1,
+          "percentage": 0.00002320616355704075
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 121,
+          "percentage": 0.0028079457904019306
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 3526,
+          "percentage": 0.08182493270212568
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 525,
+          "percentage": 0.012183235867446393
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1627,
+          "percentage": 0.0377564281073053
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 1841,
+          "percentage": 0.04272254710851202
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 4358,
+          "percentage": 0.10113246078158358
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1209,
+          "percentage": 0.028056251740462265
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 1396,
+          "percentage": 0.032395804325628885
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 179,
+          "percentage": 0.004153903276710294
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/abab52f8-6fd4-4e3f-8f9c-bb9f5f62785f",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 100,
+          "percentage": 0.004139415514529348
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 2276,
+          "percentage": 0.09421309711068797
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 482,
+          "percentage": 0.01995198278003146
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 984,
+          "percentage": 0.04073184866296879
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 1969,
+          "percentage": 0.08150509148108287
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 3166,
+          "percentage": 0.13105389518999916
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 71,
+          "percentage": 0.0029389850153158374
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 2306,
+          "percentage": 0.09545492176504677
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 157,
+          "percentage": 0.006498882357811077
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 13,
+          "percentage": 0.0005381240168888153
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 571,
+          "percentage": 0.02363606258796258
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 804,
+          "percentage": 0.033280900736815965
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 1113,
+          "percentage": 0.04607169467671165
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1047,
+          "percentage": 0.04333968043712228
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 55,
+          "percentage": 0.0022766785329911415
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 55,
+          "percentage": 0.0022766785329911415
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 1827,
+          "percentage": 0.0756271214504512
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 920,
+          "percentage": 0.03808262273367
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1487,
+          "percentage": 0.061553108701051414
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 1318,
+          "percentage": 0.05455749648149681
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 2740,
+          "percentage": 0.11341998509810415
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 356,
+          "percentage": 0.014736319231724481
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 309,
+          "percentage": 0.012790793939895687
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 32,
+          "percentage": 0.0013246129646493916
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/ba9d007b-c5c7-4231-80f9-42403a98a6df",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 36,
+          "percentage": 0.001835610850499694
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 1279,
+          "percentage": 0.0652151743830308
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 195,
+          "percentage": 0.009942892106873344
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 681,
+          "percentage": 0.03472363858861921
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 802,
+          "percentage": 0.04089333061390985
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 7468,
+          "percentage": 0.38078727309810323
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 25,
+          "percentage": 0.0012747297572914542
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 925,
+          "percentage": 0.047165001019783805
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 34,
+          "percentage": 0.0017336324699163777
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 5,
+          "percentage": 0.00025494595145829086
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 392,
+          "percentage": 0.01998776259433
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 386,
+          "percentage": 0.019681827452580052
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 228,
+          "percentage": 0.011625535386498062
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 818,
+          "percentage": 0.041709157658576385
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 24,
+          "percentage": 0.0012237405669997961
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 22,
+          "percentage": 0.0011217621864164798
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 1228,
+          "percentage": 0.06261472567815624
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 698,
+          "percentage": 0.0355904548235774
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 558,
+          "percentage": 0.028451968182745258
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 452,
+          "percentage": 0.023047114011829493
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 2201,
+          "percentage": 0.11222720783193962
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 897,
+          "percentage": 0.045737303691617374
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 241,
+          "percentage": 0.012288394860289618
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 17,
+          "percentage": 0.0008668162349581888
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/82566926-7a8f-43a7-9f6a-ae0c463d7a1d",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 31,
+          "percentage": 0.0020771911015813457
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 3306,
+          "percentage": 0.22152238005896543
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 356,
+          "percentage": 0.023854194585901902
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 258,
+          "percentage": 0.017287590458322167
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 635,
+          "percentage": 0.04254891450013401
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 978,
+          "percentage": 0.06553202894666309
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 10,
+          "percentage": 0.0006700616456714018
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 1095,
+          "percentage": 0.07337175020101849
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 30,
+          "percentage": 0.0020101849370142053
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 2,
+          "percentage": 0.00013401232913428035
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 660,
+          "percentage": 0.044224068614312516
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 639,
+          "percentage": 0.042816939158402574
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 273,
+          "percentage": 0.018292682926829267
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 648,
+          "percentage": 0.04341999463950683
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 7,
+          "percentage": 0.00046904315196998124
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 32,
+          "percentage": 0.0021441972661484857
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 1426,
+          "percentage": 0.09555079067274189
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1138,
+          "percentage": 0.07625301527740552
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 895,
+          "percentage": 0.05997051728759046
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 583,
+          "percentage": 0.03906459394264272
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 1557,
+          "percentage": 0.10432859823103725
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 123,
+          "percentage": 0.008241758241758242
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 207,
+          "percentage": 0.013870276065398016
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 35,
+          "percentage": 0.0023452157598499064
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/91009a1d-ddea-4489-af88-3e32ca47cde7",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 35,
+          "percentage": 0.0015243238534907017
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 1592,
+          "percentage": 0.06933495927877706
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 709,
+          "percentage": 0.03087844606071164
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 88,
+          "percentage": 0.003832585688776621
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 1282,
+          "percentage": 0.05583380514785941
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 1,
+          "percentage": 0.000043552110099734335
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 7846,
+          "percentage": 0.34170985584251556
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 23,
+          "percentage": 0.0010016985322938896
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 838,
+          "percentage": 0.03649666826357737
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 25,
+          "percentage": 0.0010888027524933582
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 1,
+          "percentage": 0.000043552110099734335
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 571,
+          "percentage": 0.024868254866948304
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 601,
+          "percentage": 0.026174818169940335
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 182,
+          "percentage": 0.007926484038151648
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1240,
+          "percentage": 0.05400461652367057
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 5,
+          "percentage": 0.00021776055049867166
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 34,
+          "percentage": 0.0014807717433909674
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 1908,
+          "percentage": 0.0830974260702931
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1128,
+          "percentage": 0.04912678019250033
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 673,
+          "percentage": 0.029310570097121205
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 609,
+          "percentage": 0.026523235050738208
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 2489,
+          "percentage": 0.10840120203823875
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 796,
+          "percentage": 0.03466747963938853
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 278,
+          "percentage": 0.012107486607726144
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 7,
+          "percentage": 0.0003048647706981403
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/27c90961-5430-4217-ad97-4feaa91cede7",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 66,
+          "percentage": 0.0016566680890584603
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 4781,
+          "percentage": 0.12000803233012877
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 133,
+          "percentage": 0.0033384372097693214
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1587,
+          "percentage": 0.03983533723236025
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 1250,
+          "percentage": 0.03137628956550114
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 329,
+          "percentage": 0.0082582394136399
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 7450,
+          "percentage": 0.18700268581038682
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 76,
+          "percentage": 0.0019076784055824694
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 3085,
+          "percentage": 0.07743668264765682
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 141,
+          "percentage": 0.003539245462988529
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 2,
+          "percentage": 0.00005020206330480183
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1384,
+          "percentage": 0.03473982780692286
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 4032,
+          "percentage": 0.10120735962248048
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 730,
+          "percentage": 0.018323753106252668
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 2302,
+          "percentage": 0.0577825748638269
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 142,
+          "percentage": 0.0035643464946409297
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 270,
+          "percentage": 0.006777278546148247
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 3264,
+          "percentage": 0.08192976731343658
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1126,
+          "percentage": 0.02826376164060343
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1354,
+          "percentage": 0.033986796857350836
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 1676,
+          "percentage": 0.04206932904942393
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 2334,
+          "percentage": 0.058585807876703734
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1197,
+          "percentage": 0.030045934887923894
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 1080,
+          "percentage": 0.027109114184592987
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 48,
+          "percentage": 0.0012048495193152438
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/79a10f00-84e0-4b8e-8622-485973df3773",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 38,
+          "percentage": 0.001203178925371244
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 1766,
+          "percentage": 0.0559161574264636
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 146,
+          "percentage": 0.0046227400816895164
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 400,
+          "percentage": 0.012665041319697305
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 200,
+          "percentage": 0.006332520659848653
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 209,
+          "percentage": 0.0066174840895418426
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 7007,
+          "percentage": 0.22185986131779756
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 117,
+          "percentage": 0.003704524586011462
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 1828,
+          "percentage": 0.057879238831016686
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 78,
+          "percentage": 0.0024696830573409747
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 3,
+          "percentage": 0.00009498780989772979
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 584,
+          "percentage": 0.018490960326758066
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 3810,
+          "percentage": 0.12063451857011684
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 294,
+          "percentage": 0.009308805369977519
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 2065,
+          "percentage": 0.06538327581293733
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 142,
+          "percentage": 0.004496089668492543
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 190,
+          "percentage": 0.0060158946268562205
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 3609,
+          "percentage": 0.11427033530696894
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1329,
+          "percentage": 0.0420795997846943
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1484,
+          "percentage": 0.046987303296077004
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 1882,
+          "percentage": 0.059589019409175825
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 2456,
+          "percentage": 0.07776335370294146
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1415,
+          "percentage": 0.04480258366842922
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 336,
+          "percentage": 0.010638634708545737
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 195,
+          "percentage": 0.0061742076433524366
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/42b97dcb-2033-40ea-82a2-319a1e30dca2",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 64,
+          "percentage": 0.0011827539686939809
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 13195,
+          "percentage": 0.24385060338932935
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 71,
+          "percentage": 0.001312117684019885
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 984,
+          "percentage": 0.018184842268669957
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 411,
+          "percentage": 0.007595498142706658
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 398,
+          "percentage": 0.007355251242815694
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 3114,
+          "percentage": 0.05754837278926651
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 61,
+          "percentage": 0.0011273123764114505
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 3171,
+          "percentage": 0.058601763042634585
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 192,
+          "percentage": 0.0035482619060819426
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 7,
+          "percentage": 0.00012936371532590416
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1578,
+          "percentage": 0.029162277540610966
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 11473,
+          "percentage": 0.2120271294191569
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 562,
+          "percentage": 0.01038605828759402
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1916,
+          "percentage": 0.035408696937776055
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 44,
+          "percentage": 0.0008131433534771118
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 334,
+          "percentage": 0.006172497274121713
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 4761,
+          "percentage": 0.08798580695237568
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1727,
+          "percentage": 0.031915876623976644
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 4156,
+          "percentage": 0.07680508584206538
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 2232,
+          "percentage": 0.04124854465820258
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 1641,
+          "percentage": 0.030326550978544104
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 680,
+          "percentage": 0.012566760917373547
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 851,
+          "percentage": 0.01572693167747778
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 488,
+          "percentage": 0.009018499011291604
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/5d35eae0-82df-40c7-952c-6fbab03034b2",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 87,
+          "percentage": 0.002548853016142736
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 6789,
+          "percentage": 0.19889842674244865
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 361,
+          "percentage": 0.0105762751589371
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1169,
+          "percentage": 0.034248381331848946
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 91,
+          "percentage": 0.0026660416605630913
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 278,
+          "percentage": 0.008144610787214719
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 5201,
+          "percentage": 0.15237453490756744
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 30,
+          "percentage": 0.0008789148331526675
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 1891,
+          "percentage": 0.055400931649723144
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 157,
+          "percentage": 0.00459965429349896
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 68,
+          "percentage": 0.0019922069551460463
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1435,
+          "percentage": 0.042041426185802595
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 1877,
+          "percentage": 0.054990771394251896
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 266,
+          "percentage": 0.0077930448539536516
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 2100,
+          "percentage": 0.06152403832068672
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 10,
+          "percentage": 0.0002929716110508892
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 198,
+          "percentage": 0.005800837898807605
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 2950,
+          "percentage": 0.08642662526001231
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1281,
+          "percentage": 0.0375296633756189
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1901,
+          "percentage": 0.05569390326077403
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 1127,
+          "percentage": 0.03301790056543521
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3098,
+          "percentage": 0.09076260510356546
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1086,
+          "percentage": 0.03181671696012656
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 657,
+          "percentage": 0.01924823484604342
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 25,
+          "percentage": 0.0007324290276272229
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/cd304e60-3de4-4dd9-b289-ce1a0efae4d7",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 54,
+          "percentage": 0.002547049667468516
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 2480,
+          "percentage": 0.11697561435781331
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 636,
+          "percentage": 0.029998584972406962
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 270,
+          "percentage": 0.012735248337342579
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 1243,
+          "percentage": 0.058629309938210465
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 3245,
+          "percentage": 0.15305881798028395
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 8,
+          "percentage": 0.00037734069147681715
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 316,
+          "percentage": 0.014904957313334277
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 57,
+          "percentage": 0.002688552426772322
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 3,
+          "percentage": 0.00014150275930380644
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1258,
+          "percentage": 0.059336823734729496
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 418,
+          "percentage": 0.019716051129663695
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 443,
+          "percentage": 0.02089524079052875
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 2425,
+          "percentage": 0.1143813971039102
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 6,
+          "percentage": 0.0002830055186076129
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 1235,
+          "percentage": 0.05825196924673365
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 1288,
+          "percentage": 0.06075185132776756
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1001,
+          "percentage": 0.047214754021036746
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 217,
+          "percentage": 0.010235366256308664
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 436,
+          "percentage": 0.020565067685486535
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3366,
+          "percentage": 0.1587660959388708
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 503,
+          "percentage": 0.023725295976604877
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 282,
+          "percentage": 0.013301259374557804
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 11,
+          "percentage": 0.0005188434507806236
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/32214c14-bf21-4bf6-aea9-58ab721128ab",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 32,
+          "percentage": 0.0015606710885680843
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 1896,
+          "percentage": 0.092469761997659
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 367,
+          "percentage": 0.017898946547015217
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 736,
+          "percentage": 0.03589543503706594
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 860,
+          "percentage": 0.04194303550526726
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 2047,
+          "percentage": 0.09983417869683964
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 8,
+          "percentage": 0.0003901677721420211
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 1448,
+          "percentage": 0.07062036675770582
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 89,
+          "percentage": 0.004340616465079984
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 2,
+          "percentage": 0.00009754194303550527
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 607,
+          "percentage": 0.02960397971127585
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 672,
+          "percentage": 0.03277409285992977
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 433,
+          "percentage": 0.02111783066718689
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1177,
+          "percentage": 0.05740343347639485
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 4,
+          "percentage": 0.00019508388607101054
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 371,
+          "percentage": 0.018094030433086227
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 1126,
+          "percentage": 0.054916113928989464
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 2072,
+          "percentage": 0.10105345298478345
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1773,
+          "percentage": 0.08647093250097541
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 758,
+          "percentage": 0.036968396410456496
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3236,
+          "percentage": 0.15782286383144753
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 409,
+          "percentage": 0.019947327350760827
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 338,
+          "percentage": 0.01648458837300039
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 43,
+          "percentage": 0.0020971517752633633
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/db4f3eca-e9f8-4f9c-88a1-795a20dd0f84",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 70,
+          "percentage": 0.002204654971496961
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 2637,
+          "percentage": 0.08305250228339264
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 356,
+          "percentage": 0.011212245283613115
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 662,
+          "percentage": 0.02084973701615697
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 1057,
+          "percentage": 0.03329029006960411
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 7034,
+          "percentage": 0.22153632956442318
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 20,
+          "percentage": 0.000629901420427703
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 1558,
+          "percentage": 0.04906932065131807
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 89,
+          "percentage": 0.0028030613209032787
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 3,
+          "percentage": 0.00009448521306415546
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1107,
+          "percentage": 0.034865043620673365
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 604,
+          "percentage": 0.019023022896916632
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 423,
+          "percentage": 0.01332241504204592
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1685,
+          "percentage": 0.053069194671033985
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 3,
+          "percentage": 0.00009448521306415546
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 286,
+          "percentage": 0.009007590312116153
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 1757,
+          "percentage": 0.05533683978457372
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1553,
+          "percentage": 0.04891184529621114
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1568,
+          "percentage": 0.04938427136153192
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 872,
+          "percentage": 0.027463701930647854
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 6112,
+          "percentage": 0.19249787408270605
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1408,
+          "percentage": 0.044345059998110295
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 862,
+          "percentage": 0.027148751220434003
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 25,
+          "percentage": 0.0007873767755346288
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/48f6aab3-8d58-4675-806c-3fd7d5b7336f",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 59,
+          "percentage": 0.0028947110195270335
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 2031,
+          "percentage": 0.09964674712982043
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 421,
+          "percentage": 0.02065548032577765
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1095,
+          "percentage": 0.0537238740064763
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 600,
+          "percentage": 0.02943773918163085
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 3167,
+          "percentage": 0.15538219998037484
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 34,
+          "percentage": 0.0016681385536257481
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 1526,
+          "percentage": 0.07486998331861447
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 57,
+          "percentage": 0.002796585222254931
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 1,
+          "percentage": 0.000049062898636051415
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 690,
+          "percentage": 0.03385340005887548
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 753,
+          "percentage": 0.03694436267294672
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 322,
+          "percentage": 0.015798253360808555
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1064,
+          "percentage": 0.05220292414875871
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 7,
+          "percentage": 0.00034344029045235995
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 136,
+          "percentage": 0.0066725542145029924
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 1167,
+          "percentage": 0.057256402708272
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1067,
+          "percentage": 0.05235011284466686
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1606,
+          "percentage": 0.07879501520949858
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 831,
+          "percentage": 0.040771268766558726
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3129,
+          "percentage": 0.1535178098322049
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 311,
+          "percentage": 0.01525856147581199
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 281,
+          "percentage": 0.013786674516730449
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 27,
+          "percentage": 0.0013246982631733883
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/d8c8faa2-7e2a-4b74-9531-cd08be659c10",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 48,
+          "percentage": 0.0014570179698882952
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 2263,
+          "percentage": 0.06869232637202526
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 54,
+          "percentage": 0.0016391452161243322
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1141,
+          "percentage": 0.034634531325886356
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 108,
+          "percentage": 0.0032782904322486645
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 265,
+          "percentage": 0.008043953375424963
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 7194,
+          "percentage": 0.21837056823700826
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 11,
+          "percentage": 0.0003338999514327343
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 1811,
+          "percentage": 0.05497207382224381
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 151,
+          "percentage": 0.004583535696940262
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 1,
+          "percentage": 0.000030354541039339484
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1945,
+          "percentage": 0.0590395823215153
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 2128,
+          "percentage": 0.06459446333171442
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 364,
+          "percentage": 0.011049052938319573
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 2567,
+          "percentage": 0.07792010684798446
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 131,
+          "percentage": 0.003976444876153473
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 145,
+          "percentage": 0.0044014084507042256
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 2505,
+          "percentage": 0.07603812530354541
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1269,
+          "percentage": 0.03851991257892181
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 619,
+          "percentage": 0.01878946090335114
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 927,
+          "percentage": 0.0281386595434677
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 5419,
+          "percentage": 0.16449125789218066
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1327,
+          "percentage": 0.0402804759592035
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 527,
+          "percentage": 0.01599684312773191
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 24,
+          "percentage": 0.0007285089849441476
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/d194f593-af76-4ee7-84a6-00f7531d47cf",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 68,
+          "percentage": 0.0015445418616272203
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 6757,
+          "percentage": 0.15347749057375187
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 48,
+          "percentage": 0.0010902648435015673
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 2571,
+          "percentage": 0.058397310680052696
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 466,
+          "percentage": 0.010584654522327715
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 307,
+          "percentage": 0.006973152228228774
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 4060,
+          "percentage": 0.09221823467950756
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 62,
+          "percentage": 0.0014082587561895243
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 2399,
+          "percentage": 0.05449052832417208
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 243,
+          "percentage": 0.005519465770226684
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 20,
+          "percentage": 0.000454277018125653
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1899,
+          "percentage": 0.043133602871030755
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 2663,
+          "percentage": 0.0604869849634307
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 817,
+          "percentage": 0.018557216190432924
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1992,
+          "percentage": 0.04524599100531504
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 16,
+          "percentage": 0.0003634216145005224
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 428,
+          "percentage": 0.009721528187888975
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 3394,
+          "percentage": 0.07709080997592332
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 6598,
+          "percentage": 0.14986598827965295
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 868,
+          "percentage": 0.019715622586653343
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 2699,
+          "percentage": 0.061304683596056876
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3398,
+          "percentage": 0.07718166537954844
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1745,
+          "percentage": 0.03963566983146322
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 469,
+          "percentage": 0.010652796075046564
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 39,
+          "percentage": 0.0008858401853450234
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/9d795171-ba1f-4ae2-9b98-9a285280ebf6",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 68,
+          "percentage": 0.0022132534826194506
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 3236,
+          "percentage": 0.10532482749641973
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 108,
+          "percentage": 0.00351516729592501
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 1128,
+          "percentage": 0.036713969535216766
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 335,
+          "percentage": 0.010903528186434058
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 122,
+          "percentage": 0.0039708371305819555
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 6119,
+          "percentage": 0.1991602655904179
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 26,
+          "percentage": 0.0008462439786486134
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 600,
+          "percentage": 0.019528707199583387
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 104,
+          "percentage": 0.0033849759145944537
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 1,
+          "percentage": 0.000032547845332638976
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1417,
+          "percentage": 0.04612029683634943
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 1011,
+          "percentage": 0.03290587163129801
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 450,
+          "percentage": 0.014646530399687541
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 2196,
+          "percentage": 0.0714750683504752
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 6,
+          "percentage": 0.00019528707199583387
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 1085,
+          "percentage": 0.035314412185913295
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 3561,
+          "percentage": 0.1159028772295274
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 2480,
+          "percentage": 0.08071865642494466
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 216,
+          "percentage": 0.00703033459185002
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 920,
+          "percentage": 0.02994401770602786
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3530,
+          "percentage": 0.1148938940242156
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1707,
+          "percentage": 0.05555917198281474
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 274,
+          "percentage": 0.00891810962114308
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 24,
+          "percentage": 0.0007811482879833355
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/d1085194-4902-4252-95fd-faf03afd9288",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 150,
+          "percentage": 0.0022439973072032313
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 15825,
+          "percentage": 0.23674171590994092
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 424,
+          "percentage": 0.006343032388361134
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 2768,
+          "percentage": 0.04140923030892363
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 440,
+          "percentage": 0.006582392101129478
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 760,
+          "percentage": 0.011369586356496372
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 4889,
+          "percentage": 0.07313935223277732
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 59,
+          "percentage": 0.000882638940833271
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 4118,
+          "percentage": 0.061605206073752715
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 441,
+          "percentage": 0.0065973520831775
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 40,
+          "percentage": 0.0005983992819208617
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1532,
+          "percentage": 0.022918692497569004
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 3106,
+          "percentage": 0.04646570424115491
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 1005,
+          "percentage": 0.01503478195826165
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 3236,
+          "percentage": 0.048410501907397714
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 10,
+          "percentage": 0.00014959982048021541
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 242,
+          "percentage": 0.0036203156556212134
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 4408,
+          "percentage": 0.06594360086767896
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 9714,
+          "percentage": 0.14532126561448128
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 3171,
+          "percentage": 0.04743810307427631
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 3727,
+          "percentage": 0.05575585309297629
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 4340,
+          "percentage": 0.0649263220884135
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1744,
+          "percentage": 0.02609020869174957
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 620,
+          "percentage": 0.009275188869773356
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 76,
+          "percentage": 0.0011369586356496373
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/d3b5feb6-910f-4309-a6a8-42c0477227c9",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 170,
+          "percentage": 0.0032950206423352007
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 14693,
+          "percentage": 0.2847866958695947
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 401,
+          "percentage": 0.007772372221037738
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 391,
+          "percentage": 0.007578547477370961
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 1272,
+          "percentage": 0.02465450739441397
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 6247,
+          "percentage": 0.12108231736863528
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 342,
+          "percentage": 0.0066288062334037565
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 5212,
+          "percentage": 0.10102145639912391
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 345,
+          "percentage": 0.0066869536565037895
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 18,
+          "percentage": 0.0003488845386001977
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1793,
+          "percentage": 0.03475277653945303
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 2009,
+          "percentage": 0.0389393910026554
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 642,
+          "percentage": 0.01244354854340705
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1809,
+          "percentage": 0.03506289612931987
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 28,
+          "percentage": 0.0005427092822669742
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 129,
+          "percentage": 0.002500339193301417
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 2784,
+          "percentage": 0.05396080863683058
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 844,
+          "percentage": 0.016358808365475937
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 3022,
+          "percentage": 0.058573837536099856
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 2304,
+          "percentage": 0.044657220940825304
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 5280,
+          "percentage": 0.10233946465605799
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1063,
+          "percentage": 0.020603570251778343
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 570,
+          "percentage": 0.01104801038900626
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 225,
+          "percentage": 0.004361056732502471
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/76a8931b-1c06-4646-8a17-ac7828b6e879",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 507,
+          "percentage": 0.006969263759828449
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 21444,
+          "percentage": 0.2947709902677737
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 772,
+          "percentage": 0.010611975586957718
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 809,
+          "percentage": 0.011120580634519163
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 1226,
+          "percentage": 0.016852696981360313
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 1,
+          "percentage": 0.00001374608236652554
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 5426,
+          "percentage": 0.07458624292076758
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 810,
+          "percentage": 0.011134326716885688
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 11400,
+          "percentage": 0.15670533897839115
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 395,
+          "percentage": 0.005429702534777588
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 20,
+          "percentage": 0.00027492164733051083
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 2027,
+          "percentage": 0.02786330895694727
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 3844,
+          "percentage": 0.05283994061692417
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 1237,
+          "percentage": 0.017003903887392095
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1861,
+          "percentage": 0.02558145928410403
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 134,
+          "percentage": 0.0018419750371144225
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 154,
+          "percentage": 0.002116896684444933
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 3525,
+          "percentage": 0.04845494034200253
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 2081,
+          "percentage": 0.028605597404739648
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 5784,
+          "percentage": 0.07950734040798373
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 3360,
+          "percentage": 0.046186836751525816
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 4226,
+          "percentage": 0.058090944080936936
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 781,
+          "percentage": 0.010735690328256447
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 563,
+          "percentage": 0.007739044372353879
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 361,
+          "percentage": 0.00496233573431572
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/09681d25-f08d-40ff-81cb-a731610aa84d",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 96,
+          "percentage": 0.0034552260293694214
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 3317,
+          "percentage": 0.11938525770227469
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 229,
+          "percentage": 0.008242153757558306
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 572,
+          "percentage": 0.020587388424992803
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 619,
+          "percentage": 0.02227900950187158
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 0,
+          "percentage": 0
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 5784,
+          "percentage": 0.20817736826950764
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 139,
+          "percentage": 0.005002879355024474
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 3486,
+          "percentage": 0.1254678951914771
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 86,
+          "percentage": 0.0030953066513101065
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 12,
+          "percentage": 0.0004319032536711777
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 846,
+          "percentage": 0.030449179383818026
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 984,
+          "percentage": 0.035416066801036566
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 362,
+          "percentage": 0.013029081485747192
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1624,
+          "percentage": 0.05845090699683271
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 20,
+          "percentage": 0.0007198387561186294
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 34,
+          "percentage": 0.0012237258854016701
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 2495,
+          "percentage": 0.08979988482579902
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 428,
+          "percentage": 0.01540454938093867
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1046,
+          "percentage": 0.03764756694500432
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 999,
+          "percentage": 0.03595594586812554
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3227,
+          "percentage": 0.11614598329974085
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 844,
+          "percentage": 0.03037719550820616
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 474,
+          "percentage": 0.01706017852001152
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 61,
+          "percentage": 0.00219550820616182
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/3b2cb9ee-2a6f-4fb3-bc1b-dbd192d3163c",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 87,
+          "percentage": 0.003424792347360548
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 4895,
+          "percentage": 0.19269377632563084
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 297,
+          "percentage": 0.011691532496161871
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 725,
+          "percentage": 0.028539936228004565
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 1208,
+          "percentage": 0.04755343857024761
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 4,
+          "percentage": 0.0001574617171200252
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 4724,
+          "percentage": 0.18596228791874975
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 165,
+          "percentage": 0.006495295831201039
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 1111,
+          "percentage": 0.043734991930086994
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 55,
+          "percentage": 0.0021650986104003464
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 8,
+          "percentage": 0.0003149234342400504
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 662,
+          "percentage": 0.02605991418336417
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 924,
+          "percentage": 0.03637365665472582
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 213,
+          "percentage": 0.00838483643664134
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1303,
+          "percentage": 0.051293154351848204
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 15,
+          "percentage": 0.0005904814392000945
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 586,
+          "percentage": 0.02306814155808369
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 2057,
+          "percentage": 0.08097468802897295
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 734,
+          "percentage": 0.028894225091524624
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1274,
+          "percentage": 0.050151556902728024
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 730,
+          "percentage": 0.0287367633744046
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 2547,
+          "percentage": 0.10026374837617605
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 644,
+          "percentage": 0.025351336456324057
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 309,
+          "percentage": 0.012163917647521946
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 126,
+          "percentage": 0.004960044089280794
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/e4a44b76-53fd-4c88-9ccf-ba095fcb9673",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 160,
+          "percentage": 0.004711702691560162
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 8061,
+          "percentage": 0.23738147122916545
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 59,
+          "percentage": 0.00173744036751281
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 48,
+          "percentage": 0.0014135108074680488
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 826,
+          "percentage": 0.02432416514517934
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 498,
+          "percentage": 0.014665174627481006
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 6272,
+          "percentage": 0.18469874550915838
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 357,
+          "percentage": 0.010512986630543612
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 913,
+          "percentage": 0.02688615348371518
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 35,
+          "percentage": 0.0010306849637787855
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 1,
+          "percentage": 0.000029448141822251015
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 677,
+          "percentage": 0.01993639201366394
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 3190,
+          "percentage": 0.09393957241298075
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 352,
+          "percentage": 0.010365745921432358
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1642,
+          "percentage": 0.04835384887213617
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 10,
+          "percentage": 0.00029448141822251015
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 512,
+          "percentage": 0.01507744861299252
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 2915,
+          "percentage": 0.08584133341186172
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 28,
+          "percentage": 0.0008245479710230285
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 824,
+          "percentage": 0.024265268861534836
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 930,
+          "percentage": 0.027386771894693445
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 4319,
+          "percentage": 0.12718652453030213
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 777,
+          "percentage": 0.02288120619588904
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 492,
+          "percentage": 0.0144884857765475
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 60,
+          "percentage": 0.001766888509335061
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/ea1d468d-e988-42cd-8e34-71701e568878",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 161,
+          "percentage": 0.002380389141877107
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 24548,
+          "percentage": 0.36294281152049207
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 190,
+          "percentage": 0.002809154887929505
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 706,
+          "percentage": 0.010438228162517002
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 786,
+          "percentage": 0.011621030220592583
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 666,
+          "percentage": 0.009846827133479213
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 4064,
+          "percentage": 0.06008634455023952
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 236,
+          "percentage": 0.003489266071322964
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 4026,
+          "percentage": 0.05952451357265361
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 427,
+          "percentage": 0.006313205984978414
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 11,
+          "percentage": 0.0001626352829853924
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 1165,
+          "percentage": 0.01722455497072565
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 11810,
+          "percentage": 0.17461115382340767
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 339,
+          "percentage": 0.005012123721095275
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1823,
+          "percentage": 0.026953101898397305
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 10,
+          "percentage": 0.00014785025725944762
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 60,
+          "percentage": 0.0008871015435566858
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 3817,
+          "percentage": 0.05643444319593116
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 1678,
+          "percentage": 0.02480927316813531
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 3152,
+          "percentage": 0.04660240108817789
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 2194,
+          "percentage": 0.03243834644272281
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 4330,
+          "percentage": 0.06401916139334082
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 800,
+          "percentage": 0.011828020580755811
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 306,
+          "percentage": 0.004524217872139098
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 331,
+          "percentage": 0.004893843515287716
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/78ee24bb-4ae4-49e9-bad2-d6f13166b89e",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 103,
+          "percentage": 0.003167281672816728
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 11816,
+          "percentage": 0.3633456334563346
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 96,
+          "percentage": 0.002952029520295203
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 708,
+          "percentage": 0.021771217712177122
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 442,
+          "percentage": 0.013591635916359163
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 641,
+          "percentage": 0.019710947109471095
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 3099,
+          "percentage": 0.09529520295202952
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 99,
+          "percentage": 0.003044280442804428
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 912,
+          "percentage": 0.028044280442804426
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 276,
+          "percentage": 0.008487084870848708
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 21,
+          "percentage": 0.0006457564575645757
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 638,
+          "percentage": 0.01961869618696187
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 3320,
+          "percentage": 0.10209102091020911
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 216,
+          "percentage": 0.006642066420664207
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1410,
+          "percentage": 0.043357933579335796
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 17,
+          "percentage": 0.0005227552275522755
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 138,
+          "percentage": 0.004243542435424354
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 2396,
+          "percentage": 0.07367773677736777
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 149,
+          "percentage": 0.00458179581795818
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 2149,
+          "percentage": 0.06608241082410823
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 1298,
+          "percentage": 0.03991389913899139
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 1418,
+          "percentage": 0.04360393603936039
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 604,
+          "percentage": 0.01857318573185732
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 325,
+          "percentage": 0.009993849938499385
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 229,
+          "percentage": 0.007041820418204182
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/ccf/1.5/85765dd5-2197-4361-b4c6-c9d30186044a",
+      "annotation_method": "Aggregation",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk",
+          "cell_label": "NK",
+          "count": 69,
+          "percentage": 0.002210192510970883
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 9004,
+          "percentage": 0.2884141067939396
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:muc1-enterocyte",
+          "cell_label": "MUC1+ Enterocyte",
+          "count": 794,
+          "percentage": 0.025433229763925813
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 454,
+          "percentage": 0.014542426086677985
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd66-enterocyte",
+          "cell_label": "CD66+ Enterocyte",
+          "count": 170,
+          "percentage": 0.005445401838623915
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 207,
+          "percentage": 0.006630577532912649
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smooth-muscle",
+          "cell_label": "Smooth muscle",
+          "count": 4444,
+          "percentage": 0.1423492104167334
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m1-macrophage",
+          "cell_label": "M1 Macrophage",
+          "count": 129,
+          "percentage": 0.004132099042249912
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet",
+          "cell_label": "Goblet",
+          "count": 360,
+          "percentage": 0.011531439187674172
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroendocrine",
+          "cell_label": "Neuroendocrine",
+          "count": 228,
+          "percentage": 0.00730324481886031
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd57-enterocyte",
+          "cell_label": "CD57+ Enterocyte",
+          "count": 70,
+          "percentage": 0.0022422242864922003
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphatic",
+          "cell_label": "Lymphatic",
+          "count": 740,
+          "percentage": 0.02370351388577469
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-t",
+          "cell_label": "CD8+ T",
+          "count": 1425,
+          "percentage": 0.045645280117876934
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dc",
+          "cell_label": "DC",
+          "count": 167,
+          "percentage": 0.005349306512059964
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m2-macrophage",
+          "cell_label": "M2 Macrophage",
+          "count": 1692,
+          "percentage": 0.05419776418206861
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:b",
+          "cell_label": "B",
+          "count": 7,
+          "percentage": 0.00022422242864922004
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neutrophil",
+          "cell_label": "Neutrophil",
+          "count": 1140,
+          "percentage": 0.036516224094301546
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:endothelial",
+          "cell_label": "Endothelial",
+          "count": 2316,
+          "percentage": 0.07418559210737051
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ta",
+          "cell_label": "Cycling TA",
+          "count": 260,
+          "percentage": 0.008328261635542459
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:plasma",
+          "cell_label": "Plasma",
+          "count": 1706,
+          "percentage": 0.05464620903936705
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd4-t-cell",
+          "cell_label": "CD4+ T cell",
+          "count": 1159,
+          "percentage": 0.03712482782920657
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stroma",
+          "cell_label": "Stroma",
+          "count": 3081,
+          "percentage": 0.09868990038117813
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nerve",
+          "cell_label": "Nerve",
+          "count": 1153,
+          "percentage": 0.03693263717607867
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 324,
+          "percentage": 0.010378295268906755
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd7-immune",
+          "cell_label": "CD7+ Immune",
+          "count": 120,
+          "percentage": 0.0038438130625580574
         }
       ]
     }
