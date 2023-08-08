@@ -56,7 +56,7 @@ def main():
     # Next, let's run this code for all 159 TBs. We capture their max cosine sim value and the AS name of the best fit AS based on CTPop
     # Additionally, we capture whether this AS is in the mesh-based collisions of the TB
     for tb in list_tissue_blocks_summary_dict:
-
+        print(f'''Now validating {tb['cell_source']}''')
         # variables to capture max, best fit AS, and whether the best fit AS is in the mesh-based collisions for this TB
         max = 0
         best_fit = ""
@@ -79,18 +79,22 @@ def main():
             if val > max:
                 max = val
                 best_fit = vectors['anatomical_structure']['cell_source']
-
+                print(f'''Identified {best_fit} with {max} for {tb['cell_source']}''')
                 # Finally, we check if the new best fit is in the mesh-based collisions of the TB
+        
                 for item in tb['all_collisions']:
                     for element in item['collisions']:
-                        if element['as_id'] == best_fit:
-                            best_fit_in_mesh_collisions = True
-                            break
+                        # print(f'''best fit is now {best_fit}, now collision-checking for {element['as_id']} in {tb['cell_source']} with result {element['as_id'] == best_fit}''')
+                        print(f'''best fit is now {best_fit}, now collision-checking for {element['as_id']} in {tb['cell_source']} with result {element['as_id'] == best_fit}''')
+                        best_fit_in_mesh_collisions = element['as_id'] == best_fit
+                            
 
         # let's capture the best fit and is_best_fit_in_mesh_collisions bool
+        print(f'''Appending {best_fit} for {tb['cell_source']}''')
         d['best_fit'].append(best_fit)
         d['is_best_fit_in_mesh_collisions'].append(
             best_fit_in_mesh_collisions)
+        print()
 
     # finally, let's save the dict as a CSV using pandas
     df = pd.DataFrame(data=d)
