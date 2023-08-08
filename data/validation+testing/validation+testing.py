@@ -47,22 +47,22 @@ def main():
         "b": 3
     }
 
-    # make all as-cell-summaries available as simple
+    # make all as-cell-summaries available as simple list
     # list_all_as_dict = [ana1, ana2]
     list_summary_dict = []
 
     # set up a set for unique CTs and simplified dicts for AS
     unique_cts = set()
     for as_n_dict in as_summaries['@graph']:
-        as_n_dict_simplified = as_n_dict
-        del as_n_dict_simplified['@type']
-        del as_n_dict_simplified['annotation_method']
-        for summary in as_n_dict_simplified['summary']:
+        as_simple = as_n_dict
+        del as_simple['@type']
+        del as_simple['annotation_method']
+        for summary in as_simple['summary']:
             del summary['@type']
             del summary['cell_label']
             unique_cts.add(summary['cell_id'])
-        list_summary_dict.append(as_n_dict_simplified)
-        # print(f'''summary_dict: {as_n_dict_simplified}''')
+        list_summary_dict.append(as_simple)
+        # print(f'''summary_dict: {as_simple}''')
     print("unique: " + str(unique_cts))
 
     # set up a base dict with all possible cell types
@@ -76,6 +76,7 @@ def main():
     list_comparison_dicts = []
 
     for summary_dict in list_summary_dict:
+        print(summary_dict)
         comparison_dict = base_dict.copy()
         for entry in comparison_dict:
             for cell_type in summary_dict['summary']:
@@ -90,7 +91,7 @@ def main():
         for type in c:
             vector.append(c[type])
         vectors.append(vector)
-        # print(vector)
+        print(vector)
 
     # print(cosine_sim(vectors[0], vectors[1]))
 
