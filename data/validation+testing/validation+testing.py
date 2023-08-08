@@ -74,36 +74,33 @@ def main():
                 vectors['anatomical_structure']['vector'], vectors['tissue_block']['vector'])
             # Let's capture the current cosine similarity value
             d[as_sum['cell_source']].append(val)
-            
+
             # if the current value is larger than the current max value, we replace the max value and best fit AS
             if val > max:
                 max = val
                 best_fit = vectors['anatomical_structure']['cell_source']
-                
+
                 # Finally, we check if the new best fit is in the mesh-based collisions of the TB
                 for item in tb['all_collisions']:
                     for element in item['collisions']:
-                        best_fit_in_mesh_collisions = element['as_id'] == best_fit
-                        break
+                        if element['as_id'] == best_fit:
+                            best_fit_in_mesh_collisions = True
+                            break
 
+        # let's capture the best fit and is_best_fit_in_mesh_collisions bool
         d['best_fit'].append(best_fit)
         d['is_best_fit_in_mesh_collisions'].append(
             best_fit_in_mesh_collisions)
-        print()
-        print(f'''Testing for tb with ID {tb['cell_source']}''')
-        print(f'''Best fit: {best_fit} with {max}''')
-        print(
-            f'''Is best_fit in all_collisions? {best_fit_in_mesh_collisions}''')
-    # d = {'col1': [1, 2], 'col2': [3, 4]}
-    # for as_sum in list_as_summary_dict:
-    for key in d:
-        print(f'''{key} has len=={len(d[key])}''')
+
+    # finally, let's save the dict as a CSV using pandas
     df = pd.DataFrame(data=d)
     df.to_csv('tissue_block_fit.csv')
 
     # V2: Test Cell Type Population Prediction (CTPop4TB)
+    # TO BE ADDED LATER
 
     # V3: Cosine Similarity Space
+    # TO BE ADDED LATER
 
 
 def cosine_sim(a, b):
@@ -143,7 +140,8 @@ def normalize_summaries(dict_tissue_block, dict_as):
     Returns:
         dict: A normalized dictionary
     """
-    # unique cell_types in both
+
+    # collect unique cell_types in AS and TB
     unique_cell_types = set()
     for row in dict_as['summary']:
         unique_cell_types.add(row['cell_id'])
@@ -151,7 +149,7 @@ def normalize_summaries(dict_tissue_block, dict_as):
         for entry in cell_summary['summary']:
             unique_cell_types.add(entry['cell_id'])
 
-    # created based_dict with all cells (shared and not shared) between TB and AS
+    # Let's make the list of unique cell types available as a dict
     base_dict = {}
     for cell_type in unique_cell_types:
         base_dict[cell_type] = 0
@@ -173,13 +171,13 @@ def normalize_summaries(dict_tissue_block, dict_as):
         for cell_summary in dict_tissue_block['summaries']:
             for summary in cell_summary['summary']:
                 if entry == summary['cell_id']:
-
                     normalized_tissue_block[entry] = summary['percentage']
     normalized_tissue_block_with_cell_source = {
         'cell_source': dict_tissue_block['cell_source'],
         'normalized_summary': normalized_tissue_block
     }
 
+    # put together result in one neat dict
     result = {
         'anatomical_structure': normalized_as_with_cell_source,
         'tissue_block': normalized_tissue_block_with_cell_source
@@ -200,12 +198,16 @@ def create_comparison_dicts(dict_normalized):
     # print(f'''AS: {dict_normalized['anatomical_structure']}''')
     # print(f'''TB: {dict_normalized['tissue_block']}''')
 
+    # initialize result dict
     result = {}
+
+    # create a simple list for all CT counts for AS
     list_as = []
     for item in sorted(dict_normalized['anatomical_structure']['normalized_summary']):
         list_as.append(
             dict_normalized['anatomical_structure']['normalized_summary'][item])
 
+    # create a simple list for all CT counts for TB
     list_tb = []
     for item in sorted(dict_normalized['tissue_block']['normalized_summary']):
         list_tb.append(dict_normalized['tissue_block']
