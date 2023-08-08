@@ -31,13 +31,16 @@ def main():
         for sample in donor['samples']:
             try:
                 summary_to_add = {
-                    "id": sample['@id'],
+                    "cell_source": sample['@id'],
                     "summaries": sample['rui_location']['summaries']
                 }
                 test_sets.append(summary_to_add)
             except:
                 continue
 
+    for sample in test_sets:
+        print(sample)
+    # print(test_sets)
     # to get cosine sims with as-cell-summaries
     # for summary in as_summaries['@graph']:
         # print(summary)
@@ -49,65 +52,55 @@ def main():
 
     # make all as-cell-summaries available as simple list
     # list_all_as_dict = [ana1, ana2]
-    list_summary_dict = []
+    list_as_summary_dict = []
 
     # set up a set for unique CTs and simplified dicts for AS
     unique_cts = set()
     for as_n_dict in as_summaries['@graph']:
-        as_simple = as_n_dict
-        del as_simple['@type']
-        del as_simple['annotation_method']
-        for summary in as_simple['summary']:
-            del summary['@type']
-            del summary['cell_label']
+        simple = as_n_dict
+        # del simple['@type']
+        # del simple['annotation_method']
+        for summary in simple['summary']:
+            # del summary['@type']
+            # del summary['cell_label']
             unique_cts.add(summary['cell_id'])
-        list_summary_dict.append(as_simple)
+        list_as_summary_dict.append(simple)
         # print(f'''summary_dict: {as_simple}''')
-    print("unique: " + str(unique_cts))
+    # print("unique: " + str(unique_cts))
 
     # set up a base dict with all possible cell types
     base_dict = {}
     for ct in sorted(unique_cts):
         base_dict[ct] = 0
 
-    print(f'''base with len=={len(base_dict)}: {base_dict}''')
+    # print(f'''base with len=={len(base_dict)}: {base_dict}''')
 
     # create comparison dicts for tissue block and all as-cell-summaries
-    list_comparison_dicts = []
+    list_normalized_as_with_cell_source = []
 
-    for summary_dict in list_summary_dict:
-        print(summary_dict)
-        comparison_dict = base_dict.copy()
-        for entry in comparison_dict:
-            for cell_type in summary_dict['summary']:
-                if entry == cell_type['cell_id']:
-                    comparison_dict[entry] = cell_type['percentage']
-        list_comparison_dicts.append(comparison_dict)
-        print(comparison_dict)
+    for summary_dict in list_as_summary_dict:
+        # print(summary_dict)
+        normalized_dict = base_dict.copy()
+        for entry in normalized_dict:
+            for summary in summary_dict['summary']:
+                if entry == summary['cell_id']:
+                    normalized_dict[entry] = summary['percentage']
+        normalized_with_cell_source = {
+            'cell_source': summary_dict['cell_source'],
+            'normalized_summary': normalized_dict
+        }
+        list_normalized_as_with_cell_source.append(normalized_with_cell_source)
+        print(normalized_with_cell_source)
 
-    vectors = []
-    for c in list_comparison_dicts:
-        vector = []
-        for type in c:
-            vector.append(c[type])
-        vectors.append(vector)
-        print(vector)
+    # compute cosine similarity matrix between AS
 
-    # print(cosine_sim(vectors[0], vectors[1]))
+    # compute cosine similarity between 1 tissue block/sample and all AS
 
-    # for key in tissue_block:
-    #     list.append(tissue_block[key])
-
-    # print(cosine_sim(a,b))
+     # make all as-cell-summaries available as simple list
 
     # V2: Test Cell Type Population Prediction (CTPop4TB)
 
     # V3: Cosine Similarity Space
-
-
-def as_list_cell_aummary():
-    """A function to convert a cell summary to a list
-    """
 
 
 def cosine_sim(a, b):
@@ -117,11 +110,6 @@ def cosine_sim(a, b):
         float: cosine sim
     """
     return dot(a, b)/(norm(a)*norm(b))
-
-
-def get_vector_from_cell_types():
-    """A function to turn a CelLSummary into a vector
-    """
 
 
 # driver code
