@@ -1,4 +1,5 @@
 import json
+import pandas as pd
 from numpy import dot
 from numpy.linalg import norm
 
@@ -9,99 +10,78 @@ URL_AS_CT_COMBOS = "http://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/ccf/
 def main():
     """A function to perform validation steps for the current CTPop workflow to predict rui_locations and cell type populations
     """
-
-    with open("../enriched_rui_locations.jsonld", 'r') as f:
-        enriched_rui_locations = json.load(f)
-
-    # load AS cell summaries
-    with open("../as-cell-summaries.jsonld", 'r') as f:
-        as_summaries = json.load(f)
-
-    # open downloaded API responses (for speed)
-    with open("downloaded_api_responses/ccf_api_as_ct_combos.json", 'r') as f:
-        api = json.load(f)
+    enriched_rui_locations = load_json("../enriched_rui_locations.jsonld")
+    as_summaries = load_json("../as-cell-summaries.jsonld")
+    api = load_json("downloaded_api_responses/ccf_api_as_ct_combos.json")
 
     # V1: Test RUI Location Prediction (simAS, simCorridor)
     # Prediction 0: using as-cell-sumamries
-    # make all as-cell-summaries available as list
+    # get relevant data from as-cell-summaries and add all to a list
     list_as_summary_dict = []
 
     for cell_summary in as_summaries['@graph']:
         summary_to_add = {
+            # grab the cell_source (AKA the AS) and the cell summary
             "cell_source": cell_summary['cell_source'],
             'summary': cell_summary['summary']
         }
         list_as_summary_dict.append(summary_to_add)
 
-    # for list in list_as_summary_dict:
-    #     print(list)
-
-    # make samples with RUI location and cell type population that we use for this test available as list
+    # then get relevant data from enriched-rui-locations and add all to a list
     list_tissue_blocks_summary_dict = []
 
     for donor in enriched_rui_locations['@graph']:
         for sample in donor['samples']:
             try:
                 summary_to_add = {
+                    # grab cell source (sample ID), AS collision tags (important for checking validity of CTPop later), and summaries
                     "cell_source": sample['@id'],
-                    'ccf_annotations' : sample['rui_location']['ccf_annotations'],
+                    'all_collisions': sample['rui_location']['all_collisions'],
                     "summaries": sample['rui_location']['summaries']
                 }
                 list_tissue_blocks_summary_dict.append(summary_to_add)
             except:
                 continue
-
-    # for sample in list_tissue_blocks_summary_dict:
-    #     print(sample)
-
-    # NORMALIZATION ONLY NEEED BETWEEN SUMMARy PAIRS WE COMPARE!
-    # WRITE NORMALIZATION FUNCTION THAT IS ONLY APPLIED WITH COMPARING TWO AS OR TB OR MIXED WITH EACH OTHER!
-
-    # compute cosine similarity matrix between AS
-    # set up a set for unique CTs in the AS
-    unique_cts = set()
-    for as_n_dict in as_summaries['@graph']:
-        simple = as_n_dict
-        for summary in simple['summary']:
-            unique_cts.add(summary['cell_id'])
-        # capture as-cell-summary in list
-        list_as_summary_dict.append(simple)
-
-    # set up a base dict with all possible cell types in the AS
-    base_dict = {}
-    for ct in sorted(unique_cts):
-        base_dict[ct] = 0
-
-    print(f'''base_dict has {len(base_dict)} unique cell types.''')
-
-    # vectors = create_comparison_dicts(normalize_summaries(
-    #     list_tissue_blocks_summary_dict[0], list_as_summary_dict[0]))
-
-    # print(cosine_sim(vectors['anatomical_structure'], vectors['tissue_block']))
-
+    # Next, let's run this code for 1 TB at a time. We capture trhe max cosine sim value and the AS name of the best fit AS based on CTPop
     max = 0
     best_fit = ""
-    tb = list_tissue_blocks_summary_dict[77]
+    best_fit_in_mesh_collisions = False
+
+    # The tissue block we test for
+    tb = list_tissue_blocks_summary_dict[88]
+
+
+    # dict to capture test results
+    d = {
+        'tissue_block': tb['cell_source']
+    }
 
     for as_sum in list_as_summary_dict:
         vectors = create_comparison_dicts(normalize_summaries(
             tb, as_sum))
         val = cosine_sim(
             vectors['anatomical_structure']['vector'], vectors['tissue_block']['vector'])
-        print(
-            f'''AS {vectors['anatomical_structure']['cell_source']} has val: {val}''')
+        d[vectors['anatomical_structure']['cell_source']] = [val]
         if val > max:
             max = val
             best_fit = vectors['anatomical_structure']['cell_source']
+
+            for item in tb['all_collisions']:
+                for element in item['collisions']:
+                    best_fit_in_mesh_collisions = element['as_id'] == best_fit
+                    break
+
+    d['best_fit'] = best_fit
+    d['is_best_fit_in_mesh_collisions'] = best_fit_in_mesh_collisions
     print()
+    print(f'''Testing for tb with ID {tb['cell_source']}''')
     print(f'''Best fit: {best_fit} with {max}''')
-    print(f'''Is best_fit in ccf_annotations? {best_fit in tb['ccf_annotations']}''')
-
-    # print(cosine_sim(vectors[0], vectors[1]))
-    # compute cosine similarity between tissue blocks/samples and all AS
-    # normalize sample cell summaries
-
-    # make all as-cell-summaries available as simple list
+    print(
+        f'''Is best_fit in all_collisions? {best_fit_in_mesh_collisions}''')
+    # d = {'col1': [1, 2], 'col2': [3, 4]}
+    # for as_sum in list_as_summary_dict:
+    df = pd.DataFrame(data=d)
+    df.to_csv('tissue_block_fit.csv')
 
     # V2: Test Cell Type Population Prediction (CTPop4TB)
 
@@ -111,10 +91,28 @@ def main():
 def cosine_sim(a, b):
     """A function to return a cosine sim for two vectors
 
+  Args:
+        a (list): vector 1
+        b (list): vector 2
+
     Returns:
         float: cosine sim
     """
     return dot(a, b)/(norm(a)*norm(b))
+
+
+def load_json(file_path):
+    """A function to load a json file and return the data as a dict
+
+    Args:
+        file_path (string): file path
+
+    Returns:
+        dict: the data
+    """
+    with open(file_path, 'r') as f:
+        data = json.load(f)
+    return data
 
 
 def normalize_summaries(dict_tissue_block, dict_as):
@@ -134,7 +132,6 @@ def normalize_summaries(dict_tissue_block, dict_as):
     for cell_summary in dict_tissue_block['summaries']:
         for entry in cell_summary['summary']:
             unique_cell_types.add(entry['cell_id'])
-    # print(f'''unique cell types: {len(unique_cell_types)}''')
 
     # created based_dict with all cells (shared and not shared) between TB and AS
     base_dict = {}
@@ -151,10 +148,6 @@ def normalize_summaries(dict_tissue_block, dict_as):
         'cell_source': dict_as['cell_source'],
         'normalized_summary': normalized_as
     }
-    # print(
-    #     f'''normalized_as_with_cell_source has len: {len(normalized_as_with_cell_source['normalized_summary'])}''')
-    # print(
-    #     f'''normalized_as_with_cell_source: {normalized_as_with_cell_source}''')
 
     # normalize cell tpyes in tissue block
     normalized_tissue_block = base_dict.copy()
@@ -168,21 +161,11 @@ def normalize_summaries(dict_tissue_block, dict_as):
         'cell_source': dict_tissue_block['cell_source'],
         'normalized_summary': normalized_tissue_block
     }
-    # print(
-    #     f'''normalized_tissue_block_with_cell_source has len: {len(normalized_tissue_block_with_cell_source['normalized_summary'])}''')
-    # print(
-    #     f'''normalized_tissue_block_with_cell_source: {normalized_tissue_block_with_cell_source}''')
-
-    #    print(cell_summary)
 
     result = {
         'anatomical_structure': normalized_as_with_cell_source,
         'tissue_block': normalized_tissue_block_with_cell_source
     }
-
-    # for entry in summary['summary']:
-    #     if row['cell_id'] == entry['cell_id']:
-    #         continue
 
     return result
 
