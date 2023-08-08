@@ -5,9 +5,6 @@ from numpy.linalg import norm
 # CCF API endpoint, not used yet (using downloaded version for dev)
 URL_AS_CT_COMBOS = "http://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/ccf//cells_located_in_as?endpoint=https%3A%2F%2Fccf-api.hubmapconsortium.org%2Fv1%2Fsparql?format=application/json"
 
-# samples with RUI location and cell type population that we use for this test
-test_sets = []
-
 
 def main():
     """A function to perform validation steps for the current CTPop workflow to predict rui_locations and cell type populations
@@ -26,7 +23,22 @@ def main():
 
     # V1: Test RUI Location Prediction (simAS, simCorridor)
     # Prediction 0: using as-cell-sumamries
-    # collect all samples with cell summaries in a list
+    # make all as-cell-summaries available as list
+    list_as_summary_dict = []
+
+    for cell_summary in as_summaries['@graph']:
+        summary_to_add = {
+            "cell_source": cell_summary['cell_source'],
+            'summary': cell_summary['summary']
+        }
+        list_as_summary_dict.append(summary_to_add)
+
+    # for list in list_as_summary_dict:
+    #     print(list)
+
+    # make samples with RUI location and cell type population that we use for this test available as list
+    list_tissue_blocks_summary_dict = []
+
     for donor in enriched_rui_locations['@graph']:
         for sample in donor['samples']:
             try:
@@ -34,69 +46,58 @@ def main():
                     "cell_source": sample['@id'],
                     "summaries": sample['rui_location']['summaries']
                 }
-                test_sets.append(summary_to_add)
+                list_tissue_blocks_summary_dict.append(summary_to_add)
             except:
                 continue
 
-    for sample in test_sets:
-        print(sample)
-    # print(test_sets)
-    # to get cosine sims with as-cell-summaries
-    # for summary in as_summaries['@graph']:
-        # print(summary)
+    # for sample in list_tissue_blocks_summary_dict:
+    #     print(sample)
 
-    tissue_block1 = {
-        "a": 2,
-        "b": 3
-    }
+    # NORMALIZATION ONLY NEEED BETWEEN SUMMARy PAIRS WE COMPARE!
+    # WRITE NORMALIZATION FUNCTION THAT IS ONLY APPLIED WITH COMPARING TWO AS OR TB OR MIXED WITH EACH OTHER!
 
-    # make all as-cell-summaries available as simple list
-    # list_all_as_dict = [ana1, ana2]
-    list_as_summary_dict = []
-
-    # set up a set for unique CTs and simplified dicts for AS
+    # compute cosine similarity matrix between AS
+    # set up a set for unique CTs in the AS
     unique_cts = set()
     for as_n_dict in as_summaries['@graph']:
         simple = as_n_dict
-        # del simple['@type']
-        # del simple['annotation_method']
         for summary in simple['summary']:
-            # del summary['@type']
-            # del summary['cell_label']
             unique_cts.add(summary['cell_id'])
+        # capture as-cell-summary in list
         list_as_summary_dict.append(simple)
-        # print(f'''summary_dict: {as_simple}''')
-    # print("unique: " + str(unique_cts))
 
-    # set up a base dict with all possible cell types
+    # set up a base dict with all possible cell types in the AS
     base_dict = {}
     for ct in sorted(unique_cts):
         base_dict[ct] = 0
 
-    # print(f'''base with len=={len(base_dict)}: {base_dict}''')
+    print(f'''base_dict has {len(base_dict)} unique cell types.''')
 
-    # create comparison dicts for tissue block and all as-cell-summaries
-    list_normalized_as_with_cell_source = []
+    vectors = create_comparison_dicts(normalize_summaries(
+        list_tissue_blocks_summary_dict[0], list_as_summary_dict[0]))
 
-    for summary_dict in list_as_summary_dict:
-        # print(summary_dict)
-        normalized_dict = base_dict.copy()
-        for entry in normalized_dict:
-            for summary in summary_dict['summary']:
-                if entry == summary['cell_id']:
-                    normalized_dict[entry] = summary['percentage']
-        normalized_with_cell_source = {
-            'cell_source': summary_dict['cell_source'],
-            'normalized_summary': normalized_dict
-        }
-        list_normalized_as_with_cell_source.append(normalized_with_cell_source)
-        print(normalized_with_cell_source)
+    print(cosine_sim(vectors['anatomical_structure'], vectors['tissue_block']))
 
-    # compute cosine similarity matrix between AS
+    max = 0
+    best_fit = ""
+    tb = list_tissue_blocks_summary_dict[0]
 
-    # compute cosine similarity between 1 tissue block/sample and all AS
+    for as_sum in list_as_summary_dict:
+        vectors = create_comparison_dicts(normalize_summaries(
+           tb, as_sum))
+        val = cosine_sim(
+            vectors['anatomical_structure'], vectors['tissue_block'])
+        print(f'''tb has val: {val}''')
+        if val > max:
+            max = val
+            # best_fit = 
+        # print(f'''max: {max}''')
 
-     # make all as-cell-summaries available as simple list
+    # print(cosine_sim(vectors[0], vectors[1]))
+    # compute cosine similarity between tissue blocks/samples and all AS
+    # normalize sample cell summaries
+
+    # make all as-cell-summaries available as simple list
 
     # V2: Test Cell Type Population Prediction (CTPop4TB)
 
@@ -110,6 +111,104 @@ def cosine_sim(a, b):
         float: cosine sim
     """
     return dot(a, b)/(norm(a)*norm(b))
+
+
+def normalize_summaries(dict_tissue_block, dict_as):
+    """A function to return a normalize dictionary
+
+    Args:
+        dict_tissue_block (dict): The dict with the cell counts of the tissue block
+        dict_as (dict): The dict with the cell counts of the anatomical structure
+
+    Returns:
+        dict: A normalized dictionary
+    """
+    # unique cell_types in both
+    unique_cell_types = set()
+    for row in dict_as['summary']:
+        unique_cell_types.add(row['cell_id'])
+    for cell_summary in dict_tissue_block['summaries']:
+        for entry in cell_summary['summary']:
+            unique_cell_types.add(entry['cell_id'])
+    # print(f'''unique cell types: {len(unique_cell_types)}''')
+
+    # created based_dict with all cells (shared and not shared) between TB and AS
+    base_dict = {}
+    for cell_type in unique_cell_types:
+        base_dict[cell_type] = 0
+
+    # normalize cell tpyes in AS
+    normalized_as = base_dict.copy()
+    for entry in normalized_as:
+        for cell_summary in dict_as['summary']:
+            if entry == cell_summary['cell_id']:
+                normalized_as[entry] = cell_summary['percentage']
+    normalized_as_with_cell_source = {
+        'cell_source': dict_as['cell_source'],
+        'normalized_summary': normalized_as
+    }
+    # print(
+    #     f'''normalized_as_with_cell_source has len: {len(normalized_as_with_cell_source['normalized_summary'])}''')
+    # print(
+    #     f'''normalized_as_with_cell_source: {normalized_as_with_cell_source}''')
+
+    # normalize cell tpyes in tissue block
+    normalized_tissue_block = base_dict.copy()
+    for entry in normalized_tissue_block:
+        for cell_summary in dict_tissue_block['summaries']:
+            for summary in cell_summary['summary']:
+                if entry == summary['cell_id']:
+
+                    normalized_tissue_block[entry] = summary['percentage']
+    normalized_tissue_block_with_cell_source = {
+        'cell_source': dict_tissue_block['cell_source'],
+        'normalized_summary': normalized_tissue_block
+    }
+    # print(
+    #     f'''normalized_tissue_block_with_cell_source has len: {len(normalized_tissue_block_with_cell_source['normalized_summary'])}''')
+    # print(
+    #     f'''normalized_tissue_block_with_cell_source: {normalized_tissue_block_with_cell_source}''')
+
+    #    print(cell_summary)
+
+    result = {
+        'anatomical_structure': normalized_as_with_cell_source,
+        'tissue_block': normalized_tissue_block_with_cell_source
+    }
+
+    # for entry in summary['summary']:
+    #     if row['cell_id'] == entry['cell_id']:
+    #         continue
+
+    return result
+
+
+def create_comparison_dicts(dict_normalized):
+    """A function to isolate CT counts from two dictionaries and return them as a list of lists
+
+    Args:
+        dict_comparison (dict): A dictionary with cell type summaries for one anatomical structure and one tissue block 
+
+     Returns:
+        list: A list of lists
+    """
+    # print(f'''AS: {dict_normalized['anatomical_structure']}''')
+    # print(f'''TB: {dict_normalized['tissue_block']}''')
+
+    result = {}
+    list_as = []
+    for item in sorted(dict_normalized['anatomical_structure']['normalized_summary']):
+        list_as.append(
+            dict_normalized['anatomical_structure']['normalized_summary'][item])
+
+    list_tb = []
+    for item in sorted(dict_normalized['tissue_block']['normalized_summary']):
+        list_tb.append(dict_normalized['tissue_block']
+                       ['normalized_summary'][item])
+
+    result['anatomical_structure'] = list_as
+    result['tissue_block'] = list_tb
+    return result
 
 
 # driver code
