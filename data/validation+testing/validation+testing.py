@@ -44,6 +44,7 @@ def main():
             try:
                 summary_to_add = {
                     "cell_source": sample['@id'],
+                    'ccf_annotations' : sample['rui_location']['ccf_annotations'],
                     "summaries": sample['rui_location']['summaries']
                 }
                 list_tissue_blocks_summary_dict.append(summary_to_add)
@@ -73,25 +74,28 @@ def main():
 
     print(f'''base_dict has {len(base_dict)} unique cell types.''')
 
-    vectors = create_comparison_dicts(normalize_summaries(
-        list_tissue_blocks_summary_dict[0], list_as_summary_dict[0]))
+    # vectors = create_comparison_dicts(normalize_summaries(
+    #     list_tissue_blocks_summary_dict[0], list_as_summary_dict[0]))
 
-    print(cosine_sim(vectors['anatomical_structure'], vectors['tissue_block']))
+    # print(cosine_sim(vectors['anatomical_structure'], vectors['tissue_block']))
 
     max = 0
     best_fit = ""
-    tb = list_tissue_blocks_summary_dict[0]
+    tb = list_tissue_blocks_summary_dict[77]
 
     for as_sum in list_as_summary_dict:
         vectors = create_comparison_dicts(normalize_summaries(
-           tb, as_sum))
+            tb, as_sum))
         val = cosine_sim(
-            vectors['anatomical_structure'], vectors['tissue_block'])
-        print(f'''tb has val: {val}''')
+            vectors['anatomical_structure']['vector'], vectors['tissue_block']['vector'])
+        print(
+            f'''AS {vectors['anatomical_structure']['cell_source']} has val: {val}''')
         if val > max:
             max = val
-            # best_fit = 
-        # print(f'''max: {max}''')
+            best_fit = vectors['anatomical_structure']['cell_source']
+    print()
+    print(f'''Best fit: {best_fit} with {max}''')
+    print(f'''Is best_fit in ccf_annotations? {best_fit in tb['ccf_annotations']}''')
 
     # print(cosine_sim(vectors[0], vectors[1]))
     # compute cosine similarity between tissue blocks/samples and all AS
@@ -206,8 +210,14 @@ def create_comparison_dicts(dict_normalized):
         list_tb.append(dict_normalized['tissue_block']
                        ['normalized_summary'][item])
 
-    result['anatomical_structure'] = list_as
-    result['tissue_block'] = list_tb
+    result['anatomical_structure'] = {
+        'cell_source': dict_normalized['anatomical_structure']['cell_source'],
+        'vector': list_as
+    }
+    result['tissue_block'] = {
+        'cell_source': dict_normalized['tissue_block']['cell_source'],
+        'vector': list_tb
+    }
     return result
 
 
