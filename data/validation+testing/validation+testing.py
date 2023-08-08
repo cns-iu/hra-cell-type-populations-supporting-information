@@ -16,9 +16,9 @@ def main():
 
     # V1: Test RUI Location Prediction (simAS, simCorridor)
     # Prediction 0: using as-cell-sumamries
-    # get relevant data from as-cell-summaries and add all to a list
-    list_as_summary_dict = []
 
+    # Let's get relevant data from as-cell-summaries and add all to a list
+    list_as_summary_dict = []
     for cell_summary in as_summaries['@graph']:
         summary_to_add = {
             # grab the cell_source (AKA the AS) and the cell summary
@@ -27,9 +27,8 @@ def main():
         }
         list_as_summary_dict.append(summary_to_add)
 
-    # then get relevant data from enriched-rui-locations and add all to a list
+    # Then, let's get relevant data from enriched-rui-locations and add all to a list
     list_tissue_blocks_summary_dict = []
-
     for donor in enriched_rui_locations['@graph']:
         for sample in donor['samples']:
             try:
@@ -42,44 +41,63 @@ def main():
                 list_tissue_blocks_summary_dict.append(summary_to_add)
             except:
                 continue
-    # Next, let's run this code for 1 TB at a time. We capture trhe max cosine sim value and the AS name of the best fit AS based on CTPop
-    max = 0
-    best_fit = ""
-    best_fit_in_mesh_collisions = False
 
-    # The tissue block we test for
-    tb = list_tissue_blocks_summary_dict[88]
-
-
-    # dict to capture test results
+    # Let's create a dict to capoture our text results. Each key is a column header and the column content is a list
     d = {
-        'tissue_block': tb['cell_source']
+        'tissue_block': [],
+        'best_fit': [],
+        'is_best_fit_in_mesh_collisions': []
     }
 
+    # let's add one column for each AS for which we has AS summaries
     for as_sum in list_as_summary_dict:
-        vectors = create_comparison_dicts(normalize_summaries(
-            tb, as_sum))
-        val = cosine_sim(
-            vectors['anatomical_structure']['vector'], vectors['tissue_block']['vector'])
-        d[vectors['anatomical_structure']['cell_source']] = [val]
-        if val > max:
-            max = val
-            best_fit = vectors['anatomical_structure']['cell_source']
+        d[as_sum['cell_source']] = []
 
-            for item in tb['all_collisions']:
-                for element in item['collisions']:
-                    best_fit_in_mesh_collisions = element['as_id'] == best_fit
-                    break
+    # Next, let's run this code for all 159 TBs. We capture their max cosine sim value and the AS name of the best fit AS based on CTPop
+    # Additionally, we capture whether this AS is in the mesh-based collisions of the TB
+    for tb in list_tissue_blocks_summary_dict:
 
-    d['best_fit'] = best_fit
-    d['is_best_fit_in_mesh_collisions'] = best_fit_in_mesh_collisions
-    print()
-    print(f'''Testing for tb with ID {tb['cell_source']}''')
-    print(f'''Best fit: {best_fit} with {max}''')
-    print(
-        f'''Is best_fit in all_collisions? {best_fit_in_mesh_collisions}''')
+        # variables to capture max, best fit AS, and whether the best fit AS is in the mesh-based collisions for this TB
+        max = 0
+        best_fit = ""
+        best_fit_in_mesh_collisions = False
+
+        # Let's set the ID of this tissue block
+        d['tissue_block'].append(tb['cell_source'])
+
+        # Now we loop through all the AS summaries
+        for as_sum in list_as_summary_dict:
+            # Now we use functions defined below to get normalized dictionaries for the current tissue block and AS
+            vectors = create_comparison_dicts(normalize_summaries(tb, as_sum))
+            # Let's compute the cosime similarity between the two vectors (TB and AS)
+            val = cosine_sim(
+                vectors['anatomical_structure']['vector'], vectors['tissue_block']['vector'])
+            # Let's capture the current cosine similarity value
+            d[as_sum['cell_source']].append(val)
+            
+            # if the current value is larger than the current max value, we replace the max value and best fit AS
+            if val > max:
+                max = val
+                best_fit = vectors['anatomical_structure']['cell_source']
+                
+                # Finally, we check if the new best fit is in the mesh-based collisions of the TB
+                for item in tb['all_collisions']:
+                    for element in item['collisions']:
+                        best_fit_in_mesh_collisions = element['as_id'] == best_fit
+                        break
+
+        d['best_fit'].append(best_fit)
+        d['is_best_fit_in_mesh_collisions'].append(
+            best_fit_in_mesh_collisions)
+        print()
+        print(f'''Testing for tb with ID {tb['cell_source']}''')
+        print(f'''Best fit: {best_fit} with {max}''')
+        print(
+            f'''Is best_fit in all_collisions? {best_fit_in_mesh_collisions}''')
     # d = {'col1': [1, 2], 'col2': [3, 4]}
     # for as_sum in list_as_summary_dict:
+    for key in d:
+        print(f'''{key} has len=={len(d[key])}''')
     df = pd.DataFrame(data=d)
     df.to_csv('tissue_block_fit.csv')
 
