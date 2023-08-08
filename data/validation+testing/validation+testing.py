@@ -46,6 +46,8 @@ def main():
     d = {
         'tissue_block': [],
         'best_fit': [],
+        'second_best_fit': [],
+        'difference_between_best_and_second_best': [],
         'is_best_fit_in_mesh_collisions': []
     }
 
@@ -59,7 +61,10 @@ def main():
         print(f'''Now validating {tb['cell_source']}''')
         # variables to capture max, best fit AS, and whether the best fit AS is in the mesh-based collisions for this TB
         max = 0
+        second_max = 0
+        difference = 0
         best_fit = ""
+        second_best_fit = ""
         best_fit_in_mesh_collisions = False
 
         # Let's set the ID of this tissue block
@@ -77,23 +82,33 @@ def main():
 
             # if the current value is larger than the current max value, we replace the max value and best fit AS
             if val > max:
+
+                second_max = max
                 max = val
+                difference = max-second_max
+                print(f'''difference: {difference}''')
+
+                second_best_fit = best_fit
                 best_fit = vectors['anatomical_structure']['cell_source']
-                print(f'''Identified {best_fit} with {max} for {tb['cell_source']}''')
+
+                print(
+                    f'''Identified {best_fit} with {max} for {tb['cell_source']}''')
                 # Finally, we check if the new best fit is in the mesh-based collisions of the TB
-        
+
                 for item in tb['all_collisions']:
                     for element in item['collisions']:
                         # print(f'''best fit is now {best_fit}, now collision-checking for {element['as_id']} in {tb['cell_source']} with result {element['as_id'] == best_fit}''')
-                        print(f'''best fit is now {best_fit}, now collision-checking for {element['as_id']} in {tb['cell_source']} with result {element['as_id'] == best_fit}''')
+                        print(
+                            f'''best fit is now {best_fit}, now collision-checking for {element['as_id']} in {tb['cell_source']} with result {element['as_id'] == best_fit}''')
                         best_fit_in_mesh_collisions = element['as_id'] == best_fit
-                            
 
         # let's capture the best fit and is_best_fit_in_mesh_collisions bool
         print(f'''Appending {best_fit} for {tb['cell_source']}''')
         d['best_fit'].append(best_fit)
+        d['difference_between_best_and_second_best'].append(difference)
         d['is_best_fit_in_mesh_collisions'].append(
             best_fit_in_mesh_collisions)
+        d['second_best_fit'].append(second_best_fit)
         print()
 
     # finally, let's save the dict as a CSV using pandas
