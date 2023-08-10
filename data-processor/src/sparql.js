@@ -1,4 +1,5 @@
 import { SparqlEndpointFetcher } from 'fetch-sparql-endpoint';
+import jsonld from 'jsonld';
 import Papa from 'papaparse';
 
 /**
@@ -14,10 +15,7 @@ export async function selectRemoteObjects(query, sparqlEndpoint) {
   return new Promise((resolve, reject) => {
     const results = [];
     stream.on('data', (bindings) => {
-      const result = Object.keys(bindings).reduce(
-        (acc, key) => ((acc[key] = bindings[key]?.value), acc),
-        {}
-      );
+      const result = Object.keys(bindings).reduce((acc, key) => ((acc[key] = bindings[key]?.value), acc), {});
       results.push(result);
     });
     stream.on('end', () => {
@@ -36,4 +34,34 @@ export async function selectRemoteObjects(query, sparqlEndpoint) {
 export async function selectCsvRemote(query, sparqlEndpoint) {
   const data = await selectRemoteObjects(query, sparqlEndpoint);
   return Papa.unparse(data);
+}
+
+/**
+ * Generator that constructs a JSON-LD object based on a SPARQL CONSTRUCT query
+ *
+ * @param {string} query the SPARQL query as a string
+ * @param {string} sparqlEndpoint the remote SPARQL endpoint to query
+ * @param {object | undefined} frameObj an optional frame object for json-ld
+ * @returns a JSON-LD object
+ */
+export async function constructJsonLd(query, sparqlEndpoint, frameObj = undefined) {
+  const fetcher = new SparqlEndpointFetcher({});
+  const stream = await fetcher.fetchTriples(sparqlEndpoint, query);
+  return new Promise((resolve, _reject) => {
+    const results = [];
+    stream.on('data', (quad) => {
+      results.push(quad);
+    });
+    stream.on('end', () => {
+      resolve(results);
+    });
+  })
+    .then((data) => jsonld.fromRDF(data))
+    .then((data) => {
+      if (frameObj) {
+        return jsonld.frame(data, frameObj);
+      } else {
+        return data;
+      }
+    });
 }

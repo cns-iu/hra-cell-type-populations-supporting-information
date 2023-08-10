@@ -52,7 +52,7 @@ function normalizeCellType(id, label) {
  * @param {string} datasetIri the dataset iri for this summary
  * @returns a cell summary in jsonld format
  */
-function getCTSummary(path, datasetIri) {
+function getCTSummary(path, datasetIri, modality = undefined) {
   const rows = Papa.parse(readFileSync(path).toString(), { header: true }).data;
   const summary = rows.map(r => ({
       '@type': 'CellSummaryRow',
@@ -68,6 +68,7 @@ function getCTSummary(path, datasetIri) {
     '@type': 'CellSummary',
     cell_source: datasetIri,
     annotation_method: 'Ad-Hoc',
+    modality,
     summary
   };
 }
@@ -90,7 +91,11 @@ function findCTSummary(id, datasetIri, dirPattern = '*') {
     if (!datasetIri) {
       datasetIri = `${BASE_IRI}${id}`;
     }
-    result = getCTSummary(csvFiles[0], datasetIri);
+    let modality = 'bulk';
+    if (csvFiles[0].startsWith('hra-ct-summaries-mx-spatial-data')) {
+      modality = 'spatial';
+    }
+    result = getCTSummary(csvFiles[0], datasetIri, modality);
     if (csvFiles.length > 1) {
       console.log(`Multiple matches for ${id}: \n\t${csvFiles.join('\n\t')}`);
     }

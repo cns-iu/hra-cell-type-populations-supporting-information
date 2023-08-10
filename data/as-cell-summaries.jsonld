@@ -172,617 +172,9 @@
   "@graph": [
     {
       "@type": "CellSummary",
-      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002097",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:adipocyte",
-          "cell_label": "Adipocyte",
-          "count": 62,
-          "percentage": 0.005079872806539599
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:endothelial-cell",
-          "cell_label": "Endothelial cell",
-          "count": 1022,
-          "percentage": 0.08373596787553984
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:epithelial-cell",
-          "cell_label": "Epithelial cell",
-          "count": 568,
-          "percentage": 0.04653818958249181
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:epithelial-cell-keratinocyte-",
-          "cell_label": "Epithelial cell (keratinocyte)",
-          "count": 1943,
-          "percentage": 0.15919665908236197
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:fibroblast",
-          "cell_label": "Fibroblast",
-          "count": 529,
-          "percentage": 0.04334278572031368
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-lymphocyte-",
-          "cell_label": "Immune (lymphocyte)",
-          "count": 75,
-          "percentage": 0.006145007427265644
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-myeloid-",
-          "cell_label": "Immune (myeloid)",
-          "count": 179,
-          "percentage": 0.014666084393074005
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:melanocyte",
-          "cell_label": "Melanocyte",
-          "count": 272,
-          "percentage": 0.022285893602883404
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:muscle",
-          "cell_label": "Muscle",
-          "count": 186,
-          "percentage": 0.015239618419618798
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:other",
-          "cell_label": "Other",
-          "count": 451,
-          "percentage": 0.03695197799595741
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:cd68-macrophage",
-          "cell_label": "CD68 / Macrophage",
-          "count": 583.212,
-          "percentage": 0.047784560955606015
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:t-killer",
-          "cell_label": "T-Killer",
-          "count": 204.245,
-          "percentage": 0.01673449389309162
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:t-reg",
-          "cell_label": "T-reg",
-          "count": 734.747,
-          "percentage": 0.060200343628815337
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:t-helper",
-          "cell_label": "T-helper",
-          "count": 5395.825999999999,
-          "percentage": 0.4420985446164409
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.org/sig/ont/fma/fma73165",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:adipocyte",
-          "cell_label": "Adipocyte",
-          "count": 1694.0819999999999,
-          "percentage": 0.18024564994882292
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:endothelial-cell",
-          "cell_label": "Endothelial cell",
-          "count": 847.522,
-          "percentage": 0.09017400204708291
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:epithelial-cell",
-          "cell_label": "Epithelial cell",
-          "count": 5578.637999999999,
-          "percentage": 0.593551688843398
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:fibroblast",
-          "cell_label": "Fibroblast",
-          "count": 787.8779999999999,
-          "percentage": 0.08382804503582394
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-myeloid-",
-          "cell_label": "Immune (myeloid)",
-          "count": 344.396,
-          "percentage": 0.036642784032753326
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:muscle",
-          "cell_label": "Muscle",
-          "count": 146.224,
-          "percentage": 0.01555783009211873
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.org/sig/ont/fma/fma7385",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:endothelial-cell",
-          "cell_label": "Endothelial cell",
-          "count": 2746,
-          "percentage": 0.07782564335109399
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:epithelial-cell",
-          "cell_label": "Epithelial cell",
-          "count": 24075,
-          "percentage": 0.6823205985715906
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:fibroblast",
-          "cell_label": "Fibroblast",
-          "count": 1476,
-          "percentage": 0.04183199183766013
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-lymphocyte-",
-          "cell_label": "Immune (lymphocyte)",
-          "count": 725,
-          "percentage": 0.020547556966330347
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-myeloid-",
-          "cell_label": "Immune (myeloid)",
-          "count": 6099,
-          "percentage": 0.17285455163813626
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:muscle",
-          "cell_label": "Muscle",
-          "count": 163,
-          "percentage": 0.004619657635188754
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.org/sig/ont/fma/fma7386",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:endothelial-cell",
-          "cell_label": "Endothelial cell",
-          "count": 741.86,
-          "percentage": 0.05708898944193062
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:epithelial-cell",
-          "cell_label": "Epithelial cell",
-          "count": 9133.6,
-          "percentage": 0.702865761689291
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:fibroblast",
-          "cell_label": "Fibroblast",
-          "count": 709.52,
-          "percentage": 0.05460030165912518
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-lymphocyte-",
-          "cell_label": "Immune (lymphocyte)",
-          "count": 405.71999999999997,
-          "percentage": 0.03122171945701357
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-myeloid-",
-          "cell_label": "Immune (myeloid)",
-          "count": 1917.86,
-          "percentage": 0.14758672699849168
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:muscle",
-          "cell_label": "Muscle",
-          "count": 86.24,
-          "percentage": 0.006636500754147812
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002078",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:adipocyte",
-          "cell_label": "Adipocyte",
-          "count": 120.612,
-          "percentage": 0.0005312521175293959
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:endothelial-cell",
-          "cell_label": "Endothelial cell",
-          "count": 4724.256,
-          "percentage": 0.02080863432951078
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:fibroblast",
-          "cell_label": "Fibroblast",
-          "count": 5697.117,
-          "percentage": 0.025093734206071697
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:glia",
-          "cell_label": "Glia",
-          "count": 181.305,
-          "percentage": 0.0007985827709404299
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-lymphocyte-",
-          "cell_label": "Immune (lymphocyte)",
-          "count": 399.978,
-          "percentage": 0.001761758029592186
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-myeloid-",
-          "cell_label": "Immune (myeloid)",
-          "count": 3463.218,
-          "percentage": 0.015254219281380953
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:muscle",
-          "cell_label": "Muscle",
-          "count": 7541.883,
-          "percentage": 0.033219259393003624
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000003",
-          "cell_label": "native cell",
-          "count": 14569.961000000001,
-          "percentage": 0.06417539410316317
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000057",
-          "cell_label": "fibroblast",
-          "count": 24731.66899999999,
-          "percentage": 0.1089340324867021
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000097",
-          "cell_label": "mast cell",
-          "count": 667.7120000000001,
-          "percentage": 0.002941029200243658
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000115",
-          "cell_label": "endothelial cell",
-          "count": 5768.106,
-          "percentage": 0.02540641500542246
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000192",
-          "cell_label": "smooth muscle cell",
-          "count": 7004.844000000002,
-          "percentage": 0.030853797366456777
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000235",
-          "cell_label": "macrophage",
-          "count": 6148.697000000001,
-          "percentage": 0.027082780331116676
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000236",
-          "cell_label": "B cell",
-          "count": 503.92199999999985,
-          "percentage": 0.00221959365212125
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000451",
-          "cell_label": "dendritic cell",
-          "count": 335.318,
-          "percentage": 0.0014769541798968758
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000576",
-          "cell_label": "monocyte",
-          "count": 702.8009999999999,
-          "percentage": 0.0030955835194821156
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000623",
-          "cell_label": "natural killer cell",
-          "count": 1547.3799999999999,
-          "percentage": 0.006815647710199952
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000669",
-          "cell_label": "pericyte",
-          "count": 33082.868,
-          "percentage": 0.1457180353442899
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000794",
-          "cell_label": "CD8-positive, alpha-beta cytotoxic T cell",
-          "count": 1224.5100000000002,
-          "percentage": 0.005393522455774887
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000814",
-          "cell_label": "mature NK T cell",
-          "count": 616.902,
-          "percentage": 0.0027172295775554625
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000896",
-          "cell_label": "activated CD4-positive, alpha-beta T cell",
-          "count": 439.0750000000001,
-          "percentage": 0.0019339661352454115
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000906",
-          "cell_label": "activated CD8-positive, alpha-beta T cell",
-          "count": 1252.827,
-          "percentage": 0.00551824857102113
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000934",
-          "cell_label": "CD4-positive, alpha-beta cytotoxic T cell",
-          "count": 1291.953,
-          "percentage": 0.005690584411156897
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0001054",
-          "cell_label": "CD14-positive monocyte",
-          "count": 809.6659999999999,
-          "percentage": 0.0035662850876492873
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002131",
-          "cell_label": "regular ventricular cardiac myocyte",
-          "count": 52120.458999999995,
-          "percentage": 0.22957171931776324
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002138",
-          "cell_label": "endothelial cell of lymphatic vessel",
-          "count": 323.89700000000005,
-          "percentage": 0.0014266488169619837
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002144",
-          "cell_label": "capillary endothelial cell",
-          "count": 24455.01599999999,
-          "percentage": 0.10771547635571296
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002319",
-          "cell_label": "neural cell",
-          "count": 1702.2659999999994,
-          "percentage": 0.007497864367544642
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002397",
-          "cell_label": "CD14-positive, CD16-positive monocyte",
-          "count": 1392.7310000000002,
-          "percentage": 0.006134474951902242
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002543",
-          "cell_label": "vein endothelial cell",
-          "count": 3576.7630000000004,
-          "percentage": 0.015754343826906072
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000309",
-          "cell_label": "epicardial adipocyte",
-          "count": 1640.1979999999996,
-          "percentage": 0.007224477337806188
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000413",
-          "cell_label": "endothelial cell of artery",
-          "count": 8591.372999999998,
-          "percentage": 0.03784188222345105
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002129",
-          "cell_label": "regular atrial cardiac myocyte",
-          "count": 10103.692000000003,
-          "percentage": 0.044503098944257774
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000077",
-          "cell_label": "mesothelial cell",
-          "count": 300.473,
-          "percentage": 0.0013234745921667014
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.obolibrary.org/obo/UBERON_8410027",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:endothelial-cell",
-          "cell_label": "Endothelial cell",
-          "count": 257.166,
-          "percentage": 0.09098226071279096
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:epithelial-cell",
-          "cell_label": "Epithelial cell",
-          "count": 2099.643,
-          "percentage": 0.7428286275393581
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:fibroblast",
-          "cell_label": "Fibroblast",
-          "count": 103.922,
-          "percentage": 0.03676636296320144
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:glia",
-          "cell_label": "Glia",
-          "count": 6.0969999999999995,
-          "percentage": 0.0021570458130774927
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-lymphocyte-",
-          "cell_label": "Immune (lymphocyte)",
-          "count": 62.06199999999999,
-          "percentage": 0.02195679469431119
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-myeloid-",
-          "cell_label": "Immune (myeloid)",
-          "count": 93.548,
-          "percentage": 0.0330961656096069
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:muscle",
-          "cell_label": "Muscle",
-          "count": 204.11299999999997,
-          "percentage": 0.07221274266765396
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.obolibrary.org/obo/UBERON_8410026",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:endothelial-cell",
-          "cell_label": "Endothelial cell",
-          "count": 2582.964,
-          "percentage": 0.09098226071279095
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:epithelial-cell",
-          "cell_label": "Epithelial cell",
-          "count": 21088.722,
-          "percentage": 0.742828627539358
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:fibroblast",
-          "cell_label": "Fibroblast",
-          "count": 1043.788,
-          "percentage": 0.03676636296320144
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:glia",
-          "cell_label": "Glia",
-          "count": 61.238,
-          "percentage": 0.0021570458130774923
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-lymphocyte-",
-          "cell_label": "Immune (lymphocyte)",
-          "count": 623.348,
-          "percentage": 0.02195679469431119
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:immune-myeloid-",
-          "cell_label": "Immune (myeloid)",
-          "count": 939.592,
-          "percentage": 0.033096165609606897
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "ASCTB-TEMP:muscle",
-          "cell_label": "Muscle",
-          "count": 2050.102,
-          "percentage": 0.07221274266765396
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002189",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -1154,6 +546,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002015",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -1511,6 +904,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0004200",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -1875,6 +1269,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001284",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -2232,6 +1627,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0008716",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -2547,6 +1943,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001223",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -2820,6 +2217,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001228",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -3014,8 +2412,45 @@
     },
     {
       "@type": "CellSummary",
+      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002097",
+      "annotation_method": "Aggregation",
+      "modality": "spatial",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd68-macrophage",
+          "cell_label": "CD68 / Macrophage",
+          "count": 583.212,
+          "percentage": 0.08430319035910513
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:t-killer",
+          "cell_label": "T-Killer",
+          "count": 204.245,
+          "percentage": 0.029523578244095506
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:t-reg",
+          "cell_label": "T-reg",
+          "count": 734.747,
+          "percentage": 0.1062075475243675
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:t-helper",
+          "cell_label": "T-helper",
+          "count": 5395.825999999999,
+          "percentage": 0.7799656838724319
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7361",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -3471,6 +2906,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7360",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -3926,6 +3362,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002084",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -4262,6 +3699,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002080",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -4598,6 +4036,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002094",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -4934,6 +4373,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14930",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -5116,6 +4556,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14929",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -5298,6 +4739,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001158",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -5480,6 +4922,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14966",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -5662,6 +5105,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001156",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -5844,6 +5288,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002115",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6026,6 +5471,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001157",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6208,6 +5654,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001052",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6390,6 +5837,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001159",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6572,6 +6020,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14928",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6754,6 +6203,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002116",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6936,6 +6386,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001153",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -7118,6 +6569,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14926",
       "annotation_method": "Aggregation",
+      "modality": "spatial",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -7298,8 +6750,931 @@
     },
     {
       "@type": "CellSummary",
+      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002771",
+      "annotation_method": "Aggregation",
+      "modality": "bulk",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023040",
+          "cell_label": "L2/3-6 intratelencephalic projecting glutamatergic cortical neuron",
+          "count": 419025.30999999994,
+          "percentage": 0.5182706723847079
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023041",
+          "cell_label": "L5 extratelencephalic projecting glutamatergic cortical neuron",
+          "count": 1565.6460000000002,
+          "percentage": 0.001936466332156472
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023038",
+          "cell_label": "L6b glutamatergic cortical neuron",
+          "count": 9678.942,
+          "percentage": 0.011971381342842011
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002605",
+          "cell_label": "astrocyte of the cerebral cortex",
+          "count": 34027.18200000001,
+          "percentage": 0.04208645653050609
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023070",
+          "cell_label": "caudal ganglionic eminence derived GABAergic cortical interneuron",
+          "count": 4918.5,
+          "percentage": 0.006083437542529797
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1001602",
+          "cell_label": "cerebral cortex endothelial cell",
+          "count": 1050.6659999999997,
+          "percentage": 0.0012995142805854651
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023036",
+          "cell_label": "chandelier pvalb GABAergic cortical interneuron",
+          "count": 6119.226,
+          "percentage": 0.00756855325396451
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023013",
+          "cell_label": "corticothalamic-projecting glutamatergic cortical neuron",
+          "count": 11109.274,
+          "percentage": 0.013740484806719562
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023011",
+          "cell_label": "lamp5 GABAergic cortical interneuron",
+          "count": 34955.082,
+          "percentage": 0.043234127913186454
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000129",
+          "cell_label": "microglial cell",
+          "count": 19322.95199999999,
+          "percentage": 0.023899557106699436
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023012",
+          "cell_label": "near-projecting glutamatergic cortical neuron",
+          "count": 12958.385999999997,
+          "percentage": 0.016027555531766293
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000128",
+          "cell_label": "oligodendrocyte",
+          "count": 65475.82599999999,
+          "percentage": 0.08098365314964898
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002453",
+          "cell_label": "oligodendrocyte precursor cell",
+          "count": 18614.280000000002,
+          "percentage": 0.023023037466536864
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023018",
+          "cell_label": "pvalb GABAergic cortical interneuron",
+          "count": 54548.07,
+          "percentage": 0.06746767854234896
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023015",
+          "cell_label": "sncg GABAergic cortical interneuron",
+          "count": 12881.572000000002,
+          "percentage": 0.01593254827927227
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023017",
+          "cell_label": "sst GABAergic cortical interneuron",
+          "count": 40382.645999999986,
+          "percentage": 0.04994720031373196
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023016",
+          "cell_label": "vip GABAergic cortical interneuron",
+          "count": 59986.52599999999,
+          "percentage": 0.07419422269275994
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4023051",
+          "cell_label": "vascular leptomeningeal cell",
+          "count": 1886.612,
+          "percentage": 0.002333452530037049
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002137",
+      "annotation_method": "Aggregation",
+      "modality": "bulk",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000003",
+          "cell_label": "native cell",
+          "count": 276.91,
+          "percentage": 0.07359020320952253
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000057",
+          "cell_label": "fibroblast",
+          "count": 451.4499999999998,
+          "percentage": 0.11997507218568824
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000097",
+          "cell_label": "mast cell",
+          "count": 11.874999999999998,
+          "percentage": 0.0031558400314653855
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000115",
+          "cell_label": "endothelial cell",
+          "count": 99.64500000000005,
+          "percentage": 0.02648115199455735
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000192",
+          "cell_label": "smooth muscle cell",
+          "count": 127.83000000000001,
+          "percentage": 0.03397145526081855
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000235",
+          "cell_label": "macrophage",
+          "count": 118.68499999999999,
+          "percentage": 0.03154112624290268
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000451",
+          "cell_label": "dendritic cell",
+          "count": 7.059999999999997,
+          "percentage": 0.0018762299471280519
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000576",
+          "cell_label": "monocyte",
+          "count": 14.824999999999994,
+          "percentage": 0.003939817134018891
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000623",
+          "cell_label": "natural killer cell",
+          "count": 30.240000000000013,
+          "percentage": 0.008036429688548489
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000669",
+          "cell_label": "pericyte",
+          "count": 598.8199999999998,
+          "percentage": 0.1591393791698612
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000794",
+          "cell_label": "CD8-positive, alpha-beta cytotoxic T cell",
+          "count": 26.93000000000001,
+          "percentage": 0.007156780803988453
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000896",
+          "cell_label": "activated CD4-positive, alpha-beta T cell",
+          "count": 9.009999999999998,
+          "percentage": 0.002394452099663421
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000906",
+          "cell_label": "activated CD8-positive, alpha-beta T cell",
+          "count": 25.939999999999998,
+          "percentage": 0.0068936834034704925
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000934",
+          "cell_label": "CD4-positive, alpha-beta cytotoxic T cell",
+          "count": 27.729999999999997,
+          "percentage": 0.0073693847640029595
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002131",
+          "cell_label": "regular ventricular cardiac myocyte",
+          "count": 900.3399999999999,
+          "percentage": 0.23926981169933012
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002138",
+          "cell_label": "endothelial cell of lymphatic vessel",
+          "count": 6.054999999999998,
+          "percentage": 0.0016091462223598236
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002144",
+          "cell_label": "capillary endothelial cell",
+          "count": 480.67500000000007,
+          "percentage": 0.1277417605999684
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002319",
+          "cell_label": "neural cell",
+          "count": 30.335,
+          "percentage": 0.00806167640880021
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002397",
+          "cell_label": "CD14-positive, CD16-positive monocyte",
+          "count": 27.645000000000003,
+          "percentage": 0.007346795593251419
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002543",
+          "cell_label": "vein endothelial cell",
+          "count": 67.445,
+          "percentage": 0.0179238426039733
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000309",
+          "cell_label": "epicardial adipocyte",
+          "count": 27.985000000000003,
+          "percentage": 0.007437152276257586
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000413",
+          "cell_label": "endothelial cell of artery",
+          "count": 171.65,
+          "percentage": 0.04561683717061335
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000814",
+          "cell_label": "mature NK T cell",
+          "count": 12.625,
+          "percentage": 0.003355156243978989
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000077",
+          "cell_label": "mesothelial cell",
+          "count": 6.3549999999999995,
+          "percentage": 0.0016888727073652654
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0001054",
+          "cell_label": "CD14-positive monocyte",
+          "count": 15.344999999999997,
+          "percentage": 0.004078009708028323
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002129",
+          "cell_label": "regular atrial cardiac myocyte",
+          "count": 179.075,
+          "percentage": 0.04759006767449801
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000236",
+          "cell_label": "B cell",
+          "count": 10.384999999999998,
+          "percentage": 0.00275986515593836
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002079",
+      "annotation_method": "Aggregation",
+      "modality": "bulk",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000003",
+          "cell_label": "native cell",
+          "count": 13586.973,
+          "percentage": 0.0757051099189732
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000057",
+          "cell_label": "fibroblast",
+          "count": 21197.601,
+          "percentage": 0.1181106868854112
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000097",
+          "cell_label": "mast cell",
+          "count": 563.478,
+          "percentage": 0.0031396370572697226
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000115",
+          "cell_label": "endothelial cell",
+          "count": 4624.452000000001,
+          "percentage": 0.025766934767222655
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000192",
+          "cell_label": "smooth muscle cell",
+          "count": 6186.648000000001,
+          "percentage": 0.03447131799481722
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000235",
+          "cell_label": "macrophage",
+          "count": 5888.827000000003,
+          "percentage": 0.032811892341937925
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000451",
+          "cell_label": "dendritic cell",
+          "count": 369.006,
+          "percentage": 0.002056060595009692
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000576",
+          "cell_label": "monocyte",
+          "count": 783.179,
+          "percentage": 0.00436378671549811
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000623",
+          "cell_label": "natural killer cell",
+          "count": 1534.0360000000007,
+          "percentage": 0.008547478823992807
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000669",
+          "cell_label": "pericyte",
+          "count": 28398.940000000006,
+          "percentage": 0.15823575083886052
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000794",
+          "cell_label": "CD8-positive, alpha-beta cytotoxic T cell",
+          "count": 1456.562,
+          "percentage": 0.008115802269850645
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000896",
+          "cell_label": "activated CD4-positive, alpha-beta T cell",
+          "count": 468.23900000000003,
+          "percentage": 0.0026089758891366084
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000906",
+          "cell_label": "activated CD8-positive, alpha-beta T cell",
+          "count": 1352.459,
+          "percentage": 0.007535751874674703
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000934",
+          "cell_label": "CD4-positive, alpha-beta cytotoxic T cell",
+          "count": 1477.069,
+          "percentage": 0.008230065004391178
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002131",
+          "cell_label": "regular ventricular cardiac myocyte",
+          "count": 39990.587,
+          "percentage": 0.22282312510367544
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002138",
+          "cell_label": "endothelial cell of lymphatic vessel",
+          "count": 298.0949999999999,
+          "percentage": 0.0016609523505563975
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002144",
+          "cell_label": "capillary endothelial cell",
+          "count": 24354.173999999995,
+          "percentage": 0.13569876231120787
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002319",
+          "cell_label": "neural cell",
+          "count": 1433.0479999999995,
+          "percentage": 0.007984784864087437
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002397",
+          "cell_label": "CD14-positive, CD16-positive monocyte",
+          "count": 1415.1170000000002,
+          "percentage": 0.007884875316467296
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002543",
+          "cell_label": "vein endothelial cell",
+          "count": 3291.645,
+          "percentage": 0.018340681661709237
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000309",
+          "cell_label": "epicardial adipocyte",
+          "count": 1274.376,
+          "percentage": 0.007100682039929084
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000413",
+          "cell_label": "endothelial cell of artery",
+          "count": 8798.537000000004,
+          "percentage": 0.049024474451458244
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000814",
+          "cell_label": "mature NK T cell",
+          "count": 657.4479999999996,
+          "percentage": 0.0036632274978399574
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000077",
+          "cell_label": "mesothelial cell",
+          "count": 336.99899999999997,
+          "percentage": 0.0018777211331459955
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0001054",
+          "cell_label": "CD14-positive monocyte",
+          "count": 764.6119999999997,
+          "percentage": 0.004260333446262528
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002129",
+          "cell_label": "regular atrial cardiac myocyte",
+          "count": 8426.658,
+          "percentage": 0.0469524058183964
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000236",
+          "cell_label": "B cell",
+          "count": 543.5719999999998,
+          "percentage": 0.003028723028217991
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.org/sig/ont/fma/fma7267",
+      "annotation_method": "Aggregation",
+      "modality": "bulk",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000003",
+          "cell_label": "native cell",
+          "count": 1105.8500000000001,
+          "percentage": 0.06368148488971992
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000057",
+          "cell_label": "fibroblast",
+          "count": 2181.8650000000007,
+          "percentage": 0.12564489128625833
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000097",
+          "cell_label": "mast cell",
+          "count": 59.16000000000001,
+          "percentage": 0.00340678812323175
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000115",
+          "cell_label": "endothelial cell",
+          "count": 548.08,
+          "percentage": 0.03156173824511253
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000192",
+          "cell_label": "smooth muscle cell",
+          "count": 578.34,
+          "percentage": 0.03330429079090348
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000235",
+          "cell_label": "macrophage",
+          "count": 442.85,
+          "percentage": 0.025501962819019276
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000236",
+          "cell_label": "B cell",
+          "count": 26.60500000000001,
+          "percentage": 0.0015320756933499108
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000451",
+          "cell_label": "dendritic cell",
+          "count": 16.915000000000003,
+          "percentage": 0.0009740672938550549
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000576",
+          "cell_label": "monocyte",
+          "count": 33.490000000000016,
+          "percentage": 0.0019285553456225718
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000623",
+          "cell_label": "natural killer cell",
+          "count": 102.16999999999999,
+          "percentage": 0.0058835622473054055
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000669",
+          "cell_label": "pericyte",
+          "count": 2882.5199999999995,
+          "percentage": 0.16599281441815383
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000794",
+          "cell_label": "CD8-positive, alpha-beta cytotoxic T cell",
+          "count": 44.285,
+          "percentage": 0.002550196281901927
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000814",
+          "cell_label": "mature NK T cell",
+          "count": 33.83000000000001,
+          "percentage": 0.0019481345877101102
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000896",
+          "cell_label": "activated CD4-positive, alpha-beta T cell",
+          "count": 24.14000000000001,
+          "percentage": 0.0013901261882152548
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000906",
+          "cell_label": "activated CD8-positive, alpha-beta T cell",
+          "count": 66.55500000000002,
+          "percentage": 0.0038326366386357193
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000934",
+          "cell_label": "CD4-positive, alpha-beta cytotoxic T cell",
+          "count": 56.015,
+          "percentage": 0.0032256801339220157
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0001054",
+          "cell_label": "CD14-positive monocyte",
+          "count": 59.16000000000001,
+          "percentage": 0.00340678812323175
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002131",
+          "cell_label": "regular ventricular cardiac myocyte",
+          "count": 5339.785,
+          "percentage": 0.3074968917953186
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002138",
+          "cell_label": "endothelial cell of lymphatic vessel",
+          "count": 24.90500000000001,
+          "percentage": 0.0014341794829122168
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002144",
+          "cell_label": "capillary endothelial cell",
+          "count": 1605.4800000000007,
+          "percentage": 0.0924531811373582
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002319",
+          "cell_label": "neural cell",
+          "count": 151.89500000000004,
+          "percentage": 0.008747026402607957
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002397",
+          "cell_label": "CD14-positive, CD16-positive monocyte",
+          "count": 86.785,
+          "percentage": 0.0049976015428442756
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002543",
+          "cell_label": "vein endothelial cell",
+          "count": 278.12,
+          "percentage": 0.01601582002760673
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000309",
+          "cell_label": "epicardial adipocyte",
+          "count": 162.77500000000003,
+          "percentage": 0.009373562149409197
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000413",
+          "cell_label": "endothelial cell of artery",
+          "count": 526.32,
+          "percentage": 0.03030866675151005
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002129",
+          "cell_label": "regular atrial cardiac myocyte",
+          "count": 913.495,
+          "percentage": 0.05260452867869484
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000077",
+          "cell_label": "mesothelial cell",
+          "count": 13.94,
+          "percentage": 0.0008027489255890903
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
+      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002078",
+      "annotation_method": "Aggregation",
+      "modality": "bulk",
+      "summary": [
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000003",
+          "cell_label": "native cell",
+          "count": 14569.961000000001,
+          "percentage": 0.0711059046027844
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000057",
+          "cell_label": "fibroblast",
+          "count": 24731.66899999999,
+          "percentage": 0.12069817459234376
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000097",
+          "cell_label": "mast cell",
+          "count": 667.7120000000001,
+          "percentage": 0.003258640553268082
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000115",
+          "cell_label": "endothelial cell",
+          "count": 5768.106,
+          "percentage": 0.028150136776258237
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000192",
+          "cell_label": "smooth muscle cell",
+          "count": 7004.844000000002,
+          "percentage": 0.03418579975755507
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000235",
+          "cell_label": "macrophage",
+          "count": 6148.697000000001,
+          "percentage": 0.03000753827092788
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000236",
+          "cell_label": "B cell",
+          "count": 503.92199999999985,
+          "percentage": 0.0024592948230434046
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000451",
+          "cell_label": "dendritic cell",
+          "count": 335.318,
+          "percentage": 0.0016364552876700533
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000576",
+          "cell_label": "monocyte",
+          "count": 702.8009999999999,
+          "percentage": 0.003429885698440886
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000623",
+          "cell_label": "natural killer cell",
+          "count": 1547.3799999999999,
+          "percentage": 0.007551691776268757
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000669",
+          "cell_label": "pericyte",
+          "count": 33082.868,
+          "percentage": 0.16145460210871593
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000794",
+          "cell_label": "CD8-positive, alpha-beta cytotoxic T cell",
+          "count": 1224.5100000000002,
+          "percentage": 0.00597598656888344
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000814",
+          "cell_label": "mature NK T cell",
+          "count": 616.902,
+          "percentage": 0.003010672078069866
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000896",
+          "cell_label": "activated CD4-positive, alpha-beta T cell",
+          "count": 439.0750000000001,
+          "percentage": 0.0021428214573441596
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000906",
+          "cell_label": "activated CD8-positive, alpha-beta T cell",
+          "count": 1252.827,
+          "percentage": 0.006114182264852498
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000934",
+          "cell_label": "CD4-positive, alpha-beta cytotoxic T cell",
+          "count": 1291.953,
+          "percentage": 0.006305129215464688
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0001054",
+          "cell_label": "CD14-positive monocyte",
+          "count": 809.6659999999999,
+          "percentage": 0.003951419866952151
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002131",
+          "cell_label": "regular ventricular cardiac myocyte",
+          "count": 52120.458999999995,
+          "percentage": 0.2543639194028958
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002138",
+          "cell_label": "endothelial cell of lymphatic vessel",
+          "count": 323.89700000000005,
+          "percentage": 0.0015807172842211494
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002144",
+          "cell_label": "capillary endothelial cell",
+          "count": 24455.01599999999,
+          "percentage": 0.11934802260318783
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002319",
+          "cell_label": "neural cell",
+          "count": 1702.2659999999994,
+          "percentage": 0.008307583239554541
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002397",
+          "cell_label": "CD14-positive, CD16-positive monocyte",
+          "count": 1392.7310000000002,
+          "percentage": 0.006796956946098931
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002543",
+          "cell_label": "vein endothelial cell",
+          "count": 3576.7630000000004,
+          "percentage": 0.017455706893434304
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000309",
+          "cell_label": "epicardial adipocyte",
+          "count": 1640.1979999999996,
+          "percentage": 0.008004672251193928
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000413",
+          "cell_label": "endothelial cell of artery",
+          "count": 8591.372999999998,
+          "percentage": 0.041928550731531636
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0002129",
+          "cell_label": "regular atrial cardiac myocyte",
+          "count": 10103.692000000003,
+          "percentage": 0.049309134011265784
+        },
+        {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000077",
+          "cell_label": "mesothelial cell",
+          "count": 300.473,
+          "percentage": 0.001466400937772753
+        }
+      ]
+    },
+    {
+      "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma62649",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -7503,6 +7878,7 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7402",
       "annotation_method": "Aggregation",
+      "modality": "bulk",
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -7699,727 +8075,6 @@
           "cell_label": "lung neuroendocrine cell",
           "count": 22.160999999999998,
           "percentage": 0.0012652099520029782
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002771",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023040",
-          "cell_label": "L2/3-6 intratelencephalic projecting glutamatergic cortical neuron",
-          "count": 419025.30999999994,
-          "percentage": 0.5182706723847079
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023041",
-          "cell_label": "L5 extratelencephalic projecting glutamatergic cortical neuron",
-          "count": 1565.6460000000002,
-          "percentage": 0.001936466332156472
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023038",
-          "cell_label": "L6b glutamatergic cortical neuron",
-          "count": 9678.942,
-          "percentage": 0.011971381342842011
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002605",
-          "cell_label": "astrocyte of the cerebral cortex",
-          "count": 34027.18200000001,
-          "percentage": 0.04208645653050609
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023070",
-          "cell_label": "caudal ganglionic eminence derived GABAergic cortical interneuron",
-          "count": 4918.5,
-          "percentage": 0.006083437542529797
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1001602",
-          "cell_label": "cerebral cortex endothelial cell",
-          "count": 1050.6659999999997,
-          "percentage": 0.0012995142805854651
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023036",
-          "cell_label": "chandelier pvalb GABAergic cortical interneuron",
-          "count": 6119.226,
-          "percentage": 0.00756855325396451
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023013",
-          "cell_label": "corticothalamic-projecting glutamatergic cortical neuron",
-          "count": 11109.274,
-          "percentage": 0.013740484806719562
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023011",
-          "cell_label": "lamp5 GABAergic cortical interneuron",
-          "count": 34955.082,
-          "percentage": 0.043234127913186454
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000129",
-          "cell_label": "microglial cell",
-          "count": 19322.95199999999,
-          "percentage": 0.023899557106699436
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023012",
-          "cell_label": "near-projecting glutamatergic cortical neuron",
-          "count": 12958.385999999997,
-          "percentage": 0.016027555531766293
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000128",
-          "cell_label": "oligodendrocyte",
-          "count": 65475.82599999999,
-          "percentage": 0.08098365314964898
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002453",
-          "cell_label": "oligodendrocyte precursor cell",
-          "count": 18614.280000000002,
-          "percentage": 0.023023037466536864
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023018",
-          "cell_label": "pvalb GABAergic cortical interneuron",
-          "count": 54548.07,
-          "percentage": 0.06746767854234896
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023015",
-          "cell_label": "sncg GABAergic cortical interneuron",
-          "count": 12881.572000000002,
-          "percentage": 0.01593254827927227
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023017",
-          "cell_label": "sst GABAergic cortical interneuron",
-          "count": 40382.645999999986,
-          "percentage": 0.04994720031373196
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023016",
-          "cell_label": "vip GABAergic cortical interneuron",
-          "count": 59986.52599999999,
-          "percentage": 0.07419422269275994
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:4023051",
-          "cell_label": "vascular leptomeningeal cell",
-          "count": 1886.612,
-          "percentage": 0.002333452530037049
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002137",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000003",
-          "cell_label": "native cell",
-          "count": 276.91,
-          "percentage": 0.07359020320952253
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000057",
-          "cell_label": "fibroblast",
-          "count": 451.4499999999998,
-          "percentage": 0.11997507218568824
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000097",
-          "cell_label": "mast cell",
-          "count": 11.874999999999998,
-          "percentage": 0.0031558400314653855
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000115",
-          "cell_label": "endothelial cell",
-          "count": 99.64500000000005,
-          "percentage": 0.02648115199455735
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000192",
-          "cell_label": "smooth muscle cell",
-          "count": 127.83000000000001,
-          "percentage": 0.03397145526081855
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000235",
-          "cell_label": "macrophage",
-          "count": 118.68499999999999,
-          "percentage": 0.03154112624290268
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000451",
-          "cell_label": "dendritic cell",
-          "count": 7.059999999999997,
-          "percentage": 0.0018762299471280519
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000576",
-          "cell_label": "monocyte",
-          "count": 14.824999999999994,
-          "percentage": 0.003939817134018891
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000623",
-          "cell_label": "natural killer cell",
-          "count": 30.240000000000013,
-          "percentage": 0.008036429688548489
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000669",
-          "cell_label": "pericyte",
-          "count": 598.8199999999998,
-          "percentage": 0.1591393791698612
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000794",
-          "cell_label": "CD8-positive, alpha-beta cytotoxic T cell",
-          "count": 26.93000000000001,
-          "percentage": 0.007156780803988453
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000896",
-          "cell_label": "activated CD4-positive, alpha-beta T cell",
-          "count": 9.009999999999998,
-          "percentage": 0.002394452099663421
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000906",
-          "cell_label": "activated CD8-positive, alpha-beta T cell",
-          "count": 25.939999999999998,
-          "percentage": 0.0068936834034704925
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000934",
-          "cell_label": "CD4-positive, alpha-beta cytotoxic T cell",
-          "count": 27.729999999999997,
-          "percentage": 0.0073693847640029595
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002131",
-          "cell_label": "regular ventricular cardiac myocyte",
-          "count": 900.3399999999999,
-          "percentage": 0.23926981169933012
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002138",
-          "cell_label": "endothelial cell of lymphatic vessel",
-          "count": 6.054999999999998,
-          "percentage": 0.0016091462223598236
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002144",
-          "cell_label": "capillary endothelial cell",
-          "count": 480.67500000000007,
-          "percentage": 0.1277417605999684
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002319",
-          "cell_label": "neural cell",
-          "count": 30.335,
-          "percentage": 0.00806167640880021
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002397",
-          "cell_label": "CD14-positive, CD16-positive monocyte",
-          "count": 27.645000000000003,
-          "percentage": 0.007346795593251419
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002543",
-          "cell_label": "vein endothelial cell",
-          "count": 67.445,
-          "percentage": 0.0179238426039733
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000309",
-          "cell_label": "epicardial adipocyte",
-          "count": 27.985000000000003,
-          "percentage": 0.007437152276257586
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000413",
-          "cell_label": "endothelial cell of artery",
-          "count": 171.65,
-          "percentage": 0.04561683717061335
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000814",
-          "cell_label": "mature NK T cell",
-          "count": 12.625,
-          "percentage": 0.003355156243978989
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000077",
-          "cell_label": "mesothelial cell",
-          "count": 6.3549999999999995,
-          "percentage": 0.0016888727073652654
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0001054",
-          "cell_label": "CD14-positive monocyte",
-          "count": 15.344999999999997,
-          "percentage": 0.004078009708028323
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002129",
-          "cell_label": "regular atrial cardiac myocyte",
-          "count": 179.075,
-          "percentage": 0.04759006767449801
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000236",
-          "cell_label": "B cell",
-          "count": 10.384999999999998,
-          "percentage": 0.00275986515593836
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002079",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000003",
-          "cell_label": "native cell",
-          "count": 13586.973,
-          "percentage": 0.0757051099189732
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000057",
-          "cell_label": "fibroblast",
-          "count": 21197.601,
-          "percentage": 0.1181106868854112
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000097",
-          "cell_label": "mast cell",
-          "count": 563.478,
-          "percentage": 0.0031396370572697226
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000115",
-          "cell_label": "endothelial cell",
-          "count": 4624.452000000001,
-          "percentage": 0.025766934767222655
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000192",
-          "cell_label": "smooth muscle cell",
-          "count": 6186.648000000001,
-          "percentage": 0.03447131799481722
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000235",
-          "cell_label": "macrophage",
-          "count": 5888.827000000003,
-          "percentage": 0.032811892341937925
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000451",
-          "cell_label": "dendritic cell",
-          "count": 369.006,
-          "percentage": 0.002056060595009692
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000576",
-          "cell_label": "monocyte",
-          "count": 783.179,
-          "percentage": 0.00436378671549811
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000623",
-          "cell_label": "natural killer cell",
-          "count": 1534.0360000000007,
-          "percentage": 0.008547478823992807
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000669",
-          "cell_label": "pericyte",
-          "count": 28398.940000000006,
-          "percentage": 0.15823575083886052
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000794",
-          "cell_label": "CD8-positive, alpha-beta cytotoxic T cell",
-          "count": 1456.562,
-          "percentage": 0.008115802269850645
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000896",
-          "cell_label": "activated CD4-positive, alpha-beta T cell",
-          "count": 468.23900000000003,
-          "percentage": 0.0026089758891366084
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000906",
-          "cell_label": "activated CD8-positive, alpha-beta T cell",
-          "count": 1352.459,
-          "percentage": 0.007535751874674703
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000934",
-          "cell_label": "CD4-positive, alpha-beta cytotoxic T cell",
-          "count": 1477.069,
-          "percentage": 0.008230065004391178
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002131",
-          "cell_label": "regular ventricular cardiac myocyte",
-          "count": 39990.587,
-          "percentage": 0.22282312510367544
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002138",
-          "cell_label": "endothelial cell of lymphatic vessel",
-          "count": 298.0949999999999,
-          "percentage": 0.0016609523505563975
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002144",
-          "cell_label": "capillary endothelial cell",
-          "count": 24354.173999999995,
-          "percentage": 0.13569876231120787
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002319",
-          "cell_label": "neural cell",
-          "count": 1433.0479999999995,
-          "percentage": 0.007984784864087437
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002397",
-          "cell_label": "CD14-positive, CD16-positive monocyte",
-          "count": 1415.1170000000002,
-          "percentage": 0.007884875316467296
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002543",
-          "cell_label": "vein endothelial cell",
-          "count": 3291.645,
-          "percentage": 0.018340681661709237
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000309",
-          "cell_label": "epicardial adipocyte",
-          "count": 1274.376,
-          "percentage": 0.007100682039929084
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000413",
-          "cell_label": "endothelial cell of artery",
-          "count": 8798.537000000004,
-          "percentage": 0.049024474451458244
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000814",
-          "cell_label": "mature NK T cell",
-          "count": 657.4479999999996,
-          "percentage": 0.0036632274978399574
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000077",
-          "cell_label": "mesothelial cell",
-          "count": 336.99899999999997,
-          "percentage": 0.0018777211331459955
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0001054",
-          "cell_label": "CD14-positive monocyte",
-          "count": 764.6119999999997,
-          "percentage": 0.004260333446262528
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002129",
-          "cell_label": "regular atrial cardiac myocyte",
-          "count": 8426.658,
-          "percentage": 0.0469524058183964
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000236",
-          "cell_label": "B cell",
-          "count": 543.5719999999998,
-          "percentage": 0.003028723028217991
-        }
-      ]
-    },
-    {
-      "@type": "CellSummary",
-      "cell_source": "http://purl.org/sig/ont/fma/fma7267",
-      "annotation_method": "Aggregation",
-      "summary": [
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000003",
-          "cell_label": "native cell",
-          "count": 1105.8500000000001,
-          "percentage": 0.06368148488971992
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000057",
-          "cell_label": "fibroblast",
-          "count": 2181.8650000000007,
-          "percentage": 0.12564489128625833
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000097",
-          "cell_label": "mast cell",
-          "count": 59.16000000000001,
-          "percentage": 0.00340678812323175
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000115",
-          "cell_label": "endothelial cell",
-          "count": 548.08,
-          "percentage": 0.03156173824511253
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000192",
-          "cell_label": "smooth muscle cell",
-          "count": 578.34,
-          "percentage": 0.03330429079090348
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000235",
-          "cell_label": "macrophage",
-          "count": 442.85,
-          "percentage": 0.025501962819019276
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000236",
-          "cell_label": "B cell",
-          "count": 26.60500000000001,
-          "percentage": 0.0015320756933499108
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000451",
-          "cell_label": "dendritic cell",
-          "count": 16.915000000000003,
-          "percentage": 0.0009740672938550549
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000576",
-          "cell_label": "monocyte",
-          "count": 33.490000000000016,
-          "percentage": 0.0019285553456225718
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000623",
-          "cell_label": "natural killer cell",
-          "count": 102.16999999999999,
-          "percentage": 0.0058835622473054055
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000669",
-          "cell_label": "pericyte",
-          "count": 2882.5199999999995,
-          "percentage": 0.16599281441815383
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000794",
-          "cell_label": "CD8-positive, alpha-beta cytotoxic T cell",
-          "count": 44.285,
-          "percentage": 0.002550196281901927
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000814",
-          "cell_label": "mature NK T cell",
-          "count": 33.83000000000001,
-          "percentage": 0.0019481345877101102
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000896",
-          "cell_label": "activated CD4-positive, alpha-beta T cell",
-          "count": 24.14000000000001,
-          "percentage": 0.0013901261882152548
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000906",
-          "cell_label": "activated CD8-positive, alpha-beta T cell",
-          "count": 66.55500000000002,
-          "percentage": 0.0038326366386357193
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000934",
-          "cell_label": "CD4-positive, alpha-beta cytotoxic T cell",
-          "count": 56.015,
-          "percentage": 0.0032256801339220157
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0001054",
-          "cell_label": "CD14-positive monocyte",
-          "count": 59.16000000000001,
-          "percentage": 0.00340678812323175
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002131",
-          "cell_label": "regular ventricular cardiac myocyte",
-          "count": 5339.785,
-          "percentage": 0.3074968917953186
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002138",
-          "cell_label": "endothelial cell of lymphatic vessel",
-          "count": 24.90500000000001,
-          "percentage": 0.0014341794829122168
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002144",
-          "cell_label": "capillary endothelial cell",
-          "count": 1605.4800000000007,
-          "percentage": 0.0924531811373582
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002319",
-          "cell_label": "neural cell",
-          "count": 151.89500000000004,
-          "percentage": 0.008747026402607957
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002397",
-          "cell_label": "CD14-positive, CD16-positive monocyte",
-          "count": 86.785,
-          "percentage": 0.0049976015428442756
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002543",
-          "cell_label": "vein endothelial cell",
-          "count": 278.12,
-          "percentage": 0.01601582002760673
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000309",
-          "cell_label": "epicardial adipocyte",
-          "count": 162.77500000000003,
-          "percentage": 0.009373562149409197
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:1000413",
-          "cell_label": "endothelial cell of artery",
-          "count": 526.32,
-          "percentage": 0.03030866675151005
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0002129",
-          "cell_label": "regular atrial cardiac myocyte",
-          "count": 913.495,
-          "percentage": 0.05260452867869484
-        },
-        {
-          "@type": "CellSummaryRow",
-          "cell_id": "CL:0000077",
-          "cell_label": "mesothelial cell",
-          "count": 13.94,
-          "percentage": 0.0008027489255890903
         }
       ]
     }
