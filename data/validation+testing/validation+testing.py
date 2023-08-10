@@ -17,6 +17,11 @@ def main():
     # V1: Test RUI Location Prediction (simAS, simCorridor)
     # Prediction 0: using as-cell-sumamries
 
+    ###################################
+    # Bruce created SPARQL query that takes AS IRI from mesh collision, then associates them with a reference organ, splits by M/F, include representation_of (AS IRI), includes sex as a field: http://grlc.io/api/hubmapconsortium/ccf-grlc/ccf/#/default/get_ref_organ_as_info
+    # Modality added to all cell summaries on the repo
+    ###################################
+
     # Let's get relevant data from as-cell-summaries and add all to a list
     list_as_summary_dict = []
     for cell_summary in as_summaries['@graph']:
