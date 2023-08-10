@@ -10,38 +10,36 @@ function getCollisionItems(block) {
   return collisions;
 }
 
-function getCellSummaryRows(dataset) {
-  const allSummaries = dataset.summaries ?? [];
-  const summaries = allSummaries.reduce((acc, c) => acc.concat(c?.summary ?? []), []);
-  return summaries;
-}
-
 function handleCellSummaries(dataset, collisions) {
-  const cellSummaryRows = getCellSummaryRows(dataset);
-  for (const cell of cellSummaryRows) {
-    for (const collision of collisions) {
-      const asIri = collision.as_id;
-      const weightedCellCount = cell.count * collision.percentage;
+  for (const dsSummary of dataset.summaries ?? []) {
+    const cellSummaryRows = dsSummary?.summary ?? [];
+    for (const cell of cellSummaryRows) {
+      for (const collision of collisions) {
+        const asIri = collision.as_id;
+        const modality = dsSummary.modality;
+        const weightedCellCount = cell.count * collision.percentage;
 
-      const summary = asCellSummaries[asIri] = asCellSummaries[asIri] || {
-        '@type': 'CellSummary',
-        cell_source: asIri,
-        annotation_method: 'Aggregation',
-        summary: []
-      };
+        const summary = asCellSummaries[asIri + modality] = asCellSummaries[asIri + modality] || {
+          '@type': 'CellSummary',
+          cell_source: asIri,
+          annotation_method: 'Aggregation',
+          modality,
+          summary: []
+        };
 
-      let summaryRow = summary.summary.find(s => s.cell_id === cell.cell_id);
-      if (summaryRow) {
-        summaryRow.count += weightedCellCount;
-      } else {
-        summaryRow = {
-          '@type': 'CellSummaryRow',
-          cell_id: cell.cell_id,
-          cell_label: cell.cell_label,
-          count: weightedCellCount,
-          percentage: 0 // to be computed at the end
+        let summaryRow = summary.summary.find(s => s.cell_id === cell.cell_id);
+        if (summaryRow) {
+          summaryRow.count += weightedCellCount;
+        } else {
+          summaryRow = {
+            '@type': 'CellSummaryRow',
+            cell_id: cell.cell_id,
+            cell_label: cell.cell_label,
+            count: weightedCellCount,
+            percentage: 0 // to be computed at the end
+          }
+          summary.summary.push(summaryRow);
         }
-        summary.summary.push(summaryRow);
       }
     }
   }

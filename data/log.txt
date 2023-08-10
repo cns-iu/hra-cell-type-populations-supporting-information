@@ -1,17 +1,25 @@
-
-> ctpop-data-processor@1.0.0 start
-> node ./src/main.js clean
-
-From https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data
- * branch            main       -> FETCH_HEAD
 Already up to date.
-From https://github.com/hubmapconsortium/tissue-bar-graphs
- * branch            static     -> FETCH_HEAD
 Already up to date.
 
 > ctpop-data-processor@1.0.0 generate:registrations
 > node ./src/gen-registrations.js
 
+Investigate GTEx: GTEX-1HSMQ-5007
+Investigate GTEx: GTEX-12BJ1-5007
+Investigate GTEx: GTEX-15EOM-5003
+Investigate GTEx: GTEX-15CHR-5014
+Investigate GTEx: GTEX-1CAMS-5015
+Investigate GTEx: GTEX-1I1GU-5006
+Investigate GTEx: GTEX-1MCC2-5013
+Investigate GTEx: GTEX-13N11-5002
+Investigate GTEx: GTEX-1HSMQ-5014
+Investigate GTEx: GTEX-1R9PN-5002
+Investigate GTEx: GTEX-1ICG6-5003
+Investigate GTEx: GTEX-15CHR-5005
+Investigate GTEx: GTEX-15RIE-5015
+Investigate GTEx: GTEX-13N11-5030
+Investigate GTEx: GTEX-1HSMQ-5005
+There was some problem saving out at least one dataset. Saved: 434 Expected: 449
 
 > ctpop-data-processor@1.0.0 generate:rui-location-cell-summaries
 > node ./src/gen-rui-location-cell-summaries.js
@@ -30,26 +38,6 @@ Investigate Azimuth: undefined
 Investigate Azimuth: undefined
 Investigate Azimuth: undefined
 Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
 Investigate NeMo: undefined
 Investigate NeMo: undefined
 Investigate NeMo: undefined
@@ -64,10 +52,6 @@ Investigate NeMo: undefined
 Investigate NeMo: undefined
 Investigate NeMo: undefined
 Investigate NeMo: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
 Investigate Azimuth: undefined
 Investigate Azimuth: undefined
 Investigate Azimuth: undefined
@@ -783,76 +767,6 @@ Multiple matches for HBM996.MDQH.988:
 	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM996.MDQH.988.csv
 	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM996.MDQH.988.csv
 Investigate HuBMAP: https://portal.hubmapconsortium.org/browse/HBM999.CXFH.954
-Investigate CxG: 591c028d-460a-441c-abaf-2c1fef359dba_HUVEC_donors_Endothelial_Cell_Cell_Culture
-Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP2_Lymph_Node
-Investigate CxG: 49c2fee0-a4b4-49dd-bebe-f2d27ec77953_Control-069_Lymph_Node
-Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP7_Lymph_Node
-Investigate CxG: 49c2fee0-a4b4-49dd-bebe-f2d27ec77953_Control-053_Lymph_Node
-Investigate CxG: 49c2fee0-a4b4-49dd-bebe-f2d27ec77953_Control-084_Lymph_Node
-Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP14_Lymph_Node
-Investigate CxG: a85c7061-9625-4271-b6b5-f3cd635137e3_Calu-3_Epithelial_Cell_Of_Lung_Cell_Culture
-Investigate CxG: 46300f98-3e1b-45d1-b7b6-683e28f5d50b_H1299_Epithelial_Cell_Of_Lung_Cell_Culture
-Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP14_Adipose
-Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP10_Adipose
-Investigate CxG: a8c0b8af-0d67-4b93-ac2d-4411dfffc9cd_Individual 4_Lymph_Node
-Investigate CxG: 963bc3c9-d5cc-47c1-aab7-a2334bf8eb7a_DonorB_Vasculature
-Investigate CxG: 963bc3c9-d5cc-47c1-aab7-a2334bf8eb7a_DonorA_Vasculature
-Investigate CxG: b5a84d11-c7db-499d-af9f-3cd9bbde82a2_Wilms2_Vasculature
-Investigate CxG: b5a84d11-c7db-499d-af9f-3cd9bbde82a2_Wilms3_Vasculature
-Investigate CxG: 0217420c-b31d-4f92-8edf-c6d113573963_Wilms3_Vasculature
-Investigate CxG: 0217420c-b31d-4f92-8edf-c6d113573963_Wilms2_Vasculature
-Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP2_Lymph_Node
-Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP7_Lymph_Node
-Investigate CxG: 963bc3c9-d5cc-47c1-aab7-a2334bf8eb7a_Donor2_Lymph_Node
-Investigate CxG: 963bc3c9-d5cc-47c1-aab7-a2334bf8eb7a_Donor1_Lymph_Node
-Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A29_Muscle_Tissue
-Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A35_Muscle_Tissue
-Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A37_Muscle_Tissue
-Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A36_Muscle_Tissue
-Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A31_Muscle_Tissue
-Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP7_Tongue
-Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP14_Tongue
-Investigate CxG: !D110_D110_Lung
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate Azimuth: undefined
-Investigate KPMP-IU/OSU: undefined
-Investigate KPMP-IU/OSU: undefined
-Investigate KPMP-IU/OSU: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
-Investigate SPARC-UCLA: undefined
 Investigate SenNet: SNT933.NCMX.273
 Investigate SenNet: SNT476.SJKS.855
 Multiple matches for HBM573.TTLG.748: 
@@ -1047,13 +961,107 @@ Multiple matches for HBM473.QGDG.848:
 Multiple matches for HBM473.QGDG.848: 
 	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM473.QGDG.848.csv
 	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM473.QGDG.848.csv
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP2_Lymph_Node
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP7_Lymph_Node
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP14_Lymph_Node
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP14_Adipose
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP10_Adipose
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP2_Lymph_Node
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP7_Lymph_Node
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP7_Tongue
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP14_Tongue
+Investigate CxG: 591c028d-460a-441c-abaf-2c1fef359dba_HUVEC_donors_Endothelial_Cell_Cell_Culture
+Investigate CxG: 963bc3c9-d5cc-47c1-aab7-a2334bf8eb7a_DonorB_Vasculature
+Investigate CxG: 963bc3c9-d5cc-47c1-aab7-a2334bf8eb7a_DonorA_Vasculature
+Investigate CxG: 963bc3c9-d5cc-47c1-aab7-a2334bf8eb7a_Donor2_Lymph_Node
+Investigate CxG: 963bc3c9-d5cc-47c1-aab7-a2334bf8eb7a_Donor1_Lymph_Node
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate CxG: a8c0b8af-0d67-4b93-ac2d-4411dfffc9cd_Individual 4_Lymph_Node
+Investigate CxG: a85c7061-9625-4271-b6b5-f3cd635137e3_Calu-3_Epithelial_Cell_Of_Lung_Cell_Culture
+Investigate CxG: 46300f98-3e1b-45d1-b7b6-683e28f5d50b_H1299_Epithelial_Cell_Of_Lung_Cell_Culture
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate SPARC-UCLA: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate Azimuth: undefined
+Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A29_Muscle_Tissue
+Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A35_Muscle_Tissue
+Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A37_Muscle_Tissue
+Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A36_Muscle_Tissue
+Investigate CxG: ecfa4a1d-560f-4d7a-8e39-b232c13c543e_A31_Muscle_Tissue
+Investigate CxG: b5a84d11-c7db-499d-af9f-3cd9bbde82a2_Wilms2_Vasculature
+Investigate CxG: b5a84d11-c7db-499d-af9f-3cd9bbde82a2_Wilms3_Vasculature
+Investigate CxG: 49c2fee0-a4b4-49dd-bebe-f2d27ec77953_Control-069_Lymph_Node
+Investigate CxG: 49c2fee0-a4b4-49dd-bebe-f2d27ec77953_Control-053_Lymph_Node
+Investigate CxG: 49c2fee0-a4b4-49dd-bebe-f2d27ec77953_Control-084_Lymph_Node
+Investigate KPMP-IU/OSU: undefined
+Investigate KPMP-IU/OSU: undefined
+Investigate KPMP-IU/OSU: undefined
+Investigate CxG: !D110_D110_Lung
+Investigate CxG: 0217420c-b31d-4f92-8edf-c6d113573963_Wilms3_Vasculature
+Investigate CxG: 0217420c-b31d-4f92-8edf-c6d113573963_Wilms2_Vasculature
 There was some problem saving out at least one dataset. Saved: 3613 Expected: 4226
 
 > ctpop-data-processor@1.0.0 generate:collisions
 > node ./src/gen-collisions.js
 
-66 RUI locations had more than one collision
-120 RUI locations had one collision
+64 RUI locations had more than one collision
+114 RUI locations had one collision
 WARNING 11 RUI locations had zero collisions
 
 > ctpop-data-processor@1.0.0 generate:corridors
