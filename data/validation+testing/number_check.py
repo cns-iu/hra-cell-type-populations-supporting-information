@@ -25,8 +25,6 @@ def main():
     # covering which unique eorgans
     
     
-    # unique cell types
-    
 
 def load_json(file_path):
     """A function to load a json file and return the data as a dict
