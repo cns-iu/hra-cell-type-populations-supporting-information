@@ -13,6 +13,7 @@ def main():
     enriched_rui_locations = load_json("../enriched_rui_locations.jsonld")
     as_summaries = load_json("../as-cell-summaries.jsonld")
     api = load_json("downloaded_api_responses/ccf_api_as_ct_combos.json")
+    organ_sex_lookup = load_json("downloaded_api_responses/ccf_api_ref_organ_sex.json")
 
     # V1: Test RUI Location Prediction (simAS, simCorridor)
     # Prediction 0: using as-cell-sumamries
