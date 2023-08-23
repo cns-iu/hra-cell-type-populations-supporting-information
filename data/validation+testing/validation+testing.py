@@ -56,6 +56,7 @@ def main():
                     "cell_source": sample['@id'],
                     'all_collisions': sample['rui_location']['all_collisions'],
                     'bb_collisions': sample['rui_location']['ccf_annotations'],
+                    # could also match by representation_of/ref_organ_term
                     'ref_organ_iri': sample['rui_location']['placement']['target'],
                     "summaries": sample['rui_location']['summaries'],
                     'only_compare_with': set()
