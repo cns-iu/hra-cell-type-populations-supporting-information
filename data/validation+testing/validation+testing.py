@@ -55,6 +55,8 @@ def main():
                     # grab cell source (sample ID), AS collision tags (important for checking validity of CTPop later), and summaries
                     "cell_source": sample['@id'],
                     'all_collisions': sample['rui_location']['all_collisions'],
+                    'bb_collisions': sample['rui_location']['ccf_annotations'],
+                    # could also match by representation_of/ref_organ_term
                     'ref_organ_iri': sample['rui_location']['placement']['target'],
                     "summaries": sample['rui_location']['summaries'],
                     'only_compare_with': set()
@@ -83,10 +85,13 @@ def main():
     # Let's create a dict to capoture our text results. Each key is a column header and the column content is a list
     d = {
         'tissue_block': [],
-        'best_fit': [],
-        'second_best_fit': [],
+        'organ': [],
+        'is_best_fit_in_mesh_collisions': [],
         'difference_between_best_and_second_best': [],
-        'is_best_fit_in_mesh_collisions': []
+        'number_of_mesh_collisions': [],
+        'number_of_bb_collisions': [],
+        'best_fit': [],
+        'second_best_fit': []
     }
 
     # let's add one column for each AS for which we has AS summaries
@@ -98,12 +103,16 @@ def main():
     for tb in list_tissue_blocks_summary_dict:
         print(f'''Now validating {tb['cell_source']}''')
         # variables to capture max, best fit AS, and whether the best fit AS is in the mesh-based collisions for this TB
+        organ = tb['ref_organ_iri']
         max = 0
         second_max = 0
         difference = 0
         best_fit = ""
         second_best_fit = ""
         best_fit_in_mesh_collisions = False
+        print(tb['all_collisions'])
+        number_of_mesh_collisions = len(tb['all_collisions'][0]['collisions'])
+        number_of_bb_collisions = len(tb['bb_collisions'])
 
         # Let's set the ID of this tissue block
         d['tissue_block'].append(tb['cell_source'])
@@ -146,10 +155,13 @@ def main():
 
         # let's capture the best fit and is_best_fit_in_mesh_collisions bool
         print(f'''Appending {best_fit} for {tb['cell_source']}''')
+        d['organ'].append(normalize_organ_name(organ))
         d['best_fit'].append(best_fit)
         d['difference_between_best_and_second_best'].append(difference)
         d['is_best_fit_in_mesh_collisions'].append(
             best_fit_in_mesh_collisions)
+        d['number_of_mesh_collisions'].append(number_of_mesh_collisions)
+        d['number_of_bb_collisions'].append(number_of_bb_collisions)
         d['second_best_fit'].append(second_best_fit)
         print()
 
@@ -163,6 +175,26 @@ def main():
 
     # V3: Cosine Similarity Space
     # TO BE ADDED LATER
+
+
+def normalize_organ_name(iri):
+    """A function to remove uninformative parts of the URL and version numbers from an organ IRI (and also sex)
+
+      Args:
+        iri (str): the organ IRI
+
+    Returns:
+        string: the normalized organ name
+    """
+    regex = [
+        "http://purl.org/ccf/latest/ccf.owl#", "VHM", "VHF", "V1.1", "V1.2"
+    ]
+
+    updated_iri = iri
+    for str in regex:
+        if str in updated_iri:
+            updated_iri = updated_iri.replace(str, "")
+    return updated_iri
 
 
 def cosine_sim(a, b):
