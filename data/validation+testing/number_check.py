@@ -10,6 +10,7 @@ def main():
     enriched_rui_locations = load_json("../enriched_rui_locations.jsonld")
     rui_locations = load_json("../rui_locations.jsonld")
     enriched_rui_locations = load_json("../enriched_rui_locations.jsonld")
+    corridors = load_json("../corridors.jsonld")
 
 
 
@@ -17,14 +18,21 @@ def main():
     unique_rui_locations = set()
     unique_datasets = set()
     unique_cell_types = set()
+    unique_as_in_corridors = set()
     
+    # get unique datasets and cell types
     for cell_summary in dataset_cell_summaries['@graph']:
         unique_datasets.add(cell_summary['cell_source'])
         for row in cell_summary['summary']:
             unique_cell_types.add(row['cell_id'])
     
-
-            
+    # get AS that collide with tissue blocks that form corridors
+    for donor in enriched_rui_locations['@graph']:
+        for sample in donor['samples']:
+            if "corridor" in sample['rui_location']:
+                for collision_item in sample['rui_location']['all_collisions']:
+                    for collision in collision_item['collisions']:
+                        unique_as_in_corridors.add(collision['as_3d_id'])
     
     
     print(f'''
@@ -32,11 +40,20 @@ def main():
           Unique cell types: {len(unique_cell_types)}
           Unique enriched RUI locations: {len(count_rui_locations(enriched_rui_locations))}
           Unique tissue blocks: {len(count_tissue_blocks(enriched_rui_locations))}
+          Unique AS in corridors: {len(unique_as_in_corridors)}
           ''')
         
     # covering which unique eorgans
 
 def count_tissue_blocks(response):
+    """A function to count unique tissue blocks
+
+   Args:
+        response (dict): the enriched_rui_locations.json-ld 
+
+    Returns:
+        set: A set of unique sample IDs
+    """
     result = set()
     for donor in response['@graph']:
         for sample in donor['samples']:
@@ -48,10 +65,10 @@ def count_tissue_blocks(response):
     return result
     
 def count_rui_locations(response):
-    """_summary_
+    """A function to count unique rui locations
 
     Args:
-        response (dict): the rui_locations.json-ld 
+        response (dict): the enriched_rui_locations.json-ld 
 
     Returns:
         set: A set of unique RUI location IDs
