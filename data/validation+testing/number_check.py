@@ -31,10 +31,21 @@ def main():
           Unique datasets: {len(unique_datasets)}
           Unique cell types: {len(unique_cell_types)}
           Unique enriched RUI locations: {len(count_rui_locations(enriched_rui_locations))}
-          Unique not enriched RUI locations: {len(count_rui_locations(rui_locations))}
+          Unique tissue blocks: {len(count_tissue_blocks(enriched_rui_locations))}
           ''')
         
     # covering which unique eorgans
+
+def count_tissue_blocks(response):
+    result = set()
+    for donor in response['@graph']:
+        for sample in donor['samples']:
+            try:
+                result.add(sample['@id'])
+            except:
+                continue
+    
+    return result
     
 def count_rui_locations(response):
     """_summary_
