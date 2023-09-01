@@ -4,15 +4,19 @@ import { globSync } from 'glob';
 import Papa from 'papaparse';
 import sh from 'shelljs';
 
-const CSV_URL='https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/export?format=csv&gid=1529271254'
-const FIELDS='dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ,non_hubmap_donor_id,organ,cell_type_annotation_tool'.split(',');
-const BASE_IRI='ctpop:';
-const OUTPUT='../data/dataset-cell-summaries.jsonld';
-const HUBMAP_TOKEN=process.env.HUBMAP_TOKEN;
+const CSV_URL =
+  'https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/export?format=csv&gid=1529271254';
+const FIELDS =
+  'unique_dataset_id,dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ,non_hubmap_donor_id,organ,cell_type_annotation_tool'.split(
+    ','
+  );
+const BASE_IRI = 'ctpop:';
+const OUTPUT = '../data/dataset-cell-summaries.jsonld';
+const HUBMAP_TOKEN = process.env.HUBMAP_TOKEN;
 
 // A HuBMAP Token is required as some datasets are unpublished
 if (!HUBMAP_TOKEN) {
-  console.log('Please run `export HUBMAP_TOKEN=xxxYourTokenyyy` and try again.')
+  console.log('Please run `export HUBMAP_TOKEN=xxxYourTokenyyy` and try again.');
   process.exit();
 }
 
@@ -25,21 +29,23 @@ if (!existsSync('tissue-bar-graphs')) {
 // Check out the hra-ct-summaries-mx-spatial-data repo with spatial summary csv files
 if (!existsSync('hra-ct-summaries-mx-spatial-data')) {
   console.log('Getting static spatial cell type summary csv files...');
-  sh.exec(
-    'git clone https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data'
-  );
+  sh.exec('git clone https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data');
 }
 
 /**
  * Normalize cell type ids, generating one if needed
- * 
- * @param {string} id a cell type ID or undefined 
+ *
+ * @param {string} id a cell type ID or undefined
  * @param {*} label a cell type label
  * @returns a normalized, ontology friendly cell type id
  */
 function normalizeCellType(id, label) {
   if (!id && label) {
-    const suffix = label.toLowerCase().trim().replace(/\W+/g, '-').replace(/[^a-z0-9-]+/g, '');
+    const suffix = label
+      .toLowerCase()
+      .trim()
+      .replace(/\W+/g, '-')
+      .replace(/[^a-z0-9-]+/g, '');
     id = `ASCTB-TEMP:${suffix}`; // expands to `https://purl.org/ccf/ASCTB-TEMP_${suffix}`;
   }
   return id;
@@ -48,28 +54,29 @@ function normalizeCellType(id, label) {
 /**
  * Get a cell type summary csv and convert it to a jsonld-compatible format
  *
- * @param {string} path path to a CSV file 
+ * @param {string} path path to a CSV file
  * @param {string} datasetIri the dataset iri for this summary
  * @returns a cell summary in jsonld format
  */
 function getCTSummary(path, datasetIri, modality = undefined) {
   const rows = Papa.parse(readFileSync(path).toString(), { header: true }).data;
-  const summary = rows.map(r => ({
+  const summary = rows
+    .map((r) => ({
       '@type': 'CellSummaryRow',
       cell_id: normalizeCellType(r.cell_type_ontology_id, r.cell_type),
       cell_label: r.cell_type,
-      count: +r.count
+      count: +r.count,
     }))
-    .filter(r => r.cell_label || r.cell_id);
+    .filter((r) => r.cell_label || r.cell_id);
   const maxCount = summary.reduce((acc, s) => acc + s.count, 0);
-  summary.forEach(s => s.percentage = s.count / maxCount);
+  summary.forEach((s) => (s.percentage = s.count / maxCount));
 
   return {
     '@type': 'CellSummary',
     cell_source: datasetIri,
     annotation_method: 'Ad-Hoc',
     modality,
-    summary
+    summary,
   };
 }
 
@@ -84,7 +91,7 @@ function getCTSummary(path, datasetIri, modality = undefined) {
 function findCTSummary(id, datasetIri, dirPattern = '*') {
   const csvFiles = globSync([
     `hra-ct-summaries-mx-spatial-data/${dirPattern}/cell_type_counts/${id}.csv`,
-    `tissue-bar-graphs/csv/${dirPattern}/${id}.csv`
+    `tissue-bar-graphs/csv/${dirPattern}/${id}.csv`,
   ]);
   let result;
   if (csvFiles.length > 0) {
@@ -114,29 +121,29 @@ function findCTSummary(id, datasetIri, dirPattern = '*') {
  */
 function tryRelatedHbmIds(id, datasetIri, token) {
   return fetch('https://search.api.hubmapconsortium.org/v3/portal/search', {
-      method: 'POST',
-      headers: token
-        ? { 'Content-type': 'application/json', Authorization: `Bearer ${token}` }
-        : { 'Content-type': 'application/json' },
-      body: JSON.stringify({
-        version: true,
-        from: 0,
-        size: 10000,
-        query: {
-          term: {
-            'hubmap_id.keyword': id
-          }
+    method: 'POST',
+    headers: token
+      ? { 'Content-type': 'application/json', Authorization: `Bearer ${token}` }
+      : { 'Content-type': 'application/json' },
+    body: JSON.stringify({
+      version: true,
+      from: 0,
+      size: 10000,
+      query: {
+        term: {
+          'hubmap_id.keyword': id,
         },
-        _source: {
-          includes: ['uuid', 'hubmap_id', 'descendants', 'ancestors'],
-        },
-      }),
-    })
-    .then(r => r.ok ? r.json() : undefined)
-    .then(r => {
+      },
+      _source: {
+        includes: ['uuid', 'hubmap_id', 'descendants', 'ancestors'],
+      },
+    }),
+  })
+    .then((r) => (r.ok ? r.json() : undefined))
+    .then((r) => {
       if (!r || r.hits.hits.length === 0) return;
       r = r.hits.hits[0]._source;
-      const hbmIds = r.descendants.concat(r.ancestors).map(d => d.hubmap_id);
+      const hbmIds = r.descendants.concat(r.ancestors).map((d) => d.hubmap_id);
       for (const id of hbmIds) {
         const ctSummary = findCTSummary(id, datasetIri);
         if (ctSummary) {
@@ -149,8 +156,8 @@ function tryRelatedHbmIds(id, datasetIri, token) {
 // Grab the datasets list from the given CSV_URL and convert to array of objects
 const allDatasets = await fetch(CSV_URL, { redirect: 'follow' })
   .then((r) => r.text())
-  .then((r) =>
-    Papa.parse(r, { header: true, fields: FIELDS }).data
+  .then(
+    (r) => Papa.parse(r, { header: true, fields: FIELDS }).data
     // .filter((row) => row.excluded_from_atlas_construction !== 'TRUE')
   );
 
@@ -162,7 +169,7 @@ for (const dataset of allDatasets) {
   // Custom processing per dataset source (GTEx, HuBMAP, and CxG)
   if (dataset.source === 'GTEx') {
     id = dataset.dataset_id;
-    result = findCTSummary(id)
+    result = findCTSummary(id);
   } else if (dataset.source === 'HuBMAP') {
     id = dataset.dataset_id;
     result = findCTSummary(id);
@@ -191,12 +198,14 @@ for (const dataset of allDatasets) {
 }
 
 if (results.length !== allDatasets.length) {
-  console.log(`There was some problem saving out at least one dataset. Saved: ${results.length} Expected: ${allDatasets.length}`);
+  console.log(
+    `There was some problem saving out at least one dataset. Saved: ${results.length} Expected: ${allDatasets.length}`
+  );
 }
 
 // Write out the new rui_locations.jsonld file
 const jsonld = {
   ...JSON.parse(readFileSync('ccf-context.jsonld')),
-  '@graph': results
+  '@graph': results,
 };
 writeFileSync(OUTPUT, JSON.stringify(jsonld, null, 2));

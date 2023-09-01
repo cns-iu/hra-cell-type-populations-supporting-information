@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs';
 
-const OUTPUT='../data/as-cell-summaries.jsonld';
+const OUTPUT = '../data/as-cell-summaries.jsonld';
 const donors = JSON.parse(readFileSync('../data/enriched_rui_locations.jsonld'));
 const asCellSummaries = {};
 
@@ -19,15 +19,17 @@ function handleCellSummaries(dataset, collisions) {
         const modality = dsSummary.modality;
         const weightedCellCount = cell.count * collision.percentage;
 
-        const summary = asCellSummaries[asIri + modality] = asCellSummaries[asIri + modality] || {
+        const summary = (asCellSummaries[asIri + modality] = asCellSummaries[asIri + modality] || {
           '@type': 'CellSummary',
           cell_source: asIri,
           annotation_method: 'Aggregation',
+          aggregated_summary_count: 0,
           modality,
-          summary: []
-        };
+          summary: [],
+        });
+        summary.aggregated_summary_count++;
 
-        let summaryRow = summary.summary.find(s => s.cell_id === cell.cell_id);
+        let summaryRow = summary.summary.find((s) => s.cell_id === cell.cell_id);
         if (summaryRow) {
           summaryRow.count += weightedCellCount;
         } else {
@@ -36,8 +38,8 @@ function handleCellSummaries(dataset, collisions) {
             cell_id: cell.cell_id,
             cell_label: cell.cell_label,
             count: weightedCellCount,
-            percentage: 0 // to be computed at the end
-          }
+            percentage: 0, // to be computed at the end
+          };
           summary.summary.push(summaryRow);
         }
       }
@@ -48,7 +50,7 @@ function handleCellSummaries(dataset, collisions) {
 function finalizeAsCellSummaries() {
   return Object.values(asCellSummaries).map((summary) => {
     const cellCount = summary.summary.reduce((acc, s) => acc + s.count, 0);
-    summary.summary.forEach(s => s.percentage = s.count / cellCount);
+    summary.summary.forEach((s) => (s.percentage = s.count / cellCount));
     return summary;
   });
 }
@@ -70,6 +72,6 @@ const results = finalizeAsCellSummaries();
 // Write out the new as-collisions.jsonld file
 const jsonld = {
   ...JSON.parse(readFileSync('ccf-context.jsonld')),
-  '@graph': results
+  '@graph': results,
 };
 writeFileSync(OUTPUT, JSON.stringify(jsonld, null, 2));

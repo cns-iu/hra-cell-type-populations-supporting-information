@@ -16,7 +16,7 @@ PREFIX rui: <http://purl.org/ccf/1.5/>
 
 SELECT ?organ ?as_label ?as_volume
 	?rui_location_one_as_count ?rui_location_count ?rui_locations_with_ct ?rui_locations_no_ct
-	?ct_not_in_hra ?ct_in_hra ?ct_from_hra_only ?predicted_ct_count ?predicted_ct_labels ?predicted_cells_per_ct
+	?ct_not_in_hra ?ct_in_hra ?ct_from_hra_only ?experimental_ct_count ?ct_labels_from_experimental_data ?predicted_cells_per_ct
 FROM ctpop:graph
 FROM <http://purl.org/ccf/releases/2.2.1/ccf.owl>
 WHERE {
@@ -124,8 +124,8 @@ WHERE {
         (COUNT(DISTINCT(?cell_id)) - COUNT(DISTINCT(?hra_ct_id)) as ?ct_not_in_hra)
         (COUNT(DISTINCT(?hra_ct_id)) as ?ct_in_hra)
         (COUNT(DISTINCT(?hra_exclusive_ct_id)) as ?ct_from_hra_only)
-        (COUNT(DISTINCT(?cell_id)) as ?predicted_ct_count)
-        (GROUP_CONCAT(DISTINCT(?cell_label); separator="; ") as ?predicted_ct_labels)
+        (COUNT(DISTINCT(?cell_id)) as ?experimental_ct_count)
+        (GROUP_CONCAT(DISTINCT(?cell_label); separator="; ") as ?ct_labels_from_experimental_data)
         (AVG(?cell_count) as ?predicted_cells_per_ct)
     WHERE {
       ?rui_location a ccf:SpatialEntity .

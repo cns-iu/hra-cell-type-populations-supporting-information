@@ -3,30 +3,35 @@ import { readFileSync, writeFileSync } from 'fs';
 import Papa from 'papaparse';
 import { getHbmToUuidLookup } from './hubmap-uuid-lookup.js';
 
-const CSV_URL='https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/export?format=csv&gid=1529271254'
-const FIELDS='dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ'.split(',');
-const BASE_IRI='ctpop:';
-const OUTPUT='../data/rui_locations.jsonld'
-const HUBMAP_TOKEN=process.env.HUBMAP_TOKEN;
+const CSV_URL =
+  'https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/export?format=csv&gid=1529271254';
+const FIELDS =
+  'dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ'.split(
+    ','
+  );
+const BASE_IRI = 'ctpop:';
+const OUTPUT = '../data/rui_locations.jsonld';
+const HUBMAP_TOKEN = process.env.HUBMAP_TOKEN;
 
 // A HuBMAP Token is required as some datasets are unpublished
 if (!HUBMAP_TOKEN) {
-  console.log('Please run `export HUBMAP_TOKEN=xxxYourTokenyyy` and try again.')
+  console.log('Please run `export HUBMAP_TOKEN=xxxYourTokenyyy` and try again.');
   process.exit();
 }
 
 // Some rui_locations.jsonld may need to be remapped. You can specify old => new url mappings here.
 const ALIASES = {
-  'https://dw-dot.github.io/hra-cell-type-populations-rui-json-lds/AllenWangLungMap_rui_locations.jsonld': 'https://cns-iu.github.io/hra-cell-type-populations-rui-json-lds/AllenWangLungMap_rui_locations.jsonld'
-}
+  'https://dw-dot.github.io/hra-cell-type-populations-rui-json-lds/AllenWangLungMap_rui_locations.jsonld':
+    'https://cns-iu.github.io/hra-cell-type-populations-rui-json-lds/AllenWangLungMap_rui_locations.jsonld',
+};
 
 // Cache for url => retrieved registration data
 const dataSourcesCache = {};
 
 /**
  * Grab and normalize registration data from the given url
- * 
- * @param {string} url link to a rui_locations.jsonld to download from 
+ *
+ * @param {string} url link to a rui_locations.jsonld to download from
  * @returns rui_locations.jsonld data (list of donor objects)
  */
 async function getDataSource(url) {
@@ -34,10 +39,10 @@ async function getDataSource(url) {
 
   // Add token for HuBMAP's registrations if available
   if (url === 'https://ccf-api.hubmapconsortium.org/v1/hubmap/rui_locations.jsonld' && HUBMAP_TOKEN) {
-    url += `?token=${HUBMAP_TOKEN}`; 
+    url += `?token=${HUBMAP_TOKEN}`;
   }
   if (!dataSourcesCache[url] && url) {
-    const graph = await fetch(url).then(r => r.json());
+    const graph = await fetch(url).then((r) => r.json());
 
     // Normalize results to array of donors
     if (Array.isArray(graph)) {
@@ -45,7 +50,7 @@ async function getDataSource(url) {
     } else if (graph['@graph']) {
       dataSourcesCache[url] = graph['@graph'];
     } else if (graph['@type']) {
-      dataSourcesCache[url] = [ graph ];
+      dataSourcesCache[url] = [graph];
     }
   }
   return dataSourcesCache[url] || [];
@@ -54,7 +59,7 @@ async function getDataSource(url) {
 /**
  * Find registration data in a set of registrations given some criteria
  *
- * @param {object[]} data a list of Donor information in the rui_locations.jsonld format 
+ * @param {object[]} data a list of Donor information in the rui_locations.jsonld format
  * @param { { donorId?, ruiLocation?, sampleId?, datasetId? } } param1 ids to search for
  * @returns returns object with matched donor, block, section, dataset depending on what is matched
  */
@@ -99,15 +104,18 @@ function findInData(data, { donorId, ruiLocation, sampleId, datasetId }) {
 const allDatasets = await fetch(CSV_URL, { redirect: 'follow' })
   .then((r) => r.text())
   .then((r) =>
-    Papa.parse(r, { header: true, fields: FIELDS }).data.filter(
+    Papa.parse(r, { header: true /*, fields: FIELDS */ }).data.filter(
       (row) => row.excluded_from_atlas_construction !== 'TRUE'
     )
   );
 
-const hbmLookup = await getHbmToUuidLookup([
-  ...allDatasets.filter(d => d.source === 'HuBMAP').map(d => d.dataset_id),
-  ...allDatasets.filter(d => d.source === 'HuBMAP').map(d => d.HuBMAP_tissue_block_id),
-], HUBMAP_TOKEN);
+const hbmLookup = await getHbmToUuidLookup(
+  [
+    ...allDatasets.filter((d) => d.source === 'HuBMAP').map((d) => d.dataset_id),
+    ...allDatasets.filter((d) => d.source === 'HuBMAP').map((d) => d.HuBMAP_tissue_block_id),
+  ],
+  HUBMAP_TOKEN
+);
 
 const results = [];
 const donors = {};
@@ -152,24 +160,33 @@ for (const dataset of allDatasets) {
       donors[donorId] = {
         ...result.donor,
         '@context': undefined,
-        samples: []
+        samples: [],
       };
       results.push(donors[donorId]);
     }
     const donor = donors[donorId];
+    Object.assign(donor, {
+      'ctpop:portal': dataset.source,
+      'ctpop:cellxgene_development_stage': dataset.development_stage || undefined,
+      'ctpop:donor_race': dataset.donor_race || undefined,
+      bmi: dataset.donor_body_mass_index_value || donor.bmi || undefined,
+    });
 
     const blockId = result.block['@id'];
     if (!blocks[blockId]) {
       blocks[blockId] = {
         ...result.block,
         sections: [],
-        datasets: []
+        datasets: [],
       };
       donor.samples.push(blocks[blockId]);
     }
     const block = blocks[blockId];
+    Object.assign(block.rui_location, {
+      'ctpop:rui_location_source_url': dataset.ccf_api_endpoint,
+    });
 
-    const datasetIri = `${BASE_IRI}${id}`
+    const datasetIri = `${BASE_IRI}${id}`;
     let hraDataset;
     if (result.dataset) {
       // Copy dataset over with new '@id' matching our dataset id
@@ -178,7 +195,7 @@ for (const dataset of allDatasets) {
         result.dataset,
         {
           '@id': datasetIri,
-          'link': dataset.paper_id || result.dataset.link
+          link: dataset.paper_id || result.dataset.link,
         }
       );
     } else {
@@ -190,9 +207,19 @@ for (const dataset of allDatasets) {
         description: block.description,
         link: dataset.paper_id || block.link,
         technology: 'OTHER',
-        thumbnail: 'assets/icons/ico-unknown.svg' 
-      }
+        thumbnail: 'assets/icons/ico-unknown.svg',
+      };
     }
+    Object.assign(hraDataset, {
+      'ctpop:study_paper': dataset.paper_title || undefined,
+      'ctpop:doi': dataset.doi || undefined,
+      'ctpop:lead_author': dataset.lead_author || undefined,
+      'ctpop:is_azimuth_reference': dataset.is_azimuth_reference === 'TRUE' ? 'True' : undefined,
+      'ctpop:omap_id': dataset.omap_id || undefined,
+      'ctpop:hubmap_dataset_publication_status': dataset.HuBMAP_publication_status || undefined,
+      'ctpop:excluded_from_atlas_construction': '' + dataset.excluded_from_atlas_construction === 'TRUE',
+      'ctpop:reason_for_exclusion': dataset.reason_for_exclusion || undefined,
+    });
     block.datasets.push(hraDataset);
     datasets[hraDataset['@id']] = hraDataset;
   } else {
@@ -210,12 +237,14 @@ for (const donor of results) {
 
 const savedDatasets = Object.keys(datasets).length;
 if (savedDatasets !== allDatasets.length) {
-  console.log(`There was some problem saving out at least one dataset. Saved: ${savedDatasets} Expected: ${allDatasets.length}`);
+  console.log(
+    `There was some problem saving out at least one dataset. Saved: ${savedDatasets} Expected: ${allDatasets.length}`
+  );
 }
 
 // Write out the new rui_locations.jsonld file
 const jsonld = {
   ...JSON.parse(readFileSync('ccf-context.jsonld')),
-  '@graph': results
+  '@graph': results,
 };
 writeFileSync(OUTPUT, JSON.stringify(jsonld, null, 2));

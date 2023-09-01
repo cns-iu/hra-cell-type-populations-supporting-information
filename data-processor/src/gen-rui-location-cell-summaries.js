@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs';
 
-const OUTPUT='../data/rui-location-cell-summaries.jsonld';
+const OUTPUT = '../data/rui-location-cell-summaries.jsonld';
 const donors = JSON.parse(readFileSync('../data/enriched_rui_locations.jsonld'));
 const ruiCellSummaries = {};
 
@@ -12,15 +12,17 @@ function getCellSummaryRows(dataset) {
 
 function handleCellSummaries(dataset, ruiLocation) {
   const cellSummaryRows = getCellSummaryRows(dataset);
-  for (const cell of cellSummaryRows) {
-    const summary = ruiCellSummaries[ruiLocation] = ruiCellSummaries[ruiLocation] || {
-      '@type': 'CellSummary',
-      cell_source: ruiLocation,
-      annotation_method: 'Aggregation',
-      summary: []
-    };
+  const summary = (ruiCellSummaries[ruiLocation] = ruiCellSummaries[ruiLocation] || {
+    '@type': 'CellSummary',
+    cell_source: ruiLocation,
+    annotation_method: 'Aggregation',
+    aggregated_summary_count: 0,
+    summary: [],
+  });
+  summary.aggregated_summary_count++;
 
-    let summaryRow = summary.summary.find(s => s.cell_id === cell.cell_id);
+  for (const cell of cellSummaryRows) {
+    let summaryRow = summary.summary.find((s) => s.cell_id === cell.cell_id);
     if (summaryRow) {
       summaryRow.count += cell.count;
     } else {
@@ -29,8 +31,8 @@ function handleCellSummaries(dataset, ruiLocation) {
         cell_id: cell.cell_id,
         cell_label: cell.cell_label,
         count: cell.count,
-        percentage: 0 // to be computed at the end
-      }
+        percentage: 0, // to be computed at the end
+      };
       summary.summary.push(summaryRow);
     }
   }
@@ -39,7 +41,7 @@ function handleCellSummaries(dataset, ruiLocation) {
 function finalizeCellSummaries() {
   return Object.values(ruiCellSummaries).map((summary) => {
     const cellCount = summary.summary.reduce((acc, s) => acc + s.count, 0);
-    summary.summary.forEach(s => s.percentage = s.count / cellCount);
+    summary.summary.forEach((s) => (s.percentage = s.count / cellCount));
     return summary;
   });
 }
@@ -59,6 +61,6 @@ const results = finalizeCellSummaries();
 // Write out the new rui-location-cell-summaries.jsonld file
 const jsonld = {
   ...JSON.parse(readFileSync('ccf-context.jsonld')),
-  '@graph': results
+  '@graph': results,
 };
 writeFileSync(OUTPUT, JSON.stringify(jsonld, null, 2));

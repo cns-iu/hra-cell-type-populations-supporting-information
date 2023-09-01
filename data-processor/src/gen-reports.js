@@ -6,7 +6,9 @@ import { selectCsvRemote } from './sparql.js';
 
 // SPARQL endpoint with ctpop data loaded
 //const SPARQL_ENDPOINT = 'https://api.triplydb.com/datasets/bherr/ctpop/services/ctpop/sparql';
-const SPARQL_ENDPOINT = 'https://lod.humanatlas.io/sparql';
+// const SPARQL_ENDPOINT = 'https://lod.humanatlas.io/sparql';
+// const SPARQL_ENDPOINT = 'https://ukiemb6svh.us-east-2.awsapprunner.com/blazegraph/namespace/kb/sparql';
+const SPARQL_ENDPOINT = 'http://localhost:8080/blazegraph/namespace/kb/sparql';
 
 // Ensure reports output directory exists
 sh.mkdir('-p', '../data/reports');

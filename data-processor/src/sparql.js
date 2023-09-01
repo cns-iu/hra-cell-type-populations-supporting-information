@@ -10,9 +10,9 @@ import Papa from 'papaparse';
  * @returns array of objects
  */
 export async function selectRemoteObjects(query, sparqlEndpoint) {
-  const fetcher = new SparqlEndpointFetcher({});
+  const fetcher = new SparqlEndpointFetcher({ timeout: 120000 });
   const stream = await fetcher.fetchBindings(sparqlEndpoint, query);
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve, _reject) => {
     const results = [];
     stream.on('data', (bindings) => {
       const result = Object.keys(bindings).reduce((acc, key) => ((acc[key] = bindings[key]?.value), acc), {});
@@ -32,8 +32,20 @@ export async function selectRemoteObjects(query, sparqlEndpoint) {
  * @returns the results of the query in csv format
  */
 export async function selectCsvRemote(query, sparqlEndpoint) {
-  const data = await selectRemoteObjects(query, sparqlEndpoint);
-  return Papa.unparse(data);
+  const fetcher = new SparqlEndpointFetcher({ timeout: 120000 });
+  const stream = await fetcher.fetchBindings(sparqlEndpoint, query);
+  return new Promise((resolve, _reject) => {
+    const results = [];
+    let header;
+    stream.on('variables', (variables) => (header = variables.map((v) => v.value)));
+    stream.on('data', (bindings) => {
+      const result = Object.keys(bindings).reduce((acc, key) => ((acc[key] = bindings[key]?.value), acc), {});
+      results.push(result);
+    });
+    stream.on('end', () => {
+      resolve(Papa.unparse(results, { header: true, columns: header }));
+    });
+  });
 }
 
 /**

@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  ubergraph:
+    image: phenoscape/blazegraph:latest
+    volumes:
+      - type: bind
+        source: ./blazegraph.properties
+        target: /data/blazegraph.properties
+      - type: bind
+        source: ../data/blazegraph.jnl
+        target: /data/blazegraph.jnl
+
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+
+    ports:
+      - 8080:8080
