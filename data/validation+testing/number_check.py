@@ -10,7 +10,6 @@ def main():
     dataset_cell_summaries = load_json("../dataset-cell-summaries.jsonld")
     enriched_rui_locations = load_json("../enriched_rui_locations.jsonld")
     rui_locations = load_json("../rui_locations.jsonld")
-    enriched_rui_locations = load_json("../enriched_rui_locations.jsonld")
     corridors = load_json("../corridors.jsonld")
 
     # unqiue rui locations, datasets, and cell types
@@ -33,7 +32,7 @@ def main():
             if "corridor" in sample['rui_location']:
                 for collision_item in sample['rui_location']['all_collisions']:
                     for collision in collision_item['collisions']:
-                        unique_as_in_corridors.add(collision['as_3d_id'])
+                        unique_as_in_corridors.add(collision['as_id'])
 
     # get numbers of AS per corridor
     for donor in enriched_rui_locations['@graph']:
