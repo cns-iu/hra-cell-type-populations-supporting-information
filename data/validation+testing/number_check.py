@@ -1,4 +1,5 @@
 import json
+import csv
 
 
 def main():
@@ -42,7 +43,8 @@ def main():
                                       ['corridor']['file']] = []
                 for collision_item in sample['rui_location']['all_collisions']:
                     for collision in collision_item['collisions']:
-                        as_counts_in_corridor[sample['rui_location']['corridor']['file']].append(collision['as_3d_id'])
+                        as_counts_in_corridor[sample['rui_location']['corridor']['file']].append(
+                            collision['as_3d_id'])
 
     # print results for unique counts
     print(f'''
@@ -59,6 +61,17 @@ def main():
         for anatomical_structure in as_counts_in_corridor[key]:
             print(f'''\tThose AS are: {anatomical_structure} AS: ''')
 
+    # export result as CSV file
+    with open('corridors_with_their_as.csv', 'w', newline='') as f:
+        wr = csv.writer(f, delimiter=',')
+        wr.writerow(['corridor', 'number_of_unique_as','AS1','AS2', 'AS3','AS4', 'AS5','AS6', 'AS7' ])
+        for key in as_counts_in_corridor:
+            row = [key, len(as_counts_in_corridor[key])]
+            for ana in as_counts_in_corridor[key]:
+                print(ana)
+                row.append(ana)
+            wr.writerow(row)
+       
 
 def count_tissue_blocks(response):
     """A function to count unique tissue blocks
