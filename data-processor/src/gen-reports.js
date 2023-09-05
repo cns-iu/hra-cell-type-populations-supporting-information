@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { globSync } from 'glob';
 import { basename } from 'path';
 import sh from 'shelljs';
-import { selectCsvRemote } from './sparql.js';
+import { selectCsvRemote } from './utils/sparql.js';
 
 // SPARQL endpoint with ctpop data loaded
 //const SPARQL_ENDPOINT = 'https://api.triplydb.com/datasets/bherr/ctpop/services/ctpop/sparql';

@@ -1,7 +1,7 @@
 // Requires Node v18+ (for fetch support)
 import { readFileSync, writeFileSync } from 'fs';
 import Papa from 'papaparse';
-import { getHbmToUuidLookup } from './hubmap-uuid-lookup.js';
+import { getHbmToUuidLookup } from './utils/hubmap-uuid-lookup.js';
 
 const CSV_URL =
   'https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/export?format=csv&gid=1529271254';
