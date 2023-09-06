@@ -1,0 +1,66 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ASCTB-TEMP: <https://purl.org/ccf/ASCTB-TEMP_>
+PREFIX CL: <http://purl.obolibrary.org/obo/CL_>
+PREFIX FMA: <http://purl.org/sig/ont/fma/fma>
+PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX ccf3d: <http://purl.org/ccf/latest/ccf.owl#>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX ctpop: <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
+PREFIX rui: <http://purl.org/ccf/1.5/>
+
+SELECT
+  (COUNT(DISTINCT(?asctb)) as ?asctb_only) 
+  (COUNT(DISTINCT(?both)) as ?both) 
+  (COUNT(DISTINCT(?exp)) as ?exp_only)
+WHERE {
+  # Get CTs only in ASCT+B
+  {
+    SELECT DISTINCT ?asctb {
+      GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
+        ?asctb ccf:ccf_asctb_type ?type .
+      }
+      FILTER (?type = 'CT')
+      FILTER NOT EXISTS {
+        GRAPH ctpop:graph {
+          [] ccf:cell_id ?asctb .
+        }
+      }
+    }
+  }
+
+  # Get CTs only in Experimental Data
+  {
+    SELECT DISTINCT ?exp {
+      GRAPH ctpop:graph {
+        [] ccf:cell_id ?exp .
+      }
+      FILTER NOT EXISTS {
+        GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl>{
+          ?exp ccf:ccf_asctb_type ?type .
+        }
+        FILTER (?type = 'CT')
+      }
+    }
+  }
+
+  # Get CTs in Both
+  {
+    SELECT DISTINCT ?both {
+      GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl>
+      {
+        ?both ccf:ccf_asctb_type ?type .
+      }
+      FILTER (?type = 'CT')
+      FILTER EXISTS {
+        SELECT ?both {
+          GRAPH ctpop:graph {
+            [] ccf:cell_id ?both .
+          }
+        }
+      }
+    }
+  }
+}
