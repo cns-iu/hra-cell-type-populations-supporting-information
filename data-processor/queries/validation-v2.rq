@@ -1,0 +1,31 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ASCTB-TEMP: <https://purl.org/ccf/ASCTB-TEMP_>
+PREFIX CL: <http://purl.obolibrary.org/obo/CL_>
+PREFIX FMA: <http://purl.org/sig/ont/fma/fma>
+PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX ccf3d: <http://purl.org/ccf/latest/ccf.owl#>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX ctpop: <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
+PREFIX rui: <http://purl.org/ccf/1.5/>
+
+
+SELECT ?sample ?rui_location ?dataset ?similarity
+WHERE {
+  GRAPH ctpop:graph {
+    ?sample ccf:generates_dataset ?dataset .
+    ?sample ccf:has_registration_location ?rui_location .
+
+    # Source is always lexigraphically less than target
+    BIND(IF(STR(?dataset) < STR(?rui_location), ?rui_location, ?dataset) as ?source)
+    BIND(IF(STR(?dataset) < STR(?rui_location), ?dataset, ?rui_location) as ?target)
+  }
+
+  GRAPH ctpop:similarities {
+    ?edge ccf:cell_source_a ?source ;
+          ccf:cell_source_b ?target ;
+          ccf:similarity ?similarity .
+  }
+}
