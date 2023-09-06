@@ -10,7 +10,7 @@ import Papa from 'papaparse';
  * @returns array of objects
  */
 export async function selectRemoteObjects(query, sparqlEndpoint) {
-  const fetcher = new SparqlEndpointFetcher({ timeout: 120000 });
+  const fetcher = new SparqlEndpointFetcher({ timeout: 1200000 });
   const stream = await fetcher.fetchBindings(sparqlEndpoint, query);
   return new Promise((resolve, _reject) => {
     const results = [];
@@ -32,7 +32,7 @@ export async function selectRemoteObjects(query, sparqlEndpoint) {
  * @returns the results of the query in csv format
  */
 export async function selectCsvRemote(query, sparqlEndpoint) {
-  const fetcher = new SparqlEndpointFetcher({ timeout: 120000 });
+  const fetcher = new SparqlEndpointFetcher({ timeout: 1200000 });
   const stream = await fetcher.fetchBindings(sparqlEndpoint, query);
   return new Promise((resolve, _reject) => {
     const results = [];
@@ -57,7 +57,7 @@ export async function selectCsvRemote(query, sparqlEndpoint) {
  * @returns a JSON-LD object
  */
 export async function constructJsonLd(query, sparqlEndpoint, frameObj = undefined) {
-  const fetcher = new SparqlEndpointFetcher({});
+  const fetcher = new SparqlEndpointFetcher({ timeout: 1200000 });
   const stream = await fetcher.fetchTriples(sparqlEndpoint, query);
   return new Promise((resolve, _reject) => {
     const results = [];

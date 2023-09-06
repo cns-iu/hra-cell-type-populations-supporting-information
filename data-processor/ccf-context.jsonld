@@ -59,6 +59,19 @@
       "@id": "ccf:percentage_of_total"
     },
 
+    "cell_source_a": {
+      "@type": "@id"
+    },
+    "cell_source_b": {
+      "@type": "@id"
+    },
+    "entity_a": {
+      "@type": "@id"
+    },
+    "entity_b": {
+      "@type": "@id"
+    },
+
     "@base": "http://purl.org/ccf/",
     "@vocab": "http://purl.org/ccf/",
     "ccf": "http://purl.org/ccf/",

@@ -111,7 +111,7 @@ const allDatasets = await fetch(CSV_URL, { redirect: 'follow' })
 
 const hbmLookup = await getHbmToUuidLookup(
   [
-    ...allDatasets.filter((d) => d.source === 'HuBMAP').map((d) => d.dataset_id),
+    ...allDatasets.filter((d) => d.source === 'HuBMAP').map((d) => d.unique_dataset_id),
     ...allDatasets.filter((d) => d.source === 'HuBMAP').map((d) => d.HuBMAP_tissue_block_id),
   ],
   HUBMAP_TOKEN
@@ -126,15 +126,13 @@ for (const dataset of allDatasets) {
   // Grab registrations where this dataset occurs in
   const data = await getDataSource(dataset.ccf_api_endpoint);
 
-  let id;
+  let id = dataset.unique_dataset_id;
   let result;
 
   // Custom processing per dataset source (GTEx, HuBMAP, and CxG)
   if (dataset.source === 'GTEx') {
-    id = dataset.dataset_id;
     result = findInData(data, { sampleId: dataset.sample_id });
   } else if (dataset.source === 'HuBMAP') {
-    id = dataset.dataset_id;
     const datasetId = hbmLookup[id];
     result = findInData(data, { datasetId });
     if (!result) {
@@ -145,12 +143,14 @@ for (const dataset of allDatasets) {
       }
     }
   } else if (dataset.source === 'CxG') {
-    id = dataset.CxG_dataset_id_donor_id_organ;
     result = findInData(data, { ruiLocation: dataset.sample_id.split('_')[0] });
     if (!result) {
       const sampleId = dataset.sample_id;
       result = findInData(data, { sampleId });
     }
+  } else {
+    const iri = id.startsWith('http') ? id : `${BASE_IRI}${encodeURIComponent(id)}`;
+    result = findInData(data, { sampleId: dataset.sample_id, datasetId: iri });
   }
 
   // If data is found, add it to the growing list of registrations to output
@@ -186,7 +186,7 @@ for (const dataset of allDatasets) {
       'ctpop:rui_location_source_url': dataset.ccf_api_endpoint,
     });
 
-    const datasetIri = `${BASE_IRI}${id}`;
+    const datasetIri = id.startsWith('http') ? id : `${BASE_IRI}${encodeURIComponent(id)}`;
     let hraDataset;
     if (result.dataset) {
       // Copy dataset over with new '@id' matching our dataset id

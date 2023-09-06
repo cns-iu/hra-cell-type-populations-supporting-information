@@ -57,6 +57,18 @@
     "percentage": {
       "@id": "ccf:percentage_of_total"
     },
+    "cell_source_a": {
+      "@type": "@id"
+    },
+    "cell_source_b": {
+      "@type": "@id"
+    },
+    "entity_a": {
+      "@type": "@id"
+    },
+    "entity_b": {
+      "@type": "@id"
+    },
     "@base": "http://purl.org/ccf/",
     "@vocab": "http://purl.org/ccf/",
     "ccf": "http://purl.org/ccf/",
@@ -178,20 +190,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
-          "as_label": "outer cortex of kidney",
-          "as_volume": 119897.3006204218,
-          "percentage": 0.675
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_kidney_capsule_L",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0002015",
           "as_label": "kidney capsule",
           "as_volume": 6251.962236821093,
           "percentage": 0.086
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "as_volume": 119897.3006204218,
+          "percentage": 0.675
         }
       ]
     },
@@ -200,6 +212,24 @@
       "collision_source": "http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d",
       "collision_method": "MESH",
       "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_of_kidney_L",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0008716",
+          "as_label": "hilum of kidney",
+          "as_volume": 7937.076400845168,
+          "percentage": 0.661
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_L",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001284",
+          "as_label": "renal column",
+          "as_volume": 39325.42900374378,
+          "percentage": 0.852
+        },
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
@@ -217,24 +247,6 @@
           "as_label": "renal pyramid",
           "as_volume": 3093.1728906729513,
           "percentage": 0.143
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_column_L",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001284",
-          "as_label": "renal column",
-          "as_volume": 39325.42900374378,
-          "percentage": 0.852
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_hilum_of_kidney_L",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0008716",
-          "as_label": "hilum of kidney",
-          "as_volume": 7937.076400845168,
-          "percentage": 0.661
         }
       ]
     },
@@ -404,20 +416,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_L_h",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001228",
-          "as_label": "renal papilla",
-          "as_volume": 29.417921736041613,
-          "percentage": 0.284
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_h",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
           "as_label": "renal pyramid",
           "as_volume": 2112.7873270933665,
           "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_L_h",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001228",
+          "as_label": "renal papilla",
+          "as_volume": 29.417921736041613,
+          "percentage": 0.284
         }
       ]
     },
@@ -435,20 +447,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_L_h",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001228",
-          "as_label": "renal papilla",
-          "as_volume": 29.417921736041613,
-          "percentage": 0.92
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_h",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
           "as_label": "renal pyramid",
           "as_volume": 2112.7873270933665,
           "percentage": 0.687
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_L_h",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001228",
+          "as_label": "renal papilla",
+          "as_volume": 29.417921736041613,
+          "percentage": 0.92
         }
       ]
     },
@@ -578,20 +590,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_kidney_capsule_R",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002015",
-          "as_label": "kidney capsule",
-          "as_volume": 10055.261678806379,
-          "percentage": 0.031
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidney",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_R",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
           "as_label": "outer cortex of kidney",
           "as_volume": 84566.4834520329,
           "percentage": 0.961
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_kidney_capsule_R",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002015",
+          "as_label": "kidney capsule",
+          "as_volume": 10055.261678806379,
+          "percentage": 0.031
         }
       ]
     },
@@ -669,20 +681,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
-          "as_label": "outer cortex of kidney",
-          "as_volume": 119897.3006204218,
-          "percentage": 1
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_a",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
           "as_label": "renal pyramid",
           "as_volume": 6220.839356878388,
           "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "as_volume": 119897.3006204218,
+          "percentage": 1
         }
       ]
     },
@@ -757,20 +769,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
-          "as_label": "outer cortex of kidney",
-          "as_volume": 119897.3006204218,
-          "percentage": 0.551
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_a",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
           "as_label": "renal pyramid",
           "as_volume": 6220.839356878388,
           "percentage": 0.547
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "as_volume": 119897.3006204218,
+          "percentage": 0.551
         }
       ]
     },
@@ -782,20 +794,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_d",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
-          "as_label": "renal pyramid",
-          "as_volume": 1911.7967343114315,
-          "percentage": 0.944
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightKidney",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_papilla_R_d",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0001228",
           "as_label": "renal papilla",
           "as_volume": 32.276429899249116,
           "percentage": 0.476
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_d",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
+          "as_label": "renal pyramid",
+          "as_volume": 1911.7967343114315,
+          "percentage": 0.944
         }
       ]
     },
@@ -832,20 +844,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_L",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
-          "as_label": "outer cortex of kidney",
-          "as_volume": 132321.25643167266,
-          "percentage": 0.343
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_renal_pyramid_L_k",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
           "as_label": "renal pyramid",
           "as_volume": 2896.4763032763044,
           "percentage": 0.607
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_outer_cortex_of_kidney_L",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "as_volume": 132321.25643167266,
+          "percentage": 0.343
         }
       ]
     },
@@ -873,20 +885,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
-          "as_label": "outer cortex of kidney",
-          "as_volume": 119897.3006204218,
-          "percentage": 0.04
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_renal_pyramid_L_a",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0004200",
           "as_label": "renal pyramid",
           "as_volume": 6220.839356878388,
           "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_outer_cortex_of_kidney_L",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002189",
+          "as_label": "outer cortex of kidney",
+          "as_volume": 119897.3006204218,
+          "percentage": 0.04
         }
       ]
     },
@@ -946,20 +958,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7361",
-          "as_label": "Right Lateral Bronchopulmonary Segment",
-          "as_volume": 162410.67838873283,
-          "percentage": 1
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
           "as_id": "http://purl.org/sig/ont/fma/fma7360",
           "as_label": "Right Medial Bronchopulmonary Segment",
           "as_volume": 229964.967376884,
           "percentage": 0.59
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "as_volume": 162410.67838873283,
+          "percentage": 1
         }
       ]
     },
@@ -971,20 +983,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7361",
-          "as_label": "Right Lateral Bronchopulmonary Segment",
-          "as_volume": 162410.67838873283,
-          "percentage": 1
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_medial_bronchopulmonary_segment",
           "as_id": "http://purl.org/sig/ont/fma/fma7360",
           "as_label": "Right Medial Bronchopulmonary Segment",
           "as_volume": 229964.967376884,
           "percentage": 0.25
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "as_volume": 162410.67838873283,
+          "percentage": 1
         }
       ]
     },
@@ -1101,6 +1113,15 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "as_volume": 444225.1660432583,
+          "percentage": 0.996
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
           "as_id": "http://purl.org/sig/ont/fma/fma7426",
           "as_label": "Left apical segmental bronchus",
@@ -1110,11 +1131,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 6110.627309348264,
-          "percentage": 0.024
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7374",
+          "as_label": "Superior lingular bronchopulmonary segment",
+          "as_volume": 299217.88085006404,
+          "percentage": 0.038
         },
         {
           "@type": "CollisionItem",
@@ -1133,24 +1154,6 @@
           "as_label": "left lung hilus",
           "as_volume": -14467.802594773204,
           "percentage": 0.174
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7374",
-          "as_label": "Superior lingular bronchopulmonary segment",
-          "as_volume": 299217.88085006404,
-          "percentage": 0.038
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7373",
-          "as_label": "Left Anterior Bronchopulmonary Segment",
-          "as_volume": 444225.1660432583,
-          "percentage": 0.996
         }
       ]
     },
@@ -1162,20 +1165,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 6110.627309348264,
-          "percentage": 0.005
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchus",
-          "as_id": "http://purl.org/sig/ont/fma/fma7430",
-          "as_label": "Superior lingular bronchus",
-          "as_volume": 254.0222038066852,
-          "percentage": 0.017
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_inferior_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7375",
+          "as_label": "Inferior lingular bronchopulmonary segment",
+          "as_volume": 130425.01976049297,
+          "percentage": 0.081
         },
         {
           "@type": "CollisionItem",
@@ -1189,11 +1183,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_inferior_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7375",
-          "as_label": "Inferior lingular bronchopulmonary segment",
-          "as_volume": 130425.01976049297,
-          "percentage": 0.081
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchus",
+          "as_id": "http://purl.org/sig/ont/fma/fma7430",
+          "as_label": "Superior lingular bronchus",
+          "as_volume": 254.0222038066852,
+          "percentage": 0.017
         }
       ]
     },
@@ -1205,20 +1199,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 6110.627309348264,
-          "percentage": 0.016
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchus",
-          "as_id": "http://purl.org/sig/ont/fma/fma7428",
-          "as_label": "Left anterior segmental bronchus",
-          "as_volume": 4557.780981819779,
-          "percentage": 0.205
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "as_volume": 444225.1660432583,
+          "percentage": 0.669
         },
         {
           "@type": "CollisionItem",
@@ -1232,11 +1217,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7373",
-          "as_label": "Left Anterior Bronchopulmonary Segment",
-          "as_volume": 444225.1660432583,
-          "percentage": 0.669
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchus",
+          "as_id": "http://purl.org/sig/ont/fma/fma7428",
+          "as_label": "Left anterior segmental bronchus",
+          "as_volume": 4557.780981819779,
+          "percentage": 0.205
         }
       ]
     },
@@ -1305,11 +1290,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_interventricular_septum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002094",
-          "as_label": "interventricular septum",
-          "as_volume": 65894.53465930313,
-          "percentage": 0.058
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "as_label": "heart right ventricle",
+          "as_volume": 78714.75572486868,
+          "percentage": 0.158
         },
         {
           "@type": "CollisionItem",
@@ -1323,11 +1308,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
-          "as_label": "heart right ventricle",
-          "as_volume": 78714.75572486868,
-          "percentage": 0.158
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_interventricular_septum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002094",
+          "as_label": "interventricular septum",
+          "as_volume": 65894.53465930313,
+          "percentage": 0.058
         }
       ]
     },
@@ -1339,20 +1324,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
-          "as_id": "http://purl.org/sig/ont/fma/fma14930",
-          "as_label": "ascending part of duodenum",
-          "as_volume": 7109.889886530647,
-          "percentage": 0.108
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_horizonal",
           "as_id": "http://purl.org/sig/ont/fma/fma14929",
           "as_label": "horizontal part of duodenum",
           "as_volume": 10554.937142321665,
           "percentage": 0.26
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
+          "as_id": "http://purl.org/sig/ont/fma/fma14930",
+          "as_label": "ascending part of duodenum",
+          "as_volume": 7109.889886530647,
+          "percentage": 0.108
         }
       ]
     },
@@ -1444,20 +1429,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
-          "as_label": "rectum",
-          "as_volume": 55500.59872139351,
-          "percentage": 0.006
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_sigmoid_colon",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0001159",
           "as_label": "sigmoid colon",
           "as_volume": 80118.30615779269,
           "percentage": 0.23
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
+          "as_label": "rectum",
+          "as_volume": 55500.59872139351,
+          "percentage": 0.006
         }
       ]
     },
@@ -1501,20 +1486,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
-          "as_id": "http://purl.org/sig/ont/fma/fma14930",
-          "as_label": "ascending part of duodenum",
-          "as_volume": 7109.889886530647,
-          "percentage": 0.108
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_horizonal",
           "as_id": "http://purl.org/sig/ont/fma/fma14929",
           "as_label": "horizontal part of duodenum",
           "as_volume": 10554.937142321665,
           "percentage": 0.26
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
+          "as_id": "http://purl.org/sig/ont/fma/fma14930",
+          "as_label": "ascending part of duodenum",
+          "as_volume": 7109.889886530647,
+          "percentage": 0.108
         }
       ]
     },
@@ -1542,20 +1527,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
-          "as_label": "rectum",
-          "as_volume": 55500.59872139351,
-          "percentage": 0.006
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_sigmoid_colon",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0001159",
           "as_label": "sigmoid colon",
           "as_volume": 80118.30615779269,
           "percentage": 0.23
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
+          "as_label": "rectum",
+          "as_volume": 55500.59872139351,
+          "percentage": 0.006
         }
       ]
     },
@@ -1631,20 +1616,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7364",
-          "as_label": "Right anterior basal bronchopulmonary segment",
-          "as_volume": 185551.3043128985,
-          "percentage": 0.6
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
           "as_id": "http://purl.org/sig/ont/fma/fma7361",
           "as_label": "Right Lateral Bronchopulmonary Segment",
           "as_volume": 83916.23058980214,
           "percentage": 0.484
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "as_volume": 185551.3043128985,
+          "percentage": 0.6
         }
       ]
     },
@@ -1653,15 +1638,6 @@
       "collision_source": "http://purl.org/ccf/1.5/f8a20a09-a700-439b-a518-60347cd7b156",
       "collision_method": "MESH",
       "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7364",
-          "as_label": "Right anterior basal bronchopulmonary segment",
-          "as_volume": 185551.3043128985,
-          "percentage": 0.431
-        },
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
@@ -1679,6 +1655,15 @@
           "as_label": "Right Medial Bronchopulmonary Segment",
           "as_volume": 149921.38883926737,
           "percentage": 0.602
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "as_volume": 185551.3043128985,
+          "percentage": 0.431
         }
       ]
     },
@@ -1706,20 +1691,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7364",
-          "as_label": "Right anterior basal bronchopulmonary segment",
-          "as_volume": 185551.3043128985,
-          "percentage": 0.245
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
           "as_id": "http://purl.org/sig/ont/fma/fma7361",
           "as_label": "Right Lateral Bronchopulmonary Segment",
           "as_volume": 83916.23058980214,
           "percentage": 0.737
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "as_volume": 185551.3043128985,
+          "percentage": 0.245
         }
       ]
     },
@@ -1731,20 +1716,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7364",
-          "as_label": "Right anterior basal bronchopulmonary segment",
-          "as_volume": 185551.3043128985,
-          "percentage": 0.927
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchopulmonary_segmennt",
           "as_id": "http://purl.org/sig/ont/fma/fma7361",
           "as_label": "Right Lateral Bronchopulmonary Segment",
           "as_volume": 83916.23058980214,
           "percentage": 0.116
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "as_volume": 185551.3043128985,
+          "percentage": 0.927
         }
       ]
     },
@@ -1829,20 +1814,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_caecum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001153",
-          "as_label": "caecum",
-          "as_volume": 31765.153707545353,
-          "percentage": 0.06
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_ascending_colon",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0001156",
           "as_label": "ascending colon",
           "as_volume": 46838.66491802995,
           "percentage": 0.259
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_caecum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001153",
+          "as_label": "caecum",
+          "as_volume": 31765.153707545353,
+          "percentage": 0.06
         }
       ]
     },
@@ -1910,20 +1895,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7364",
-          "as_label": "Right anterior basal bronchopulmonary segment",
-          "as_volume": 185551.3043128985,
-          "percentage": 0.752
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
           "as_id": "http://purl.org/sig/ont/fma/fma7360",
           "as_label": "Right Medial Bronchopulmonary Segment",
           "as_volume": 149921.38883926737,
           "percentage": 0.341
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "as_volume": 185551.3043128985,
+          "percentage": 0.752
         }
       ]
     },
@@ -1935,20 +1920,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7364",
-          "as_label": "Right anterior basal bronchopulmonary segment",
-          "as_volume": 185551.3043128985,
-          "percentage": 0.768
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
           "as_id": "http://purl.org/sig/ont/fma/fma7360",
           "as_label": "Right Medial Bronchopulmonary Segment",
           "as_volume": 149921.38883926737,
           "percentage": 0.307
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7364",
+          "as_label": "Right anterior basal bronchopulmonary segment",
+          "as_volume": 185551.3043128985,
+          "percentage": 0.768
         }
       ]
     },
@@ -2024,20 +2009,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
-          "as_id": "http://purl.org/sig/ont/fma/fma14930",
-          "as_label": "ascending part of duodenum",
-          "as_volume": 7109.889886530647,
-          "percentage": 0.108
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_horizonal",
           "as_id": "http://purl.org/sig/ont/fma/fma14929",
           "as_label": "horizontal part of duodenum",
           "as_volume": 10554.937142321665,
           "percentage": 0.26
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
+          "as_id": "http://purl.org/sig/ont/fma/fma14930",
+          "as_label": "ascending part of duodenum",
+          "as_volume": 7109.889886530647,
+          "percentage": 0.108
         }
       ]
     },
@@ -2065,20 +2050,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
-          "as_label": "rectum",
-          "as_volume": 55500.59872139351,
-          "percentage": 0.006
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_sigmoid_colon",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0001159",
           "as_label": "sigmoid colon",
           "as_volume": 80118.30615779269,
           "percentage": 0.23
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
+          "as_label": "rectum",
+          "as_volume": 55500.59872139351,
+          "percentage": 0.006
         }
       ]
     },
@@ -2204,11 +2189,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 4465.799100864554,
-          "percentage": 0.002
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7360",
+          "as_label": "Right Medial Bronchopulmonary Segment",
+          "as_volume": 149921.38883926737,
+          "percentage": 0.087
         },
         {
           "@type": "CollisionItem",
@@ -2218,15 +2203,6 @@
           "as_label": "Right Anterior Bronchopulmonary Segment",
           "as_volume": 374148.9387129613,
           "percentage": 0.944
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_medial_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7360",
-          "as_label": "Right Medial Bronchopulmonary Segment",
-          "as_volume": 149921.38883926737,
-          "percentage": 0.087
         },
         {
           "@type": "CollisionItem",
@@ -2272,6 +2248,15 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7338",
+          "as_label": "Right Apical Bronchopulmonary Segment",
+          "as_volume": 151252.07470394362,
+          "percentage": 0.988
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_hilum_R",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0004888",
           "as_label": "right lung hilus",
@@ -2286,15 +2271,6 @@
           "as_label": "right lung hilus",
           "as_volume": -2918.4971156375714,
           "percentage": 0.01
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7338",
-          "as_label": "Right Apical Bronchopulmonary Segment",
-          "as_volume": 151252.07470394362,
-          "percentage": 0.988
         }
       ]
     },
@@ -2363,29 +2339,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchus",
-          "as_id": "http://purl.org/sig/ont/fma/fma7398",
-          "as_label": "Right apical segmental bronchus",
-          "as_volume": 2537.34632998989,
-          "percentage": 0.095
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 4465.799100864554,
-          "percentage": 0.028
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_anterior_bronchopulmonary_segm",
           "as_id": "http://purl.org/sig/ont/fma/fma7359",
           "as_label": "Right Anterior Bronchopulmonary Segment",
           "as_volume": 374148.9387129613,
           "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_apical_bronchus",
+          "as_id": "http://purl.org/sig/ont/fma/fma7398",
+          "as_label": "Right apical segmental bronchus",
+          "as_volume": 2537.34632998989,
+          "percentage": 0.095
         }
       ]
     },
@@ -2419,6 +2386,15 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "as_volume": 444225.1660432583,
+          "percentage": 0.996
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchus",
           "as_id": "http://purl.org/sig/ont/fma/fma7426",
           "as_label": "Left apical segmental bronchus",
@@ -2428,29 +2404,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 6110.627309348264,
-          "percentage": 0.007
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchus",
           "as_id": "http://purl.org/sig/ont/fma/fma7428",
           "as_label": "Left anterior segmental bronchus",
           "as_volume": 4557.780981819779,
           "percentage": 0.026
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7373",
-          "as_label": "Left Anterior Bronchopulmonary Segment",
-          "as_volume": 444225.1660432583,
-          "percentage": 0.996
         }
       ]
     },
@@ -2528,20 +2486,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7374",
-          "as_label": "Superior lingular bronchopulmonary segment",
-          "as_volume": 299217.88085006404,
-          "percentage": 0.971
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
           "as_id": "http://purl.org/sig/ont/fma/fma7373",
           "as_label": "Left Anterior Bronchopulmonary Segment",
           "as_volume": 444225.1660432583,
           "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_lingula_superior_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7374",
+          "as_label": "Superior lingular bronchopulmonary segment",
+          "as_volume": 299217.88085006404,
+          "percentage": 0.971
         }
       ]
     },
@@ -2550,6 +2508,15 @@
       "collision_source": "http://purl.org/ccf/1.5/5b4b476b-01e1-4d13-95e5-d17770f9ffa9",
       "collision_method": "MESH",
       "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7373",
+          "as_label": "Left Anterior Bronchopulmonary Segment",
+          "as_volume": 444225.1660432583,
+          "percentage": 0.948
+        },
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
@@ -2562,29 +2529,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 6110.627309348264,
-          "percentage": 0.002
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_posterior_bronchopulmonary_segment",
           "as_id": "http://purl.org/sig/ont/fma/fma7386",
           "as_label": "Left posterior bronchopulmonary segment",
           "as_volume": 240984.6890340136,
           "percentage": 0.006
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_anterior_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7373",
-          "as_label": "Left Anterior Bronchopulmonary Segment",
-          "as_volume": 444225.1660432583,
-          "percentage": 0.948
         }
       ]
     },
@@ -2628,15 +2577,6 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 6110.627309348264,
-          "percentage": 0.008
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_anterior_bronchopulmonary_segment",
           "as_id": "http://purl.org/sig/ont/fma/fma7359",
           "as_label": "Right Anterior Bronchopulmonary Segment",
@@ -2646,20 +2586,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_apical_bronchus",
-          "as_id": "http://purl.org/sig/ont/fma/fma7416",
-          "as_label": "Right superior segmental bronchus",
-          "as_volume": 1456.963575946762,
-          "percentage": 0.029
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_posterior_bronchopulmonary_segment",
           "as_id": "http://purl.org/sig/ont/fma/fma7339",
           "as_label": "Right Posterior Bronchopulmonary Segment",
           "as_volume": 353229.4321451719,
           "percentage": 0.38
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_apical_bronchus",
+          "as_id": "http://purl.org/sig/ont/fma/fma7416",
+          "as_label": "Right superior segmental bronchus",
+          "as_volume": 1456.963575946762,
+          "percentage": 0.029
         }
       ]
     },
@@ -2981,20 +2921,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
-          "as_label": "rectum",
-          "as_volume": 55500.59872139351,
-          "percentage": 0.006
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_sigmoid_colon",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0001159",
           "as_label": "sigmoid colon",
           "as_volume": 80118.30615779269,
           "percentage": 0.23
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
+          "as_label": "rectum",
+          "as_volume": 55500.59872139351,
+          "percentage": 0.006
         }
       ]
     },
@@ -3086,20 +3026,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
-          "as_id": "http://purl.org/sig/ont/fma/fma14930",
-          "as_label": "ascending part of duodenum",
-          "as_volume": 7109.889886530647,
-          "percentage": 0.108
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_horizonal",
           "as_id": "http://purl.org/sig/ont/fma/fma14929",
           "as_label": "horizontal part of duodenum",
           "as_volume": 10554.937142321665,
           "percentage": 0.26
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
+          "as_id": "http://purl.org/sig/ont/fma/fma14930",
+          "as_label": "ascending part of duodenum",
+          "as_volume": 7109.889886530647,
+          "percentage": 0.108
         }
       ]
     },
@@ -3127,20 +3067,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
-          "as_label": "rectum",
-          "as_volume": 55500.59872139351,
-          "percentage": 0.006
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_sigmoid_colon",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0001159",
           "as_label": "sigmoid colon",
           "as_volume": 80118.30615779269,
           "percentage": 0.23
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
+          "as_label": "rectum",
+          "as_volume": 55500.59872139351,
+          "percentage": 0.006
         }
       ]
     },
@@ -3232,20 +3172,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
-          "as_id": "http://purl.org/sig/ont/fma/fma14930",
-          "as_label": "ascending part of duodenum",
-          "as_volume": 7109.889886530647,
-          "percentage": 0.108
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_horizonal",
           "as_id": "http://purl.org/sig/ont/fma/fma14929",
           "as_label": "horizontal part of duodenum",
           "as_volume": 10554.937142321665,
           "percentage": 0.26
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
+          "as_id": "http://purl.org/sig/ont/fma/fma14930",
+          "as_label": "ascending part of duodenum",
+          "as_volume": 7109.889886530647,
+          "percentage": 0.108
         }
       ]
     },
@@ -3321,20 +3261,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_caecum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001153",
-          "as_label": "caecum",
-          "as_volume": 31765.153707545353,
-          "percentage": 0.06
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_ascending_colon",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0001156",
           "as_label": "ascending colon",
           "as_volume": 46838.66491802995,
           "percentage": 0.259
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_caecum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001153",
+          "as_label": "caecum",
+          "as_volume": 31765.153707545353,
+          "percentage": 0.06
         }
       ]
     },
@@ -3437,20 +3377,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
-          "as_label": "rectum",
-          "as_volume": 55500.59872139351,
-          "percentage": 0.006
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_sigmoid_colon",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0001159",
           "as_label": "sigmoid colon",
           "as_volume": 80118.30615779269,
           "percentage": 0.23
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_rectum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0001052",
+          "as_label": "rectum",
+          "as_volume": 55500.59872139351,
+          "percentage": 0.006
         }
       ]
     },
@@ -3542,20 +3482,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
-          "as_id": "http://purl.org/sig/ont/fma/fma14930",
-          "as_label": "ascending part of duodenum",
-          "as_volume": 7109.889886530647,
-          "percentage": 0.108
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_horizonal",
           "as_id": "http://purl.org/sig/ont/fma/fma14929",
           "as_label": "horizontal part of duodenum",
           "as_volume": 10554.937142321665,
           "percentage": 0.26
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSmallIntestine",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_duodenum_ascending",
+          "as_id": "http://purl.org/sig/ont/fma/fma14930",
+          "as_label": "ascending part of duodenum",
+          "as_volume": 7109.889886530647,
+          "percentage": 0.108
         }
       ]
     },
@@ -3663,20 +3603,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_aortic_valve",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002137",
-          "as_label": "aortic valve",
-          "as_volume": 3612.9788196425684,
-          "percentage": 0.005
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_cardiac_atrium",
           "as_id": "http://purl.obolibrary.org/obo/UBERON_0002079",
           "as_label": "left cardiac atrium",
           "as_volume": 18115.968468297848,
           "percentage": 0.122
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_aortic_valve",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002137",
+          "as_label": "aortic valve",
+          "as_volume": 3612.9788196425684,
+          "percentage": 0.005
         }
       ]
     },
@@ -3697,11 +3637,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_interventricular_septum",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002094",
-          "as_label": "interventricular septum",
-          "as_volume": 65894.53465930313,
-          "percentage": 0.745
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
+          "as_label": "heart right ventricle",
+          "as_volume": 78714.75572486868,
+          "percentage": 0.119
         },
         {
           "@type": "CollisionItem",
@@ -3715,11 +3655,11 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_ventricle",
-          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002080",
-          "as_label": "heart right ventricle",
-          "as_volume": 78714.75572486868,
-          "percentage": 0.119
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_interventricular_septum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002094",
+          "as_label": "interventricular septum",
+          "as_volume": 65894.53465930313,
+          "percentage": 0.745
         }
       ]
     },
@@ -3864,27 +3804,173 @@
     },
     {
       "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/0c1510fa-83b7-43aa-aa70-d261835ce604_LungMap_Female_AllenWangLungMap_FEMALE_tissueblock_RUI",
+      "collision_source": "http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f",
       "collision_method": "MESH",
       "collisions": [
         {
           "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 4465.799100864554,
-          "percentage": 0.008
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMSkinV1.1",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_skin",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "as_volume": 2109804.44224585,
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMProstate",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_peripheral_zone_of_prostate_L",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_8410026",
+          "as_label": "peripheral zone of prostate",
+          "as_volume": 4398.494894308656,
+          "percentage": 0.458
         },
         {
           "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchus",
-          "as_id": "http://purl.org/sig/ont/fma/fma7402",
-          "as_label": "Lateral segmental bronchus",
-          "as_volume": 588.9754895789944,
-          "percentage": 0.697
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMProstate",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_central_zone_of_prostate_R",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_8410027",
+          "as_label": "central zone of prostate",
+          "as_volume": 1846.3797002366734,
+          "percentage": 0.048
         },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMProstate",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_central_zone_of_prostate_L",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_8410027",
+          "as_label": "central zone of prostate",
+          "as_volume": 1753.8123471207089,
+          "percentage": 0.043
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMProstate",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_peripheral_zone_of_prostate_R",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_8410026",
+          "as_label": "peripheral zone of prostate",
+          "as_volume": 4502.338753224233,
+          "percentage": 0.456
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFSkinV1.1",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_skin",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+          "as_label": "skin of body",
+          "as_volume": 1833227.3262579252,
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightMammaryGland",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_fat_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma73165",
+          "as_label": "Interlobar adipose tissue of right mammary gland",
+          "as_volume": 726890.7114561738,
+          "percentage": 0.962
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFHeart",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_cardiac_atrium",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "as_label": "right cardiac atrium",
+          "as_volume": 33225.90134453539,
+          "percentage": 0.705
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_left_apical_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7385",
+          "as_label": "Left apical bronchopulmonary segment",
+          "as_volume": 174591.38859003442,
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMHeart",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_cardiac_atrium",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002078",
+          "as_label": "right cardiac atrium",
+          "as_volume": 27714.91711157488,
+          "percentage": 0.402
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_posterior_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7386",
+          "as_label": "Left posterior bronchopulmonary segment",
+          "as_volume": 155013.6722653357,
+          "percentage": 0.98
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_left_apical_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7385",
+          "as_label": "Left apical bronchopulmonary segment",
+          "as_volume": 113080.27590387041,
+          "percentage": 1
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/0c1510fa-83b7-43aa-aa70-d261835ce604_LungMap_Female_AllenWangLungMap_FEMALE_tissueblock_RUI",
+      "collision_method": "MESH",
+      "collisions": [
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
@@ -3902,6 +3988,15 @@
           "as_label": "Right Medial Bronchopulmonary Segment",
           "as_volume": 149921.38883926737,
           "percentage": 1
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLungV1.1",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_right_lateral_bronchus",
+          "as_id": "http://purl.org/sig/ont/fma/fma7402",
+          "as_label": "Lateral segmental bronchus",
+          "as_volume": 588.9754895789944,
+          "percentage": 0.697
         }
       ]
     },
@@ -3913,29 +4008,20 @@
         {
           "@type": "CollisionItem",
           "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
-          "as_id": "http://purl.org/sig/ont/fma/fma7361",
-          "as_label": "Right Lateral Bronchopulmonary Segment",
-          "as_volume": 162410.67838873283,
-          "percentage": 1
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_bronchial_cartilage",
-          "as_id": "http://purl.org/sig/ont/fma/fma62649",
-          "as_label": "Cartilage of bronchus",
-          "as_volume": 6110.627309348264,
-          "percentage": 0.026
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
           "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchus",
           "as_id": "http://purl.org/sig/ont/fma/fma7402",
           "as_label": "Lateral segmental bronchus",
           "as_volume": 665.0720323461572,
           "percentage": 0.182
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLung",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_right_lateral_bronchopulmonary_segment",
+          "as_id": "http://purl.org/sig/ont/fma/fma7361",
+          "as_label": "Right Lateral Bronchopulmonary Segment",
+          "as_volume": 162410.67838873283,
+          "percentage": 1
         }
       ]
     }

@@ -96,7 +96,7 @@ function findCTSummary(id, datasetIri, dirPattern = '*') {
   let result;
   if (csvFiles.length > 0) {
     if (!datasetIri) {
-      datasetIri = `${BASE_IRI}${id}`;
+      datasetIri = id.startsWith('http') ? id : `${BASE_IRI}${encodeURIComponent(id)}`;
     }
     let modality = 'bulk';
     if (csvFiles[0].startsWith('hra-ct-summaries-mx-spatial-data')) {
@@ -135,10 +135,11 @@ function tryRelatedHbmIds(id, datasetIri, token) {
         },
       },
       _source: {
-        includes: ['uuid', 'hubmap_id', 'descendants', 'ancestors'],
+        includes: ['uuid', 'hubmap_id', 'descendants.hubmap_id', 'ancestors.hubmap_id'],
       },
     }),
   })
+    .catch((r) => ({ok: false}))
     .then((r) => (r.ok ? r.json() : undefined))
     .then((r) => {
       if (!r || r.hits.hits.length === 0) return;
@@ -166,28 +167,23 @@ for (const dataset of allDatasets) {
   let id;
   let result;
 
+  id = dataset.unique_dataset_id;
+  result = findCTSummary(id);
+
   // Custom processing per dataset source (GTEx, HuBMAP, and CxG)
-  if (dataset.source === 'GTEx') {
-    id = dataset.dataset_id;
-    result = findCTSummary(id);
-  } else if (dataset.source === 'HuBMAP') {
-    id = dataset.dataset_id;
-    result = findCTSummary(id);
-    if (!result) {
-      result = await tryRelatedHbmIds(id, `${BASE_IRI}${id}`);
-      if (!result) {
-        // When no results, reformat the id output for easy checking in a browser
-        id = `https://portal.hubmapconsortium.org/browse/${id}`;
-      }
-    }
-  } else if (dataset.source === 'SenNet') {
-    id = dataset.dataset_id;
-    result = findCTSummary(id);
-  } else if (dataset.source === 'CxG') {
-    id = dataset.CxG_dataset_id_donor_id_organ;
-    const searchId = `${dataset.dataset_id}_${dataset.non_hubmap_donor_id}`;
-    result = findCTSummary(searchId, `${BASE_IRI}${id}`, `${dataset.organ}_CxG_Portal`);
+  if (dataset.source === 'HuBMAP' && !result) {
+    // result = await tryRelatedHbmIds(id, `${BASE_IRI}${id}`);
+    // if (!result) {
+    //   // When no results, reformat the id output for easy checking in a browser
+    //   id = `https://portal.hubmapconsortium.org/browse/${id}`;
+    // }
+  } else if (dataset.source === 'CxG' && !result) {
+    // id = dataset.CxG_dataset_id_donor_id_organ;
+    // const searchId = `${dataset.dataset_id}_${dataset.non_hubmap_donor_id}`;
+    // result = findCTSummary(searchId, `${BASE_IRI}${id}`, `${dataset.organ}_CxG_Portal`);
   }
+
+  id = encodeURI(id);
 
   // If data is found, add it to the growing list of registrations to output
   if (result) {

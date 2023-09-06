@@ -1,0 +1,61 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ASCTB-TEMP: <https://purl.org/ccf/ASCTB-TEMP_>
+PREFIX CL: <http://purl.obolibrary.org/obo/CL_>
+PREFIX FMA: <http://purl.org/sig/ont/fma/fma>
+PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX ccf3d: <http://purl.org/ccf/latest/ccf.owl#>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX ctpop: <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
+PREFIX rui: <http://purl.org/ccf/1.5/>
+
+SELECT DISTINCT ?entityA ?entityB ?organA ?organB ?similarity ?distance
+WHERE {
+  GRAPH ctpop:graph {
+    ?entityA a ccf:SpatialEntity .
+    ?entityB a ccf:SpatialEntity .
+    FILTER(STR(?entityA) < STR(?entityB))
+  }
+
+  GRAPH ctpop:distances {
+    [] a ccf:SpatialEntityDistance;
+      ccf:entity_a ?entityA ;
+      ccf:entity_b ?entityB ;
+      ccf:distance ?distance .
+  }
+
+  GRAPH ctpop:similarities {
+    ?edge ccf:cell_source_a ?entityA ;
+          ccf:cell_source_b ?entityB ;
+          ccf:similarity ?similarity .
+  }
+
+  GRAPH ctpop:graph {
+    # Sample A
+    # ?sampleA ccf:has_registration_location ?entityA ;
+    #   rdfs:label ?labelA .
+    [] a ccf:SpatialPlacement ;
+        ccf:placement_for ?entityA ;
+        ccf:placement_relative_to ?refOrganA .
+
+    # Sample B
+    # ?sampleB ccf:has_registration_location ?entityB ;
+    #   rdfs:label ?labelB .
+    [] a ccf:SpatialPlacement ;
+        ccf:placement_for ?entityB ;
+        ccf:placement_relative_to ?refOrganB .
+  }
+  
+  GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
+    # Organ A
+    ?refOrganA ccf:representation_of ?organIriA .
+    ?organIriA rdfs:label ?organA .
+
+    # Organ B
+    ?refOrganB ccf:representation_of ?organIriB .
+    ?organIriB rdfs:label ?organB .
+  }
+}
+ORDER BY DESC(?similarity)

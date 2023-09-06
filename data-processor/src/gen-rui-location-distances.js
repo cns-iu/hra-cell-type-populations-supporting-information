@@ -11,6 +11,7 @@ for (const donor of donors) {
     ruiLocations.push(ruiLocation);
   }
 }
+ruiLocations.sort((a, b) => a['@id'].localeCompare(b['@id']))
 
 const results = [];
 for await (const distance of getAllSpatialEntityDistances(ruiLocations)) {

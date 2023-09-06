@@ -12,6 +12,9 @@ services:
 
     stdin_open: true # docker run -i
     tty: true # docker run -t
+    environment:
+      - BLAZEGRAPH_MEMORY=32G
+      - BLAZEGRAPH_TIMEOUT=6000000
 
     ports:
       - 8080:8080

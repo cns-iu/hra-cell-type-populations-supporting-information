@@ -69,6 +69,26 @@ if (CLEAN || !existsSync('../data/as-cell-summaries.jsonld')) {
   sh.exec('npm run generate:as-cell-summaries');
 }
 
+// Generate cell summary similarity scores
+if (CLEAN || !existsSync('../data/cell-summary-similarities.jsonld')) {
+  sh.exec('npm run generate:cell-summary-similarities');
+}
+
+// Generate rui location euclidian distances
+if (CLEAN || !existsSync('../data/rui-location-distances.jsonld')) {
+  sh.exec('npm run generate:rui-location-distances');
+}
+
+// Combine the data (again)
+if (CLEAN || !existsSync('../data/enriched_rui_locations.jsonld')) {
+  sh.exec('npm run generate:combined-data');
+}
+
+// Create the blazegraph database for querying
+if (CLEAN || !existsSync('../data/blazegraph.jnl')) {
+  sh.exec('./src/create-blazegraph.sh');
+}
+
 // Generate csv reports
 if (CLEAN || !existsSync('../data/reports')) {
   sh.exec('npm run generate:reports');

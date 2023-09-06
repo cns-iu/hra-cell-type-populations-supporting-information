@@ -13,6 +13,8 @@
     "generate:rui-location-cell-summaries": "node ./src/gen-rui-location-cell-summaries.js",
     "generate:combined-data": "node ./src/combine-jsonld.js",
     "generate:as-cell-summaries": "node ./src/gen-as-cell-summaries.js",
+    "generate:cell-summary-similarities": "node ./src/gen-cell-summary-similarities.js",
+    "generate:rui-location-distances": "node ./src/gen-rui-location-distances.js",
     "generate:reports": "node ./src/gen-reports.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

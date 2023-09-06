@@ -14,7 +14,7 @@ const SPARQL_ENDPOINT = 'http://localhost:8080/blazegraph/namespace/kb/sparql';
 sh.mkdir('-p', '../data/reports');
 
 // Go through each query in queries, run them, and save out the csv report to ../data/reports/
-for (const queryFile of globSync('queries/*.rq')) {
+for (const queryFile of globSync('queries/*.rq').sort()) {
   const reportName = basename(queryFile, '.rq');
   console.log('Creating report via remote SPARQL Endpoint:', reportName);
 

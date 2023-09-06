@@ -3,3 +3,10 @@ h5ad
 
 # ccf.owl is donwloaded automatically so no need to save in the repo
 ccf.owl
+
+# Uncompressed blazegraph journal
+blazegraph.jnl
+
+
+# Uncompressed cell summary similarities (> 1GB)
+cell-summary-similarities.ttl
