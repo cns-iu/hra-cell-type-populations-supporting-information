@@ -12,21 +12,35 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?sample ?rui_location ?dataset ?similarity
+SELECT ?sample ?dataset ?as ?similarity
 WHERE {
   GRAPH ctpop:graph {
     ?sample ccf:generates_dataset ?dataset .
     ?sample ccf:has_registration_location ?rui_location .
-
-    # Source is always lexigraphically less than target
-    BIND(IF(STR(?dataset) < STR(?rui_location), ?rui_location, ?dataset) as ?source)
-    BIND(IF(STR(?dataset) < STR(?rui_location), ?dataset, ?rui_location) as ?target)
   }
 
-  GRAPH ctpop:similarities {
-    ?edge ccf:cell_source_a ?source ;
-          ccf:cell_source_b ?target ;
-          ccf:similarity ?similarity .
+  {
+    GRAPH ctpop:similarities {
+      [] ccf:cell_source_a ?dataset ;
+         ccf:cell_source_b ?as ;
+         ccf:similarity ?similarity .
+
+      FILTER (
+        STRSTARTS(STR(?as), 'http://purl.obolibrary.org/obo/') ||
+        STRSTARTS(STR(?as), 'http://purl.org/sig/ont/fma/fma')
+      )
+    }
+  } UNION {
+    GRAPH ctpop:similarities {
+      [] ccf:cell_source_a ?as ;
+         ccf:cell_source_b ?dataset ;
+         ccf:similarity ?similarity .
+      
+      FILTER (
+        STRSTARTS(STR(?as), 'http://purl.obolibrary.org/obo/') ||
+        STRSTARTS(STR(?as), 'http://purl.org/sig/ont/fma/fma')
+      )
+    }
   }
 }
 ORDER BY ?sample
