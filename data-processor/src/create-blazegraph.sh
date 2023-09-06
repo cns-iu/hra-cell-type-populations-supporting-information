@@ -31,4 +31,5 @@ fi
 
 blazegraph-runner load --journal=$JNL "--graph=${CCF}" ../data/ccf.owl
 
-read -p "Start the Blazegraph Server and press Enter" -t 120
+echo "Start the Blazegraph Server and press Enter"
+read -t 120
