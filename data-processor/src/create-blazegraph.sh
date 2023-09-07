@@ -22,6 +22,7 @@ run_jsonld() {
 }
 
 run_jsonld ../data/enriched_rui_locations.jsonld ../data/enriched_rui_locations.ttl "${CTPOP}graph"
+run_jsonld ../data/as-cell-summaries.jsonld ../data/as-cell-summaries.ttl "${CTPOP}graph"
 run_jsonld ../data/rui-location-distances.jsonld ../data/rui-location-distances.ttl "${CTPOP}distances"
 run_ndjsonld ../data/cell-summary-similarities.jsonl.gz ../data/cell-summary-similarities.ttl "${CTPOP}similarities"
 
