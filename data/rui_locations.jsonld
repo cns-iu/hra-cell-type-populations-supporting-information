@@ -348,10 +348,10 @@
               "ctpop:excluded_from_atlas_construction": false
             }
           ],
-          "section_count": 4,
-          "section_size": 0.5,
+          "section_count": 6,
+          "section_size": 0.3,
           "section_units": "millimeter",
-          "description": "5 x 10 x 2 millimeter, 0.5 millimeter, 4 Sections"
+          "description": "5 x 10 x 2 millimeter, 0.3 millimeter, 6 Sections"
         },
         {
           "@type": "Sample",
@@ -543,7 +543,7 @@
               "@id": "ctpop:HBM799.ZJDP.379",
               "@type": "Dataset",
               "label": "Registered 6/8/2022, Diane Salamon, TMC-UCSD",
-              "description": "3 x 3 x 2 millimeter, 1 millimeter, 2 Sections",
+              "description": "3 x 3 x 2 millimeter, 0.5 millimeter, 4 Sections",
               "link": "https://portal.hubmapconsortium.org/browse/sample/681f7f1d0a87427cf182f231a01ca6f0",
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
@@ -603,10 +603,10 @@
               "ctpop:excluded_from_atlas_construction": false
             }
           ],
-          "section_count": 2,
-          "section_size": 1,
+          "section_count": 4,
+          "section_size": 0.5,
           "section_units": "millimeter",
-          "description": "3 x 3 x 2 millimeter, 1 millimeter, 2 Sections"
+          "description": "3 x 3 x 2 millimeter, 0.5 millimeter, 4 Sections"
         }
       ],
       "ctpop:portal": "HuBMAP"

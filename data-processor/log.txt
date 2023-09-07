@@ -1,0 +1,2093 @@
+
+> ctpop-data-processor@1.0.0 start
+> node ./src/main.js clean
+
+From https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/hubmapconsortium/tissue-bar-graphs
+ * branch            static     -> FETCH_HEAD
+Already up to date.
+
+> ctpop-data-processor@1.0.0 generate:registrations
+> node ./src/gen-registrations.js
+
+There was some problem saving out at least one dataset. Saved: 321 Expected: 449
+
+> ctpop-data-processor@1.0.0 generate:rui-location-cell-summaries
+> node ./src/gen-rui-location-cell-summaries.js
+
+
+> ctpop-data-processor@1.0.0 generate:dataset-cell-summaries
+> node ./src/gen-cell-summaries.js
+
+Investigate Azimuth: Azimuth_Bone_Marrow_celltype_l2
+Investigate Azimuth: Azimuth_Bone_Marrow_celltype_l1
+Investigate HuBMAP: HBM222.HSVR.282
+Investigate HuBMAP: HBM224.WNNF.837
+Investigate HuBMAP: HBM227.SQCR.264
+Investigate HuBMAP: HBM227.SQCR.264
+Investigate HuBMAP: HBM232.KNBD.954
+Investigate HuBMAP: HBM232.KNBD.954
+Investigate HuBMAP: HBM233.TRXX.696
+Investigate HuBMAP: HBM238.MHWZ.654
+Investigate HuBMAP: HBM238.MHWZ.654
+Multiple matches for HBM238.ZKPC.934: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM238.ZKPC.934.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM238.ZKPC.934.csv
+Investigate HuBMAP: HBM239.XXRN.647
+Investigate HuBMAP: HBM239.XXRN.647
+Investigate HuBMAP: HBM245.VSKK.846
+Investigate HuBMAP: HBM245.VSKK.846
+Investigate HuBMAP: HBM246.DMSS.835
+Investigate HuBMAP: HBM252.BMWF.224
+Investigate HuBMAP: HBM252.BMWF.224
+Investigate HuBMAP: HBM254.NMJR.348
+Investigate HuBMAP: HBM254.NMJR.348
+Investigate HuBMAP: HBM255.HLNC.938
+Investigate HuBMAP: HBM255.HLNC.938
+Investigate HuBMAP: HBM256.KFVT.324
+Investigate HuBMAP: HBM257.DBNG.933
+Investigate HuBMAP: HBM257.DBNG.933
+Investigate HuBMAP: HBM257.JTGD.599
+Investigate HuBMAP: HBM258.BWHR.287
+Investigate HuBMAP: HBM258.LPGK.484
+Investigate HuBMAP: HBM259.BPTK.843
+Investigate HuBMAP: HBM259.BPTK.843
+Investigate HuBMAP: HBM259.GGPX.595
+Investigate HuBMAP: HBM259.GGPX.595
+Investigate HuBMAP: HBM265.GSVG.935
+Investigate HuBMAP: HBM265.NXDR.935
+Investigate HuBMAP: HBM265.NXDR.935
+Investigate HuBMAP: HBM266.ZBKL.396
+Investigate HuBMAP: HBM276.BCVG.232
+Investigate HuBMAP: HBM276.BCVG.232
+Investigate HuBMAP: HBM277.KCLM.554
+Investigate HuBMAP: HBM277.NJQB.375
+Investigate HuBMAP: HBM283.GHKJ.532
+Investigate HuBMAP: HBM283.GHKJ.532
+Multiple matches for HBM284.SBPR.357: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM284.SBPR.357.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM284.SBPR.357.csv
+Multiple matches for HBM284.SBPR.357: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM284.SBPR.357.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM284.SBPR.357.csv
+Investigate HuBMAP: HBM284.WKTD.796
+Investigate HuBMAP: HBM284.WKTD.796
+Investigate HuBMAP: HBM285.HKKN.274
+Investigate HuBMAP: HBM288.RCTV.965
+Investigate HuBMAP: HBM288.RCTV.965
+Investigate HuBMAP: HBM289.XGJN.789
+Investigate HuBMAP: HBM296.PCFN.989
+Investigate HuBMAP: HBM296.PCFN.989
+Investigate HuBMAP: HBM298.KXFW.694
+Investigate HuBMAP: HBM298.KXFW.694
+Investigate HuBMAP: HBM325.QBFF.466
+Investigate HuBMAP: HBM328.FTJW.669
+Investigate HuBMAP: HBM328.FTJW.669
+Multiple matches for HBM334.QWFV.953: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM334.QWFV.953.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM334.QWFV.953.csv
+Multiple matches for HBM334.QWFV.953: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM334.QWFV.953.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM334.QWFV.953.csv
+Investigate HuBMAP: HBM335.XXBG.857
+Investigate HuBMAP: HBM335.XXBG.857
+Investigate HuBMAP: HBM342.FQXQ.335
+Investigate HuBMAP: HBM342.MWMW.936
+Investigate HuBMAP: HBM342.MWMW.936
+Investigate HuBMAP: HBM343.FLQM.896
+Investigate HuBMAP: HBM343.FLQM.896
+Investigate HuBMAP: HBM344.HZNN.755
+Investigate HuBMAP: HBM347.VDHS.379
+Investigate HuBMAP: HBM349.KWMK.599
+Investigate HuBMAP: HBM349.KWMK.599
+Investigate HuBMAP: HBM349.XPRZ.258
+Investigate HuBMAP: HBM349.XPRZ.258
+Investigate HuBMAP: HBM352.FPGR.328
+Investigate HuBMAP: HBM352.FPGR.328
+Multiple matches for HBM353.NZVQ.793: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM353.NZVQ.793.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM353.NZVQ.793.csv
+Multiple matches for HBM353.NZVQ.793: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM353.NZVQ.793.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM353.NZVQ.793.csv
+Investigate HuBMAP: HBM359.CQKZ.649
+Investigate HuBMAP: HBM363.LDZL.423
+Investigate HuBMAP: HBM363.LDZL.423
+Investigate HuBMAP: HBM363.NSBV.432
+Investigate HuBMAP: HBM363.NSBV.432
+Investigate HuBMAP: HBM366.RVSS.338
+Investigate HuBMAP: HBM366.RVSS.338
+Investigate HuBMAP: HBM367.WWJC.552
+Investigate HuBMAP: HBM368.FDDS.927
+Investigate HuBMAP: HBM368.FDDS.927
+Investigate HuBMAP: HBM368.QPXJ.543
+Investigate HuBMAP: HBM369.FCNZ.863
+Investigate HuBMAP: HBM369.FCNZ.863
+Investigate HuBMAP: HBM373.FNMG.689
+Investigate HuBMAP: HBM374.BXTC.899
+Investigate HuBMAP: HBM374.BXTC.899
+Investigate HuBMAP: HBM374.GWDZ.897
+Investigate HuBMAP: HBM374.GWDZ.897
+Investigate HuBMAP: HBM375.KNVL.645
+Investigate HuBMAP: HBM375.KNVL.645
+Investigate HuBMAP: HBM378.WGXD.394
+Investigate HuBMAP: HBM378.WGXD.394
+Investigate HuBMAP: HBM379.QCJT.435
+Investigate HuBMAP: HBM379.ZGKM.223
+Investigate HuBMAP: HBM379.ZGKM.223
+Investigate HuBMAP: HBM384.BWTV.862
+Investigate HuBMAP: HBM384.BWTV.862
+Investigate HuBMAP: HBM385.CJKX.252
+Investigate HuBMAP: HBM386.CVHG.956
+Investigate HuBMAP: HBM386.CVHG.956
+Investigate HuBMAP: HBM388.FZJF.382
+Investigate HuBMAP: HBM388.FZJF.382
+Investigate HuBMAP: HBM388.JGKV.766
+Investigate HuBMAP: HBM388.ZSNN.945
+Investigate HuBMAP: HBM389.FGMD.644
+Investigate HuBMAP: HBM393.CCBZ.572
+Investigate HuBMAP: HBM393.CCBZ.572
+Investigate HuBMAP: HBM393.NWNB.684
+Investigate HuBMAP: HBM393.NWNB.684
+Investigate HuBMAP: HBM394.VPCK.634
+Investigate HuBMAP: HBM394.VPCK.634
+Multiple matches for HBM394.VSKR.883: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM394.VSKR.883.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM394.VSKR.883.csv
+Multiple matches for HBM394.VSKR.883: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM394.VSKR.883.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM394.VSKR.883.csv
+Investigate HuBMAP: HBM396.BTXQ.696
+Investigate HuBMAP: HBM396.JHNS.692
+Investigate HuBMAP: HBM396.JHNS.692
+Investigate HuBMAP: HBM396.QSCB.763
+Investigate HuBMAP: HBM396.QSCB.763
+Investigate HuBMAP: HBM397.WXXH.736
+Investigate HuBMAP: HBM398.CFZH.458
+Investigate HuBMAP: HBM398.CFZH.458
+Investigate HuBMAP: HBM398.HXZL.642
+Investigate HuBMAP: HBM398.HXZL.642
+Multiple matches for HBM398.NCVN.256: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM398.NCVN.256.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM398.NCVN.256.csv
+Investigate HuBMAP: HBM398.ZSNW.578
+Investigate HuBMAP: HBM399.MWFF.783
+Investigate HuBMAP: HBM399.MWFF.783
+Investigate HuBMAP: HBM422.MKWK.448
+Investigate HuBMAP: HBM422.MKWK.448
+Investigate HuBMAP: HBM423.CFPF.283
+Investigate HuBMAP: HBM424.HCKP.222
+Investigate HuBMAP: HBM424.HCKP.222
+Multiple matches for HBM424.STVV.842: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM424.STVV.842.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM424.STVV.842.csv
+Multiple matches for HBM424.STVV.842: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM424.STVV.842.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM424.STVV.842.csv
+Investigate HuBMAP: HBM425.FXBW.445
+Investigate HuBMAP: HBM425.MSBX.963
+Investigate HuBMAP: HBM425.MSBX.963
+Investigate HuBMAP: HBM425.ZCSZ.825
+Investigate HuBMAP: HBM425.ZCSZ.825
+Investigate HuBMAP: HBM426.CDKT.979
+Investigate HuBMAP: HBM426.HLCN.236
+Investigate HuBMAP: HBM426.HLCN.236
+Investigate HuBMAP: HBM428.GPCD.698
+Investigate HuBMAP: HBM429.GXGF.662
+Multiple matches for HBM429.LLRT.546: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM429.LLRT.546.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM429.LLRT.546.csv
+Multiple matches for HBM429.LLRT.546: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM429.LLRT.546.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM429.LLRT.546.csv
+Investigate HuBMAP: HBM432.RXTV.994
+Investigate HuBMAP: HBM433.XXZF.683
+Investigate HuBMAP: HBM433.XXZF.683
+Investigate HuBMAP: HBM434.GKNQ.757
+Investigate HuBMAP: HBM434.NVPJ.787
+Investigate HuBMAP: HBM434.NVPJ.787
+Investigate HuBMAP: HBM435.LJRQ.646
+Investigate HuBMAP: HBM435.LJRQ.646
+Investigate HuBMAP: HBM435.WLKV.658
+Investigate HuBMAP: HBM436.QPXH.885
+Investigate HuBMAP: HBM436.QPXH.885
+Investigate HuBMAP: HBM437.FKCS.387
+Multiple matches for HBM438.JXJW.249: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM438.JXJW.249.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM438.JXJW.249.csv
+Multiple matches for HBM438.JXJW.249: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM438.JXJW.249.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM438.JXJW.249.csv
+Multiple matches for HBM439.WJDV.974: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM439.WJDV.974.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM439.WJDV.974.csv
+Multiple matches for HBM439.WJDV.974: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM439.WJDV.974.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM439.WJDV.974.csv
+Investigate HuBMAP: HBM442.GZFZ.522
+Investigate HuBMAP: HBM442.HSFZ.838
+Investigate HuBMAP: HBM442.HSFZ.838
+Investigate HuBMAP: HBM442.SBCR.983
+Investigate HuBMAP: HBM442.SBCR.983
+Investigate HuBMAP: HBM442.ZDMV.523
+Investigate HuBMAP: HBM442.ZDMV.523
+Multiple matches for HBM443.LGZK.435: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM443.LGZK.435.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM443.LGZK.435.csv
+Multiple matches for HBM443.LGZK.435: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM443.LGZK.435.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM443.LGZK.435.csv
+Investigate HuBMAP: HBM443.TQKQ.624
+Investigate HuBMAP: HBM443.TQKQ.624
+Investigate HuBMAP: HBM444.BXPJ.728
+Investigate HuBMAP: HBM444.BXPJ.728
+Investigate HuBMAP: HBM445.NPKW.958
+Investigate HuBMAP: HBM445.NPKW.958
+Investigate HuBMAP: HBM446.FXTJ.757
+Investigate HuBMAP: HBM449.QWKP.753
+Investigate HuBMAP: HBM449.QWKP.753
+Investigate HuBMAP: HBM453.SZCH.656
+Investigate HuBMAP: HBM453.SZCH.656
+Investigate HuBMAP: HBM456.DHPD.338
+Investigate HuBMAP: HBM458.TNQX.264
+Investigate HuBMAP: HBM459.BBRT.432
+Investigate HuBMAP: HBM459.BBRT.432
+Investigate HuBMAP: HBM462.BPNZ.799
+Investigate HuBMAP: HBM462.BPNZ.799
+Multiple matches for HBM462.JKCN.863: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM462.JKCN.863.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM462.JKCN.863.csv
+Multiple matches for HBM462.JKCN.863: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM462.JKCN.863.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM462.JKCN.863.csv
+Investigate HuBMAP: HBM464.RSZW.375
+Investigate HuBMAP: HBM464.WWCM.665
+Investigate HuBMAP: HBM464.WWCM.665
+Investigate HuBMAP: HBM465.TRGV.468
+Investigate HuBMAP: HBM466.RBPX.375
+Multiple matches for HBM466.XSKL.867: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM466.XSKL.867.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM466.XSKL.867.csv
+Multiple matches for HBM466.XSKL.867: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM466.XSKL.867.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM466.XSKL.867.csv
+Investigate HuBMAP: HBM469.MJBC.894
+Investigate HuBMAP: HBM469.MJBC.894
+Investigate HuBMAP: HBM473.BGMP.534
+Investigate HuBMAP: HBM473.NKMR.872
+Investigate HuBMAP: HBM475.LXDL.227
+Investigate HuBMAP: HBM475.NWHG.922
+Investigate HuBMAP: HBM476.PRMC.228
+Investigate HuBMAP: HBM476.PRMC.228
+Investigate HuBMAP: HBM477.DHNP.654
+Investigate HuBMAP: HBM477.DHNP.654
+Investigate HuBMAP: HBM477.SGMX.842
+Investigate HuBMAP: HBM477.SGMX.842
+Investigate HuBMAP: HBM479.RDNW.482
+Investigate HuBMAP: HBM479.RDNW.482
+Investigate HuBMAP: HBM482.FMFX.584
+Investigate HuBMAP: HBM484.RGWP.797
+Investigate HuBMAP: HBM488.CHLD.467
+Investigate HuBMAP: HBM488.CHLD.467
+Multiple matches for HBM494.XDQW.356: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM494.XDQW.356.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM494.XDQW.356.csv
+Investigate HuBMAP: HBM495.KSXC.638
+Investigate HuBMAP: HBM495.KSXC.638
+Investigate HuBMAP: HBM497.CLTM.836
+Investigate HuBMAP: HBM497.CLTM.836
+Investigate HuBMAP: HBM497.PXNT.336
+Investigate HuBMAP: HBM522.LXLF.753
+Investigate HuBMAP: HBM522.LXLF.753
+Investigate HuBMAP: HBM523.FKWF.269
+Investigate HuBMAP: HBM523.FKWF.269
+Investigate HuBMAP: HBM526.DLPZ.745
+Investigate HuBMAP: HBM526.VJKT.388
+Investigate HuBMAP: HBM527.PTXH.326
+Investigate HuBMAP: HBM529.FCZC.473
+Investigate HuBMAP: HBM529.FCZC.473
+Investigate HuBMAP: HBM532.DJRB.464
+Investigate HuBMAP: HBM532.DJRB.464
+Investigate HuBMAP: HBM532.ZJRQ.263
+Investigate HuBMAP: HBM534.JVTN.478
+Investigate HuBMAP: HBM534.JVTN.478
+Investigate HuBMAP: HBM534.ZLFK.677
+Investigate HuBMAP: HBM534.ZLFK.677
+Investigate HuBMAP: HBM535.XQDS.238
+Investigate HuBMAP: HBM535.XQDS.238
+Investigate HuBMAP: HBM537.DFBM.458
+Investigate HuBMAP: HBM539.HMRR.435
+Investigate HuBMAP: HBM539.MKQD.956
+Investigate HuBMAP: HBM542.DVXG.466
+Investigate HuBMAP: HBM542.DVXG.466
+Investigate HuBMAP: HBM545.PQSZ.997
+Investigate HuBMAP: HBM545.PQSZ.997
+Investigate HuBMAP: HBM545.VTQM.594
+Investigate HuBMAP: HBM545.VTQM.594
+Investigate HuBMAP: HBM546.BXZQ.832
+Investigate HuBMAP: HBM548.WNVT.322
+Investigate HuBMAP: HBM548.WNVT.322
+Investigate HuBMAP: HBM549.VSNH.445
+Investigate HuBMAP: HBM549.VSNH.445
+Investigate HuBMAP: HBM553.MNTQ.265
+Investigate HuBMAP: HBM557.KNTT.394
+Investigate HuBMAP: HBM558.LPPJ.448
+Investigate HuBMAP: HBM558.PDRD.879
+Investigate HuBMAP: HBM558.PDRD.879
+Investigate HuBMAP: HBM562.WZFC.994
+Investigate HuBMAP: HBM562.WZFC.994
+Investigate HuBMAP: HBM564.SLKN.287
+Investigate HuBMAP: HBM564.SLKN.287
+Investigate HuBMAP: HBM565.SQDP.934
+Investigate HuBMAP: HBM572.JLDL.664
+Investigate HuBMAP: HBM572.JLDL.664
+Investigate HuBMAP: HBM572.QTTV.726
+Investigate HuBMAP: HBM572.RHTB.758
+Investigate HuBMAP: HBM572.RHTB.758
+Multiple matches for HBM575.THQM.284: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM575.THQM.284.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM575.THQM.284.csv
+Multiple matches for HBM575.THQM.284: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM575.THQM.284.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM575.THQM.284.csv
+Investigate HuBMAP: HBM575.XFCT.276
+Investigate HuBMAP: HBM575.XFCT.276
+Investigate HuBMAP: HBM577.RMGR.698
+Investigate HuBMAP: HBM577.RMGR.698
+Investigate HuBMAP: HBM578.ZCCJ.565
+Investigate HuBMAP: HBM582.WWWJ.738
+Investigate HuBMAP: HBM584.CZDB.483
+Investigate HuBMAP: HBM584.ZTDX.845
+Investigate HuBMAP: HBM584.ZTDX.845
+Investigate HuBMAP: HBM585.GLSD.853
+Investigate HuBMAP: HBM587.JPLF.798
+Investigate HuBMAP: HBM587.JPLF.798
+Multiple matches for HBM592.JGSQ.253: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM592.JGSQ.253.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM592.JGSQ.253.csv
+Investigate HuBMAP: HBM595.LMVW.678
+Investigate HuBMAP: HBM595.WPQX.592
+Investigate HuBMAP: HBM599.RZJF.272
+Multiple matches for HBM622.STKS.394: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM622.STKS.394.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM622.STKS.394.csv
+Multiple matches for HBM622.STKS.394: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM622.STKS.394.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM622.STKS.394.csv
+Investigate HuBMAP: HBM625.MGXD.586
+Investigate HuBMAP: HBM625.PTSS.252
+Investigate HuBMAP: HBM625.SPXT.635
+Investigate HuBMAP: HBM625.SPXT.635
+Investigate HuBMAP: HBM627.DPFC.876
+Investigate HuBMAP: HBM627.DPFC.876
+Investigate HuBMAP: HBM628.GRHB.867
+Investigate HuBMAP: HBM628.GRHB.867
+Investigate HuBMAP: HBM633.FDZW.772
+Investigate HuBMAP: HBM635.DQXB.362
+Investigate HuBMAP: HBM643.BCQL.723
+Investigate HuBMAP: HBM644.GBKD.967
+Investigate HuBMAP: HBM644.GBKD.967
+Investigate HuBMAP: HBM645.XLLN.924
+Investigate HuBMAP: HBM647.DLVS.872
+Investigate HuBMAP: HBM652.PVGF.835
+Investigate HuBMAP: HBM654.PWCJ.763
+Investigate HuBMAP: HBM654.PWCJ.763
+Investigate HuBMAP: HBM656.KZXP.658
+Investigate HuBMAP: HBM656.KZXP.658
+Investigate HuBMAP: HBM657.CDHD.889
+Investigate HuBMAP: HBM658.SBTV.949
+Investigate HuBMAP: HBM659.MPZT.644
+Investigate HuBMAP: HBM659.WFXT.729
+Investigate HuBMAP: HBM659.WFXT.729
+Investigate HuBMAP: HBM664.DZXQ.368
+Investigate HuBMAP: HBM666.CMSP.669
+Multiple matches for HBM666.JCGS.862: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM666.JCGS.862.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM666.JCGS.862.csv
+Multiple matches for HBM666.RBCG.529: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM666.RBCG.529.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM666.RBCG.529.csv
+Multiple matches for HBM666.RBCG.529: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM666.RBCG.529.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM666.RBCG.529.csv
+Investigate HuBMAP: HBM667.ZCQC.777
+Investigate HuBMAP: HBM668.RQWZ.595
+Investigate HuBMAP: HBM672.FKLN.936
+Investigate HuBMAP: HBM672.FKLN.936
+Investigate HuBMAP: HBM672.TRVG.967
+Investigate HuBMAP: HBM673.WGZS.593
+Investigate HuBMAP: HBM673.WGZS.593
+Investigate HuBMAP: HBM674.XQFQ.364
+Multiple matches for HBM676.QVGZ.455: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM676.QVGZ.455.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM676.QVGZ.455.csv
+Multiple matches for HBM676.QVGZ.455: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM676.QVGZ.455.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM676.QVGZ.455.csv
+Investigate HuBMAP: HBM677.TRKR.869
+Investigate HuBMAP: HBM677.TRKR.869
+Investigate HuBMAP: HBM678.FRJC.827
+Investigate HuBMAP: HBM678.FRJC.827
+Investigate HuBMAP: HBM683.DSMM.562
+Investigate HuBMAP: HBM683.DSMM.562
+Multiple matches for HBM683.NRPR.962: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM683.NRPR.962.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM683.NRPR.962.csv
+Multiple matches for HBM683.NRPR.962: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM683.NRPR.962.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM683.NRPR.962.csv
+Investigate HuBMAP: HBM684.LRVL.722
+Investigate HuBMAP: HBM684.LRVL.722
+Investigate HuBMAP: HBM685.TTXB.975
+Investigate HuBMAP: HBM685.XWPB.694
+Investigate HuBMAP: HBM687.DTXP.559
+Investigate HuBMAP: HBM687.FWNC.555
+Investigate HuBMAP: HBM687.FWNC.555
+Multiple matches for HBM687.SJLD.889: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM687.SJLD.889.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM687.SJLD.889.csv
+Multiple matches for HBM687.SJLD.889: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM687.SJLD.889.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM687.SJLD.889.csv
+Investigate HuBMAP: HBM687.SQJV.939
+Investigate HuBMAP: HBM687.SQJV.939
+Investigate HuBMAP: HBM689.QPMR.542
+Investigate HuBMAP: HBM689.QPMR.542
+Investigate HuBMAP: HBM692.WWJD.963
+Investigate HuBMAP: HBM693.ZRQJ.667
+Investigate HuBMAP: HBM694.QMLR.738
+Investigate HuBMAP: HBM694.QMLR.738
+Investigate HuBMAP: HBM694.TNFF.778
+Investigate HuBMAP: HBM694.TNFF.778
+Investigate HuBMAP: HBM695.CKJX.997
+Investigate HuBMAP: HBM695.CKJX.997
+Investigate HuBMAP: HBM695.LDLJ.975
+Investigate HuBMAP: HBM695.LDLJ.975
+Investigate HuBMAP: HBM695.VNZJ.522
+Investigate HuBMAP: HBM695.XTNF.836
+Investigate HuBMAP: HBM695.XTNF.836
+Investigate HuBMAP: HBM696.JXRB.423
+Investigate HuBMAP: HBM697.XSHN.426
+Investigate HuBMAP: HBM699.NGDQ.539
+Investigate HuBMAP: HBM699.NGDQ.539
+Investigate HuBMAP: HBM722.TLKZ.444
+Investigate HuBMAP: HBM723.QMLJ.829
+Investigate HuBMAP: HBM723.QMLJ.829
+Investigate HuBMAP: HBM724.RVJD.893
+Investigate HuBMAP: HBM724.WBBC.362
+Investigate HuBMAP: HBM725.BRBB.566
+Investigate HuBMAP: HBM725.BRBB.566
+Investigate HuBMAP: HBM725.NLKP.539
+Investigate HuBMAP: HBM725.RHWH.487
+Investigate HuBMAP: HBM726.PCFS.696
+Multiple matches for HBM727.DMKG.675: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM727.DMKG.675.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM727.DMKG.675.csv
+Multiple matches for HBM727.DMKG.675: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM727.DMKG.675.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM727.DMKG.675.csv
+Investigate HuBMAP: HBM727.FSWS.736
+Investigate HuBMAP: HBM727.FSWS.736
+Investigate HuBMAP: HBM727.SCWK.547
+Investigate HuBMAP: HBM727.SCWK.547
+Investigate HuBMAP: HBM729.HSHS.983
+Investigate HuBMAP: HBM729.HSHS.983
+Investigate HuBMAP: HBM729.KJWJ.742
+Investigate HuBMAP: HBM729.KJWJ.742
+Investigate HuBMAP: HBM729.TFXC.825
+Investigate HuBMAP: HBM729.TFXC.825
+Multiple matches for HBM729.XTBN.693: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM729.XTBN.693.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM729.XTBN.693.csv
+Multiple matches for HBM729.XTBN.693: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM729.XTBN.693.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM729.XTBN.693.csv
+Multiple matches for HBM732.FZVZ.656: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM732.FZVZ.656.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM732.FZVZ.656.csv
+Investigate HuBMAP: HBM733.GBWP.269
+Investigate HuBMAP: HBM733.GBWP.269
+Investigate HuBMAP: HBM734.DSQM.939
+Investigate HuBMAP: HBM734.DSQM.939
+Investigate HuBMAP: HBM734.NTJP.672
+Investigate HuBMAP: HBM734.NTJP.672
+Investigate HuBMAP: HBM735.LWRH.779
+Investigate HuBMAP: HBM737.WSXM.893
+Multiple matches for HBM739.HCWP.359: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM739.HCWP.359.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM739.HCWP.359.csv
+Multiple matches for HBM739.HCWP.359: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM739.HCWP.359.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM739.HCWP.359.csv
+Investigate HuBMAP: HBM742.GTJJ.334
+Investigate HuBMAP: HBM742.GTJJ.334
+Multiple matches for HBM742.NHHQ.357: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM742.NHHQ.357.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM742.NHHQ.357.csv
+Multiple matches for HBM742.NHHQ.357: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM742.NHHQ.357.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM742.NHHQ.357.csv
+Investigate HuBMAP: HBM744.MBPT.666
+Investigate HuBMAP: HBM744.MBPT.666
+Multiple matches for HBM746.VTDZ.959: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM746.VTDZ.959.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM746.VTDZ.959.csv
+Investigate HuBMAP: HBM746.WTMD.298
+Multiple matches for HBM747.SPWK.779: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM747.SPWK.779.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM747.SPWK.779.csv
+Investigate HuBMAP: HBM747.WJZS.473
+Investigate HuBMAP: HBM754.ZCMB.447
+Investigate HuBMAP: HBM756.GKKR.272
+Investigate HuBMAP: HBM756.GKKR.272
+Investigate HuBMAP: HBM756.GZSH.268
+Investigate HuBMAP: HBM756.GZSH.268
+Investigate HuBMAP: HBM757.DZKS.993
+Investigate HuBMAP: HBM757.RLFF.943
+Investigate HuBMAP: HBM759.FHWP.826
+Investigate HuBMAP: HBM759.FHWP.826
+Investigate HuBMAP: HBM759.ZKDS.894
+Investigate HuBMAP: HBM759.ZKDS.894
+Investigate HuBMAP: HBM766.PSCS.545
+Investigate HuBMAP: HBM766.PSCS.545
+Investigate HuBMAP: HBM769.BDBL.437
+Investigate HuBMAP: HBM769.JMPX.755
+Investigate HuBMAP: HBM769.NLGR.528
+Investigate HuBMAP: HBM769.NLGR.528
+Investigate HuBMAP: HBM774.HGLF.449
+Investigate HuBMAP: HBM774.HGLF.449
+Investigate HuBMAP: HBM775.HGSK.536
+Investigate HuBMAP: HBM775.HGSK.536
+Investigate HuBMAP: HBM775.JPHP.327
+Investigate HuBMAP: HBM775.RVQX.376
+Investigate HuBMAP: HBM775.RVQX.376
+Investigate HuBMAP: HBM777.SVZT.454
+Investigate HuBMAP: HBM777.SVZT.454
+Multiple matches for HBM785.FJVT.469: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM785.FJVT.469.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM785.FJVT.469.csv
+Multiple matches for HBM785.FJVT.469: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM785.FJVT.469.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM785.FJVT.469.csv
+Investigate HuBMAP: HBM788.MQNJ.698
+Investigate HuBMAP: HBM788.QGNW.253
+Investigate HuBMAP: HBM788.XLZL.369
+Investigate HuBMAP: HBM788.XWPV.347
+Investigate HuBMAP: HBM788.XWPV.347
+Investigate HuBMAP: HBM789.LTKV.978
+Investigate HuBMAP: HBM789.LTKV.978
+Multiple matches for HBM792.FFJT.499: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM792.FFJT.499.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM792.FFJT.499.csv
+Multiple matches for HBM792.FFJT.499: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM792.FFJT.499.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM792.FFJT.499.csv
+Investigate HuBMAP: HBM793.TLPP.486
+Investigate HuBMAP: HBM793.TLPP.486
+Investigate HuBMAP: HBM793.VKVL.982
+Investigate HuBMAP: HBM793.VKVL.982
+Investigate HuBMAP: HBM794.ZFKH.622
+Investigate HuBMAP: HBM794.ZFKH.622
+Investigate HuBMAP: HBM795.MGKN.398
+Investigate HuBMAP: HBM795.MGKN.398
+Investigate HuBMAP: HBM822.JFNB.664
+Investigate HuBMAP: HBM822.JFXK.683
+Investigate HuBMAP: HBM824.TJWT.294
+Investigate HuBMAP: HBM824.TJWT.294
+Investigate HuBMAP: HBM826.RGXW.276
+Investigate HuBMAP: HBM826.RGXW.276
+Investigate HuBMAP: HBM827.NQQL.854
+Investigate HuBMAP: HBM829.SBHZ.553
+Investigate HuBMAP: HBM832.BXFF.523
+Investigate HuBMAP: HBM832.NNJW.954
+Investigate HuBMAP: HBM832.NNJW.954
+Investigate HuBMAP: HBM833.HFSG.364
+Investigate HuBMAP: HBM833.HFSG.364
+Investigate HuBMAP: HBM834.MLPZ.788
+Investigate HuBMAP: HBM834.MLPZ.788
+Investigate HuBMAP: HBM834.TDFD.294
+Investigate HuBMAP: HBM834.TDFD.294
+Investigate HuBMAP: HBM835.CLRW.587
+Investigate HuBMAP: HBM835.CLRW.587
+Investigate HuBMAP: HBM836.FPBQ.686
+Investigate HuBMAP: HBM836.FPBQ.686
+Investigate HuBMAP: HBM836.SCTK.396
+Investigate HuBMAP: HBM836.SCTK.396
+Investigate HuBMAP: HBM837.RZPL.332
+Investigate HuBMAP: HBM837.RZPL.332
+Investigate HuBMAP: HBM843.CSNH.793
+Investigate HuBMAP: HBM843.CSNH.793
+Multiple matches for HBM845.VMSZ.536: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM845.VMSZ.536.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM845.VMSZ.536.csv
+Multiple matches for HBM845.VMSZ.536: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM845.VMSZ.536.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM845.VMSZ.536.csv
+Investigate HuBMAP: HBM846.GQRK.362
+Investigate HuBMAP: HBM846.GRKM.842
+Investigate HuBMAP: HBM846.GRKM.842
+Investigate HuBMAP: HBM846.NMQR.693
+Investigate HuBMAP: HBM846.WXJK.587
+Investigate HuBMAP: HBM846.WXJK.587
+Investigate HuBMAP: HBM848.DKKR.789
+Investigate HuBMAP: HBM848.DKKR.789
+Investigate HuBMAP: HBM849.TWBF.722
+Investigate HuBMAP: HBM852.VSBC.572
+Investigate HuBMAP: HBM852.VSBC.572
+Investigate HuBMAP: HBM853.GWTP.895
+Investigate HuBMAP: HBM853.GWTP.895
+Investigate HuBMAP: HBM853.XQFP.642
+Investigate HuBMAP: HBM854.GCMW.458
+Investigate HuBMAP: HBM854.GCMW.458
+Investigate HuBMAP: HBM854.LQKL.226
+Investigate HuBMAP: HBM854.LQKL.226
+Investigate HuBMAP: HBM854.RHXP.454
+Investigate HuBMAP: HBM854.RHXP.454
+Investigate HuBMAP: HBM858.GRJH.249
+Investigate HuBMAP: HBM864.XMFH.374
+Investigate HuBMAP: HBM864.XMFH.374
+Investigate HuBMAP: HBM865.KZMC.828
+Investigate HuBMAP: HBM865.TDWR.975
+Investigate HuBMAP: HBM865.TDWR.975
+Investigate HuBMAP: HBM867.NMXL.794
+Investigate HuBMAP: HBM867.PPLJ.336
+Investigate HuBMAP: HBM867.PPLJ.336
+Investigate HuBMAP: HBM867.XBWD.535
+Investigate HuBMAP: HBM868.LXZT.893
+Investigate HuBMAP: HBM868.NFSS.536
+Investigate HuBMAP: HBM869.PRSW.424
+Investigate HuBMAP: HBM869.ZBCZ.787
+Investigate HuBMAP: HBM872.JGDD.956
+Investigate HuBMAP: HBM874.DVHQ.638
+Multiple matches for HBM875.SBHJ.939: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM875.SBHJ.939.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM875.SBHJ.939.csv
+Investigate HuBMAP: HBM876.KWMX.349
+Investigate HuBMAP: HBM876.KWMX.349
+Investigate HuBMAP: HBM877.XCMK.247
+Investigate HuBMAP: HBM878.HZJK.366
+Investigate HuBMAP: HBM878.HZJK.366
+Investigate HuBMAP: HBM879.KGML.575
+Investigate HuBMAP: HBM879.NCTL.468
+Investigate HuBMAP: HBM879.NCTL.468
+Investigate HuBMAP: HBM882.KDTH.685
+Investigate HuBMAP: HBM882.KDTH.685
+Investigate HuBMAP: HBM882.NBFK.489
+Investigate HuBMAP: HBM882.NBFK.489
+Investigate HuBMAP: HBM882.XFHR.889
+Investigate HuBMAP: HBM883.JFLX.939
+Investigate HuBMAP: HBM883.SPLD.238
+Investigate HuBMAP: HBM886.SLWK.262
+Investigate HuBMAP: HBM886.SLWK.262
+Investigate HuBMAP: HBM886.ZXXN.298
+Investigate HuBMAP: HBM886.ZXXN.298
+Investigate HuBMAP: HBM889.BXPN.494
+Multiple matches for HBM893.MCGS.487: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM893.MCGS.487.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM893.MCGS.487.csv
+Multiple matches for HBM893.MCGS.487: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM893.MCGS.487.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM893.MCGS.487.csv
+Investigate HuBMAP: HBM894.GVBP.649
+Investigate HuBMAP: HBM894.GVBP.649
+Investigate HuBMAP: HBM894.MNHL.259
+Investigate HuBMAP: HBM894.MNHL.259
+Investigate HuBMAP: HBM894.VJNM.258
+Investigate HuBMAP: HBM897.WVVR.437
+Multiple matches for HBM899.KTQM.246: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM899.KTQM.246.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM899.KTQM.246.csv
+Multiple matches for HBM899.KTQM.246: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM899.KTQM.246.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM899.KTQM.246.csv
+Investigate HuBMAP: HBM922.KSKR.637
+Investigate HuBMAP: HBM922.KSKR.637
+Investigate HuBMAP: HBM923.TSCD.525
+Investigate HuBMAP: HBM923.TSCD.525
+Investigate HuBMAP: HBM924.DSPX.449
+Investigate HuBMAP: HBM927.HHFD.265
+Investigate HuBMAP: HBM927.ZWBG.769
+Multiple matches for HBM934.KLGL.584: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM934.KLGL.584.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM934.KLGL.584.csv
+Multiple matches for HBM934.KLGL.584: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM934.KLGL.584.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM934.KLGL.584.csv
+Investigate HuBMAP: HBM935.CNXT.255
+Investigate HuBMAP: HBM935.KGJC.468
+Investigate HuBMAP: HBM935.KGJC.468
+Investigate HuBMAP: HBM938.FTBC.347
+Investigate HuBMAP: HBM938.FTBC.347
+Multiple matches for HBM938.KMNW.825: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM938.KMNW.825.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM938.KMNW.825.csv
+Multiple matches for HBM938.KMNW.825: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM938.KMNW.825.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM938.KMNW.825.csv
+Investigate HuBMAP: HBM939.CNSV.893
+Investigate HuBMAP: HBM939.CNSV.893
+Investigate HuBMAP: HBM943.VFSK.297
+Multiple matches for HBM945.FSHR.864: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM945.FSHR.864.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM945.FSHR.864.csv
+Multiple matches for HBM945.FSHR.864: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM945.FSHR.864.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM945.FSHR.864.csv
+Investigate HuBMAP: HBM945.QNRF.244
+Investigate HuBMAP: HBM945.QNRF.244
+Investigate HuBMAP: HBM947.CZPX.727
+Investigate HuBMAP: HBM948.WLJK.772
+Investigate HuBMAP: HBM953.CTWH.676
+Investigate HuBMAP: HBM953.HGVS.696
+Investigate HuBMAP: HBM953.HGVS.696
+Multiple matches for HBM953.KMTG.758: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM953.KMTG.758.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM953.KMTG.758.csv
+Multiple matches for HBM953.KMTG.758: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM953.KMTG.758.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM953.KMTG.758.csv
+Investigate HuBMAP: HBM953.TJCF.553
+Investigate HuBMAP: HBM954.SDMK.786
+Investigate HuBMAP: HBM955.DXVQ.765
+Investigate HuBMAP: HBM955.DXVQ.765
+Investigate HuBMAP: HBM959.QMBB.765
+Investigate HuBMAP: HBM959.QMBB.765
+Investigate HuBMAP: HBM959.XNWL.627
+Investigate HuBMAP: HBM959.XNWL.627
+Multiple matches for HBM964.FPNH.767: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM964.FPNH.767.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM964.FPNH.767.csv
+Multiple matches for HBM964.FPNH.767: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM964.FPNH.767.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM964.FPNH.767.csv
+Investigate HuBMAP: HBM965.GWBH.574
+Investigate HuBMAP: HBM965.QHWZ.774
+Investigate HuBMAP: HBM968.ZDMZ.598
+Investigate HuBMAP: HBM968.ZDMZ.598
+Investigate HuBMAP: HBM969.BTXF.384
+Investigate HuBMAP: HBM969.BTXF.384
+Investigate HuBMAP: HBM969.CJQL.629
+Investigate HuBMAP: HBM972.JCHH.759
+Investigate HuBMAP: HBM972.VRNF.956
+Investigate HuBMAP: HBM973.ZVNB.886
+Investigate HuBMAP: HBM973.ZVNB.886
+Investigate HuBMAP: HBM974.PPST.239
+Investigate HuBMAP: HBM974.PPST.239
+Multiple matches for HBM975.FVCG.922: 
+	hra-ct-summaries-mx-spatial-data/skin_omap_4_0001/cell_type_counts/HBM975.FVCG.922.csv
+	tissue-bar-graphs/csv/Skin_Soumya_et_al__paper/HBM975.FVCG.922.csv
+Investigate HuBMAP: HBM975.WHWM.552
+Investigate HuBMAP: HBM975.WHWM.552
+Investigate HuBMAP: HBM976.DMLB.994
+Investigate HuBMAP: HBM976.DMLB.994
+Investigate HuBMAP: HBM976.HHFR.523
+Investigate HuBMAP: HBM978.FKRF.535
+Investigate HuBMAP: HBM978.FKRF.535
+Investigate HuBMAP: HBM979.DJZW.835
+Investigate HuBMAP: HBM982.TTRB.258
+Investigate HuBMAP: HBM982.TTRB.258
+Investigate HuBMAP: HBM983.FSQV.436
+Investigate HuBMAP: HBM983.QHFB.659
+Investigate HuBMAP: HBM983.QHFB.659
+Investigate HuBMAP: HBM984.LZDJ.635
+Investigate HuBMAP: HBM984.LZDJ.635
+Investigate HuBMAP: HBM985.TJZD.778
+Investigate HuBMAP: HBM985.TJZD.778
+Investigate HuBMAP: HBM986.QDZS.837
+Investigate HuBMAP: HBM993.ZZWK.542
+Multiple matches for HBM996.MDQH.988: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM996.MDQH.988.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM996.MDQH.988.csv
+Multiple matches for HBM996.MDQH.988: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM996.MDQH.988.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM996.MDQH.988.csv
+Investigate HuBMAP: HBM999.CXFH.954
+Investigate CxG: f909b36b-fb4e-463e-a1f8-53fc39519c9f_T110POS_Small_Intestine
+Investigate CxG: f909b36b-fb4e-463e-a1f8-53fc39519c9f_T161_Small_Intestine
+Investigate CxG: f909b36b-fb4e-463e-a1f8-53fc39519c9f_T036_Small_Intestine
+Investigate CxG: f909b36b-fb4e-463e-a1f8-53fc39519c9f_T182_Small_Intestine
+Investigate CxG: f909b36b-fb4e-463e-a1f8-53fc39519c9f_T024_Small_Intestine
+Investigate CxG: f909b36b-fb4e-463e-a1f8-53fc39519c9f_T44_Small_Intestine
+Investigate CxG: f909b36b-fb4e-463e-a1f8-53fc39519c9f_T057_Small_Intestine
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F29_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F30_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F30_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F30_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F29_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F69_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F38_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F23_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F23_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F51_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F45_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F22_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F23_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F22_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F50_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F22_Spleen
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F38_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F21_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F21_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F21_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F21_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F38_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F51_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F45_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F45_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F23_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F51_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F50_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F45_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F51_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F22_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F50_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F50_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F29_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F69_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F69_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F69_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F30_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F29_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F69_Spleen
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F69_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F30_Spleen
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F51_Spleen
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F45_Spleen
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F50_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F21_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F23_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F45_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F51_Spleen
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F38_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F50_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F22_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F51_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F45_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F23_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F38_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F38_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F38_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F22_Spleen
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F21_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F50_Spleen
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F23_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F21_Spleen
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F22_Spleen
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F30_Spleen
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F29_Spleen
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F29_Spleen
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F29_Spleen
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F30_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F69_Spleen
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F64_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F29_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F30_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F30_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F30_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F67_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F29_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F32_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F32_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F32_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F41_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F38_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F23_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F23_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F45_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F22_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F23_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F22_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F38_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F21_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F21_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F21_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F21_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F38_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F45_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F45_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F23_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F45_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F22_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F29_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F67_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F64_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F32_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F41_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F41_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F41_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F64_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F67_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F30_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F32_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F67_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F29_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F67_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F67_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F41_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F64_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F64_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F64_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F41_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F30_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F45_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F21_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F23_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F45_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F38_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F22_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F45_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F23_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F38_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F38_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F38_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F22_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F21_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F23_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F21_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F22_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F32_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F64_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F30_Thymus
+Investigate CxG: 21f3b713-cbdb-4a73-a39b-a204dd740b46_F32_Thymus
+Investigate CxG: c1e3286f-7303-4bee-9f52-ca1528e1c4f0_F29_Thymus
+Investigate CxG: af4ff68b-1dfc-475f-aa93-c07bf4625e87_F67_Thymus
+Investigate CxG: e927e58f-e1df-4dcd-9902-aff180105041_F29_Thymus
+Investigate CxG: 1065a272-15ce-4d92-a168-200903e7e6d5_F29_Thymus
+Investigate CxG: c64ef2bc-3830-4fea-b8af-3ca86269c245_F30_Thymus
+Investigate CxG: 06134484-e17f-4b5d-989f-e00c4484701b_F41_Thymus
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate SenNet: SNT933.NCMX.273
+Investigate SenNet: SNT476.SJKS.855
+Multiple matches for HBM573.TTLG.748: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM573.TTLG.748.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM573.TTLG.748.csv
+Multiple matches for HBM573.TTLG.748: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM573.TTLG.748.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM573.TTLG.748.csv
+Multiple matches for HBM295.SWJJ.888: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM295.SWJJ.888.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM295.SWJJ.888.csv
+Multiple matches for HBM295.SWJJ.888: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM295.SWJJ.888.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM295.SWJJ.888.csv
+Multiple matches for HBM865.VDXC.862: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM865.VDXC.862.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM865.VDXC.862.csv
+Multiple matches for HBM865.VDXC.862: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM865.VDXC.862.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM865.VDXC.862.csv
+Multiple matches for HBM288.BBKK.828: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM288.BBKK.828.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM288.BBKK.828.csv
+Multiple matches for HBM288.BBKK.828: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM288.BBKK.828.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM288.BBKK.828.csv
+Multiple matches for HBM565.LSMX.645: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM565.LSMX.645.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM565.LSMX.645.csv
+Multiple matches for HBM565.LSMX.645: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM565.LSMX.645.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM565.LSMX.645.csv
+Multiple matches for HBM832.ZSQJ.442: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM832.ZSQJ.442.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM832.ZSQJ.442.csv
+Multiple matches for HBM832.ZSQJ.442: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM832.ZSQJ.442.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM832.ZSQJ.442.csv
+Multiple matches for HBM363.CKHC.928: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM363.CKHC.928.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM363.CKHC.928.csv
+Multiple matches for HBM363.CKHC.928: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM363.CKHC.928.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM363.CKHC.928.csv
+Multiple matches for HBM974.CNWK.327: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM974.CNWK.327.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM974.CNWK.327.csv
+Multiple matches for HBM974.CNWK.327: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM974.CNWK.327.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM974.CNWK.327.csv
+Multiple matches for HBM242.LSCK.393: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM242.LSCK.393.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM242.LSCK.393.csv
+Multiple matches for HBM242.LSCK.393: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM242.LSCK.393.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM242.LSCK.393.csv
+Multiple matches for HBM852.NKST.623: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM852.NKST.623.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM852.NKST.623.csv
+Multiple matches for HBM852.NKST.623: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM852.NKST.623.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM852.NKST.623.csv
+Multiple matches for HBM627.KDHD.293: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM627.KDHD.293.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM627.KDHD.293.csv
+Multiple matches for HBM627.KDHD.293: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM627.KDHD.293.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM627.KDHD.293.csv
+Multiple matches for HBM235.VKNJ.237: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM235.VKNJ.237.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM235.VKNJ.237.csv
+Multiple matches for HBM235.VKNJ.237: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM235.VKNJ.237.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM235.VKNJ.237.csv
+Multiple matches for HBM626.VJMB.795: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM626.VJMB.795.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM626.VJMB.795.csv
+Multiple matches for HBM626.VJMB.795: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM626.VJMB.795.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM626.VJMB.795.csv
+Multiple matches for HBM827.SJBP.777: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM827.SJBP.777.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM827.SJBP.777.csv
+Multiple matches for HBM827.SJBP.777: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM827.SJBP.777.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM827.SJBP.777.csv
+Multiple matches for HBM395.NQKF.566: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM395.NQKF.566.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM395.NQKF.566.csv
+Multiple matches for HBM395.NQKF.566: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM395.NQKF.566.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM395.NQKF.566.csv
+Multiple matches for HBM569.NBHZ.832: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM569.NBHZ.832.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM569.NBHZ.832.csv
+Multiple matches for HBM569.NBHZ.832: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM569.NBHZ.832.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM569.NBHZ.832.csv
+Multiple matches for HBM297.MZZX.824: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM297.MZZX.824.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM297.MZZX.824.csv
+Multiple matches for HBM297.MZZX.824: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM297.MZZX.824.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM297.MZZX.824.csv
+Multiple matches for HBM823.RJNG.364: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM823.RJNG.364.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM823.RJNG.364.csv
+Multiple matches for HBM823.RJNG.364: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM823.RJNG.364.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM823.RJNG.364.csv
+Multiple matches for HBM447.MNKW.592: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM447.MNKW.592.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM447.MNKW.592.csv
+Multiple matches for HBM447.MNKW.592: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM447.MNKW.592.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM447.MNKW.592.csv
+Multiple matches for HBM488.CNNZ.544: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM488.CNNZ.544.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM488.CNNZ.544.csv
+Multiple matches for HBM488.CNNZ.544: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM488.CNNZ.544.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM488.CNNZ.544.csv
+Multiple matches for HBM238.GTNW.259: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM238.GTNW.259.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM238.GTNW.259.csv
+Multiple matches for HBM238.GTNW.259: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM238.GTNW.259.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM238.GTNW.259.csv
+Multiple matches for HBM666.NDQZ.365: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM666.NDQZ.365.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM666.NDQZ.365.csv
+Multiple matches for HBM666.NDQZ.365: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM666.NDQZ.365.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM666.NDQZ.365.csv
+Multiple matches for HBM285.VFDT.966: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM285.VFDT.966.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM285.VFDT.966.csv
+Multiple matches for HBM285.VFDT.966: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM285.VFDT.966.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM285.VFDT.966.csv
+Multiple matches for HBM772.TKCN.287: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM772.TKCN.287.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM772.TKCN.287.csv
+Multiple matches for HBM772.TKCN.287: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM772.TKCN.287.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM772.TKCN.287.csv
+Multiple matches for HBM465.ZNVW.226: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM465.ZNVW.226.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM465.ZNVW.226.csv
+Multiple matches for HBM465.ZNVW.226: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM465.ZNVW.226.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM465.ZNVW.226.csv
+Multiple matches for HBM824.XGWZ.857: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM824.XGWZ.857.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM824.XGWZ.857.csv
+Multiple matches for HBM824.XGWZ.857: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM824.XGWZ.857.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM824.XGWZ.857.csv
+Multiple matches for HBM363.LLBL.252: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM363.LLBL.252.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM363.LLBL.252.csv
+Multiple matches for HBM363.LLBL.252: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM363.LLBL.252.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM363.LLBL.252.csv
+Multiple matches for HBM679.NNNK.283: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM679.NNNK.283.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM679.NNNK.283.csv
+Multiple matches for HBM679.NNNK.283: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM679.NNNK.283.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM679.NNNK.283.csv
+Multiple matches for HBM535.QNTP.246: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM535.QNTP.246.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM535.QNTP.246.csv
+Multiple matches for HBM535.QNTP.246: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM535.QNTP.246.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM535.QNTP.246.csv
+Multiple matches for HBM749.SMWP.555: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM749.SMWP.555.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM749.SMWP.555.csv
+Multiple matches for HBM749.SMWP.555: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM749.SMWP.555.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM749.SMWP.555.csv
+Multiple matches for HBM573.SWGH.988: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM573.SWGH.988.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM573.SWGH.988.csv
+Multiple matches for HBM573.SWGH.988: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM573.SWGH.988.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM573.SWGH.988.csv
+Multiple matches for HBM473.QGDG.848: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM473.QGDG.848.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM473.QGDG.848.csv
+Multiple matches for HBM473.QGDG.848: 
+	hra-ct-summaries-mx-spatial-data/intestine_omap_2_0001/cell_type_counts/HBM473.QGDG.848.csv
+	tissue-bar-graphs/csv/Intestine_Hickey_Omap/HBM473.QGDG.848.csv
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_A30_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049045_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049051_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049050_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049044_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049046_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049047_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049043_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049042_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049049_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_SAMN15049048_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_A13_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_E3_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_E2_Uterus
+Investigate CxG: 69223a49-0831-473f-983c-6eb7f02c99bc_E1_Uterus
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 0b504a72-9d51-43f1-ae63-b880ac307bc5_TSP14_Submandibular_Gland
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: cb635072-54ba-4a65-bc87-a686688e6235_D3_Thymus
+Investigate CxG: cb635072-54ba-4a65-bc87-a686688e6235_D2_Thymus
+Investigate CxG: cb635072-54ba-4a65-bc87-a686688e6235_D1_Thymus
+Investigate CxG: cb635072-54ba-4a65-bc87-a686688e6235_ML_F_Thymus
+Investigate CxG: cb635072-54ba-4a65-bc87-a686688e6235_ML_E_Thymus
+Investigate CxG: 
+Investigate CxG: e0102be9-1756-46a9-aed1-4b2f03aade3c_325C_Spleen
+Investigate CxG: e0102be9-1756-46a9-aed1-4b2f03aade3c_302C_Spleen
+Investigate CxG: e0102be9-1756-46a9-aed1-4b2f03aade3c_284C_Spleen
+Investigate CxG: e0102be9-1756-46a9-aed1-4b2f03aade3c_356C_Spleen
+Investigate CxG: e0102be9-1756-46a9-aed1-4b2f03aade3c_337C_Spleen
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_ABN_Small_Intestine
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_AAU_Small_Intestine
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_AAT_Small_Intestine
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_ABM_Small_Intestine
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_ABZ_Small_Intestine
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_ABI_Small_Intestine
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_ABK_Small_Intestine
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_ACB_Small_Intestine
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_ABF_Small_Intestine
+Investigate CxG: d170ff04-6da0-4156-a719-f8e1bbefbf53_Fetal%206_7_8_9_Small_Intestine
+Investigate CxG: 1e7713ad-b371-465a-acd8-6959c8ea905f_ABV_Small_Intestine
+Investigate CxG: e897a612-f8ec-4e5b-a620-28c2b701d787_Fetal%206_7_8_9_Small_Intestine
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 2993616d-12b8-477a-b8dd-3c9415d92119_2049_Small_Intestine
+Investigate CxG: 2993616d-12b8-477a-b8dd-3c9415d92119_2029_Small_Intestine
+Investigate CxG: 2993616d-12b8-477a-b8dd-3c9415d92119_2026_Small_Intestine
+Investigate CxG: 2993616d-12b8-477a-b8dd-3c9415d92119_2043_Small_Intestine
+Investigate CxG: 2993616d-12b8-477a-b8dd-3c9415d92119_2134_Small_Intestine
+Investigate CxG: 2993616d-12b8-477a-b8dd-3c9415d92119_2121_Small_Intestine
+Investigate CxG: 2993616d-12b8-477a-b8dd-3c9415d92119_2119_Small_Intestine
+Investigate CxG: 2993616d-12b8-477a-b8dd-3c9415d92119_2046_Small_Intestine
+Investigate CxG: 2993616d-12b8-477a-b8dd-3c9415d92119_2133_Small_Intestine
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor34_Small_Intestine
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor25_Small_Intestine
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor30_Uterus
+Investigate CxG: 
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor25_Urinary_Bladder
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor26_Urinary_Bladder
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor33_Urinary_Bladder
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor17_Stomach
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor11_Stomach
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor51_Stomach
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor50_Stomach
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor31_Stomach
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor49_Spleen
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor10_Thymus
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor20_Thymus
+Investigate CxG: 998d8dbd-2f42-4611-9973-2da95db46c29_Donor18_Thymus
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate Azimuth: Azimuth_Motor_Cortex_cluster
+Investigate Azimuth: Azimuth_Motor_Cortex_class
+Investigate Azimuth: Azimuth_Motor_Cortex_cross_species_cluster
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block1
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block2
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block3
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block4
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block5
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block6
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block7
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block8
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block9
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block10
+Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block11
+Investigate Azimuth: Azimuth_Motor_Cortex_subclass
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_C41_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_A43_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F30_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_C40_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F23_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F22_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F21_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_T07_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_T06_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F45_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_C34_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F83_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F41_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_T03_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F67_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_P1_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F64_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_A16_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_P2_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_P3_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F74_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F38_Thymus
+Investigate CxG: bb42b6c1-9e2e-403a-9409-3ad28d72609d_F29_Thymus
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27870_Stomach
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27876_Stomach
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27948_Stomach
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27909_Stomach
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27634_Spleen
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27431_Spleen
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27552_Spleen
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H26350_Spleen
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27472_Spleen
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H26547_Spleen
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27471_Spleen
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27464_Spleen
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27634_Thymus
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27423_Thymus
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27431_Thymus
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27552_Thymus
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H26547_Thymus
+Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27471_Thymus
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock1
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock2
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock3
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock4
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock5
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock6
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock7
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock8
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock9
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock10
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock11
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock12
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock13
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock14
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock15
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock16
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock17
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock18
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock19
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock20
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock21
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock22
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock23
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock24
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock25
+Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock26
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block1
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block2
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block3
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block4
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block5
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block6
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block7
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block8
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block9
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block10
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block11
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block12
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block13
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block14
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block15
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block16
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block17
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block18
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block19
+Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block20
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A29_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_D496_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_582C_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_D503_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A35_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A37_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A36_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_640C_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_637C_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A31_Small_Intestine
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A29_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_D496_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_582C_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_D503_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A52_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A35_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A37_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A36_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_640C_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_637C_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A31_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_621B_Thoracic_Lymph_Node
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A29_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_D496_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_582C_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_D503_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A52_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A35_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A37_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A36_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_640C_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_637C_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A31_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_621B_Spleen
+Investigate CxG: ea349887-1948-4e42-aa14-9d4311cb73ae_A31_Thymus
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate KPMP-IU/OSU: !http://dx.doi.org/10.1681/ASN.2016091027#TissueBlockB
+Investigate KPMP-IU/OSU: !http://dx.doi.org/10.1681/ASN.2016091027#TissueBlockA
+Investigate KPMP-IU/OSU: !http://dx.doi.org/10.1016/j.trsl.2017.07.006#TissueBlock
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+Investigate CxG: 
+There was some problem saving out at least one dataset. Saved: 2949 Expected: 4226
+
+> ctpop-data-processor@1.0.0 generate:collisions
+> node ./src/gen-collisions.js
+
+66 RUI locations had more than one collision
+120 RUI locations had one collision
+WARNING 11 RUI locations had zero collisions
+
+> ctpop-data-processor@1.0.0 generate:corridors
+> node ./src/gen-corridors.js
+
+
+> ctpop-data-processor@1.0.0 generate:combined-data
+> node ./src/combine-jsonld.js
+
+
+> ctpop-data-processor@1.0.0 generate:as-cell-summaries
+> node ./src/gen-as-cell-summaries.js
+
+
+> ctpop-data-processor@1.0.0 generate:cell-summary-similarities
+> node ./src/gen-cell-summary-similarities.js
+
+
+> ctpop-data-processor@1.0.0 generate:rui-location-distances
+> node ./src/gen-rui-location-distances.js
+
+
+> ctpop-data-processor@1.0.0 generate:combined-data
+> node ./src/combine-jsonld.js
+
+log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+ERROR: com.bigdata.util.config.LogUtil : Could not initialize Log4J logging utility.
+Set system property '-Dlog4j.configuration=file:bigdata/src/resources/logging/log4j.properties'
+  and / or 
+Set system property '-Dlog4j.primary.configuration=file:<installDir>/bigdata/src/resources/logging/log4j.properties'
+
+BlazeGraph(TM) Graph Engine
+
+                   Flexible
+                   Reliable
+                  Affordable
+      Web-Scale Computing for the Enterprise
+
+Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
+
+bl-sice-g7241f3.ads.iu.edu
+Wed Sep 06 22:16:27 EDT 2023
+Linux/5.15.90.1-microsoft-standard-WSL2 amd64
+11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
+Ubuntu 11.0.18
+freeMemory=1017473720
+buildVersion=2.1.4
+gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
+
+Dependency         License                                                                 
+ICU                http://source.icu-project.org/repos/icu/icu/trunk/license.html          
+bigdata-ganglia    http://www.apache.org/licenses/LICENSE-2.0.html                         
+blueprints-core    https://github.com/tinkerpop/blueprints/blob/master/LICENSE.txt         
+colt               http://acs.lbl.gov/software/colt/license.html                           
+commons-codec      http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-fileupload http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-io         http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-logging    http://www.apache.org/licenses/LICENSE-2.0.html                         
+dsiutils           http://www.gnu.org/licenses/lgpl-2.1.html                               
+fastutil           http://www.apache.org/licenses/LICENSE-2.0.html                         
+flot               http://www.opensource.org/licenses/mit-license.php                      
+high-scale-lib     http://creativecommons.org/licenses/publicdomain                        
+httpclient         http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpclient-cache   http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpcore           http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpmime           http://www.apache.org/licenses/LICENSE-2.0.html                         
+jackson-core       http://www.apache.org/licenses/LICENSE-2.0.html                         
+jetty              http://www.apache.org/licenses/LICENSE-2.0.html                         
+jquery             https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt            
+jsonld             https://raw.githubusercontent.com/jsonld-java/jsonld-java/master/LICENCE
+log4j              http://www.apache.org/licenses/LICENSE-2.0.html                         
+lucene             http://www.apache.org/licenses/LICENSE-2.0.html                         
+nanohttp           http://elonen.iki.fi/code/nanohttpd/#license                            
+rexster-core       https://github.com/tinkerpop/rexster/blob/master/LICENSE.txt            
+river              http://www.apache.org/licenses/LICENSE-2.0.html                         
+semargl            https://github.com/levkhomich/semargl/blob/master/LICENSE               
+servlet-api        http://www.apache.org/licenses/LICENSE-2.0.html                         
+sesame             http://www.openrdf.org/download.jsp                                     
+slf4j              http://www.slf4j.org/license.html                                       
+zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
+
+Sep 06, 2023 10:16:27 PM org.jline.utils.Log logr
+WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[36m[1m2023.09.06 22:16:27:727[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+    Loading ../data/enriched_rui_locations.ttl[0m
+[36m[1m2023.09.06 22:16:28:821[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    64306 stmts added in 0.781 secs, rate= 82338, commitLatency=240ms, {failSet=0,goodSet=0}[0m
+log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+ERROR: com.bigdata.util.config.LogUtil : Could not initialize Log4J logging utility.
+Set system property '-Dlog4j.configuration=file:bigdata/src/resources/logging/log4j.properties'
+  and / or 
+Set system property '-Dlog4j.primary.configuration=file:<installDir>/bigdata/src/resources/logging/log4j.properties'
+
+BlazeGraph(TM) Graph Engine
+
+                   Flexible
+                   Reliable
+                  Affordable
+      Web-Scale Computing for the Enterprise
+
+Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
+
+bl-sice-g7241f3.ads.iu.edu
+Wed Sep 06 22:16:29 EDT 2023
+Linux/5.15.90.1-microsoft-standard-WSL2 amd64
+11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
+Ubuntu 11.0.18
+freeMemory=1017473624
+buildVersion=2.1.4
+gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
+
+Dependency         License                                                                 
+ICU                http://source.icu-project.org/repos/icu/icu/trunk/license.html          
+bigdata-ganglia    http://www.apache.org/licenses/LICENSE-2.0.html                         
+blueprints-core    https://github.com/tinkerpop/blueprints/blob/master/LICENSE.txt         
+colt               http://acs.lbl.gov/software/colt/license.html                           
+commons-codec      http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-fileupload http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-io         http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-logging    http://www.apache.org/licenses/LICENSE-2.0.html                         
+dsiutils           http://www.gnu.org/licenses/lgpl-2.1.html                               
+fastutil           http://www.apache.org/licenses/LICENSE-2.0.html                         
+flot               http://www.opensource.org/licenses/mit-license.php                      
+high-scale-lib     http://creativecommons.org/licenses/publicdomain                        
+httpclient         http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpclient-cache   http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpcore           http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpmime           http://www.apache.org/licenses/LICENSE-2.0.html                         
+jackson-core       http://www.apache.org/licenses/LICENSE-2.0.html                         
+jetty              http://www.apache.org/licenses/LICENSE-2.0.html                         
+jquery             https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt            
+jsonld             https://raw.githubusercontent.com/jsonld-java/jsonld-java/master/LICENCE
+log4j              http://www.apache.org/licenses/LICENSE-2.0.html                         
+lucene             http://www.apache.org/licenses/LICENSE-2.0.html                         
+nanohttp           http://elonen.iki.fi/code/nanohttpd/#license                            
+rexster-core       https://github.com/tinkerpop/rexster/blob/master/LICENSE.txt            
+river              http://www.apache.org/licenses/LICENSE-2.0.html                         
+semargl            https://github.com/levkhomich/semargl/blob/master/LICENSE               
+servlet-api        http://www.apache.org/licenses/LICENSE-2.0.html                         
+sesame             http://www.openrdf.org/download.jsp                                     
+slf4j              http://www.slf4j.org/license.html                                       
+zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
+
+Sep 06, 2023 10:16:30 PM org.jline.utils.Log logr
+WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[36m[1m2023.09.06 22:16:30:338[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+    Loading ../data/as-cell-summaries.ttl[0m
+[36m[1m2023.09.06 22:16:30:828[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    4787 stmts added in 0.292 secs, rate= 16393, commitLatency=125ms, {failSet=0,goodSet=0}[0m
+log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+ERROR: com.bigdata.util.config.LogUtil : Could not initialize Log4J logging utility.
+Set system property '-Dlog4j.configuration=file:bigdata/src/resources/logging/log4j.properties'
+  and / or 
+Set system property '-Dlog4j.primary.configuration=file:<installDir>/bigdata/src/resources/logging/log4j.properties'
+
+BlazeGraph(TM) Graph Engine
+
+                   Flexible
+                   Reliable
+                  Affordable
+      Web-Scale Computing for the Enterprise
+
+Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
+
+bl-sice-g7241f3.ads.iu.edu
+Wed Sep 06 22:16:36 EDT 2023
+Linux/5.15.90.1-microsoft-standard-WSL2 amd64
+11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
+Ubuntu 11.0.18
+freeMemory=1017473448
+buildVersion=2.1.4
+gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
+
+Dependency         License                                                                 
+ICU                http://source.icu-project.org/repos/icu/icu/trunk/license.html          
+bigdata-ganglia    http://www.apache.org/licenses/LICENSE-2.0.html                         
+blueprints-core    https://github.com/tinkerpop/blueprints/blob/master/LICENSE.txt         
+colt               http://acs.lbl.gov/software/colt/license.html                           
+commons-codec      http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-fileupload http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-io         http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-logging    http://www.apache.org/licenses/LICENSE-2.0.html                         
+dsiutils           http://www.gnu.org/licenses/lgpl-2.1.html                               
+fastutil           http://www.apache.org/licenses/LICENSE-2.0.html                         
+flot               http://www.opensource.org/licenses/mit-license.php                      
+high-scale-lib     http://creativecommons.org/licenses/publicdomain                        
+httpclient         http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpclient-cache   http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpcore           http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpmime           http://www.apache.org/licenses/LICENSE-2.0.html                         
+jackson-core       http://www.apache.org/licenses/LICENSE-2.0.html                         
+jetty              http://www.apache.org/licenses/LICENSE-2.0.html                         
+jquery             https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt            
+jsonld             https://raw.githubusercontent.com/jsonld-java/jsonld-java/master/LICENCE
+log4j              http://www.apache.org/licenses/LICENSE-2.0.html                         
+lucene             http://www.apache.org/licenses/LICENSE-2.0.html                         
+nanohttp           http://elonen.iki.fi/code/nanohttpd/#license                            
+rexster-core       https://github.com/tinkerpop/rexster/blob/master/LICENSE.txt            
+river              http://www.apache.org/licenses/LICENSE-2.0.html                         
+semargl            https://github.com/levkhomich/semargl/blob/master/LICENSE               
+servlet-api        http://www.apache.org/licenses/LICENSE-2.0.html                         
+sesame             http://www.openrdf.org/download.jsp                                     
+slf4j              http://www.slf4j.org/license.html                                       
+zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
+
+Sep 06, 2023 10:16:37 PM org.jline.utils.Log logr
+WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[36m[1m2023.09.06 22:16:37:518[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+    Loading ../data/rui-location-distances.ttl[0m
+[36m[1m2023.09.06 22:16:38:813[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    77224 stmts added in 1.015 secs, rate= 76082, commitLatency=196ms, {failSet=0,goodSet=0}[0m
+log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+ERROR: com.bigdata.util.config.LogUtil : Could not initialize Log4J logging utility.
+Set system property '-Dlog4j.configuration=file:bigdata/src/resources/logging/log4j.properties'
+  and / or 
+Set system property '-Dlog4j.primary.configuration=file:<installDir>/bigdata/src/resources/logging/log4j.properties'
+
+BlazeGraph(TM) Graph Engine
+
+                   Flexible
+                   Reliable
+                  Affordable
+      Web-Scale Computing for the Enterprise
+
+Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
+
+bl-sice-g7241f3.ads.iu.edu
+Wed Sep 06 22:18:59 EDT 2023
+Linux/5.15.90.1-microsoft-standard-WSL2 amd64
+11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
+Ubuntu 11.0.18
+freeMemory=1015451848
+buildVersion=2.1.4
+gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
+
+Dependency         License                                                                 
+ICU                http://source.icu-project.org/repos/icu/icu/trunk/license.html          
+bigdata-ganglia    http://www.apache.org/licenses/LICENSE-2.0.html                         
+blueprints-core    https://github.com/tinkerpop/blueprints/blob/master/LICENSE.txt         
+colt               http://acs.lbl.gov/software/colt/license.html                           
+commons-codec      http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-fileupload http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-io         http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-logging    http://www.apache.org/licenses/LICENSE-2.0.html                         
+dsiutils           http://www.gnu.org/licenses/lgpl-2.1.html                               
+fastutil           http://www.apache.org/licenses/LICENSE-2.0.html                         
+flot               http://www.opensource.org/licenses/mit-license.php                      
+high-scale-lib     http://creativecommons.org/licenses/publicdomain                        
+httpclient         http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpclient-cache   http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpcore           http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpmime           http://www.apache.org/licenses/LICENSE-2.0.html                         
+jackson-core       http://www.apache.org/licenses/LICENSE-2.0.html                         
+jetty              http://www.apache.org/licenses/LICENSE-2.0.html                         
+jquery             https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt            
+jsonld             https://raw.githubusercontent.com/jsonld-java/jsonld-java/master/LICENCE
+log4j              http://www.apache.org/licenses/LICENSE-2.0.html                         
+lucene             http://www.apache.org/licenses/LICENSE-2.0.html                         
+nanohttp           http://elonen.iki.fi/code/nanohttpd/#license                            
+rexster-core       https://github.com/tinkerpop/rexster/blob/master/LICENSE.txt            
+river              http://www.apache.org/licenses/LICENSE-2.0.html                         
+semargl            https://github.com/levkhomich/semargl/blob/master/LICENSE               
+servlet-api        http://www.apache.org/licenses/LICENSE-2.0.html                         
+sesame             http://www.openrdf.org/download.jsp                                     
+slf4j              http://www.slf4j.org/license.html                                       
+zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
+
+Sep 06, 2023 10:18:59 PM org.jline.utils.Log logr
+WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[36m[1m2023.09.06 22:18:59:816[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+    Loading ../data/cell-summary-similarities.ttl[0m
+[36m[1m2023.09.06 22:20:07:175[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    7713192 stmts added in 65.773 secs, rate= 117269, commitLatency=1511ms, {failSet=0,goodSet=0}[0m
+log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+ERROR: com.bigdata.util.config.LogUtil : Could not initialize Log4J logging utility.
+Set system property '-Dlog4j.configuration=file:bigdata/src/resources/logging/log4j.properties'
+  and / or 
+Set system property '-Dlog4j.primary.configuration=file:<installDir>/bigdata/src/resources/logging/log4j.properties'
+
+BlazeGraph(TM) Graph Engine
+
+                   Flexible
+                   Reliable
+                  Affordable
+      Web-Scale Computing for the Enterprise
+
+Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
+
+bl-sice-g7241f3.ads.iu.edu
+Wed Sep 06 22:20:07 EDT 2023
+Linux/5.15.90.1-microsoft-standard-WSL2 amd64
+11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
+Ubuntu 11.0.18
+freeMemory=1017473784
+buildVersion=2.1.4
+gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
+
+Dependency         License                                                                 
+ICU                http://source.icu-project.org/repos/icu/icu/trunk/license.html          
+bigdata-ganglia    http://www.apache.org/licenses/LICENSE-2.0.html                         
+blueprints-core    https://github.com/tinkerpop/blueprints/blob/master/LICENSE.txt         
+colt               http://acs.lbl.gov/software/colt/license.html                           
+commons-codec      http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-fileupload http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-io         http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-logging    http://www.apache.org/licenses/LICENSE-2.0.html                         
+dsiutils           http://www.gnu.org/licenses/lgpl-2.1.html                               
+fastutil           http://www.apache.org/licenses/LICENSE-2.0.html                         
+flot               http://www.opensource.org/licenses/mit-license.php                      
+high-scale-lib     http://creativecommons.org/licenses/publicdomain                        
+httpclient         http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpclient-cache   http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpcore           http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpmime           http://www.apache.org/licenses/LICENSE-2.0.html                         
+jackson-core       http://www.apache.org/licenses/LICENSE-2.0.html                         
+jetty              http://www.apache.org/licenses/LICENSE-2.0.html                         
+jquery             https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt            
+jsonld             https://raw.githubusercontent.com/jsonld-java/jsonld-java/master/LICENCE
+log4j              http://www.apache.org/licenses/LICENSE-2.0.html                         
+lucene             http://www.apache.org/licenses/LICENSE-2.0.html                         
+nanohttp           http://elonen.iki.fi/code/nanohttpd/#license                            
+rexster-core       https://github.com/tinkerpop/rexster/blob/master/LICENSE.txt            
+river              http://www.apache.org/licenses/LICENSE-2.0.html                         
+semargl            https://github.com/levkhomich/semargl/blob/master/LICENSE               
+servlet-api        http://www.apache.org/licenses/LICENSE-2.0.html                         
+sesame             http://www.openrdf.org/download.jsp                                     
+slf4j              http://www.slf4j.org/license.html                                       
+zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
+
+Sep 06, 2023 10:20:08 PM org.jline.utils.Log logr
+WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[36m[1m2023.09.06 22:20:08:256[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+    Loading ../data/ccf.owl[0m
+[36m[1m2023.09.06 22:20:13:914[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    510876 stmts added in 4.75 secs, rate= 107552, commitLatency=817ms, {failSet=0,goodSet=0}[0m
+Start the Blazegraph Server and press Enter
+
+> ctpop-data-processor@1.0.0 generate:reports
+> node ./src/gen-reports.js
+
+Creating report via remote SPARQL Endpoint: as-cnt
+Creating report via remote SPARQL Endpoint: consortium-breakdown
+Creating report via remote SPARQL Endpoint: provider-breakdown
+Creating report via remote SPARQL Endpoint: rui-location-stats
+Creating report via remote SPARQL Endpoint: rui-registered-h5ad-datasets
+Creating report via remote SPARQL Endpoint: table-s1
+Creating report via remote SPARQL Endpoint: table-s2
+Creating report via remote SPARQL Endpoint: table-s3a
+Creating report via remote SPARQL Endpoint: table-s3b
+Creating report via remote SPARQL Endpoint: test
+Creating report via remote SPARQL Endpoint: validation-v1p0
+Creating report via remote SPARQL Endpoint: validation-v1p1-extra1
+Creating report via remote SPARQL Endpoint: validation-v1p1-extra2
+Creating report via remote SPARQL Endpoint: validation-v1p1-extra3
+Creating report via remote SPARQL Endpoint: validation-v1p1
+Creating report via remote SPARQL Endpoint: validation-v1p2
+Creating report via remote SPARQL Endpoint: validation-v2
+Creating report via remote SPARQL Endpoint: validation-v3.edges
+Creating report via remote SPARQL Endpoint: validation-v3.nodes
+Creating report via remote SPARQL Endpoint: validation-v4
+Creating report via remote SPARQL Endpoint: validation-v5.edges
+Creating report via remote SPARQL Endpoint: validation-v5.nodes
