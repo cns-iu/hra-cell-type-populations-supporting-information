@@ -1,0 +1,76 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ASCTB-TEMP: <https://purl.org/ccf/ASCTB-TEMP_>
+PREFIX CL: <http://purl.obolibrary.org/obo/CL_>
+PREFIX FMA: <http://purl.org/sig/ont/fma/fma>
+PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX ccf3d: <http://purl.org/ccf/latest/ccf.owl#>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX ctpop: <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
+PREFIX rui: <http://purl.org/ccf/1.5/>
+
+SELECT DISTINCT ?as (?shared_as_cell_types / ?total_as_cell_types as ?pct_hra_ct_overlap)
+WHERE {
+
+  {
+    SELECT ?as (COUNT(DISTINCT(?cell_label)) as ?total_as_cell_types)
+    WHERE {
+      GRAPH ctpop:graph {
+        ?as ccf:has_cell_summary [
+            ccf:has_cell_summary_row [
+                ccf:cell_label ?cell_label ;
+            ]
+        ] .
+
+        FILTER (
+          STRSTARTS(STR(?as), 'http://purl.obolibrary.org/obo/') ||
+          STRSTARTS(STR(?as), 'http://purl.org/sig/ont/fma/fma')
+        )
+      }
+
+      GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
+        ?as ccf:ccf_asctb_type ?type .
+        FILTER (?type = 'AS')
+      }
+    }
+    GROUP BY ?as
+  }
+
+  {
+    SELECT ?as (COUNT(DISTINCT(?cell_label)) as ?shared_as_cell_types)
+    WHERE {
+      GRAPH ctpop:graph {
+        ?as ccf:has_cell_summary [
+            ccf:has_cell_summary_row [
+                ccf:cell_id ?cell_id ;
+                ccf:cell_label ?cell_label ;
+            ]
+        ] .
+
+        FILTER (
+          STRSTARTS(STR(?as), 'http://purl.obolibrary.org/obo/') ||
+          STRSTARTS(STR(?as), 'http://purl.org/sig/ont/fma/fma')
+        )
+      }
+
+      GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
+        ?as ccf:ccf_asctb_type ?type .
+        FILTER (?type = 'AS')
+      }
+
+      FILTER(EXISTS {
+        GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
+          ?cell_id ccf:ccf_asctb_type [] .
+        }
+      } || EXISTS {
+        GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
+          [] ccf:ccf_asctb_type [] ;
+            rdfs:label ?cell_label .
+        }
+      })
+    }
+    GROUP BY ?dataset ?as
+  }
+}

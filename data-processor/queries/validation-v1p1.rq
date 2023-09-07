@@ -56,12 +56,16 @@ WHERE {
         FILTER (?type = 'AS')
       }
 
-      FILTER EXISTS {
+      FILTER(EXISTS {
+        GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
+          ?cell_id ccf:ccf_asctb_type [] .
+        }
+      } || EXISTS {
         GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
           [] ccf:ccf_asctb_type [] ;
             rdfs:label ?cell_label .
         }
-      }
+      })
     }
     GROUP BY ?dataset ?as
   }
