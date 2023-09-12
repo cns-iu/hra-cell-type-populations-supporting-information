@@ -1,3 +1,5 @@
+library(ggplot2)
+
 # scatter graph
 scatter_theme <-  theme(axis.text.x = element_text(angle=90, size = 15),
                         axis.text.y = element_text(size = 15),
