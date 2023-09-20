@@ -12,7 +12,7 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?sample ?dataset ?rui ?similarity
+SELECT ?sample ?dataset ?rui ?similarity ?distance
 WHERE {
   GRAPH ctpop:graph {
     ?sample ccf:generates_dataset ?dataset .
@@ -37,6 +37,22 @@ WHERE {
     }
   }
 
+  {
+    GRAPH ctpop:distances {
+      [] a ccf:SpatialEntityDistance;
+        ccf:entity_a ?rui ;
+        ccf:entity_b ?rui_location ;
+        ccf:distance ?distance .
+    }
+  } UNION {
+    GRAPH ctpop:distances {
+      [] a ccf:SpatialEntityDistance;
+        ccf:entity_a ?rui_location ;
+        ccf:entity_b ?rui ;
+        ccf:distance ?distance .
+    }
+  }
+
   FILTER (?rui != ?rui_location)
 }
-ORDER BY ?sample
+ORDER BY ?sample DESC(?similarity)

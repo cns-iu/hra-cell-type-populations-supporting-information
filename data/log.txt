@@ -7,64 +7,7 @@ From https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data
 Already up to date.
 From https://github.com/hubmapconsortium/tissue-bar-graphs
  * branch            static     -> FETCH_HEAD
-   f3ca592..9435063  static     -> origin/static
-Updating f3ca592..9435063
-Fast-forward
- csv/Adipose_Azimuth/{celltype_l1.csv => Azimuth_Adipose_celltype_l1.csv}  | 0
- csv/Adipose_Azimuth/{celltype_l2.csv => Azimuth_Adipose_celltype_l2.csv}  | 0
- csv/Bone_Marrow_Azimuth/{celltype_l1.csv => Marrow_Bone_celltype_l1.csv}  | 0
- csv/Bone_Marrow_Azimuth/{celltype_l2.csv => Marrow_Bone_celltype_l2.csv}  | 0
- csv/Heart_Azimuth/{celltype_l1.csv => Azimuth_Heart_celltype_l1.csv}      | 0
- csv/Heart_Azimuth/{celltype_l2.csv => Azimuth_Heart_celltype_l2.csv}      | 0
- .../{annotation_l1.csv => Azimuth_Kidney_annotation_l1.csv}               | 0
- .../{annotation_l2.csv => Azimuth_Kidney_annotation_l2.csv}               | 0
- .../{annotation_l3.csv => Azimuth_Kidney_annotation_l3.csv}               | 0
- .../{v1_annotation_l1.csv => Azimuth_Lung_v1_annotation_l1.csv}           | 0
- .../{v1_annotation_l2.csv => Azimuth_Lung_v1_annotation_l2.csv}           | 0
- .../{v2_ann_finest_level.csv => Azimuth_Lung_v2_ann_finest_level.csv}     | 0
- csv/Lung_Azimuth/{v2_ann_level_1.csv => Azimuth_Lung_v2_ann_level_1.csv}  | 0
- csv/Lung_Azimuth/{v2_ann_level_2.csv => Azimuth_Lung_v2_ann_level_2.csv}  | 0
- csv/Lung_Azimuth/{v2_ann_level_3.csv => Azimuth_Lung_v2_ann_level_3.csv}  | 0
- csv/Lung_Azimuth/{v2_ann_level_4.csv => Azimuth_Lung_v2_ann_level_4.csv}  | 0
- csv/Lung_Azimuth/{v2_ann_level_5.csv => Azimuth_Lung_v2_ann_level_5.csv}  | 0
- csv/Motor_Cortex_Azimuth/{class.csv => Cortex_Motor_class.csv}            | 0
- csv/Motor_Cortex_Azimuth/{cluster.csv => Cortex_Motor_cluster.csv}        | 0
- .../{cross_species_cluster.csv => Cortex_Motor_cross_species_cluster.csv} | 0
- csv/Motor_Cortex_Azimuth/{subclass.csv => Cortex_Motor_subclass.csv}      | 0
- csv/PBMC_Azimuth/{celltype_l1.csv => Azimuth_PBMC_celltype_l1.csv}        | 0
- csv/PBMC_Azimuth/{celltype_l2.csv => Azimuth_PBMC_celltype_l2.csv}        | 0
- csv/PBMC_Azimuth/{celltype_l3.csv => Azimuth_PBMC_celltype_l3.csv}        | 0
- .../{annotation_l1.csv => Azimuth_Pancreas_annotation_l1.csv}             | 0
- csv/Tonsil_Azimuth/{celltype_l1.csv => Azimuth_Tonsil_celltype_l1.csv}    | 0
- csv/Tonsil_Azimuth/{celltype_l2.csv => Azimuth_Tonsil_celltype_l2.csv}    | 0
- 27 files changed, 0 insertions(+), 0 deletions(-)
- rename csv/Adipose_Azimuth/{celltype_l1.csv => Azimuth_Adipose_celltype_l1.csv} (100%)
- rename csv/Adipose_Azimuth/{celltype_l2.csv => Azimuth_Adipose_celltype_l2.csv} (100%)
- rename csv/Bone_Marrow_Azimuth/{celltype_l1.csv => Marrow_Bone_celltype_l1.csv} (100%)
- rename csv/Bone_Marrow_Azimuth/{celltype_l2.csv => Marrow_Bone_celltype_l2.csv} (100%)
- rename csv/Heart_Azimuth/{celltype_l1.csv => Azimuth_Heart_celltype_l1.csv} (100%)
- rename csv/Heart_Azimuth/{celltype_l2.csv => Azimuth_Heart_celltype_l2.csv} (100%)
- rename csv/Kidney_Azimuth/{annotation_l1.csv => Azimuth_Kidney_annotation_l1.csv} (100%)
- rename csv/Kidney_Azimuth/{annotation_l2.csv => Azimuth_Kidney_annotation_l2.csv} (100%)
- rename csv/Kidney_Azimuth/{annotation_l3.csv => Azimuth_Kidney_annotation_l3.csv} (100%)
- rename csv/Lung_Azimuth/{v1_annotation_l1.csv => Azimuth_Lung_v1_annotation_l1.csv} (100%)
- rename csv/Lung_Azimuth/{v1_annotation_l2.csv => Azimuth_Lung_v1_annotation_l2.csv} (100%)
- rename csv/Lung_Azimuth/{v2_ann_finest_level.csv => Azimuth_Lung_v2_ann_finest_level.csv} (100%)
- rename csv/Lung_Azimuth/{v2_ann_level_1.csv => Azimuth_Lung_v2_ann_level_1.csv} (100%)
- rename csv/Lung_Azimuth/{v2_ann_level_2.csv => Azimuth_Lung_v2_ann_level_2.csv} (100%)
- rename csv/Lung_Azimuth/{v2_ann_level_3.csv => Azimuth_Lung_v2_ann_level_3.csv} (100%)
- rename csv/Lung_Azimuth/{v2_ann_level_4.csv => Azimuth_Lung_v2_ann_level_4.csv} (100%)
- rename csv/Lung_Azimuth/{v2_ann_level_5.csv => Azimuth_Lung_v2_ann_level_5.csv} (100%)
- rename csv/Motor_Cortex_Azimuth/{class.csv => Cortex_Motor_class.csv} (100%)
- rename csv/Motor_Cortex_Azimuth/{cluster.csv => Cortex_Motor_cluster.csv} (100%)
- rename csv/Motor_Cortex_Azimuth/{cross_species_cluster.csv => Cortex_Motor_cross_species_cluster.csv} (100%)
- rename csv/Motor_Cortex_Azimuth/{subclass.csv => Cortex_Motor_subclass.csv} (100%)
- rename csv/PBMC_Azimuth/{celltype_l1.csv => Azimuth_PBMC_celltype_l1.csv} (100%)
- rename csv/PBMC_Azimuth/{celltype_l2.csv => Azimuth_PBMC_celltype_l2.csv} (100%)
- rename csv/PBMC_Azimuth/{celltype_l3.csv => Azimuth_PBMC_celltype_l3.csv} (100%)
- rename csv/Pancreas_Azimuth/{annotation_l1.csv => Azimuth_Pancreas_annotation_l1.csv} (100%)
- rename csv/Tonsil_Azimuth/{celltype_l1.csv => Azimuth_Tonsil_celltype_l1.csv} (100%)
- rename csv/Tonsil_Azimuth/{celltype_l2.csv => Azimuth_Tonsil_celltype_l2.csv} (100%)
+Already up to date.
 
 > ctpop-data-processor@1.0.0 generate:registrations
 > node ./src/gen-registrations.js
@@ -1610,17 +1553,17 @@ Investigate CxG:
 Investigate Azimuth: Azimuth_Motor_Cortex_cluster
 Investigate Azimuth: Azimuth_Motor_Cortex_class
 Investigate Azimuth: Azimuth_Motor_Cortex_cross_species_cluster
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block1
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block2
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block3
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block4
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block5
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block6
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block7
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block8
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block9
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block10
-Investigate Azimuth: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block11
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block1
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block2
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block3
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block4
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block5
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block6
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block7
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block8
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block9
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block10
+Investigate CxG: Azimuth_Brain_!https://doi.org/10.1038/s41586-021-03465-8-block11
 Investigate Azimuth: Azimuth_Motor_Cortex_subclass
 Investigate CxG: 
 Investigate CxG: 
@@ -1669,32 +1612,32 @@ Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27431_Thymus
 Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27552_Thymus
 Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H26547_Thymus
 Investigate CxG: f8d5fda9-4508-4447-9ec0-4681ddccbf1e_H27471_Thymus
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock1
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock2
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock3
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock4
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock5
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock6
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock7
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock8
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock9
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock10
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock11
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock12
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock13
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock14
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock15
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock16
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock17
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock18
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock19
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock20
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock21
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock22
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock23
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock24
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock25
-Investigate SPARC-UCLA: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock26
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock1
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock2
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock3
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock4
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock5
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock6
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock7
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock8
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock9
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock10
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock11
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock12
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock13
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock14
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock15
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock16
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock17
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock18
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock19
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock20
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock21
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock22
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock23
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock24
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock25
+Investigate SPARC: !https://doi.org/10.1161/CIRCRESAHA.120.318458#TissueBlock26
 Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block1
 Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block2
 Investigate Azimuth: Azimuth_Bone_Marrow_!rui_block3
@@ -1819,11 +1762,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Wed Sep 06 07:39:38 EDT 2023
+Wed Sep 20 12:56:12 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1017473440
+freeMemory=1015454896
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1859,12 +1802,12 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Sep 06, 2023 7:39:38 AM org.jline.utils.Log logr
+Sep 20, 2023 12:56:12 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.09.06 07:39:38:740[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.09.20 12:56:12:925[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/enriched_rui_locations.ttl[0m
-[36m[1m2023.09.06 07:39:39:810[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    64306 stmts added in 0.774 secs, rate= 83082, commitLatency=210ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.09.20 12:56:13:915[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    64302 stmts added in 0.737 secs, rate= 87248, commitLatency=187ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -1883,11 +1826,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Wed Sep 06 07:39:45 EDT 2023
+Wed Sep 20 12:56:14 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1014453832
+freeMemory=1015459048
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1923,12 +1866,76 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Sep 06, 2023 7:39:46 AM org.jline.utils.Log logr
+Sep 20, 2023 12:56:15 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.09.06 07:39:46:500[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.09.20 12:56:15:259[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+    Loading ../data/as-cell-summaries.ttl[0m
+[36m[1m2023.09.20 12:56:15:687[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    4787 stmts added in 0.262 secs, rate= 18270, commitLatency=103ms, {failSet=0,goodSet=0}[0m
+log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+ERROR: com.bigdata.util.config.LogUtil : Could not initialize Log4J logging utility.
+Set system property '-Dlog4j.configuration=file:bigdata/src/resources/logging/log4j.properties'
+  and / or 
+Set system property '-Dlog4j.primary.configuration=file:<installDir>/bigdata/src/resources/logging/log4j.properties'
+
+BlazeGraph(TM) Graph Engine
+
+                   Flexible
+                   Reliable
+                  Affordable
+      Web-Scale Computing for the Enterprise
+
+Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
+
+bl-sice-g7241f3.ads.iu.edu
+Wed Sep 20 12:56:21 EDT 2023
+Linux/5.15.90.1-microsoft-standard-WSL2 amd64
+11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
+Ubuntu 11.0.18
+freeMemory=1015459024
+buildVersion=2.1.4
+gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
+
+Dependency         License                                                                 
+ICU                http://source.icu-project.org/repos/icu/icu/trunk/license.html          
+bigdata-ganglia    http://www.apache.org/licenses/LICENSE-2.0.html                         
+blueprints-core    https://github.com/tinkerpop/blueprints/blob/master/LICENSE.txt         
+colt               http://acs.lbl.gov/software/colt/license.html                           
+commons-codec      http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-fileupload http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-io         http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-logging    http://www.apache.org/licenses/LICENSE-2.0.html                         
+dsiutils           http://www.gnu.org/licenses/lgpl-2.1.html                               
+fastutil           http://www.apache.org/licenses/LICENSE-2.0.html                         
+flot               http://www.opensource.org/licenses/mit-license.php                      
+high-scale-lib     http://creativecommons.org/licenses/publicdomain                        
+httpclient         http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpclient-cache   http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpcore           http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpmime           http://www.apache.org/licenses/LICENSE-2.0.html                         
+jackson-core       http://www.apache.org/licenses/LICENSE-2.0.html                         
+jetty              http://www.apache.org/licenses/LICENSE-2.0.html                         
+jquery             https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt            
+jsonld             https://raw.githubusercontent.com/jsonld-java/jsonld-java/master/LICENCE
+log4j              http://www.apache.org/licenses/LICENSE-2.0.html                         
+lucene             http://www.apache.org/licenses/LICENSE-2.0.html                         
+nanohttp           http://elonen.iki.fi/code/nanohttpd/#license                            
+rexster-core       https://github.com/tinkerpop/rexster/blob/master/LICENSE.txt            
+river              http://www.apache.org/licenses/LICENSE-2.0.html                         
+semargl            https://github.com/levkhomich/semargl/blob/master/LICENSE               
+servlet-api        http://www.apache.org/licenses/LICENSE-2.0.html                         
+sesame             http://www.openrdf.org/download.jsp                                     
+slf4j              http://www.slf4j.org/license.html                                       
+zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
+
+Sep 20, 2023 12:56:21 PM org.jline.utils.Log logr
+WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[36m[1m2023.09.20 12:56:21:933[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/rui-location-distances.ttl[0m
-[36m[1m2023.09.06 07:39:47:734[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    77224 stmts added in 0.99 secs, rate= 78004, commitLatency=169ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.09.20 12:56:23:100[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    77224 stmts added in 0.92 secs, rate= 83939, commitLatency=178ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -1947,11 +1954,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Wed Sep 06 07:42:08 EDT 2023
+Wed Sep 20 12:58:33 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1017473712
+freeMemory=1015456008
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1987,12 +1994,12 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Sep 06, 2023 7:42:08 AM org.jline.utils.Log logr
+Sep 20, 2023 12:58:33 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.09.06 07:42:08:678[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.09.20 12:58:33:586[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/cell-summary-similarities.ttl[0m
-[36m[1m2023.09.06 07:43:15:565[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    7713192 stmts added in 65.876 secs, rate= 117086, commitLatency=938ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.09.20 12:59:34:913[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    7713192 stmts added in 60.101 secs, rate= 128337, commitLatency=1161ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -2011,11 +2018,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Wed Sep 06 07:43:16 EDT 2023
+Wed Sep 20 12:59:35 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1017473544
+freeMemory=1017473560
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -2051,39 +2058,17 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Sep 06, 2023 7:43:16 AM org.jline.utils.Log logr
+Sep 20, 2023 12:59:35 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.09.06 07:43:16:604[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.09.20 12:59:35:943[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/ccf.owl[0m
-[36m[1m2023.09.06 07:43:21:828[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    510876 stmts added in 4.511 secs, rate= 113251, commitLatency=643ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.09.20 12:59:40:839[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    510876 stmts added in 4.246 secs, rate= 120319, commitLatency=584ms, {failSet=0,goodSet=0}[0m
+Start the Blazegraph Server and press Enter
 
 > ctpop-data-processor@1.0.0 generate:reports
 > node ./src/gen-reports.js
 
-Creating report via remote SPARQL Endpoint: as-cnt
-node:internal/deps/undici/undici:11457
-    Error.captureStackTrace(err, this);
-          ^
-
-TypeError: fetch failed
-    at Object.fetch (node:internal/deps/undici/undici:11457:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SparqlEndpointFetcher.handleFetchCall (/home/bherr/workspaces/hubmap/hra-cell-type-populations-supporting-information/data-processor/node_modules/fetch-sparql-endpoint/lib/SparqlEndpointFetcher.js:187:30)
-    at async SparqlEndpointFetcher.fetchBindings (/home/bherr/workspaces/hubmap/hra-cell-type-populations-supporting-information/data-processor/node_modules/fetch-sparql-endpoint/lib/SparqlEndpointFetcher.js:88:47)
-    at async selectCsvRemote (file:///home/bherr/workspaces/hubmap/hra-cell-type-populations-supporting-information/data-processor/src/utils/sparql.js:36:18)
-    at async file:///home/bherr/workspaces/hubmap/hra-cell-type-populations-supporting-information/data-processor/src/gen-reports.js:22:21 {
-  cause: Error: connect ECONNREFUSED 127.0.0.1:8080
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '127.0.0.1',
-    port: 8080
-  }
-}
-
-Node.js v18.16.0
 Creating report via remote SPARQL Endpoint: as-cnt
 Creating report via remote SPARQL Endpoint: consortium-breakdown
 Creating report via remote SPARQL Endpoint: provider-breakdown
@@ -2094,4 +2079,15 @@ Creating report via remote SPARQL Endpoint: table-s2
 Creating report via remote SPARQL Endpoint: table-s3a
 Creating report via remote SPARQL Endpoint: table-s3b
 Creating report via remote SPARQL Endpoint: test
+Creating report via remote SPARQL Endpoint: validation-v1p0
+Creating report via remote SPARQL Endpoint: validation-v1p1-extra1
+Creating report via remote SPARQL Endpoint: validation-v1p1-extra2
+Creating report via remote SPARQL Endpoint: validation-v1p1-extra3
+Creating report via remote SPARQL Endpoint: validation-v1p1
+Creating report via remote SPARQL Endpoint: validation-v1p2
+Creating report via remote SPARQL Endpoint: validation-v2
+Creating report via remote SPARQL Endpoint: validation-v3.edges
+Creating report via remote SPARQL Endpoint: validation-v3.nodes
+Creating report via remote SPARQL Endpoint: validation-v4
 Creating report via remote SPARQL Endpoint: validation-v5.edges
+Creating report via remote SPARQL Endpoint: validation-v5.nodes
