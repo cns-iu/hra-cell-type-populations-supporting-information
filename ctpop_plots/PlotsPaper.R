@@ -76,11 +76,12 @@ p+ bar_graph_theme+
 # LINKS with Source, Target, Value
 
 subset_sankey = table_s1 %>% 
-  select(portal, donor_sex, organ_name, excluded_from_atlas_construction) %>% 
+  select(portal, donor_sex, organ_name, cell_type_annotation_tool, omap_id, excluded_from_atlas_construction) %>% 
   filter(excluded_from_atlas_construction==FALSE) %>%
-  replace_na(list(donor_sex = "unknown")) 
+  replace_na(list(donor_sex = "unknown")) %>% 
+  replace_na(list(omap_id = "not_spatial"))
 
-s = subset_sankey %>% 
+p = subset_sankey %>% 
   group_by(portal) %>% summarize()
 
 d = subset_sankey %>% 
@@ -89,8 +90,11 @@ d = subset_sankey %>%
 o = subset_sankey %>% 
   group_by(organ_name) %>% summarize()
 
+c = subset_sankey %>% 
+  group_by(omap_id) %>% summarize()
+
 unique_name=list()
-unique_name = unlist(append(unique_name, c(s, d, o)))
+unique_name = unlist(append(unique_name, c(p, d, o, c)))
 unique_name = list(unique_name)
 
 nodes = as.data.frame(tibble(name = character()))
@@ -124,7 +128,16 @@ d_o = subset_sankey %>%
     value=count
   )
 
-prep_links = as.data.frame(bind_rows(s_o, d_o))
+c_o = subset_sankey %>% 
+  group_by(organ_name, omap_id) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = organ_name,
+    target = omap_id,
+    value=count
+  )
+
+prep_links = as.data.frame(bind_rows(s_o, d_o, c_o))
 prep_links 
 
 links = prep_links 
