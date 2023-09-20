@@ -235,11 +235,20 @@ for (const donor of results) {
   }
 }
 
+// Find datasets which were not saved into the datasets object
+const problemDatasets = allDatasets.filter((d) => {
+  const id = d.unique_dataset_id;
+  const datasetIri = id.startsWith('http') ? id : `${BASE_IRI}${encodeURIComponent(id)}`;
+  return !datasets.hasOwnProperty(datasetIri);
+}).length;
 const savedDatasets = Object.keys(datasets).length;
-if (savedDatasets !== allDatasets.length) {
+
+if (problemDatasets > 0) {
   console.log(
-    `There was some problem saving out at least one dataset. Saved: ${savedDatasets} Expected: ${allDatasets.length}`
+    `There was some problem saving out at least one dataset. Saved: ${savedDatasets} Missing: ${problemDatasets}`
   );
+} else {
+  console.log(`Saved ${savedDatasets} datasets`);
 }
 
 // Write out the new rui_locations.jsonld file
