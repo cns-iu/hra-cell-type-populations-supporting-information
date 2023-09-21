@@ -11,7 +11,8 @@ PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
-SELECT DISTINCT ?sample ?dataset ?as (?shared_ds_cell_types / ?total_ds_cell_types as ?pct_hra_ct_overlap)
+
+SELECT ?sample ?dataset ?as ?similarity
 WHERE {
   GRAPH ctpop:graph {
     ?sample ccf:generates_dataset ?dataset .
@@ -19,55 +20,27 @@ WHERE {
   }
 
   {
-    SELECT ?dataset (COUNT(DISTINCT(?dataset_cell_label)) as ?total_ds_cell_types)
-    WHERE {
-      GRAPH ctpop:graph {
-        ?dataset ccf:has_cell_summary [
-            ccf:has_cell_summary_row [
-                ccf:cell_label ?dataset_cell_label ;
-            ]
-        ] .
-      }
+    GRAPH ctpop:similarities {
+      [] ccf:cell_source_a ?dataset ;
+         ccf:cell_source_b ?as ;
+         ccf:similarity ?similarity .
+
+      FILTER (
+        STRSTARTS(STR(?as), 'http://purl.obolibrary.org/obo/') ||
+        STRSTARTS(STR(?as), 'http://purl.org/sig/ont/fma/fma')
+      )
     }
-    GROUP BY ?dataset
-  }
-
-  {
-    SELECT ?dataset ?as (COUNT(DISTINCT(?cell_label)) as ?shared_ds_cell_types)
-    WHERE {
-      GRAPH ctpop:graph {
-        ?dataset ccf:has_cell_summary [
-            ccf:has_cell_summary_row [
-                ccf:cell_id ?cell_id ;
-                ccf:cell_label ?cell_label ;
-            ]
-        ] .
-
-        ?as ccf:has_cell_summary [] .
-
-        FILTER(
-          STRSTARTS(STR(?as), 'http://purl.obolibrary.org/obo/') ||
-          STRSTARTS(STR(?as), 'http://purl.org/sig/ont/fma/fma')
-        )
-      }
-
-      GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
-        ?as ccf:ccf_asctb_type ?type .
-        FILTER (?type = 'AS')
-      }
-
-      FILTER(EXISTS {
-        GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
-          ?cell_id ccf:ccf_asctb_type [] .
-        }
-      } || EXISTS {
-        GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
-          [] ccf:ccf_asctb_type [] ;
-            rdfs:label ?cell_label .
-        }
-      })
+  } UNION {
+    GRAPH ctpop:similarities {
+      [] ccf:cell_source_a ?as ;
+         ccf:cell_source_b ?dataset ;
+         ccf:similarity ?similarity .
+      
+      FILTER (
+        STRSTARTS(STR(?as), 'http://purl.obolibrary.org/obo/') ||
+        STRSTARTS(STR(?as), 'http://purl.org/sig/ont/fma/fma')
+      )
     }
-    GROUP BY ?dataset ?as
   }
 }
-ORDER BY ?sample DESC(?pct_hra_ct_overlap)
+ORDER BY ?sample
