@@ -12,7 +12,7 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?sample ?dataset ?as ?similarity
+SELECT ?sample ?dataset ?rui ?similarity ?distance
 WHERE {
   GRAPH ctpop:graph {
     ?sample ccf:generates_dataset ?dataset .
@@ -22,25 +22,37 @@ WHERE {
   {
     GRAPH ctpop:similarities {
       [] ccf:cell_source_a ?dataset ;
-         ccf:cell_source_b ?as ;
+         ccf:cell_source_b ?rui ;
          ccf:similarity ?similarity .
 
-      FILTER (
-        STRSTARTS(STR(?as), 'http://purl.obolibrary.org/obo/') ||
-        STRSTARTS(STR(?as), 'http://purl.org/sig/ont/fma/fma')
-      )
+      FILTER (STRSTARTS(STR(?rui), 'http://purl.org/ccf/1.5/'))
     }
   } UNION {
     GRAPH ctpop:similarities {
-      [] ccf:cell_source_a ?as ;
+      [] ccf:cell_source_a ?rui ;
          ccf:cell_source_b ?dataset ;
          ccf:similarity ?similarity .
-      
-      FILTER (
-        STRSTARTS(STR(?as), 'http://purl.obolibrary.org/obo/') ||
-        STRSTARTS(STR(?as), 'http://purl.org/sig/ont/fma/fma')
-      )
+
+      FILTER (STRSTARTS(STR(?rui), 'http://purl.org/ccf/1.5/'))
     }
   }
+
+  {
+    GRAPH ctpop:distances {
+      [] a ccf:SpatialEntityDistance;
+        ccf:entity_a ?rui ;
+        ccf:entity_b ?rui_location ;
+        ccf:distance ?distance .
+    }
+  } UNION {
+    GRAPH ctpop:distances {
+      [] a ccf:SpatialEntityDistance;
+        ccf:entity_a ?rui_location ;
+        ccf:entity_b ?rui ;
+        ccf:distance ?distance .
+    }
+  }
+
+  FILTER (?rui != ?rui_location)
 }
-ORDER BY ?sample
+ORDER BY ?sample DESC(?similarity)
