@@ -12,7 +12,7 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?sample ?dataset ?as ?similarity
+SELECT ?sample ?dataset ?as ?similarity ?as_in_collisions
 WHERE {
   GRAPH ctpop:graph {
     ?sample ccf:generates_dataset ?dataset .
@@ -42,5 +42,15 @@ WHERE {
       )
     }
   }
+
+  BIND (EXISTS {
+    GRAPH ctpop:graph {
+      ?rui_location ccf:has_collision_summary [
+        ccf:has_collision_item [
+          ccf:as_id ?as
+        ]
+      ]
+    }
+  } as ?as_in_collisions)
 }
 ORDER BY ?sample
