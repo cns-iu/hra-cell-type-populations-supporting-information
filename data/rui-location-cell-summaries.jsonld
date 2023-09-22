@@ -15554,7 +15554,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "http://purl.org/ccf/1.5/3c6d73d4-216e-4241-b864-92f6636c4d80",
+      "cell_source": "http://purl.org/ccf/1.5/a0ff0780-d666-42fe-8068-a3b41b1c6aa0",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
       "summary": []
