@@ -1,0 +1,12 @@
+,uuid_link,organ,bb_collisions,mesh_collisions
+0,https://entity.api.hubmapconsortium.org/entities/c4200fa2bd88eca844b722075153da94,http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney,4,0
+1,https://entity.api.hubmapconsortium.org/entities/681f7f1d0a87427cf182f231a01ca6f0,http://purl.org/ccf/latest/ccf.owl#VHMLeftUreter,1,0
+2,https://entity.api.hubmapconsortium.org/entities/98ae4752fe00ceefce6963ca42e71761,http://purl.org/ccf/latest/ccf.owl#VHMLeftUreter,1,0
+3,https://entity.api.hubmapconsortium.org/entities/744f20be06ec72b749601754fb881955,http://purl.org/ccf/latest/ccf.owl#VHFLeftUreter,1,0
+4,https://entity.api.hubmapconsortium.org/entities/d9e64e77d26d9fb8133d7754d1c3f6d0,http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1,3,0
+5,https://entity.api.hubmapconsortium.org/entities/0ec930e0f4a8fcf12ea136a28e1acad4,http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney,3,0
+6,https://entity.api.hubmapconsortium.org/entities/e3b74d607c3b20c9c2349d98c235ce72,http://purl.org/ccf/latest/ccf.owl#VHMLeftUreter,1,0
+7,https://entity.api.hubmapconsortium.org/entities/8d7ce3aab7013e416263d23b0c048900,http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1,5,0
+8,https://entity.api.hubmapconsortium.org/entities/f7b37eff8a36eb3852a373cc4878f50e,http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine,0,0
+9,https://entity.api.hubmapconsortium.org/entities/f187ff9a4631540a9aced9086c512d5e,http://purl.org/ccf/latest/ccf.owl#VHMSkin,1,0
+10,https://entity.api.hubmapconsortium.org/entities/8cfd588e5bc4a31ea61d3a11eae0cf61,http://purl.org/ccf/latest/ccf.owl#VHMSkin,1,0
