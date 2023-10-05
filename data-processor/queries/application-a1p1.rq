@@ -12,7 +12,7 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?dataset ?as ?similarity ?as_in_collisions
+SELECT ?dataset ?as ?similarity
 WHERE {
   { 
     SELECT ?dataset 
