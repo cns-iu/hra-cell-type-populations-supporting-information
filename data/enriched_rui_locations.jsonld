@@ -27416,6 +27416,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/bd004aeb-6e60-4d5b-8d40-cfdd55b8b6fe.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -34441,6 +34446,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/fd380a0c-2915-4d73-b3f4-d161badbaccb.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -45134,6 +45144,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/0cd47185-8e8a-4f56-a167-bf93de928553.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -45235,6 +45250,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/f8a20a09-a700-439b-a518-60347cd7b156.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -45326,6 +45346,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/ca4a4754-6937-4d08-9eb0-bf400492c22c.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -45420,6 +45445,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/09b9e49f-dd9c-4f9f-a7dc-258ac0d08530.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -45514,6 +45544,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/25c3d20d-d856-4a22-b926-6ee9a5f4a1d4.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -46986,6 +47021,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/4af4b1bd-c71d-4ade-a9f6-47b2ccc9f5bb.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -49271,6 +49311,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/8af0476d-e6e6-4b55-afae-5eec8c9c1cb5.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -49365,6 +49410,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/3c299376-82f1-4c1f-b283-2c03cb7922e2.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -53401,6 +53451,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/559cb26d-2bed-41a6-8cdf-d5da5f4b52d2.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -53498,6 +53553,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/9131c76e-62cb-4433-a216-64e9fa0450c5.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -53592,6 +53652,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/f1c3f780-6627-4c56-aada-97cb158f540d.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -53695,6 +53760,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/dcbd8b51-3a18-4025-97c1-e1867e346a18.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -53789,6 +53859,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/05310dee-180d-4e59-8c58-b101d12f4c73.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -53911,6 +53986,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/e7d21a48-63dd-45d8-aedd-e4abed52d5d8.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -54008,6 +54088,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/c5d8b584-d6b7-4a98-8330-a97ecec688f8.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -54110,6 +54195,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/2243b679-6c6c-4b66-9479-fef2640f2872.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -54198,6 +54288,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/4890aa9b-26a3-4db5-b25a-66e18cbc2158.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -54299,6 +54394,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/965b263e-b1b5-44c3-86ef-bb682091be05.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -54387,6 +54487,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/3545c186-aafd-4477-adc5-6ee21219cf87.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -92253,6 +92358,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/5475ae38-db50-4868-92ba-8718bf136c7b.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -93991,6 +94101,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
@@ -94205,6 +94320,11 @@
                 ]
               }
             ],
+            "corridor": {
+              "@type": "Corridor",
+              "file_format": "model/gltf-binary",
+              "file": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/corridors/0c1510fa-83b7-43aa-aa70-d261835ce604_LungMap_Female_AllenWangLungMap_FEMALE_tissueblock_RUI.glb"
+            },
             "summaries": [
               {
                 "@type": "CellSummary",
