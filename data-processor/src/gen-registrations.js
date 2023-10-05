@@ -9,7 +9,7 @@ const FIELDS =
   'dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ'.split(
     ','
   );
-const BASE_IRI = 'ctpop:';
+const BASE_IRI = 'ctpop-datasets:';
 const OUTPUT = '../data/rui_locations.jsonld';
 const HUBMAP_TOKEN = process.env.HUBMAP_TOKEN;
 

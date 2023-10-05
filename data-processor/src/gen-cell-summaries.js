@@ -10,7 +10,7 @@ const FIELDS =
   'unique_dataset_id,dataset_id,source,excluded_from_atlas_construction,paper_id,HuBMAP_tissue_block_id,sample_id,ccf_api_endpoint,CxG_dataset_id_donor_id_organ,non_hubmap_donor_id,organ,cell_type_annotation_tool'.split(
     ','
   );
-const BASE_IRI = 'ctpop:';
+const BASE_IRI = 'ctpop-datasets:';
 const OUTPUT = '../data/dataset-cell-summaries.jsonld';
 const DATASETS = '../data/datasets.jsonld';
 const HUBMAP_TOKEN = process.env.HUBMAP_TOKEN;
