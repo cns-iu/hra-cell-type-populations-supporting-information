@@ -10,7 +10,7 @@ const FIELDS =
     ','
   );
 const BASE_IRI = 'ctpop-datasets:';
-const OUTPUT = '../data/rui_locations.jsonld';
+const OUTPUT = '../data/atlas-registrations.jsonld';
 const HUBMAP_TOKEN = process.env.HUBMAP_TOKEN;
 
 // A HuBMAP Token is required as some datasets are unpublished

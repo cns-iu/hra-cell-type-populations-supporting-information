@@ -37,6 +37,7 @@ if (!existsSync('tissue-bar-graphs')) {
 // Generate registrations
 if (CLEAN || !existsSync('../data/rui_locations.jsonld')) {
   sh.exec('npm run generate:registrations');
+  sh.exec('npm run generate:universe-registrations');
 }
 
 // Generate rui location cell summaries
@@ -67,6 +68,11 @@ if (CLEAN || !existsSync('../data/enriched_rui_locations.jsonld')) {
 // Generate anatomical structures' cell type summaries
 if (CLEAN || !existsSync('../data/as-cell-summaries.jsonld')) {
   sh.exec('npm run generate:as-cell-summaries');
+}
+
+// Generate rui location as cell summaries
+if (CLEAN || !existsSync('../data/rui-location-as-cell-summaries.jsonld')) {
+  sh.exec('npm run generate:rui-location-as-cell-summaries');
 }
 
 // Generate cell summary similarity scores

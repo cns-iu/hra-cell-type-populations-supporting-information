@@ -5,7 +5,7 @@ const collisions = JSON.parse(readFileSync('../data/collisions.jsonld'));
 const corridors = JSON.parse(readFileSync('../data/corridors.jsonld'));
 const datasetSummaries = JSON.parse(readFileSync('../data/dataset-cell-summaries.jsonld'));
 const ruiSummaries = JSON.parse(readFileSync('../data/rui-location-cell-summaries.jsonld'));
-const donors = JSON.parse(readFileSync('../data/rui_locations.jsonld'));
+const donors = JSON.parse(readFileSync('../data/atlas-registrations.jsonld'));
 
 const summaryLookup = datasetSummaries['@graph'].concat(ruiSummaries['@graph'])
   .reduce((acc, summary) => (acc[summary['cell_source']] = summary, acc), {});
