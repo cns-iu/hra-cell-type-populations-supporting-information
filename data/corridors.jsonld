@@ -12,6 +12,14 @@
       "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#",
       "@prefix": true
     },
+    "ctpop-registrations": {
+      "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/rui_locations.jsonld#",
+      "@prefix": true
+    },
+    "ctpop-datasets": {
+      "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/datasets.jsonld#",
+      "@prefix": true
+    },
     "as_3d_id": {
       "@type": "@id"
     },

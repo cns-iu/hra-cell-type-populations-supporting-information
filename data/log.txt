@@ -1545,11 +1545,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Thu Oct 05 11:10:17 EDT 2023
+Thu Oct 05 12:27:04 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1015454896
+freeMemory=1017473184
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1585,12 +1585,12 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Oct 05, 2023 11:10:17 AM org.jline.utils.Log logr
+Oct 05, 2023 12:27:05 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.10.05 11:10:17:729[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.10.05 12:27:05:367[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/enriched_rui_locations.ttl[0m
-[36m[1m2023.10.05 11:10:18:813[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    78870 stmts added in 0.787 secs, rate= 100216, commitLatency=235ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.10.05 12:27:06:408[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    78870 stmts added in 0.806 secs, rate= 97853, commitLatency=169ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -1609,11 +1609,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Thu Oct 05 11:10:19 EDT 2023
+Thu Oct 05 12:27:07 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1017473664
+freeMemory=1015451848
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1649,12 +1649,12 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Oct 05, 2023 11:10:20 AM org.jline.utils.Log logr
+Oct 05, 2023 12:27:07 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.10.05 11:10:20:501[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.10.05 12:27:07:869[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/as-cell-summaries.ttl[0m
-[36m[1m2023.10.05 11:10:20:939[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    5903 stmts added in 0.269 secs, rate= 21944, commitLatency=109ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.10.05 12:27:08:332[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    5903 stmts added in 0.28 secs, rate= 21082, commitLatency=122ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -1673,11 +1673,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Thu Oct 05 11:10:43 EDT 2023
+Thu Oct 05 12:27:31 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1015456960
+freeMemory=1017473584
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1713,12 +1713,12 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Oct 05, 2023 11:10:44 AM org.jline.utils.Log logr
+Oct 05, 2023 12:27:31 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.10.05 11:10:44:323[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.10.05 12:27:31:836[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/dataset-cell-summaries.ttl[0m
-[36m[1m2023.10.05 11:10:47:106[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    378092 stmts added in 2.384 secs, rate= 158595, commitLatency=333ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.10.05 12:27:34:671[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    378092 stmts added in 2.377 secs, rate= 159062, commitLatency=399ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -1737,11 +1737,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Thu Oct 05 11:10:47 EDT 2023
+Thu Oct 05 12:27:35 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1015456240
+freeMemory=1016466728
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1777,12 +1777,12 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Oct 05, 2023 11:10:48 AM org.jline.utils.Log logr
+Oct 05, 2023 12:27:36 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.10.05 11:10:48:376[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.10.05 12:27:35:986[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/datasets.ttl[0m
-[36m[1m2023.10.05 11:10:48:811[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    3223 stmts added in 0.266 secs, rate= 12116, commitLatency=109ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.10.05 12:27:36:428[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    3223 stmts added in 0.27 secs, rate= 11937, commitLatency=111ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -1801,11 +1801,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Thu Oct 05 11:10:54 EDT 2023
+Thu Oct 05 12:27:42 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1017473256
+freeMemory=1015456008
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1841,12 +1841,12 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Oct 05, 2023 11:10:55 AM org.jline.utils.Log logr
+Oct 05, 2023 12:27:42 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.10.05 11:10:55:029[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.10.05 12:27:42:657[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/rui-location-distances.ttl[0m
-[36m[1m2023.10.05 11:10:56:240[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    77224 stmts added in 0.982 secs, rate= 78639, commitLatency=167ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.10.05 12:27:43:896[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    77224 stmts added in 0.995 secs, rate= 77612, commitLatency=182ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -1865,11 +1865,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Thu Oct 05 11:13:49 EDT 2023
+Thu Oct 05 12:30:44 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1015457512
+freeMemory=1015456968
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1905,12 +1905,12 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Oct 05, 2023 11:13:49 AM org.jline.utils.Log logr
+Oct 05, 2023 12:30:45 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.10.05 11:13:49:753[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.10.05 12:30:45:452[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/cell-summary-similarities.ttl[0m
-[36m[1m2023.10.05 11:15:15:025[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    10473036 stmts added in 84.238 secs, rate= 124326, commitLatency=968ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.10.05 12:32:09:208[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    10473036 stmts added in 82.686 secs, rate= 126660, commitLatency=1014ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -1929,11 +1929,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 bl-sice-g7241f3.ads.iu.edu
-Thu Oct 05 11:15:15 EDT 2023
+Thu Oct 05 12:32:09 EDT 2023
 Linux/5.15.90.1-microsoft-standard-WSL2 amd64
 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz Family 6 Model 141 Stepping 1, GenuineIntel #CPU=16
 Ubuntu 11.0.18
-freeMemory=1015455968
+freeMemory=1014453856
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -1969,18 +1969,20 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-Oct 05, 2023 11:15:16 AM org.jline.utils.Log logr
+Oct 05, 2023 12:32:10 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-[36m[1m2023.10.05 11:15:16:033[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2023.10.05 12:32:10:156[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ../data/ccf.owl[0m
-[36m[1m2023.10.05 11:15:20:938[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    510876 stmts added in 4.358 secs, rate= 117227, commitLatency=484ms, {failSet=0,goodSet=0}[0m
+[36m[1m2023.10.05 12:32:15:449[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    510876 stmts added in 4.389 secs, rate= 116399, commitLatency=844ms, {failSet=0,goodSet=0}[0m
 Start the Blazegraph Server and press Enter
 
 > ctpop-data-processor@1.0.0 generate:reports
 > node ./src/gen-reports.js
 
 Creating report via remote SPARQL Endpoint: application-a1p1
+Creating report via remote SPARQL Endpoint: application-a1p2
+Creating report via remote SPARQL Endpoint: application-a1p3
 Creating report via remote SPARQL Endpoint: as-cnt
 Creating report via remote SPARQL Endpoint: consortium-breakdown
 Creating report via remote SPARQL Endpoint: provider-breakdown
