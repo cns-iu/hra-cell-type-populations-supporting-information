@@ -14,11 +14,11 @@ PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
-SELECT ?organ ?as_label ?as_volume
+SELECT ?organ ?organ_id ?as_label ?as_volume
 	?rui_location_one_as_count ?rui_location_count ?rui_locations_with_ct ?rui_locations_no_ct
 	?ct_not_in_hra ?ct_in_hra ?ct_from_hra_only ?experimental_ct_count ?ct_labels_from_experimental_data ?predicted_cells_per_ct
 FROM ctpop:graph
-FROM <http://purl.org/ccf/releases/2.2.1/ccf.owl>
+FROM <https://purl.org/ccf/releases/2.2.1/ccf.owl>
 WHERE {
   {
     SELECT ?organ ?as_label (AVG(?as_volume) as ?as_volume)
@@ -32,9 +32,19 @@ WHERE {
             ccf:has_reference_organ ?ref_organ ;
           ]
       ] .
-      BIND (REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "V1.1", "") as ?organ)
+      BIND (REPLACE(REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "Colon", "LargeIntestine"), "V1.1", "") as ?organ)
     }
     GROUP BY ?organ ?as_label
+  }
+
+  {
+    SELECT ?organ ?organ_id
+    WHERE {
+      ?ref_organ ccf:representation_of ?organ_iri .
+
+      BIND (REPLACE(REPLACE(STR(?organ_iri), 'http://purl.obolibrary.org/obo/UBERON_', 'UBERON:'), 'http://purl.org/sig/ont/fma/fma', 'FMA:') as ?organ_id)
+      BIND (REPLACE(REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "Colon", "LargeIntestine"), "V1.1", "") as ?organ)
+    }
   }
   
   {
@@ -114,7 +124,7 @@ WHERE {
         }
         # GROUP BY ?rui_location
       }
-      BIND (REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "V1.1", "") as ?organ)
+      BIND (REPLACE(REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "Colon", "LargeIntestine"), "V1.1", "") as ?organ)
     }
     GROUP BY ?organ ?as_label
   }
@@ -160,7 +170,7 @@ WHERE {
         FILTER (?hra_exclusive_ct_id != ?cell_id)
         # FILTER (?hra_ct_id = ?cell_id || ?hra_ct_label = ?cell_label)
       }
-      BIND (REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "V1.1", "") as ?organ)
+      BIND (REPLACE(REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "Colon", "LargeIntestine"), "V1.1", "") as ?organ)
     }
     GROUP BY ?organ ?as_label
     ORDER BY ?organ ?as_label ?cell_label
