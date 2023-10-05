@@ -12,17 +12,25 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 SELECT
-  (?entityA as ?source)
-  (?entityB as ?target)
+  (?datasetA as ?source)
+  (?datasetB as ?target)
   (?similarity as ?weight)
-  (?organA as ?label)
-  ?organA
-  ?organB
+  ?datasetA ?entityA ?organA ?organIdA
+  ?datasetB ?entityB ?organB ?organIdB
+  ?similarity
 WHERE {
   GRAPH ctpop:graph {
     ?entityA a ccf:SpatialEntity .
     ?entityB a ccf:SpatialEntity .
     FILTER(STR(?entityA) < STR(?entityB))
+  }
+
+  GRAPH ctpop:graph {
+    ?sampleA ccf:has_registration_location ?entityA ;
+             ccf:generates_dataset ?datasetA .
+    
+    ?sampleB ccf:has_registration_location ?entityB ;
+             ccf:generates_dataset ?datasetB .
   }
 
   GRAPH ctpop:similarities {
@@ -55,6 +63,9 @@ WHERE {
     # Organ B
     ?refOrganB ccf:representation_of ?organIriB .
     ?organIriB rdfs:label ?organB .
+
+    BIND(REPLACE(REPLACE(STR(?organIriA), 'http://purl.obolibrary.org/obo/UBERON_', 'UBERON:'), 'http://purl.org/sig/ont/fma/fma', 'FMA:') as ?organIdA)
+    BIND(REPLACE(REPLACE(STR(?organIriB), 'http://purl.obolibrary.org/obo/UBERON_', 'UBERON:'), 'http://purl.org/sig/ont/fma/fma', 'FMA:') as ?organIdB)
   }
 }
 ORDER BY DESC(?similarity)

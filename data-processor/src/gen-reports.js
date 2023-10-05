@@ -8,6 +8,8 @@ import { selectCsvRemote } from './utils/sparql.js';
 //const SPARQL_ENDPOINT = 'https://api.triplydb.com/datasets/bherr/ctpop/services/ctpop/sparql';
 // const SPARQL_ENDPOINT = 'https://lod.humanatlas.io/sparql';
 // const SPARQL_ENDPOINT = 'https://ukiemb6svh.us-east-2.awsapprunner.com/blazegraph/namespace/kb/sparql';
+// const SPARQL_ENDPOINT = 'https://lod.humanatlas.io/sparql-dev';
+// const SPARQL_ENDPOINT = 'https://uwbpuqjrsa.us-east-2.awsapprunner.com/blazegraph/namespace/kb/sparql'
 const SPARQL_ENDPOINT = 'http://localhost:8080/blazegraph/namespace/kb/sparql';
 
 // Ensure reports output directory exists

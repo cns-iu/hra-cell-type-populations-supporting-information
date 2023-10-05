@@ -12,12 +12,14 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 SELECT DISTINCT
-  (?entity as ?id)
+  (?dataset as ?id)
   (?organ as ?label)
-  ?organ
+  ?dataset ?entity ?organ ?organId
 WHERE {
   GRAPH ctpop:graph {
     ?entity a ccf:SpatialEntity .
+    ?sample ccf:has_registration_location ?entity ;
+            ccf:generates_dataset ?dataset .
   }
 
   {
@@ -39,6 +41,8 @@ WHERE {
   GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
     ?refOrgan ccf:representation_of ?organIri .
     ?organIri rdfs:label ?organ .
+
+    BIND(REPLACE(REPLACE(STR(?organIri), 'http://purl.obolibrary.org/obo/UBERON_', 'UBERON:'), 'http://purl.org/sig/ont/fma/fma', 'FMA:') as ?organId)
   }
 }
 ORDER BY ?id

@@ -12,6 +12,7 @@ const FIELDS =
   );
 const BASE_IRI = 'ctpop:';
 const OUTPUT = '../data/dataset-cell-summaries.jsonld';
+const DATASETS = '../data/datasets.jsonld';
 const HUBMAP_TOKEN = process.env.HUBMAP_TOKEN;
 
 // A HuBMAP Token is required as some datasets are unpublished
@@ -199,9 +200,20 @@ if (results.length !== allDatasets.length) {
   );
 }
 
-// Write out the new rui_locations.jsonld file
 const jsonld = {
   ...JSON.parse(readFileSync('ccf-context.jsonld')),
   '@graph': results,
 };
 writeFileSync(OUTPUT, JSON.stringify(jsonld, null, 2));
+
+const datasetObjects = results.map(d => ({
+  '@id': d['cell_source'],
+  '@type': 'Dataset'
+}));
+
+// Write out the new rui_locations.jsonld file
+const datasetsJsonld = {
+  ...JSON.parse(readFileSync('ccf-context.jsonld')),
+  '@graph': datasetObjects,
+};
+writeFileSync(DATASETS, JSON.stringify(datasetsJsonld, null, 2));
