@@ -21,7 +21,7 @@ plot.simple
 
 plot.jitter = ggplot(v1.p1, aes(x = as_in_collisions, y = similarity))+
   geom_jitter()+
-  labs(y = "Cosine similarity", x = "Is the anatomical structure found in the actual RUI locaiton of the dataset?")
+  labs(y = "Cosine similarity", x = "Is the anatomical structure found in the actual RUI location of the dataset?")
 plot.jitter
 
 v1.p1.means = v1.p1 %>% group_by(as, as_in_collisions) %>% summarise(mean_overlap=mean(similarity))
@@ -106,6 +106,7 @@ plot.scatter
 ####### V3 #########
 ####################
 # See Gephi
+# ***NEED CSV with one column per CT and then number of CTs for UMAP plot***
 
 
 
@@ -119,4 +120,5 @@ v4
 ####### V5 #########
 ####################
 # See Gephi
+# ***NEED CSV with one column per CT and then number of CTs for UMAP plot***
 
