@@ -12,7 +12,7 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?sample ?rui_location ?in_atlas ?modality ?cell_id ?cell_label ?cell_count ?percentage_of_total
+SELECT DISTINCT ?sample ?rui_location ?modality ?cell_id ?cell_label ?cell_count ?percentage_of_total
 WHERE {
   GRAPH ctpop:registrations {
     ?sample ccf:has_registration_location ?rui_location .
@@ -27,8 +27,12 @@ WHERE {
     ] .
     
     BIND(EXISTS {
-      [] ccf:has_registration_location ?rui_location .
+      GRAPH ctpop:graph {
+        [] ccf:has_registration_location ?rui_location .
+      }
     } as ?in_atlas)
   }
+
+  FILTER (?in_atlas != TRUE)
 }
 ORDER BY ?sample DESC(?cell_count)
