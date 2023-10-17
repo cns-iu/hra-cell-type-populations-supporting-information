@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { globSync } from 'glob';
 import { basename } from 'path';
 import sh from 'shelljs';
+import './utils/fetch-polyfill.js';
 import { selectCsvRemote } from './utils/sparql.js';
 
 // SPARQL endpoint with ctpop data loaded
@@ -17,10 +18,17 @@ sh.mkdir('-p', '../data/reports');
 
 // Go through each query in queries, run them, and save out the csv report to ../data/reports/
 for (const queryFile of globSync('queries/*.rq').sort()) {
-  const reportName = basename(queryFile, '.rq');
-  console.log('Creating report via remote SPARQL Endpoint:', reportName);
-
-  const query = readFileSync(queryFile).toString();
-  const csvString = await selectCsvRemote(query, SPARQL_ENDPOINT);
-  writeFileSync(`../data/reports/${reportName}.csv`, csvString);
+  const isLarge = queryFile.endsWith('.lg.rq');
+  
+  const reportName = basename(queryFile, isLarge ? '.lg.rq' : '.rq');
+  const reportCsv = `../data/reports/${reportName}.csv`;
+  console.log('Creating report:', reportName);
+  
+  if (isLarge) {
+    sh.exec(`./src/sparql-select.sh ${SPARQL_ENDPOINT} ${queryFile} > ${reportCsv}`);
+  } else {
+    const query = readFileSync(queryFile).toString();
+    const csvString = await selectCsvRemote(query, SPARQL_ENDPOINT);
+    writeFileSync(reportCsv, csvString);
+  }
 }

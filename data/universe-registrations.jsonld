@@ -19348,6 +19348,15 @@
               "thumbnail": "assets/icons/ico-spatial-codex.svg"
             },
             {
+              "@id": "https://entity.api.hubmapconsortium.org/entities/550f3ef14b113c24fd21b8b0750bf078",
+              "@type": "Dataset",
+              "label": "Registered 10/10/2023, HuBMAP Process, TMC-Stanford",
+              "description": "Data/Assay Types: codex_cytokit, ",
+              "link": "https://portal.hubmapconsortium.org/browse/dataset/550f3ef14b113c24fd21b8b0750bf078",
+              "technology": "CODEX",
+              "thumbnail": "assets/icons/ico-spatial-codex.svg"
+            },
+            {
               "@id": "https://entity.api.hubmapconsortium.org/entities/c229933621ef4017e2e6d5352e1f40f0",
               "@type": "Dataset",
               "label": "Registered 10/26/2022, HuBMAP Process, TMC-Stanford",
@@ -24366,6 +24375,15 @@
               "link": "https://portal.hubmapconsortium.org/browse/dataset/96f5c73df89d553cda6547b508aee854",
               "technology": "CODEX",
               "thumbnail": "assets/icons/ico-spatial-codex.svg"
+            },
+            {
+              "@id": "https://entity.api.hubmapconsortium.org/entities/00cc71c7e1cddac60e794044079faeee",
+              "@type": "Dataset",
+              "label": "Registered 10/10/2023, HuBMAP Process, TMC-Stanford",
+              "description": "Data/Assay Types: codex_cytokit, ",
+              "link": "https://portal.hubmapconsortium.org/browse/dataset/00cc71c7e1cddac60e794044079faeee",
+              "technology": "CODEX",
+              "thumbnail": "assets/icons/ico-spatial-codex.svg"
             }
           ],
           "section_count": 1,
@@ -24460,6 +24478,15 @@
               "label": "Registered 7/10/2023, Daniel Cotter, TMC-Stanford",
               "description": "Data/Assay Types: CODEX, ",
               "link": "https://portal.hubmapconsortium.org/browse/dataset/f9ae88d0a98b274efe18f03622de08a7",
+              "technology": "CODEX",
+              "thumbnail": "assets/icons/ico-spatial-codex.svg"
+            },
+            {
+              "@id": "https://entity.api.hubmapconsortium.org/entities/4158174807d97dccbd75d0b162edd9a3",
+              "@type": "Dataset",
+              "label": "Registered 10/10/2023, HuBMAP Process, TMC-Stanford",
+              "description": "Data/Assay Types: codex_cytokit, ",
+              "link": "https://portal.hubmapconsortium.org/browse/dataset/4158174807d97dccbd75d0b162edd9a3",
               "technology": "CODEX",
               "thumbnail": "assets/icons/ico-spatial-codex.svg"
             }
@@ -26730,6 +26757,15 @@
                   "thumbnail": "assets/icons/ico-unknown.svg"
                 },
                 {
+                  "@id": "https://entity.api.hubmapconsortium.org/entities/176edb4b0e16059522f6f087576fbeec",
+                  "@type": "Dataset",
+                  "label": "Registered 10/11/2023, HuBMAP Process, TMC-UCSD",
+                  "description": "Data/Assay Types: salmon_rnaseq_snareseq, ",
+                  "link": "https://portal.hubmapconsortium.org/browse/dataset/176edb4b0e16059522f6f087576fbeec",
+                  "technology": "OTHER",
+                  "thumbnail": "assets/icons/ico-unknown.svg"
+                },
+                {
                   "@id": "https://entity.api.hubmapconsortium.org/entities/19274e67c639a003ffe17953fd6b55db",
                   "@type": "Dataset",
                   "label": "Registered 5/11/2022, Juan Puerto, TMC-UCSD",
@@ -27630,6 +27666,15 @@
                   "thumbnail": "assets/icons/ico-unknown.svg"
                 },
                 {
+                  "@id": "https://entity.api.hubmapconsortium.org/entities/dd648e4648238b25a7d1062669ea89af",
+                  "@type": "Dataset",
+                  "label": "Registered 10/11/2023, HuBMAP Process, TMC-UCSD",
+                  "description": "Data/Assay Types: salmon_rnaseq_snareseq, ",
+                  "link": "https://portal.hubmapconsortium.org/browse/dataset/dd648e4648238b25a7d1062669ea89af",
+                  "technology": "OTHER",
+                  "thumbnail": "assets/icons/ico-unknown.svg"
+                },
+                {
                   "@id": "https://entity.api.hubmapconsortium.org/entities/eea962dabda0cec78f8f909494e0e775",
                   "@type": "Dataset",
                   "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
@@ -27716,6 +27761,15 @@
                   "label": "Registered 1/27/2022, HuBMAP Process, TMC-UCSD",
                   "description": "Data/Assay Types: salmon_rnaseq_snareseq, ",
                   "link": "https://portal.hubmapconsortium.org/browse/dataset/f7a8e78dea9cf70735059e8b4a179701",
+                  "technology": "OTHER",
+                  "thumbnail": "assets/icons/ico-unknown.svg"
+                },
+                {
+                  "@id": "https://entity.api.hubmapconsortium.org/entities/a39fed027b51d97f83cec90c63c44744",
+                  "@type": "Dataset",
+                  "label": "Registered 10/11/2023, HuBMAP Process, TMC-UCSD",
+                  "description": "Data/Assay Types: salmon_rnaseq_snareseq, ",
+                  "link": "https://portal.hubmapconsortium.org/browse/dataset/a39fed027b51d97f83cec90c63c44744",
                   "technology": "OTHER",
                   "thumbnail": "assets/icons/ico-unknown.svg"
                 },
@@ -27972,6 +28026,15 @@
                   "label": "Registered 5/11/2022, Joel Welling, TMC-UCSD",
                   "description": "Data/Assay Types: SNARE-RNAseq2, ",
                   "link": "https://portal.hubmapconsortium.org/browse/dataset/1fb5bcc68099ff64c34809153de0c5cc",
+                  "technology": "OTHER",
+                  "thumbnail": "assets/icons/ico-unknown.svg"
+                },
+                {
+                  "@id": "https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0",
+                  "@type": "Dataset",
+                  "label": "Registered 10/11/2023, HuBMAP Process, TMC-UCSD",
+                  "description": "Data/Assay Types: salmon_rnaseq_snareseq, ",
+                  "link": "https://portal.hubmapconsortium.org/browse/dataset/4369a119a9c06ea304003a5c3cb3a2e0",
                   "technology": "OTHER",
                   "thumbnail": "assets/icons/ico-unknown.svg"
                 },
@@ -31976,6 +32039,15 @@
               "link": "https://portal.hubmapconsortium.org/browse/dataset/e45724a72ab0e7d7b283451836dd983e",
               "technology": "CODEX",
               "thumbnail": "assets/icons/ico-spatial-codex.svg"
+            },
+            {
+              "@id": "https://entity.api.hubmapconsortium.org/entities/0173b4e2b3f576109a5aca880a3bdadc",
+              "@type": "Dataset",
+              "label": "Registered 10/10/2023, HuBMAP Process, TMC-Stanford",
+              "description": "Data/Assay Types: codex_cytokit, ",
+              "link": "https://portal.hubmapconsortium.org/browse/dataset/0173b4e2b3f576109a5aca880a3bdadc",
+              "technology": "CODEX",
+              "thumbnail": "assets/icons/ico-spatial-codex.svg"
             }
           ],
           "section_count": 0,
@@ -33504,6 +33576,15 @@
               "label": "Registered 7/10/2023, Daniel Cotter, TMC-Stanford",
               "description": "Data/Assay Types: CODEX, ",
               "link": "https://portal.hubmapconsortium.org/browse/dataset/7500e7f02589f4b4e55641f09723c3de",
+              "technology": "CODEX",
+              "thumbnail": "assets/icons/ico-spatial-codex.svg"
+            },
+            {
+              "@id": "https://entity.api.hubmapconsortium.org/entities/7b2b9029035d46c4ef8306fa82c8e58e",
+              "@type": "Dataset",
+              "label": "Registered 10/10/2023, HuBMAP Process, TMC-Stanford",
+              "description": "Data/Assay Types: codex_cytokit, ",
+              "link": "https://portal.hubmapconsortium.org/browse/dataset/7b2b9029035d46c4ef8306fa82c8e58e",
               "technology": "CODEX",
               "thumbnail": "assets/icons/ico-spatial-codex.svg"
             }

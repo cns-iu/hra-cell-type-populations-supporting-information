@@ -7,7 +7,7 @@ const OUTPUT = '../data/cell-summary-similarities.jsonl.gz';
 const allSummaries = [
   '../data/dataset-cell-summaries.jsonld',
   '../data/as-cell-summaries.jsonld',
-  '../data/rui-location-cell-summaries.jsonld',
+  '../data/rui-location-as-cell-summaries.jsonld',
 ]
   .map((path) => JSON.parse(readFileSync(path))['@graph'])
   .reduce((acc, arr) => acc.concat(arr), [])

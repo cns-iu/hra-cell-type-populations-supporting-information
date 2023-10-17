@@ -75,4 +75,4 @@ WHERE {
     BIND(REPLACE(REPLACE(STR(?organIriB), 'http://purl.obolibrary.org/obo/UBERON_', 'UBERON:'), 'http://purl.org/sig/ont/fma/fma', 'FMA:') as ?organIdB)
   }
 }
-ORDER BY DESC(?similarity)
+# ORDER BY DESC(?similarity)

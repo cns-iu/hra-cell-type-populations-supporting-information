@@ -14534,7 +14534,8 @@
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/4102d375082e94a2d4d0df1f49dcc37c> ;
     ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/datasets.jsonld#HBM288.BBKK.828>,
-        <https://entity.api.hubmapconsortium.org/entities/7500e7f02589f4b4e55641f09723c3de> ;
+        <https://entity.api.hubmapconsortium.org/entities/7500e7f02589f4b4e55641f09723c3de>,
+        <https://entity.api.hubmapconsortium.org/entities/7b2b9029035d46c4ef8306fa82c8e58e> ;
     ccf:has_registration_location <http://purl.org/ccf/1.5/8e8d9121-3a47-4c89-9e63-aec6659075d2> ;
     ccf:sample_type "Tissue Block" ;
     ccf:section_count 1 ;
@@ -14808,6 +14809,7 @@
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a> ;
     ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/datasets.jsonld#HBM679.NNNK.283>,
+        <https://entity.api.hubmapconsortium.org/entities/00cc71c7e1cddac60e794044079faeee>,
         <https://entity.api.hubmapconsortium.org/entities/1f9e84f5306c1cc75db6018ef7c4dd9e>,
         <https://entity.api.hubmapconsortium.org/entities/24f6fc63d7f0444d459de7f419701e86>,
         <https://entity.api.hubmapconsortium.org/entities/96f5c73df89d553cda6547b508aee854>,
@@ -16443,6 +16445,7 @@
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a> ;
     ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/datasets.jsonld#HBM473.QGDG.848>,
         <https://entity.api.hubmapconsortium.org/entities/174c43df28ab2ab737471d00a65d7730>,
+        <https://entity.api.hubmapconsortium.org/entities/4158174807d97dccbd75d0b162edd9a3>,
         <https://entity.api.hubmapconsortium.org/entities/a30ca61a0fcf7b01ec4f50dca01cf026>,
         <https://entity.api.hubmapconsortium.org/entities/b3f58fda455a8ff1b4c839c9bf4d8fbf>,
         <https://entity.api.hubmapconsortium.org/entities/c30a75c9f3188b8ee551f0382e213eeb>,
@@ -17096,6 +17099,7 @@
     rdfs:label "Registered 6/8/2022, daniel cotter, TMC-Stanford" ;
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0> ;
     ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/datasets.jsonld#HBM284.SBPR.357>,
+        <https://entity.api.hubmapconsortium.org/entities/550f3ef14b113c24fd21b8b0750bf078>,
         <https://entity.api.hubmapconsortium.org/entities/6751b407aa567865e4aa0bff3bd80a78>,
         <https://entity.api.hubmapconsortium.org/entities/8c41357a4553093b22377fbee838218e>,
         <https://entity.api.hubmapconsortium.org/entities/a9d4471b41cd0d8185e12dd6c5a48e96>,
@@ -18094,6 +18098,7 @@
     rdfs:label "Registered 6/8/2022, Daniel Cotter, TMC-Stanford" ;
     ccf:comes_from <https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589> ;
     ccf:generates_dataset <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/datasets.jsonld#HBM666.NDQZ.365>,
+        <https://entity.api.hubmapconsortium.org/entities/0173b4e2b3f576109a5aca880a3bdadc>,
         <https://entity.api.hubmapconsortium.org/entities/27b0957d7c43322c272882937c0b94ea>,
         <https://entity.api.hubmapconsortium.org/entities/5ecc0cf41f4e64118d61fcddaeb981bc>,
         <https://entity.api.hubmapconsortium.org/entities/69ede86e15f4c129ca8eff2bb9940b36>,
@@ -27415,6 +27420,13 @@ ccf:NAE9 a ccf:Donor ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/00ca76f45eb3e75156f62e1546f979bc" ;
     rdfs:comment "Data/Assay Types: SNAREseq, " .
 
+<https://entity.api.hubmapconsortium.org/entities/00cc71c7e1cddac60e794044079faeee> a ccf:Dataset ;
+    rdfs:label "Registered 10/10/2023, HuBMAP Process, TMC-Stanford" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-spatial-codex.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/00cc71c7e1cddac60e794044079faeee" ;
+    rdfs:comment "Data/Assay Types: codex_cytokit, " .
+
 <https://entity.api.hubmapconsortium.org/entities/00d1a3623dac388773bc7780fcb42797> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Hunter Hakimian, TMC-Florida" ;
     ccf:technology "CODEX" ;
@@ -27491,6 +27503,13 @@ ccf:NAE9 a ccf:Donor ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/015ee234392256bfdb315299622ccb87" ;
     rdfs:comment "Data/Assay Types: SNARE-RNAseq2, " .
+
+<https://entity.api.hubmapconsortium.org/entities/0173b4e2b3f576109a5aca880a3bdadc> a ccf:Dataset ;
+    rdfs:label "Registered 10/10/2023, HuBMAP Process, TMC-Stanford" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-spatial-codex.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/0173b4e2b3f576109a5aca880a3bdadc" ;
+    rdfs:comment "Data/Assay Types: codex_cytokit, " .
 
 <https://entity.api.hubmapconsortium.org/entities/01844e5a048e03aa434ee0afb71c813d> a ccf:Dataset ;
     rdfs:label "Registered 9/7/2023, Jason Brant, TMC-Florida" ;
@@ -29839,6 +29858,13 @@ ccf:NAE9 a ccf:Donor ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/175b11839733a2f767fea1fd2b6741f2" ;
     rdfs:comment "22 x 12 x 15 millimeter, 15 millimeter, block" .
 
+<https://entity.api.hubmapconsortium.org/entities/176edb4b0e16059522f6f087576fbeec> a ccf:Dataset ;
+    rdfs:label "Registered 10/11/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/176edb4b0e16059522f6f087576fbeec" ;
+    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
+
 <https://entity.api.hubmapconsortium.org/entities/1789590e753b67b472fd1cf786717d7f> a ccf:Dataset ;
     rdfs:label "Registered 2/12/2022, Jeff Spraggins, TMC-Vanderbilt" ;
     ccf:technology "LC" ;
@@ -30134,6 +30160,7 @@ ccf:NAE9 a ccf:Donor ;
         <https://entity.api.hubmapconsortium.org/entities/3152ddcb811d362113ebb119602f2cd4>,
         <https://entity.api.hubmapconsortium.org/entities/3c3daa288cf42d1b9c93b908c4d4ee14>,
         <https://entity.api.hubmapconsortium.org/entities/3fe18ec025f612ca2c5308d4c234da50>,
+        <https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0>,
         <https://entity.api.hubmapconsortium.org/entities/522946aff94472407987b9ffb9d1b971>,
         <https://entity.api.hubmapconsortium.org/entities/653442dbfa883918f5bf1dae5ae04dc6>,
         <https://entity.api.hubmapconsortium.org/entities/8114e44eb6db2811bd22b87393831c5f>,
@@ -31368,6 +31395,7 @@ ccf:NAE9 a ccf:Donor ;
         <https://entity.api.hubmapconsortium.org/entities/8039d84a87da24a6917aae5623daff19>,
         <https://entity.api.hubmapconsortium.org/entities/8e5c8f0cc61aad4fcbc5cc119bdf4c96>,
         <https://entity.api.hubmapconsortium.org/entities/a2bf1303a535bba11900932213b0f987>,
+        <https://entity.api.hubmapconsortium.org/entities/a39fed027b51d97f83cec90c63c44744>,
         <https://entity.api.hubmapconsortium.org/entities/a7612d7bb369391b04eeca67f46df883>,
         <https://entity.api.hubmapconsortium.org/entities/a8652e9e3c545e61e1ffe9d54a8f1fd2>,
         <https://entity.api.hubmapconsortium.org/entities/a8959b401a2a5fd70a85651404068b73>,
@@ -31385,6 +31413,7 @@ ccf:NAE9 a ccf:Donor ;
         <https://entity.api.hubmapconsortium.org/entities/d615cc96a8606bb6819bed2a8d7f24ac>,
         <https://entity.api.hubmapconsortium.org/entities/d74c1643f3f4c22a4758e5931029ed75>,
         <https://entity.api.hubmapconsortium.org/entities/d90737b6f1563e164f8a30b4315205a0>,
+        <https://entity.api.hubmapconsortium.org/entities/dd648e4648238b25a7d1062669ea89af>,
         <https://entity.api.hubmapconsortium.org/entities/dd7adfb071228435eb2bb1699148a1de>,
         <https://entity.api.hubmapconsortium.org/entities/e81c9c9753998b2ca69e8bceadf2409d>,
         <https://entity.api.hubmapconsortium.org/entities/e8efba8d06360eeba199f195da80f01d>,
@@ -33581,6 +33610,13 @@ ccf:NAE9 a ccf:Donor ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4152e68d6b2b157c33f1d2858c959066" ;
     rdfs:comment "Data/Assay Types: sn_atac_seq_multiome_10x, " .
 
+<https://entity.api.hubmapconsortium.org/entities/4158174807d97dccbd75d0b162edd9a3> a ccf:Dataset ;
+    rdfs:label "Registered 10/10/2023, HuBMAP Process, TMC-Stanford" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-spatial-codex.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4158174807d97dccbd75d0b162edd9a3" ;
+    rdfs:comment "Data/Assay Types: codex_cytokit, " .
+
 <https://entity.api.hubmapconsortium.org/entities/41853e5163279731c4a39f1c68e2433a> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
     ccf:technology "OTHER" ;
@@ -33748,6 +33784,13 @@ ccf:NAE9 a ccf:Donor ;
     ccf:thumbnail "assets/icons/ico-bulk-10x.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/434fbc55d458dc4e06da9ba4961f3840" ;
     rdfs:comment "Data/Assay Types: salmon_sn_rnaseq_10x, " .
+
+<https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0> a ccf:Dataset ;
+    rdfs:label "Registered 10/11/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/4369a119a9c06ea304003a5c3cb3a2e0" ;
+    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
 
 <https://entity.api.hubmapconsortium.org/entities/438f7ba3b54f4020e8cbd852594aaca3> a ccf:Dataset ;
     rdfs:label "Registered 5/11/2022, Juan Puerto, TMC-UCSD" ;
@@ -35481,6 +35524,13 @@ ccf:NAE9 a ccf:Donor ;
     ccf:thumbnail "assets/icons/ico-spatial-af.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/54ef9a03bc7abbedc60a261bf49e1119" ;
     rdfs:comment "Data/Assay Types: AF, " .
+
+<https://entity.api.hubmapconsortium.org/entities/550f3ef14b113c24fd21b8b0750bf078> a ccf:Dataset ;
+    rdfs:label "Registered 10/10/2023, HuBMAP Process, TMC-Stanford" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-spatial-codex.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/550f3ef14b113c24fd21b8b0750bf078" ;
+    rdfs:comment "Data/Assay Types: codex_cytokit, " .
 
 <https://entity.api.hubmapconsortium.org/entities/55452bd302046918eaeeffa62c5b5f03> a ccf:Dataset ;
     rdfs:label "Registered 8/17/2023, HuBMAP Process, Broad Institute RTI" ;
@@ -38814,6 +38864,13 @@ ccf:NAE9 a ccf:Donor ;
     ccf:url "https://portal.hubmapconsortium.org/browse/sample/7b2284a1b673317716cb02a3e23d910a" ;
     rdfs:comment "10 x 16 x 10 millimeter, 10 millimeter, block" .
 
+<https://entity.api.hubmapconsortium.org/entities/7b2b9029035d46c4ef8306fa82c8e58e> a ccf:Dataset ;
+    rdfs:label "Registered 10/10/2023, HuBMAP Process, TMC-Stanford" ;
+    ccf:technology "CODEX" ;
+    ccf:thumbnail "assets/icons/ico-spatial-codex.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/7b2b9029035d46c4ef8306fa82c8e58e" ;
+    rdfs:comment "Data/Assay Types: codex_cytokit, " .
+
 <https://entity.api.hubmapconsortium.org/entities/7b305b2622e8df7ed213b62982edfdb8> a ccf:Sample ;
     rdfs:label "Registered 11/10/2020, Jamie Allen, TMC-Vanderbilt" ;
     ccf:sample_type "Tissue Section" ;
@@ -41027,6 +41084,7 @@ ccf:NAE9 a ccf:Donor ;
 <https://entity.api.hubmapconsortium.org/entities/93ae03ede0ff261a8cb1f27345fabd3c> a ccf:Sample ;
     rdfs:label "Registered 8/18/2020, GLORIA PRYHUBER, TMC-UCSD" ;
     ccf:generates_dataset <https://entity.api.hubmapconsortium.org/entities/05197e30394fd88affff0a9c214c8c4c>,
+        <https://entity.api.hubmapconsortium.org/entities/176edb4b0e16059522f6f087576fbeec>,
         <https://entity.api.hubmapconsortium.org/entities/19274e67c639a003ffe17953fd6b55db>,
         <https://entity.api.hubmapconsortium.org/entities/1daf880dc1e795b49a94d45f84b1596d>,
         <https://entity.api.hubmapconsortium.org/entities/2274ffb25522c618f93af171afa73e59>,
@@ -42389,6 +42447,13 @@ ccf:NAE9 a ccf:Donor ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a39f501df340b605a58dc492f51c05db" ;
     rdfs:comment "Data/Assay Types: salmon_rnaseq_slideseq, " .
+
+<https://entity.api.hubmapconsortium.org/entities/a39fed027b51d97f83cec90c63c44744> a ccf:Dataset ;
+    rdfs:label "Registered 10/11/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/a39fed027b51d97f83cec90c63c44744" ;
+    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
 
 <https://entity.api.hubmapconsortium.org/entities/a3a54516ee59f7cc2ec52e098021bf4d> a ccf:Sample ;
     rdfs:label "Registered 1/12/2021, Liz McDonough, RTI-General Electric" ;
@@ -47573,6 +47638,13 @@ ccf:NAE9 a ccf:Donor ;
     ccf:thumbnail "assets/icons/ico-unknown.svg" ;
     ccf:url "https://portal.hubmapconsortium.org/browse/dataset/dd5ed97ff24af013f913ff99e0db599e" ;
     rdfs:comment "Data/Assay Types: snATACseq, " .
+
+<https://entity.api.hubmapconsortium.org/entities/dd648e4648238b25a7d1062669ea89af> a ccf:Dataset ;
+    rdfs:label "Registered 10/11/2023, HuBMAP Process, TMC-UCSD" ;
+    ccf:technology "OTHER" ;
+    ccf:thumbnail "assets/icons/ico-unknown.svg" ;
+    ccf:url "https://portal.hubmapconsortium.org/browse/dataset/dd648e4648238b25a7d1062669ea89af" ;
+    rdfs:comment "Data/Assay Types: salmon_rnaseq_snareseq, " .
 
 <https://entity.api.hubmapconsortium.org/entities/dd6bd7dcdac9a1267bfe408ba86351a2> a ccf:Dataset ;
     rdfs:label "Registered 6/14/2023, Joel Welling, TMC-Stanford" ;
