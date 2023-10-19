@@ -1,5 +1,5 @@
-#+ summary: Table S3
-#+ description: Anatomical Structures in HRA v1.3, cell types, and average/sum counts of CTs
+#+ summary: Table S4
+#+ description: (Spatial) Anatomical Structures in HRA v1.3, cell types, and average/sum counts of CTs
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -42,7 +42,7 @@ WHERE {
     	]
     ]
   	BIND (REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "V1.1", "") as ?organ)
-		FILTER (?modality = 'bulk')
+		FILTER (?modality = 'spatial')
 }
 GROUP BY ?organ ?as_label ?cell_label
 ORDER BY ?organ ?as_label ?cell_label
