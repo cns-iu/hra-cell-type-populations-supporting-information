@@ -11,11 +11,15 @@ PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
-SELECT DISTINCT ?sample ?dataset ?as (?shared_ds_cell_types / ?total_ds_cell_types as ?pct_hra_ct_overlap)
+SELECT DISTINCT ?sample ?dataset ?modality ?as (?shared_ds_cell_types / ?total_ds_cell_types as ?pct_hra_ct_overlap)
 WHERE {
   GRAPH ctpop:graph {
     ?sample ccf:generates_dataset ?dataset .
     ?sample ccf:has_registration_location ?rui_location .
+
+    ?dataset ccf:has_cell_summary [
+      ccf:modality ?modality ;
+    ] .
   }
 
   {

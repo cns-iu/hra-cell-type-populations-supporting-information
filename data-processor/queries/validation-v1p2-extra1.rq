@@ -11,14 +11,15 @@ PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
-SELECT DISTINCT ?as (?shared_as_cell_types / ?total_as_cell_types as ?pct_hra_ct_overlap)
+SELECT DISTINCT ?as ?modality (?shared_as_cell_types / ?total_as_cell_types as ?pct_hra_ct_overlap)
 WHERE {
 
   {
-    SELECT ?as (COUNT(DISTINCT(?cell_label)) as ?total_as_cell_types)
+    SELECT ?as ?modality (COUNT(DISTINCT(?cell_label)) as ?total_as_cell_types)
     WHERE {
       GRAPH ctpop:graph {
         ?as ccf:has_cell_summary [
+            ccf:modality ?modality ;
             ccf:has_cell_summary_row [
                 ccf:cell_label ?cell_label ;
             ]
@@ -35,14 +36,15 @@ WHERE {
         FILTER (?type = 'AS')
       }
     }
-    GROUP BY ?as
+    GROUP BY ?as ?modality
   }
 
   {
-    SELECT ?as (COUNT(DISTINCT(?cell_label)) as ?shared_as_cell_types)
+    SELECT ?as ?modality (COUNT(DISTINCT(?cell_label)) as ?shared_as_cell_types)
     WHERE {
       GRAPH ctpop:graph {
         ?as ccf:has_cell_summary [
+            ccf:modality ?modality ;
             ccf:has_cell_summary_row [
                 ccf:cell_id ?cell_id ;
                 ccf:cell_label ?cell_label ;
@@ -71,6 +73,7 @@ WHERE {
         }
       })
     }
-    GROUP BY ?dataset ?as
+    GROUP BY ?dataset ?modality ?as
   }
 }
+ORDER BY ?as ?modality

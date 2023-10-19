@@ -14,12 +14,16 @@ PREFIX rui: <http://purl.org/ccf/1.5/>
 SELECT DISTINCT
   (?dataset as ?id)
   (?organ as ?label)
-  ?dataset ?entity ?organ ?organId
+  ?dataset ?modality ?entity ?organ ?organId
 WHERE {
   GRAPH ctpop:graph {
     ?entity a ccf:SpatialEntity .
     ?sample ccf:has_registration_location ?entity ;
             ccf:generates_dataset ?dataset .
+
+    ?dataset ccf:has_cell_summary [
+      ccf:modality ?modality ;
+    ] .
   }
 
   {

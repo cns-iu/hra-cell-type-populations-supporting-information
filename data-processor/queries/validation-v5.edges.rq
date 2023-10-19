@@ -15,8 +15,8 @@ SELECT DISTINCT
   (?datasetA as ?source)
   (?datasetB as ?target)
   (?similarity as ?weight)
-  ?datasetA ?entityA ?organA ?organIdA
-  ?datasetB ?entityB ?organB ?organIdB
+  ?datasetA ?modalityA ?entityA ?organA ?organIdA
+  ?datasetB ?modalityB ?entityB ?organB ?organIdB
   ?similarity ?distance
 WHERE {
   GRAPH ctpop:graph {
@@ -31,6 +31,14 @@ WHERE {
     
     ?sampleB ccf:has_registration_location ?entityB ;
              ccf:generates_dataset ?datasetB .
+
+    ?datasetA ccf:has_cell_summary [
+      ccf:modality ?modalityA ;
+    ] .
+
+    ?datasetB ccf:has_cell_summary [
+      ccf:modality ?modalityB ;
+    ] .
   }
 
   GRAPH ctpop:distances {

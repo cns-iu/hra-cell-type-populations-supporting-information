@@ -12,11 +12,15 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?sample ?rui_location ?dataset ?similarity
+SELECT ?sample ?rui_location ?dataset ?modality ?similarity
 WHERE {
   GRAPH ctpop:graph {
     ?sample ccf:generates_dataset ?dataset .
     ?sample ccf:has_registration_location ?rui_location .
+
+    ?dataset ccf:has_cell_summary [
+      ccf:modality ?modality ;
+    ] .
 
     # Source is always lexigraphically less than target
     BIND(IF(STR(?dataset) < STR(?rui_location), ?rui_location, ?dataset) as ?source)
