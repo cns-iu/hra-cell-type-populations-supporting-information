@@ -41,7 +41,7 @@ WHERE {
             ccf:has_reference_organ ?ref_organ ;
     	]
     ]
-  	BIND (REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "V1.1", "") as ?organ)
+  	BIND (REPLACE(REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "Colon", "LargeIntestine"), "V1.1", "") as ?organ)
 		FILTER (?modality = 'spatial')
 }
 GROUP BY ?organ ?as_label ?cell_label

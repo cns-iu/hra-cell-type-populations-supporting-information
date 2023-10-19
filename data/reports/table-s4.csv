@@ -1,54 +1,4 @@
 organ,as_label,cell_label,cell_id,mean_cell_count,cell_count
-VHFColon,descending colon,B,https://purl.org/ccf/ASCTB-TEMP_b,4922,4922
-VHFColon,descending colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,4224,4224
-VHFColon,descending colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,4,4
-VHFColon,descending colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,2189,2189
-VHFColon,descending colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,48,48
-VHFColon,descending colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,2219,2219
-VHFColon,descending colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,3785,3785
-VHFColon,descending colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,1190,1190
-VHFColon,descending colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,3723,3723
-VHFColon,descending colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,9947,9947
-VHFColon,descending colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,5597,5597
-VHFColon,descending colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,700,700
-VHFColon,descending colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,920,920
-VHFColon,descending colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,318,318
-VHFColon,descending colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1717,1717
-VHFColon,descending colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,136,136
-VHFColon,descending colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,23,23
-VHFColon,descending colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,1049,1049
-VHFColon,descending colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,526,526
-VHFColon,descending colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,4,4
-VHFColon,descending colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,0,0
-VHFColon,descending colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1686,1686
-VHFColon,descending colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,2935,2935
-VHFColon,descending colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,943,943
-VHFColon,descending colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,2489,2489
-VHFColon,sigmoid colon,B,https://purl.org/ccf/ASCTB-TEMP_b,1,1
-VHFColon,sigmoid colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,24,24
-VHFColon,sigmoid colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,0,0
-VHFColon,sigmoid colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,16,16
-VHFColon,sigmoid colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,0,0
-VHFColon,sigmoid colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,16,16
-VHFColon,sigmoid colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,13,13
-VHFColon,sigmoid colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,91,91
-VHFColon,sigmoid colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1591,1591
-VHFColon,sigmoid colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,153,153
-VHFColon,sigmoid colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,41,41
-VHFColon,sigmoid colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,169,169
-VHFColon,sigmoid colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,500,500
-VHFColon,sigmoid colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,13,13
-VHFColon,sigmoid colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1155,1155
-VHFColon,sigmoid colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,0,0
-VHFColon,sigmoid colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,7,7
-VHFColon,sigmoid colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,1158,1158
-VHFColon,sigmoid colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,2,2
-VHFColon,sigmoid colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,27,27
-VHFColon,sigmoid colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,0,0
-VHFColon,sigmoid colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,0,0
-VHFColon,sigmoid colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,6810,6810
-VHFColon,sigmoid colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,2390,2390
-VHFColon,sigmoid colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,53,53
 VHFLargeIntestine,ascending colon,B,https://purl.org/ccf/ASCTB-TEMP_b,208,416
 VHFLargeIntestine,ascending colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,876,1752
 VHFLargeIntestine,ascending colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,0.5,1
@@ -99,56 +49,56 @@ VHFLargeIntestine,caecum,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1369,2738
 VHFLargeIntestine,caecum,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,2291,4582
 VHFLargeIntestine,caecum,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,2168.5,4337
 VHFLargeIntestine,caecum,TA,https://purl.org/ccf/ASCTB-TEMP_ta,897.5,1795
-VHFLargeIntestine,descending colon,B,https://purl.org/ccf/ASCTB-TEMP_b,4,4
-VHFLargeIntestine,descending colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,758,758
-VHFLargeIntestine,descending colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,2,2
-VHFLargeIntestine,descending colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,860,860
-VHFLargeIntestine,descending colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,43,43
-VHFLargeIntestine,descending colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,672,672
-VHFLargeIntestine,descending colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,2072,2072
-VHFLargeIntestine,descending colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,433,433
-VHFLargeIntestine,descending colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1126,1126
-VHFLargeIntestine,descending colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,1896,1896
-VHFLargeIntestine,descending colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,1448,1448
-VHFLargeIntestine,descending colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,338,338
-VHFLargeIntestine,descending colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,607,607
-VHFLargeIntestine,descending colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,8,8
-VHFLargeIntestine,descending colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1177,1177
-VHFLargeIntestine,descending colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,367,367
-VHFLargeIntestine,descending colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,32,32
-VHFLargeIntestine,descending colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,409,409
-VHFLargeIntestine,descending colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,89,89
-VHFLargeIntestine,descending colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,371,371
+VHFLargeIntestine,descending colon,B,https://purl.org/ccf/ASCTB-TEMP_b,2463,4926
+VHFLargeIntestine,descending colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,2491,4982
+VHFLargeIntestine,descending colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,3,6
+VHFLargeIntestine,descending colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1524.5,3049
+VHFLargeIntestine,descending colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,45.5,91
+VHFLargeIntestine,descending colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,1445.5,2891
+VHFLargeIntestine,descending colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,2928.5,5857
+VHFLargeIntestine,descending colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,811.5,1623
+VHFLargeIntestine,descending colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,2424.5,4849
+VHFLargeIntestine,descending colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,5921.5,11843
+VHFLargeIntestine,descending colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,3522.5,7045
+VHFLargeIntestine,descending colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,519,1038
+VHFLargeIntestine,descending colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,763.5,1527
+VHFLargeIntestine,descending colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,163,326
+VHFLargeIntestine,descending colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1447,2894
+VHFLargeIntestine,descending colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,251.5,503
+VHFLargeIntestine,descending colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,27.5,55
+VHFLargeIntestine,descending colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,729,1458
+VHFLargeIntestine,descending colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,307.5,615
+VHFLargeIntestine,descending colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,187.5,375
 VHFLargeIntestine,descending colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,0,0
-VHFLargeIntestine,descending colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1773,1773
-VHFLargeIntestine,descending colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,2047,2047
-VHFLargeIntestine,descending colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3236,3236
-VHFLargeIntestine,descending colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,736,736
-VHFLargeIntestine,sigmoid colon,B,https://purl.org/ccf/ASCTB-TEMP_b,6,6
-VHFLargeIntestine,sigmoid colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,436,436
-VHFLargeIntestine,sigmoid colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,3,3
-VHFLargeIntestine,sigmoid colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1243,1243
-VHFLargeIntestine,sigmoid colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,11,11
-VHFLargeIntestine,sigmoid colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,418,418
-VHFLargeIntestine,sigmoid colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,1001,1001
-VHFLargeIntestine,sigmoid colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,443,443
-VHFLargeIntestine,sigmoid colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1288,1288
-VHFLargeIntestine,sigmoid colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,2480,2480
-VHFLargeIntestine,sigmoid colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,316,316
-VHFLargeIntestine,sigmoid colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,282,282
-VHFLargeIntestine,sigmoid colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,1258,1258
-VHFLargeIntestine,sigmoid colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,8,8
-VHFLargeIntestine,sigmoid colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,2425,2425
-VHFLargeIntestine,sigmoid colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,636,636
-VHFLargeIntestine,sigmoid colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,54,54
-VHFLargeIntestine,sigmoid colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,503,503
-VHFLargeIntestine,sigmoid colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,57,57
-VHFLargeIntestine,sigmoid colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,1235,1235
+VHFLargeIntestine,descending colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1729.5,3459
+VHFLargeIntestine,descending colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,2491,4982
+VHFLargeIntestine,descending colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,2089.5,4179
+VHFLargeIntestine,descending colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,1612.5,3225
+VHFLargeIntestine,sigmoid colon,B,https://purl.org/ccf/ASCTB-TEMP_b,3.5,7
+VHFLargeIntestine,sigmoid colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,230,460
+VHFLargeIntestine,sigmoid colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,1.5,3
+VHFLargeIntestine,sigmoid colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,629.5,1259
+VHFLargeIntestine,sigmoid colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,5.5,11
+VHFLargeIntestine,sigmoid colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,217,434
+VHFLargeIntestine,sigmoid colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,507,1014
+VHFLargeIntestine,sigmoid colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,267,534
+VHFLargeIntestine,sigmoid colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1439.5,2879
+VHFLargeIntestine,sigmoid colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,1316.5,2633
+VHFLargeIntestine,sigmoid colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,178.5,357
+VHFLargeIntestine,sigmoid colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,225.5,451
+VHFLargeIntestine,sigmoid colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,879,1758
+VHFLargeIntestine,sigmoid colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,10.5,21
+VHFLargeIntestine,sigmoid colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1790,3580
+VHFLargeIntestine,sigmoid colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,318,636
+VHFLargeIntestine,sigmoid colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,30.5,61
+VHFLargeIntestine,sigmoid colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,830.5,1661
+VHFLargeIntestine,sigmoid colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,29.5,59
+VHFLargeIntestine,sigmoid colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,631,1262
 VHFLargeIntestine,sigmoid colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,0,0
-VHFLargeIntestine,sigmoid colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,217,217
-VHFLargeIntestine,sigmoid colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,3245,3245
-VHFLargeIntestine,sigmoid colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3366,3366
-VHFLargeIntestine,sigmoid colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,270,270
+VHFLargeIntestine,sigmoid colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,108.5,217
+VHFLargeIntestine,sigmoid colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,5027.5,10055
+VHFLargeIntestine,sigmoid colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,2878,5756
+VHFLargeIntestine,sigmoid colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,161.5,323
 VHFLargeIntestine,transverse colon,B,https://purl.org/ccf/ASCTB-TEMP_b,97.5,195
 VHFLargeIntestine,transverse colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,1048,2096
 VHFLargeIntestine,transverse colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,3,6
@@ -353,131 +303,131 @@ VHFSmallIntestine,superior part of duodenum,Plasma,https://purl.org/ccf/ASCTB-TE
 VHFSmallIntestine,superior part of duodenum,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,3632,7264
 VHFSmallIntestine,superior part of duodenum,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,2949.5,5899
 VHFSmallIntestine,superior part of duodenum,TA,https://purl.org/ccf/ASCTB-TEMP_ta,1441,2882
-VHMColon,ascending colon,B,https://purl.org/ccf/ASCTB-TEMP_b,381.83333333333333333333,2291
-VHMColon,ascending colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,1443,8658
-VHMColon,ascending colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,10.83333333333333333333,65
-VHMColon,ascending colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1431,8586
-VHMColon,ascending colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,43.83333333333333333333,263
-VHMColon,ascending colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,1522,9132
-VHMColon,ascending colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,1175.5,7053
-VHMColon,ascending colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,593.66666666666666666667,3562
-VHMColon,ascending colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,2369.33333333333333333333,14216
-VHMColon,ascending colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,5087.33333333333333333333,30524
-VHMColon,ascending colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,1917.66666666666666666667,11506
-VHMColon,ascending colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,475.5,2853
-VHMColon,ascending colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,932.33333333333333333333,5594
-VHMColon,ascending colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,341.5,2049
-VHMColon,ascending colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1430.66666666666666666667,8584
-VHMColon,ascending colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,371,2226
-VHMColon,ascending colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,61.5,369
-VHMColon,ascending colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,1140.83333333333333333333,6845
-VHMColon,ascending colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,151.33333333333333333333,908
-VHMColon,ascending colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,270,1620
-VHMColon,ascending colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,2.83333333333333333333,17
-VHMColon,ascending colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1905.83333333333333333333,11435
-VHMColon,ascending colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,6996.5,41979
-VHMColon,ascending colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3165,18990
-VHMColon,ascending colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,700.66666666666666666667,4204
-VHMColon,descending colon,B,https://purl.org/ccf/ASCTB-TEMP_b,296.14285714285714285714,2073
-VHMColon,descending colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,1723.42857142857142857143,12064
-VHMColon,descending colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,5.71428571428571428571,40
-VHMColon,descending colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1106.14285714285714285714,7743
-VHMColon,descending colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,82,574
-VHMColon,descending colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,1575.42857142857142857143,11028
-VHMColon,descending colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,1965.71428571428571428571,13760
-VHMColon,descending colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,587.28571428571428571429,4111
-VHMColon,descending colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,2511.14285714285714285714,17578
-VHMColon,descending colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,6383.57142857142857142857,44685
-VHMColon,descending colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,3785.85714285714285714286,26501
-VHMColon,descending colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,504.57142857142857142857,3532
-VHMColon,descending colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,983.42857142857142857143,6884
-VHMColon,descending colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,409.71428571428571428571,2868
-VHMColon,descending colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1685.57142857142857142857,11799
-VHMColon,descending colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,270.42857142857142857143,1893
-VHMColon,descending colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,96.28571428571428571429,674
-VHMColon,descending colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,1804.71428571428571428571,12633
-VHMColon,descending colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,189.85714285714285714286,1329
-VHMColon,descending colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,78.42857142857142857143,549
-VHMColon,descending colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,1.14285714285714285714,8
-VHMColon,descending colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,2430.42857142857142857143,17013
-VHMColon,descending colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,8816.14285714285714285714,61713
-VHMColon,descending colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3879.28571428571428571429,27155
-VHMColon,descending colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,1064.42857142857142857143,7451
-VHMColon,rectum,B,https://purl.org/ccf/ASCTB-TEMP_b,583.66666666666666666667,3502
-VHMColon,rectum,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,1288,7728
-VHMColon,rectum,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,9.83333333333333333333,59
-VHMColon,rectum,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1012.83333333333333333333,6077
-VHMColon,rectum,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,62.16666666666666666667,373
-VHMColon,rectum,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,950.66666666666666666667,5704
-VHMColon,rectum,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,823.83333333333333333333,4943
-VHMColon,rectum,DC,https://purl.org/ccf/ASCTB-TEMP_dc,582.5,3495
-VHMColon,rectum,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1957.33333333333333333333,11744
-VHMColon,rectum,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,3749.5,22497
-VHMColon,rectum,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,2607.83333333333333333333,15647
-VHMColon,rectum,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,390,2340
-VHMColon,rectum,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,857.16666666666666666667,5143
-VHMColon,rectum,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,202.5,1215
-VHMColon,rectum,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1652,9912
-VHMColon,rectum,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,226.83333333333333333333,1361
-VHMColon,rectum,NK,https://purl.org/ccf/ASCTB-TEMP_nk,58.16666666666666666667,349
-VHMColon,rectum,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,958.33333333333333333333,5750
-VHMColon,rectum,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,162.33333333333333333333,974
-VHMColon,rectum,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,134.5,807
-VHMColon,rectum,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,1,6
-VHMColon,rectum,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1527.83333333333333333333,9167
-VHMColon,rectum,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,7353.16666666666666666667,44119
-VHMColon,rectum,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3468.83333333333333333333,20813
-VHMColon,rectum,TA,https://purl.org/ccf/ASCTB-TEMP_ta,750.66666666666666666667,4504
-VHMColon,sigmoid colon,B,https://purl.org/ccf/ASCTB-TEMP_b,583.66666666666666666667,3502
-VHMColon,sigmoid colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,1288,7728
-VHMColon,sigmoid colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,9.83333333333333333333,59
-VHMColon,sigmoid colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1012.83333333333333333333,6077
-VHMColon,sigmoid colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,62.16666666666666666667,373
-VHMColon,sigmoid colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,950.66666666666666666667,5704
-VHMColon,sigmoid colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,823.83333333333333333333,4943
-VHMColon,sigmoid colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,582.5,3495
-VHMColon,sigmoid colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1957.33333333333333333333,11744
-VHMColon,sigmoid colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,3749.5,22497
-VHMColon,sigmoid colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,2607.83333333333333333333,15647
-VHMColon,sigmoid colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,390,2340
-VHMColon,sigmoid colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,857.16666666666666666667,5143
-VHMColon,sigmoid colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,202.5,1215
-VHMColon,sigmoid colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1652,9912
-VHMColon,sigmoid colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,226.83333333333333333333,1361
-VHMColon,sigmoid colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,58.16666666666666666667,349
-VHMColon,sigmoid colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,958.33333333333333333333,5750
-VHMColon,sigmoid colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,162.33333333333333333333,974
-VHMColon,sigmoid colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,134.5,807
-VHMColon,sigmoid colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,1,6
-VHMColon,sigmoid colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1527.83333333333333333333,9167
-VHMColon,sigmoid colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,7353.16666666666666666667,44119
-VHMColon,sigmoid colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3468.83333333333333333333,20813
-VHMColon,sigmoid colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,750.66666666666666666667,4504
-VHMColon,transverse colon,B,https://purl.org/ccf/ASCTB-TEMP_b,206.8,1034
-VHMColon,transverse colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,987.4,4937
-VHMColon,transverse colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,7.4,37
-VHMColon,transverse colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1501.8,7509
-VHMColon,transverse colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,27.6,138
-VHMColon,transverse colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,1011.6,5058
-VHMColon,transverse colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,590.2,2951
-VHMColon,transverse colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,362,1810
-VHMColon,transverse colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1954,9770
-VHMColon,transverse colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,3758.2,18791
-VHMColon,transverse colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,1485.2,7426
-VHMColon,transverse colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,365.8,1829
-VHMColon,transverse colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,725.6,3628
-VHMColon,transverse colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,404.4,2022
-VHMColon,transverse colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1142,5710
-VHMColon,transverse colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,193.8,969
-VHMColon,transverse colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,42.4,212
-VHMColon,transverse colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,710,3550
-VHMColon,transverse colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,58.2,291
-VHMColon,transverse colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,114.4,572
-VHMColon,transverse colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,1.4,7
-VHMColon,transverse colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1436.6,7183
-VHMColon,transverse colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,3694.2,18471
-VHMColon,transverse colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,2332.8,11664
-VHMColon,transverse colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,280.6,1403
+VHMLargeIntestine,ascending colon,B,https://purl.org/ccf/ASCTB-TEMP_b,381.83333333333333333333,2291
+VHMLargeIntestine,ascending colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,1443,8658
+VHMLargeIntestine,ascending colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,10.83333333333333333333,65
+VHMLargeIntestine,ascending colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1431,8586
+VHMLargeIntestine,ascending colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,43.83333333333333333333,263
+VHMLargeIntestine,ascending colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,1522,9132
+VHMLargeIntestine,ascending colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,1175.5,7053
+VHMLargeIntestine,ascending colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,593.66666666666666666667,3562
+VHMLargeIntestine,ascending colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,2369.33333333333333333333,14216
+VHMLargeIntestine,ascending colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,5087.33333333333333333333,30524
+VHMLargeIntestine,ascending colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,1917.66666666666666666667,11506
+VHMLargeIntestine,ascending colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,475.5,2853
+VHMLargeIntestine,ascending colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,932.33333333333333333333,5594
+VHMLargeIntestine,ascending colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,341.5,2049
+VHMLargeIntestine,ascending colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1430.66666666666666666667,8584
+VHMLargeIntestine,ascending colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,371,2226
+VHMLargeIntestine,ascending colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,61.5,369
+VHMLargeIntestine,ascending colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,1140.83333333333333333333,6845
+VHMLargeIntestine,ascending colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,151.33333333333333333333,908
+VHMLargeIntestine,ascending colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,270,1620
+VHMLargeIntestine,ascending colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,2.83333333333333333333,17
+VHMLargeIntestine,ascending colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1905.83333333333333333333,11435
+VHMLargeIntestine,ascending colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,6996.5,41979
+VHMLargeIntestine,ascending colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3165,18990
+VHMLargeIntestine,ascending colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,700.66666666666666666667,4204
+VHMLargeIntestine,descending colon,B,https://purl.org/ccf/ASCTB-TEMP_b,296.14285714285714285714,2073
+VHMLargeIntestine,descending colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,1723.42857142857142857143,12064
+VHMLargeIntestine,descending colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,5.71428571428571428571,40
+VHMLargeIntestine,descending colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1106.14285714285714285714,7743
+VHMLargeIntestine,descending colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,82,574
+VHMLargeIntestine,descending colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,1575.42857142857142857143,11028
+VHMLargeIntestine,descending colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,1965.71428571428571428571,13760
+VHMLargeIntestine,descending colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,587.28571428571428571429,4111
+VHMLargeIntestine,descending colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,2511.14285714285714285714,17578
+VHMLargeIntestine,descending colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,6383.57142857142857142857,44685
+VHMLargeIntestine,descending colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,3785.85714285714285714286,26501
+VHMLargeIntestine,descending colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,504.57142857142857142857,3532
+VHMLargeIntestine,descending colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,983.42857142857142857143,6884
+VHMLargeIntestine,descending colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,409.71428571428571428571,2868
+VHMLargeIntestine,descending colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1685.57142857142857142857,11799
+VHMLargeIntestine,descending colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,270.42857142857142857143,1893
+VHMLargeIntestine,descending colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,96.28571428571428571429,674
+VHMLargeIntestine,descending colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,1804.71428571428571428571,12633
+VHMLargeIntestine,descending colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,189.85714285714285714286,1329
+VHMLargeIntestine,descending colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,78.42857142857142857143,549
+VHMLargeIntestine,descending colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,1.14285714285714285714,8
+VHMLargeIntestine,descending colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,2430.42857142857142857143,17013
+VHMLargeIntestine,descending colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,8816.14285714285714285714,61713
+VHMLargeIntestine,descending colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3879.28571428571428571429,27155
+VHMLargeIntestine,descending colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,1064.42857142857142857143,7451
+VHMLargeIntestine,rectum,B,https://purl.org/ccf/ASCTB-TEMP_b,583.66666666666666666667,3502
+VHMLargeIntestine,rectum,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,1288,7728
+VHMLargeIntestine,rectum,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,9.83333333333333333333,59
+VHMLargeIntestine,rectum,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1012.83333333333333333333,6077
+VHMLargeIntestine,rectum,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,62.16666666666666666667,373
+VHMLargeIntestine,rectum,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,950.66666666666666666667,5704
+VHMLargeIntestine,rectum,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,823.83333333333333333333,4943
+VHMLargeIntestine,rectum,DC,https://purl.org/ccf/ASCTB-TEMP_dc,582.5,3495
+VHMLargeIntestine,rectum,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1957.33333333333333333333,11744
+VHMLargeIntestine,rectum,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,3749.5,22497
+VHMLargeIntestine,rectum,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,2607.83333333333333333333,15647
+VHMLargeIntestine,rectum,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,390,2340
+VHMLargeIntestine,rectum,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,857.16666666666666666667,5143
+VHMLargeIntestine,rectum,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,202.5,1215
+VHMLargeIntestine,rectum,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1652,9912
+VHMLargeIntestine,rectum,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,226.83333333333333333333,1361
+VHMLargeIntestine,rectum,NK,https://purl.org/ccf/ASCTB-TEMP_nk,58.16666666666666666667,349
+VHMLargeIntestine,rectum,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,958.33333333333333333333,5750
+VHMLargeIntestine,rectum,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,162.33333333333333333333,974
+VHMLargeIntestine,rectum,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,134.5,807
+VHMLargeIntestine,rectum,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,1,6
+VHMLargeIntestine,rectum,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1527.83333333333333333333,9167
+VHMLargeIntestine,rectum,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,7353.16666666666666666667,44119
+VHMLargeIntestine,rectum,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3468.83333333333333333333,20813
+VHMLargeIntestine,rectum,TA,https://purl.org/ccf/ASCTB-TEMP_ta,750.66666666666666666667,4504
+VHMLargeIntestine,sigmoid colon,B,https://purl.org/ccf/ASCTB-TEMP_b,583.66666666666666666667,3502
+VHMLargeIntestine,sigmoid colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,1288,7728
+VHMLargeIntestine,sigmoid colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,9.83333333333333333333,59
+VHMLargeIntestine,sigmoid colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1012.83333333333333333333,6077
+VHMLargeIntestine,sigmoid colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,62.16666666666666666667,373
+VHMLargeIntestine,sigmoid colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,950.66666666666666666667,5704
+VHMLargeIntestine,sigmoid colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,823.83333333333333333333,4943
+VHMLargeIntestine,sigmoid colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,582.5,3495
+VHMLargeIntestine,sigmoid colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1957.33333333333333333333,11744
+VHMLargeIntestine,sigmoid colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,3749.5,22497
+VHMLargeIntestine,sigmoid colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,2607.83333333333333333333,15647
+VHMLargeIntestine,sigmoid colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,390,2340
+VHMLargeIntestine,sigmoid colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,857.16666666666666666667,5143
+VHMLargeIntestine,sigmoid colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,202.5,1215
+VHMLargeIntestine,sigmoid colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1652,9912
+VHMLargeIntestine,sigmoid colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,226.83333333333333333333,1361
+VHMLargeIntestine,sigmoid colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,58.16666666666666666667,349
+VHMLargeIntestine,sigmoid colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,958.33333333333333333333,5750
+VHMLargeIntestine,sigmoid colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,162.33333333333333333333,974
+VHMLargeIntestine,sigmoid colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,134.5,807
+VHMLargeIntestine,sigmoid colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,1,6
+VHMLargeIntestine,sigmoid colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1527.83333333333333333333,9167
+VHMLargeIntestine,sigmoid colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,7353.16666666666666666667,44119
+VHMLargeIntestine,sigmoid colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,3468.83333333333333333333,20813
+VHMLargeIntestine,sigmoid colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,750.66666666666666666667,4504
+VHMLargeIntestine,transverse colon,B,https://purl.org/ccf/ASCTB-TEMP_b,206.8,1034
+VHMLargeIntestine,transverse colon,CD4+ T cell,https://purl.org/ccf/ASCTB-TEMP_cd4-t-cell,987.4,4937
+VHMLargeIntestine,transverse colon,CD57+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd57-enterocyte,7.4,37
+VHMLargeIntestine,transverse colon,CD66+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_cd66-enterocyte,1501.8,7509
+VHMLargeIntestine,transverse colon,CD7+ Immune,https://purl.org/ccf/ASCTB-TEMP_cd7-immune,27.6,138
+VHMLargeIntestine,transverse colon,CD8+ T,https://purl.org/ccf/ASCTB-TEMP_cd8-t,1011.6,5058
+VHMLargeIntestine,transverse colon,Cycling TA,https://purl.org/ccf/ASCTB-TEMP_cycling-ta,590.2,2951
+VHMLargeIntestine,transverse colon,DC,https://purl.org/ccf/ASCTB-TEMP_dc,362,1810
+VHMLargeIntestine,transverse colon,Endothelial,https://purl.org/ccf/ASCTB-TEMP_endothelial,1954,9770
+VHMLargeIntestine,transverse colon,Enterocyte,https://purl.org/ccf/ASCTB-TEMP_enterocyte,3758.2,18791
+VHMLargeIntestine,transverse colon,Goblet,https://purl.org/ccf/ASCTB-TEMP_goblet,1485.2,7426
+VHMLargeIntestine,transverse colon,ICC,https://purl.org/ccf/ASCTB-TEMP_icc,365.8,1829
+VHMLargeIntestine,transverse colon,Lymphatic,https://purl.org/ccf/ASCTB-TEMP_lymphatic,725.6,3628
+VHMLargeIntestine,transverse colon,M1 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m1-macrophage,404.4,2022
+VHMLargeIntestine,transverse colon,M2 Macrophage,https://purl.org/ccf/ASCTB-TEMP_m2-macrophage,1142,5710
+VHMLargeIntestine,transverse colon,MUC1+ Enterocyte,https://purl.org/ccf/ASCTB-TEMP_muc1-enterocyte,193.8,969
+VHMLargeIntestine,transverse colon,NK,https://purl.org/ccf/ASCTB-TEMP_nk,42.4,212
+VHMLargeIntestine,transverse colon,Nerve,https://purl.org/ccf/ASCTB-TEMP_nerve,710,3550
+VHMLargeIntestine,transverse colon,Neuroendocrine,https://purl.org/ccf/ASCTB-TEMP_neuroendocrine,58.2,291
+VHMLargeIntestine,transverse colon,Neutrophil,https://purl.org/ccf/ASCTB-TEMP_neutrophil,114.4,572
+VHMLargeIntestine,transverse colon,Paneth,https://purl.org/ccf/ASCTB-TEMP_paneth,1.4,7
+VHMLargeIntestine,transverse colon,Plasma,https://purl.org/ccf/ASCTB-TEMP_plasma,1436.6,7183
+VHMLargeIntestine,transverse colon,Smooth muscle,https://purl.org/ccf/ASCTB-TEMP_smooth-muscle,3694.2,18471
+VHMLargeIntestine,transverse colon,Stroma,https://purl.org/ccf/ASCTB-TEMP_stroma,2332.8,11664
+VHMLargeIntestine,transverse colon,TA,https://purl.org/ccf/ASCTB-TEMP_ta,280.6,1403
 VHMSkin,skin of body,CD68 / Macrophage,https://purl.org/ccf/ASCTB-TEMP_cd68-macrophage,106.2,531
 VHMSkin,skin of body,T-Killer,https://purl.org/ccf/ASCTB-TEMP_t-killer,38.6,193
 VHMSkin,skin of body,T-helper,https://purl.org/ccf/ASCTB-TEMP_t-helper,1027,5135
