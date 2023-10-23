@@ -21,6 +21,10 @@ for (const queryFile of globSync('queries/*.rq').sort()) {
   const isLarge = queryFile.endsWith('.lg.rq');
   
   const reportName = basename(queryFile, isLarge ? '.lg.rq' : '.rq');
+  if (process.argv.length === 3 && !reportName.includes(process.argv[2])) {
+    continue;
+  }
+
   const reportCsv = `../data/reports/${reportName}.csv`;
   console.log('Creating report:', reportName);
   
