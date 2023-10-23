@@ -11,13 +11,13 @@ PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
-SELECT
+SELECT DISTINCT 
   (?datasetA as ?source)
   (?datasetB as ?target)
   (?similarity as ?weight)
   ?datasetA ?modalityA ?entityA ?organA ?organIdA
   ?datasetB ?modalityB ?entityB ?organB ?organIdB
-  ?similarity
+  ?similarity ?distance
 WHERE {
   GRAPH ctpop:graph {
     ?entityA a ccf:SpatialEntity .
@@ -39,6 +39,13 @@ WHERE {
     ?datasetB ccf:has_cell_summary [
       ccf:modality ?modalityB ;
     ] .
+  }
+
+  GRAPH ctpop:distances {
+    [] a ccf:SpatialEntityDistance;
+      ccf:entity_a ?entityA ;
+      ccf:entity_b ?entityB ;
+      ccf:distance ?distance .
   }
 
   GRAPH ctpop:similarities {
