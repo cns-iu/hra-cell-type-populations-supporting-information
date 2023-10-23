@@ -31,14 +31,14 @@ WHERE {
       [] a ccf:SpatialEntityDistance;
         ccf:entity_a ?rui ;
         ccf:entity_b ?rui_location ;
-        ccf:distance ?distance .
+        ccf:distance ?distance1 .
     }
   } UNION {
     GRAPH ctpop:distances {
       [] a ccf:SpatialEntityDistance;
         ccf:entity_a ?rui_location ;
         ccf:entity_b ?rui ;
-        ccf:distance ?distance .
+        ccf:distance ?distance1 .
     }
   }
 
@@ -46,14 +46,17 @@ WHERE {
     GRAPH ctpop:similarities {
       [] ccf:cell_source_a ?dataset ;
          ccf:cell_source_b ?rui ;
-         ccf:similarity ?similarity .
+         ccf:similarity ?similarity1 .
     }
   } UNION {
     GRAPH ctpop:similarities {
       [] ccf:cell_source_a ?rui ;
          ccf:cell_source_b ?dataset ;
-         ccf:similarity ?similarity .
+         ccf:similarity ?similarity1 .
     }
   }
+
+  BIND(xsd:decimal(?distance1) as ?distance)
+  BIND(xsd:decimal(?similarity1) as ?similarity)
 }
 ORDER BY ?sample DESC(?similarity)
