@@ -12,7 +12,7 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?sample ?rui_location ?dataset ?modality ?similarity
+SELECT ?sample ?rui_location ?dataset ?modality ?organ ?organId ?similarity
 WHERE {
   GRAPH ctpop:graph {
     ?sample ccf:generates_dataset ?dataset .
@@ -22,9 +22,20 @@ WHERE {
       ccf:modality ?modality ;
     ] .
 
+    [] a ccf:SpatialPlacement ;
+      ccf:placement_for ?rui_location ;
+      ccf:placement_relative_to ?refOrgan .
+
     # Source is always lexigraphically less than target
     BIND(IF(STR(?dataset) < STR(?rui_location), ?rui_location, ?dataset) as ?source)
     BIND(IF(STR(?dataset) < STR(?rui_location), ?dataset, ?rui_location) as ?target)
+  }
+
+  GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
+    ?refOrgan ccf:representation_of ?organIri .
+    ?organIri rdfs:label ?organ .
+
+    BIND(REPLACE(REPLACE(STR(?organIri), 'http://purl.obolibrary.org/obo/UBERON_', 'UBERON:'), 'http://purl.org/sig/ont/fma/fma', 'FMA:') as ?organId)
   }
 
   GRAPH ctpop:similarities {

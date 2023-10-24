@@ -12,13 +12,15 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?dataset (?rui as ?corridor) ?similarity 
+SELECT ?dataset ?reported_organ (?rui as ?corridor) ?similarity 
 WHERE {
   { 
-    SELECT ?dataset 
+    SELECT ?dataset ?reported_organ
     WHERE {
       GRAPH ctpop:datasets {
-        ?dataset a ccf:Dataset .
+        ?dataset a ccf:Dataset ;
+          ctpop:reported_organ ?reported_organ
+        .
       }
       
       # Filter out datasets used in atlas construction

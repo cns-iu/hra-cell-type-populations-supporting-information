@@ -12,7 +12,7 @@ PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
 
-SELECT ?sample ?dataset ?modality ?as ?similarity ?as_in_collisions
+SELECT ?sample ?dataset ?modality ?organ ?organId ?as ?similarity ?as_in_collisions
 WHERE {
   GRAPH ctpop:graph {
     ?sample ccf:generates_dataset ?dataset .
@@ -21,6 +21,17 @@ WHERE {
     ?dataset ccf:has_cell_summary [
       ccf:modality ?modality ;
     ] .
+
+    [] a ccf:SpatialPlacement ;
+      ccf:placement_for ?rui_location ;
+      ccf:placement_relative_to ?refOrgan .
+  }
+
+  GRAPH <https://purl.org/ccf/releases/2.2.1/ccf.owl> {
+    ?refOrgan ccf:representation_of ?organIri .
+    ?organIri rdfs:label ?organ .
+
+    BIND(REPLACE(REPLACE(STR(?organIri), 'http://purl.obolibrary.org/obo/UBERON_', 'UBERON:'), 'http://purl.org/sig/ont/fma/fma', 'FMA:') as ?organId)
   }
 
   {
