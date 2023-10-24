@@ -140,7 +140,7 @@ function tryRelatedHbmIds(id, datasetIri, token) {
       },
     }),
   })
-    .catch((r) => ({ok: false}))
+    .catch((r) => ({ ok: false }))
     .then((r) => (r.ok ? r.json() : undefined))
     .then((r) => {
       if (!r || r.hits.hits.length === 0) return;
@@ -159,10 +159,11 @@ function tryRelatedHbmIds(id, datasetIri, token) {
 const allDatasets = await fetch(CSV_URL, { redirect: 'follow' })
   .then((r) => r.text())
   .then(
-    (r) => Papa.parse(r, { header: true, fields: FIELDS }).data
+    (r) => Papa.parse(r, { header: true /* fields: FIELDS */ }).data
     // .filter((row) => row.excluded_from_atlas_construction !== 'TRUE')
   );
 
+const datasetObjects = [];
 const results = [];
 for (const dataset of allDatasets) {
   let id;
@@ -189,6 +190,11 @@ for (const dataset of allDatasets) {
   // If data is found, add it to the growing list of registrations to output
   if (result) {
     results.push(result);
+    datasetObjects.push({
+      '@id': result.cell_source,
+      '@type': 'Dataset',
+      'ctpop:reported_organ': dataset.organ,
+    });
   } else {
     console.log(`Investigate ${dataset.source}: ${id}`);
   }
@@ -205,11 +211,6 @@ const jsonld = {
   '@graph': results,
 };
 writeFileSync(OUTPUT, JSON.stringify(jsonld, null, 2));
-
-const datasetObjects = results.map(d => ({
-  '@id': d['cell_source'],
-  '@type': 'Dataset'
-}));
 
 // Write out the new rui_locations.jsonld file
 const datasetsJsonld = {

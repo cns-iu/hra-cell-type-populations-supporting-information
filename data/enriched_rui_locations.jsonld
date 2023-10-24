@@ -584,6 +584,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -821,6 +822,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -1474,6 +1476,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -1683,6 +1686,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -2190,6 +2194,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -2335,7 +2340,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -2482,6 +2488,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -2557,7 +2564,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -2799,6 +2807,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -2888,6 +2897,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -3012,6 +3022,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -3185,7 +3196,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM834.MLPZ.788",
@@ -3196,7 +3208,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM985.TJZD.778",
@@ -3207,7 +3220,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 4,
@@ -3661,6 +3675,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -3988,6 +4003,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -4322,6 +4338,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -4642,6 +4659,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -4976,6 +4994,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -5317,6 +5336,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -5644,6 +5664,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -5985,6 +6006,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -6326,6 +6348,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -6632,6 +6655,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -6959,6 +6983,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -7307,6 +7332,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -7634,6 +7660,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -7940,6 +7967,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -8281,6 +8309,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -8629,6 +8658,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -8984,6 +9014,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -9325,6 +9356,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -9638,6 +9670,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -9951,6 +9984,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -10285,6 +10319,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -10626,6 +10661,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -10939,6 +10975,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -11280,6 +11317,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -11621,6 +11659,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -11934,6 +11973,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -12254,6 +12294,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -12595,6 +12636,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -13228,6 +13270,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -13471,6 +13514,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -13644,7 +13688,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM734.DSQM.939",
@@ -13655,7 +13700,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -13941,6 +13987,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -14170,7 +14217,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 0,
@@ -14588,6 +14636,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -14825,6 +14874,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -15238,6 +15288,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -15327,7 +15378,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -15506,6 +15558,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -15994,6 +16047,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -16132,7 +16186,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM265.NXDR.935",
@@ -16143,7 +16198,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM375.KNVL.645",
@@ -16154,7 +16210,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM398.CFZH.458",
@@ -16165,7 +16222,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM444.BXPJ.728",
@@ -16176,7 +16234,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM459.BBRT.432",
@@ -16187,7 +16246,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM523.FKWF.269",
@@ -16198,7 +16258,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM678.FRJC.827",
@@ -16209,7 +16270,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM723.QMLJ.829",
@@ -16220,7 +16282,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM797.PDPS.368",
@@ -16232,6 +16295,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -16517,7 +16581,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM922.KSKR.637",
@@ -16528,7 +16593,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM938.FTBC.347",
@@ -16539,7 +16605,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM984.LZDJ.635",
@@ -16550,7 +16617,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 3,
@@ -16699,6 +16767,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -16774,7 +16843,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -17071,6 +17141,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -17279,7 +17350,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 2,
@@ -17510,6 +17582,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -17669,7 +17742,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -17887,6 +17961,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -18004,7 +18079,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -18173,6 +18249,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -18283,7 +18360,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -18522,6 +18600,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -18653,7 +18732,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -18971,6 +19051,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -19207,7 +19288,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -19496,6 +19578,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -19711,7 +19794,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -20163,6 +20247,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -20442,6 +20527,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -21081,6 +21167,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -21248,6 +21335,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -21805,6 +21893,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -22041,6 +22130,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -22228,7 +22318,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM542.DVXG.466",
@@ -22239,7 +22330,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 11,
@@ -22699,6 +22791,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -22935,6 +23028,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -23186,6 +23280,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -23535,6 +23630,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -24237,6 +24333,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -24467,6 +24564,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -25117,6 +25215,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -25263,6 +25362,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -25962,6 +26062,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -26227,6 +26328,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -26890,6 +26992,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -27106,6 +27209,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -27719,6 +27823,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -27969,6 +28074,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -28212,7 +28318,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM476.PRMC.228",
@@ -28223,7 +28330,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -28554,6 +28662,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -28776,6 +28885,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -28942,7 +29052,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM876.KWMX.349",
@@ -28953,7 +29064,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -29270,6 +29382,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -29471,6 +29584,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -29651,7 +29765,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM729.HSHS.983",
@@ -29662,7 +29777,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -30053,6 +30169,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -30262,6 +30379,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -30804,6 +30922,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -30998,7 +31117,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -31350,6 +31470,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -31628,7 +31749,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -31916,6 +32038,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -32131,7 +32254,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -32468,6 +32592,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -32697,6 +32822,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -32912,7 +33038,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM729.TFXC.825",
@@ -32923,7 +33050,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -33200,6 +33328,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -33297,6 +33426,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -33853,6 +33983,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -34076,6 +34207,7 @@
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -34672,6 +34804,7 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -34880,7 +35013,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM288.RCTV.965",
@@ -34891,7 +35025,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM328.FTJW.669",
@@ -34902,7 +35037,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM349.KWMK.599",
@@ -34913,7 +35049,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM349.XPRZ.258",
@@ -34924,7 +35061,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM363.LDZL.423",
@@ -34935,7 +35073,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM445.NPKW.958",
@@ -34946,7 +35085,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM644.GBKD.967",
@@ -34957,7 +35097,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM695.XTNF.836",
@@ -34968,7 +35109,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM744.MBPT.666",
@@ -34979,7 +35121,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM777.SVZT.454",
@@ -34990,7 +35133,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM879.NCTL.468",
@@ -35001,7 +35145,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM939.CNSV.893",
@@ -35012,7 +35157,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 4,
@@ -35240,6 +35386,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -35378,7 +35525,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -35509,6 +35657,7 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -35556,7 +35705,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -35694,6 +35844,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -35840,7 +35991,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM368.FDDS.927",
@@ -35851,7 +36003,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM379.ZGKM.223",
@@ -35862,7 +36015,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM393.NWNB.684",
@@ -35873,7 +36027,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM587.JPLF.798",
@@ -35884,7 +36039,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM775.RVQX.376",
@@ -35895,7 +36051,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM882.KDTH.685",
@@ -35906,7 +36063,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM975.WHWM.552",
@@ -35917,7 +36075,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 2,
@@ -36012,7 +36171,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM443.TQKQ.624",
@@ -36023,7 +36183,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM673.WGZS.593",
@@ -36034,7 +36195,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM725.BRBB.566",
@@ -36045,7 +36207,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM775.HGSK.536",
@@ -36056,7 +36219,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             },
             {
               "@id": "ctpop-datasets:HBM955.DXVQ.765",
@@ -36067,7 +36231,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Kidney"
             }
           ],
           "section_count": 1,
@@ -36195,7 +36360,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -36308,7 +36474,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -36407,7 +36574,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -36506,7 +36674,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -36610,7 +36779,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -36706,7 +36876,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             },
             {
               "@id": "ctpop-datasets:HBM883.SPLD.238",
@@ -36717,7 +36888,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             },
             {
               "@id": "ctpop-datasets:HBM969.CJQL.629",
@@ -36728,7 +36900,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 4,
@@ -36821,7 +36994,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -36929,7 +37103,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -37069,7 +37244,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -37184,7 +37360,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -37299,7 +37476,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -37401,7 +37579,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -37512,7 +37691,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -37606,7 +37786,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -37718,7 +37899,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -38017,6 +38199,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -38472,6 +38655,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -38924,6 +39108,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -39381,6 +39566,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -39832,6 +40018,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -40288,6 +40475,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -40750,6 +40938,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -41202,6 +41391,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -41680,6 +41870,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -42140,6 +42331,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -42599,6 +42791,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -43061,6 +43254,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -43521,6 +43715,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -43972,6 +44167,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -44430,6 +44626,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -44882,6 +45079,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -45180,7 +45378,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -45286,7 +45485,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -45382,7 +45582,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -45481,7 +45682,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -45580,7 +45782,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -45868,6 +46071,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -46321,6 +46525,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -46775,6 +46980,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -47235,6 +47441,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -47697,6 +47904,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -48131,6 +48339,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -48591,6 +48800,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -49051,6 +49261,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -49347,7 +49558,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -49446,7 +49658,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -49556,7 +49769,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -49693,6 +49907,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -50018,6 +50233,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -50470,6 +50686,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -50930,6 +51147,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -51383,6 +51601,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -51843,6 +52062,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -52294,6 +52514,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -52747,6 +52968,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -53198,6 +53420,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -53487,7 +53710,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -53589,7 +53813,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -53688,7 +53913,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -53796,7 +54022,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -53895,7 +54122,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -54022,7 +54250,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -54124,7 +54353,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -54231,7 +54461,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -54324,7 +54555,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -54430,7 +54662,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -54523,7 +54756,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -54644,6 +54878,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -54810,7 +55045,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -54912,7 +55148,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -55014,7 +55251,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -55122,7 +55360,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -55225,7 +55464,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -55338,7 +55578,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -55431,7 +55672,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -55524,7 +55766,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -55650,7 +55893,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -55743,7 +55987,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -55836,7 +56081,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -55929,7 +56175,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 3,
@@ -56051,6 +56298,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -56198,7 +56446,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -56304,7 +56553,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -56441,6 +56691,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -56588,7 +56839,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -56678,7 +56930,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -56786,7 +57039,8 @@
               "technology": "10x",
               "thumbnail": "assets/icons/ico-bulk-10x.svg",
               "ctpop:hubmap_dataset_publication_status": "Unpublished",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung"
             }
           ],
           "section_count": 2,
@@ -56923,6 +57177,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -57072,7 +57327,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -57208,6 +57464,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -57382,6 +57639,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -57529,7 +57787,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -57625,7 +57884,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -57735,7 +57995,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -57872,6 +58133,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -58014,7 +58276,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:hubmap_dataset_publication_status": "Published",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart"
             }
           ],
           "section_count": 0,
@@ -58151,6 +58414,7 @@
               "ctpop:omap_id": "OMAP-4",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -58477,6 +58741,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -58927,6 +59192,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -59377,6 +59643,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -59827,6 +60094,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -60274,6 +60542,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -60720,6 +60989,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -61182,6 +61452,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -61629,6 +61900,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -62103,6 +62375,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -62553,6 +62826,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -63003,6 +63277,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "QA",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -63454,6 +63729,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "QA",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -63901,6 +64177,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -64347,6 +64624,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -64809,6 +65087,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -65256,6 +65535,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -65722,6 +66002,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -66171,6 +66452,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "QA",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -66621,6 +66903,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -67080,6 +67363,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -67537,6 +67821,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "QA",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -67984,6 +68269,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "QA",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -68445,6 +68731,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -68903,6 +69190,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "QA",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -69377,6 +69665,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -69827,6 +70116,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -70277,6 +70567,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -70727,6 +71018,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "QA",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Large_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -71174,6 +71466,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -71620,6 +71913,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "Published",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -72082,6 +72376,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "QA",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -72529,6 +72824,7 @@
               "ctpop:omap_id": "OMAP-2",
               "ctpop:hubmap_dataset_publication_status": "QA",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Small_Intestine",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -72823,7 +73119,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72834,7 +73131,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72845,7 +73143,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72856,7 +73155,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72867,7 +73167,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72878,7 +73179,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72889,7 +73191,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72900,7 +73203,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72911,7 +73215,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72922,7 +73227,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72933,7 +73239,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72944,7 +73251,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72955,7 +73263,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72966,7 +73275,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72977,7 +73287,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72988,7 +73299,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -72999,7 +73311,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73010,7 +73323,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73021,7 +73335,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73032,7 +73347,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73043,7 +73359,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73054,7 +73371,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73065,7 +73383,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73076,7 +73395,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73087,7 +73407,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73098,7 +73419,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73109,7 +73431,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             }
           ],
           "sections": []
@@ -73217,7 +73540,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73228,7 +73552,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73239,7 +73564,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73250,7 +73576,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73261,7 +73588,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73272,7 +73600,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73283,7 +73612,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73294,7 +73624,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73305,7 +73636,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73316,7 +73648,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73327,7 +73660,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73338,7 +73672,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73349,7 +73684,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73360,7 +73696,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73371,7 +73708,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73382,7 +73720,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73393,7 +73732,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73404,7 +73744,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73415,7 +73756,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             },
             {
               "@id": "ctpop-datasets:",
@@ -73426,7 +73768,8 @@
               "technology": "OTHER",
               "thumbnail": "assets/icons/ico-unknown.svg",
               "ctpop:doi": "10.1002/0471684228.egp00471",
-              "ctpop:excluded_from_atlas_construction": false
+              "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Brain"
             }
           ],
           "sections": []
@@ -73721,6 +74064,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -73897,6 +74241,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -74094,6 +74439,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -74256,6 +74602,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -74418,6 +74765,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -74608,6 +74956,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -74784,6 +75133,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -75254,6 +75604,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -75437,6 +75788,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -75620,6 +75972,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -75789,6 +76142,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -75993,6 +76347,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -76190,6 +76545,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -76387,6 +76743,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -76857,6 +77214,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -77012,6 +77370,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -77202,6 +77561,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -77371,6 +77731,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -77512,6 +77873,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -77688,6 +78050,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -77885,6 +78248,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -78362,6 +78726,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -78496,6 +78861,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -78693,6 +79059,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -78883,6 +79250,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -79080,6 +79448,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -79270,6 +79639,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -79467,6 +79837,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -79962,6 +80333,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -80159,6 +80531,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -80321,6 +80694,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -80483,6 +80857,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -80666,6 +81041,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -80863,6 +81239,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -81298,6 +81675,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -81446,6 +81824,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -81636,6 +82015,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -81826,6 +82206,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -82023,6 +82404,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -82213,6 +82595,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -82686,6 +83069,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -82883,6 +83267,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -83080,6 +83465,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -83284,6 +83670,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -83488,6 +83875,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -83678,6 +84066,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -83854,6 +84243,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -84322,6 +84712,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -84498,6 +84889,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -84702,6 +85094,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -84899,6 +85292,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -85096,6 +85490,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -85272,6 +85667,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -85455,6 +85851,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -85901,6 +86298,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -86091,6 +86489,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -86253,6 +86652,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -86457,6 +86857,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -86661,6 +87062,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -86851,6 +87253,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -87034,6 +87437,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -87509,6 +87913,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -87671,6 +88076,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -87847,6 +88253,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -88044,6 +88451,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -88248,6 +88656,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -88424,6 +88833,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -88579,6 +88989,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -89029,6 +89440,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -89233,6 +89645,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -89430,6 +89843,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -89634,6 +90048,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -89838,6 +90253,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -90035,6 +90451,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -90218,6 +90635,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -90698,6 +91116,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -90874,6 +91293,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -91043,6 +91463,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -91240,6 +91661,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -91437,6 +91859,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -91627,6 +92050,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -91817,6 +92241,7 @@
               "ctpop:doi": "10.1038/s41586-020-2797-4",
               "ctpop:is_azimuth_reference": "True",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -92178,6 +92603,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4291",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -92442,6 +92868,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4291",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Prostate",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -92512,6 +92939,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4292",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Prostate",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -92568,6 +92996,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4293",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Prostate",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -92638,6 +93067,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4294",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Prostate",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -92864,6 +93294,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4292",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Skin",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -93086,6 +93517,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4293",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Breast",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -93149,6 +93581,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4294",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Breast",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -93205,6 +93638,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4295",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Breast",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -93413,6 +93847,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4294",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -93483,6 +93918,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4295",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -93693,6 +94129,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4296",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -93756,6 +94193,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4298",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -93962,6 +94400,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4296",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Heart",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -94178,6 +94617,7 @@
               "ctpop:study_paper": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
               "ctpop:doi": "10.1126/science.abl4297",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -94551,6 +94991,7 @@
               "ctpop:study_paper": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
               "ctpop:doi": "10.7554/elife.62522",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -94761,6 +95202,7 @@
               "ctpop:study_paper": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
               "ctpop:doi": "10.7554/elife.62522",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -94971,6 +95413,7 @@
               "ctpop:study_paper": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
               "ctpop:doi": "10.7554/elife.62522",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -95188,6 +95631,7 @@
               "ctpop:study_paper": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
               "ctpop:doi": "10.7554/elife.62522",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -95708,6 +96152,7 @@
               "ctpop:study_paper": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
               "ctpop:doi": "10.7554/elife.62522",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -95911,6 +96356,7 @@
               "ctpop:study_paper": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
               "ctpop:doi": "10.7554/elife.62522",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -96121,6 +96567,7 @@
               "ctpop:study_paper": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
               "ctpop:doi": "10.7554/elife.62522",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -96338,6 +96785,7 @@
               "ctpop:study_paper": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
               "ctpop:doi": "10.7554/elife.62522",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",
@@ -96555,6 +97003,7 @@
               "ctpop:study_paper": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
               "ctpop:doi": "10.7554/elife.62522",
               "ctpop:excluded_from_atlas_construction": false,
+              "ctpop:reported_organ": "Lung",
               "summaries": [
                 {
                   "@type": "CellSummary",

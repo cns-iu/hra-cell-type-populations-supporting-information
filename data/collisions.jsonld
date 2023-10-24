@@ -13817,6 +13817,74 @@
     },
     {
       "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/67e5f7e1-7b82-4aff-890e-9f8fc1f5c89b",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLiver",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_gastric_impression_of_liver",
+          "as_id": "http://purl.org/sig/ont/fma/fma14487",
+          "as_label": "gastric impression of liver",
+          "as_volume": -15866.732228936044,
+          "percentage": 0.053
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLiver",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_diaphragmatic_surface",
+          "as_id": "http://purl.org/sig/ont/fma/fma15729",
+          "as_label": "diaphragmatic surface of liver",
+          "as_volume": 577734.6479917474,
+          "percentage": 0.384
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLiver",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_liver_capsule",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0016479",
+          "as_label": "capsule of the liver",
+          "as_volume": 74440.50778533508,
+          "percentage": 0.069
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/8eea8795-2c2f-4811-bf19-ceff62be1128",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLiver",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_gastric_impression_of_liver",
+          "as_id": "http://purl.org/sig/ont/fma/fma14487",
+          "as_label": "gastric impression of liver",
+          "as_volume": -15866.732228936044,
+          "percentage": 0.053
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLiver",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_diaphragmatic_surface",
+          "as_id": "http://purl.org/sig/ont/fma/fma15729",
+          "as_label": "diaphragmatic surface of liver",
+          "as_volume": 577734.6479917474,
+          "percentage": 0.384
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLiver",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_liver_capsule",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0016479",
+          "as_label": "capsule of the liver",
+          "as_volume": 74440.50778533508,
+          "percentage": 0.069
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5",
       "collision_method": "MESH",
       "collisions": [
@@ -14631,6 +14699,504 @@
     },
     {
       "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58272",
+          "as_label": "Left sclera",
+          "as_volume": -39.34325813115979,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -7.414285506449525,
+          "percentage": 0.012
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58299",
+          "as_label": "Right choroid",
+          "as_volume": -6.961480040771571,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58302",
+          "as_label": "Right retina",
+          "as_volume": -16.221543383821974,
+          "percentage": 0.001
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58300",
+          "as_label": "Left choroid",
+          "as_volume": -6.967994891227782,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -16.213926672536886,
+          "percentage": 0.002
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58302",
+          "as_label": "Right retina",
+          "as_volume": -7.576814448647918,
+          "percentage": 0.001
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58299",
+          "as_label": "Right choroid",
+          "as_volume": -6.961480040771571,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58302",
+          "as_label": "Right retina",
+          "as_volume": -16.221543383821974,
+          "percentage": 0.001
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58272",
+          "as_label": "Left sclera",
+          "as_volume": -39.34325813115979,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -7.414285506449525,
+          "percentage": 0.012
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58300",
+          "as_label": "Left choroid",
+          "as_volume": -6.967994891227782,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -16.213926672536886,
+          "percentage": 0.002
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58272",
+          "as_label": "Left sclera",
+          "as_volume": -39.34325813115979,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -7.414285506449525,
+          "percentage": 0.012
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58300",
+          "as_label": "Left choroid",
+          "as_volume": -6.967994891227782,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -16.213926672536886,
+          "percentage": 0.002
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58299",
+          "as_label": "Right choroid",
+          "as_volume": -6.961480040771571,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58302",
+          "as_label": "Right retina",
+          "as_volume": -16.221543383821974,
+          "percentage": 0.001
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58302",
+          "as_label": "Right retina",
+          "as_volume": -7.576814448647918,
+          "percentage": 0.001
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58300",
+          "as_label": "Left choroid",
+          "as_volume": -6.967994891227782,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -16.213926672536886,
+          "percentage": 0.002
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58300",
+          "as_label": "Left choroid",
+          "as_volume": -6.967994891227782,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -16.213926672536886,
+          "percentage": 0.002
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58272",
+          "as_label": "Left sclera",
+          "as_volume": -39.34325813115979,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -7.414285506449525,
+          "percentage": 0.012
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58300",
+          "as_label": "Left choroid",
+          "as_volume": -6.967994891227782,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -16.213926672536886,
+          "percentage": 0.002
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58299",
+          "as_label": "Right choroid",
+          "as_volume": -6.961480040771571,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58302",
+          "as_label": "Right retina",
+          "as_volume": -16.221543383821974,
+          "percentage": 0.001
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58272",
+          "as_label": "Left sclera",
+          "as_volume": -39.34325813115979,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -7.414285506449525,
+          "percentage": 0.012
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58300",
+          "as_label": "Left choroid",
+          "as_volume": -6.967994891227782,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -16.213926672536886,
+          "percentage": 0.002
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_R",
+          "as_id": "http://purl.org/sig/ont/fma/fma58302",
+          "as_label": "Right retina",
+          "as_volume": -7.576814448647918,
+          "percentage": 0.001
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58272",
+          "as_label": "Left sclera",
+          "as_volume": -39.34325813115979,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -7.414285506449525,
+          "percentage": 0.012
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
+      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
+      "collision_method": "MESH",
+      "collisions": [
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58272",
+          "as_label": "Left sclera",
+          "as_volume": -39.34325813115979,
+          "percentage": 0.001
+        },
+        {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
+          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
+          "as_id": "http://purl.org/sig/ont/fma/fma58303",
+          "as_label": "Left retina",
+          "as_volume": -7.414285506449525,
+          "percentage": 0.012
+        }
+      ]
+    },
+    {
+      "@type": "CollisionSummary",
       "collision_source": "http://purl.org/ccf/1.5/5496b6a1-8e0a-4592-b5c8-53cc77e7efa9",
       "collision_method": "MESH",
       "collisions": [
@@ -14976,504 +15542,6 @@
           "as_label": "Humor of right vitreous body",
           "as_volume": 37.21222599304462,
           "percentage": 0.004
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58272",
-          "as_label": "Left sclera",
-          "as_volume": -39.34325813115979,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -7.414285506449525,
-          "percentage": 0.012
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58299",
-          "as_label": "Right choroid",
-          "as_volume": -6.961480040771571,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58302",
-          "as_label": "Right retina",
-          "as_volume": -16.221543383821974,
-          "percentage": 0.001
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58300",
-          "as_label": "Left choroid",
-          "as_volume": -6.967994891227782,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -16.213926672536886,
-          "percentage": 0.002
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58302",
-          "as_label": "Right retina",
-          "as_volume": -7.576814448647918,
-          "percentage": 0.001
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58299",
-          "as_label": "Right choroid",
-          "as_volume": -6.961480040771571,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58302",
-          "as_label": "Right retina",
-          "as_volume": -16.221543383821974,
-          "percentage": 0.001
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58272",
-          "as_label": "Left sclera",
-          "as_volume": -39.34325813115979,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -7.414285506449525,
-          "percentage": 0.012
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58300",
-          "as_label": "Left choroid",
-          "as_volume": -6.967994891227782,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -16.213926672536886,
-          "percentage": 0.002
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58272",
-          "as_label": "Left sclera",
-          "as_volume": -39.34325813115979,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -7.414285506449525,
-          "percentage": 0.012
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58300",
-          "as_label": "Left choroid",
-          "as_volume": -6.967994891227782,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -16.213926672536886,
-          "percentage": 0.002
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58299",
-          "as_label": "Right choroid",
-          "as_volume": -6.961480040771571,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58302",
-          "as_label": "Right retina",
-          "as_volume": -16.221543383821974,
-          "percentage": 0.001
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58302",
-          "as_label": "Right retina",
-          "as_volume": -7.576814448647918,
-          "percentage": 0.001
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58300",
-          "as_label": "Left choroid",
-          "as_volume": -6.967994891227782,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -16.213926672536886,
-          "percentage": 0.002
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58300",
-          "as_label": "Left choroid",
-          "as_volume": -6.967994891227782,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -16.213926672536886,
-          "percentage": 0.002
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58272",
-          "as_label": "Left sclera",
-          "as_volume": -39.34325813115979,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -7.414285506449525,
-          "percentage": 0.012
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58300",
-          "as_label": "Left choroid",
-          "as_volume": -6.967994891227782,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -16.213926672536886,
-          "percentage": 0.002
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/5665268f-2b39-4e60-a9ca-0fc0afb09bde",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58299",
-          "as_label": "Right choroid",
-          "as_volume": -6.961480040771571,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58302",
-          "as_label": "Right retina",
-          "as_volume": -16.221543383821974,
-          "percentage": 0.001
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58272",
-          "as_label": "Left sclera",
-          "as_volume": -39.34325813115979,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -7.414285506449525,
-          "percentage": 0.012
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/56746d60-91a7-4e38-84be-695de185dc83",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_optic_choroid_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58300",
-          "as_label": "Left choroid",
-          "as_volume": -6.967994891227782,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHMLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans_VH_M_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -16.213926672536886,
-          "percentage": 0.002
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/030d776e-e5d5-44db-995f-4f032f48f0af",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFRightEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_R",
-          "as_id": "http://purl.org/sig/ont/fma/fma58302",
-          "as_label": "Right retina",
-          "as_volume": -7.576814448647918,
-          "percentage": 0.001
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58272",
-          "as_label": "Left sclera",
-          "as_volume": -39.34325813115979,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -7.414285506449525,
-          "percentage": 0.012
-        }
-      ]
-    },
-    {
-      "@type": "CollisionSummary",
-      "collision_source": "http://purl.org/ccf/1.5/64c75c68-9566-45f8-8351-534ad00498e4",
-      "collision_method": "MESH",
-      "collisions": [
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_sclera_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58272",
-          "as_label": "Left sclera",
-          "as_volume": -39.34325813115979,
-          "percentage": 0.001
-        },
-        {
-          "@type": "CollisionItem",
-          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFLeftEye",
-          "as_3d_id": "http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans_VH_F_retina_L",
-          "as_id": "http://purl.org/sig/ont/fma/fma58303",
-          "as_label": "Left retina",
-          "as_volume": -7.414285506449525,
-          "percentage": 0.012
         }
       ]
     },

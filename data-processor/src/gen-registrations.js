@@ -219,6 +219,7 @@ for (const dataset of allDatasets) {
       'ctpop:hubmap_dataset_publication_status': dataset.HuBMAP_publication_status || undefined,
       'ctpop:excluded_from_atlas_construction': '' + dataset.excluded_from_atlas_construction === 'TRUE',
       'ctpop:reason_for_exclusion': dataset.reason_for_exclusion || undefined,
+      'ctpop:reported_organ': dataset.organ || undefined,
     });
     block.datasets.push(hraDataset);
     datasets[hraDataset['@id']] = hraDataset;
