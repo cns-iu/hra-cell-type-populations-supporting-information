@@ -18,7 +18,7 @@ SELECT DISTINCT
   ?portal
   ?study_paper
   ?doi
-  ('No data' as ?lead_author)
+  ?lead_author
   ?is_azimuth_reference
   (STRAFTER(STR(?donor), '#') as ?donor_id)
   ?donor_sex
@@ -37,8 +37,6 @@ SELECT DISTINCT
   ?list_of_colliding_anatomical_structures_bb_ids
   ?list_of_colliding_anatomical_structures_mesh_ids
   ?rui_location_source_url
-  ('Coming Soon' as ?predicted_rui_location) ### Need to predict first
-  ('N/A' as ?tissue_section_id) # Sections are not used/represented
   (STRAFTER(STR(?dataset), '#') as ?dataset_id)
   (STRAFTER(STR(?dataset), '#') as ?unique_dataset_id)
   (?dataset_link as ?link_to_raw_data)
@@ -47,10 +45,7 @@ SELECT DISTINCT
   ?omap_id
   ?number_of_cells_total
   ?number_of_unique_cell_types
-  ('Coming Soon' as ?predicted_cell_type_population) ### Need to predict first
   ?hubmap_dataset_publication_status
-  ?excluded_from_atlas_construction
-  ('N/A' as ?reason_for_exclusion) # This only includes datasets used for construction, so this will always be blank
 FROM ctpop:graph
 FROM <https://purl.org/ccf/releases/2.2.1/ccf.owl>
 WHERE {
