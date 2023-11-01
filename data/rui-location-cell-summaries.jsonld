@@ -50,6 +50,9 @@
       "@reverse": "ccf:has_cell_summary",
       "@type": "@id"
     },
+    "aggregated_summaries": {
+      "@id": "ccf:aggregates"
+    },
     "annotation_method": {
       "@id": "ccf:cell_annotation_method"
     },
@@ -195,6 +198,10 @@
       "cell_source": "http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM892.HQDK.764",
+        "ctpop-datasets:HBM578.SRZG.769"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -483,6 +490,10 @@
       "cell_source": "http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM679.ZVHH.999",
+        "ctpop-datasets:HBM432.BPZM.698"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -799,6 +810,10 @@
       "cell_source": "http://purl.org/ccf/1.5/6ce58ee2-74b9-4137-9325-ced797dcd6ac",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM349.BJZL.272",
+        "ctpop-datasets:HBM393.CCBZ.572"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -933,6 +948,10 @@
       "cell_source": "http://purl.org/ccf/1.5/19fee435-ebad-476c-bc9a-e11d2cee035e",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM729.RCXL.887",
+        "ctpop-datasets:HBM469.MJBC.894"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -997,6 +1016,14 @@
       "cell_source": "http://purl.org/ccf/1.5/9fa9fb64-7e86-4fcc-bc14-cd7a9ff421fe",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 6,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM799.ZJDP.379",
+        "ctpop-datasets:HBM375.WFJK.667",
+        "ctpop-datasets:HBM244.FRPJ.636",
+        "ctpop-datasets:HBM734.NTJP.672",
+        "ctpop-datasets:HBM834.MLPZ.788",
+        "ctpop-datasets:HBM985.TJZD.778"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -1166,6 +1193,36 @@
       "cell_source": "http://purl.org/ccf/1.5/df0b33f7-371a-47a4-a636-a27db19bdbc9",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 28,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM537.GVTL.683",
+        "ctpop-datasets:HBM688.FLJB.475",
+        "ctpop-datasets:HBM495.ZFDT.229",
+        "ctpop-datasets:HBM996.XSNK.694",
+        "ctpop-datasets:HBM476.VHDB.268",
+        "ctpop-datasets:HBM332.KQWB.454",
+        "ctpop-datasets:HBM664.LQSH.693",
+        "ctpop-datasets:HBM243.MTZV.726",
+        "ctpop-datasets:HBM258.HQCL.349",
+        "ctpop-datasets:HBM252.JLSW.848",
+        "ctpop-datasets:HBM958.GZCX.985",
+        "ctpop-datasets:HBM347.MRTV.333",
+        "ctpop-datasets:HBM844.KXXX.692",
+        "ctpop-datasets:HBM873.NSHG.559",
+        "ctpop-datasets:HBM246.KBZS.276",
+        "ctpop-datasets:HBM684.TLPQ.738",
+        "ctpop-datasets:HBM552.PBBF.363",
+        "ctpop-datasets:HBM282.BKRZ.254",
+        "ctpop-datasets:HBM525.LRPL.332",
+        "ctpop-datasets:HBM634.QQWF.789",
+        "ctpop-datasets:HBM979.KNQM.454",
+        "ctpop-datasets:HBM427.KFXP.323",
+        "ctpop-datasets:HBM876.HTRX.668",
+        "ctpop-datasets:HBM834.THPC.928",
+        "ctpop-datasets:HBM447.KCHB.778",
+        "ctpop-datasets:HBM393.DZDZ.972",
+        "ctpop-datasets:HBM942.NXWW.245",
+        "ctpop-datasets:HBM242.HNLH.466"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -1517,6 +1574,12 @@
       "cell_source": "http://purl.org/ccf/1.5/69ac0df4-f442-4d62-90dc-86fcbc38eb23",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM987.ZCTQ.736",
+        "ctpop-datasets:HBM793.QCGM.999",
+        "ctpop-datasets:HBM426.HLCN.236",
+        "ctpop-datasets:HBM734.DSQM.939"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -1749,6 +1812,10 @@
       "cell_source": "http://purl.org/ccf/1.5/1994d754-ccc2-4853-94f8-cbd2cbe83fcb",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM944.XPFX.655",
+        "ctpop-datasets:HBM835.CLRW.587"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -1967,6 +2034,10 @@
       "cell_source": "http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM932.TBDW.952",
+        "ctpop-datasets:HBM839.TQNM.958"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -2276,6 +2347,10 @@
       "cell_source": "http://purl.org/ccf/1.5/f3e1e325-c002-42bb-a61c-043a5ec1ca70",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM297.TTGF.282",
+        "ctpop-datasets:HBM689.QPMR.542"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -2354,6 +2429,9 @@
       "cell_source": "http://purl.org/ccf/1.5/4ae53bc8-b6da-4ba9-9030-a93ae44389b9",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM439.JPZX.574"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -2446,6 +2524,23 @@
       "cell_source": "http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 15,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM837.TDQQ.538",
+        "ctpop-datasets:HBM238.MHWZ.654",
+        "ctpop-datasets:HBM265.NXDR.935",
+        "ctpop-datasets:HBM375.KNVL.645",
+        "ctpop-datasets:HBM398.CFZH.458",
+        "ctpop-datasets:HBM444.BXPJ.728",
+        "ctpop-datasets:HBM459.BBRT.432",
+        "ctpop-datasets:HBM523.FKWF.269",
+        "ctpop-datasets:HBM678.FRJC.827",
+        "ctpop-datasets:HBM723.QMLJ.829",
+        "ctpop-datasets:HBM797.PDPS.368",
+        "ctpop-datasets:HBM834.TDFD.294",
+        "ctpop-datasets:HBM922.KSKR.637",
+        "ctpop-datasets:HBM938.FTBC.347",
+        "ctpop-datasets:HBM984.LZDJ.635"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -2734,6 +2829,10 @@
       "cell_source": "http://purl.org/ccf/1.5/825ec2b8-1291-4633-8a63-b35c7cd709bd",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM724.LVHJ.956",
+        "ctpop-datasets:HBM374.BXTC.899"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -2798,6 +2897,10 @@
       "cell_source": "http://purl.org/ccf/1.5/5764d42e-95e4-4e5a-b36e-ca498354906d",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM537.SKND.632",
+        "ctpop-datasets:HBM886.ZXXN.298"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -2995,6 +3098,10 @@
       "cell_source": "http://purl.org/ccf/1.5/c5e652ed-7e40-41de-bfc0-a73f05a0c66a",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM563.FJNH.776",
+        "ctpop-datasets:HBM982.TTRB.258"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -3143,6 +3250,10 @@
       "cell_source": "http://purl.org/ccf/1.5/29e439fb-cfec-4c2d-a14e-3bc60eb8e255",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM494.MQQL.234",
+        "ctpop-datasets:HBM572.JLDL.664"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -3249,6 +3360,10 @@
       "cell_source": "http://purl.org/ccf/1.5/8835013d-ef68-40ae-80fb-c5f07f4cc4c6",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM879.RZJJ.974",
+        "ctpop-datasets:HBM733.GBWP.269"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -3348,6 +3463,10 @@
       "cell_source": "http://purl.org/ccf/1.5/72ea5aad-4be7-4478-afc0-7736bc0d90e3",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM837.HQNL.776",
+        "ctpop-datasets:HBM425.MSBX.963"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -3468,6 +3587,10 @@
       "cell_source": "http://purl.org/ccf/1.5/4e2e6f98-ec16-4627-a06a-d3cdc282ee1c",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM772.WGBN.852",
+        "ctpop-datasets:HBM959.QMBB.765"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -3693,6 +3816,10 @@
       "cell_source": "http://purl.org/ccf/1.5/08cd7da7-0323-4560-940c-9237a6b3e7c5",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM994.XRGN.328",
+        "ctpop-datasets:HBM826.RGXW.276"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -3897,6 +4024,10 @@
       "cell_source": "http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM865.TRVX.355",
+        "ctpop-datasets:HBM982.TPNQ.737"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -4248,6 +4379,10 @@
       "cell_source": "http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM692.FLDL.779",
+        "ctpop-datasets:HBM375.ZKZZ.765"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -4501,6 +4636,12 @@
       "cell_source": "http://purl.org/ccf/1.5/8f99a469-7d51-46dc-919d-2e002eeae868",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM786.HSRC.868",
+        "ctpop-datasets:HBM272.FWMV.423",
+        "ctpop-datasets:HBM442.SBCR.983",
+        "ctpop-datasets:HBM542.DVXG.466"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -4726,6 +4867,12 @@
       "cell_source": "http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM532.RKTB.483",
+        "ctpop-datasets:HBM268.RGJT.587",
+        "ctpop-datasets:HBM264.RWRW.668",
+        "ctpop-datasets:HBM773.WCXC.264"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -5084,6 +5231,10 @@
       "cell_source": "http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM297.XVDG.492",
+        "ctpop-datasets:HBM224.GLDC.549"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -5386,6 +5537,10 @@
       "cell_source": "http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM938.FTRX.289",
+        "ctpop-datasets:HBM382.HNKL.447"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -5674,6 +5829,10 @@
       "cell_source": "http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM356.QPJF.839",
+        "ctpop-datasets:HBM537.LTFK.379"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6018,6 +6177,10 @@
       "cell_source": "http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM388.SGMJ.342",
+        "ctpop-datasets:HBM892.MXFF.848"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6278,6 +6441,12 @@
       "cell_source": "http://purl.org/ccf/1.5/bd004aeb-6e60-4d5b-8d40-cfdd55b8b6fe",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM384.DLRM.527",
+        "ctpop-datasets:HBM826.VZFT.824",
+        "ctpop-datasets:HBM369.FCNZ.863",
+        "ctpop-datasets:HBM476.PRMC.228"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6552,6 +6721,12 @@
       "cell_source": "http://purl.org/ccf/1.5/1f414fc5-cb93-45b7-a1b8-0cd21dfa9f7d",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM697.GKCG.783",
+        "ctpop-datasets:HBM742.PSCP.565",
+        "ctpop-datasets:HBM836.FPBQ.686",
+        "ctpop-datasets:HBM876.KWMX.349"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6784,6 +6959,12 @@
       "cell_source": "http://purl.org/ccf/1.5/f3f2fabb-6802-4fd4-920e-1914293db252",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM884.TGCL.432",
+        "ctpop-datasets:HBM987.RLTF.378",
+        "ctpop-datasets:HBM394.VPCK.634",
+        "ctpop-datasets:HBM729.HSHS.983"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -6988,6 +7169,10 @@
       "cell_source": "http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM243.TTRM.823",
+        "ctpop-datasets:HBM764.ZCQR.585"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -7262,6 +7447,10 @@
       "cell_source": "http://purl.org/ccf/1.5/30bfa399-ca75-4790-a7ec-dfb3c594300c",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM584.JCQV.788",
+        "ctpop-datasets:HBM694.TNFF.778"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -7445,6 +7634,10 @@
       "cell_source": "http://purl.org/ccf/1.5/2a9e525a-4ad9-4085-bca9-31a2d0512008",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM372.TFNT.572",
+        "ctpop-datasets:HBM854.GCMW.458"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -7712,6 +7905,10 @@
       "cell_source": "http://purl.org/ccf/1.5/85ad9566-c363-4b61-a522-6576b253d9af",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM688.LGBS.644",
+        "ctpop-datasets:HBM545.PQSZ.997"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -7916,6 +8113,12 @@
       "cell_source": "http://purl.org/ccf/1.5/c07ec91d-9dbe-4132-a93c-b960895b009d",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM275.PDRR.759",
+        "ctpop-datasets:HBM745.XMRR.874",
+        "ctpop-datasets:HBM687.FWNC.555",
+        "ctpop-datasets:HBM729.TFXC.825"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -8141,6 +8344,10 @@
       "cell_source": "http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM752.ZRBH.538",
+        "ctpop-datasets:HBM574.NFCS.842"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -8303,6 +8510,10 @@
       "cell_source": "http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM785.LNQZ.992",
+        "ctpop-datasets:HBM992.XNZH.647"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -8626,6 +8837,22 @@
       "cell_source": "http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 14,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM476.ZWMS.768",
+        "ctpop-datasets:HBM252.BMWF.224",
+        "ctpop-datasets:HBM288.RCTV.965",
+        "ctpop-datasets:HBM328.FTJW.669",
+        "ctpop-datasets:HBM349.KWMK.599",
+        "ctpop-datasets:HBM349.XPRZ.258",
+        "ctpop-datasets:HBM363.LDZL.423",
+        "ctpop-datasets:HBM445.NPKW.958",
+        "ctpop-datasets:HBM644.GBKD.967",
+        "ctpop-datasets:HBM695.XTNF.836",
+        "ctpop-datasets:HBM744.MBPT.666",
+        "ctpop-datasets:HBM777.SVZT.454",
+        "ctpop-datasets:HBM879.NCTL.468",
+        "ctpop-datasets:HBM939.CNSV.893"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -8823,6 +9050,10 @@
       "cell_source": "http://purl.org/ccf/1.5/3a25960a-8e7a-4020-8dfb-8ce6c3423e35",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM254.SXWG.373",
+        "ctpop-datasets:HBM846.WXJK.587"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -8950,6 +9181,10 @@
       "cell_source": "http://purl.org/ccf/1.5/7f7fe1b0-d9f6-48c2-a304-2ea5874c7392",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM843.QHNR.854",
+        "ctpop-datasets:HBM793.VKVL.982"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -8986,6 +9221,9 @@
       "cell_source": "http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM238.ZKPC.934"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -9022,6 +9260,16 @@
       "cell_source": "http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 8,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM245.VSKK.846",
+        "ctpop-datasets:HBM368.FDDS.927",
+        "ctpop-datasets:HBM379.ZGKM.223",
+        "ctpop-datasets:HBM393.NWNB.684",
+        "ctpop-datasets:HBM587.JPLF.798",
+        "ctpop-datasets:HBM775.RVQX.376",
+        "ctpop-datasets:HBM882.KDTH.685",
+        "ctpop-datasets:HBM975.WHWM.552"
+      ],
       "summary": []
     },
     {
@@ -9029,6 +9277,14 @@
       "cell_source": "http://purl.org/ccf/1.5/6a6392a9-8ac1-4666-a684-83d310ca055f",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 6,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM396.JHNS.692",
+        "ctpop-datasets:HBM443.TQKQ.624",
+        "ctpop-datasets:HBM673.WGZS.593",
+        "ctpop-datasets:HBM725.BRBB.566",
+        "ctpop-datasets:HBM775.HGSK.536",
+        "ctpop-datasets:HBM955.DXVQ.765"
+      ],
       "summary": []
     },
     {
@@ -9036,6 +9292,9 @@
       "cell_source": "http://purl.org/ccf/1.5/594902fb-c4c1-47c3-b98e-3101b93a73e4",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM246.DMSS.835"
+      ],
       "summary": []
     },
     {
@@ -9043,6 +9302,9 @@
       "cell_source": "http://purl.org/ccf/1.5/fd4fcec2-93c3-428f-ad3a-6c7ac4196da0",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM347.VDHS.379"
+      ],
       "summary": []
     },
     {
@@ -9050,6 +9312,9 @@
       "cell_source": "http://purl.org/ccf/1.5/d51b9d67-837f-4451-a6c6-0b63c7879736",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM432.RXTV.994"
+      ],
       "summary": []
     },
     {
@@ -9057,6 +9322,9 @@
       "cell_source": "http://purl.org/ccf/1.5/f15f5400-2ef9-45fc-bf0f-72f14d6f8f9e",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM475.LXDL.227"
+      ],
       "summary": []
     },
     {
@@ -9064,6 +9332,9 @@
       "cell_source": "http://purl.org/ccf/1.5/aba1ebe3-af18-40cc-b536-b89843049ca5",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM526.VJKT.388"
+      ],
       "summary": []
     },
     {
@@ -9071,6 +9342,11 @@
       "cell_source": "http://purl.org/ccf/1.5/95190b47-b491-448a-8e9b-06d804bf2aa1",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 3,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM578.ZCCJ.565",
+        "ctpop-datasets:HBM883.SPLD.238",
+        "ctpop-datasets:HBM969.CJQL.629"
+      ],
       "summary": []
     },
     {
@@ -9078,6 +9354,9 @@
       "cell_source": "http://purl.org/ccf/1.5/d662fd53-e925-4921-8d8b-bc91eed1519b",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM695.VNZJ.522"
+      ],
       "summary": []
     },
     {
@@ -9085,6 +9364,9 @@
       "cell_source": "http://purl.org/ccf/1.5/616ef33e-ebcc-4ece-b440-ca218440c8b4",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM256.KFVT.324"
+      ],
       "summary": []
     },
     {
@@ -9092,6 +9374,9 @@
       "cell_source": "http://purl.org/ccf/1.5/76c77da1-c978-48fe-b30b-aeff33a5d054",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM373.FNMG.689"
+      ],
       "summary": []
     },
     {
@@ -9099,6 +9384,9 @@
       "cell_source": "http://purl.org/ccf/1.5/8c2283cd-667a-4fa1-9026-50e30bcfdcd1",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM385.CJKX.252"
+      ],
       "summary": []
     },
     {
@@ -9106,6 +9394,9 @@
       "cell_source": "http://purl.org/ccf/1.5/3e6d37df-e4f3-4654-b06d-3a76c2e665ea",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM582.WWWJ.738"
+      ],
       "summary": []
     },
     {
@@ -9113,6 +9404,9 @@
       "cell_source": "http://purl.org/ccf/1.5/840b29a9-5a04-41cc-908d-0c4fa5720366",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM747.WJZS.473"
+      ],
       "summary": []
     },
     {
@@ -9120,6 +9414,9 @@
       "cell_source": "http://purl.org/ccf/1.5/39e72b20-77e5-45a5-bb0e-f374ea5894ad",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM258.BWHR.287"
+      ],
       "summary": []
     },
     {
@@ -9127,6 +9424,9 @@
       "cell_source": "http://purl.org/ccf/1.5/ce5f3bd0-f091-49fe-8fe5-67004848078b",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM725.RHWH.487"
+      ],
       "summary": []
     },
     {
@@ -9134,6 +9434,9 @@
       "cell_source": "http://purl.org/ccf/1.5/1995aefd-5289-4652-a7e0-cc66c495649f",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM965.GWBH.574"
+      ],
       "summary": []
     },
     {
@@ -9141,6 +9444,9 @@
       "cell_source": "http://purl.org/ccf/1.5/75ff443d-c177-4dab-a866-89e9141b73a4",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM284.SBPR.357"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -9324,6 +9630,9 @@
       "cell_source": "http://purl.org/ccf/1.5/23e9d58a-c93f-414b-baf9-3692ea20fd1c",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM429.LLRT.546"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -9507,6 +9816,9 @@
       "cell_source": "http://purl.org/ccf/1.5/6fe91946-48bb-485f-9ad0-5f0550d1f2b3",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM466.XSKL.867"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -9690,6 +10002,9 @@
       "cell_source": "http://purl.org/ccf/1.5/3c695f26-b7ed-44ad-8e11-894932defa86",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM622.STKS.394"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -9873,6 +10188,9 @@
       "cell_source": "http://purl.org/ccf/1.5/8023d0ab-338a-43c4-9f9b-d637220f1b8e",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM676.QVGZ.455"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -10056,6 +10374,9 @@
       "cell_source": "http://purl.org/ccf/1.5/7f0bfe51-5458-4ef8-8641-c3d9a5fbd538",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM742.NHHQ.357"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -10239,6 +10560,9 @@
       "cell_source": "http://purl.org/ccf/1.5/2ae3cef9-6621-46da-b056-da7bfbadc13b",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM792.FFJT.499"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -10422,6 +10746,9 @@
       "cell_source": "http://purl.org/ccf/1.5/2b38ef86-7e4d-4e27-b9c6-d2015ec49692",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM953.KMTG.758"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -10605,6 +10932,9 @@
       "cell_source": "http://purl.org/ccf/1.5/bceacee1-bc17-49ba-ab6f-833a9ccde436",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM334.QWFV.953"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -10788,6 +11118,9 @@
       "cell_source": "http://purl.org/ccf/1.5/a1fc9d45-5af9-4fc4-b2be-340ef0716e09",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM394.VSKR.883"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -10971,6 +11304,9 @@
       "cell_source": "http://purl.org/ccf/1.5/fb4cec06-b147-4277-a6cf-8aa21e294183",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM462.JKCN.863"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -11154,6 +11490,9 @@
       "cell_source": "http://purl.org/ccf/1.5/df58ff32-e4db-41fe-9a25-47dbde90c694",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM575.THQM.284"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -11337,6 +11676,9 @@
       "cell_source": "http://purl.org/ccf/1.5/b09f5826-e6fa-4bec-8054-2fb6e6f202ae",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM899.KTQM.246"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -11520,6 +11862,9 @@
       "cell_source": "http://purl.org/ccf/1.5/502f175c-9d55-4341-b6ff-0f04d76522d5",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM934.KLGL.584"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -11703,6 +12048,9 @@
       "cell_source": "http://purl.org/ccf/1.5/37248725-6ed5-4589-ac5a-9951d1a783e7",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM938.KMNW.825"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -11886,6 +12234,9 @@
       "cell_source": "http://purl.org/ccf/1.5/1f53fe4d-d77b-4508-ba36-22b6b3ac0e53",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM945.FSHR.864"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -12069,6 +12420,9 @@
       "cell_source": "http://purl.org/ccf/1.5/0cd47185-8e8a-4f56-a167-bf93de928553",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM344.HZNN.755"
+      ],
       "summary": []
     },
     {
@@ -12076,6 +12430,9 @@
       "cell_source": "http://purl.org/ccf/1.5/f8a20a09-a700-439b-a518-60347cd7b156",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM442.GZFZ.522"
+      ],
       "summary": []
     },
     {
@@ -12083,6 +12440,9 @@
       "cell_source": "http://purl.org/ccf/1.5/ca4a4754-6937-4d08-9eb0-bf400492c22c",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM658.SBTV.949"
+      ],
       "summary": []
     },
     {
@@ -12090,6 +12450,9 @@
       "cell_source": "http://purl.org/ccf/1.5/09b9e49f-dd9c-4f9f-a7dc-258ac0d08530",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM869.ZBCZ.787"
+      ],
       "summary": []
     },
     {
@@ -12097,6 +12460,9 @@
       "cell_source": "http://purl.org/ccf/1.5/25c3d20d-d856-4a22-b926-6ee9a5f4a1d4",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM953.CTWH.676"
+      ],
       "summary": []
     },
     {
@@ -12104,6 +12470,9 @@
       "cell_source": "http://purl.org/ccf/1.5/aab5a316-7fbc-4a57-8b3a-3fc1958c5292",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM353.NZVQ.793"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -12287,6 +12656,9 @@
       "cell_source": "http://purl.org/ccf/1.5/43e195fb-0f50-4b67-bff1-b74f68290fc6",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM438.JXJW.249"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -12470,6 +12842,9 @@
       "cell_source": "http://purl.org/ccf/1.5/8b652088-8c73-466d-b59c-3fbb8c01e399",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM439.WJDV.974"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -12653,6 +13028,9 @@
       "cell_source": "http://purl.org/ccf/1.5/4af4b1bd-c71d-4ade-a9f6-47b2ccc9f5bb",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM666.RBCG.529"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -12836,6 +13214,9 @@
       "cell_source": "http://purl.org/ccf/1.5/3425fa0c-c5cb-4493-b6ba-41520334b13e",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM683.NRPR.962"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -13019,6 +13400,9 @@
       "cell_source": "http://purl.org/ccf/1.5/5b582f69-1a30-49f5-8e80-f6cefe4ea5be",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM727.DMKG.675"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -13202,6 +13586,9 @@
       "cell_source": "http://purl.org/ccf/1.5/74c8746d-be53-493d-9a2a-1edbe24f0d16",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM785.FJVT.469"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -13385,6 +13772,9 @@
       "cell_source": "http://purl.org/ccf/1.5/5fa952b1-a5a7-4089-bdc2-7208f71f45be",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM845.VMSZ.536"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -13568,6 +13958,9 @@
       "cell_source": "http://purl.org/ccf/1.5/8af0476d-e6e6-4b55-afae-5eec8c9c1cb5",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM379.QCJT.435"
+      ],
       "summary": []
     },
     {
@@ -13575,6 +13968,9 @@
       "cell_source": "http://purl.org/ccf/1.5/3c299376-82f1-4c1f-b283-2c03cb7922e2",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM635.DQXB.362"
+      ],
       "summary": []
     },
     {
@@ -13582,6 +13978,9 @@
       "cell_source": "http://purl.org/ccf/1.5/87df967f-1311-43ac-a306-04e47d2f4a60",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM388.ZSNN.945"
+      ],
       "summary": []
     },
     {
@@ -13589,6 +13988,9 @@
       "cell_source": "http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM398.NCVN.256"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -13625,6 +14027,9 @@
       "cell_source": "http://purl.org/ccf/1.5/82d414d4-59a7-4a61-9d86-278cb73a3ddd",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM424.STVV.842"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -13808,6 +14213,9 @@
       "cell_source": "http://purl.org/ccf/1.5/63b2f5a9-5914-4c45-9239-139948a93498",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM443.LGZK.435"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -13991,6 +14399,9 @@
       "cell_source": "http://purl.org/ccf/1.5/3177d8d7-3b26-4aa3-9984-3c112d461446",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM687.SJLD.889"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -14174,6 +14585,9 @@
       "cell_source": "http://purl.org/ccf/1.5/5df04f61-5fcc-4035-92c3-631f772a6ce0",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM729.XTBN.693"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -14357,6 +14771,9 @@
       "cell_source": "http://purl.org/ccf/1.5/dfb35d10-65a1-48f9-94a0-baf36ce8a78b",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM739.HCWP.359"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -14540,6 +14957,9 @@
       "cell_source": "http://purl.org/ccf/1.5/6f89860a-30df-4b79-8e6d-dd209c959374",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM893.MCGS.487"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -14723,6 +15143,9 @@
       "cell_source": "http://purl.org/ccf/1.5/6bbdd96b-5fae-406c-a0a5-8e20e1bd0d8e",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM964.FPNH.767"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -14906,6 +15329,9 @@
       "cell_source": "http://purl.org/ccf/1.5/fd76b9bb-85b0-4dd0-8e60-7c6ec7c95d73",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM996.MDQH.988"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15089,6 +15515,9 @@
       "cell_source": "http://purl.org/ccf/1.5/559cb26d-2bed-41a6-8cdf-d5da5f4b52d2",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM434.GKNQ.757"
+      ],
       "summary": []
     },
     {
@@ -15096,6 +15525,9 @@
       "cell_source": "http://purl.org/ccf/1.5/9131c76e-62cb-4433-a216-64e9fa0450c5",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM473.NKMR.872"
+      ],
       "summary": []
     },
     {
@@ -15103,6 +15535,9 @@
       "cell_source": "http://purl.org/ccf/1.5/f1c3f780-6627-4c56-aada-97cb158f540d",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM879.KGML.575"
+      ],
       "summary": []
     },
     {
@@ -15110,6 +15545,9 @@
       "cell_source": "http://purl.org/ccf/1.5/dcbd8b51-3a18-4025-97c1-e1867e346a18",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM897.WVVR.437"
+      ],
       "summary": []
     },
     {
@@ -15117,6 +15555,9 @@
       "cell_source": "http://purl.org/ccf/1.5/05310dee-180d-4e59-8c58-b101d12f4c73",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM943.VFSK.297"
+      ],
       "summary": []
     },
     {
@@ -15124,6 +15565,9 @@
       "cell_source": "http://purl.org/ccf/1.5/e7d21a48-63dd-45d8-aedd-e4abed52d5d8",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM458.TNQX.264"
+      ],
       "summary": []
     },
     {
@@ -15131,6 +15575,9 @@
       "cell_source": "http://purl.org/ccf/1.5/c5d8b584-d6b7-4a98-8330-a97ecec688f8",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM464.RSZW.375"
+      ],
       "summary": []
     },
     {
@@ -15138,6 +15585,9 @@
       "cell_source": "http://purl.org/ccf/1.5/2243b679-6c6c-4b66-9479-fef2640f2872",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM484.RGWP.797"
+      ],
       "summary": []
     },
     {
@@ -15145,6 +15595,9 @@
       "cell_source": "http://purl.org/ccf/1.5/4890aa9b-26a3-4db5-b25a-66e18cbc2158",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM685.XWPB.694"
+      ],
       "summary": []
     },
     {
@@ -15152,6 +15605,9 @@
       "cell_source": "http://purl.org/ccf/1.5/965b263e-b1b5-44c3-86ef-bb682091be05",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM769.JMPX.755"
+      ],
       "summary": []
     },
     {
@@ -15159,6 +15615,9 @@
       "cell_source": "http://purl.org/ccf/1.5/3545c186-aafd-4477-adc5-6ee21219cf87",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM927.ZWBG.769"
+      ],
       "summary": []
     },
     {
@@ -15166,6 +15625,9 @@
       "cell_source": "http://purl.org/ccf/1.5/ab0a9d87-8479-41ef-85f2-e8bfea4a8bbd",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM494.XDQW.356"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15202,6 +15664,9 @@
       "cell_source": "http://purl.org/ccf/1.5/527bfb3c-5cea-4131-a73a-72687feb8024",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM527.PTXH.326"
+      ],
       "summary": []
     },
     {
@@ -15209,6 +15674,9 @@
       "cell_source": "http://purl.org/ccf/1.5/56b136e7-40dd-477a-b5b6-9be0bb98374c",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM584.CZDB.483"
+      ],
       "summary": []
     },
     {
@@ -15216,6 +15684,9 @@
       "cell_source": "http://purl.org/ccf/1.5/0364c64a-5b0a-493f-a5ee-3adfc837211c",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM972.JCHH.759"
+      ],
       "summary": []
     },
     {
@@ -15223,6 +15694,9 @@
       "cell_source": "http://purl.org/ccf/1.5/f4a116d7-f844-4d4a-bc8f-632151125313",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM532.ZJRQ.263"
+      ],
       "summary": []
     },
     {
@@ -15230,6 +15704,9 @@
       "cell_source": "http://purl.org/ccf/1.5/853a9e2c-10ba-4491-9d9d-3551c0c5f26d",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM722.TLKZ.444"
+      ],
       "summary": []
     },
     {
@@ -15237,6 +15714,9 @@
       "cell_source": "http://purl.org/ccf/1.5/5b4b476b-01e1-4d13-95e5-d17770f9ffa9",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM757.RLFF.943"
+      ],
       "summary": []
     },
     {
@@ -15244,6 +15724,9 @@
       "cell_source": "http://purl.org/ccf/1.5/c8cdaa06-847b-4747-9a00-d89761cea031",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM822.JFXK.683"
+      ],
       "summary": []
     },
     {
@@ -15251,6 +15734,9 @@
       "cell_source": "http://purl.org/ccf/1.5/cfa23a23-1cef-4a6f-8303-d1198e91a773",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM889.BXPN.494"
+      ],
       "summary": []
     },
     {
@@ -15258,6 +15744,9 @@
       "cell_source": "http://purl.org/ccf/1.5/95881dfc-b806-40ca-85fd-0e02d647c999",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM539.HMRR.435"
+      ],
       "summary": []
     },
     {
@@ -15265,6 +15754,9 @@
       "cell_source": "http://purl.org/ccf/1.5/0f4be9aa-dfce-414f-9d40-47cb38f5eee8",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM558.LPPJ.448"
+      ],
       "summary": []
     },
     {
@@ -15272,6 +15764,9 @@
       "cell_source": "http://purl.org/ccf/1.5/74d8c134-9489-4599-afa7-95bd8cf9fc8a",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM625.MGXD.586"
+      ],
       "summary": []
     },
     {
@@ -15279,6 +15774,9 @@
       "cell_source": "http://purl.org/ccf/1.5/11fcf508-762d-4f0c-b5c5-dad0cf38f4de",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM724.RVJD.893"
+      ],
       "summary": []
     },
     {
@@ -15286,6 +15784,9 @@
       "cell_source": "http://purl.org/ccf/1.5/f1d552fe-cc92-478c-890c-cb95adc4b846",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM592.JGSQ.253"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15322,6 +15823,9 @@
       "cell_source": "http://purl.org/ccf/1.5/04baf323-eda0-4f72-bea1-aa943aa70894",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM625.PTSS.252"
+      ],
       "summary": []
     },
     {
@@ -15329,6 +15833,9 @@
       "cell_source": "http://purl.org/ccf/1.5/16e98d8c-8983-48c2-bb41-7b1cfbbf2e4a",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM645.XLLN.924"
+      ],
       "summary": []
     },
     {
@@ -15336,6 +15843,9 @@
       "cell_source": "http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM666.JCGS.862"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15372,6 +15882,9 @@
       "cell_source": "http://purl.org/ccf/1.5/886e391d-0151-46d3-8a51-084bf6a06910",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM667.ZCQC.777"
+      ],
       "summary": []
     },
     {
@@ -15379,6 +15892,9 @@
       "cell_source": "http://purl.org/ccf/1.5/de8bd0bf-7765-44c4-9d22-5ff5c0586816",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM849.TWBF.722"
+      ],
       "summary": []
     },
     {
@@ -15386,6 +15902,9 @@
       "cell_source": "http://purl.org/ccf/1.5/8d3e8fa1-185d-479b-83d9-9dfe2ead2d3e",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM668.RQWZ.595"
+      ],
       "summary": []
     },
     {
@@ -15393,6 +15912,9 @@
       "cell_source": "http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM732.FZVZ.656"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15429,6 +15951,9 @@
       "cell_source": "http://purl.org/ccf/1.5/da28394d-789a-4fba-842a-f8ba5046b221",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM737.WSXM.893"
+      ],
       "summary": []
     },
     {
@@ -15436,6 +15961,9 @@
       "cell_source": "http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM746.VTDZ.959"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15472,6 +16000,9 @@
       "cell_source": "http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM747.SPWK.779"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15508,6 +16039,9 @@
       "cell_source": "http://purl.org/ccf/1.5/118235b7-38a4-4fcf-8834-bad5765f5eeb",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM788.XLZL.369"
+      ],
       "summary": []
     },
     {
@@ -15515,6 +16049,9 @@
       "cell_source": "http://purl.org/ccf/1.5/3156203b-0238-447d-9aae-c4341f2da943",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM972.VRNF.956"
+      ],
       "summary": []
     },
     {
@@ -15522,6 +16059,9 @@
       "cell_source": "http://purl.org/ccf/1.5/2816c343-c908-45bf-8964-974b1c54a5b9",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM865.KZMC.828"
+      ],
       "summary": []
     },
     {
@@ -15529,6 +16069,9 @@
       "cell_source": "http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM875.SBHJ.939"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15565,6 +16108,9 @@
       "cell_source": "http://purl.org/ccf/1.5/a0ff0780-d666-42fe-8068-a3b41b1c6aa0",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM945.QNRF.244"
+      ],
       "summary": []
     },
     {
@@ -15572,6 +16118,9 @@
       "cell_source": "http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM975.FVCG.922"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15608,6 +16157,9 @@
       "cell_source": "http://purl.org/ccf/1.5/e7d386a6-d4fb-43b2-9737-fdc6f7508d79",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM573.TTLG.748"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15791,6 +16343,9 @@
       "cell_source": "http://purl.org/ccf/1.5/9a6cb9d5-afdd-429d-98ba-f157a42c7937",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM295.SWJJ.888"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -15974,6 +16529,9 @@
       "cell_source": "http://purl.org/ccf/1.5/c89a4a3c-52d7-4508-86fb-b7e5610cb1e0",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM865.VDXC.862"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -16157,6 +16715,9 @@
       "cell_source": "http://purl.org/ccf/1.5/8e8d9121-3a47-4c89-9e63-aec6659075d2",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM288.BBKK.828"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -16340,6 +16901,9 @@
       "cell_source": "http://purl.org/ccf/1.5/6f055461-adb2-41fe-86c1-50d3afdf9360",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM565.LSMX.645"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -16523,6 +17087,9 @@
       "cell_source": "http://purl.org/ccf/1.5/bddd9066-3f8c-4330-8e33-23be89ee8a0b",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM832.ZSQJ.442"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -16706,6 +17273,9 @@
       "cell_source": "http://purl.org/ccf/1.5/d9aed544-4c6e-42c2-a137-9a9381d8f8c8",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM363.CKHC.928"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -16889,6 +17459,9 @@
       "cell_source": "http://purl.org/ccf/1.5/470a6b74-a31b-4a50-bfff-da1b475c945b",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM974.CNWK.327"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -17072,6 +17645,9 @@
       "cell_source": "http://purl.org/ccf/1.5/abab52f8-6fd4-4e3f-8f9c-bb9f5f62785f",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM242.LSCK.393"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -17255,6 +17831,9 @@
       "cell_source": "http://purl.org/ccf/1.5/ba9d007b-c5c7-4231-80f9-42403a98a6df",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM852.NKST.623"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -17438,6 +18017,9 @@
       "cell_source": "http://purl.org/ccf/1.5/82566926-7a8f-43a7-9f6a-ae0c463d7a1d",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM627.KDHD.293"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -17621,6 +18203,9 @@
       "cell_source": "http://purl.org/ccf/1.5/91009a1d-ddea-4489-af88-3e32ca47cde7",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM235.VKNJ.237"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -17804,6 +18389,9 @@
       "cell_source": "http://purl.org/ccf/1.5/27c90961-5430-4217-ad97-4feaa91cede7",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM626.VJMB.795"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -17987,6 +18575,9 @@
       "cell_source": "http://purl.org/ccf/1.5/79a10f00-84e0-4b8e-8622-485973df3773",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM827.SJBP.777"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -18170,6 +18761,9 @@
       "cell_source": "http://purl.org/ccf/1.5/42b97dcb-2033-40ea-82a2-319a1e30dca2",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM395.NQKF.566"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -18353,6 +18947,9 @@
       "cell_source": "http://purl.org/ccf/1.5/5d35eae0-82df-40c7-952c-6fbab03034b2",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM569.NBHZ.832"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -18536,6 +19133,9 @@
       "cell_source": "http://purl.org/ccf/1.5/cd304e60-3de4-4dd9-b289-ce1a0efae4d7",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM297.MZZX.824"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -18719,6 +19319,9 @@
       "cell_source": "http://purl.org/ccf/1.5/32214c14-bf21-4bf6-aea9-58ab721128ab",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM823.RJNG.364"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -18902,6 +19505,9 @@
       "cell_source": "http://purl.org/ccf/1.5/db4f3eca-e9f8-4f9c-88a1-795a20dd0f84",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM447.MNKW.592"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -19085,6 +19691,9 @@
       "cell_source": "http://purl.org/ccf/1.5/48f6aab3-8d58-4675-806c-3fd7d5b7336f",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM488.CNNZ.544"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -19268,6 +19877,9 @@
       "cell_source": "http://purl.org/ccf/1.5/d8c8faa2-7e2a-4b74-9531-cd08be659c10",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM238.GTNW.259"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -19451,6 +20063,9 @@
       "cell_source": "http://purl.org/ccf/1.5/d194f593-af76-4ee7-84a6-00f7531d47cf",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM666.NDQZ.365"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -19634,6 +20249,9 @@
       "cell_source": "http://purl.org/ccf/1.5/9d795171-ba1f-4ae2-9b98-9a285280ebf6",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM285.VFDT.966"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -19817,6 +20435,9 @@
       "cell_source": "http://purl.org/ccf/1.5/d1085194-4902-4252-95fd-faf03afd9288",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM772.TKCN.287"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -20000,6 +20621,9 @@
       "cell_source": "http://purl.org/ccf/1.5/d3b5feb6-910f-4309-a6a8-42c0477227c9",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM465.ZNVW.226"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -20183,6 +20807,9 @@
       "cell_source": "http://purl.org/ccf/1.5/76a8931b-1c06-4646-8a17-ac7828b6e879",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM824.XGWZ.857"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -20366,6 +20993,9 @@
       "cell_source": "http://purl.org/ccf/1.5/09681d25-f08d-40ff-81cb-a731610aa84d",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM363.LLBL.252"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -20549,6 +21179,9 @@
       "cell_source": "http://purl.org/ccf/1.5/3b2cb9ee-2a6f-4fb3-bc1b-dbd192d3163c",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM679.NNNK.283"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -20732,6 +21365,9 @@
       "cell_source": "http://purl.org/ccf/1.5/e4a44b76-53fd-4c88-9ccf-ba095fcb9673",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM535.QNTP.246"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -20915,6 +21551,9 @@
       "cell_source": "http://purl.org/ccf/1.5/ea1d468d-e988-42cd-8e34-71701e568878",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM749.SMWP.555"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -21098,6 +21737,9 @@
       "cell_source": "http://purl.org/ccf/1.5/78ee24bb-4ae4-49e9-bad2-d6f13166b89e",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM573.SWGH.988"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -21281,6 +21923,9 @@
       "cell_source": "http://purl.org/ccf/1.5/85765dd5-2197-4361-b4c6-c9d30186044a",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM473.QGDG.848"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -21463,14 +22108,20 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bf67cdbe-2af0-478e-af80-14e593bdbde1",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 27,
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:"
+      ],
       "summary": []
     },
     {
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8d0cbb8e-8afd-4d2b-a1af-8b70b6f2f9b3",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 20,
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:"
+      ],
       "summary": []
     },
     {
@@ -21478,6 +22129,15 @@
       "cell_source": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D1_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_apex_of_heart"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -21668,6 +22328,15 @@
       "cell_source": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D1_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_heart_left_ventricle"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -21858,6 +22527,15 @@
       "cell_source": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D1_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_heart_right_ventricle"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -22048,6 +22726,15 @@
       "cell_source": "http://purl.org/ccf/1.5/53b083ab-cb70-4096-b385-85590ddc370c",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D1_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_left_cardiac_atrium"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -22238,6 +22925,14 @@
       "cell_source": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 6,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_interventricular_septum"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -22421,6 +23116,14 @@
       "cell_source": "http://purl.org/ccf/1.5/9f2c1d5d-2ad4-4a7a-ad95-622c7328b554",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 6,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_right_cardiac_atrium"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -22611,6 +23314,15 @@
       "cell_source": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_apex_of_heart"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -22801,6 +23513,15 @@
       "cell_source": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_heart_left_ventricle"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -22991,6 +23712,15 @@
       "cell_source": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_heart_right_ventricle"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -23181,6 +23911,15 @@
       "cell_source": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_interventricular_septum"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -23371,6 +24110,15 @@
       "cell_source": "http://purl.org/ccf/1.5/bb9dbc76-88b2-43ad-9401-e1e87424efa5",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_left_cardiac_atrium"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -23561,6 +24309,15 @@
       "cell_source": "http://purl.org/ccf/1.5/7296fad6-bf8e-49da-8f4a-ef76ee4cfeac",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_right_cardiac_atrium"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -23751,6 +24508,9 @@
       "cell_source": "http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-1HSMQ-5007"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -23829,6 +24589,12 @@
       "cell_source": "http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-12BJ1-5007",
+        "ctpop-datasets:GTEX-15CHR-5014",
+        "ctpop-datasets:GTEX-1I1GU-5006",
+        "ctpop-datasets:GTEX-1HSMQ-5014"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -23886,6 +24652,9 @@
       "cell_source": "http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-15EOM-5003"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -23957,6 +24726,11 @@
       "cell_source": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 3,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-1CAMS-5015",
+        "ctpop-datasets:GTEX-1MCC2-5013",
+        "ctpop-datasets:GTEX-1R9PN-5002"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -24007,6 +24781,10 @@
       "cell_source": "http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-13N11-5002",
+        "ctpop-datasets:GTEX-1ICG6-5003"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -24064,6 +24842,10 @@
       "cell_source": "http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-15CHR-5005",
+        "ctpop-datasets:GTEX-1HSMQ-5005"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -24114,6 +24896,9 @@
       "cell_source": "http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-15RIE-5015"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -24171,6 +24956,9 @@
       "cell_source": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-13N11-5030"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -24221,6 +25009,12 @@
       "cell_source": "http://purl.org/ccf/1.5/0c1510fa-83b7-43aa-aa70-d261835ce604_LungMap_Female_AllenWangLungMap_FEMALE_tissueblock_RUI",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D175_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D088_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D139_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D231_Lung"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",
@@ -24425,6 +25219,13 @@
       "cell_source": "http://purl.org/ccf/1.5/bb8f70e2-273f-4902-a2ce-70a110aee2ec_AllenWangLungMap_MALE_tissueblock_RUI",
       "annotation_method": "Aggregation",
       "aggregated_summary_count": 5,
+      "aggregated_summaries": [
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D062_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D122_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D046_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D150_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D032_Lung"
+      ],
       "summary": [
         {
           "@type": "CellSummaryRow",

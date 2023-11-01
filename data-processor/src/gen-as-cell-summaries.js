@@ -24,10 +24,11 @@ function handleCellSummaries(dataset, collisions) {
           cell_source: asIri,
           annotation_method: 'Aggregation',
           aggregated_summary_count: 0,
+          aggregated_summaries: new Set(),
           modality,
           summary: [],
         });
-        summary.aggregated_summary_count++;
+        summary.aggregated_summaries.add(dataset['@id']);
 
         let summaryRow = summary.summary.find((s) => s.cell_id === cell.cell_id);
         if (summaryRow) {
@@ -51,6 +52,8 @@ function finalizeAsCellSummaries() {
   return Object.values(asCellSummaries).map((summary) => {
     const cellCount = summary.summary.reduce((acc, s) => acc + s.count, 0);
     summary.summary.forEach((s) => (s.percentage = s.count / cellCount));
+    summary.aggregated_summary_count = summary.aggregated_summaries.size;
+    summary.aggregated_summaries = [...summary.aggregated_summaries];
     return summary;
   });
 }

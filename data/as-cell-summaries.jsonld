@@ -50,6 +50,9 @@
       "@reverse": "ccf:has_cell_summary",
       "@type": "@id"
     },
+    "aggregated_summaries": {
+      "@id": "ccf:aggregates"
+    },
     "annotation_method": {
       "@id": "ccf:cell_annotation_method"
     },
@@ -194,7 +197,13 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002015",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 138,
+      "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM892.HQDK.764",
+        "ctpop-datasets:HBM578.SRZG.769",
+        "ctpop-datasets:HBM356.QPJF.839",
+        "ctpop-datasets:HBM537.LTFK.379"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -553,7 +562,64 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002189",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 2115,
+      "aggregated_summary_count": 55,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM892.HQDK.764",
+        "ctpop-datasets:HBM578.SRZG.769",
+        "ctpop-datasets:HBM679.ZVHH.999",
+        "ctpop-datasets:HBM432.BPZM.698",
+        "ctpop-datasets:HBM537.GVTL.683",
+        "ctpop-datasets:HBM688.FLJB.475",
+        "ctpop-datasets:HBM495.ZFDT.229",
+        "ctpop-datasets:HBM996.XSNK.694",
+        "ctpop-datasets:HBM476.VHDB.268",
+        "ctpop-datasets:HBM332.KQWB.454",
+        "ctpop-datasets:HBM664.LQSH.693",
+        "ctpop-datasets:HBM243.MTZV.726",
+        "ctpop-datasets:HBM258.HQCL.349",
+        "ctpop-datasets:HBM252.JLSW.848",
+        "ctpop-datasets:HBM958.GZCX.985",
+        "ctpop-datasets:HBM347.MRTV.333",
+        "ctpop-datasets:HBM844.KXXX.692",
+        "ctpop-datasets:HBM873.NSHG.559",
+        "ctpop-datasets:HBM246.KBZS.276",
+        "ctpop-datasets:HBM684.TLPQ.738",
+        "ctpop-datasets:HBM552.PBBF.363",
+        "ctpop-datasets:HBM282.BKRZ.254",
+        "ctpop-datasets:HBM525.LRPL.332",
+        "ctpop-datasets:HBM634.QQWF.789",
+        "ctpop-datasets:HBM979.KNQM.454",
+        "ctpop-datasets:HBM427.KFXP.323",
+        "ctpop-datasets:HBM876.HTRX.668",
+        "ctpop-datasets:HBM834.THPC.928",
+        "ctpop-datasets:HBM447.KCHB.778",
+        "ctpop-datasets:HBM393.DZDZ.972",
+        "ctpop-datasets:HBM942.NXWW.245",
+        "ctpop-datasets:HBM242.HNLH.466",
+        "ctpop-datasets:HBM865.TRVX.355",
+        "ctpop-datasets:HBM982.TPNQ.737",
+        "ctpop-datasets:HBM532.RKTB.483",
+        "ctpop-datasets:HBM268.RGJT.587",
+        "ctpop-datasets:HBM264.RWRW.668",
+        "ctpop-datasets:HBM773.WCXC.264",
+        "ctpop-datasets:HBM356.QPJF.839",
+        "ctpop-datasets:HBM537.LTFK.379",
+        "ctpop-datasets:HBM388.SGMJ.342",
+        "ctpop-datasets:HBM892.MXFF.848",
+        "ctpop-datasets:HBM384.DLRM.527",
+        "ctpop-datasets:HBM826.VZFT.824",
+        "ctpop-datasets:HBM884.TGCL.432",
+        "ctpop-datasets:HBM987.RLTF.378",
+        "ctpop-datasets:HBM243.TTRM.823",
+        "ctpop-datasets:HBM764.ZCQR.585",
+        "ctpop-datasets:HBM372.TFNT.572",
+        "ctpop-datasets:HBM275.PDRR.759",
+        "ctpop-datasets:HBM745.XMRR.874",
+        "ctpop-datasets:HBM785.LNQZ.992",
+        "ctpop-datasets:HBM992.XNZH.647",
+        "ctpop-datasets:HBM476.ZWMS.768",
+        "ctpop-datasets:HBM843.QHNR.854"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -926,7 +992,16 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001284",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 204,
+      "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM679.ZVHH.999",
+        "ctpop-datasets:HBM432.BPZM.698",
+        "ctpop-datasets:HBM439.JPZX.574",
+        "ctpop-datasets:HBM772.WGBN.852",
+        "ctpop-datasets:HBM384.DLRM.527",
+        "ctpop-datasets:HBM826.VZFT.824",
+        "ctpop-datasets:HBM476.ZWMS.768"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -1271,7 +1346,11 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0008716",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 69,
+      "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM679.ZVHH.999",
+        "ctpop-datasets:HBM432.BPZM.698"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -1588,7 +1667,40 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0004200",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 828,
+      "aggregated_summary_count": 31,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM679.ZVHH.999",
+        "ctpop-datasets:HBM432.BPZM.698",
+        "ctpop-datasets:HBM987.ZCTQ.736",
+        "ctpop-datasets:HBM793.QCGM.999",
+        "ctpop-datasets:HBM932.TBDW.952",
+        "ctpop-datasets:HBM839.TQNM.958",
+        "ctpop-datasets:HBM837.TDQQ.538",
+        "ctpop-datasets:HBM797.PDPS.368",
+        "ctpop-datasets:HBM494.MQQL.234",
+        "ctpop-datasets:HBM837.HQNL.776",
+        "ctpop-datasets:HBM692.FLDL.779",
+        "ctpop-datasets:HBM375.ZKZZ.765",
+        "ctpop-datasets:HBM786.HSRC.868",
+        "ctpop-datasets:HBM272.FWMV.423",
+        "ctpop-datasets:HBM297.XVDG.492",
+        "ctpop-datasets:HBM224.GLDC.549",
+        "ctpop-datasets:HBM938.FTRX.289",
+        "ctpop-datasets:HBM382.HNKL.447",
+        "ctpop-datasets:HBM384.DLRM.527",
+        "ctpop-datasets:HBM826.VZFT.824",
+        "ctpop-datasets:HBM884.TGCL.432",
+        "ctpop-datasets:HBM987.RLTF.378",
+        "ctpop-datasets:HBM243.TTRM.823",
+        "ctpop-datasets:HBM764.ZCQR.585",
+        "ctpop-datasets:HBM688.LGBS.644",
+        "ctpop-datasets:HBM275.PDRR.759",
+        "ctpop-datasets:HBM745.XMRR.874",
+        "ctpop-datasets:HBM752.ZRBH.538",
+        "ctpop-datasets:HBM574.NFCS.842",
+        "ctpop-datasets:HBM476.ZWMS.768",
+        "ctpop-datasets:HBM843.QHNR.854"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -1954,7 +2066,15 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001223",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 122,
+      "aggregated_summary_count": 6,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM729.RCXL.887",
+        "ctpop-datasets:HBM537.SKND.632",
+        "ctpop-datasets:HBM563.FJNH.776",
+        "ctpop-datasets:HBM697.GKCG.783",
+        "ctpop-datasets:HBM742.PSCP.565",
+        "ctpop-datasets:HBM254.SXWG.373"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -2229,7 +2349,13 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001228",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 61,
+      "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM494.MQQL.234",
+        "ctpop-datasets:HBM837.HQNL.776",
+        "ctpop-datasets:HBM752.ZRBH.538",
+        "ctpop-datasets:HBM574.NFCS.842"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -2427,7 +2553,17 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002097",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 32,
+      "aggregated_summary_count": 8,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM238.ZKPC.934",
+        "ctpop-datasets:HBM398.NCVN.256",
+        "ctpop-datasets:HBM666.JCGS.862",
+        "ctpop-datasets:HBM732.FZVZ.656",
+        "ctpop-datasets:HBM746.VTDZ.959",
+        "ctpop-datasets:HBM747.SPWK.779",
+        "ctpop-datasets:HBM875.SBHJ.939",
+        "ctpop-datasets:HBM975.FVCG.922"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -2464,7 +2600,17 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14929",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 200,
+      "aggregated_summary_count": 8,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM284.SBPR.357",
+        "ctpop-datasets:HBM394.VSKR.883",
+        "ctpop-datasets:HBM785.FJVT.469",
+        "ctpop-datasets:HBM687.SJLD.889",
+        "ctpop-datasets:HBM363.CKHC.928",
+        "ctpop-datasets:HBM395.NQKF.566",
+        "ctpop-datasets:HBM285.VFDT.966",
+        "ctpop-datasets:HBM573.SWGH.988"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -2648,7 +2794,17 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14930",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 200,
+      "aggregated_summary_count": 8,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM284.SBPR.357",
+        "ctpop-datasets:HBM394.VSKR.883",
+        "ctpop-datasets:HBM785.FJVT.469",
+        "ctpop-datasets:HBM687.SJLD.889",
+        "ctpop-datasets:HBM363.CKHC.928",
+        "ctpop-datasets:HBM395.NQKF.566",
+        "ctpop-datasets:HBM285.VFDT.966",
+        "ctpop-datasets:HBM573.SWGH.988"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -2832,7 +2988,18 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001158",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 225,
+      "aggregated_summary_count": 9,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM429.LLRT.546",
+        "ctpop-datasets:HBM462.JKCN.863",
+        "ctpop-datasets:HBM353.NZVQ.793",
+        "ctpop-datasets:HBM424.STVV.842",
+        "ctpop-datasets:HBM964.FPNH.767",
+        "ctpop-datasets:HBM295.SWJJ.888",
+        "ctpop-datasets:HBM852.NKST.623",
+        "ctpop-datasets:HBM823.RJNG.364",
+        "ctpop-datasets:HBM824.XGWZ.857"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -3016,7 +3183,17 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14966",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 200,
+      "aggregated_summary_count": 8,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM466.XSKL.867",
+        "ctpop-datasets:HBM899.KTQM.246",
+        "ctpop-datasets:HBM666.RBCG.529",
+        "ctpop-datasets:HBM893.MCGS.487",
+        "ctpop-datasets:HBM565.LSMX.645",
+        "ctpop-datasets:HBM626.VJMB.795",
+        "ctpop-datasets:HBM238.GTNW.259",
+        "ctpop-datasets:HBM535.QNTP.246"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -3200,7 +3377,17 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001156",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 200,
+      "aggregated_summary_count": 8,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM622.STKS.394",
+        "ctpop-datasets:HBM938.KMNW.825",
+        "ctpop-datasets:HBM683.NRPR.962",
+        "ctpop-datasets:HBM729.XTBN.693",
+        "ctpop-datasets:HBM288.BBKK.828",
+        "ctpop-datasets:HBM235.VKNJ.237",
+        "ctpop-datasets:HBM488.CNNZ.544",
+        "ctpop-datasets:HBM679.NNNK.283"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -3384,7 +3571,16 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002115",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 175,
+      "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM676.QVGZ.455",
+        "ctpop-datasets:HBM934.KLGL.584",
+        "ctpop-datasets:HBM996.MDQH.988",
+        "ctpop-datasets:HBM832.ZSQJ.442",
+        "ctpop-datasets:HBM827.SJBP.777",
+        "ctpop-datasets:HBM666.NDQZ.365",
+        "ctpop-datasets:HBM749.SMWP.555"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -3568,7 +3764,16 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001157",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 175,
+      "aggregated_summary_count": 7,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM742.NHHQ.357",
+        "ctpop-datasets:HBM334.QWFV.953",
+        "ctpop-datasets:HBM438.JXJW.249",
+        "ctpop-datasets:HBM865.VDXC.862",
+        "ctpop-datasets:HBM627.KDHD.293",
+        "ctpop-datasets:HBM447.MNKW.592",
+        "ctpop-datasets:HBM363.LLBL.252"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -3752,7 +3957,17 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001159",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 200,
+      "aggregated_summary_count": 8,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM792.FFJT.499",
+        "ctpop-datasets:HBM575.THQM.284",
+        "ctpop-datasets:HBM439.WJDV.974",
+        "ctpop-datasets:HBM739.HCWP.359",
+        "ctpop-datasets:HBM573.TTLG.748",
+        "ctpop-datasets:HBM242.LSCK.393",
+        "ctpop-datasets:HBM297.MZZX.824",
+        "ctpop-datasets:HBM465.ZNVW.226"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -3936,7 +4151,15 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001052",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 150,
+      "aggregated_summary_count": 6,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM792.FFJT.499",
+        "ctpop-datasets:HBM575.THQM.284",
+        "ctpop-datasets:HBM739.HCWP.359",
+        "ctpop-datasets:HBM573.TTLG.748",
+        "ctpop-datasets:HBM242.LSCK.393",
+        "ctpop-datasets:HBM465.ZNVW.226"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -4120,7 +4343,17 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14928",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 200,
+      "aggregated_summary_count": 8,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM953.KMTG.758",
+        "ctpop-datasets:HBM945.FSHR.864",
+        "ctpop-datasets:HBM845.VMSZ.536",
+        "ctpop-datasets:HBM443.LGZK.435",
+        "ctpop-datasets:HBM974.CNWK.327",
+        "ctpop-datasets:HBM569.NBHZ.832",
+        "ctpop-datasets:HBM772.TKCN.287",
+        "ctpop-datasets:HBM473.QGDG.848"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -4304,7 +4537,11 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002116",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 50,
+      "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM666.RBCG.529",
+        "ctpop-datasets:HBM238.GTNW.259"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -4488,7 +4725,11 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0001153",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 50,
+      "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM683.NRPR.962",
+        "ctpop-datasets:HBM488.CNNZ.544"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -4672,7 +4913,11 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma14926",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 50,
+      "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:HBM845.VMSZ.536",
+        "ctpop-datasets:HBM772.TKCN.287"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -4856,7 +5101,50 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002084",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 943,
+      "aggregated_summary_count": 41,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D1_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D1_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_apex_of_heart",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_heart_left_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_interventricular_septum"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -5047,7 +5335,36 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002080",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 600,
+      "aggregated_summary_count": 27,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D1_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_heart_right_ventricle",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_interventricular_septum"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -5238,7 +5555,23 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002137",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 339,
+      "aggregated_summary_count": 14,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D1_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_left_cardiac_atrium"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -5429,7 +5762,23 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002079",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 339,
+      "aggregated_summary_count": 14,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D1_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_left_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_left_cardiac_atrium"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -5620,7 +5969,22 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002094",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 285,
+      "aggregated_summary_count": 13,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_interventricular_septum"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -5811,7 +6175,15 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7267",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 132,
+      "aggregated_summary_count": 6,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_interventricular_septum",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_interventricular_septum"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -5995,7 +6367,25 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002078",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 326,
+      "aggregated_summary_count": 16,
+      "aggregated_summaries": [
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D11_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D4_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D5_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H5_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H6_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H7_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D2_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D3_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D6_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_D7_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H2_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H3_Heart_right_cardiac_atrium",
+        "ctpop-datasets:dd2f4658-d6e1-4d8a-a5f3-b9efed1bd1ca_H4_Heart_right_cardiac_atrium",
+        "ctpop-datasets:GTEX-13N11-5002",
+        "ctpop-datasets:GTEX-1ICG6-5003",
+        "ctpop-datasets:GTEX-15RIE-5015"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6235,7 +6625,11 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_0002097",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 19,
+      "aggregated_summary_count": 2,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-1HSMQ-5007",
+        "ctpop-datasets:GTEX-15EOM-5003"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6314,7 +6708,13 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_8410027",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 52,
+      "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-12BJ1-5007",
+        "ctpop-datasets:GTEX-15CHR-5014",
+        "ctpop-datasets:GTEX-1I1GU-5006",
+        "ctpop-datasets:GTEX-1HSMQ-5014"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6372,7 +6772,13 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.obolibrary.org/obo/UBERON_8410026",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 52,
+      "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-12BJ1-5007",
+        "ctpop-datasets:GTEX-15CHR-5014",
+        "ctpop-datasets:GTEX-1I1GU-5006",
+        "ctpop-datasets:GTEX-1HSMQ-5014"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6430,7 +6836,12 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma73165",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 17,
+      "aggregated_summary_count": 3,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-1CAMS-5015",
+        "ctpop-datasets:GTEX-1MCC2-5013",
+        "ctpop-datasets:GTEX-1R9PN-5002"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6481,7 +6892,12 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7385",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 18,
+      "aggregated_summary_count": 3,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-15CHR-5005",
+        "ctpop-datasets:GTEX-1HSMQ-5005",
+        "ctpop-datasets:GTEX-13N11-5030"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6532,7 +6948,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7386",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 6,
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "ctpop-datasets:GTEX-13N11-5030"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6583,7 +7002,18 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7402",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 247,
+      "aggregated_summary_count": 9,
+      "aggregated_summaries": [
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D175_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D088_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D139_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D231_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D062_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D122_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D046_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D150_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D032_Lung"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6788,7 +7218,13 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7360",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 110,
+      "aggregated_summary_count": 4,
+      "aggregated_summaries": [
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D175_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D088_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D139_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D231_Lung"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6993,7 +7429,18 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/sig/ont/fma/fma7361",
       "annotation_method": "Aggregation",
-      "aggregated_summary_count": 247,
+      "aggregated_summary_count": 9,
+      "aggregated_summaries": [
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D175_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D088_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D139_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D231_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D062_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D122_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D046_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D150_Lung",
+        "ctpop-datasets:b7ec6c2d-32e2-48b0-8335-a827aba01caa_D032_Lung"
+      ],
       "modality": "bulk",
       "summary": [
         {

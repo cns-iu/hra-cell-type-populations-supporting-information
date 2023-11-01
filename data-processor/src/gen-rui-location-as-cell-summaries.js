@@ -28,9 +28,12 @@ function handleCellSummaries(ruiLocation, collisions) {
           '@type': 'CellSummary',
           cell_source: ruiLocation,
           annotation_method: 'AS Cell Summary',
+          aggregated_summary_count: 0,
+          aggregated_summaries: new Set(),
           modality,
           summary: [],
         });
+        summary.aggregated_summaries.add(asIri);
 
         const cellSummaryRows = asSummary?.summary ?? [];
         for (const cell of cellSummaryRows) {
@@ -59,6 +62,8 @@ function finalizeAsCellSummaries() {
   return Object.values(ruiCellSummaries).map((summary) => {
     const cellCount = summary.summary.reduce((acc, s) => acc + s.count, 0);
     summary.summary.forEach((s) => (s.percentage = s.count / cellCount));
+    summary.aggregated_summary_count = summary.aggregated_summaries.size;
+    summary.aggregated_summaries = [...summary.aggregated_summaries];
     return summary;
   });
 }

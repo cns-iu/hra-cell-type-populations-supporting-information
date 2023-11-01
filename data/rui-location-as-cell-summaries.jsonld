@@ -50,6 +50,9 @@
       "@reverse": "ccf:has_cell_summary",
       "@type": "@id"
     },
+    "aggregated_summaries": {
+      "@id": "ccf:aggregates"
+    },
     "annotation_method": {
       "@id": "ccf:cell_annotation_method"
     },
@@ -194,6 +197,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/f31c1726-c693-4734-8c1c-4f1d64bbe034",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002015"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -552,6 +559,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/cf4ba102-edf7-4fe4-bb1d-860cdf57609d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -896,6 +907,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/19fee435-ebad-476c-bc9a-e11d2cee035e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001223"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -1170,6 +1185,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/df0b33f7-371a-47a4-a636-a27db19bdbc9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -1542,6 +1561,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/69ac0df4-f442-4d62-90dc-86fcbc38eb23",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -1907,6 +1930,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -2272,6 +2299,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/4ae53bc8-b6da-4ba9-9030-a93ae44389b9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -2616,6 +2647,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -2981,6 +3016,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5764d42e-95e4-4e5a-b36e-ca498354906d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001223"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -3255,6 +3294,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c5e652ed-7e40-41de-bfc0-a73f05a0c66a",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001223"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -3529,6 +3572,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/29e439fb-cfec-4c2d-a14e-3bc60eb8e255",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -3894,6 +3941,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/72ea5aad-4be7-4478-afc0-7736bc0d90e3",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -4259,6 +4310,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/4e2e6f98-ec16-4627-a06a-d3cdc282ee1c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -4603,6 +4658,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8d126897-60f6-433e-a56b-cbe730475742",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -4975,6 +5034,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/61d9f366-c050-4c28-995f-32ab920a7ca8",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -5340,6 +5403,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8f99a469-7d51-46dc-919d-2e002eeae868",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -5705,6 +5772,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5166a7a1-bd21-4aa3-ba20-23453cb4c431",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6077,6 +6148,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/26edd761-8b50-453c-9b03-2337806c9e3a",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6442,6 +6517,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/52c4948d-bdc2-4201-a991-61a2c0a565c0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -6807,6 +6886,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002015"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -7165,6 +7248,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2990ecc8-1854-4794-8f11-1b31c5c94e5f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -7537,6 +7624,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bd004aeb-6e60-4d5b-8d40-cfdd55b8b6fe",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -7902,6 +7993,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/1f414fc5-cb93-45b7-a1b8-0cd21dfa9f7d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001223"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -8176,6 +8271,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/f3f2fabb-6802-4fd4-920e-1914293db252",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -8541,6 +8640,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -8906,6 +9009,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2a9e525a-4ad9-4085-bca9-31a2d0512008",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -9278,6 +9385,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/85ad9566-c363-4b61-a522-6576b253d9af",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -9643,6 +9754,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c07ec91d-9dbe-4132-a93c-b960895b009d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -10008,6 +10123,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/57bab703-98bd-4106-9160-af951a74e4df",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -10373,6 +10492,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/db35f27d-313f-4dd6-819b-375cf106aac1",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -10745,6 +10868,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fd380a0c-2915-4d73-b3f4-d161badbaccb",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -11110,6 +11237,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3a25960a-8e7a-4020-8dfb-8ce6c3423e35",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001223"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -11384,6 +11515,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/7f7fe1b0-d9f6-48c2-a304-2ea5874c7392",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -11749,6 +11884,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -11785,6 +11924,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/9e77a7b5-e7e8-48e1-a30e-01eeaa300ed8",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -11863,6 +12006,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/769ca7e9-ead0-4882-966c-d6f5c273c2ee",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -12235,6 +12382,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6a6392a9-8ac1-4666-a684-83d310ca055f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -12607,6 +12758,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/594902fb-c4c1-47c3-b98e-3101b93a73e4",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -12811,6 +12966,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fd4fcec2-93c3-428f-ad3a-6c7ac4196da0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -13015,6 +13174,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d51b9d67-837f-4451-a6c6-0b63c7879736",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -13219,6 +13382,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/f15f5400-2ef9-45fc-bf0f-72f14d6f8f9e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -13423,6 +13590,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/aba1ebe3-af18-40cc-b536-b89843049ca5",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7361"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -13627,6 +13798,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/95190b47-b491-448a-8e9b-06d804bf2aa1",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -13831,6 +14006,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d662fd53-e925-4921-8d8b-bc91eed1519b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -14035,6 +14214,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/840b29a9-5a04-41cc-908d-0c4fa5720366",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7386"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -14085,6 +14268,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/39e72b20-77e5-45a5-bb0e-f374ea5894ad",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -14275,6 +14462,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ce5f3bd0-f091-49fe-8fe5-67004848078b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -14465,6 +14656,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/1995aefd-5289-4652-a7e0-cc66c495649f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002094"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -14655,6 +14850,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/75ff443d-c177-4dab-a866-89e9141b73a4",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14929"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -14838,6 +15037,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/23e9d58a-c93f-414b-baf9-3692ea20fd1c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -15021,6 +15224,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6fe91946-48bb-485f-9ad0-5f0550d1f2b3",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -15204,6 +15411,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3c695f26-b7ed-44ad-8e11-894932defa86",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001156"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -15387,6 +15598,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8023d0ab-338a-43c4-9f9b-d637220f1b8e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -15570,6 +15785,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/7f0bfe51-5458-4ef8-8641-c3d9a5fbd538",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -15753,6 +15972,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2ae3cef9-6621-46da-b056-da7bfbadc13b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -15936,6 +16159,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2b38ef86-7e4d-4e27-b9c6-d2015ec49692",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14928"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -16119,6 +16346,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bceacee1-bc17-49ba-ab6f-833a9ccde436",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -16302,6 +16533,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/a1fc9d45-5af9-4fc4-b2be-340ef0716e09",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14929"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -16485,6 +16720,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fb4cec06-b147-4277-a6cf-8aa21e294183",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -16668,6 +16907,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/df58ff32-e4db-41fe-9a25-47dbde90c694",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -16851,6 +17094,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/b09f5826-e6fa-4bec-8054-2fb6e6f202ae",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -17034,6 +17281,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/502f175c-9d55-4341-b6ff-0f04d76522d5",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -17217,6 +17468,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/37248725-6ed5-4589-ac5a-9951d1a783e7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001156"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -17400,6 +17655,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/1f53fe4d-d77b-4508-ba36-22b6b3ac0e53",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14928"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -17583,6 +17842,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0cd47185-8e8a-4f56-a167-bf93de928553",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7361"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -17787,6 +18050,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/f8a20a09-a700-439b-a518-60347cd7b156",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -17991,6 +18258,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ca4a4754-6937-4d08-9eb0-bf400492c22c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -18195,6 +18466,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/09b9e49f-dd9c-4f9f-a7dc-258ac0d08530",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7361"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -18399,6 +18674,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/25c3d20d-d856-4a22-b926-6ee9a5f4a1d4",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7361"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -18603,6 +18882,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/aab5a316-7fbc-4a57-8b3a-3fc1958c5292",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -18786,6 +19069,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/43e195fb-0f50-4b67-bff1-b74f68290fc6",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -18969,6 +19256,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8b652088-8c73-466d-b59c-3fbb8c01e399",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -19152,6 +19443,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/4af4b1bd-c71d-4ade-a9f6-47b2ccc9f5bb",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -19335,6 +19630,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3425fa0c-c5cb-4493-b6ba-41520334b13e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001153"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -19518,6 +19817,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/74c8746d-be53-493d-9a2a-1edbe24f0d16",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14930"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -19701,6 +20004,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5fa952b1-a5a7-4089-bdc2-7208f71f45be",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14926"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -19884,6 +20191,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8af0476d-e6e6-4b55-afae-5eec8c9c1cb5",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -20088,6 +20399,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3c299376-82f1-4c1f-b283-2c03cb7922e2",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -20292,6 +20607,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/87df967f-1311-43ac-a306-04e47d2f4a60",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -20482,6 +20801,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -20518,6 +20841,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/56d63930-60f2-49f5-a3bb-afc8d865c152",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -20596,6 +20923,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/82d414d4-59a7-4a61-9d86-278cb73a3ddd",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -20779,6 +21110,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/63b2f5a9-5914-4c45-9239-139948a93498",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14928"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -20962,6 +21297,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3177d8d7-3b26-4aa3-9984-3c112d461446",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14929"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -21145,6 +21484,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5df04f61-5fcc-4035-92c3-631f772a6ce0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001156"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -21328,6 +21671,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/dfb35d10-65a1-48f9-94a0-baf36ce8a78b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -21511,6 +21858,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6f89860a-30df-4b79-8e6d-dd209c959374",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -21694,6 +22045,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6bbdd96b-5fae-406c-a0a5-8e20e1bd0d8e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -21877,6 +22232,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fd76b9bb-85b0-4dd0-8e60-7c6ec7c95d73",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -22060,6 +22419,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/dcbd8b51-3a18-4025-97c1-e1867e346a18",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -22264,6 +22627,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/56b136e7-40dd-477a-b5b6-9be0bb98374c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7385"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -22314,6 +22681,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0364c64a-5b0a-493f-a5ee-3adfc837211c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7386"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -22364,6 +22735,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5b4b476b-01e1-4d13-95e5-d17770f9ffa9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7386"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -22414,6 +22789,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c8cdaa06-847b-4747-9a00-d89761cea031",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7385"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -22464,6 +22843,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/cfa23a23-1cef-4a6f-8303-d1198e91a773",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7386"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -22514,6 +22897,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/04baf323-eda0-4f72-bea1-aa943aa70894",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -22704,6 +23091,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/16e98d8c-8983-48c2-bb41-7b1cfbbf2e4a",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -22894,6 +23285,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -22930,6 +23325,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fcfcc65b-f91f-4447-a29b-c9836104570c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -23008,6 +23407,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/886e391d-0151-46d3-8a51-084bf6a06910",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -23198,6 +23601,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/de8bd0bf-7765-44c4-9d22-5ff5c0586816",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -23388,6 +23795,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8d3e8fa1-185d-479b-83d9-9dfe2ead2d3e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -23592,6 +24003,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -23628,6 +24043,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d16014ad-8b92-487b-bca7-044d3d745dba",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -23706,6 +24125,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/da28394d-789a-4fba-842a-f8ba5046b221",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -23896,6 +24319,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -23932,6 +24359,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ff034c0c-a625-48b8-891c-857e556db1c4",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -24010,6 +24441,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -24046,6 +24481,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/314450f7-0477-4152-b4d6-cb474cbc0cd7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -24124,6 +24563,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/118235b7-38a4-4fcf-8834-bad5765f5eeb",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -24314,6 +24757,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3156203b-0238-447d-9aae-c4341f2da943",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -24504,6 +24951,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2816c343-c908-45bf-8964-974b1c54a5b9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -24694,6 +25145,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -24730,6 +25185,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/eb92e0e2-838b-4689-b13c-07c3ce31eaf0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -24808,6 +25267,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/a0ff0780-d666-42fe-8068-a3b41b1c6aa0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -24998,6 +25461,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -25034,6 +25501,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ee7b09db-e6f5-4114-a8f8-5a19bb3a07c2",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -25112,6 +25583,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e7d386a6-d4fb-43b2-9737-fdc6f7508d79",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -25295,6 +25770,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/9a6cb9d5-afdd-429d-98ba-f157a42c7937",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -25478,6 +25957,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c89a4a3c-52d7-4508-86fb-b7e5610cb1e0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -25661,6 +26144,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8e8d9121-3a47-4c89-9e63-aec6659075d2",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001156"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -25844,6 +26331,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6f055461-adb2-41fe-86c1-50d3afdf9360",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -26027,6 +26518,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bddd9066-3f8c-4330-8e33-23be89ee8a0b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -26210,6 +26705,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d9aed544-4c6e-42c2-a137-9a9381d8f8c8",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14929"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -26393,6 +26892,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/470a6b74-a31b-4a50-bfff-da1b475c945b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14928"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -26576,6 +27079,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/abab52f8-6fd4-4e3f-8f9c-bb9f5f62785f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -26759,6 +27266,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ba9d007b-c5c7-4231-80f9-42403a98a6df",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -26942,6 +27453,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/82566926-7a8f-43a7-9f6a-ae0c463d7a1d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -27125,6 +27640,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/91009a1d-ddea-4489-af88-3e32ca47cde7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001156"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -27308,6 +27827,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/27c90961-5430-4217-ad97-4feaa91cede7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -27491,6 +28014,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/79a10f00-84e0-4b8e-8622-485973df3773",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -27674,6 +28201,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/42b97dcb-2033-40ea-82a2-319a1e30dca2",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14929"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -27857,6 +28388,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5d35eae0-82df-40c7-952c-6fbab03034b2",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14928"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -28040,6 +28575,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/cd304e60-3de4-4dd9-b289-ce1a0efae4d7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -28223,6 +28762,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/32214c14-bf21-4bf6-aea9-58ab721128ab",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -28406,6 +28949,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/db4f3eca-e9f8-4f9c-88a1-795a20dd0f84",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -28589,6 +29136,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/48f6aab3-8d58-4675-806c-3fd7d5b7336f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001153"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -28772,6 +29323,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d8c8faa2-7e2a-4b74-9531-cd08be659c10",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -28955,6 +29510,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d194f593-af76-4ee7-84a6-00f7531d47cf",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -29138,6 +29697,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/9d795171-ba1f-4ae2-9b98-9a285280ebf6",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14930"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -29321,6 +29884,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d1085194-4902-4252-95fd-faf03afd9288",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14926"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -29504,6 +30071,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d3b5feb6-910f-4309-a6a8-42c0477227c9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -29687,6 +30258,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/76a8931b-1c06-4646-8a17-ac7828b6e879",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -29870,6 +30445,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/09681d25-f08d-40ff-81cb-a731610aa84d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -30053,6 +30632,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3b2cb9ee-2a6f-4fb3-bc1b-dbd192d3163c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001156"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -30236,6 +30819,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e4a44b76-53fd-4c88-9ccf-ba095fcb9673",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -30419,6 +31006,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ea1d468d-e988-42cd-8e34-71701e568878",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -30602,6 +31193,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/78ee24bb-4ae4-49e9-bad2-d6f13166b89e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14929"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -30785,6 +31380,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/85765dd5-2197-4361-b4c6-c9d30186044a",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14928"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -30968,6 +31567,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/9abfed4e-2fde-4d80-a8aa-7439a106d895",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -31158,6 +31761,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2156f837-2ab2-4305-8e7f-8084249e91cd",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -31348,6 +31955,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/1fe61622-ba53-47c9-967e-e764c21b8189",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -31538,6 +32149,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/53b083ab-cb70-4096-b385-85590ddc370c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002137"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -31728,6 +32343,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/05c11830-1526-4472-bd12-ea24dbcfd3cc",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002094"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -31918,6 +32537,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/9f2c1d5d-2ad4-4a7a-ad95-622c7328b554",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002078"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -32157,6 +32780,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/20a0c365-6a97-4224-ae14-16fba10c13f8",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -32347,6 +32974,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/760368bf-6b4c-4d92-aa2b-24e17fd947d3",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -32537,6 +33168,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/f1790d4b-bbc0-434c-b8ed-f21e8b8be903",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -32727,6 +33362,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fdb0d1f7-94d5-4628-b345-dbe4975966fd",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -32917,6 +33556,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bb9dbc76-88b2-43ad-9401-e1e87424efa5",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002079"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -33107,6 +33750,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/7296fad6-bf8e-49da-8f4a-ef76ee4cfeac",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002078"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -33346,6 +33993,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -33382,6 +34033,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/cce37703-e4e8-454c-a0c4-4ff58652ab8f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -33460,6 +34115,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5475ae38-db50-4868-92ba-8718bf136c7b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_8410027"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -33517,6 +34176,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -33553,6 +34216,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6f04ffad-3b9d-4c1c-afc0-fd203b02e5a3",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -33631,6 +34298,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3b5d2036-3c56-4cf8-808f-462c9e3681e5",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma73165"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -33681,6 +34352,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/a04e60c6-693a-4c25-a069-62521783fd15",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002078"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -33920,6 +34595,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ab2e49b2-1959-44af-8e83-ac16878f6c12",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7385"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -33970,6 +34649,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/f6512db4-2809-4ffe-864d-ace61789dff6",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002078"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -34209,6 +34892,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ab9cafec-3eff-49ac-b2a9-ba96c22d80f9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7385"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -34259,6 +34946,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0c1510fa-83b7-43aa-aa70-d261835ce604_LungMap_Female_AllenWangLungMap_FEMALE_tissueblock_RUI",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7402"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -34463,6 +35154,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bb8f70e2-273f-4902-a2ce-70a110aee2ec_AllenWangLungMap_MALE_tissueblock_RUI",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7361"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -34667,6 +35362,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/53a6bbda-8263-419d-96e8-ba4561899d87",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001153"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -34850,6 +35549,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e240c0a4-5e53-4464-8320-ad775f2c4bf7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -35033,6 +35736,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0aa9d4c4-550a-45a2-b7df-b3f00080ee53",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -35216,6 +35923,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/f9e28182-3ed3-4a3f-bd45-66ebce1efafb",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -35399,6 +36110,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6cc00882-7403-4eca-8f50-03eebfc8c873",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -35582,6 +36297,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/65f3b03b-1eb1-487d-8c02-c4d107cc9400",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14926"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -35765,6 +36484,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fe276ee5-752a-456e-bb25-4e5da071c6ed",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -35948,6 +36671,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/4ecffbfc-dc50-4140-95e8-4f97d5804f4f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14930"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -36131,6 +36858,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/54299692-7ff8-468b-9c0a-c04a32f6fbe1",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -36314,6 +37045,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/84f689bc-1b04-4464-a5fa-0af5880203e9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14926"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -36497,6 +37232,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/93286ce3-669a-4f3f-a85a-7eaaedc15c59",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -36680,6 +37419,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/4104aaa3-c9e7-44a2-acf6-58fbf19e4308",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -36863,6 +37606,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/7f4ad752-8a2d-4088-b91e-4e0d1a724d98",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -37046,6 +37793,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/296f4f10-2d50-4b28-932a-69a6658171c1",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -37229,6 +37980,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/f50553aa-d022-4115-aab5-58f588244820",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -37412,6 +38167,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2d293c0a-b148-4243-a5d9-32dbc7d1460f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001153"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -37595,6 +38354,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/b077aef9-808e-48b1-8d2d-15aab54d0a86",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14930"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -37778,6 +38541,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/69d8165e-dce4-4144-9985-8a8f8ae21b4c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -37961,6 +38728,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/1f959974-4f3c-4023-a1af-6e5172d89f2c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -38144,6 +38915,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fc556dba-cfb0-490d-913b-d76717762142",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001156"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -38327,6 +39102,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/10efba68-6ee5-41ca-99af-cd7a394e6ea1",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14928"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -38510,6 +39289,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/eb9bd478-66b0-4599-8f9a-2775740f626b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -38693,6 +39476,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0a2ed64b-2a70-4382-90c4-ac9fb6520419",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -38876,6 +39663,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/40b85d35-1dc1-4e79-bd68-dc532c939a81",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14929"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -39059,6 +39850,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d14c269b-7528-4830-9b9e-90d4949ee20b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -39242,6 +40037,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0d005e9f-bd67-403b-a7fa-66f173fee596",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -39425,6 +40224,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3c6f0725-dbe0-4245-82c4-1f11f2b72ba0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -39608,6 +40411,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3baf4809-eff0-4a0e-8ccb-0d7e6d83f371",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -39791,6 +40598,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e2bb4165-7965-4c87-bf44-6fb9dfbd950d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14928"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -39974,6 +40785,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2468f1c4-6182-4c0a-8dda-81287da09673",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001156"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -40157,6 +40972,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3e6555b4-d08d-40b1-a5cc-a2b72ce421e5",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14929"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -40340,6 +41159,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/1c157889-cdec-4830-91b9-d52e209a845b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002115"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -40523,6 +41346,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5cb72454-f0fb-41d5-9cad-5797e1b447ae",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -40713,6 +41540,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5c7d77e3-e7e4-4f6c-bf86-01e78c3de7ad",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -41085,6 +41916,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/cb68d9a5-9884-4eef-afe8-e087cac7bf54",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -41457,6 +42292,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/53797407-9641-4e69-966b-e7aecf6a0ecc",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -41647,6 +42486,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/794bdabf-3a8f-4fe3-8bd4-8e0e7182ea4d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -41837,6 +42680,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ae63de43-3ab8-42c0-a6cd-81ca5de26e81",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002015"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -42195,6 +43042,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d847d5df-16f5-42ab-810b-5238188394bf",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7360"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -42399,6 +43250,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/70ad7ae6-c9af-4975-98e2-98c249e36ddd",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0008716"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -42715,6 +43570,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/731ade72-cdb7-4262-8be1-859396820dfd",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -43080,6 +43939,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/a441638e-859b-4695-87fc-26c76e79da0e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001223"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -43354,6 +44217,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/007eb4d9-1694-4380-99e1-4aba832d9227",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002015"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -43712,6 +44579,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0af69e70-3ec3-4d0b-a008-89a4186f4452",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002015"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -44070,6 +44941,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bf36d893-81ff-4f38-a6ba-97c9d870c841",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002015"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -44428,6 +45303,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/aae4b64f-ffda-4c18-9db1-e5aa350b0d3b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -44800,6 +45679,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ba018414-bb8f-4ddb-9586-9d955939f17e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -45144,6 +46027,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c7ed4142-ddad-4cf5-b83b-dd431927bad5",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001153"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -45327,6 +46214,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/21e2e656-4071-4db2-9e13-aeabdfdded0f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14926"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -45510,6 +46401,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/a315cf4f-12d6-4e6c-9ee9-c6a06838716a",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14930"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -45693,6 +46588,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6ade433a-7d52-4e1e-ab9d-9bf8c118114c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001158"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -45876,6 +46775,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/947065d0-1c18-4065-b094-84dc09bd21bb",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -46059,6 +46962,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2f0bc1c1-551b-46d8-bd70-c77ac180ab7c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -46242,6 +47149,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e88dfa31-cb6b-4eaa-b16c-e5c97de2701e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -46614,6 +47525,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/20dd6d0c-0b29-40c6-9d0a-b5af3cc58da1",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -46979,6 +47894,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/401a320b-358c-4091-acac-ef7afb2d8603",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14930"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -47162,6 +48081,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c951bee1-57cf-4eeb-98da-cdbf46517199",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14930"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -47345,6 +48268,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e4d28a22-b26e-4486-a146-cb21d74a9a41",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14926"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -47528,6 +48455,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/61628a43-1357-4a2c-89f4-28f601ddf5bd",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -47711,6 +48642,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0a6b2b12-08fc-426c-a29e-683a6770785f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14926"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -47894,6 +48829,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c5445f44-4f9d-47e4-9509-a96470f2ec26",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14930"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -48077,6 +49016,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/28982f44-8ff5-4734-89a5-caa5d113e424",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -48260,6 +49203,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c37ca360-56dc-4f9d-8ead-11e2bc32d4e5",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -48443,6 +49390,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/72a0f957-5a01-4d2b-8fa9-2dedff92c900",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14926"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -48626,6 +49577,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/7a3454d4-89f6-40f5-af48-1ad1f46b49fc",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -48991,6 +49946,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6ee43559-da2f-411b-81a2-a0d0f59fac67",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -49181,6 +50140,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d85b77e1-02f1-4485-ba45-b4ec2e90620e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002079"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -49371,6 +50334,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/dddd9215-b7d9-49d3-9546-ff2582be5f56",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -49561,6 +50528,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6dc0278e-f479-4bdb-94b9-8df95f5ae79f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -49751,6 +50722,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/a07c1de5-7229-4161-9c49-defd3ab029f7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -49941,6 +50916,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/cf097162-7c4b-4118-a19a-cc9805b8f467",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -50131,6 +51110,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d9722c2f-1591-4e93-a214-377a5646e6d8",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -50475,6 +51458,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0e8b0f2f-d130-4edc-a00b-15db0110ffa9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -50819,6 +51806,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8ae7c9f9-b138-4b44-8aaf-944b7544ff8a",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -51163,6 +52154,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6904a86d-aadb-4959-9aac-54afa7e2bf2b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -51353,6 +52348,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/80b28f07-c971-40f2-afc1-f7654359e5d9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -51718,6 +52717,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/37283102-d963-4639-8834-4813fbb3c247",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -52083,6 +53086,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/87be07c9-cf37-4001-a589-e2c048b5d3f3",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -52455,6 +53462,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d8490f13-1bb3-41bb-acea-82678406ad96",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0008716"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -52771,6 +53782,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/19a9f5af-c334-4e5d-a5f8-4ac2128d0eb5",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002015"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -53129,6 +54144,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bc7cbfcd-cc52-4e82-a079-e353feb729a1",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -53165,6 +54184,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bc7cbfcd-cc52-4e82-a079-e353feb729a1",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -53243,6 +54266,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/a619c5f7-b1b1-427d-b76d-846caab056d0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -53615,6 +54642,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c207b7e4-7788-4125-a961-9f5f20f6bfbf",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -53987,6 +55018,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3bcbcc3c-ad26-411d-b4c1-5d5a37971000",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -54359,6 +55394,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/02ae63f0-4a35-4ff5-858e-689242c26828",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -54731,6 +55770,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/18a43fde-687e-4074-afe7-5af1accd9909",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -55075,6 +56118,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5f2d29d1-9989-435c-9311-59799db1e8d7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -55419,6 +56466,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/67aecf90-24ce-4dfa-91db-8d7a081aa684",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -55763,6 +56814,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/37000e7b-f8a6-42c5-b086-1778ce47e2c7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -56107,6 +57162,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -56479,6 +57538,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/38ed99d5-8763-449a-b188-d20f8a7db31a",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0008716"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -56795,6 +57858,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/1c7f8f09-2f17-48ca-8922-c03adf82b66f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -57160,6 +58227,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ba54628b-f2ab-4ce0-a767-32123813092f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -57504,6 +58575,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/71888798-9acb-4589-9b39-59a987d048ad",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -57540,6 +58615,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/71888798-9acb-4589-9b39-59a987d048ad",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -57618,6 +58697,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2c92be72-25c2-438c-bd40-b85cc7190211",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -57962,6 +59045,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/416ed966-ee69-40c1-ac36-e44c34164f7d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0004200"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -58327,6 +59414,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/7751603d-80fa-4bc7-b8b0-9e7176bed3e6",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0008716"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -58643,6 +59734,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/b5ba9c77-bf58-49bd-b686-7868f9a5c05a",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0008716"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -58959,6 +60054,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e6c247f7-694a-4477-8ba7-84d04bc9c3bd",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001284"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -59303,6 +60402,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/decfd5b4-07de-4894-bc83-6698cfb1ef8c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -59675,6 +60778,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e13cd910-c2df-4b83-ad68-2e7409089fa4",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -59865,6 +60972,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/47f52d3a-21fd-464c-bfe7-dce1df5662be",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -60237,6 +61348,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c80e8f79-2b12-470d-be3c-f195a3686943",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002015"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -60595,6 +61710,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/cc1251a4-d367-4bb1-b2d9-05ae33209f0d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -60785,6 +61904,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -60968,6 +62091,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/676e549a-6234-48ee-b7cb-82258c17054b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -61158,6 +62285,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c40d5540-f400-484c-b8d1-fbcb44194af7",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002189"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -61530,6 +62661,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001157"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -61713,6 +62848,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/fd7270d4-105a-4058-aece-2d2bb0668da2",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0001159"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -61896,6 +63035,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2185217b-77ed-4043-b79b-1c2d33b6d524",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -61932,6 +63075,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2185217b-77ed-4043-b79b-1c2d33b6d524",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -62010,6 +63157,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ec1cc18d-9a48-4c09-a720-2b54c3f83bd9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -62193,6 +63344,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ece78b3e-635e-45d1-8217-35fd50392cce",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -62229,6 +63384,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ece78b3e-635e-45d1-8217-35fd50392cce",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002097"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -62307,6 +63466,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/d237fd29-749e-4734-a925-d36e5d1db31d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma14966"
+      ],
       "modality": "spatial",
       "summary": [
         {
@@ -62490,6 +63653,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/60d98bd4-122b-485f-b55e-444065091e23",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -62680,6 +63847,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/e306f975-0649-40fe-96f8-43ac7a3a9a1d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002078"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -62919,6 +64090,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/aefbf9c4-7f7f-494d-bdad-708aa232d02b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -63109,6 +64284,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/817b4f43-5cb7-47c7-8e5d-db6e2d52fa68",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002079"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -63299,6 +64478,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3db43e49-5b7f-4806-a772-07a1ccfd49a8",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002079"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -63489,6 +64672,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/2d7b421b-cd7a-4b31-8f36-157067599c24",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -63679,6 +64866,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/c127016f-4de6-41ce-a314-56ad21390e0b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -63869,6 +65060,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/0c0a1979-77be-40f2-b950-3725707e40c9",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002078"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -64108,6 +65303,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/502166ab-e841-4b65-9045-7c386166a9e8",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002079"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -64298,6 +65497,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/9bd653dd-2309-4ecc-b4c8-e9f3de4bf8ca",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002079"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -64488,6 +65691,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3bf6e5a0-a04d-498e-89b1-b2c2562e4483",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002078"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -64727,6 +65934,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ca476545-5b98-476c-b2fd-1b8e1708faed",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002078"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -64966,6 +66177,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/da60f474-614a-4e0a-adbe-521ba44c7bf0",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7361"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -65170,6 +66385,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6acd66b8-2659-4626-bef9-a80f135489ad",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.org/sig/ont/fma/fma7402"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -65374,6 +66593,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/36d378f4-d4b5-456f-a32c-12a4c60d8159",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002094"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -65564,6 +66787,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/521967fe-9c54-4b71-a9aa-398950ed47ae",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002094"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -65754,6 +66981,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/6d7cca9f-1fe3-442d-8ac9-43896f194326",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -65944,6 +67175,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/ee4110ca-9ea3-4580-a79c-30471359f11c",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -66134,6 +67369,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/35247281-a3a5-4e0e-b4d5-5dda314c25f2",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -66324,6 +67563,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/273dd4c3-5442-4c31-8ffb-163cbc0f303d",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -66514,6 +67757,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/4b81bf86-4c5b-4422-9edb-c0f4ec525d8e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -66704,6 +67951,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/891363dd-7c97-421c-b321-6a27b3b55dae",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -66894,6 +68145,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/717feefc-95f4-42b4-8255-96ddf65921be",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002078"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -67133,6 +68388,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/da9a6669-973c-4bee-97e1-7430d21796f8",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002094"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -67323,6 +68582,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/a99b891d-44ce-47ab-91d9-e7dc5743ea46",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -67513,6 +68776,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/4e5190dc-9290-4d8d-a521-18d8f64c098e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -67703,6 +68970,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/455397a4-3d28-4e0b-9a88-c40cd796d3ec",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -67893,6 +69164,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/9c7fd6bb-6ea4-411d-8ad3-d2277ef18b05",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -68083,6 +69358,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/bd2df259-b64d-4f5a-b2e4-84be6031c5ef",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -68273,6 +69552,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/8ac5f392-021e-452a-845b-a2a5e9e807fb",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -68463,6 +69746,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5b8ac863-a3ac-4f61-b856-0243634ca18b",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -68653,6 +69940,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/597935ff-e86d-4a23-a3d6-bd88ede49a3f",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -68843,6 +70134,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/a4137bf0-6e8f-4dfd-b341-e3ac3ee51772",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -69033,6 +70328,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/9815616b-4e3f-4c2a-bf64-14dc26f484a4",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002094"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -69223,6 +70522,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/3c25705a-5769-425a-a481-d1f6d5a95cab",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002084"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -69413,6 +70716,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/5d1aa5f0-f399-4bc2-96fd-e999a2326626",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -69603,6 +70910,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/50ee1b49-9d08-46f3-87cb-a3faafb1f555",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
@@ -69793,6 +71104,10 @@
       "@type": "CellSummary",
       "cell_source": "http://purl.org/ccf/1.5/61c613a2-0030-48bf-8b6e-be631f24ce8e",
       "annotation_method": "AS Cell Summary",
+      "aggregated_summary_count": 1,
+      "aggregated_summaries": [
+        "http://purl.obolibrary.org/obo/UBERON_0002080"
+      ],
       "modality": "bulk",
       "summary": [
         {
