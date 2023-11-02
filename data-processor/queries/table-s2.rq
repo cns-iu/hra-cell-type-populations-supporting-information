@@ -9,15 +9,16 @@ PREFIX FMA: <http://purl.org/sig/ont/fma/fma>
 PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
 PREFIX ccf3d: <http://purl.org/ccf/latest/ccf.owl#>
 PREFIX ccf: <http://purl.org/ccf/>
-PREFIX ctpop: <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#>
+PREFIX ctpop-graph: <https://purl.humanatlas.io/graph/ctpop>
+PREFIX ctpop: <https://purl.humanatlas.io/graph/ctpop#>
 PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
-SELECT ?organ ?organ_id ?as_label ?as_volume
+SELECT DISTINCT ?organ ?organ_id ?as_label ?as_volume
 	?rui_location_one_as_count ?rui_location_count ?rui_locations_with_ct ?rui_locations_no_ct
 	?ct_not_in_hra ?ct_in_hra ?ct_from_hra_only ?experimental_ct_count ?ct_labels_from_experimental_data ?predicted_cells_per_ct
-FROM ctpop:graph
+FROM ctpop-graph:
 FROM <https://purl.org/ccf/releases/2.2.1/ccf.owl>
 WHERE {
   {

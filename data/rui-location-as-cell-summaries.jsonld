@@ -9,15 +9,11 @@
       "@prefix": true
     },
     "ctpop": {
-      "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#",
+      "@id": "https://purl.humanatlas.io/graph/ctpop#",
       "@prefix": true
     },
-    "ctpop-registrations": {
-      "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/rui_locations.jsonld#",
-      "@prefix": true
-    },
-    "ctpop-datasets": {
-      "@id": "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/datasets.jsonld#",
+    "ctpop_datasets": {
+      "@id": "https://purl.humanatlas.io/graph/ctpop#datasets_",
       "@prefix": true
     },
     "as_3d_id": {
@@ -51,7 +47,8 @@
       "@type": "@id"
     },
     "aggregated_summaries": {
-      "@id": "ccf:aggregates"
+      "@id": "ccf:aggregates",
+      "@type": "@id"
     },
     "annotation_method": {
       "@id": "ccf:cell_annotation_method"

@@ -6,7 +6,8 @@ PREFIX FMA: <http://purl.org/sig/ont/fma/fma>
 PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
 PREFIX ccf3d: <http://purl.org/ccf/latest/ccf.owl#>
 PREFIX ccf: <http://purl.org/ccf/>
-PREFIX ctpop: <https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#>
+PREFIX ctpop-graph: <https://purl.humanatlas.io/graph/ctpop>
+PREFIX ctpop: <https://purl.humanatlas.io/graph/ctpop#>
 PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
@@ -14,7 +15,7 @@ PREFIX rui: <http://purl.org/ccf/1.5/>
 
 SELECT ?sample ?dataset ?modality ?organ ?organId ?as ?similarity ?as_in_collisions
 WHERE {
-  GRAPH ctpop:graph {
+  GRAPH ctpop-graph: {
     ?sample ccf:generates_dataset ?dataset .
     ?sample ccf:has_registration_location ?rui_location .
 
@@ -59,7 +60,7 @@ WHERE {
   }
 
   BIND (EXISTS {
-    GRAPH ctpop:graph {
+    GRAPH ctpop-graph: {
       ?rui_location ccf:has_collision_summary [
         ccf:has_collision_item [
           ccf:as_id ?as

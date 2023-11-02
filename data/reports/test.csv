@@ -1,7 +1,7 @@
 graph,triples
-https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#datasets,384538
-https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#distances,1676280
-https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#graph,85176
-https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#registrations,131196
-https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data/enriched_rui_locations.jsonld#similarities,11535972
+https://purl.humanatlas.io/graph/ctpop,85950
+https://purl.humanatlas.io/graph/ctpop#datasets,384538
+https://purl.humanatlas.io/graph/ctpop#distances,1676280
+https://purl.humanatlas.io/graph/ctpop#registrations,131865
+https://purl.humanatlas.io/graph/ctpop#similarities,11535972
 https://purl.org/ccf/releases/2.2.1/ccf.owl,510790
