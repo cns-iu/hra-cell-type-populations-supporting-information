@@ -1,11 +1,19 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { globSync } from 'glob';
 import Papa from 'papaparse';
 import { basename } from 'path';
+import sh from 'shelljs';
 
 const OUTPUT = '../data/universe-cell-summaries-spatial.jsonld';
-const SPATIAL_CSV_PATTERN = 'hra-ct-summaries-mx-spatial-data/**/cell_type_counts/*.csv';
+const CSV_PATTERN = 'hra-ct-summaries-mx-spatial-data/**/cell_type_counts/*.csv';
+const MODALITY = 'spatial';
 const BASE_IRI = 'ctpop_datasets:';
+
+// Check out the hra-ct-summaries-mx-spatial-data repo with spatial summary csv files
+if (!existsSync('hra-ct-summaries-mx-spatial-data')) {
+  console.log('Getting static spatial cell type summary csv files...');
+  sh.exec('git clone https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data');
+}
 
 /**
  * Normalize cell type ids, generating one if needed
@@ -55,12 +63,18 @@ function getCTSummary(path, datasetIri, modality = undefined) {
   };
 }
 
+const seen = new Set();
 const results = [];
-for (const csvFile of globSync(SPATIAL_CSV_PATTERN)) {
+for (const csvFile of globSync(CSV_PATTERN)) {
   const id = basename(csvFile, '.csv');
-  const datasetIri = `${BASE_IRI}${id}`;
-  const summary = getCTSummary(csvFile, datasetIri, 'spatial');
-  results.push(summary);
+  if (!seen.has(id)) {
+    seen.add(id);
+    const datasetIri = `${BASE_IRI}${id}`;
+    const summary = getCTSummary(csvFile, datasetIri, MODALITY);
+    results.push(summary);
+  } else {
+    console.log(id, 'has a duplicate cell summary.');
+  }
 }
 
 const jsonld = {

@@ -34,15 +34,24 @@ if (!existsSync('tissue-bar-graphs')) {
   sh.exec('cd tissue-bar-graphs; git pull origin static');
 }
 
-// Generate registrations
-if (CLEAN || !existsSync('../data/rui_locations.jsonld')) {
-  sh.exec('npm run generate:registrations');
+// Generate universe spatial dataset cell summaries
+if (CLEAN || !existsSync('../data/gen-universe-cell-summaries-spatial.jsonld')) {
+  sh.exec('npm run generate:universe-cell-summaries-spatial');
+}
+
+// Generate universe bulk dataset cell summaries
+if (CLEAN || !existsSync('../data/gen-universe-cell-summaries-bulk.jsonld')) {
+  sh.exec('npm run generate:universe-cell-summaries-bulk');
+}
+
+// Generate universe registrations
+if (CLEAN || !existsSync('../data/gen-universe-registrations.jsonld')) {
   sh.exec('npm run generate:universe-registrations');
 }
 
-// Generate universe spatial dataset cell summaries
-if (CLEAN || !existsSync('../data/gen-universe-cell-summaries-spatial.js')) {
-  sh.exec('npm run generate:universe-cell-summaries-spatial');
+// Generate registrations
+if (CLEAN || !existsSync('../data/rui_locations.jsonld')) {
+  sh.exec('npm run generate:registrations');
 }
 
 // Generate rui location cell summaries
