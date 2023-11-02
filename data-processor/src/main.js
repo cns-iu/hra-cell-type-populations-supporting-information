@@ -40,6 +40,11 @@ if (CLEAN || !existsSync('../data/rui_locations.jsonld')) {
   sh.exec('npm run generate:universe-registrations');
 }
 
+// Generate universe spatial dataset cell summaries
+if (CLEAN || !existsSync('../data/gen-universe-cell-summaries-spatial.js')) {
+  sh.exec('npm run generate:universe-cell-summaries-spatial');
+}
+
 // Generate rui location cell summaries
 if (CLEAN || !existsSync('../data/rui-location-cell-summaries.jsonld')) {
   sh.exec('npm run generate:rui-location-cell-summaries');

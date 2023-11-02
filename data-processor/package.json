@@ -8,6 +8,7 @@
     "start": "node ./src/main.js",
     "generate:registrations": "node ./src/gen-registrations.js",
     "generate:universe-registrations": "node ./src/gen-universe-registrations.js",
+    "generate:universe-cell-summaries-spatial": "node ./src/gen-universe-cell-summaries-spatial.js",
     "generate:dataset-cell-summaries": "node ./src/gen-cell-summaries.js",
     "generate:collisions": "node ./src/gen-collisions.js",
     "generate:corridors": "node ./src/gen-corridors.js",
