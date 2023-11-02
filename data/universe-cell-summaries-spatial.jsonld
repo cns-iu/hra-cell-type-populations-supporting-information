@@ -192,7 +192,7 @@
   "@graph": [
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM975.FVCG.922",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/fa238ec2a83302fb4af92442c3683a23",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -228,7 +228,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM875.SBHJ.939",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/65e850415322baad58626e3a228478dc",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -264,7 +264,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM747.SPWK.779",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/72b0dc83701c045d954b457baed40697",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -300,7 +300,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM746.VTDZ.959",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/0ca0721ae67b78b5eed7c0ef20dc6ac1",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -336,7 +336,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM732.FZVZ.656",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/060dfa0fdf2b840864f62d2cd1a7a456",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -372,7 +372,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM666.JCGS.862",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/215f1050fc286dcc579edfd9c2494de1",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -408,7 +408,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM592.JGSQ.253",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/6c75548f017fe5891f2ddc91566565f0",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -444,7 +444,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM494.XDQW.356",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/ec85791b4b73e76bf32bb40bad60fb50",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -480,7 +480,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM398.NCVN.256",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/59f249caa2fe225f030205c2abd86051",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -516,7 +516,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM238.ZKPC.934",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/ce30489adeb0c18b028055b8b60707ca",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -552,7 +552,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM996.MDQH.988",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/1aea5d37b6bef49653515595f228c545",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -735,7 +735,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM974.CNWK.327",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/f7b14f3298c0676d8cc5b127e72c8bc7",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -918,7 +918,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM964.FPNH.767",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/59f7fa785f9dbd46f45758e22454e912",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -1101,7 +1101,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM953.KMTG.758",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/262419be2d6fc1fbbbdcbf9645d7b11a",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -1284,7 +1284,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM945.FSHR.864",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/11b4f413984624557c2b1a4566b0d71a",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -1467,7 +1467,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM938.KMNW.825",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/c5334b682758b141c481f87ae010b537",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -1650,7 +1650,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM934.KLGL.584",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/0daec302e2745287b29948a8c8c30cf1",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -1833,7 +1833,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM899.KTQM.246",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/5dcd80f33dd59321055f621791918516",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -2016,7 +2016,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM893.MCGS.487",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/133bc98251c8b80923f550ea2678380e",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -2199,7 +2199,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM865.VDXC.862",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/9b18ca7a4c869239ddf80f0dbae7438d",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -2382,7 +2382,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM852.NKST.623",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/aabf05e28a70e7da1fc2558d9a2d82af",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -2565,7 +2565,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM845.VMSZ.536",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/7b8380782bc3f9ba8dca693909477b66",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -2748,7 +2748,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM832.ZSQJ.442",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/be815eafcdc11825037586353cf34b86",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -2931,7 +2931,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM827.SJBP.777",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/aea2908c0165645e2c1a1251362c2465",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -3114,7 +3114,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM824.XGWZ.857",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/763635933fb185b0174ea09273b36583",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -3297,7 +3297,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM823.RJNG.364",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/9e28cdbdb5bc5b3cf7299f13635eebc9",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -3480,7 +3480,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM792.FFJT.499",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/a0946b9a99b0940c5e9eb7587deafee5",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -3663,7 +3663,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM785.FJVT.469",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/8704f735f701691de8ba8f88ebf01a77",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -3846,7 +3846,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM772.TKCN.287",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/4839e7564bc7676e781b8f3f9bfbf35b",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -4029,7 +4029,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM749.SMWP.555",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/6df2f796ad72307d04dc94d688b725c5",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -4212,7 +4212,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM742.NHHQ.357",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/98c1bc0a44802108a6dcf8ce281628a7",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -4395,7 +4395,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM739.HCWP.359",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/699e1e0966bf3bc53e8a114eff9c75d0",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -4578,7 +4578,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM729.XTBN.693",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/4887c97a8f862dfd0927fca83772da67",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -4761,7 +4761,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM727.DMKG.675",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/40b8449d2e4edbf2168dfadaefd0ffe4",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -4944,7 +4944,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM687.SJLD.889",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/1ef4a756160bd478823f7f400c3d3709",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -5127,7 +5127,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM683.NRPR.962",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/52ef1c33a11494b43d8979e0e6057caa",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -5310,7 +5310,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM679.NNNK.283",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/96f5c73df89d553cda6547b508aee854",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -5493,7 +5493,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM676.QVGZ.455",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/fb71322290f359a730b709e2c58f8897",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -5676,7 +5676,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM666.RBCG.529",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/3a4fb23a49fba2647dba2b8f57976d25",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -5859,7 +5859,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM666.NDQZ.365",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/e45724a72ab0e7d7b283451836dd983e",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -6042,7 +6042,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM627.KDHD.293",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/b6f3dd854f9826cad29a2f63261e3a54",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -6225,7 +6225,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM626.VJMB.795",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/371a66eb271ddc229fa5cb2c3a20ca12",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -6408,7 +6408,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM622.STKS.394",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/61e800af49715fa70ec90a7c53f3c389",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -6591,7 +6591,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM575.THQM.284",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/e6fd525b837f4cf736c8af830f4f750f",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -6774,7 +6774,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM573.TTLG.748",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/8eeca1a98041348bb14fd652b766661e",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -6957,7 +6957,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM573.SWGH.988",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/be737d348cf32ff4c38145a928e0f435",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -7140,7 +7140,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM569.NBHZ.832",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/b3e6c1651d33bdec8a827144c667e998",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -7323,7 +7323,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM565.LSMX.645",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/746688ea37608c8dbbcc1805adc0413c",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -7506,7 +7506,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM535.QNTP.246",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/33fcecfcdb5a264554dc06db897cd4f8",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -7689,7 +7689,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM488.CNNZ.544",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/9d85dec83a12ae900c5b7603cb74d6ca",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -7872,7 +7872,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM473.QGDG.848",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/f9ae88d0a98b274efe18f03622de08a7",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -8055,7 +8055,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM466.XSKL.867",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/61b3818a8c762a5708b275a714360608",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -8238,7 +8238,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM465.ZNVW.226",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/fa789beae7f1a0ad9947de50c329e3db",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -8421,7 +8421,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM462.JKCN.863",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/5b8a17e92defe510fa91b3a97a728831",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -8604,7 +8604,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM447.MNKW.592",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/efaecdc1565274900386733cf1661ca6",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -8787,7 +8787,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM443.LGZK.435",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/ceeb65e769fd592cbc9caad267cbe4fe",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -8970,7 +8970,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM439.WJDV.974",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/153b0fe8575ff1a17768319ba6dbaa5c",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -9153,7 +9153,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM438.JXJW.249",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/3f3fc7fbd6c9ddffd3cd96e07b946252",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -9336,7 +9336,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM429.LLRT.546",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/2958cd11dad5ee8bcf7bf8d4b3e4a128",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -9519,7 +9519,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM424.STVV.842",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/ec8f9880b5dda90c3c6017ba670097a9",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -9702,7 +9702,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM395.NQKF.566",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/50f466268d42ee8ebf929757ed670d12",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -9885,7 +9885,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM394.VSKR.883",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/5afac98d9f449f2169b505179dd96f0e",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -10068,7 +10068,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM363.LLBL.252",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/e3b831b46c84bc66e88fa410cf89dc2d",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -10251,7 +10251,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM363.CKHC.928",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/c0f9540056469f86daa7c7a363dfb0bd",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -10434,7 +10434,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM353.NZVQ.793",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/3480cd404d4bacd7bb8d21be8de12c6c",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -10617,7 +10617,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM334.QWFV.953",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/98d54824c0eb9843865dfc3a53b4cff4",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -10800,7 +10800,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM297.MZZX.824",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/cf25bdcd6bae8045f6b88bb3c9a32207",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -10983,7 +10983,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM295.SWJJ.888",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/4ea2c240173bda1bd799b0f17e55a96d",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -11166,7 +11166,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM288.BBKK.828",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/7500e7f02589f4b4e55641f09723c3de",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -11349,7 +11349,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM285.VFDT.966",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/7034950e109586361e73c1b9ddb81346",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -11532,7 +11532,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM284.SBPR.357",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/a9d4471b41cd0d8185e12dd6c5a48e96",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -11715,7 +11715,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM242.LSCK.393",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/a702c94500a2f737b722e34f6df7e7dd",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -11898,7 +11898,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM238.GTNW.259",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/a7ecf4fd858a58dcaa3bab5df455065b",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [
@@ -12081,7 +12081,7 @@
     },
     {
       "@type": "CellSummary",
-      "cell_source": "ctpop_datasets:HBM235.VKNJ.237",
+      "cell_source": "https://entity.api.hubmapconsortium.org/entities/c8ee4bd8f052b50fab2e9e9365793374",
       "annotation_method": "Ad-Hoc",
       "modality": "spatial",
       "summary": [

@@ -3,11 +3,19 @@ import { globSync } from 'glob';
 import Papa from 'papaparse';
 import { basename } from 'path';
 import sh from 'shelljs';
+import { getHbmToUuidLookup } from './utils/hubmap-uuid-lookup.js';
+const HUBMAP_TOKEN = process.env.HUBMAP_TOKEN;
 
 const OUTPUT = '../data/universe-cell-summaries-bulk.jsonld';
 const CSV_PATTERN = 'tissue-bar-graphs/csv/*/*.csv';
 const MODALITY = 'bulk';
 const BASE_IRI = 'ctpop_datasets:';
+
+// A HuBMAP Token is required as some datasets are unpublished
+if (!HUBMAP_TOKEN) {
+  console.log('Please run `export HUBMAP_TOKEN=xxxYourTokenyyy` and try again.');
+  process.exit();
+}
 
 // Check out the tissue-bar-graphs repo with summary csv files
 if (!existsSync('tissue-bar-graphs')) {
@@ -63,13 +71,40 @@ function getCTSummary(path, datasetIri, modality = undefined) {
   };
 }
 
+const allCSVs = globSync(CSV_PATTERN);
+
+const hbmLookup = await getHbmToUuidLookup(
+  allCSVs.map((f) => basename(f, '.csv')).filter((id) => id.startsWith('HBM')),
+  HUBMAP_TOKEN
+);
+
+const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+function isCxGId(id) {
+  return uuidRegex.test(id.split('_')[0]);
+}
+
+function getDatasetIri(id) {
+  let iri;
+  if (id.startsWith('HBM')) {
+    iri = hbmLookup[id];
+  } else if (id.startsWith('GTEX-')) {
+    iri = `https://doi.org/10.1126/science.abl4290#${id}`;
+  } else if (isCxGId(id)) {
+    iri = `https://api.cellxgene.cziscience.com/dp/v1/collections/${id}`;
+  }
+  if (!iri) {
+    iri = `${BASE_IRI}${id}`;
+  }
+  return iri;
+}
+
 const seen = new Set();
 const results = [];
-for (const csvFile of globSync(CSV_PATTERN)) {
+for (const csvFile of allCSVs) {
   const id = basename(csvFile, '.csv');
   if (!seen.has(id)) {
     seen.add(id);
-    const datasetIri = `${BASE_IRI}${id}`;
+    const datasetIri = getDatasetIri(id);
     const summary = getCTSummary(csvFile, datasetIri, MODALITY);
     results.push(summary);
   } else {

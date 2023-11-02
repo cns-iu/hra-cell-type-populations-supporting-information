@@ -3,11 +3,13 @@ import { globSync } from 'glob';
 import Papa from 'papaparse';
 import { basename } from 'path';
 import sh from 'shelljs';
+import { getHbmToUuidLookup } from './utils/hubmap-uuid-lookup.js';
 
 const OUTPUT = '../data/universe-cell-summaries-spatial.jsonld';
 const CSV_PATTERN = 'hra-ct-summaries-mx-spatial-data/**/cell_type_counts/*.csv';
 const MODALITY = 'spatial';
 const BASE_IRI = 'ctpop_datasets:';
+const HUBMAP_TOKEN = process.env.HUBMAP_TOKEN;
 
 // Check out the hra-ct-summaries-mx-spatial-data repo with spatial summary csv files
 if (!existsSync('hra-ct-summaries-mx-spatial-data')) {
@@ -63,13 +65,20 @@ function getCTSummary(path, datasetIri, modality = undefined) {
   };
 }
 
+const allCSVs = globSync(CSV_PATTERN);
+
+const hbmLookup = await getHbmToUuidLookup(
+  allCSVs.map((f) => basename(f, '.csv')).filter((id) => id.startsWith('HBM')),
+  HUBMAP_TOKEN
+);
+
 const seen = new Set();
 const results = [];
-for (const csvFile of globSync(CSV_PATTERN)) {
+for (const csvFile of allCSVs) {
   const id = basename(csvFile, '.csv');
   if (!seen.has(id)) {
     seen.add(id);
-    const datasetIri = `${BASE_IRI}${id}`;
+    const datasetIri = hbmLookup[id] || `${BASE_IRI}${id}`;
     const summary = getCTSummary(csvFile, datasetIri, MODALITY);
     results.push(summary);
   } else {
