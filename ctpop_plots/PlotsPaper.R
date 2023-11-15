@@ -67,6 +67,57 @@ p = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors))+
 p+ bar_graph_theme+
   theme(axis.text.x = element_text(size=15), legend.text = element_text(size=15))
 
+# Fig. 2a ALTERNATIVE with outlines, bar graph for CTPop (AS) 
+
+all = cells_raw%>% group_by(cell_type, anatomical_structure) %>% tally() %>% mutate(outline="black") 
+only_top = all %>% arrange(desc(n)) %>% head(10)%>% mutate(outline="red")
+
+all
+only_top
+
+plot = all %>% left_join(only_top, by=c("cell_type", "anatomical_structure"))
+
+color_array = viridis_pal(option = "turbo")(length(unique(plot$cell_type)))
+color_array
+
+mapping = tibble(color_array, unique(plot$cell_type)) %>% rename(cell_type=`unique(plot$cell_type)`)
+mapping
+mapping %>% write_csv("color_mapping.csv")
+
+p = ggplot(plot, aes(x = cell_type, y=n.x, fill=cell_type, color=outline.y))+
+  geom_bar(stat = "identity", linewidth=1.5)+
+  facet_wrap(~anatomical_structure, ncol=1)+
+  scale_color_identity()+
+  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  # scale_fill_brewer(palette = "Spectral")+
+  scale_fill_viridis_d(option = "turbo")+
+  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left kidney", fill="Cell Type")+
+  guides(fill="none")
+
+p+
+  bar_graph_theme
+
+# var graph showing frequency per top 10 most frequent cell type (all in cortex)
+# top_10 = cells_raw %>% group_by(cell_type, `anatomical structure`) %>% tally()
+top_10 = cells_raw %>% group_by(cell_type) %>% tally()
+top_10 = top_10[order(top_10$n, decreasing = TRUE),] %>% head(10) %>% arrange(cell_type) %>% mutate(outline="red")
+top_10
+
+top_10_with_colors = top_10 %>% left_join(mapping, by=c("cell_type"))
+top_10_with_colors
+
+p = ggplot(top_10_with_colors, aes(x = cell_type, y=n, fill=color_array, color=outline))+
+  geom_bar(stat = "identity", linewidth=2)+
+  scale_fill_identity()+
+  scale_color_identity()+
+  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  # scale_fill_brewer(type="qual", palette = "Paired")+
+  labs(x = "Cell Type", y = "Cell Count", title = "Top 10 cell types in cortex of female, left kidney", fill="Cell Type")
+
+p+ bar_graph_theme+
+  theme(axis.text.x = element_text(size=15), legend.text = element_text(size=15))
+
+
 
 # Fig. 3a Sankey diagram
 
@@ -199,7 +250,17 @@ p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
 p
 
 
-# Fig. 3b scatter graph
+# Fig. 3b scatter graph (add new data from https://github.com/cns-iu/hra-cell-type-populations-supporting-information/issues/66)
+
+scatter = read_csv("../data/reports/validation-v5.csv")
+grouped = scatter %>% group_by(dataset)
+grouped
+
+g = ggplot(data=grouped, aes(x = rui_location_volume, y=percentage))+
+  geom_point()+
+  facet_wrap(~organ)
+g
+
 g <- ggplot(data = scatter, aes(
   x = tissue_block_volume, y = total_per_tissue_block, 
   color=organ, 
@@ -236,77 +297,30 @@ g + scatter_theme
 
 # Fig. 4a (scatter graph block volume)
 
-plot_raw=read_sheet("https://docs.google.com/spreadsheets/d/19ZxHSkX5P_2ngredl0bcncaD0uukBRX3LxlWSC3hysE/edit#gid=0", sheet="Fig2a",skip=0)
+# plot_raw=read_sheet("https://docs.google.com/spreadsheets/d/19ZxHSkX5P_2ngredl0bcncaD0uukBRX3LxlWSC3hysE/edit#gid=0", sheet="Fig2a",skip=0)
+plot_raw = read_csv("../data/reports/figure-f4.csv")
 
-p = ggplot(plot_raw, aes(x=number_of_anatomical_structures_as, y=number_of_registrations, size=20, colour=Sex))+
+p = ggplot(plot_raw, aes(x=organ_as_count, y=rui_location_count, size=dataset_count, colour=sex))+
   geom_point()+
-  scatter_theme+
-  geom_text_repel(aes(x=number_of_anatomical_structures_as, y=number_of_registrations, label=Name),
+  # scatter_theme+
+  geom_text_repel(aes(x=organ_as_count, y=rui_location_count, label=organ),
                   size=4,
                   color="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
   labs(y = "Total number of tissue block registrations for the organ", x = "Total number of anatomical structures in 3D model")+
-  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$number_of_anatomical_structures_as)+5, by = 20))+
-  scale_y_continuous(breaks = seq(0, max(plot_raw$number_of_registrations) + 5, by = 5))+
-  scale_colour_brewer(type = "qual", palette = "Dark2")+
-  guides(size="none", colour = guide_legend(override.aes = list(size=7)))+
-  theme(legend.position = "bottom")
+  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$organ_as_count)+5, by = 20))
+  # scale_y_continuous(breaks = seq(0, max(plot_raw$number_of_registrations) + 5, by = 5))+
+  # scale_colour_brewer(type = "qual", palette = "Dark2")+
+  # guides(size="none", colour = guide_legend(override.aes = list(size=7)))+
+  # theme(legend.position = "bottom")
 
 
 p + scatter_theme
 
-# Fig. 4a ALTERNATIVE with outlines, bar graph for CTPop (AS) 
 
-all = cells_raw%>% group_by(cell_type, anatomical_structure) %>% tally() %>% mutate(outline="black") 
-only_top = all %>% arrange(desc(n)) %>% head(10)%>% mutate(outline="red")
 
-all
-only_top
-
-plot = all %>% left_join(only_top, by=c("cell_type", "anatomical_structure"))
-
-color_array = viridis_pal(option = "turbo")(length(unique(plot$cell_type)))
-color_array
-
-mapping = tibble(color_array, unique(plot$cell_type)) %>% rename(cell_type=`unique(plot$cell_type)`)
-mapping
-mapping %>% write_csv("color_mapping.csv")
-
-p = ggplot(plot, aes(x = cell_type, y=n.x, fill=cell_type, color=outline.y))+
-  geom_bar(stat = "identity", linewidth=1.5)+
-  facet_wrap(~anatomical_structure, ncol=1)+
-  scale_color_identity()+
-  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
-  # scale_fill_brewer(palette = "Spectral")+
-  scale_fill_viridis_d(option = "turbo")+
-  labs(x = "Cell Type", y = "Cell Count", title = "Cell type distribution for four AS in female, left kidney", fill="Cell Type")+
-  guides(fill="none")
-
-p+
-  bar_graph_theme
-
-# var graph showing frequency per top 10 most frequent cell type (all in cortex)
-# top_10 = cells_raw %>% group_by(cell_type, `anatomical structure`) %>% tally()
-top_10 = cells_raw %>% group_by(cell_type) %>% tally()
-top_10 = top_10[order(top_10$n, decreasing = TRUE),] %>% head(10) %>% arrange(cell_type) %>% mutate(outline="red")
-top_10
-
-top_10_with_colors = top_10 %>% left_join(mapping, by=c("cell_type"))
-top_10_with_colors
-
-p = ggplot(top_10_with_colors, aes(x = cell_type, y=n, fill=color_array, color=outline))+
-  geom_bar(stat = "identity", linewidth=2)+
-  scale_fill_identity()+
-  scale_color_identity()+
-  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
-  # scale_fill_brewer(type="qual", palette = "Paired")+
-  labs(x = "Cell Type", y = "Cell Count", title = "Top 10 cell types in cortex of female, left kidney", fill="Cell Type")
-
-p+ bar_graph_theme+
-  theme(axis.text.x = element_text(size=15), legend.text = element_text(size=15))
-
-# Fig 4.b (similarity matrix)
+# Fig 4.b (UMAP, add Michael Ginda's code)
 
 
 
