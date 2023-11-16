@@ -324,3 +324,36 @@ p + scatter_theme
 
 
 
+# Supplemental Fig. S6
+intersections = read_csv("../data/reports/table-s5.csv")
+intersections
+
+# add sex
+more_cols = intersections %>% mutate(
+  sex =  case_when(
+    grepl("VHF", organ, fixed = TRUE) ~ "Female",
+    grepl("VHM", organ, fixed = TRUE) ~ "Male"
+    ),
+  intersection_ratio = intersection_volume/tissue_block_volume 
+)
+# more_cols
+
+p = ggplot(more_cols, aes(x = as_label, y = intersection_volume, fill=sex))+
+  geom_bar(stat = "identity")+
+  scale_y_continuous(labels=scales::number_format(decimal.mark = '.'))+
+  scale_fill_brewer(type="qual", palette = "Accent")+
+  labs(x = "Anatomical Structure", y = "Intersection Volume (cubic mm)", title = "Intersection Volumes between Atlas RUI Locations and Anatomical Structures", fill="Organ", color="AS Volume")+
+  theme(
+    axis.text.x = element_text(angle=90, size=12),
+    axis.text.y = element_text(size=12),
+    axis.title = element_text(size=12),
+    legend.text = element_text(size=15),
+    legend.title = element_text(size=15)
+  )
+p
+
+
+
+
+
+
