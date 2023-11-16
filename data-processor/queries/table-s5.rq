@@ -37,7 +37,7 @@ WHERE {
 					ccf:percentage_of_total ?percentage ;
     	]
     ]
-		BIND (?as_volume * ?percentage as ?intersection_volume)
+		BIND (?tissue_block_volume * ?percentage as ?intersection_volume)
   	BIND (REPLACE(REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "Colon", "LargeIntestine"), "V1.1", "") as ?organ)
 }
 ORDER BY ?organ ?rui_location DESC(?as_volume)
