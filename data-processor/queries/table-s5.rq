@@ -15,7 +15,7 @@ PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
-SELECT DISTINCT ?rui_location ?organ ?as_label ?as_id ?intersection_volume
+SELECT DISTINCT ?rui_location ?organ ?as_label ?as_id ?intersection_volume ?as_volume
 FROM ctpop-graph:
 WHERE {
     ?rui_location a ccf:SpatialEntity .
