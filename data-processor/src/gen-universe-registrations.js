@@ -7,7 +7,7 @@ const COMBINED_OUTPUT = '../data/rui_locations.jsonld';
 
 const REGISTRATION_URLS = [
   'https://ccf-api.hubmapconsortium.org/v1/hubmap/rui_locations.jsonld',
-  'https://apps.humanatlas.io/hra-api--staging/v1/sennet/rui_locations.jsonld',
+  'https://apps.humanatlas.io/hra-api/v1/sennet/rui_locations.jsonld',
   'https://ccf-api.hubmapconsortium.org/v1/gtex/rui_locations.jsonld',
   'https://hubmapconsortium.github.io/hra-registrations/federated/rui_locations.jsonld'
 ];

@@ -85,6 +85,7 @@ function isCxGId(id) {
 
 function getDatasetIri(id) {
   let iri;
+  id = id.startsWith('http') ? id : encodeURIComponent(id);
   if (id.startsWith('HBM')) {
     iri = hbmLookup[id];
   } else if (id.startsWith('GTEX-')) {
