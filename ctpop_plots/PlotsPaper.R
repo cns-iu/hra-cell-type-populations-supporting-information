@@ -257,8 +257,8 @@ grouped = scatter %>% group_by(dataset)
 grouped
 
 g = ggplot(data=grouped, aes(x = rui_location_volume, y=percentage))+
-  geom_point()+
-  facet_wrap(~organ)
+  geom_point()
+  # facet_wrap(~organ)
 g
 
 g <- ggplot(data = scatter, aes(
@@ -308,7 +308,7 @@ p = ggplot(plot_raw, aes(x=organ_as_count, y=rui_location_count, size=dataset_co
                   color="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
-  labs(y = "Total number of tissue block registrations for the organ", x = "Total number of anatomical structures in 3D model")+
+  labs(y = "Total number of tissue block registrations for the organ", x = "Total number of unique UBERON IDs in 3D model")+
   scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$organ_as_count)+5, by = 20))
   # scale_y_continuous(breaks = seq(0, max(plot_raw$number_of_registrations) + 5, by = 5))+
   # scale_colour_brewer(type = "qual", palette = "Dark2")+
@@ -336,24 +336,24 @@ more_cols = intersections %>% mutate(
     ),
   intersection_ratio = intersection_volume/tissue_block_volume 
 )
-# more_cols
 
-p = ggplot(more_cols, aes(x = as_label, y = intersection_volume, fill=sex))+
+# add number of rui locations per AS
+rui_count = more_cols %>% count (as_id) 
+more_cols = merge(more_cols, rui_count, by.x = "as_id")
+colnames(more_cols)[colnames(more_cols) == "n"] <- "rui_locations_per_as"
+
+p = ggplot(more_cols, aes(x = reorder(as_label, -intersection_volume), y = intersection_volume, fill=sex, alpha = rui_locations_per_as))+
   geom_bar(stat = "identity")+
+  facet_wrap(~organ)+
   scale_y_continuous(labels=scales::number_format(decimal.mark = '.'))+
-  scale_fill_brewer(type="qual", palette = "Accent")+
-  labs(x = "Anatomical Structure", y = "Intersection Volume (cubic mm)", title = "Intersection Volumes between Atlas RUI Locations and Anatomical Structures", fill="Organ", color="AS Volume")+
+  scale_color_brewer()+
+  scale_fill_brewer(type="qual", palette = "Dark2")+
+  labs(x = "Anatomical Structure", y = "Intersection Volume (cubic mm)", title = "Intersection Volumes between Atlas RUI Locations and Anatomical Structures", fill="Organ", alpha = "Extraction Sites \nper Anatomical Structure")+
   theme(
-    axis.text.x = element_text(angle=90, size=12),
-    axis.text.y = element_text(size=12),
-    axis.title = element_text(size=12),
+    axis.text.x = element_text(angle=90, size=15),
+    axis.text.y = element_text(size=15),
+    axis.title = element_text(size=15),
     legend.text = element_text(size=15),
     legend.title = element_text(size=15)
   )
 p
-
-
-
-
-
-
