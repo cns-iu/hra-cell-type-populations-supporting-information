@@ -357,3 +357,15 @@ p = ggplot(more_cols, aes(x = reorder(as_label, -intersection_volume), y = inter
     legend.title = element_text(size=15)
   )
 p
+
+
+# EXTRA VIS: Bar graph for datasets per AS with modality
+datasets_per_as = read_csv("../data/reports/as-datasets-modality.csv")
+
+p = ggplot(datasets_per_as, aes(x=as_label, fill=modality))+
+  geom_bar(stat = 'count', position = "stack")+
+  labs(title = 'Datasets per Anatomical Structure and Modality',x = "Anatomical Structure", y="Number of Datasets")+
+  guides(
+    legend
+  ) + scatter_theme
+p
