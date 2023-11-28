@@ -14,12 +14,16 @@ PREFIX rui: <http://purl.org/ccf/1.5/>
 
 # anatomical structure IRI | dataset_id | modality
 SELECT
+    ?organId
+    ?organ_label
+    ?refOrgan
     ?refOrganAs
     ?dataset
     ?modality
     ?as_label
 
-FROM  ctpop-graph:
+FROM ctpop-graph:
+FROM <https://purl.org/ccf/releases/2.2.1/ccf.owl>
 
 WHERE {
 
@@ -33,7 +37,11 @@ WHERE {
     ?rui_location ccf:has_collision_summary [
         ccf:has_collision_item [
             ccf:as_id ?refOrganAs ;
-            ccf:as_label ?as_label
+            ccf:as_label ?as_label ;
+            ccf:has_reference_organ ?refOrgan
         ]
     ] .
+
+    ?refOrgan ccf:representation_of ?organId .
+    ?organId rdfs:label ?organ_label
 }

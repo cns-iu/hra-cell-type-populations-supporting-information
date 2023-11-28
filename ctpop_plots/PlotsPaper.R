@@ -364,8 +364,13 @@ datasets_per_as = read_csv("../data/reports/as-datasets-modality.csv")
 
 p = ggplot(datasets_per_as, aes(x=as_label, fill=modality))+
   geom_bar(stat = 'count', position = "stack")+
+  facet_wrap(~organ_label, ncol=3)+
   labs(title = 'Datasets per Anatomical Structure and Modality',x = "Anatomical Structure", y="Number of Datasets")+
   guides(
     legend
-  ) + scatter_theme
+  ) + scatter_theme +
+  theme(
+    strip.text = element_text(size=10),
+    axis.text.x = element_text(hjust=1, size=10)
+  )
 p
