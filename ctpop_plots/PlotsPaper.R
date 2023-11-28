@@ -7,12 +7,12 @@ library(RColorBrewer) # for plots
 library(ggcorrplot) # for tissue block similarity matrix
 library(lsa) # for tissue block similarity matrix
 
+#load themes
+source("Themes.R")
+
 # load other scripts
 # load Table S1
 source("DataPreparation.R")
-
-#load themes
-source("Themes.R")
 
 # Fig. 2a bar graph for CTPop (AS) 
 # load data
