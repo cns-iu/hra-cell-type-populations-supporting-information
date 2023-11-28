@@ -250,49 +250,22 @@ p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
 p
 
 
-# Fig. 3b scatter graph (add new data from https://github.com/cns-iu/hra-cell-type-populations-supporting-information/issues/66)
+# Fig. 3b scatter graph (add cell_count from https://github.com/cns-iu/hra-cell-type-populations-supporting-information/issues/66)
 
 scatter = read_csv("../data/reports/validation-v5.csv")
-grouped = scatter %>% group_by(dataset)
-grouped
 
-g = ggplot(data=grouped, aes(x = rui_location_volume, y=percentage))+
-  geom_point()
-  # facet_wrap(~organ)
-g
-
-g <- ggplot(data = scatter, aes(
-  x = tissue_block_volume, y = total_per_tissue_block, 
-  color=organ, 
-  # shape=source,
-  size=unique_CT_for_tissue_block*5
-))+
-  geom_point(
-    alpha=.85
-  )+
-  facet_wrap(~source)+
-  # facet_grid(vars(source), vars(organ))+
-  geom_text_repel(aes(x = tissue_block_volume, y = total_per_tissue_block, label=unique_CT_for_tissue_block),
-                  size=9,
-                  color="black",
-                  alpha=.5,
-                  max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
+g = ggplot(scatter, aes(x = organ, y=cell_count, color = modality))+
+  geom_jitter(width=.25)+
+  # geom_point()+
   guides(
-    color = guide_legend( title = "Organ", override.aes = list(size = 10)),
-    shape= guide_legend( title = "Source", override.aes = list(size = 10)),
-    size = guide_legend( title = "Number of \nunique cell \ntypes per \ntissue block")
+    color = guide_legend( title = "Modality", override.aes = list(size = 10)),
   )+
-  # scale_color_brewer(type="qual",palette=1,direction=-1)+
-  scale_color_brewer(palette="Paired")+
-  # scale_fill_fermenter()
   ggtitle("Total number of cells per tissue block over volume")+
   labs(y = "Total number of cells per tissue block", x = "Volume of tissue block")+
   scatter_theme+
-  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
+  # scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))
-# theme_cyberpunktheme
-
-g + scatter_theme
+g
 
 
 # Fig. 4a (scatter graph block volume)
