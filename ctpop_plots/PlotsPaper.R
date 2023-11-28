@@ -254,16 +254,17 @@ p
 
 scatter = read_csv("../data/reports/validation-v5.csv")
 
-g = ggplot(scatter, aes(x = organ, y=cell_count, color = modality))+
-  geom_jitter(width=.25)+
+g = ggplot(scatter, aes(x = rui_location_volume, y=cell_count, shape = modality, color=organ ))+
+  geom_jitter(width=.33, alpha=.5)+
+  facet_wrap(~consortium_name, ncol=1)+
   # geom_point()+
   guides(
-    color = guide_legend( title = "Modality", override.aes = list(size = 10)),
+    color = guide_legend( title = "Tissue Block Volume", override.aes = list(size = 10)),
   )+
-  ggtitle("Total number of cells per tissue block over volume")+
-  labs(y = "Total number of cells per tissue block", x = "Volume of tissue block")+
+  ggtitle("Total number of cells per dataset over volume")+
+  labs(y = "Total number of cells per dataset", x = "Volume of tissue block")+
   scatter_theme+
-  # scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))
+  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))
 g
 
