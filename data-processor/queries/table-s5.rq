@@ -15,8 +15,11 @@ PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX hubmap: <https://entity.api.hubmapconsortium.org/entities/>
 PREFIX rui: <http://purl.org/ccf/1.5/>
 
-SELECT DISTINCT ?rui_location ?organ ?as_label ?as_id ?intersection_volume ?as_volume ?tissue_block_volume
+SELECT DISTINCT ?rui_location ?organ ?organ_label ?as_label ?as_id ?intersection_volume ?as_volume ?tissue_block_volume
+
 FROM ctpop-graph:
+FROM <https://purl.org/ccf/releases/2.2.1/ccf.owl>
+
 WHERE {
 
 	    # Get tissue block volume
@@ -36,8 +39,16 @@ WHERE {
 					ccf:has_reference_organ ?ref_organ ;
 					ccf:percentage_of_total ?percentage ;
     	]
-    ]
+    ] .
+
+	# get label for reference organ
+	?ref_organ ccf:representation_of ?organId .
+    ?organId rdfs:label ?organ_label
+
 		BIND (?tissue_block_volume * ?percentage as ?intersection_volume)
   	BIND (REPLACE(REPLACE(REPLACE(STR(?ref_organ), "http://purl.org/ccf/latest/ccf.owl#", ""), "Colon", "LargeIntestine"), "V1.1", "") as ?organ)
+
+
+
 }
 ORDER BY ?organ ?rui_location DESC(?as_volume)
