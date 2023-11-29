@@ -42,7 +42,7 @@ WHERE {
     ] .
 
 	# get label for reference organ
-	?refOrgan ccf:representation_of ?organId .
+	?ref_organ ccf:representation_of ?organId .
     ?organId rdfs:label ?organ_label
 
 		BIND (?tissue_block_volume * ?percentage as ?intersection_volume)

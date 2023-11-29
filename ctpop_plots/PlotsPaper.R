@@ -316,9 +316,14 @@ rui_count = more_cols %>% count (as_id)
 more_cols = merge(more_cols, rui_count, by.x = "as_id")
 colnames(more_cols)[colnames(more_cols) == "n"] <- "rui_locations_per_as"
 
-p = ggplot(more_cols, aes(x = reorder(as_label, -intersection_volume), y = intersection_volume, fill=sex, alpha = rui_locations_per_as))+
+# add tissue_block_intersection_percentage
+with_ratio = more_cols %>% mutate(
+  tissue_block_intersection_percentage = intersection_volume/tissue_block_volume
+)
+
+p = ggplot(with_ratio, aes(x = organ_label, y = tissue_block_intersection_percentage, fill=sex, alpha = rui_locations_per_as))+
   geom_bar(stat = "identity")+
-  facet_wrap(~organ)+
+  # facet_wrap(~organ_label)+
   scale_y_continuous(labels=scales::number_format(decimal.mark = '.'))+
   scale_color_brewer()+
   scale_fill_brewer(type="qual", palette = "Dark2")+
