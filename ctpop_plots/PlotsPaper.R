@@ -126,9 +126,9 @@ p+ bar_graph_theme+
 # NODES with NodeId
 # LINKS with Source, Target, Value
 
+# NEEDS TO BE UPDATED TO USE HRA-POP REPORT TABLE-S1 INSTEAD
 subset_sankey = table_s1 %>% 
-  select(portal, donor_sex, organ_name, cell_type_annotation_tool, omap_id, excluded_from_atlas_construction) %>% 
-  filter(excluded_from_atlas_construction==FALSE) %>%
+  select(portal, donor_sex, organ_name, cell_type_annotation_tool, omap_id) %>% 
   replace_na(list(donor_sex = "unknown")) %>% 
   replace_na(list(omap_id = "not_spatial"))
 
@@ -250,22 +250,40 @@ p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
 p
 
 
-# Fig. 3b scatter graph (add cell_count from https://github.com/cns-iu/hra-cell-type-populations-supporting-information/issues/66)
+# Fig. 3b scatter graph
 
-scatter = read_csv("../../hra-pop/output-data/v0.3/reports/atlas/validation-v5.csv")
+scatter = read_csv("../../hra-pop/output-data/v0.3/reports/atlas-lq/validation-v5.csv")
 
-g = ggplot(scatter, aes(x = rui_location_volume, y=cell_count, shape = modality, color=organ ))+
-  geom_jitter(width=.33, alpha=.5)+
+scatter = scatter %>% mutate(organ = ifelse(organ == "right kidney", "left kidney", organ))
+
+# show datasets, not data-CT pairs
+scatter = scatter %>%  group_by(dataset) %>%
+  mutate(total_cells = sum(cell_count))
+
+scatter = scatter %>% group_by(dataset) %>% 
+  mutate(distinct_cell_types = n_distinct(cell_id))
+
+scatter = scatter %>% select(consortium_name, dataset, rui_location_volume, total_cells, distinct_cell_types, modality, organ) %>% distinct()
+
+# KATY SHARED NEW COLORS IN EMAIL ON 11/28, SUBJECT LINE: New Fig. 3b
+g = ggplot(scatter, aes(x = rui_location_volume, y=total_cells, shape = modality, color=organ,  size=distinct_cell_types))+
+  geom_jitter(width=.1, alpha=.7)+
+  # geom_point(alpha = .8)+
   facet_wrap(~consortium_name, ncol=1)+
   # geom_point()+
   guides(
-    color = guide_legend( title = "Tissue Block Volume", override.aes = list(size = 10)),
+    color = guide_legend( title = "Tissue Block Volume")
   )+
   ggtitle("Total number of cells per dataset over volume")+
-  labs(y = "Total number of cells per dataset", x = "Volume of tissue block")+
+  labs(y = "Total number of cells per dataset", x = "Volume of tissue block", size="Distinct Cell Types")+
   scatter_theme+
   scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
-  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))
+  scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  theme(
+    panel.background  = element_rect(fill = "#606060"),
+    panel.grid.minor.x = element_blank(),
+    legend.key = element_rect(fill = "#606060")
+  )
 g
 
 
