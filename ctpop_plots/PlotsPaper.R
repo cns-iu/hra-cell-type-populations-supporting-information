@@ -299,7 +299,7 @@ p + scatter_theme
 
 
 # Supplemental Fig. S6
-intersections = read_csv("../data/reports/table-s5.csv")
+intersections = read_csv("../../hra-pop/output-data/v0.3/reports/atlas/table-s5.csv")
 intersections
 
 # add sex
@@ -316,17 +316,20 @@ rui_count = more_cols %>% count (as_id)
 more_cols = merge(more_cols, rui_count, by.x = "as_id")
 colnames(more_cols)[colnames(more_cols) == "n"] <- "rui_locations_per_as"
 
-# add tissue_block_intersection_percentage
-with_ratio = more_cols %>% mutate(
-  tissue_block_intersection_percentage = intersection_volume/tissue_block_volume
-)
+# count AS per TB
+with_counts = more_cols %>%  group_by(rui_location) %>% add_count(name = "as_per_rui")
 
-p = ggplot(with_ratio, aes(x = organ_label, y = tissue_block_intersection_percentage, fill=sex, alpha = rui_locations_per_as))+
-  geom_bar(stat = "identity")+
+# get total
+
+p = ggplot(with_counts, aes(x = as_per_rui, y = intersection_ratio, color=sex))+
+  # geom_bar(stat = "identity")+
+  geom_jitter(width=.2)+
+  # geom_line()+
+  # geom_point()+
   # facet_wrap(~organ_label)+
   scale_y_continuous(labels=scales::number_format(decimal.mark = '.'))+
-  scale_color_brewer()+
-  scale_fill_brewer(type="qual", palette = "Dark2")+
+  # scale_color_brewer()+
+  scale_color_brewer(type="qual", palette = "Set1")+
   labs(x = "Anatomical Structure", y = "Intersection Volume (cubic mm)", title = "Intersection Volumes between Atlas RUI Locations and Anatomical Structures", fill="Organ", alpha = "Extraction Sites \nper Anatomical Structure")+
   theme(
     axis.text.x = element_text(angle=90, size=15),
