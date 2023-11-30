@@ -325,18 +325,22 @@ g = with_counts %>% select(
 )
 
  p= ggplot(g, aes(x = as_per_rui, y = total_collision_percentage, color=organ_label))+
-   geom_jitter(width=.2)+
+   geom_jitter(width=.2, size = 4, alpha=.6)+
    # scale_color_discrete()+
    scale_color_brewer(palette = "Set3")+
-   geom_hline(yintercept = 1, color="red", linetype="dashed")+
+   geom_hline(yintercept = 1, color="red", linetype="dashed", linewidth=1.5)+
+   scale_y_continuous(breaks = seq(0, max(g$total_collision_percentage), by = .25))+
    # facet_wrap(~organ_label)+
    labs(x = "Number of Mesh-Based Collisions with Unique Anatomical Structure", y = "Total Collision Percentage", title = "Total Intersection Percentage between Atlas RUI Locations and Anatomical Structures", color="Organ")+
    theme(
-     axis.text.x = element_text(angle=90, size=15),
+     axis.text.x = element_text(size=15),
      axis.text.y = element_text(size=15),
      axis.title = element_text(size=15),
      legend.text = element_text(size=15),
-     legend.title = element_text(size=15)
+     legend.title = element_text(size=15),
+     panel.background  = element_rect(fill = "#606060"),
+     panel.grid.minor.x = element_blank(),
+     legend.key = element_rect(fill = "#606060")
    )
 p
 
