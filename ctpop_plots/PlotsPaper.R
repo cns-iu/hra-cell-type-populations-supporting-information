@@ -319,9 +319,28 @@ colnames(more_cols)[colnames(more_cols) == "n"] <- "rui_locations_per_as"
 # count AS per TB
 with_counts = more_cols %>%  group_by(rui_location) %>% add_count(name = "as_per_rui")
 
-# get total
+# visualize #As collided with and total intersection volume
+g = with_counts %>% select(
+  rui_location, as_per_rui, total_collision_percentage, organ_label
+)
 
-p = ggplot(with_counts, aes(x = as_per_rui, y = intersection_ratio, color=sex))+
+ p= ggplot(g, aes(x = as_per_rui, y = total_collision_percentage, color=organ_label))+
+   geom_jitter(width=.2)+
+   # scale_color_discrete()+
+   scale_color_brewer(palette = "Set3")+
+   geom_hline(yintercept = 1, color="red", linetype="dashed")+
+   # facet_wrap(~organ_label)+
+   labs(x = "Number of Mesh-Based Collisions with Unique Anatomical Structure", y = "Total Collision Percentage", title = "Total Intersection Percentage between Atlas RUI Locations and Anatomical Structures", color="Organ")+
+   theme(
+     axis.text.x = element_text(angle=90, size=15),
+     axis.text.y = element_text(size=15),
+     axis.title = element_text(size=15),
+     legend.text = element_text(size=15),
+     legend.title = element_text(size=15)
+   )
+p
+
+p = ggplot(g, aes(x = as_per_rui, y = intersection_ratio, color=sex))+
   # geom_bar(stat = "identity")+
   geom_jitter(width=.2)+
   # geom_line()+
