@@ -328,19 +328,26 @@ g = with_counts %>% select(
    geom_jitter(width=.2, size = 4, alpha=.6)+
    # scale_color_discrete()+
    scale_color_brewer(palette = "Set3")+
+   # geom_smooth(data = g,aes(x = as_per_rui, y = total_collision_percentage),method = "lm")+
    geom_hline(yintercept = 1, color="red", linetype="dashed", linewidth=1.5)+
    scale_y_continuous(breaks = seq(0, max(g$total_collision_percentage), by = .25))+
    # facet_wrap(~organ_label)+
-   labs(x = "Number of Mesh-Based Collisions with Unique Anatomical Structure", y = "Total Collision Percentage", title = "Total Intersection Percentage between Atlas RUI Locations and Anatomical Structures", color="Organ")+
+   labs(x = "Number of Mesh-Based Collisions with Unique Anatomical Structure", 
+        y = "Total Collision Percentage", 
+        title = "Total Intersection Percentage between Atlas Extraction Sites and Anatomical Structures", 
+        color="Organ",
+        caption = "Note that some tissue blocks collide with anatomical structures that are themselves intersecting, thus counting the intersection percentage of the extraction site twice.\n This leads to some extraction sites having a total collision percentage >1."
+        )+
    theme(
      axis.text.x = element_text(size=15),
      axis.text.y = element_text(size=15),
-     axis.title = element_text(size=15),
+     axis.title = element_text(size=18),
      legend.text = element_text(size=15),
-     legend.title = element_text(size=15),
+     legend.title = element_text(size=20),
      panel.background  = element_rect(fill = "#606060"),
      panel.grid.minor.x = element_blank(),
-     legend.key = element_rect(fill = "#606060")
+     legend.key = element_rect(fill = "#606060"),
+     plot.caption = element_text (hjust=0, size=12)
    )
 p
 
