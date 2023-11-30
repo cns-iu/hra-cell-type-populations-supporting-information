@@ -252,7 +252,7 @@ p
 
 # Fig. 3b scatter graph (add cell_count from https://github.com/cns-iu/hra-cell-type-populations-supporting-information/issues/66)
 
-scatter = read_csv("../data/reports/validation-v5.csv")
+scatter = read_csv("../../hra-pop/output-data/v0.3/reports/atlas/validation-v5.csv")
 
 g = ggplot(scatter, aes(x = rui_location_volume, y=cell_count, shape = modality, color=organ ))+
   geom_jitter(width=.33, alpha=.5)+
@@ -272,7 +272,7 @@ g
 # Fig. 4a (scatter graph block volume)
 
 # plot_raw=read_sheet("https://docs.google.com/spreadsheets/d/19ZxHSkX5P_2ngredl0bcncaD0uukBRX3LxlWSC3hysE/edit#gid=0", sheet="Fig2a",skip=0)
-plot_raw = read_csv("../data/reports/figure-f4.csv")
+plot_raw = read_csv("../../hra-pop/output-data/v0.3/reports/atlas/figure-f4.csv")
 
 p = ggplot(plot_raw, aes(x=organ_as_count, y=rui_location_count, size=dataset_count, colour=sex))+
   geom_point()+
@@ -342,7 +342,7 @@ p
 
 
 # EXTRA VIS: Bar graph for datasets per AS with modality
-datasets_per_as = read_csv("../data/reports/as-datasets-modality.csv")
+datasets_per_as = read_csv("../../hra-pop/output-data/v0.3/reports/atlas/as-datasets-modality.csv")
 
 p = ggplot(datasets_per_as, aes(x=as_label, fill=modality))+
   geom_bar(stat = 'count', position = "stack")+
