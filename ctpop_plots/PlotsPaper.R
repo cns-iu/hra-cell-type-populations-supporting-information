@@ -10,9 +10,14 @@ library(lsa) # for tissue block similarity matrix
 #load themes
 source("Themes.R")
 
+# global variables
+hra_pop_version = "0.4"
+
 # load other scripts
 # load Table S1
 source("DataPreparation.R")
+
+
 
 # Fig. 2a bar graph for CTPop (AS) 
 # load data
@@ -252,7 +257,7 @@ p
 
 # Fig. 3b scatter graph
 
-scatter = read_csv("../../hra-pop/output-data/v0.3/reports/atlas-lq/validation-v5.csv")
+scatter = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas-lq/validation-v5.csv", sep=""))
 
 scatter = scatter %>% mutate(organ = ifelse(organ == "right kidney", "left kidney", organ))
 
@@ -290,7 +295,8 @@ g
 # Fig. 4a (scatter graph block volume)
 
 # plot_raw=read_sheet("https://docs.google.com/spreadsheets/d/19ZxHSkX5P_2ngredl0bcncaD0uukBRX3LxlWSC3hysE/edit#gid=0", sheet="Fig2a",skip=0)
-plot_raw = read_csv("../../hra-pop/output-data/v0.3/reports/atlas/figure-f4.csv")
+
+plot_raw = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas-lq/figure-f4.csv", sep=""))
 
 p = ggplot(plot_raw, aes(x=organ_as_count, y=rui_location_count, size=dataset_count, colour=sex))+
   geom_point()+
@@ -317,7 +323,8 @@ p + scatter_theme
 
 
 # Supplemental Fig. S6
-intersections = read_csv("../../hra-pop/output-data/v0.3/reports/atlas/table-s5.csv")
+
+intersections = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas-lq/table-s5.csv", sep=""))
 intersections
 
 # add sex
@@ -352,9 +359,9 @@ g = with_counts %>% select(
    # facet_wrap(~organ_label)+
    labs(x = "Number of Mesh-Based Collisions with Unique Anatomical Structure", 
         y = "Total Collision Percentage", 
-        title = "Total Intersection Percentage between Atlas Extraction Sites and Anatomical Structures", 
+        title = "Total Intersection Percentage between Atlas Extraction Sites and Anatomical Structures (Jittered)", 
         color="Organ",
-        caption = "Note that some tissue blocks collide with anatomical structures that are themselves intersecting, thus counting the intersection percentage of the extraction site twice.\n This leads to some extraction sites having a total collision percentage >1."
+        caption = "Note that some tissue blocks collide with anatomical structures that are themselves intersecting, thus counting the intersection percentage of the extraction site twice.\n This leads to some extraction sites having a total collision percentage >1. Horizontal jitter has been applied"
         )+
    theme(
      axis.text.x = element_text(size=15),
@@ -390,7 +397,7 @@ p
 
 
 # EXTRA VIS: Bar graph for datasets per AS with modality
-datasets_per_as = read_csv("../../hra-pop/output-data/v0.3/reports/atlas/as-datasets-modality.csv")
+datasets_per_as = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas-lq/as-datasets-modality.csv", sep=""))
 
 p = ggplot(datasets_per_as, aes(x=as_label, fill=modality))+
   geom_bar(stat = 'count', position = "stack")+
