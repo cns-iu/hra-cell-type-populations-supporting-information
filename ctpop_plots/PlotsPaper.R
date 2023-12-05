@@ -397,17 +397,28 @@ p
 
 
 # EXTRA VIS: Bar graph for datasets per AS with modality
-datasets_per_as = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas-lq/as-datasets-modality.csv", sep=""))
+datasets_per_as = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/as-datasets-modality.csv", sep="")) %>% 
+  arrange(as_label)
 
-p = ggplot(datasets_per_as, aes(x=as_label, fill=modality))+
+p = ggplot(datasets_per_as, aes(x=factor(as_label, levels = unique(as_label)), fill=modality))+
   geom_bar(stat = 'count', position = "stack")+
-  facet_wrap(~organ_label, ncol=3)+
-  labs(title = 'Datasets per Anatomical Structure and Modality',x = "Anatomical Structure", y="Number of Datasets")+
+  scale_fill_discrete(labels = c("single-cell bulk",
+                                 "spatial"))+
+  # facet_wrap(~modality, ncol=3)+
+  facet_grid(. ~ organ_label, scales = "free_x", space = "free_x")+
+  scale_y_continuous(trans = "log10")+
+  labs(
+    title = 'Datasets per Anatomical Structure and Modality', x = "Anatomical Structure", y="Number of Datasets", fill="Modality"
+    )+
   guides(
     legend
   ) + scatter_theme +
   theme(
     strip.text = element_text(size=10),
-    axis.text.x = element_text(hjust=1, size=10)
+    axis.text.x = element_text(hjust=1, size=11),
+    axis.text.y = element_text(hjust=1, size=11),
+    strip.background = element_blank(), 
+    strip.placement = "outside",
+    strip.text.x = element_text(angle = 90, size=11)
   )
 p
