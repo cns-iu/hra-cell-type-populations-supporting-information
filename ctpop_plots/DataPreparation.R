@@ -7,7 +7,7 @@ library(jsonlite)
 # table_s1=read_sheet("https://docs.google.com/spreadsheets/d/1cwxztPg9sLq0ASjJ5bntivUk6dSKHsVyR1bE6bXvMkY/edit#gid=858511750", sheet = "Table S1 DRAFT", skip=0)
 
 # using hra-pop
-table_s1 = read_csv("../../hra-pop/output-data/v0.3/reports/atlas/table-s1.csv")
+table_s1 = read_csv("../../hra-pop/output-data/v0.4/reports/atlas/table-s1.csv")
 
 #left-over code, needs to be cleaned
 # number of tissue blocks with RUI but without CT info; 643 on March 9, 2023

@@ -13,12 +13,6 @@ source("Themes.R")
 # global variables
 hra_pop_version = "0.4"
 
-# load other scripts
-# load Table S1
-source("DataPreparation.R")
-
-
-
 # Fig. 2a bar graph for CTPop (AS) 
 # load data
 cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L_0603.csv")
@@ -31,6 +25,7 @@ cells_raw = cells_raw %>%rename(anatomical_structure =  `anatomical structure`) 
   anatomical_structure  = str_replace(anatomical_structure , 'VH_F_outer_cortex_of_kidney_L', 'Cortex'),
 )
 
+# draw plot
 p = ggplot(cells_raw, aes(x = cell_type, fill=cell_type))+
   geom_bar(stat = "count")+
   facet_wrap(~anatomical_structure, ncol=1)+
@@ -132,6 +127,8 @@ p+ bar_graph_theme+
 # LINKS with Source, Target, Value
 
 # NEEDS TO BE UPDATED TO USE HRA-POP REPORT TABLE-S1 INSTEAD
+table_s1 = read_csv("../../hra-pop/output-data/v0.4/reports/atlas/table-s1.csv")
+
 subset_sankey = table_s1 %>% 
   select(portal, donor_sex, organ_name, cell_type_annotation_tool, omap_id) %>% 
   replace_na(list(donor_sex = "unknown")) %>% 
@@ -257,9 +254,14 @@ p
 
 # Fig. 3b scatter graph
 
-scatter = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas-lq/validation-v5.csv", sep=""))
+scatter = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/validation-v5.csv", sep=""))
 
-scatter = scatter %>% mutate(organ = ifelse(organ == "right kidney", "left kidney", organ))
+# unify left vs right kidney
+scatter = scatter %>% mutate(organ = ifelse(organ == "right kidney", "kidney", organ))
+scatter = scatter %>% mutate(organ = ifelse(organ == "left kidney", "kidney", organ))
+scatter = scatter %>% mutate(
+  consortium_name = ifelse(consortium_name == "HCA", "Heart Cell Atlas v2", consortium_name)
+)
 
 # show datasets, not data-CT pairs
 scatter = scatter %>%  group_by(dataset) %>%
@@ -270,9 +272,10 @@ scatter = scatter %>% group_by(dataset) %>%
 
 scatter = scatter %>% select(consortium_name, dataset, rui_location_volume, total_cells, distinct_cell_types, modality, organ) %>% distinct()
 
-# KATY SHARED NEW COLORS IN EMAIL ON 11/28, SUBJECT LINE: New Fig. 3b
 g = ggplot(scatter, aes(x = rui_location_volume, y=total_cells, shape = modality, color=organ,  size=distinct_cell_types))+
   geom_jitter(width=.1, alpha=.7)+
+  scale_color_brewer(palette = "Paired")+
+  # scale_color_manual(values = cols)+
   # geom_point(alpha = .8)+
   facet_wrap(~consortium_name, ncol=1)+
   # geom_point()+
@@ -280,11 +283,15 @@ g = ggplot(scatter, aes(x = rui_location_volume, y=total_cells, shape = modality
     color = guide_legend( title = "Tissue Block Volume")
   )+
   ggtitle("Total number of cells per dataset over volume")+
-  labs(y = "Total number of cells per dataset", x = "Volume of tissue block", size="Distinct Cell Types")+
+  labs(y = "Total number of cells per dataset", x = "Volume of tissue block (cubic mm)", size="Distinct Cell Types")+
   scatter_theme+
   scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
+  guides(
+    color = guide_legend(override.aes = list(size = 5)),
+    shape = guide_legend(title = "Modality",override.aes = list(size = 5))) +
   theme(
+    legend.text = element_text(size=11.5),
     panel.background  = element_rect(fill = "#606060"),
     panel.grid.minor.x = element_blank(),
     legend.key = element_rect(fill = "#606060")
@@ -293,12 +300,9 @@ g
 
 
 # Fig. 4a (scatter graph block volume)
+plot_raw = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/figure-f4.csv", sep=""))
 
-# plot_raw=read_sheet("https://docs.google.com/spreadsheets/d/19ZxHSkX5P_2ngredl0bcncaD0uukBRX3LxlWSC3hysE/edit#gid=0", sheet="Fig2a",skip=0)
-
-plot_raw = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas-lq/figure-f4.csv", sep=""))
-
-p = ggplot(plot_raw, aes(x=organ_as_count, y=rui_location_count, size=dataset_count, colour=sex))+
+p = ggplot(plot_raw, aes(x=organ_as_count, y=rui_location_count, size=dataset_count, color=sex))+
   geom_point()+
   # scatter_theme+
   geom_text_repel(aes(x=organ_as_count, y=rui_location_count, label=organ),
@@ -306,8 +310,9 @@ p = ggplot(plot_raw, aes(x=organ_as_count, y=rui_location_count, size=dataset_co
                   color="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
-  labs(y = "Total number of tissue block registrations for the organ", x = "Total number of unique UBERON IDs in 3D model")+
-  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$organ_as_count)+5, by = 20))
+  labs(y = "Total number of datasets", x = "Total number of unique UBERON IDs in 3D model")+
+  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$organ_as_count)+5, by = 20))+
+  facet_wrap(~sex)
   # scale_y_continuous(breaks = seq(0, max(plot_raw$number_of_registrations) + 5, by = 5))+
   # scale_colour_brewer(type = "qual", palette = "Dark2")+
   # guides(size="none", colour = guide_legend(override.aes = list(size=7)))+
@@ -319,12 +324,11 @@ p + scatter_theme
 
 
 # Fig 4.b (UMAP, add Michael Ginda's code)
-
-
+# ##########################
 
 # Supplemental Fig. S6
 
-intersections = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas-lq/table-s5.csv", sep=""))
+intersections = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/table-s5.csv", sep=""))
 intersections
 
 # add sex
@@ -351,13 +355,9 @@ g = with_counts %>% select(
 
  p= ggplot(g, aes(x = as_per_rui, y = total_collision_percentage, color=organ_label))+
    geom_jitter(width=.2, size = 4, alpha=.6)+
-   # scale_color_discrete()+
-   scale_color_brewer(palette = "Set3")+
-   # geom_smooth(data = g,aes(x = as_per_rui, y = total_collision_percentage),method = "lm")+
    geom_hline(yintercept = 1, color="red", linetype="dashed", linewidth=1.5)+
    scale_y_continuous(breaks = seq(0, max(g$total_collision_percentage), by = .25))+
-   # facet_wrap(~organ_label)+
-   labs(x = "Number of Mesh-Based Collisions with Unique Anatomical Structure", 
+   labs(x = "Number of Mesh-Based Collisions with Unique Anatomical Structures", 
         y = "Total Collision Percentage", 
         title = "Total Intersection Percentage between Atlas Extraction Sites and Anatomical Structures (Jittered)", 
         color="Organ",
@@ -375,26 +375,6 @@ g = with_counts %>% select(
      plot.caption = element_text (hjust=0, size=12)
    )
 p
-
-p = ggplot(g, aes(x = as_per_rui, y = intersection_ratio, color=sex))+
-  # geom_bar(stat = "identity")+
-  geom_jitter(width=.2)+
-  # geom_line()+
-  # geom_point()+
-  # facet_wrap(~organ_label)+
-  scale_y_continuous(labels=scales::number_format(decimal.mark = '.'))+
-  # scale_color_brewer()+
-  scale_color_brewer(type="qual", palette = "Set1")+
-  labs(x = "Anatomical Structure", y = "Intersection Volume (cubic mm)", title = "Intersection Volumes between Atlas RUI Locations and Anatomical Structures", fill="Organ", alpha = "Extraction Sites \nper Anatomical Structure")+
-  theme(
-    axis.text.x = element_text(angle=90, size=15),
-    axis.text.y = element_text(size=15),
-    axis.title = element_text(size=15),
-    legend.text = element_text(size=15),
-    legend.title = element_text(size=15)
-  )
-p
-
 
 # EXTRA VIS: Bar graph for datasets per AS with modality
 datasets_per_as = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/as-datasets-modality.csv", sep="")) %>% 
