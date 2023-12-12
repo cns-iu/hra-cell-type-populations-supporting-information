@@ -11,7 +11,17 @@ library(lsa) # for tissue block similarity matrix
 source("Themes.R")
 
 # global variables
-hra_pop_version = "0.4"
+hra_pop_version = "0.5"
+
+# set up color palettes
+# extend Brewer color palettes
+nb.cols <- 16
+cat_colors <- colorRampPalette(brewer.pal(12, "Paired"))(nb.cols)
+
+# or extend Brewer color palettes
+# cat_colors = c(brewer.pal(name="Paired", n = 12), brewer.pal(name="Dark2", n = 3))
+
+
 
 # Fig. 2a bar graph for CTPop (AS) 
 # load data
@@ -253,7 +263,6 @@ p
 
 
 # Fig. 3b scatter graph
-
 scatter = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/validation-v5.csv", sep=""))
 
 # unify left vs right kidney
@@ -274,8 +283,8 @@ scatter = scatter %>% select(consortium_name, dataset, rui_location_volume, tota
 
 g = ggplot(scatter, aes(x = rui_location_volume, y=total_cells, shape = modality, color=organ,  size=distinct_cell_types))+
   geom_jitter(width=.1, alpha=.7)+
-  scale_color_brewer(palette = "Paired")+
-  # scale_color_manual(values = cols)+
+  # scale_color_brewer(palette = "Paired")+
+  scale_color_manual(values = cat_colors)+
   # geom_point(alpha = .8)+
   facet_wrap(~consortium_name, ncol=1)+
   # geom_point()+
@@ -283,7 +292,7 @@ g = ggplot(scatter, aes(x = rui_location_volume, y=total_cells, shape = modality
     color = guide_legend( title = "Tissue Block Volume")
   )+
   ggtitle("Total number of cells per dataset over volume")+
-  labs(y = "Total number of cells per dataset", x = "Volume of tissue block (cubic mm)", size="Distinct Cell Types")+
+  labs(y = "Total number of cells per dataset", x = "Volume of tissue block (cubic mm)", size="Distinct Cell Types", caption = "Note that for spatial skin tissue blocks, datasets are derived from a section, with one dataset per section, aggregated to one tissue block.")+
   scatter_theme+
   scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
@@ -302,26 +311,21 @@ g
 # Fig. 4a (scatter graph block volume)
 plot_raw = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/figure-f4.csv", sep=""))
 
-p = ggplot(plot_raw, aes(x=organ_as_count, y=rui_location_count, size=dataset_count, color=sex))+
+p = ggplot(plot_raw, aes(x=total_organ_as_count , y=rui_location_count, size=dataset_count, shape=modality, color=organ))+
   geom_point()+
-  # scatter_theme+
-  geom_text_repel(aes(x=organ_as_count, y=rui_location_count, label=organ),
+  # geom_curve(aes(x=organ_as_count_with_collisions, y = rui_location_count, xend = total_organ_as_count, yend=rui_location_count))+
+  facet_wrap(~sex)+
+  scatter_theme+
+  geom_text_repel(aes(x=total_organ_as_count , y=rui_location_count, label=organ),
                   size=4,
                   color="black",
                   alpha=.5,
                   max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
-  labs(y = "Total number of datasets", x = "Total number of unique UBERON IDs in 3D model")+
-  scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$organ_as_count)+5, by = 20))+
-  facet_wrap(~sex)
-  # scale_y_continuous(breaks = seq(0, max(plot_raw$number_of_registrations) + 5, by = 5))+
-  # scale_colour_brewer(type = "qual", palette = "Dark2")+
-  # guides(size="none", colour = guide_legend(override.aes = list(size=7)))+
-  # theme(legend.position = "bottom")
-
+  labs(y = "Total number of datasets", x = "Total number of 3D anatomical structures tagged with UBERON IDs", shape="Modality", size="Datasets", color="Sex")
+  # scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$organ_as_count)+5, by = 20))+
+  # facet_wrap(~sex)
 
 p + scatter_theme
-
-
 
 # Fig 4.b (UMAP, add Michael Ginda's code)
 # ##########################
@@ -355,7 +359,9 @@ g = with_counts %>% select(
 
  p= ggplot(g, aes(x = as_per_rui, y = total_collision_percentage, color=organ_label))+
    geom_jitter(width=.2, size = 4, alpha=.6)+
-   geom_hline(yintercept = 1, color="red", linetype="dashed", linewidth=1.5)+
+   geom_hline(yintercept = 1, color="white", linetype="dashed", linewidth=1.5)+
+   # scale_color_brewer(palette = "Paired")+
+   scale_color_manual(values = cat_colors)+
    scale_y_continuous(breaks = seq(0, max(g$total_collision_percentage), by = .25))+
    labs(x = "Number of Mesh-Based Collisions with Unique Anatomical Structures", 
         y = "Total Collision Percentage", 
@@ -376,7 +382,7 @@ g = with_counts %>% select(
    )
 p
 
-# EXTRA VIS: Bar graph for datasets per AS with modality
+# EXTRA VIS 1: Bar graph for datasets per AS with modality
 datasets_per_as = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/as-datasets-modality.csv", sep="")) %>% 
   arrange(as_label)
 
@@ -384,7 +390,6 @@ p = ggplot(datasets_per_as, aes(x=factor(as_label, levels = unique(as_label)), f
   geom_bar(stat = 'count', position = "stack")+
   scale_fill_discrete(labels = c("single-cell bulk",
                                  "spatial"))+
-  # facet_wrap(~modality, ncol=3)+
   facet_grid(. ~ organ_label, scales = "free_x", space = "free_x")+
   scale_y_continuous(trans = "log10")+
   labs(
@@ -402,3 +407,24 @@ p = ggplot(datasets_per_as, aes(x=factor(as_label, levels = unique(as_label)), f
     strip.text.x = element_text(angle = 90, size=11)
   )
 p
+
+# EXTRA VIS 2: Visualizing hetero-/homogeneity
+data = read_csv("../../hra-pop/output-data/v0.5/reports/atlas/figure-fFOO.csv")
+data
+
+# plot 1: as heat map
+# g = ggplot(data, aes(x = cosine_sim, y = as1_dataset_count, size=as2_dataset_count, color=organ))+
+g = ggplot(data, aes(as1_label, as2_label ))+
+  geom_raster(aes(fill=cosine_sim))+
+  scale_fill_gradient(low = "white", high = "green")+
+  geom_text(aes(label =sprintf("%.2f", cosine_sim)), size = 3)+
+  facet_grid(. ~ organ, scales = "free_x", space = "free_x")+
+  theme(
+    axis.text.x = element_text(angle=90),
+  )
+g
+
+# plot 2: as scatter graph
+g = ggplot(data, aes(x = cosine_sim, y = as1_dataset_count, size=as2_dataset_count, color=organ))+
+  geom_point()
+g
