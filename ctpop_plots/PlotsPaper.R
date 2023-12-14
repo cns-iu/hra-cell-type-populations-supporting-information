@@ -21,8 +21,6 @@ cat_colors <- colorRampPalette(brewer.pal(12, "Paired"))(nb.cols)
 # or extend Brewer color palettes
 # cat_colors = c(brewer.pal(name="Paired", n = 12), brewer.pal(name="Dark2", n = 3))
 
-
-
 # Fig. 2a bar graph for CTPop (AS) 
 # load data
 cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L_0603.csv")
@@ -30,8 +28,6 @@ cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L_0603.csv")
 # rename AS
 cells_raw = cells_raw %>%rename(anatomical_structure =  `anatomical structure`) %>%  mutate(
   anatomical_structure  = str_replace(anatomical_structure , 'VH_F_renal_pyramid_L_a', 'Renal Pyramid A'),
-  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_renal_pyramid_L_b', 'Renal Pyramid B'),
-  anatomical_structure  = str_replace(anatomical_structure , 'VH_F_renal_pyramid_L_h', 'Renal Pyramid H'),
   anatomical_structure  = str_replace(anatomical_structure , 'VH_F_outer_cortex_of_kidney_L', 'Cortex'),
 )
 
@@ -137,12 +133,14 @@ p+ bar_graph_theme+
 # LINKS with Source, Target, Value
 
 # NEEDS TO BE UPDATED TO USE HRA-POP REPORT TABLE-S1 INSTEAD
-table_s1 = read_csv("../../hra-pop/output-data/v0.4/reports/atlas/table-s1.csv")
+table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/table-s1.csv", sep = ""))
 
 subset_sankey = table_s1 %>% 
   select(portal, donor_sex, organ_name, cell_type_annotation_tool, omap_id) %>% 
   replace_na(list(donor_sex = "unknown")) %>% 
-  replace_na(list(omap_id = "not_spatial"))
+  # unify left and right kidney
+  mutate(organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "kidney", organ_name))
+
 
 p = subset_sankey %>% 
   group_by(portal) %>% summarize()
@@ -154,7 +152,7 @@ o = subset_sankey %>%
   group_by(organ_name) %>% summarize()
 
 c = subset_sankey %>% 
-  group_by(omap_id) %>% summarize()
+  group_by(cell_type_annotation_tool) %>% summarize()
 
 unique_name=list()
 unique_name = unlist(append(unique_name, c(p, d, o, c)))
@@ -192,11 +190,11 @@ d_o = subset_sankey %>%
   )
 
 c_o = subset_sankey %>% 
-  group_by(organ_name, omap_id) %>% 
+  group_by(organ_name, cell_type_annotation_tool) %>% 
   summarize(count=n()) %>% 
   rename(
     source = organ_name,
-    target = omap_id,
+    target = cell_type_annotation_tool,
     value=count
   )
 
@@ -297,8 +295,9 @@ g = ggplot(scatter, aes(x = rui_location_volume, y=total_cells, shape = modality
   scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'))+
   scale_y_continuous(trans = "log10", labels=scales::number_format(decimal.mark = '.'))+
   guides(
-    color = guide_legend(override.aes = list(size = 5)),
-    shape = guide_legend(title = "Modality",override.aes = list(size = 5))) +
+    color = guide_legend(title="Organ", override.aes = list(size = 5)),
+    shape = guide_legend(title = "Modality",override.aes = list(size = 5)),
+    ) +
   theme(
     legend.text = element_text(size=11.5),
     panel.background  = element_rect(fill = "#606060"),
@@ -311,17 +310,53 @@ g
 # Fig. 4a (scatter graph block volume)
 plot_raw = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/figure-f4.csv", sep=""))
 
-p = ggplot(plot_raw, aes(x=total_organ_as_count , y=rui_location_count, size=dataset_count, shape=modality, color=organ))+
-  geom_point()+
+# unify kidney
+# plot_raw = plot_raw %>% mutate(organ= ifelse(organ == "left kidney" | organ == "right kidney", "kidney", organ))
+
+# pseudo bar graph
+p = ggplot(plot_raw, aes(y = organ, color=organ))+
+  geom_segment(linewidth=5, aes(x=0, xend = organ_as_count_with_collisions, yend=organ))+
+  geom_segment(linewidth=1, linetype="dashed", aes(x= organ_as_count_with_collisions, xend = total_organ_as_count, yend=organ))+
+  # geom_point(aes(x=organ_as_count_with_collisions, size=dataset_count))+
+  geom_point(aes(x = organ_as_count_with_collisions, size=non_atlas_dataset_count), color="black")+
+  # scale_color_brewer(palette = "Paired")+
+  scale_color_manual(values=cat_colors)+
+  facet_grid(modality~sex)+
+  labs(x="Unique UBERON IDs in Organ Model", y="Organ", size="Non-atlas datasets")+
+  guides(
+    color=guide_legend(
+      title = "Organ"
+    )
+  )
+  
+p
+
+# existing scatter graph, went well! 
+p = ggplot(plot_raw, aes(y=rui_location_count, size=dataset_count, color=organ))+
+  geom_point(alpha=0.8, aes(x= total_organ_as_count))+
+  geom_point(aes(x= organ_as_count_with_collisions),  alpha=0.5)+
+  geom_segment(size=.5, linetype = "dashed", aes(x=organ_as_count_with_collisions, y = rui_location_count, xend = total_organ_as_count, yend = rui_location_count))+
+  # geom_point(aes(x= organ_as_count_with_collisions), color="black")+
   # geom_curve(aes(x=organ_as_count_with_collisions, y = rui_location_count, xend = total_organ_as_count, yend=rui_location_count))+
-  facet_wrap(~sex)+
+  scale_x_continuous(trans = "log10")+
+  facet_grid(modality~sex)+
+  scale_color_brewer(palette = "Paired")+
+  # facet_wrap(~sex)+
   scatter_theme+
-  geom_text_repel(aes(x=total_organ_as_count , y=rui_location_count, label=organ),
-                  size=4,
-                  color="black",
-                  alpha=.5,
-                  max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
-  labs(y = "Total number of datasets", x = "Total number of 3D anatomical structures tagged with UBERON IDs", shape="Modality", size="Datasets", color="Sex")
+  # geom_text_repel(aes(x=total_organ_as_count , y=rui_location_count, label=organ),
+  #                 size=4,
+  #                 color="black",
+  #                 alpha=.5,
+  #                 max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
+  labs(y = "Total number of datasets", x = "Total number of unique UBERON IDs in Organ 3D Model")+
+  guides(
+    size=guide_legend(title = "Number of datasets"),
+    shape=guide_legend(title="Modality"),
+    color=guide_legend(title="Organ"),
+  )+
+  theme(
+    legend.position = "bottom"  
+  )
   # scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$organ_as_count)+5, by = 20))+
   # facet_wrap(~sex)
 
@@ -412,19 +447,33 @@ p
 data = read_csv("../../hra-pop/output-data/v0.5/reports/atlas/figure-fFOO.csv")
 data
 
+# unify left/right kidney
+data = data %>% mutate(organ = ifelse(organ == "right kidney", "kidney", organ))
+data = data %>% mutate(organ = ifelse(organ == "left kidney", "kidney", organ))
+data = data %>% mutate(organ = ifelse(organ == "male reproductive system", "prostate", organ))
+
 # plot 1: as heat map
-# g = ggplot(data, aes(x = cosine_sim, y = as1_dataset_count, size=as2_dataset_count, color=organ))+
 g = ggplot(data, aes(as1_label, as2_label ))+
-  geom_raster(aes(fill=cosine_sim))+
+  geom_tile(aes(fill=cosine_sim))+
   scale_fill_gradient(low = "white", high = "green")+
   geom_text(aes(label =sprintf("%.2f", cosine_sim)), size = 3)+
   facet_grid(. ~ organ, scales = "free_x", space = "free_x")+
+  labs(
+    x = "Anatomical Structure", y = "Anatomical Structure"
+  )+
+  guides(
+    fill = guide_legend(
+      title="Cosine Similarity"
+    )
+  )+
   theme(
-    axis.text.x = element_text(angle=90),
+    axis.text.x = element_text(angle=90, vjust = .3),
   )
 g
 
 # plot 2: as scatter graph
-g = ggplot(data, aes(x = cosine_sim, y = as1_dataset_count, size=as2_dataset_count, color=organ))+
-  geom_point()
+g = ggplot(data, aes(x = cosine_sim, y = cosine_sim, size=as2_dataset_count, color=organ))+
+  geom_point()+
+  scale_color_brewer(palette = "Paired")+
+  facet_wrap(~organ)
 g
