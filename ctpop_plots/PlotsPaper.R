@@ -1,3 +1,6 @@
+# if needed, install required libraries
+source("InstallDependencies.R")
+
 # load required libraries
 library(tidyverse)
 library(scales) #for scatter graph and bar graph
