@@ -16,6 +16,10 @@ pub_pred %>% view()
 
 # unique publications in non-atlas-dataset-graph
 non_atlas_dataset_graph$publication %>% unique() %>% length() #141
+unique_pubs = non_atlas_dataset_graph %>% select(consortium_name,publication) %>% filter(!is.na(publication)) %>% unique() %>% as.tibble()
+
+# count how often pubs are mentioned
+unique_pubs %>% group_by(publication) %>% tally() %>% view()
 
 # unique publications in final (for which we made predictions)
 pub_pred$publication %>% unique() %>% length() #141
@@ -23,5 +27,8 @@ pub_pred$publication %>% unique() %>% length() #141
 # group
 final = pub_pred %>% group_by(consortium_name,hasPublication,has_prediction) %>%tally() %>% rename(number_of_datasets = n)
 
-# save to file
+# save counts to file
 write_csv(final, "r_output/publications.csv")
+
+# save unique publications to file
+write_csv(unique_pubs, "r_output/unique_pubs.csv")

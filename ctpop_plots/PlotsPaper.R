@@ -319,10 +319,12 @@ plot_raw = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/report
 # pseudo bar graph
 p = ggplot(plot_raw, aes(y = organ, color=organ))+
   geom_segment(linewidth=5, aes(x=0, xend = organ_as_count_with_collisions, yend=organ))+
-  geom_segment(linewidth=1, linetype="dashed", aes(x= organ_as_count_with_collisions, xend = total_organ_as_count, yend=organ))+
-  # geom_point(aes(x=organ_as_count_with_collisions, size=dataset_count))+
+  geom_segment(linewidth=2, aes(x= organ_as_count_with_collisions, xend = total_organ_as_count, yend=organ))+
   geom_point(aes(x = organ_as_count_with_collisions, size=non_atlas_dataset_count), color="black")+
+  geom_point(aes(x = total_organ_as_count), color="black", shape=15, size=4)+
+  geom_text(aes(x=organ_as_count_with_collisions, label=non_atlas_dataset_count), color="black", vjust=-1)+
   # scale_color_brewer(palette = "Paired")+
+  scale_x_continuous(trans = "log10")+
   scale_color_manual(values=cat_colors)+
   facet_grid(modality~sex)+
   labs(x="Unique UBERON IDs in Organ Model", y="Organ", size="Non-atlas datasets")+
@@ -330,43 +332,30 @@ p = ggplot(plot_raw, aes(y = organ, color=organ))+
     color=guide_legend(
       title = "Organ"
     )
+  )+
+  theme(
+    legend.position = "bottom",
+    axis.text = element_text(size=15),
+    strip.text = element_text(size=15),
+    legend.text = element_text(size=15),
+    axis.title = element_text(size=15)
   )
   
 p
 
-# existing scatter graph, went well! 
-p = ggplot(plot_raw, aes(y=rui_location_count, size=dataset_count, color=organ))+
-  geom_point(alpha=0.8, aes(x= total_organ_as_count))+
-  geom_point(aes(x= organ_as_count_with_collisions),  alpha=0.5)+
-  geom_segment(size=.5, linetype = "dashed", aes(x=organ_as_count_with_collisions, y = rui_location_count, xend = total_organ_as_count, yend = rui_location_count))+
-  # geom_point(aes(x= organ_as_count_with_collisions), color="black")+
-  # geom_curve(aes(x=organ_as_count_with_collisions, y = rui_location_count, xend = total_organ_as_count, yend=rui_location_count))+
-  scale_x_continuous(trans = "log10")+
-  facet_grid(modality~sex)+
-  scale_color_brewer(palette = "Paired")+
-  # facet_wrap(~sex)+
-  scatter_theme+
-  # geom_text_repel(aes(x=total_organ_as_count , y=rui_location_count, label=organ),
-  #                 size=4,
-  #                 color="black",
-  #                 alpha=.5,
-  #                 max.overlaps = getOption("ggrepel.max.overlaps", default = 10),) +
-  labs(y = "Total number of datasets", x = "Total number of unique UBERON IDs in Organ 3D Model")+
-  guides(
-    size=guide_legend(title = "Number of datasets"),
-    shape=guide_legend(title="Modality"),
-    color=guide_legend(title="Organ"),
-  )+
-  theme(
-    legend.position = "bottom"  
-  )
-  # scale_x_continuous(trans = "log10", labels = scales::number_format(decimal.mark = '.'), breaks = seq(0, max(plot_raw$organ_as_count)+5, by = 20))+
-  # facet_wrap(~sex)
-
-p + scatter_theme
-
-# Fig 4.b (UMAP, add Michael Ginda's code)
+# Fig 4.b (UMAP, add Michael Ginda's code, see his branch [may already be here])
 # ##########################
+
+
+
+
+
+# Fig. 5 Applications/predictions
+application_a1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a1.csv", sep=""))
+application_a1$sample %>% unique() %>% length()
+
+application_a2p1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a2p1.csv", sep=""))
+application_a2p1$dataset %>% unique() %>% length()
 
 # Supplemental Fig. S6
 
@@ -420,7 +409,7 @@ g = with_counts %>% select(
    )
 p
 
-# EXTRA VIS 1: Bar graph for datasets per AS with modality
+# Supplemental Fig. S9: Bar graph for datasets per AS with modality
 datasets_per_as = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/as-datasets-modality.csv", sep="")) %>% 
   arrange(as_label)
 
@@ -446,8 +435,8 @@ p = ggplot(datasets_per_as, aes(x=factor(as_label, levels = unique(as_label)), f
   )
 p
 
-# EXTRA VIS 2: Visualizing hetero-/homogeneity
-data = read_csv("../../hra-pop/output-data/v0.5/reports/atlas/figure-fFOO.csv")
+# Supplemental Fig. S10: Visualizing hetero-/homogeneity
+data = read_csv("../../hra-pop/output-data/v0.5/reports/atlas/figure-as-as-sim.csv")
 data
 
 # unify left/right kidney
