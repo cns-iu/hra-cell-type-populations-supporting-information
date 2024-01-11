@@ -454,6 +454,7 @@ data = data %>% mutate(organ = ifelse(organ == "male reproductive system", "pros
 
 # take subset for lung only
 lung = data %>% filter(organ=="respiratory system")
+# lung = data
 
 # plot 1: as heat map
 # Note: as-as cosine sims are NOT shown if:
