@@ -344,18 +344,26 @@ p = ggplot(plot_raw, aes(y = organ, color=organ))+
 p
 
 # Fig 4.b (UMAP, add Michael Ginda's code, see his branch [may already be here])
-# ##########################
 
 
 
 
 
-# Fig. 5 Applications/predictions
+# Fig. 5 validations/applications
 application_a1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a1.csv", sep=""))
 application_a1$sample %>% unique() %>% length()
 
 application_a2p1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a2p1.csv", sep=""))
 application_a2p1$dataset %>% unique() %>% length()
+
+
+v1 = 
+
+
+
+
+
+
 
 # Supplemental Fig. S6
 
@@ -444,12 +452,39 @@ data = data %>% mutate(organ = ifelse(organ == "right kidney", "kidney", organ))
 data = data %>% mutate(organ = ifelse(organ == "left kidney", "kidney", organ))
 data = data %>% mutate(organ = ifelse(organ == "male reproductive system", "prostate", organ))
 
+# take subset for lung only
+lung = data %>% filter(organ=="respiratory system")
+
 # plot 1: as heat map
-g = ggplot(data, aes(as1_label, as2_label ))+
+# Note: as-as cosine sims are NOT shown if:
+# - no shared cell exists (cosine_sim == 0)
+# - if AS is compared with itself
+
+reverse = lung %>% group_by(as1_label, as2_label) %>% select(as1_label, as2_label, cosine_sim) %>% unique() %>% mutate(
+  as1_label_TEMP= as1_label,
+  as2_label_TEMP= as2_label,
+  as1_label = as2_label_TEMP,
+  as2_label = as1_label_TEMP
+) %>% select(-contains("TEMP"))
+
+vis =  bind_rows(lung, reverse)
+
+
+# ADD COSINE SIMS FOR SAME AS IN R: https://github.com/x-atlas-consortia/hra-pop/issues/31 
+unique_as = c(unique(lung$as1_label), unique(lung$as2_label)) %>% unique()
+unique_as
+
+same <- tibble(as1_label = unique_as, as2_label = unique_as, cosine_sim = 1)
+colnames(same) <- c("as1_label", "as2_label", "cosine_sim")
+same
+
+vis = bind_rows(vis, same)
+
+g = ggplot(vis, aes(as1_label, as2_label))+
   geom_tile(aes(fill=cosine_sim))+
-  scale_fill_gradient(low = "white", high = "green")+
-  geom_text(aes(label =sprintf("%.2f", cosine_sim)), size = 3)+
-  facet_grid(. ~ organ, scales = "free_x", space = "free_x")+
+  scale_fill_gradient(low = "yellow", high = "blue")+
+  geom_text(aes(label =sprintf("%.2f", cosine_sim)), size = 3, color="black")+
+  # facet_grid(modality ~ organ, scales = "free_x", space = "free_x")+
   labs(
     x = "Anatomical Structure", y = "Anatomical Structure"
   )+
@@ -463,9 +498,10 @@ g = ggplot(data, aes(as1_label, as2_label ))+
   )
 g
 
-# plot 2: as scatter graph
-g = ggplot(data, aes(x = cosine_sim, y = cosine_sim, size=as2_dataset_count, color=organ))+
-  geom_point()+
+# plot 2: as scatter histogram
+g = ggplot(lung, aes(x = cosine_sim, color=organ))+
+  # geom_point()+
+  geom_histogram()+
   scale_color_brewer(palette = "Paired")+
-  facet_wrap(~organ)
+  facet_wrap(modality~organ)
 g
