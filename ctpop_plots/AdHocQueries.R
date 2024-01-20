@@ -49,12 +49,8 @@ non_atlas %>% filter(hasExtractionSite==FALSE) %>% nrow()
 non_atlas %>% filter(hasExtractionSite==FALSE) %>% nrow()
 non_atlas %>% group_by(hasExtractionSite==FALSE, hasCellSummary==FALSE) %>% tally()
 
-
 # more split up
 non_atlas %>% filter(hasCellSummary == TRUE) %>% view()
-
-# rui_location_id and sample_id
-
   
 # datasets for which we predict RUI or biomarker
 a1 = read_csv(paste(reports,"application-a1.csv", sep=""))
@@ -83,6 +79,10 @@ unique_tibble %>% length()
 # Number of universe datasets
 full_dataset_graph = read_csv("ad_hoc_data/full-dataset-graph.csv")
 full_dataset_graph$dataset_id %>% length()
+
+# universe by portal
+universe_sc_bulk_by_consortium = full_dataset_graph %>% filter()%>% group_by(consortium_name) %>% tally()
+write_csv(universe_sc_bulk_by_consortium, "r_output/universe_by_consortium.csv")
 
 # atlas datasets by modality
 atlas_datasets = read_csv(paste(reports,"table-s1.csv", sep=""))
