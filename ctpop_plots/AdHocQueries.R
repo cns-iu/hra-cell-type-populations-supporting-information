@@ -62,13 +62,19 @@ a2p2 = read_csv(paste(reports,"application-a2p2.csv", sep=""))
 a2p3 = read_csv(paste(reports,"application-a2p3.csv", sep=""))
 
 unique_values_1 = a2p1$dataset %>% unique()
-unique_values_1
+unique_values_1 %>% length()
 
 unique_values_2 = a2p2$dataset %>% unique()
-unique_values_2
+unique_values_2 %>% length()
 
 unique_values_3 = a2p3$dataset %>% unique()
 unique_values_3 %>% length()
+
+# all datasets for which we predict
+total = c(a2p1$dataset,a2p3$dataset)
+total %>% unique() %>% length()
+
+a2p3$corridor %>% unique() %>% length()
 
 all_unique = c(unique_values_1, unique_values_2, unique_values_3)
 all_unique %>% length
