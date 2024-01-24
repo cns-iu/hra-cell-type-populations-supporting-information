@@ -421,7 +421,11 @@ p
 datasets_per_as = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/as-datasets-modality.csv", sep="")) %>% 
   arrange(as_label)
 
-p = ggplot(datasets_per_as, aes(x=factor(as_label, levels = unique(as_label)), fill=modality))+
+
+# count datasets per organ
+datasets_per_as %>% group_by(organ_label) %>% unique() %>% tally()
+
+p = ggplot(datasets_per_as, aes(x=organ_id, fill=modality))+
   geom_bar(stat = 'count', position = "stack")+
   scale_fill_discrete(labels = c("single-cell bulk",
                                  "spatial"))+

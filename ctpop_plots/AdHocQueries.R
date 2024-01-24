@@ -115,7 +115,8 @@ result_tibble <- inner_join(app, non, by = "sample")
 result_tibble %>% group_by(sample, donor_id) %>% tally()
 result_tibble$donor_id %>% unique() %>% length()
 
+# counts datasets atlas and non atlas with modality and organ
+all_datasets = read_csv(paste(reports,"spatial-and-bulk-datasets-breakdown.csv", sep=""))
+all_datasets
 
-# crosswalk to block_id donor_id# crosswalk to block_id then to donor_id
-
-
+all_datasets %>% filter(status=="Atlas") %>% group_by(organ, dataset_cnt) %>% tally() 
