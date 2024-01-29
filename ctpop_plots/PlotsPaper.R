@@ -24,7 +24,7 @@ cat_colors <- colorRampPalette(brewer.pal(12, "Paired"))(nb.cols)
 # or extend Brewer color palettes
 # cat_colors = c(brewer.pal(name="Paired", n = 12), brewer.pal(name="Dark2", n = 3))
 
-# Fig. 2a bar graph for CTPop (AS) 
+# Fig. ASpop bar graph for CTPop (AS) 
 # load data
 cells_raw = read_csv("data/cell_locations_ctpop_VH_F_Kidney_L_0603.csv")
 
@@ -76,7 +76,7 @@ p = ggplot(top_10_with_colors, aes(x = cell_type, y=n.x, fill=colors))+
 p+ bar_graph_theme+
   theme(axis.text.x = element_text(size=15), legend.text = element_text(size=15))
 
-# Fig. 2a ALTERNATIVE with outlines, bar graph for CTPop (AS) 
+# Fig. ASpop ALTERNATIVE with outlines, bar graph for CTPop (AS) 
 
 all = cells_raw%>% group_by(cell_type, anatomical_structure) %>% tally() %>% mutate(outline="black") 
 only_top = all %>% arrange(desc(n)) %>% head(10)%>% mutate(outline="red")
@@ -128,7 +128,7 @@ p+ bar_graph_theme+
 
 
 
-# Fig. 3a Sankey diagram
+# Fig. SankeyScatter Sankey diagram
 
 # reformat data we we get portal|donor_sex|organ
 # need two tibbles: 
@@ -263,7 +263,7 @@ p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
 p
 
 
-# Fig. 3b scatter graph
+# Fig. SankeyScatter scatter graph
 scatter = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/validation-v5.csv", sep=""))
 
 # unify left vs right kidney
@@ -310,7 +310,7 @@ g = ggplot(scatter, aes(x = rui_location_volume, y=total_cells, shape = modality
 g
 
 
-# Fig. 4a (scatter graph block volume)
+# Fig. ASCoverageTissueBlockSimilarity. (scatter graph block volume)
 plot_raw = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/figure-f4.csv", sep=""))
 
 # unify kidney
@@ -343,29 +343,31 @@ p = ggplot(plot_raw, aes(y = organ, color=organ))+
   
 p
 
-# Fig 4.b (UMAP, add Michael Ginda's code, see his branch [may already be here])
+# Fig ASCoverageTissueBlockSimilarity.  (UMAP, add Michael Ginda's code, see his branch [may already be here])
 
 
 
 
 
-# Fig. 5 validations/applications
+# Fig. ValidationApplicationResults
+
+# unique extraction site and tissue blocks for which we apply US#1 and US#2
+
 application_a1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a1.csv", sep=""))
 application_a1$sample %>% unique() %>% length()
 
 application_a2p1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a2p1.csv", sep=""))
 application_a2p1$dataset %>% unique() %>% length()
 
-
-v1 = 
-
-
+validation_v1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/validation-v1.csv", sep=""))
+validation_v1
 
 
 
 
 
-# Supplemental Fig. S6
+
+# Supplemental Fig. AS-TB-InterVolumes
 
 intersections = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/table-s5.csv", sep=""))
 intersections
@@ -417,15 +419,15 @@ g = with_counts %>% select(
    )
 p
 
-# Supplemental Fig. S9: Bar graph for datasets per AS with modality
+# Supplemental Fig. DatasetsPerASWithModality: Bar graph for datasets per AS with modality
 datasets_per_as = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/as-datasets-modality.csv", sep="")) %>% 
   arrange(as_label)
 
 
 # count datasets per organ
-datasets_per_as %>% group_by(organ_label) %>% unique() %>% tally()
+datasets_per_as = datasets_per_as %>% group_by(organ_label) %>% unique()
 
-p = ggplot(datasets_per_as, aes(x=organ_id, fill=modality))+
+p = ggplot(datasets_per_as, aes(x=as_label, fill=modality))+
   geom_bar(stat = 'count', position = "stack")+
   scale_fill_discrete(labels = c("single-cell bulk",
                                  "spatial"))+
@@ -447,8 +449,8 @@ p = ggplot(datasets_per_as, aes(x=organ_id, fill=modality))+
   )
 p
 
-# Supplemental Fig. S10: Visualizing hetero-/homogeneity
-data = read_csv("../../hra-pop/output-data/v0.5/reports/atlas/figure-as-as-sim.csv")
+# Supplemental Fig. ASHeteroHomo: Visualizing hetero-/homogeneity
+data = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/figure-as-as-sim.csv", sep=""))
 data
 
 # unify left/right kidney
@@ -487,7 +489,20 @@ vis = bind_rows(vis, same)
 
 g = ggplot(vis, aes(as1_label, as2_label))+
   geom_tile(aes(fill=cosine_sim))+
-  scale_fill_gradient(low = "yellow", high = "blue")+
+  # scale_fill_gradientn(colours = c("yellow","pink","purple","blue"),
+  #                        values = c(0, 0.31, 0.51, 0.7, 1.0),
+  #                      breaks = c(0, 0.31, 0.51, 0.7, 1.0)) +
+  
+  # scale_fill_gradient(low = "yellow", high = "blue",breaks = c(0.3, 0.5, 0.7), labels = c("Below 0.3","0.31-0.5", "51-0.7"))+
+  
+  # scale_fill_gradient(low = "yellow", high = "blue", midpoint = mean(vis$cosine_sim))+
+  
+  scale_fill_stepsn(colors =c("yellow", "pink", "purple", "blue"),
+                   breaks = c(.31, .51, .71, 1),
+                   labels = c("Less than or equal to 0.30", "Between 0.31 and 0.5", "Between 0.5 and 0.7", "Greater than 0.7"),
+                   limits = c(0, 1))+
+  
+  
   geom_text(aes(label =sprintf("%.2f", cosine_sim)), size = 3, color="black")+
   # facet_grid(modality ~ organ, scales = "free_x", space = "free_x")+
   labs(

@@ -8,12 +8,20 @@ reports = paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/",
 # for dataset IDs from Application2, get publications from non-atlas-dataset-graph
 
 # get application2p1 report (computes cosine sim between dataset and AS)
-application2p1 = read_csv("../../hra-pop/output-data/v0.5/reports/atlas/application-a2p1.csv") 
-app = application2p1%>% select(dataset) %>% unique()
+application1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a1.csv", sep=""))
+application1%>% select(sample) %>% unique()
+
+application2p1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a2p1.csv", sep=""))
+application2p1%>% select(dataset) %>% unique()
+
+application2p3 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a2p3.csv", sep=""))
+application2p3%>% select(dataset) %>% unique()
+
 
 # get non-atlas datasets (many have publications)
 non_atlas_dataset_graph = read_csv("../../hra-pop/output-data/v0.5/non-atlas-dataset-graph.csv") 
 non_atlas = non_atlas_dataset_graph %>% select(hasPublication,dataset_id, publication, consortium_name) %>% unique()
+non_atlas
 
 # create combined tibble with dataset_id and publications
 pub_pred = non_atlas %>% mutate(
