@@ -353,19 +353,41 @@ p
 
 # unique extraction site and tissue blocks for which we apply US#1 and US#2
 
-application_a1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a1.csv", sep=""))
-application_a1$sample %>% unique() %>% length()
+a1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a1.csv", sep=""))
+a1$sample %>% unique() %>% length()
 
-application_a2p1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a2p1.csv", sep=""))
-application_a2p1$dataset %>% unique() %>% length()
+a2p1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/application-a2p1.csv", sep=""))
+a2p1$dataset %>% unique() %>% length()
 
-validation_v1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/validation-v1.csv", sep=""))
-validation_v1
+# validations
+v2p1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/validation-v2p1.csv", sep=""))
+v2p1
 
+t = v2p1 %>% filter(as_in_collisions == TRUE)
+f = v2p1 %>% filter(as_in_collisions == FALSE)
 
+summary(t$similarity)
+summary(f$similarity)
 
+t.test(t$similarity,f$similarity)
 
+vis = v2p1
+vis
 
+line = data.frame(as_in_collisions = as.character(unique(vis$as_in_collisions)), z = c(mean(t$similarity),mean(f$similarity)))
+
+g = ggplot(vis, aes(x = organ, y=similarity))+
+  geom_violin(scale="width", aes(fill=organ))+
+  scale_fill_manual(values=cat_colors, guide_legend(position="bottom"))+
+  # geom_jitter(shape=1, alpha=.1, aes(color=organ))+
+  facet_grid(as_tool~as_in_collisions)+
+  geom_hline(data=line, aes(yintercept = z))+
+  theme(
+    axis.text.x = element_text(angle=90)
+  )+
+  labs(y="Cosine Similarity", x="Organ", title = "Cosine Similarity and True/False Prediction by Organ")
+  
+g 
 
 # Supplemental Fig. AS-TB-InterVolumes
 
