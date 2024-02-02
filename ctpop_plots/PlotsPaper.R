@@ -379,7 +379,7 @@ line = data.frame(as_in_collisions = as.character(unique(vis$as_in_collisions)),
 g = ggplot(vis, aes(x = organ, y=similarity))+
   geom_violin(scale="width", aes(fill=organ))+
   scale_fill_manual(values=cat_colors, guide_legend(position="bottom"))+
-  # geom_jitter(shape=1, alpha=.1, aes(color=organ))+
+  geom_jitter(shape=1, alpha=.5, aes(color=organ))+
   facet_grid(as_tool~as_in_collisions)+
   geom_hline(data=line, aes(yintercept = z))+
   theme(
