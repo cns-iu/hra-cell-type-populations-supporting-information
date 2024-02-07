@@ -33,6 +33,7 @@ def main():
             if "HBM" in id:
               hubmap_ids_portal.add(id)
     
+    # should be 360 as of 2/6/24
     print(len(hubmap_ids_portal))
 
     # populate result dict with unique HuBMAP IDs from portal
