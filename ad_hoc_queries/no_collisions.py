@@ -14,28 +14,24 @@ def main():
     # a dictionary
     dataset_graph = json.load(f)
     
-    # initialize result
+    # initialize result, to be converted to pandas data farme at the end and exported as CSV
     result = {
       'reference_organ' : [],
       'tissue_block_hubmap_id' : [],
-      'rui_location_id': []
-      
-      
+      'rui_location_id': [] 
     }
 
+    # loop through JSON-LD and find...
     for donor in dataset_graph['@graph']:
       for sample in donor['samples']:
         for CollisionSummary in sample['rui_location']['all_collisions']:
+          
+          # rui_locations with empty collisions arrays
           if len(CollisionSummary['collisions']) == 0:
             
             result['reference_organ'].append(sample['rui_location']['creator'])
             result['tissue_block_hubmap_id'].append(sample['@id'])
             result['rui_location_id'].append(sample['rui_location']['@id'])
-           
-            
-        
-    print(result)
-    
     
     # Convert dict to DataFrame
     df = pd.DataFrame.from_dict(result)
@@ -46,6 +42,3 @@ def main():
 # driver code
 if __name__ == '__main__':
     main()
-
-
-
