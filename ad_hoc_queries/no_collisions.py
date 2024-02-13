@@ -16,7 +16,7 @@ def main():
     
     # initialize result, to be converted to pandas data farme at the end and exported as CSV
     result = {
-      'reference_organ' : [],
+      'creator' : [],
       'tissue_block_hubmap_id' : [],
       'rui_location_id': [] 
     }
