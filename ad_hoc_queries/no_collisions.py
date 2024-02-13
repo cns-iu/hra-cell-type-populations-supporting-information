@@ -29,7 +29,7 @@ def main():
           # rui_locations with empty collisions arrays
           if len(CollisionSummary['collisions']) == 0:
             
-            result['reference_organ'].append(sample['rui_location']['creator'])
+            result['creator'].append(sample['rui_location']['creator'])
             result['tissue_block_hubmap_id'].append(sample['@id'])
             result['rui_location_id'].append(sample['rui_location']['@id'])
     
