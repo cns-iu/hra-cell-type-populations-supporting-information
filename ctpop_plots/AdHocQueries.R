@@ -128,3 +128,17 @@ all_datasets = read_csv(paste(reports,"spatial-and-bulk-datasets-breakdown.csv",
 all_datasets
 
 all_datasets %>% filter(status=="Atlas") %>% group_by(organ, dataset_cnt) %>% tally() 
+
+# hra-pop donor overview
+donors = read_csv("../ad_hoc_queries/input/donor-info.csv")
+donors
+
+# mean age
+donors$age %>% mean()
+donors$age[!is.na(donors$age)] %>% mean()
+
+# sex
+donors %>% group_by(sex) %>% tally()
+
+# race
+donors %>% group_by(race) %>% tally()
