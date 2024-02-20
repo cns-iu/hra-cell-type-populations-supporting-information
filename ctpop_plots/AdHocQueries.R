@@ -133,6 +133,8 @@ all_datasets %>% filter(status=="Atlas") %>% group_by(organ, dataset_cnt) %>% ta
 donors = read_csv("../ad_hoc_queries/input/donor-info.csv")
 donors
 
+donors %>% filter(age<18) %>% view()
+
 # mean age
 donors$age %>% mean()
 donors$age[!is.na(donors$age)] %>% mean()
@@ -142,3 +144,4 @@ donors %>% group_by(sex) %>% tally()
 
 # race
 donors %>% group_by(race) %>% tally()
+
