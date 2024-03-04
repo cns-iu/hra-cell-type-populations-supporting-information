@@ -19,11 +19,16 @@ Link to paper on bioRxiv (forthcoming)
 
 This 3D visualization shows 50 unique cell types but only 0.01% of all the cells (3,310 out of 331,010) found in these anatomical structures based on experimental data registered into them (for performance reasons). A 5x5x5 mm tissue block is shown for scale. Please click and drag your left mouse button to rotate the camera around the kidney; click drag the right mouse button to pan; use the mouse scroll wheel to zoom in and out.
 
-**This will be replaced with an interactive Unity web build.**
+**This will be replaced with an interactive Unity web build.** 
 
+<img alt="alt_text" width="75%" src="images/unity_placeholder.png">
 ---
 
 #### Bar graphs for cell type populations
 
 Shown here are bar graphs for the cell type populations of the four anatomical structures shown in the kidney above (VH female, left) specifically for the cortex and three renal pyramids, based on collision detection results from eight tissue blocks. Visualized are 331,010 cells of 50 unique types. Note that the y-axis is scaled logarithmically to account for the vast ranges in numbers of cells per cell types.
+
+**This will be replaced with updated bar graphs.** 
+
+<img alt="alt_text" width="75%" src="images/bar_graphs_placeholder.png">
 
