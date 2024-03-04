@@ -8,7 +8,7 @@ def main():
     
      
     # Opening JSON file
-    f = open("../../hra-pop/output-data/v0.5.2/atlas-enriched-dataset-graph.jsonld")
+    f = open("../../hra-pop/output-data/v0.7.0/atlas-enriched-dataset-graph.jsonld")
     
     # returns JSON object as 
     # a dictionary
