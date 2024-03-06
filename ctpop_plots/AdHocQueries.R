@@ -2,7 +2,7 @@
 library(tidyverse) 
 
 # global vars
-hra_pop_version = "0.5.1"
+hra_pop_version = "0.8.0"
 reports = paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/", sep = "")
 
 # for dataset IDs from Application2, get publications from non-atlas-dataset-graph
@@ -145,3 +145,7 @@ donors %>% group_by(sex) %>% tally()
 # race
 donors %>% group_by(race) %>% tally()
 
+# confusion matrix for v2
+data = read_csv(c(reports, "validation-v2p1.csv"))
+data = read_csv("../../hra-pop/output-data/v0.8.0/reports/atlas/validation-v2p1.csv")
+data
