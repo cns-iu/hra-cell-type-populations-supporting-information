@@ -145,7 +145,29 @@ donors %>% group_by(sex) %>% tally()
 # race
 donors %>% group_by(race) %>% tally()
 
-# confusion matrix for v2
-data = read_csv(c(reports, "validation-v2p1.csv"))
-data = read_csv("../../hra-pop/output-data/v0.8.0/reports/atlas/validation-v2p1.csv")
-data
+
+# CTpop for kidney
+data = read_csv("../ad_hoc_queries/input/hra-pop-kidney.csv")
+
+data = data %>% filter(cell_percentage >= .2)
+
+g = ggplot(data, aes(x=as_label, y=cell_percentage, fill=cell_label))+
+  geom_bar(stat = "identity", position = "stack")+
+  facet_grid(organ~sex)+
+theme(
+  legend.position = "bottom"
+)
+
+g                
+
+# histogram for percentages
+p = ggplot(data, aes(x=cell_percentage, fill=cell_label))+
+  geom_histogram(binwidth = .01)+
+  facet_wrap(~as_label)+
+  theme(
+    legend.position = "bottom"
+  )
+
+p
+
+hist(data$cell_percentage)

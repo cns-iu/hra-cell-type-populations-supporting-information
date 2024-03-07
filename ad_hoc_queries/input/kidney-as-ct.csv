@@ -1,0 +1,5 @@
+organ,cell_iri,cell_label
+renal pyramid,http://purl.obolibrary.org/obo/CL_1001285,vasa recta descending limb cell
+renal papilla,http://purl.obolibrary.org/obo/CL_1000597,papillary tips cell
+renal papilla,http://purl.obolibrary.org/obo/CL_1000718,kidney inner medulla collecting duct principal cell
+outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000653,podocyte
