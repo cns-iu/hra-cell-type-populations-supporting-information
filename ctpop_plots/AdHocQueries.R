@@ -2,7 +2,7 @@
 library(tidyverse) 
 
 # global vars
-hra_pop_version = "0.8.0"
+hra_pop_version = "0.8.1"
 reports = paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/", sep = "")
 
 # for dataset IDs from Application2, get publications from non-atlas-dataset-graph
