@@ -1,5 +1,6 @@
 # load libraries
 library(tidyverse) 
+library(scales)
 
 # global vars
 hra_pop_version = "0.8.1"
@@ -149,13 +150,35 @@ donors %>% group_by(race) %>% tally()
 # CTpop for kidney
 data = read_csv("../ad_hoc_queries/input/hra-pop-kidney.csv")
 
-data = data %>% filter(cell_percentage >= .2)
+# data = data %>% filter(cell_percentage >= .2)
 
-g = ggplot(data, aes(x=as_label, y=cell_percentage, fill=cell_label))+
+# expected in cortex
+expected = c('Podocyte','Parietal Epithelial Cell','Proximal Tubule S1 and S2','Distal Convoluted cell type 1 and 2','Glomerular Capillary Endothelial cell','Macula Densa','Cortical Collecting Duct','Cortical Thick Ascending Limb')
+expected
+
+cortex = data %>% filter(as_label=="outer cortex of kidney") %>% filter(cell_label %in% expected)
+cortex$cell_label %>% unique()
+
+g = ggplot(cortex, aes(x=as_label, y=cell_percentage, fill=cell_label))+
   geom_bar(stat = "identity", position = "stack")+
-  facet_grid(organ~sex)+
+  # facet_grid(organ~sex)+
+  scale_fill_brewer(palette = "Paired")+
+  scale_y_continuous(labels = percent_format()) +
+  facet_wrap(~sex)+
+  labs(
+    x = "Outer Cortex of Kidney",
+    y = "Percentage of Cell Type in Outer Cortex of Kidney",
+    fill = "Cell Type"
+  )+
 theme(
-  legend.position = "bottom"
+  legend.position = "bottom",
+  strip.text = element_text(size=20),
+  axis.title.y = element_text(size=20, vjust = 2.5, margin = margin(t=100)),
+  axis.title.x = element_text(size=20, vjust = 1),
+  axis.text.y =  element_text(size=18),
+  axis.text.x = element_blank(),
+  legend.text = element_text(size=18),
+  legend.title = element_text(size=18)
 )
 
 g                
