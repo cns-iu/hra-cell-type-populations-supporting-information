@@ -157,14 +157,21 @@ expected = c('Podocyte','Parietal Epithelial Cell','Proximal Tubule S1 and S2','
 expected
 
 cortex = data %>% filter(as_label=="outer cortex of kidney") %>% filter(cell_label %in% expected)
-cortex$cell_label %>% unique()
 
-g = ggplot(cortex, aes(x=as_label, y=cell_percentage, fill=cell_label))+
-  geom_bar(stat = "identity", position = "stack")+
+# add column for mean percentage
+cortex = cortex %>% group_by(cell_label) %>% 
+  mutate(
+  mean_cell_percentage = mean(cell_percentage)
+) %>% filter(sex=="Female", organ=="Left Kidney")
+
+cortex
+
+g = ggplot(cortex, aes(x=as_label, y=mean_cell_percentage, fill=cell_label))+
+  geom_bar(stat = "identity", position = "dodge")+
   # facet_grid(organ~sex)+
   scale_fill_brewer(palette = "Paired")+
   scale_y_continuous(labels = percent_format()) +
-  facet_wrap(~sex)+
+  # facet_wrap(~sex)+
   labs(
     x = "Outer Cortex of Kidney",
     y = "Percentage of Cell Type in Outer Cortex of Kidney",
