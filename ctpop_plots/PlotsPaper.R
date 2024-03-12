@@ -373,7 +373,7 @@ t.test(t$similarity,f$similarity)
 
 vis = v2p1
 vis = vis %>% filter(tool == as_tool) %>% mutate(
-  id_only = sub(".*/", "", as),
+  id_only = sub(".*/", "", as_label),
   organ_as = paste(organ, id_only, sep='-')
 )
 
