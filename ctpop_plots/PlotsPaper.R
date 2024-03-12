@@ -14,7 +14,7 @@ library(lsa) # for tissue block similarity matrix
 source("Themes.R")
 
 # global variables
-hra_pop_version = "0.8.2"
+hra_pop_version = "0.8.3"
 
 # set up color palettes
 # extend Brewer color palettes
