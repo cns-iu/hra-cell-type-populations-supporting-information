@@ -1,7 +1,11 @@
 ---
 title: "HRA-Pop Cell Type Correlation Analysis Notebook"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
+
+# Environment
 
 ```{r message=FALSE, warning=FALSE}
 library(tidyr)
@@ -11,12 +15,14 @@ library(magrittr)
 options(scipen=999)
 ```
  
+# Load Data
 
 ```{r data}
 data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.9.0/reports/atlas/validation-v5.csv",
                  header=T)
 ```
 
+# Prepare Data
 
 ```{r data prep}
 data$organ <- data$organ %>%
@@ -29,6 +35,10 @@ data$organ <- data$organ %>%
 # Remove spatial data
 data <- data[data$modality!="sc_proteomics",]
 ```
+
+# Heatmaps Analysis
+
+## All Tools
 
 ```{r heatmap_all}
 # Create pivot
