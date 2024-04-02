@@ -61,3 +61,4 @@ scratch/
 
 #GitHub access token
 github_access_token.txt
+validations/bargraphs/ct_pop_cellTypePerBarGraph.csv
