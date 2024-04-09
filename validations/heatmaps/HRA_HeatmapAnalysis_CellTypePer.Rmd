@@ -1,0 +1,144 @@
+---
+title: "HRA-Pop Cell Type Correlation Analysis Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+# Environment
+
+```{r message=FALSE, warning=FALSE}
+library(tidyr)
+library(dplyr)
+library(stringr)
+library(magrittr)
+options(scipen=999)
+```
+ 
+# Load Data
+
+```{r data}
+data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.8.3/reports/atlas/validation-v5.csv",
+                 header=T)
+```
+
+# Prepare Data
+
+```{r data prep}
+data$organ <- data$organ %>%
+  str_replace("left ", "") %>%
+  str_replace("right ", "") %>%
+  str_replace("Set of ", "") %>%
+  str_replace("left ", "") %>%
+  str_replace("In ", "in")
+
+# Remove spatial data
+data <- data[data$modality!="sc_proteomics",]
+
+# Combine cell_id and cell_label
+data$cell_name <- paste0(data$cell_id,"-",data$cell_label)
+```
+
+# Heatmaps Analysis
+
+## All Tools
+
+```{r heatmap_all}
+# Create pivot
+data_hm <- data[,c(7,13,14)] %>% 
+              pivot_wider(names_from = cell_name,
+                          values_from = percentage,
+                          values_fill = 0,
+                          values_fn = mean)
+
+# Convert DF to a matrix
+data_hmp <- data.matrix(data_hm[,2:ncol(data_hm)])
+
+# Assign Row.names as organs
+rownames(data_hmp) <- data_hm$organ 
+data_hmp <- data_hmp[order(row.names(data_hmp)),]
+
+# Scale data
+data_hmp <- scale(data_hmp)
+
+# Generate heatmap
+pheatmap::pheatmap(data_hmp)
+```
+
+## Azimuth
+
+```{r azimuth}
+# Create pivot
+data_ha <- data %>% 
+              filter(tool == "azimuth") %>%
+              select(organ, cell_name, percentage) %>%
+              pivot_wider(names_from = cell_name,
+                          values_from = percentage,
+                          values_fill = 0,
+                          values_fn = mean)
+
+# Convert DF to a matrix
+data_hap <- data.matrix(data_ha[,2:ncol(data_ha)])
+
+# Assign Row.names as organs
+rownames(data_hap) <- data_ha$organ 
+data_hap <- data_hap[order(row.names(data_hap)),]
+
+# Scale data
+data_hap <- scale(data_hap)
+
+# Generate heatmap
+pheatmap::pheatmap(data_hap)
+```
+
+## CellTypist
+
+```{r celltypist}
+# Create pivot
+data_hc <- data %>% 
+              filter(tool == "celltypist") %>%
+              select(organ, cell_name, percentage) %>%
+              pivot_wider(names_from = cell_name,
+                          values_from = percentage,
+                          values_fill = 0,
+                          values_fn = mean)
+
+# Convert DF to a matrix
+data_hcp <- data.matrix(data_hc[,2:ncol(data_hc)])
+
+# Assign Row.names as organs
+rownames(data_hcp) <- data_hc$organ 
+data_hcp <- data_hcp[order(row.names(data_hcp)),]
+
+# Scale data
+data_hcp <- scale(data_hcp)
+
+# Generate heatmap
+pheatmap::pheatmap(data_hcp)
+```
+
+## PopV
+
+```{r popV}
+# Create pivot
+data_hp <- data %>% 
+              filter(tool == "popv") %>%
+              select(organ, cell_name, percentage) %>%
+              pivot_wider(names_from = cell_name,
+                          values_from = percentage,
+                          values_fill = 0,
+                          values_fn = mean)
+
+# Convert DF to a matrix
+data_hpv <- data.matrix(data_hp[,2:ncol(data_hp)])
+
+# Assign Row.names as organs
+rownames(data_hpv) <- data_hp$organ 
+data_hpv <- data_hpv[order(row.names(data_hpv)),]
+
+# Scale data
+data_hpv <- scale(data_hpv)
+
+# Generate heatmap
+pheatmap::pheatmap(data_hpv)
+```
