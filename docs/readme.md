@@ -15,7 +15,7 @@ Link to paper on bioRxiv (forthcoming)
 
 ---
 
-#### Exemplary 3D visualization of cell type populations for 4 anatomical structures in the VH Female, Left Kidney
+#### Exemplary 3D visualization of cell type populations for 4 anatomical structures in the VH female, left Kidney (forthcoming)
 
 This 3D visualization shows 50 unique cell types but only 0.01% of all the cells (3,310 out of 331,010) found in these anatomical structures based on experimental data registered into them (for performance reasons). A 5x5x5 mm tissue block is shown for scale. Please click and drag your left mouse button to rotate the camera around the kidney; click drag the right mouse button to pan; use the mouse scroll wheel to zoom in and out.
 
