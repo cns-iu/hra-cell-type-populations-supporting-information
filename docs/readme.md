@@ -19,6 +19,8 @@ Link to paper on bioRxiv (forthcoming)
 
 This 3D visualization shows 50 unique cell types but only 0.01% of all the cells (3,310 out of 331,010) found in these anatomical structures based on experimental data registered into them (for performance reasons). A 5x5x5 mm tissue block is shown for scale. Please click and drag your left mouse button to rotate the camera around the kidney; click drag the right mouse button to pan; use the mouse scroll wheel to zoom in and out.
 
+Code to demonstrate how 3D cells can be generated with Python is available [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/3d_cells_in_anatomical_structures/3d_cells_in_anatomical_structures.ipynb).
+
 **This will be replaced with an interactive Unity web build.** 
 
 <img alt="alt_text" width="75%" src="images/unity_placeholder.png">
