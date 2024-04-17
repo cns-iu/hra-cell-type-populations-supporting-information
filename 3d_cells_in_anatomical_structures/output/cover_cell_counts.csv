@@ -1,0 +1,126 @@
+,organ,as,as_label,sex,tool,modality,cell_id,cell_label,cell_count,cell_percentage
+2927,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,5134.636,0.3743268
+2929,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,3872.384,0.2823057
+2932,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,1055.124,0.07692097
+2933,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,973.576,0.07097593
+2935,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,689.904,0.05029559
+2937,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,647.836,0.04722874
+2939,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,341.32,0.02488301
+2941,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,297.08,0.02165782
+2943,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,294.272,0.02145311
+2945,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,152.348,0.01110652
+2947,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,72.956,0.00531866
+2949,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,59.32,0.004324565
+2951,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,36.176,0.002637314
+2954,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000084,T,20.456,0.001491289
+2955,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,16.184,0.001179851
+2957,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,12.376,0.0009022389
+2959,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,11.136,0.00081184
+2961,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000786,Plasma,7.392,0.0005388938
+2963,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,6.404,0.0004668663
+2965,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,2.856,0.000208209
+2967,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,2.76,0.0002012104
+2969,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,1.904,0.000138806
+2971,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,1.904,0.000138806
+2973,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000236,B,1.52,0.0001108115
+2975,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,1.236,9.010725e-05
+2977,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,1.204,8.777437e-05
+2979,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,0.952,6.940299e-05
+2981,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.92,6.707012e-05
+2983,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,0.568,4.140851e-05
+2985,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030010,Proximal Tubule Epithelial Segment 2,0.284,2.070425e-05
+3683,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,544209.8,0.1876861
+3685,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,414410.9,0.1429213
+3687,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030009,Proximal Tubule Epithelial Segment 1,275410.1,0.09498296
+3689,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,207833.6,0.07167729
+3691,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,196203.6,0.06766635
+3693,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,163799.7,0.05649096
+3695,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,161711.2,0.05577067
+3697,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,152826.7,0.05270663
+3699,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,97498.01,0.03362495
+3701,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,95930.49,0.03308434
+3703,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,90703.7,0.03128174
+3705,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,67972.67,0.0234423
+3707,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,63566.65,0.02192276
+3709,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,40603.48,0.01400326
+3711,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,38253.41,0.01319277
+3713,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,32499.29,0.0112083
+3715,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,24100.92,0.008311886
+3717,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,23368.06,0.008059135
+3719,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,21700.23,0.007483939
+3721,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,21017.04,0.007248321
+3723,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,18888.84,0.006514352
+3725,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001318,Cortical Vascular Smooth Muscle / Pericyte,18252.27,0.006294813
+3727,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,17473.93,0.006026378
+3729,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,16547.96,0.005707034
+3731,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,16285.38,0.005616475
+3733,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,13569.76,0.004679914
+3735,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,11310.35,0.003900694
+3737,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,11213.27,0.003867215
+3739,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000990,Classical Dendritic,8991.0,0.003100801
+3741,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,6845.492,0.002360862
+3743,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030017,Distal Convoluted Tubule Type 2,5220.755,0.001800525
+3745,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,4348.415,0.001499674
+3748,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030010,Proximal Tubule Epithelial Segment 2,3346.303,0.001154067
+3749,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000236,B,3092.0,0.001066364
+3751,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,2351.076,0.0008108351
+3753,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000084,T,2282.61,0.0007872226
+3755,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000097,Mast,1103.0,0.0003804008
+3757,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000786,Plasma,946.0,0.0003262549
+3759,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,863.576,0.0002978286
+3761,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,678.95,0.0002341551
+3763,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030020,Connecting Tubule Intercalated Type A,666.0,0.0002296889
+3765,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,637.592,0.0002198916
+3767,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,393.418,0.0001356813
+3769,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,291.725,0.0001006096
+3771,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000648,Renin-positive Juxtaglomerular Granular,286.551,9.882522e-05
+3773,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0001058,Plasmacytoid Dendritic,40.0,1.379513e-05
+3775,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,22.0,7.587322e-06
+3777,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000113,Cycling Mononuclear Phagocyte,6.0,2.06927e-06
+3779,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,105495.8,0.2192015
+3781,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,48662.03,0.101111
+3783,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,47478.88,0.09865264
+3785,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,38345.81,0.07967576
+3787,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,37595.41,0.07811657
+3789,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,32224.46,0.06695668
+3791,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,29628.6,0.06156295
+3793,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,21956.32,0.04562132
+3795,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,21701.99,0.04509288
+3797,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,20038.49,0.04163642
+3799,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,11029.2,0.02291671
+3801,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,7690.08,0.01597862
+3803,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,7397.316,0.0153703
+3805,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,6873.375,0.01428165
+3807,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,6597.453,0.01370833
+3809,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,6054.983,0.01258118
+3811,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,3715.407,0.007719954
+3813,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,3117.525,0.006477662
+3815,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,3042.939,0.006322685
+3817,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,2963.232,0.006157068
+3819,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,2372.153,0.004928911
+3821,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000084,T,2267.662,0.004711798
+3823,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030009,Proximal Tubule Epithelial Segment 1,2203.518,0.004578518
+3825,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,2146.141,0.004459299
+3827,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,1745.379,0.003626587
+3829,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,1621.687,0.003369577
+3831,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,1426.233,0.002963458
+3833,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,1368.161,0.002842795
+3835,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,1085.889,0.002256284
+3837,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,1047.483,0.002176483
+3839,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,636.392,0.001322309
+3841,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,468.172,0.000972778
+3843,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,432.708,0.0008990901
+3845,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000990,Classical Dendritic,358.0,0.0007438602
+3848,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000236,B,155.888,0.0003239075
+3849,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030010,Proximal Tubule Epithelial Segment 2,115.691,0.0002403853
+3851,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030017,Distal Convoluted Tubule Type 2,38.735,8.048443e-05
+3853,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000648,Renin-positive Juxtaglomerular Granular,38.547,8.00938e-05
+3855,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000097,Mast,34.687,7.207341e-05
+3857,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,34.004,7.065425e-05
+3859,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,17.465,3.628916e-05
+3861,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,13.858,2.879446e-05
+3863,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000786,Plasma,12.697,2.63821e-05
+3865,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,7.779,1.616338e-05
+3867,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,6.0,1.246693e-05
+3869,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_4030020,Connecting Tubule Intercalated Type A,5.0,1.038911e-05
+3871,Left Kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,azimuth,sc_transcriptomics,http://purl.obolibrary.org/obo/CL_0000113,Cycling Mononuclear Phagocyte,4.0,8.311287e-06
