@@ -262,7 +262,7 @@ p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
 
 p
 
-sankeyPlot$save('mychart.html', standalone = TRUE)
+saveNetwork(p, "../docs/sankey.html")
 
 # Fig. SankeyScatter scatter graph
 scatter = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/validation-v5.csv", sep=""))
