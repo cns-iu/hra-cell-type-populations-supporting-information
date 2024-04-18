@@ -24,24 +24,25 @@ Link to paper on bioRxiv (forthcoming) \
 [Link to HRA Workflows](https://github.com/hubmapconsortium/hra-workflows/tree/main)
 
 
-# HRApop Extraction Sites
+# HRApop extraction sites
 Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in HRApop.  
 
 <a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
 
-<a target="_blank" href="h[ttps://hubmapconsortium.github.io/hra-registrations/hubmap-lung-pryhuber-2023/](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html)"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
 
 
 
-# Exemplary 3D visualization of cell type populations for 4 anatomical structures in the VH female, left Kidney (forthcoming)
-
-This 3D visualization shows 50 unique cell types but only 0.01% of all the cells (3,310 out of 331,010) found in these anatomical structures based on experimental data registered into them (for performance reasons). A 5x5x5 mm tissue block is shown for scale. Please click and drag your left mouse button to rotate the camera around the kidney; click drag the right mouse button to pan; use the mouse scroll wheel to zoom in and out.
+# Interactive 3D visualization of cell type populations for outer cortex of kidney
+This 3D visualization shows 36 unique cell types with a total of ~6,000 cells. These are found in these anatomical structures based on experimental data registered into them (for performance reasons). A 5x5x5 mm tissue block is shown for scale. Please click and drag your left mouse button to rotate the camera around the kidney; click drag the right mouse button to pan; use the mouse scroll wheel to zoom in and out.
+Code to demonstrate how 3D cells can be generated with Python is available here.
+LOAD button to take user to interactive 3D visualization. 
 
 Code to demonstrate how 3D cells can be generated with Python is available [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/3d_cells_in_anatomical_structures/3d_cells_in_anatomical_structures.ipynb).
 
-**This will be replaced with an interactive Unity web build.** 
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-3d-visualization/"><img alt="load_button" width="84px" src="images/button_load.png"></a>
 
-<img alt="alt_text" width="75%" src="images/unity_placeholder.png">
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-3d-visualization/"><img alt="alt_text" width="75%" src="images/unity_3d_placeholder.png"></a>
 
 
 # Bar graphs for cell type populations
