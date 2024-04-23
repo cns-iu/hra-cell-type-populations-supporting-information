@@ -20,7 +20,7 @@ library(lsa) # for tissue block similarity matrix
 library(rmarkdown) # for rendering this
 
 #load themes
-source("Themes.R")
+source("scripts/themes.R")
 
 # global variables
 hra_pop_version = "0.10.1"
@@ -32,9 +32,9 @@ cat_colors <- colorRampPalette(brewer.pal(12, "Paired"))(nb.cols)
 ```
 
 # Supplemental Fig. Sankey
-We will use `networkD3` to render the Sankey diagram. On the data side, we need two tibbles: 
-NODES with NodeId
-LINKS with Source, Target, Value
+We will use `networkD3` to render the Sankey diagram. On the data side, we need two tibbles:\
+- NODES with NodeId\
+- LINKS with Source, Target, Value
 
 ## Load Data
 
