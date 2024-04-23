@@ -1,0 +1,189 @@
+---
+title: "HRApop Plots Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+# Environment
+
+```{r message=FALSE, warning=FALSE}
+
+#libraries
+library(tidyverse)
+library(scales) #for scatter graph and bar graph
+library(ggrepel) # to jitter labels
+library(networkD3) #for Sankey
+library(RColorBrewer) # for plots
+library(ggcorrplot) # for tissue block similarity matrix
+library(lsa) # for tissue block similarity matrix
+
+#load themes
+source("Themes.R")
+
+# global variables
+hra_pop_version = "0.10.1"
+
+# set up color palettes
+# extend Brewer color palettes
+nb.cols <- 16
+cat_colors <- colorRampPalette(brewer.pal(12, "Paired"))(nb.cols)
+```
+
+# Supplemental Fig. Sankey
+We will use `networkD3` to render the Sankey diagram. On the data side, we need two tibbles: 
+NODES with NodeId
+LINKS with Source, Target, Value
+
+## Load Data
+
+```{r message=FALSE, warning=FALSE}
+table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/table-s1.csv", sep = ""))
+```
+
+
+## Create subset
+```{r}
+subset_sankey = table_s1 %>% 
+  select(portal, donor_sex, organ_name, cell_type_annotation_tool, omap_id) %>% 
+  replace_na(list(donor_sex = "unknown")) %>% 
+  # unify left and right kidney
+  mutate(organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "kidney", organ_name))
+```
+
+## Create nodes
+```{r}
+p = subset_sankey %>% 
+  group_by(portal) %>% summarize()
+
+d = subset_sankey %>% 
+  group_by(donor_sex) %>% summarize()
+
+o = subset_sankey %>% 
+  group_by(organ_name) %>% summarize()
+
+c = subset_sankey %>% 
+  group_by(cell_type_annotation_tool) %>% summarize()
+
+unique_name=list()
+unique_name = unlist(append(unique_name, c(p, d, o, c)))
+unique_name = list(unique_name)
+
+nodes = as.data.frame(tibble(name = character()))
+```
+
+## Create links
+```{r}
+for(u in unique_name){
+  nodes = nodes %>% 
+    add_row(name=u)
+}
+
+nodes$index <- 1:nrow (nodes) 
+nodes
+
+nodes$index = nodes$index-1
+nodes
+
+s_o = subset_sankey %>% 
+  group_by(portal, donor_sex) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = portal,
+    target = donor_sex,
+    value=count
+  )
+
+d_o = subset_sankey %>% 
+  group_by(donor_sex, organ_name) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = donor_sex,
+    target = organ_name,
+    value=count
+  )
+
+c_o = subset_sankey %>% 
+  group_by(organ_name, cell_type_annotation_tool) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = organ_name,
+    target = cell_type_annotation_tool,
+    value=count
+  )
+
+prep_links = as.data.frame(bind_rows(s_o, d_o, c_o))
+prep_links 
+
+links = prep_links 
+```
+
+## Rename node and link tables
+```{r}
+names(nodes)[1] = "source"
+prep_links = left_join(prep_links, nodes,by="source")
+
+names(nodes)[1] = "target"
+prep_links = left_join(prep_links, nodes,by="target")
+prep_links
+
+prep_links = prep_links[,c(4,5,3)]
+names(prep_links)[1:2] = c("source", "target")
+names(nodes)[1] = "name"
+```
+
+## Map colors
+```{r}
+# Give a color for each group for brewer.pal(n=10,"Paired") and brewer.pal(n=3,"Dark2")
+my_color <- 'd3.scaleOrdinal() .domain([
+
+"Brain",
+"Breast", 
+"Heart", 
+"Kidney", 
+"Lung", 
+"Prostate", 
+"Skin", 
+"CxG",
+"HuBMAP",
+"GTEx",
+"Male",
+"Female",
+"unknown"
+
+]) 
+
+.range([
+"#A6CEE3", 
+"#1F78B4", 
+"#B2DF8A", 
+"#33A02C", 
+"#FB9A99",
+"#E31A1C",
+"#FDBF6F",
+"#FF7F00",
+"#CAB2D6",
+"#6A3D9A",
+"#1B9E77",
+"#D95F02",
+"#7570B3"
+
+])'
+```
+
+## Draw the Sankey diagram
+
+```{r}
+# draw Sankey diagram
+p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
+                   Target = "target", Value = "value", NodeID = "name", colourScale = my_color,
+                   units = "occurrences", fontSize = 20, nodeWidth = 40)
+
+p
+```
+
+## Export the Sankey diagram as HTML
+
+```{r}
+saveNetwork(p, "../docs/sankey.html")
+```
