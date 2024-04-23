@@ -178,7 +178,7 @@ my_color <- 'd3.scaleOrdinal() .domain([
 # draw Sankey diagram
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name", colourScale = my_color,
-                   units = "occurrences", fontSize = 20, nodeWidth = 40)
+                   units = "occurrences", fontSize = 20, nodeWidth = 40, width=940)
 
 p
 ```
