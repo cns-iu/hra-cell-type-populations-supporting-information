@@ -46,8 +46,11 @@ table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/report
 ## Create subset
 ```{r}
 subset_sankey = table_s1 %>% 
-  select(portal, donor_sex, organ_name, cell_type_annotation_tool, omap_id) %>% 
+  select(portal, donor_sex, organ_name, cell_type_annotation_tool, donor_race, donor_bmi) %>% 
   replace_na(list(donor_sex = "unknown")) %>% 
+  replace_na(list(donor_race = "unknown")) %>% 
+  # mutate(donor_bmi = as.character(donor_bmi)) %>% 
+  # replace_na(list(donor_bmi = "unknown")) %>%
   # unify left and right kidney
   mutate(organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "kidney", organ_name))
 ```
@@ -60,6 +63,12 @@ p = subset_sankey %>%
 d = subset_sankey %>% 
   group_by(donor_sex) %>% summarize()
 
+# b = subset_sankey %>% 
+#   group_by(donor_bmi) %>% summarize()
+
+r = subset_sankey %>% 
+  group_by(donor_race) %>% summarize()
+
 o = subset_sankey %>% 
   group_by(organ_name) %>% summarize()
 
@@ -67,7 +76,7 @@ c = subset_sankey %>%
   group_by(cell_type_annotation_tool) %>% summarize()
 
 unique_name=list()
-unique_name = unlist(append(unique_name, c(p, d, o, c)))
+unique_name = unlist(append(unique_name, c(p, d, r, o, c)))
 unique_name = list(unique_name)
 
 nodes = as.data.frame(tibble(name = character()))
@@ -95,11 +104,29 @@ s_o = subset_sankey %>%
     value=count
   )
 
-d_o = subset_sankey %>% 
-  group_by(donor_sex, organ_name) %>% 
+r_o = subset_sankey %>% 
+  group_by(donor_sex, donor_race) %>% 
   summarize(count=n()) %>% 
   rename(
     source = donor_sex,
+    target = donor_race,
+    value=count
+  )
+# 
+# b_o = subset_sankey %>% 
+#   group_by(donor_race, donor_bmi) %>% 
+#   summarize(count=n()) %>% 
+#   rename(
+#     source = donor_race,
+#     target = donor_bmi,
+#     value=count
+#   )
+
+d_o = subset_sankey %>% 
+  group_by(donor_race, organ_name) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = donor_race,
     target = organ_name,
     value=count
   )
@@ -113,7 +140,7 @@ c_o = subset_sankey %>%
     value=count
   )
 
-prep_links = as.data.frame(bind_rows(s_o, d_o, c_o))
+prep_links = as.data.frame(bind_rows(s_o, r_o, d_o, c_o))
 prep_links 
 
 links = prep_links 
