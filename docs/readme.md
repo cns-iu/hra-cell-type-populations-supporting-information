@@ -1,6 +1,6 @@
 # **Companion Website for &quot;Constructing and Using Cell Type Populations for the Human Reference Atlas&quot;**
 
-Andreas Bueckle<sup>1,4,\*\*</sup>, Bruce William Herr II<sup>1</sup>, Lu Chen<sup>2</sup>, Daniel Bolin<sup>1</sup>, Vicky Daiya<sup>1</sup>, Devin Wright<sup>1</sup>, Dan Qaurooni<sup>1</sup>, Kristin Ardlie<sup>3</sup>, Fusheng Wang<sup>2</sup>, Katy Börner<sup>1,\*</sup>
+Andreas Bueckle<sup>1,4,\*\*</sup>, Bruce William Herr II<sup>1</sup>, Lu Chen<sup>2</sup>, Daniel Bolin<sup>1</sup>, Danial Qaurooni<sup>1</sup>, Michael Ginda<sup>1</sup>, , Kristin Ardlie<sup>3</sup>, Fusheng Wang<sup>2</sup>, Katy Börner<sup>1,\*</sup>
 
 <sup>1</sup> Department of Intelligent Systems Engineering, Luddy School of Informatics, Computing, and Engineering, Indiana University, Bloomington, IN 47408, USA \
 <sup>2</sup> Department of Computer Science and Department of Biomedical Informatics, Stony Brook University, Stony Brook, 11794, NY, USA \
@@ -44,15 +44,12 @@ Code to demonstrate how 3D cells can be generated with Python is available [here
 
 <a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-3d-visualization/"><img alt="alt_text" width="75%" src="images/unity_3d_placeholder.png"></a>
 
+# Interactive Sankey Diagram
+Atlas-level data for HRApop v0.10.0 comes from various sources and . The Sankey diagram below offers an overview of the distribution of HRApop datasets along demographic, informatical, and biomedical markers. 
 
-# Bar graphs for cell type populations
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey.html"><img alt="load_button" width="84px" src="images/button_load.png"></a>
 
-Shown here are bar graphs for the cell type populations of the four anatomical structures shown in the kidney above (VH female, left) specifically for the cortex and three renal pyramids, based on collision detection results from eight tissue blocks. Visualized are 331,010 cells of 50 unique types. Note that the y-axis is scaled logarithmically to account for the vast ranges in numbers of cells per cell types.
-
-**This will be replaced with updated bar graphs.** 
-
-<img alt="alt_text" width="75%" src="images/bar_graphs_placeholder.png">
-
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey.html"><img alt="alt_text" width="75%" src="images/sankey_preview.png"></a>
 
 
 # Single-cell proteomics data
