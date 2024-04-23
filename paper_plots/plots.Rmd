@@ -42,12 +42,48 @@ We will use `networkD3` to render the Sankey diagram. On the data side, we need 
 table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/table-s1.csv", sep = ""))
 ```
 
+## Create bins for donor age and BMI
+
+### Define function to create bins
+```{r}
+add_bin = function(original_column, bins, labels){
+  # Create new column with bins
+  result <- cut(original_column, breaks = bins, labels = labels, include.lowest = TRUE)
+  
+  return(as.character(result))
+}
+```
+
+### Add bins
+```{r message=FALSE}
+
+# create new tibble
+table_s1_with_bins = table_s1 
+
+# Create bins and labels
+bins_age = c(0, 18, 35, 50, 65, 85, 120)  # Define bin edges
+labels_age = c("Underage", "Young adult", "Adult", "Middle", "Senior", "Very senior") 
+bins_bmi = c(0,18.5, 24.9, 29.9, 30.0)
+labels_bmi = c("underweight", "healthy", "overweight", "obese")
+
+table_s1_with_bins$donor_age_binned = add_bin(table_s1_with_bins$donor_age, bins_age, labels_age)
+table_s1_with_bins$donor_bmi_binned = add_bin(table_s1_with_bins$donor_bmi, bins_bmi, labels_bmi)
+
+
+```
 
 ## Create subset
 ```{r}
-subset_sankey = table_s1 %>% 
-  select(portal, donor_sex, organ_name, cell_type_annotation_tool, omap_id) %>% 
-  replace_na(list(donor_sex = "unknown")) %>% 
+subset_sankey = table_s1_with_bins %>% 
+  select(portal, donor_sex, organ_name, cell_type_annotation_tool, donor_race, donor_bmi_binned, donor_age_binned) %>% 
+  
+  # replace NAs
+  replace_na(list(donor_sex = "Unknown Sex")) %>% 
+  replace_na(list(donor_race = "Unknown Race")) %>% 
+  
+  # replace NAs for binned variables
+  replace_na(list(donor_bmi_binned = "Unknown BMI")) %>%
+  replace_na(list(donor_age_binned = "Unknown Age")) %>%
   # unify left and right kidney
   mutate(organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "kidney", organ_name))
 ```
@@ -60,6 +96,15 @@ p = subset_sankey %>%
 d = subset_sankey %>% 
   group_by(donor_sex) %>% summarize()
 
+a = subset_sankey %>% 
+  group_by(donor_age_binned) %>% summarize()
+
+b = subset_sankey %>%
+  group_by(donor_bmi_binned) %>% summarize()
+
+r = subset_sankey %>% 
+  group_by(donor_race) %>% summarize()
+
 o = subset_sankey %>% 
   group_by(organ_name) %>% summarize()
 
@@ -67,7 +112,7 @@ c = subset_sankey %>%
   group_by(cell_type_annotation_tool) %>% summarize()
 
 unique_name=list()
-unique_name = unlist(append(unique_name, c(p, d, o, c)))
+unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, c)))
 unique_name = list(unique_name)
 
 nodes = as.data.frame(tibble(name = character()))
@@ -95,25 +140,52 @@ s_o = subset_sankey %>%
     value=count
   )
 
-d_o = subset_sankey %>% 
-  group_by(donor_sex, organ_name) %>% 
+r_o = subset_sankey %>% 
+  group_by(donor_sex, donor_race) %>% 
   summarize(count=n()) %>% 
   rename(
     source = donor_sex,
+    target = donor_race,
+    value=count
+  )
+
+a_o = subset_sankey %>% 
+  group_by(donor_race, donor_age_binned) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = donor_race,
+    target = donor_age_binned,
+    value=count
+  )
+
+d_o = subset_sankey %>% 
+  group_by(donor_age_binned, organ_name) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = donor_age_binned,
     target = organ_name,
     value=count
   )
 
-c_o = subset_sankey %>% 
-  group_by(organ_name, cell_type_annotation_tool) %>% 
-  summarize(count=n()) %>% 
+b_o = subset_sankey %>%
+  group_by(organ_name, donor_bmi_binned) %>%
+  summarize(count=n()) %>%
   rename(
     source = organ_name,
+    target = donor_bmi_binned,
+    value=count
+  )
+
+c_o = subset_sankey %>% 
+  group_by(donor_bmi_binned, cell_type_annotation_tool) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = donor_bmi_binned,
     target = cell_type_annotation_tool,
     value=count
   )
 
-prep_links = as.data.frame(bind_rows(s_o, d_o, c_o))
+prep_links = as.data.frame(bind_rows(s_o, r_o, a_o, d_o, b_o, c_o))
 prep_links 
 
 links = prep_links 
@@ -136,40 +208,40 @@ names(nodes)[1] = "name"
 ## Map colors
 ```{r}
 # Give a color for each group for brewer.pal(n=10,"Paired") and brewer.pal(n=3,"Dark2")
-my_color <- 'd3.scaleOrdinal() .domain([
-
-"Brain",
-"Breast", 
-"Heart", 
-"Kidney", 
-"Lung", 
-"Prostate", 
-"Skin", 
-"CxG",
-"HuBMAP",
-"GTEx",
-"Male",
-"Female",
-"unknown"
-
-]) 
-
-.range([
-"#A6CEE3", 
-"#1F78B4", 
-"#B2DF8A", 
-"#33A02C", 
-"#FB9A99",
-"#E31A1C",
-"#FDBF6F",
-"#FF7F00",
-"#CAB2D6",
-"#6A3D9A",
-"#1B9E77",
-"#D95F02",
-"#7570B3"
-
-])'
+# my_color <- 'd3.scaleOrdinal() .domain([
+# 
+# "Brain",
+# "Breast", 
+# "Heart", 
+# "Kidney", 
+# "Lung", 
+# "Prostate", 
+# "Skin", 
+# "CxG",
+# "HuBMAP",
+# "GTEx",
+# "Male",
+# "Female",
+# "unknown"
+# 
+# ]) 
+# 
+# .range([
+# "#A6CEE3", 
+# "#1F78B4", 
+# "#B2DF8A", 
+# "#33A02C", 
+# "#FB9A99",
+# "#E31A1C",
+# "#FDBF6F",
+# "#FF7F00",
+# "#CAB2D6",
+# "#6A3D9A",
+# "#1B9E77",
+# "#D95F02",
+# "#7570B3"
+# 
+# ])'
 ```
 
 ## Draw the Sankey diagram
@@ -177,8 +249,9 @@ my_color <- 'd3.scaleOrdinal() .domain([
 ```{r}
 # draw Sankey diagram
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
-                   Target = "target", Value = "value", NodeID = "name", colourScale = my_color,
-                   units = "occurrences", fontSize = 20, nodeWidth = 40, width=940)
+                   Target = "target", Value = "value", NodeID = "name", 
+                   # colourScale = my_color,
+                   units = "occurrences", fontSize = 15, nodeWidth = 30, width=1100)
 
 p
 ```
