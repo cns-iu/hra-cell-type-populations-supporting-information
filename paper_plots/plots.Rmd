@@ -23,12 +23,7 @@ library(rmarkdown) # for rendering this
 source("scripts/themes.R")
 
 # global variables
-hra_pop_version = "0.10.1"
-
-# set up color palettes
-# extend Brewer color palettes
-nb.cols <- 16
-cat_colors <- colorRampPalette(brewer.pal(12, "Paired"))(nb.cols)
+hra_pop_version = "0.10.2"
 ```
 
 # Supplemental Fig. Sankey
@@ -63,19 +58,30 @@ table_s1_with_bins = table_s1
 # Create bins and labels
 bins_age = c(0, 18, 35, 50, 65, 85, 120)  # Define bin edges
 labels_age = c("Underage", "Young adult", "Adult", "Middle", "Senior", "Very senior") 
-bins_bmi = c(0,18.5, 24.9, 29.9, 30.0)
+
+bins_bmi = c(0,18.5, 24.9, 29.9, 60.0)
 labels_bmi = c("underweight", "healthy", "overweight", "obese")
+
+bins_cells_total = c(0,10000, 20000,35000,280000)
+labels_cells_total=c("<10,000", "10,000-20,000", "20,000-35,000", ">35,000")
+
+bins_volume_per_tb_bins = c(0,1000,2000,4000,8000,10000)
+labels_volume_per_tb = c("<1,000","1,000-2,000","2,000-4,000","4,000",">8,000")
+
+bins_cell_types = c(0,25, 50, 75, 100, 125, 150)
+labels_cell_types = c("<25", "25-50", "50-75", "75-100", "100-125", "125-150")
 
 table_s1_with_bins$donor_age_binned = add_bin(table_s1_with_bins$donor_age, bins_age, labels_age)
 table_s1_with_bins$donor_bmi_binned = add_bin(table_s1_with_bins$donor_bmi, bins_bmi, labels_bmi)
-
-
+table_s1_with_bins$cells_total_binned = add_bin(table_s1_with_bins$number_of_cells_total, bins_cells_total, labels_cells_total)
+table_s1_with_bins$volume_binned = add_bin(table_s1_with_bins$tissue_block_volume, bins_volume_per_tb_bins, labels_volume_per_tb)
+table_s1_with_bins$cell_types_binned = add_bin(table_s1$number_of_unique_cell_types, bins_cell_types, labels_cell_types)
 ```
 
 ## Create subset
 ```{r}
 subset_sankey = table_s1_with_bins %>% 
-  select(portal, donor_sex, organ_name, cell_type_annotation_tool, donor_race, donor_bmi_binned, donor_age_binned) %>% 
+  select(portal, donor_sex, organ_name, cell_type_annotation_tool, donor_race, donor_bmi_binned, donor_age_binned, cells_total_binned, volume_binned, cell_types_binned) %>% 
   
   # replace NAs
   replace_na(list(donor_sex = "Unknown Sex")) %>% 
@@ -108,11 +114,20 @@ r = subset_sankey %>%
 o = subset_sankey %>% 
   group_by(organ_name) %>% summarize()
 
+v = subset_sankey %>% 
+  group_by(volume_binned) %>% summarize()
+
 c = subset_sankey %>% 
   group_by(cell_type_annotation_tool) %>% summarize()
 
+ce = subset_sankey %>% 
+  group_by(cells_total_binned) %>% summarize()
+
+ct = subset_sankey %>% 
+  group_by(cell_types_binned) %>% summarize()
+
 unique_name=list()
-unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, c)))
+unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, v, c, ce, ct)))
 unique_name = list(unique_name)
 
 nodes = as.data.frame(tibble(name = character()))
@@ -167,11 +182,20 @@ d_o = subset_sankey %>%
     value=count
   )
 
-b_o = subset_sankey %>%
-  group_by(organ_name, donor_bmi_binned) %>%
+v_o = subset_sankey %>%
+  group_by(organ_name, volume_binned) %>%
   summarize(count=n()) %>%
   rename(
     source = organ_name,
+    target = volume_binned,
+    value=count
+  )
+
+b_o = subset_sankey %>%
+  group_by(volume_binned, donor_bmi_binned) %>%
+  summarize(count=n()) %>%
+  rename(
+    source = volume_binned,
     target = donor_bmi_binned,
     value=count
   )
@@ -185,7 +209,25 @@ c_o = subset_sankey %>%
     value=count
   )
 
-prep_links = as.data.frame(bind_rows(s_o, r_o, a_o, d_o, b_o, c_o))
+ce_o = subset_sankey %>% 
+  group_by(cell_type_annotation_tool, cells_total_binned) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = cell_type_annotation_tool,
+    target = cells_total_binned,
+    value=count
+  )
+
+ct_o = subset_sankey %>% 
+  group_by(cells_total_binned, cell_types_binned) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = cells_total_binned,
+    target = cell_types_binned,
+    value=count
+  )
+
+prep_links = as.data.frame(bind_rows(s_o, r_o, a_o, d_o, v_o, b_o, c_o, ce_o, ct_o))
 prep_links 
 
 links = prep_links 
@@ -203,45 +245,6 @@ prep_links
 prep_links = prep_links[,c(4,5,3)]
 names(prep_links)[1:2] = c("source", "target")
 names(nodes)[1] = "name"
-```
-
-## Map colors
-```{r}
-# Give a color for each group for brewer.pal(n=10,"Paired") and brewer.pal(n=3,"Dark2")
-# my_color <- 'd3.scaleOrdinal() .domain([
-# 
-# "Brain",
-# "Breast", 
-# "Heart", 
-# "Kidney", 
-# "Lung", 
-# "Prostate", 
-# "Skin", 
-# "CxG",
-# "HuBMAP",
-# "GTEx",
-# "Male",
-# "Female",
-# "unknown"
-# 
-# ]) 
-# 
-# .range([
-# "#A6CEE3", 
-# "#1F78B4", 
-# "#B2DF8A", 
-# "#33A02C", 
-# "#FB9A99",
-# "#E31A1C",
-# "#FDBF6F",
-# "#FF7F00",
-# "#CAB2D6",
-# "#6A3D9A",
-# "#1B9E77",
-# "#D95F02",
-# "#7570B3"
-# 
-# ])'
 ```
 
 ## Draw the Sankey diagram
