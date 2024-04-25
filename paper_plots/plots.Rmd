@@ -102,6 +102,12 @@ subset_sankey = table_s1_with_bins %>%
 
 ```
 
+## Sort organs
+```{r}
+
+subset_sankey$organ_name = factor(subset_sankey$organ_name)
+```
+
 ## Create nodes
 ```{r}
 p = subset_sankey %>% 
