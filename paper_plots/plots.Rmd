@@ -72,7 +72,7 @@ table_s1_with_bins$donor_bmi_binned = add_bin(table_s1_with_bins$donor_bmi, bins
 
 ```
 
-## Create subset
+## Create subset and replace NAs, unify unknown values, adjust portal values
 ```{r}
 subset_sankey = table_s1_with_bins %>% 
   select(portal, donor_sex, organ_name, cell_type_annotation_tool, donor_race, donor_bmi_binned, donor_age_binned) %>% 
@@ -86,6 +86,11 @@ subset_sankey = table_s1_with_bins %>%
   replace_na(list(donor_age_binned = "Unknown Age")) %>%
   # unify left and right kidney
   mutate(organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "kidney", organ_name))
+  
+  # unify unknown values in race
+  subset_sankey$donor_race[subset_sankey$donor_race == "Unknown"] <- "Unknown Race"
+  
+
 ```
 
 ## Create nodes
@@ -204,44 +209,9 @@ prep_links = prep_links[,c(4,5,3)]
 names(prep_links)[1:2] = c("source", "target")
 names(nodes)[1] = "name"
 ```
-
-## Map colors
+## Sort columns
 ```{r}
-# Give a color for each group for brewer.pal(n=10,"Paired") and brewer.pal(n=3,"Dark2")
-# my_color <- 'd3.scaleOrdinal() .domain([
-# 
-# "Brain",
-# "Breast", 
-# "Heart", 
-# "Kidney", 
-# "Lung", 
-# "Prostate", 
-# "Skin", 
-# "CxG",
-# "HuBMAP",
-# "GTEx",
-# "Male",
-# "Female",
-# "unknown"
-# 
-# ]) 
-# 
-# .range([
-# "#A6CEE3", 
-# "#1F78B4", 
-# "#B2DF8A", 
-# "#33A02C", 
-# "#FB9A99",
-# "#E31A1C",
-# "#FDBF6F",
-# "#FF7F00",
-# "#CAB2D6",
-# "#6A3D9A",
-# "#1B9E77",
-# "#D95F02",
-# "#7570B3"
-# 
-# ])'
+
 ```
 
 ## Draw the Sankey diagram
