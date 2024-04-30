@@ -14,7 +14,7 @@ library(lsa) # for tissue block similarity matrix
 source("Themes.R")
 
 # global variables
-hra_pop_version = "0.8.3"
+hra_pop_version = "0.10.1"
 
 # set up color palettes
 # extend Brewer color palettes
@@ -262,6 +262,7 @@ p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
 
 p
 
+saveNetwork(p, "../docs/sankey.html")
 
 # Fig. SankeyScatter scatter graph
 scatter = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/validation-v5.csv", sep=""))
@@ -371,13 +372,29 @@ summary(f$similarity)
 
 t.test(t$similarity,f$similarity)
 
+# Separate by CTann for t-test: Azimuth
+t_azimuth = v2p1 %>% filter(as_in_collisions == TRUE & tool == "azimuth")
+f_azimuth = v2p1 %>% filter(as_in_collisions == FALSE & tool == "azimuth")
+t.test(t_azimuth$similarity,f_azimuth$similarity)
+
+### CellTypist
+t_celltypist = v2p1 %>% filter(as_in_collisions == TRUE & tool == "celltypist")
+f_celltypist = v2p1 %>% filter(as_in_collisions == FALSE & tool == "celltypist")
+t.test(t_celltypist$similarity,f_celltypist$similarity)
+
+###popv
+t_popv = v2p1 %>% filter(as_in_collisions == TRUE & tool == "popv")
+f_popv = v2p1 %>% filter(as_in_collisions == FALSE & tool == "popv")
+t.test(t_popv$similarity,f_popv$similarity)
+
+
 vis = v2p1
 vis = vis %>% filter(tool == as_tool) %>% mutate(
   id_only = sub(".*/", "", as_label),
   organ_as = paste(organ, id_only, sep='-')
 )
 
-line = data.frame(as_in_collisions = as.character(unique(vis$as_in_collisions)), z = c(mean(t$similarity),mean(f$similarity)))
+line = data.frame(as_in_collisions = as.character(unique(vis$as_in_collisions)), z = c(mean(f$similarity),mean(t$similarity)))
 
 g = ggplot(vis, aes(x = organ_as, y=similarity))+
   geom_violin(scale="width", aes(fill=organ))+
