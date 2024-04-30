@@ -1,24 +1,48 @@
 ---
 title: "HRA-Pop Cell Type Correlation Analysis Notebook"
 output:
-  html_document:
-    df_print: paged
+  # html_document:
+  # df_print: paged
+  pdf_document: 
+    dev: pdf
+    fig_caption: no
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+documentclass: article
+urlcolor: blue
+classoption: a4paper
+header-includes:
+- \usepackage{graphicx}
+- \usepackage{float}
 ---
 
 # Environment
 
 ```{r message=FALSE, warning=FALSE}
 library(tidyr)
+library(knitr)
 library(dplyr)
 library(stringr)
 library(magrittr)
 options(scipen=999)
+
+knitr::opts_chunk$set(
+    echo = FALSE,
+    message = FALSE,
+    warning = FALSE,
+    fig.align='center',
+    fig.pos='H',
+    fig.path = "../output/heatmaps/",
+    dev = c("pdf"),
+    dpi=500
+)
 ```
  
 # Load Data
 
 ```{r data}
-data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.8.3/reports/atlas/validation-v5.csv",
+data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v5.csv",
                  header=T)
 ```
 
@@ -43,7 +67,7 @@ data$cell_name <- paste0(data$cell_id,"-",data$cell_label)
 
 ## All Tools
 
-```{r heatmap_all}
+```{r heatmap_all_tools_v0.1, fig.height=10, fig.width=42}
 # Create pivot
 data_hm <- data[,c(7,13,14)] %>% 
               pivot_wider(names_from = cell_name,
@@ -67,7 +91,7 @@ pheatmap::pheatmap(data_hmp)
 
 ## Azimuth
 
-```{r azimuth}
+```{r heatmap_azimuth_v0.1, fig.height=10, fig.width=24}
 # Create pivot
 data_ha <- data %>% 
               filter(tool == "azimuth") %>%
@@ -93,7 +117,7 @@ pheatmap::pheatmap(data_hap)
 
 ## CellTypist
 
-```{r celltypist}
+```{r heatmap_celltypist_v0.1, fig.height=10, fig.width=36}
 # Create pivot
 data_hc <- data %>% 
               filter(tool == "celltypist") %>%
@@ -119,7 +143,7 @@ pheatmap::pheatmap(data_hcp)
 
 ## PopV
 
-```{r popV}
+```{r heatmap_popV_v0.1, fig.height=10, fig.width=20}
 # Create pivot
 data_hp <- data %>% 
               filter(tool == "popv") %>%
