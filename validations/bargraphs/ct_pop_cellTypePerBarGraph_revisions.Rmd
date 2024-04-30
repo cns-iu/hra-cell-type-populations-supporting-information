@@ -54,8 +54,6 @@ df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main
 # Remove "sc_proteomics"
 df <- df[df$tool != "sc_proteomics",]
 
-unique(df$organ)
-
 # Prepare organ labels
 df$organ <- df$organ %>% 
   str_replace("left ", "") %>%
@@ -78,9 +76,6 @@ df$tool <- df$tool %>%
   str_to_title() 
 
 df$tool <- factor(df$tool)
-
-#ct <- unique(df$cell_label)
-#write.csv(ct, file=paste0(getwd(),"/ct_pop_cellTypeList.csv"), row.names=F)
 ```
 
 # Creating labels for bar plots
@@ -107,7 +102,7 @@ df$ds_id <- NA
 df$ds_id <- df$dataset
 df$ds_id[grepl('#',df$dataset)] <- 
   df$dataset[grepl('#',df$dataset)] %>%
-  str_split_i(pattern="\\#", i=1)
+  str_split_i(pattern="\\$", i=1)
 
 # Create dataset label 
 df$label <- NA
@@ -138,9 +133,6 @@ piv <- df %>%
         mean_per = mean(percentage),
         sd_per = sd(percentage))
 
-#write.csv(piv, file=paste0(getwd(),"/ct_pop_organ_celltype_meanPercent.csv"),
-#          row.names = F)
-
 # Cell counts for each organ
 piv2 <- piv %>% 
   count(organ, tool) %>%
@@ -157,9 +149,6 @@ df <- df %>%
   group_by(label, organ, tool) %>%
   mutate(rank=row_number()) %>% 
   filter(rank <= 10)
-
-#write.csv(df,file=paste0(getwd(),"/ct_pop_dataset_organ_top10CellTypes_tools.csv"),
-#          row.names = F)
 
 si <- df %>% 
   filter(organ=="Small Intestine") %>%
@@ -217,7 +206,7 @@ hrt %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+  #guides(fill="none") +
   labs(title="Heart Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
@@ -231,7 +220,7 @@ lng %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+  #guides(fill="none") +
   labs(title="Respiratory System Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
@@ -246,7 +235,7 @@ liv %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+  #guides(fill="none") +
   labs(title="Liver Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
@@ -260,7 +249,7 @@ lgb %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+  #guides(fill="none") +
   labs(title="Lactiferous Glands In Breast Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
@@ -274,7 +263,7 @@ kid %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+ # guides(fill="none") +
   labs(title="Kidney Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
@@ -288,7 +277,7 @@ li %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+  # guides(fill="none") +
   labs(title="Large Intestine Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
@@ -302,7 +291,7 @@ si %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+  # guides(fill="none") +
   labs(title="Small Intestine Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
@@ -316,7 +305,7 @@ skin %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+  # guides(fill="none") +
   labs(title="Skin Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
@@ -330,7 +319,7 @@ spl %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+  # guides(fill="none") +
   labs(title="Spleen Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
@@ -344,7 +333,7 @@ ute %>%
   facet_grid(rows = vars(tool)) +
   scale_y_discrete(expand=c(0,0)) + 
   scale_x_continuous(expand=c(0,0)) + 
-  guides(fill="none") +
+ # guides(fill="none") +
   labs(title="Ureter Datasets - Top 10 Cell Types, by Percentage & Tool",
        x="Percent",y="Dataset")
 ```
