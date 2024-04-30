@@ -35,7 +35,7 @@ knitr::opts_chunk$set(
     warning = FALSE,
     fig.align='center',
     fig.pos='H',
-    fig.path = "../output/",
+    fig.path = "../output/barplots/",
     dev = c("pdf"),
     dpi=500
 )
@@ -46,8 +46,6 @@ knitr::opts_chunk$set(
 ```{r load}
 df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v5.csv", 
                  header=T, fileEncoding = "UTF8")
-#write.csv(df, file=paste0(getwd(),"/ct_pop_cellTypePerBarGraph.csv"), row.names=F)
-#df <- read.csv(paste0(getwd(),"/ct_pop_cellTypePerBarGraph.csv"), header=T)
 ```
 
 # Prepare data
@@ -144,7 +142,8 @@ piv <- df %>%
 #          row.names = F)
 
 # Cell counts for each organ
-piv2 <- piv %>% count(organ, tool) %>%
+piv2 <- piv %>% 
+  count(organ, tool) %>%
   arrange(organ, desc(n))
 names(piv2)[3] <- "cells"
 ```
@@ -211,7 +210,7 @@ lgb <- df %>%
 
 ## Heart Datasets
 
-```{r barplot-heart, fig.height=40, fig.width=15, warning=FALSE}
+```{r barplot-heart_v0.2, fig.height=40, fig.width=15, warning=FALSE}
 hrt %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
@@ -225,7 +224,7 @@ hrt %>%
 
 ## Respiratory System Datasets
 
-```{r barplot-lung, fig.height=18, fig.width=15, warning=FALSE}
+```{r barplot-lung_v0.2, fig.height=18, fig.width=15, warning=FALSE}
 lng %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
@@ -240,7 +239,7 @@ lng %>%
 
 ## Liver Datasets
 
-```{r barplot-liver, fig.height=4, fig.width=15, warning=FALSE}
+```{r barplot-liver_v0.2, fig.height=4, fig.width=15, warning=FALSE}
 liv %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
@@ -254,7 +253,7 @@ liv %>%
 
 ## Lactiferous Glands In Breast Datasets
 
-```{r barplot-breast, fig.height=4, fig.width=15, warning=FALSE}
+```{r barplot-breast_v0.2, fig.height=4, fig.width=15, warning=FALSE}
 lgb %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
@@ -268,7 +267,7 @@ lgb %>%
 
 ## Kidney Datasets
 
-```{r barplot-kidney, fig.height=20, fig.width=15, warning=FALSE}
+```{r barplot-kidney_v0.2, fig.height=20, fig.width=15, warning=FALSE}
 kid %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
@@ -282,7 +281,7 @@ kid %>%
 
 ## Large Intestine Datasets
 
-```{r barplot-lrgIntestine, fig.height=11, fig.width=15, warning=FALSE}
+```{r barplot-largeIntestine_v0.2, fig.height=11, fig.width=15, warning=FALSE}
 li %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
@@ -296,7 +295,7 @@ li %>%
 
 ## Small Intestine Datasets
 
-```{r barplot-smallIntestine, fig.height=11, fig.width=15, warning=FALSE}
+```{r barplot-smallIntestine_v0.2, fig.height=11, fig.width=15, warning=FALSE}
 si %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
@@ -310,7 +309,7 @@ si %>%
 
 ## Skin Datasets
 
-```{r barplot-skin, fig.height=4, fig.width=15, warning=FALSE}
+```{r barplot-skin_v0.2, fig.height=4, fig.width=15, warning=FALSE}
 skin %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
@@ -324,7 +323,7 @@ skin %>%
 
 ## Spleen Datasets
 
-```{r barplot-spleen, fig.height=5, fig.width=15, warning=FALSE}
+```{r barplot-spleen_v0.2, fig.height=5, fig.width=15, warning=FALSE}
 spl %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
@@ -338,7 +337,7 @@ spl %>%
 
 ## Ureter Datasets
 
-```{r barplot-ureter, fig.height=5, fig.width=15, warning=FALSE}
+```{r barplot-ureter_v0.2, fig.height=5, fig.width=15, warning=FALSE}
 ute %>% 
   ggplot(aes(y=label, x=percentage)) +
   geom_col(aes(fill=cell_label)) +
