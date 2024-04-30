@@ -23,7 +23,7 @@ library(rmarkdown) # for rendering this
 source("scripts/themes.R")
 
 # global variables
-hra_pop_version = "0.10.1"
+hra_pop_version = "0.10.2"
 
 # set up color palettes
 # extend Brewer color palettes
@@ -100,12 +100,6 @@ subset_sankey = table_s1_with_bins %>%
   subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CxG"
   subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "CxG"
 
-```
-
-## Sort organs
-```{r}
-
-subset_sankey$organ_name = factor(subset_sankey$organ_name, levels = )
 ```
 
 ## Create nodes
@@ -211,6 +205,7 @@ prep_links
 links = prep_links 
 ```
 
+
 ## Rename node and link tables
 ```{r}
 names(nodes)[1] = "source"
@@ -224,7 +219,6 @@ prep_links = prep_links[,c(4,5,3)]
 names(prep_links)[1:2] = c("source", "target")
 names(nodes)[1] = "name"
 ```
-
 
 ## Draw the Sankey diagram
 
