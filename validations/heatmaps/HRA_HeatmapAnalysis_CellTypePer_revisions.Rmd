@@ -37,7 +37,6 @@ knitr::opts_chunk$set(
     dev = c("pdf"),
     dpi=500
 )
-
 ```
  
 # Load Data
@@ -88,7 +87,7 @@ data$cell_name <- paste0(data$cell_id,"-",data$cell_label)
 
 ## All Tools
 
-```{r all_tools_heatmap, fig.height=12, fig.width=48}
+```{r heatmap_all_tools_v0.2, fig.height=12, fig.width=48}
 # Create pivot
 data_hm <- data[,c(4,6,7,11,12)] %>% 
               pivot_wider(names_from = cell_name,
@@ -113,7 +112,7 @@ pheatmap::pheatmap(data_hmp)
 
 ## Azimuth
 
-```{r azimuth_heatmap, fig.height=12, fig.width=24}
+```{r heatmap_azimuth_v0.2, fig.height=12, fig.width=24}
 # Create pivot
 data_ha <- data %>% 
               filter(tool == "azimuth") %>%
@@ -139,7 +138,7 @@ pheatmap::pheatmap(data_hap)
 
 ## CellTypist
 
-```{r celltypist_heatmap, fig.height=12, fig.width=36}
+```{r heatmap_celltypist_v0.2, fig.height=12, fig.width=36}
 # Create pivot
 data_hc <- data %>% 
               filter(tool == "celltypist") %>%
@@ -165,7 +164,7 @@ pheatmap::pheatmap(data_hcp)
 
 ## PopV
 
-```{r popV_heatmap, fig.height=12, fig.width=24}
+```{r heatmap_popV_v0.2, fig.height=12, fig.width=24}
 # Create pivot
 data_hp <- data %>% 
               filter(tool == "popv") %>%
