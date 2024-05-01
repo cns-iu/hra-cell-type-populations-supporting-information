@@ -23,9 +23,10 @@ header-includes:
 library(tidyr)
 library(plyr)
 library(dplyr)
+library(stringr)
 library(magrittr)
 library(ggplot2)
-library(stringr)
+library(ggridges)
 
 options(scipen = 999)
 
@@ -80,7 +81,9 @@ df$tool <- df$tool %>%
 df$tool <- factor(df$tool)
 ```
 
-```{r pivots}
+# Rank biomarkers and subsetting data 
+
+```{r ranking}
 # Count the number cells with a biomarker measurements for each organ
 df <- df %>% 
   arrange(organ, gene) %>%
@@ -89,7 +92,7 @@ df <- df %>%
   mutate(ct=row_number())
 
 # Ranks top 20 biomarkers based on the number measurements for each organ
-top_genes <- df %>%
+gene_ranks_o <- df %>%
   ddply(.(organ, gene), summarise,
         max_cells = max(ct)) %>%
   arrange(organ, desc(max_cells)) %>%
@@ -97,14 +100,39 @@ top_genes <- df %>%
   mutate(rank=row_number()) %>%
   filter(rank < 21)
  
-# Subsets original data to select all relevant biomarker measurements
-gene_sets <- right_join(df, top_genes,by=c("organ","gene")) %>%
+# Selects all relevant measurements for top 20 biomarker measurements by organ
+gene_sets <- right_join(df, gene_ranks_o,by=c("organ","gene")) %>%
   arrange(organ, rank)
+
+# Identify top 40 biomarkers across all data 
+gene_ranks_f <- gene_sets %>%
+  arrange(desc(max_cells), gene)
+gene_ranks_f <- unique(gene_ranks_f[,c(1,2,6)])
+gene_ranks_f$rank_o <- as.numeric(rownames(gene_ranks_f))
+gene_ranks_f <- gene_ranks_f[gene_ranks_f$rank_o < 41,]
+
+# Selects all relevant measurements for top 40 biomarkers across all data.
+gene_sets_o <- right_join(gene_sets, gene_ranks_f[,c(1,2,4)],by=c("organ","gene")) %>%
+  arrange(rank_o)
+gene_sets_o$organ <- factor(as.character(gene_sets_o$organ))
+gene_sets_o$gene <- factor(gene_sets_o$gene)
 ```
 
+# Visualization
 
+```{r densityplot_biomarkers_organ, fig.height=10, fig.width=6, message=FALSE}
+theme_set(theme_minimal())
 
+ggplot(gene_sets_o, aes(x=log(mean_gene_expression_value), 
+                        y=gene)) +
+  geom_density_ridges(aes(fill=organ), 
+                      rel_min_height = 0.01, alpha=.5) +
+  #facet_wrap(vars(organ)) +
+  labs(x="Mean Gene Expression Values (log2)", y="Biomarker") +
+  scale_fill_discrete("Organ") +
+  theme(legend.justification = "top")
 
+```
 
 
 
