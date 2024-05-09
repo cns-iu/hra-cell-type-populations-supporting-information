@@ -49,20 +49,23 @@ knitr::opts_chunk$set(
 df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v6.csv", 
                  header=T, fileEncoding = "UTF8")
 
-# Cell Type label crosswalks 
+# Cell Type Crosswalks - Data Cleaning
 # https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
 # New version June 2024
 ## Azimuth
 azi <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/azimuth.csv",
-                header=T, fileEncoding = "UTF8")
+                header=T, fileEncoding = "UTF8", skip=10)
 
 ## Cell Typist
 ctp <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/celltypist.csv",
-                header=T, fileEncoding = "UTF8")
+                header=T, fileEncoding = "UTF8", skip=10)
 
 ## PopV
 pop <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/popv.csv",
-                header=T, fileEncoding = "UTF8")
+                header=T, fileEncoding = "UTF8", skip=10)
 ```
 
 # Prepare data
+
+
+
