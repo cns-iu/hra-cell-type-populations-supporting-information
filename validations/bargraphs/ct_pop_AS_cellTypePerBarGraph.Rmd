@@ -1,0 +1,68 @@
+---
+title: "Anatomical Structures - CT-Pop Cell Types Stacked Bar Graphs - Notebook"
+output:
+  # html_document:
+  # df_print: paged
+  pdf_document: 
+    dev: pdf
+    fig_caption: no
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+documentclass: article
+urlcolor: blue
+classoption: a4paper
+header-includes:
+- \usepackage{graphicx}
+- \usepackage{float}
+---
+
+# Environment 
+
+```{r environment, message=FALSE, warning=FALSE}
+library(tidyr)
+library(plyr)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+library(stringr)
+
+options(scipen = 999)
+
+knitr::opts_chunk$set(
+    echo = FALSE,
+    message = FALSE,
+    warning = FALSE,
+    fig.align='center',
+    fig.pos='H',
+    fig.path = "../output/barplots/",
+    dev = c("pdf"),
+    dpi=500
+)
+```
+
+# Load Data
+
+```{r load}
+# Data - bar graph 
+# Includes organ, anatomical structure, cell types measures by tool and donor gender
+df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v6.csv", 
+                 header=T, fileEncoding = "UTF8")
+
+# Cell Type label crosswalks 
+# https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
+# New version June 2024
+## Azimuth
+azi <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/azimuth.csv",
+                header=T, fileEncoding = "UTF8")
+
+## Cell Typist
+ctp <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/celltypist.csv",
+                header=T, fileEncoding = "UTF8")
+
+## PopV
+pop <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/popv.csv",
+                header=T, fileEncoding = "UTF8")
+```
+
+# Prepare data
