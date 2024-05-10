@@ -142,8 +142,8 @@ kid <- df[df$organ==levels(df$organ)[2],] %>%
   group_by(sex, tool, as) %>%
   mutate(rank = row_number()) %>%
   filter(mean_cell_pt >= .10)
-kid$as <- factor(kid2$as)
-kid$cell_lab <- factor(kid2$cell_lab,
+kid$as <- factor(kid$as)
+kid$cell_lab <- factor(kid$cell_lab,
                         levels=c("CL:1000718: Inner Medullary Collecting Duct",
                         "CL:1001107: Ascending Thin Limb",
                         "CL:1001108: Medullary Thick Ascending Limb",
