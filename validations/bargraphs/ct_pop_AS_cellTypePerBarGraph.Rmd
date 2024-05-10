@@ -280,7 +280,8 @@ kid %>% arrange(sex,tool,as,mean_cell_pt) %>%
         ggplot(aes(x=as,y=mean_cell_pt)) +
           geom_bar(aes(fill=cell_lab), stat="identity") +
           facet_wrap(facets=vars(tool, sex)) +
-          labs(x="Anatomical Structure", y="Percentage (%)") +
+          labs(x="Anatomical Structure", y="Percentage (%)",
+               title="Kidney Anatomical Structures - Top 10 Cell Types, by Donor Sex and Analysis Tool") +
           scale_fill_manual(name="Cell Type",values=color_pal_kid) +
           scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
           theme_light() +
