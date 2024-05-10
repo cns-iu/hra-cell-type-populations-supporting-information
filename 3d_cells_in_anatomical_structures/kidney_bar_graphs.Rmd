@@ -16,6 +16,12 @@ library(tidyverse)
 raw = read_csv("input/hra-pop_per_as.csv")
 ```
 
+# Identify shared cell types
+```{r}
+
+raw
+```
+
 # Filter for kidney and cell types
 ```{r filter message=FALSE, warning=FALSE}
 

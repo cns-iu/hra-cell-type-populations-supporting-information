@@ -1,0 +1,53 @@
+---
+title: "Cell Cover"
+output: html_notebook
+---
+
+# import libraries
+```{r }
+
+library(tidyverse)
+```
+
+# Load data
+```{r read_data message=FALSE, warning=FALSE}
+raw = read_csv("hra-pop_per_as.csv")
+```
+# Get frequencies
+
+```{r}
+
+freq_table = table(raw$cell_id, raw$as_label ) %>% distinct() %>%   view()
+
+# Summarize frequencies for each unique value in column1
+sum_freq <- rowSums(freq_table) %>% view()
+
+# Identify the value with the highest sum of frequencies
+most_associated_value <- names(sum_freq)[which.max(sum_freq)]
+
+# Print the result
+print(most_associated_value)
+
+
+unique_combinations <- raw %>%
+  filter(cell_id == "http://purl.obolibrary.org/obo/CL_0000814") %>%
+  distinct(organ, cell_id)
+
+unique_combinations
+```
+
+```{r}
+
+# Group by column2, count the number of distinct values in column1 within each group, and arrange in descending order
+top_values <- raw %>%
+  group_by(cell_id) %>%
+  summarize(distinct_values_count = n_distinct(organ)) %>%
+  arrange(desc(distinct_values_count))
+
+# Optionally, select the top 3 values from column2
+top_values <- top_values %>%
+  top_n(3)
+
+# Print the top values
+print(top_values)
+```
