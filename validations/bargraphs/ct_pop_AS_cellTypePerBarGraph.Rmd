@@ -389,13 +389,16 @@ bld$cell_lab <- factor(bld$cell_lab)
 
 Base design for 100% stacked bar graphs representing the cell types commonly identified in anatomical structures within donated organs.
 
-For each set of records associated with organs: 
-Bars represent an anatomical structure, 
-Bar segments are associated with Cell Type percentage measures
-   values segments should total to at most 1 or 100%.
-   mean cell type percentage calculation - organ, sex, tool, as
-Bar color represents cell types
-Facets represent combination of analytic tool and gender OR analytic method.
+Bar graph definition:
+
+Stacked bar represent top cell types associated with an organ anatomical structure
+* Data threshold: 8% minimum cell percentage values (or mean cell percentage values PER AS)
+* Bars - anatomical structure categories.
+  * Bar segment-area-Cell Type percentage measures
+    * Bar/Bar segments should total to at most 1 or 100%.
+    * Mean cell type percentage calculation-tool, sex organ, as
+  * Bar segment-color-cell types categories.
+* Facets represent combination of analytic tool and gender.
 
 ## Heart - Anatomical Structure - Cell Types
 
