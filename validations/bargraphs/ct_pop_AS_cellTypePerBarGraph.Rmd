@@ -187,14 +187,48 @@ kid$cell_lab <- factor(kid$cell_lab,
 # Large Intestine - 1714 records
 lrg <- df[df$organ==levels(df$organ)[4],] %>%
   mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
-  select(organ,as,cell_lab,cell_count,percentage,tool,sex) # %>%
-  # ddply(.(sex,tool,as,cell_lab), summarise,
-  #       ct = length(cell_count),
-  #       mean_cell_ct = mean(cell_count),
-  #       mean_cell_pt = mean(percentage)) %>%
-  # arrange(sex, tool, as, desc(mean_cell_pt))
-lrg$as <- factor(lrg$as)
-lrg$cell_lab <- factor(lrg$cell_lab)
+  select(organ,as,cell_lab,cell_count,percentage,tool,sex) %>%
+  arrange(sex, tool, as, desc(percentage)) %>%
+  group_by(sex, tool, as) %>%
+  mutate(rank = row_number()) %>%
+  filter(percentage >= .08)
+lrg$as <- factor(lrg$as, levels=c("Caecum","Ascending Colon","Transverse Colon",
+                                  "Descending Colon","Sigmoid Colon","Rectum"))
+lrg$cell_lab <- factor(lrg$cell_lab, 
+                       levels=c("ASCTB-TEMP:colonocyte: Colonocyte",
+                                "ASCTB-TEMP:cycling-plasma-cell: Cycling plasma cell",
+                                "ASCTB-TEMP:cycling-ta: Cycling TA",
+                                "ASCTB-TEMP:endothelial: Endothelial",
+                                "CL:0000131: gut endothelial cell",
+                                "ASCTB-TEMP:enterocyte: Enterocyte",
+                                "CL:0002071: enterocyte of epithelium of large intestine",
+                                "ASCTB-TEMP:goblet-cell: Goblet cell",
+                                "ASCTB-TEMP:goblet: Goblet",
+                                "CL:1000320: large intestine goblet cell",
+                                "ASCTB-TEMP:m2-macrophage: M2 Macrophage",
+                                "ASCTB-TEMP:mesoderm-1-hand1-: Mesoderm 1 (HAND1+)",
+                                "ASCTB-TEMP:smooth-muscle: Smooth muscle",
+                                "ASCTB-TEMP:smc-plpp2-: SMC (PLPP2+)",
+                                "ASCTB-TEMP:stroma: Stroma",
+                                "CL:0000057: fibroblast",
+                                "CL:0019032: intestinal tuft cell"),
+                        labels=c("ASCTB-TEMP:colonocyte: Colonocyte",
+                                "ASCTB-TEMP:cycling-plasma-cell: Cycling plasma cell",
+                                "ASCTB-TEMP:cycling-ta: Cycling TA",
+                                "ASCTB-TEMP:endothelial: Endothelial",
+                                "CL:0000131: Gut Endothelial Cell",
+                                "ASCTB-TEMP:enterocyte: Enterocyte",
+                                "CL:0002071: Enterocyte of Epithelium of Large Intestine",
+                                "ASCTB-TEMP:goblet-cell: Goblet cell",
+                                "ASCTB-TEMP:goblet: Goblet",
+                                "CL:1000320: Large Intestine Goblet Cell",
+                                "ASCTB-TEMP:m2-macrophage: M2 Macrophage",
+                                "ASCTB-TEMP:mesoderm-1-hand1-: Mesoderm 1 (HAND1+)",
+                                "ASCTB-TEMP:smooth-muscle: Smooth muscle",
+                                "ASCTB-TEMP:smc-plpp2-: SMC (PLPP2+)",
+                                "ASCTB-TEMP:stroma: Stroma",
+                                "CL:0000057: Fibroblast",
+                                "CL:0019032: Intestinal Tuft Cell"))
 
 # Small Intestine - 2012 records
 sml <- df[df$organ==levels(df$organ)[9],] %>%
@@ -344,5 +378,31 @@ kid %>% arrange(sex,tool,as,mean_cell_pt) %>%
                 strip.text = element_text(color="black", size=10, hjust=0))
 ```
 
+## Large Intestine
 
+```{r bar_largeIntestine_as_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
+color_pal_kid <- c("#CD8490","#AADCDF","#88B1B3",
+                   "#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
+                   "#D6B6D7","#AB92AC",
+                   "#9C534E","#582FC5","#A1ACD2")
+
+color_pal_kid2 <- c("#F9CE8D","#556E6F","#70A5A8","#E9E4F3","#D6B6D7","#EDB8AC","#CD8490",
+                    "#AADCDF","#BAD2E7","#7495AF","#A295C9","#E97B74","#8DC599","#6F9A78",
+                    "#9C534E","#C39A5D","#A17F4D","#675868")
+
+lrg %>% arrange(sex,tool,as,percentage) %>%
+        ggplot(aes(x=as,y=percentage)) +
+          geom_bar(aes(fill=cell_lab), stat="identity") +
+          facet_wrap(facets=vars(tool, sex), ncol=2) +
+          labs(x="Anatomical Structure", y="Percentage (%)",
+               title="Large Intestine Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
+          scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
+          scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+          theme_light() +
+          theme(legend.position = "bottom",
+                legend.title = element_text(face="bold", size=10),
+                legend.key.spacing.y = unit(.3,"pt"),
+                strip.background = element_rect(fill = "#cdcecf"),
+                strip.text = element_text(color="black", size=10, hjust=0))
+```
 
