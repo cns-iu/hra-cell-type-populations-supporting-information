@@ -116,19 +116,46 @@ df$cell_label <- df$cell_label %>%
 # Heart - 730 records
 hrt <- df[df$organ==levels(df$organ)[1],] %>%
   mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
-  select(organ,as,cell_lab,cell_count,percentage,tool,sex)# %>%
-  # ddply(.(sex,tool,as,cell_lab), summarise,
-  #       ct = length(cell_count),
-  #       mean_cell_ct = mean(cell_count),
-  #       mean_cell_pt = mean(percentage)) %>%
-  # arrange(sex, tool, as, desc(mean_cell_pt))
+  select(organ,as,cell_lab,cell_count,percentage,tool,sex) %>%
+  arrange(sex, tool, as, desc(percentage)) %>%
+  group_by(sex, tool, as) %>%
+  mutate(rank = row_number()) %>%
+  filter(percentage >= .08)
 hrt$as <- factor(hrt$as, 
-                 levels=c("Right Ventricle","Left Ventricle",
+                 levels=c("Left Ventricle","Right Ventricle",
                           "Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle",
-                          "Interventricular Septum","Right Cardiac Atrium","Left Cardiac Atrium"),
-                 labels=c("Right Ventricle","Left Ventricle","Left Ventricle",
-                          "Interventricular Septum","Right Cardiac Atrium","Left Cardiac Atrium"))
-hrt$cell_lab <- factor(hrt$cell_lab)
+                          "Interventricular Septum","Left Cardiac Atrium","Right Cardiac Atrium"),
+                 labels=c("Left Ventricle","Right Ventricle","Left Ventricle",
+                          "Interventricular Septum","Left Cardiac Atrium","Right Cardiac Atrium"))
+hrt$cell_lab <- factor(hrt$cell_lab,
+                       levels=c("CL:0000057: Fibroblast","CL:0000057: FB1","CL:0000057: FB2",
+                                "CL:0000057: FB4 activated","CL:0002548: fibroblast of cardiac tissue",
+                                "CL:0000192: smooth muscle cell","CL:0000746: cardiac muscle cell",
+                                "CL:0000235: macrophage","CL:0000235: MoMP","CL:0000236: B",
+                                "CL:0000669: Pericyte","CL:0000669: PC1 vent","CL:0000669: PC3 str",
+                                "CL:0002129: Atrial Cardiomyocyte","CL:0002129: aCM1","CL:0002129: aCM3",
+                                "CL:0002129: aCM4","CL:0002131: Ventricular Cardiomycoyte",
+                                "CL:0002131: vCM1","CL:0002131: vCM3 stressed",
+                                "CL:0002144: Capillary Endothelial","CL:0002144: EC1 cap",
+                                "CL:0002144: EC2 cap","CL:0010008: cardiac endothelial cell",
+                                "CL:1000413: Arterial Endothelial"),
+                       labels=c("CL:0000057: Fibroblast","CL:0000057: FB1","CL:0000057: FB2",
+                                "CL:0000057: FB4 activated","CL:0002548: Fibroblast of Cardiac Tissue",
+                                "CL:0000192: Smooth Muscle Cell","CL:0000746: Cardiac Muscle Cell",
+                                "CL:0000235: Macrophage","CL:0000235: MoMP","CL:0000236: B",
+                                "CL:0000669: Pericyte","CL:0000669: PC1 vent","CL:0000669: PC3 str",
+                                "CL:0002129: Atrial Cardiomyocyte","CL:0002129: aCM1","CL:0002129: aCM3",
+                                "CL:0002129: aCM4","CL:0002131: Ventricular Cardiomycoyte","CL:0002131: vCM1",
+                                "CL:0002131: vCM3 stressed","CL:0002144: Capillary Endothelial",
+                                "CL:0002144: EC1 cap","CL:0002144: EC2 cap",
+                                "CL:0010008: Cardiac Endothelial Cell","CL:1000413: Arterial Endothelial"))
+hrt <- hrt %>% ddply(.(sex,tool,as,cell_lab), summarise,
+                      rec = length(cell_count),
+                      mean_cell_ct = mean(cell_count),
+                      mean_cell_pt = mean(percentage)) %>%
+              arrange(sex, tool, as, desc(mean_cell_pt)) %>%
+              group_by(sex, tool, as) %>%
+              mutate(rank = row_number()) 
 
 # Kidney - 898 records - 449 row agg.
 kid <- df[df$organ==levels(df$organ)[2],] %>%
@@ -141,17 +168,21 @@ kid <- df[df$organ==levels(df$organ)[2],] %>%
   arrange(sex, tool, as, desc(mean_cell_pt)) %>%
   group_by(sex, tool, as) %>%
   mutate(rank = row_number()) %>%
-  filter(mean_cell_pt >= .10)
+  filter(mean_cell_pt >= .08)
 kid$as <- factor(kid$as)
-kid$cell_lab <- factor(kid$cell_lab,
-                        levels=c("CL:1000718: Inner Medullary Collecting Duct",
-                        "CL:1001107: Ascending Thin Limb",
-                        "CL:1001108: Medullary Thick Ascending Limb",
-                        "CL:1001109: Cortical Thick Ascending Limb",
-                        "CL:4030009: Proximal Tubule Epithelial Segment 1",
-                        "CL:4030012: Descending Thin Limb Type 1",
-                        "CL:4030016: Distal Convoluted Tubule Type 1",
-                        "CL:4030022: Medullary Fibroblast"))
+kid$cell_lab <- factor(kid$cell_lab, 
+                       levels=c("CL:1000714: Cortical Collecting Duct Principal",
+                                "CL:1000716: Outer Medullary Collecting Duct Principal",
+                                "CL:1000718: Inner Medullary Collecting Duct",
+                                "CL:1001107: Ascending Thin Limb",
+                                "CL:1001108: Medullary Thick Ascending Limb",
+                                "CL:1001109: Cortical Thick Ascending Limb",
+                                "CL:4030012: Descending Thin Limb Type 1",
+                                "CL:4030014: Descending Thin Limb Type 3",
+                                "CL:1000768: Connecting Tubule",
+                                "CL:4030016: Distal Convoluted Tubule Type 1",
+                                "CL:4030009: Proximal Tubule Epithelial Segment 1",
+                                "CL:4030022: Medullary Fibroblast"))
 
 # Breast - 14 records
 brt <- df[df$organ==levels(df$organ)[3],] %>%
@@ -252,15 +283,47 @@ Bar segments are associated with Cell Type percentage measures
 Bar color represents cell types
 Facets represent combination of analytic tool and gender OR analytic method.
 
+## Heart - Anatomical Structure - Cell Types
+
+```{r bar_heart_as_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
+color_pal_kid <- c("#CD8490","#AADCDF","#88B1B3",
+                   "#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
+                   "#D6B6D7","#AB92AC",
+                   "#9C534E","#582FC5","#A1ACD2")
+
+color_pal_kid2 <- c("#556E6F","#70A5A8","#AADCDF","#7495AF","#BAD2E7",
+                    "#8DC599","#6F9A78","#E97B74","#EDB8AC","#BE655F",
+                    "#CD8490","#A26771","#9C534E","#E9E4F3","#D6B6D7","#A295C9",
+                    "#675868","#F9CE8D","#C39A5D","#A17F4D",
+                    "#C4C5C6","#A2A3A4","#818182","#5F6060","#3D3E3E","#cdcecf")
+
+
+hrt %>% arrange(sex,tool,as,mean_cell_pt) %>%
+        ggplot(aes(x=as,y=mean_cell_pt)) +
+          geom_bar(aes(fill=cell_lab), stat="identity") +
+          facet_wrap(facets=vars(tool, sex), ncol=2) +
+          labs(x="Anatomical Structure", y="Percentage (%)",
+               title="Heart Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
+          scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
+          scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+          theme_light() +
+          theme(legend.position = "bottom",
+                legend.title = element_text(face="bold", size=10),
+                legend.key.spacing.y = unit(.3,"pt"),
+                strip.background = element_rect(fill = "#cdcecf"),
+                strip.text = element_text(color="black", size=10, hjust=0))
+```
+## Kidney - Anatomical Structure - Cell Types
+
 ```{r bar_kidney_as_1, fig.height=6, fig.width=14}
 color_pal_kid <- c("#CD8490","#A26771","#C0BCC8","#AADCDF","#88B1B3","#556E6F",
                    "#8DC599","#6F9A78","#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
                    "#D6B6D7","#AB92AC","#675868","#E97B74","#E07770","#BE655F",
                    "#9C534E","#7A413D","#582F2C","#A1ACD2")
 
-color_pal_kid2 <- c("#FF0043","#D8D7DB","#70A5A8","#CD8490","#7495AE","#AADCDF",
-"#E9E4F3","#D6B6D7","#BAD2E7","#8DC599","#F9CE8D","#EDB8AC","#A295C9","#A1ACD2",
-"#4B4B5E","#E97B74","#C4C5C6","#A2A3A4","#818182","#5F6060","#3D3E3E","#cdcecf")
+color_pal_kid2 <- c("#7495AF","#70A5A8","#AADCDF",
+"#E9E4F3","#D6B6D7","#A295C9","#CD8490","#E97B74","#F9CE8D","#EDB8AC","#8DC599","#A1ACD2",
+"#FF0043","#BAD2E7","#D8D7DB","#4B4B5E","#C4C5C6","#A2A3A4","#818182","#5F6060","#3D3E3E","#cdcecf")
 
 
 kid %>% arrange(sex,tool,as,mean_cell_pt) %>%
@@ -268,7 +331,7 @@ kid %>% arrange(sex,tool,as,mean_cell_pt) %>%
           geom_bar(aes(fill=cell_lab), stat="identity") +
           facet_wrap(facets=vars(tool, sex)) +
           labs(x="Anatomical Structure", y="Percentage (%)",
-               title="Kidney Anatomical Structures - Cell Types greater than 10% share, by Donor Sex and Analysis Tool") +
+               title="Kidney Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
           scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
           scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
           theme_light() +
