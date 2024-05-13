@@ -544,3 +544,8 @@ lng %>% arrange(sex,tool,as,percentage) %>%
                 strip.text = element_text(color="black", size=10, hjust=0)) +
           guides(fill=guide_legend(ncol=4))
 ```
+
+
+
+
+
