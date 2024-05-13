@@ -212,21 +212,21 @@ lrg$cell_lab <- factor(lrg$cell_lab,
                                 "ASCTB-TEMP:stroma: Stroma",
                                 "CL:0000057: fibroblast",
                                 "CL:0019032: intestinal tuft cell"),
-                        labels=c("ASCTB-TEMP:colonocyte: Colonocyte",
-                                "ASCTB-TEMP:cycling-plasma-cell: Cycling plasma cell",
-                                "ASCTB-TEMP:cycling-ta: Cycling TA",
-                                "ASCTB-TEMP:endothelial: Endothelial",
+                        labels=c("ASCTB-TEMP: Colonocyte",
+                                "ASCTB-TEMP: Cycling plasma cell",
+                                "ASCTB-TEMP: Cycling TA",
+                                "ASCTB-TEMP: Endothelial",
                                 "CL:0000131: Gut Endothelial Cell",
-                                "ASCTB-TEMP:enterocyte: Enterocyte",
+                                "ASCTB-TEMP: Enterocyte",
                                 "CL:0002071: Enterocyte of Epithelium of Large Intestine",
-                                "ASCTB-TEMP:goblet-cell: Goblet cell",
-                                "ASCTB-TEMP:goblet: Goblet",
+                                "ASCTB-TEMP: Goblet cell",
+                                "ASCTB-TEMP: Goblet",
                                 "CL:1000320: Large Intestine Goblet Cell",
-                                "ASCTB-TEMP:m2-macrophage: M2 Macrophage",
-                                "ASCTB-TEMP:mesoderm-1-hand1-: Mesoderm 1 (HAND1+)",
-                                "ASCTB-TEMP:smooth-muscle: Smooth muscle",
-                                "ASCTB-TEMP:smc-plpp2-: SMC (PLPP2+)",
-                                "ASCTB-TEMP:stroma: Stroma",
+                                "ASCTB-TEMP: M2 Macrophage",
+                                "ASCTB-TEMP: Mesoderm 1 (HAND1+)",
+                                "ASCTB-TEMP: Smooth muscle",
+                                "ASCTB-TEMP: SMC (PLPP2+)",
+                                "ASCTB-TEMP: Stroma",
                                 "CL:0000057: Fibroblast",
                                 "CL:0019032: Intestinal Tuft Cell"))
 
@@ -403,6 +403,7 @@ lrg %>% arrange(sex,tool,as,percentage) %>%
                 legend.title = element_text(face="bold", size=10),
                 legend.key.spacing.y = unit(.3,"pt"),
                 strip.background = element_rect(fill = "#cdcecf"),
-                strip.text = element_text(color="black", size=10, hjust=0))
+                strip.text = element_text(color="black", size=10, hjust=0)) +
+          guides(fill=guide_legend(ncol=4, byrow=TRUE))
 ```
 
