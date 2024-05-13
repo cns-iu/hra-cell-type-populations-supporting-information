@@ -184,13 +184,6 @@ kid$cell_lab <- factor(kid$cell_lab,
                                 "CL:4030009: Proximal Tubule Epithelial Segment 1",
                                 "CL:4030022: Medullary Fibroblast"))
 
-# Breast - 14 records
-brt <- df[df$organ==levels(df$organ)[3],] %>%
-  mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
-  select(organ,as,cell_lab,cell_count,percentage,tool,sex)
-brt$as <- factor(brt$as)
-brt$cell_lab <- factor(brt$cell_lab)
-
 # Large Intestine - 1714 records
 lrg <- df[df$organ==levels(df$organ)[4],] %>%
   mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
@@ -203,12 +196,17 @@ lrg <- df[df$organ==levels(df$organ)[4],] %>%
 lrg$as <- factor(lrg$as)
 lrg$cell_lab <- factor(lrg$cell_lab)
 
-# Liver - 81 records
-lvr <- df[df$organ==levels(df$organ)[5],] %>%
+# Small Intestine - 2012 records
+sml <- df[df$organ==levels(df$organ)[9],] %>%
   mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
-  select(organ,as,cell_lab,cell_count,percentage,tool,sex) 
-lvr$as <- factor(lvr$as)
-lvr$cell_lab <- factor(lvr$cell_lab)
+  select(organ,as,cell_lab,cell_count,percentage,tool,sex) #%>%
+  # ddply(.(sex,tool,as,cell_lab), summarise,
+  #       ct = length(cell_count),
+  #       mean_cell_ct = mean(cell_count),
+  #       mean_cell_pt = mean(percentage)) %>%
+  # arrange(sex, tool, as, desc(mean_cell_pt))
+sml$as <- factor(sml$as)
+sml$cell_lab <- factor(sml$cell_lab)
 
 # Lung - 826 records
 lng <- df[df$organ==levels(df$organ)[6],] %>%
@@ -221,6 +219,21 @@ lng <- df[df$organ==levels(df$organ)[6],] %>%
   # arrange(sex, tool, as, desc(mean_cell_pt))
 lng$as <- factor(lng$as)
 lng$cell_lab <- factor(lng$cell_lab)
+
+
+# Liver - 81 records
+lvr <- df[df$organ==levels(df$organ)[5],] %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
+  select(organ,as,cell_lab,cell_count,percentage,tool,sex) 
+lvr$as <- factor(lvr$as)
+lvr$cell_lab <- factor(lvr$cell_lab)
+
+# Breast - 14 records
+brt <- df[df$organ==levels(df$organ)[3],] %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
+  select(organ,as,cell_lab,cell_count,percentage,tool,sex)
+brt$as <- factor(brt$as)
+brt$cell_lab <- factor(brt$cell_lab)
 
 # Prostate - 24 records
 pro <- df[df$organ==levels(df$organ)[7],] %>%
@@ -235,18 +248,6 @@ skn <- df[df$organ==levels(df$organ)[8],] %>%
   select(organ,as,cell_lab,cell_count,percentage,tool,sex)
 skn$as <- factor(skn$as)
 skn$cell_lab <- factor(skn$cell_lab)
-
-# Small Intestine - 2012 records
-sml <- df[df$organ==levels(df$organ)[9],] %>%
-  mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
-  select(organ,as,cell_lab,cell_count,percentage,tool,sex) #%>%
-  # ddply(.(sex,tool,as,cell_lab), summarise,
-  #       ct = length(cell_count),
-  #       mean_cell_ct = mean(cell_count),
-  #       mean_cell_pt = mean(percentage)) %>%
-  # arrange(sex, tool, as, desc(mean_cell_pt))
-sml$as <- factor(sml$as)
-sml$cell_lab <- factor(sml$cell_lab)
 
 # Spleen - 75 records
 spl <- df[df$organ==levels(df$organ)[10],] %>%
@@ -313,6 +314,7 @@ hrt %>% arrange(sex,tool,as,mean_cell_pt) %>%
                 strip.background = element_rect(fill = "#cdcecf"),
                 strip.text = element_text(color="black", size=10, hjust=0))
 ```
+
 ## Kidney - Anatomical Structure - Cell Types
 
 ```{r bar_kidney_as_1, fig.height=6, fig.width=14}
