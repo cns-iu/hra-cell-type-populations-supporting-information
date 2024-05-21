@@ -3,6 +3,7 @@ title: "HRApop Sankey Universe"
 output:
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 # Environment
