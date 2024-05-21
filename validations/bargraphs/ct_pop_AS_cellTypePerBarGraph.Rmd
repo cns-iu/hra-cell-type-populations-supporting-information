@@ -1,25 +1,11 @@
 ---
 title: "Anatomical Structures - CT-Pop Cell Types Stacked Bar Graphs - Notebook"
-output:
-  # html_document:
-  # df_print: paged
-  pdf_document: 
-    dev: pdf
-    fig_caption: no
-    number_sections: yes
-    toc: yes
-    toc_depth: 3
-documentclass: article
-urlcolor: blue
-classoption: a4paper
-header-includes:
-- \usepackage{graphicx}
-- \usepackage{float}
+output: html_notebook
 ---
 
-# Environment 
+### Environment 
 
-```{r environment, message=FALSE, warning=FALSE}
+```{r environment, echo=TRUE, message=FALSE, warning=FALSE}
 library(tidyr)
 library(plyr)
 library(dplyr)
@@ -41,38 +27,42 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Load Data
+### Load Data
 
-```{r load}
+```{r load, echo=TRUE}
 # Data - bar graph 
 # Includes organ, anatomical structure, cell types measures by tool and donor gender
 df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v6.csv", 
                  header=T, fileEncoding = "UTF8")
 
-# # Cell Type Crosswalks - Data Cleaning
-# # https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
-# # New version June 2024
-# ## Azimuth
-# azi <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/azimuth.csv",
-#                 header=T, fileEncoding = "UTF8", skip=10)
-# 
-# ## Cell Typist
-# ctp <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/celltypist.csv",
-#                 header=T, fileEncoding = "UTF8", skip=10)
-# 
-# ## PopV
-# pop <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/popv.csv",
-#                 header=T, fileEncoding = "UTF8", skip=10)
+# Cell Type Crosswalks - Data Cleaning
+# https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
+# New version June 2024
+## Azimuth
+azi <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/azimuth.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+
+## Cell Typist
+ctp <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/celltypist.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+
+## PopV
+pop <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/popv.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
 ```
 
-# Preparing Data
+### Preparing Data
 
-```{r prep}
+```{r prep, echo=TRUE}
 # Prepare crosswalk field names
-# names(ctp) <- names(pop) <- names(azi) <- c("organ_level","organ_id",
-#                                             "annotation_label","annotation_label_id",
-#                                             "cell_label","cell_id","cell_match")
-names(df)[5] <- "organ_id"
+names(ctp) <- names(pop) <- names(azi) <- c("organ_level","organ_id",
+                                            "annotation_label","annotation_label_id",
+                                            "cell_label","cell_id","cell_match")
+
+# Title Case for Annotation Labels
+pop$annotation_label <- str_to_title(pop$annotation_label)
+azi$annotation_label <- str_to_title(azi$annotation_label)
+ctp$annotation_label <- str_to_title(ctp$annotation_label)
 
 # Add record number to data 
 df$rec <- as.numeric(row.names(df))
@@ -109,18 +99,63 @@ df$cell_label <- df$cell_label %>%
   str_replace("_"," ")
 ```
 
+### Visualization
 
-# Subsetting data by Organ
+Base design for 100% stacked bar graphs representing the cell types commonly identified in anatomical structures within donated organs.
 
-```{r subs}
+Bar graph definition:
+
+Stacked bar represent top cell types associated with an organ anatomical structure
+* Data threshold: 8% minimum cell percentage values (or mean cell percentage values PER AS)
+* Bars - anatomical structure categories.
+  * Bar segment-area-Cell Type percentage measures
+    * Bar/Bar segments should total to at most 1 or 100%.
+    * Mean cell type percentage calculation-tool, sex organ, as
+  * Bar segment-color-cell types categories.
+* Facets represent combination of analytic tool and gender.
+
+#### Heart - Anatomical Structure - Cell Types
+
+The code chunk documents the general process used to prepare data for visualizations. In the first step, we subset data related to an single organ. Next, assign the best cell type name associated with an organ, based on the cell type annotation tool used. These tool subsets are re-combined and clean cell label is created. After cleaning the cell identifiers, the data is aggregated to determine the mean count and percentage of a cell types associated with tissue registration data, based on donor sex, analysis tools, and anatomical structure of an organ. After aggregation, cell types that make up at least 8% of cell type populations are selected for visualization. 
+
+```{r bar_heart_as_1, echo=TRUE, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
 # Heart - 730 records
-hrt <- df[df$organ==levels(df$organ)[1],] %>%
-  mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
-  select(organ,as,cell_lab,cell_count,percentage,tool,sex) %>%
-  arrange(sex, tool, as, desc(percentage)) %>%
+hrt <- df[df$organ==levels(df$organ)[1],]
+
+#Updating cell labels for heart
+tmp1 <- join(hrt[hrt$tool=="Azimuth",c(1:11)],
+             azi[azi$organ_level=="Heart_L2" &
+                 azi$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp2 <- join(hrt[hrt$tool=="popV",c(1:11)],
+             pop[pop$organ_level=="heart" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left") 
+tmp3 <- join(hrt[hrt$tool=="CellTypist",c(1:11)],
+             ctp[ctp$organ_level=="heart_L1" &
+                 ctp$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp3[is.na(tmp3$annotation_label),]$annotation_label <- 
+  tmp3[is.na(tmp3$annotation_label),]$cell_label
+
+# Combine temp files
+hrt <- rbind(tmp1,tmp2,tmp3) 
+names(hrt)[14] <- "cell_label2"
+
+hrt <- hrt %>% 
+  select(organ,as,cell_id,cell_label,annotation_label,
+         cell_count,percentage,tool,sex) %>%
+  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  ddply(.(sex,tool,as,cell_lab), summarise,
+        obvs = length(cell_lab),
+        cell_count = sum(cell_count),
+        mn_pct = mean(percentage)) %>%
+  arrange(sex, tool, as, desc(mn_pct)) %>%
   group_by(sex, tool, as) %>%
   mutate(rank = row_number()) %>%
-  filter(percentage >= .08)
+  filter(mn_pct >= .08)
+
+# Factoring AS and Cell Types for heart
 hrt$as <- factor(hrt$as, 
                  levels=c("Left Ventricle","Right Ventricle",
                           "Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle",
@@ -128,169 +163,102 @@ hrt$as <- factor(hrt$as,
                  labels=c("Left Ventricle","Right Ventricle","Left Ventricle",
                           "Interventricular Septum","Left Cardiac Atrium","Right Cardiac Atrium"))
 hrt$cell_lab <- factor(hrt$cell_lab,
-                       levels=c("CL:0000057: Fibroblast","CL:0000057: FB1","CL:0000057: FB2",
-                                "CL:0000057: FB4 activated","CL:0002548: fibroblast of cardiac tissue",
-                                "CL:0000192: smooth muscle cell","CL:0000746: cardiac muscle cell",
-                                "CL:0000235: macrophage","CL:0000235: MoMP","CL:0000236: B",
-                                "CL:0000669: Pericyte","CL:0000669: PC1 vent","CL:0000669: PC3 str",
-                                "CL:0002129: Atrial Cardiomyocyte","CL:0002129: aCM1","CL:0002129: aCM3",
-                                "CL:0002129: aCM4","CL:0002131: Ventricular Cardiomycoyte",
-                                "CL:0002131: vCM1","CL:0002131: vCM3 stressed",
-                                "CL:0002144: Capillary Endothelial","CL:0002144: EC1 cap",
-                                "CL:0002144: EC2 cap","CL:0010008: cardiac endothelial cell",
+                       levels=c("CL:0000057: Fibroblast","CL:0000057: Fibroblasts",
+                                "CL:0002548: Fibroblast Of Cardiac Tissue","CL:0000746: Cardiac Muscle Cell",
+                                "CL:0000192: Smooth Muscle Cell","CL:0000235: Macrophage",
+                                "CL:0000235: MoMP","CL:0000236: B","CL:0000669: PC1 vent",
+                                "CL:0000669: PC3 str","CL:0000669: Pericyte","CL:0002129: Atrial Cardiomyocyte",
+                                "CL:0002129: Atrial Cardiomyocytes","CL:0002131: Ventricular Cardiomycoyte",
+                                "CL:0002131: Ventricular Cardiomyocytes","CL:0002144: Capillary Endothelial",
+                                "CL:0002144: Capillary Endothelial Cells","CL:0010008: Cardiac Endothelial Cell",
                                 "CL:1000413: Arterial Endothelial"),
-                       labels=c("CL:0000057: Fibroblast","CL:0000057: FB1","CL:0000057: FB2",
-                                "CL:0000057: FB4 activated","CL:0002548: Fibroblast of Cardiac Tissue",
-                                "CL:0000192: Smooth Muscle Cell","CL:0000746: Cardiac Muscle Cell",
-                                "CL:0000235: Macrophage","CL:0000235: MoMP","CL:0000236: B",
-                                "CL:0000669: Pericyte","CL:0000669: PC1 vent","CL:0000669: PC3 str",
-                                "CL:0002129: Atrial Cardiomyocyte","CL:0002129: aCM1","CL:0002129: aCM3",
-                                "CL:0002129: aCM4","CL:0002131: Ventricular Cardiomycoyte","CL:0002131: vCM1",
-                                "CL:0002131: vCM3 stressed","CL:0002144: Capillary Endothelial",
-                                "CL:0002144: EC1 cap","CL:0002144: EC2 cap",
-                                "CL:0010008: Cardiac Endothelial Cell","CL:1000413: Arterial Endothelial"))
-hrt <- hrt %>% ddply(.(sex,tool,as,cell_lab), summarise,
-                      rec = length(cell_count),
-                      mean_cell_ct = mean(cell_count),
-                      mean_cell_pt = mean(percentage)) %>%
-              arrange(sex, tool, as, desc(mean_cell_pt)) %>%
-              group_by(sex, tool, as) %>%
-              mutate(rank = row_number()) 
+                        labels=c("CL:0000057: Fibroblast","CL:0000057: Fibroblast",
+                                 "CL:0002548: Fibroblast","CL:0000746: Cardiac Muscle Cell",
+                                 "CL:0000192: Smooth Muscle Cell","CL:0000235: Macrophage",
+                                 "CL:0000235: Macrophage","CL:0000236: B","CL:0000669: Pericyte",
+                                 "CL:0000669: Pericyte","CL:0000669: Pericyte","CL:0002129: Atrial Cardiomyocyte",
+                                 "CL:0002129: Atrial Cardiomyocyte","CL:0002131: Ventricular Cardiomycoyte",
+                                 "CL:0002131: Ventricular Cardiomyocyte","CL:0002144: Capillary Endothelial",
+                                 "CL:0002144: Capillary Endothelial","CL:0010008: Cardiac Endothelial",
+                                 "CL:1000413: Arterial Endothelial"))
 
-# Kidney - 898 records - 449 row agg.
-kid <- df[df$organ==levels(df$organ)[2],] %>%
-  mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
-  select(organ,as,cell_lab,cell_count,percentage,tool,sex) %>%
-  ddply(.(sex,tool,as,cell_lab), summarise,
-        ct = length(cell_count),
-        mean_cell_ct = mean(cell_count),
-        mean_cell_pt = mean(percentage)) %>%
-  arrange(sex, tool, as, desc(mean_cell_pt)) %>%
-  group_by(sex, tool, as) %>%
-  mutate(rank = row_number()) %>%
-  filter(mean_cell_pt >= .08)
-kid$as <- factor(kid$as)
-kid$cell_lab <- factor(kid$cell_lab, 
-                       levels=c("CL:1000714: Cortical Collecting Duct Principal",
-                                "CL:1000716: Outer Medullary Collecting Duct Principal",
-                                "CL:1000718: Inner Medullary Collecting Duct",
-                                "CL:1001107: Ascending Thin Limb",
-                                "CL:1001108: Medullary Thick Ascending Limb",
-                                "CL:1001109: Cortical Thick Ascending Limb",
-                                "CL:4030012: Descending Thin Limb Type 1",
-                                "CL:4030014: Descending Thin Limb Type 3",
-                                "CL:1000768: Connecting Tubule",
-                                "CL:4030016: Distal Convoluted Tubule Type 1",
-                                "CL:4030009: Proximal Tubule Epithelial Segment 1",
-                                "CL:4030022: Medullary Fibroblast"))
+# Visualization
+color_pal_kid2 <- c("#556E6F","#70A5A8","#8DC599","#6F9A78",
+                    "#E97B74","#EDB8AC","#F9CE8D","#7495AF","#A1ACD2","#BAD2E7",
+                    "#E9E4F3","#D6B6D7","#A295C9","#CD8490","#A26771","#9C534E",
+                    "#675868","#C39A5D","#A17F4D",
+                    "#C4C5C6","#A2A3A4","#818182","#5F6060","#3D3E3E","#cdcecf")
 
-# Large Intestine - 1714 records
-lrg <- df[df$organ==levels(df$organ)[4],] %>%
-  mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
-  select(organ,as,cell_lab,cell_count,percentage,tool,sex) %>%
-  arrange(sex, tool, as, desc(percentage)) %>%
-  group_by(sex, tool, as) %>%
-  mutate(rank = row_number()) %>%
-  filter(percentage >= .08)
-lrg$as <- factor(lrg$as, levels=c("Caecum","Ascending Colon","Transverse Colon",
-                                  "Descending Colon","Sigmoid Colon","Rectum"))
-lrg$cell_lab <- factor(lrg$cell_lab, 
-                       levels=c("ASCTB-TEMP:colonocyte: Colonocyte",
-                                "ASCTB-TEMP:cycling-plasma-cell: Cycling plasma cell",
-                                "ASCTB-TEMP:cycling-ta: Cycling TA",
-                                "ASCTB-TEMP:endothelial: Endothelial",
-                                "CL:0000131: gut endothelial cell",
-                                "ASCTB-TEMP:enterocyte: Enterocyte",
-                                "CL:0002071: enterocyte of epithelium of large intestine",
-                                "ASCTB-TEMP:goblet-cell: Goblet cell",
-                                "ASCTB-TEMP:goblet: Goblet",
-                                "CL:1000320: large intestine goblet cell",
-                                "ASCTB-TEMP:m2-macrophage: M2 Macrophage",
-                                "ASCTB-TEMP:mesoderm-1-hand1-: Mesoderm 1 (HAND1+)",
-                                "ASCTB-TEMP:smooth-muscle: Smooth muscle",
-                                "ASCTB-TEMP:smc-plpp2-: SMC (PLPP2+)",
-                                "ASCTB-TEMP:stroma: Stroma",
-                                "CL:0000057: fibroblast",
-                                "CL:0019032: intestinal tuft cell"),
-                        labels=c("ASCTB-TEMP: Colonocyte",
-                                "ASCTB-TEMP: Cycling plasma cell",
-                                "ASCTB-TEMP: Cycling TA",
-                                "ASCTB-TEMP: Endothelial",
-                                "CL:0000131: Gut Endothelial Cell",
-                                "ASCTB-TEMP: Enterocyte",
-                                "CL:0002071: Enterocyte of Epithelium of Large Intestine",
-                                "ASCTB-TEMP: Goblet cell",
-                                "ASCTB-TEMP: Goblet",
-                                "CL:1000320: Large Intestine Goblet Cell",
-                                "ASCTB-TEMP: M2 Macrophage",
-                                "ASCTB-TEMP: Mesoderm 1 (HAND1+)",
-                                "ASCTB-TEMP: Smooth muscle",
-                                "ASCTB-TEMP: SMC (PLPP2+)",
-                                "ASCTB-TEMP: Stroma",
-                                "CL:0000057: Fibroblast",
-                                "CL:0019032: Intestinal Tuft Cell"))
 
-# Small Intestine - 2012 records
-sml <- df[df$organ==levels(df$organ)[9],] %>%
-  mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
-  select(organ,as,cell_lab,cell_count,percentage,tool,sex) %>%
-  arrange(sex, tool, as, desc(percentage)) %>%
-  group_by(sex, tool, as) %>%
-  mutate(rank = row_number()) %>%
-  filter(percentage >= .08)
-sml$as <- factor(sml$as, 
-                 levels=c("Superior part of Duodenum", 
-                          "Descending part of Duodenum",
-                          "Horizontal part of Duodenum",
-                          "Ascending part of Duodenum",
-                          "Jejunum",
-                          "Ileum",
-                          "Distal part of Ileum"),
-                 labels=c("Superior\nDuodenum", 
-                          "Descending\nDuodenum",
-                          "Horizontal\nDuodenum",
-                          "Ascending\nDuodenum",
-                          "Jejunum",
-                          "Ileum",
-                          "Distal\nIleum"))
-sml$cell_lab <- factor(sml$cell_lab,
-                       levels=c("ASCTB-TEMP:b: B",
-                                "ASCTB-TEMP:cd8-t: CD8+ T",
-                                "ASCTB-TEMP:cycling-plasma-cell: Cycling plasma cell",
-                                "ASCTB-TEMP:cycling-ta: Cycling TA",
-                                "ASCTB-TEMP:endothelial: Endothelial",
-                                "ASCTB-TEMP:enterocyte: Enterocyte",
-                                "CL:1000334: enterocyte of epithelium of small intestine",
-                                "ASCTB-TEMP:goblet-cell: Goblet cell",
-                                "CL:1000495: small intestine goblet cell",
-                                "ASCTB-TEMP:mesoderm-1-hand1-: Mesoderm 1 (HAND1+)",
-                                "ASCTB-TEMP:microfold-cell: Microfold cell",
-                                "ASCTB-TEMP:paneth: Paneth",
-                                "ASCTB-TEMP:smooth-muscle: Smooth muscle",
-                                "ASCTB-TEMP:stroma: Stroma"),
-                       labels=c("ASCTB-TEMP: B",
-                                "ASCTB-TEMP: CD8+ T",
-                                "ASCTB-TEMP: Cycling Plasma Cell",
-                                "ASCTB-TEMP: Cycling TA",
-                                "ASCTB-TEMP: Endothelial",
-                                "ASCTB-TEMP: Enterocyte",
-                                "CL:1000334: Enterocyte of Epithelium of Small Intestine",
-                                "ASCTB-TEMP: Goblet cell",
-                                "CL:1000495: Small Intestine Goblet Cell",
-                                "ASCTB-TEMP: Mesoderm 1 (HAND1+)",
-                                "ASCTB-TEMP: Microfold cell",
-                                "ASCTB-TEMP: Paneth",
-                                "ASCTB-TEMP: Smooth muscle",
-                                "ASCTB-TEMP: Stroma"))
+hrt_bg <- hrt %>% arrange(sex,tool,as,mn_pct) %>%
+              ggplot(aes(x=as,y=mn_pct)) +
+                geom_bar(aes(fill=cell_lab), stat="identity") +
+                facet_wrap(facets=vars(tool, sex), ncol=2) +
+                labs(x="Anatomical Structure", y="Percentage (%)",
+                     title="Heart Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
+                scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
+                scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+                theme_light() +
+                theme(legend.position = "bottom",
+                      legend.title = element_text(face="bold", size=10),
+                      legend.key.spacing.y = unit(.3,"pt"),
+                      strip.background = element_rect(fill = "#cdcecf"),
+                      strip.text = element_text(color="black", size=10, hjust=0))
 
+# Export pdf
+ggsave(file=paste0("../output/barplots/heart_as_celltype_bargraph_0.2.pdf"),
+       hrt_bg, width=14, height=12, units="in")
+
+hrt_bg
+```
+
+#### Lung - Anatomical Structure - Cell Types
+
+```{r bar_lung_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
 # Lung - 82cell_lab# Lung - 826 records
-lng <- df[df$organ==levels(df$organ)[6],] %>%
+lng <- df[df$organ==levels(df$organ)[6],]
+
+# tmp1 <- join(lng[lng$tool=="Azimuth",c(1:11)],
+#              azi[azi$organ_level=="Lung_v2_L5" &
+#                  azi$cell_match=="skos:exactMatch", c(3:6)], 
+#              by="cell_id", type="left")
+# tmp1[is.na(tmp1$annotation_label),]$annotation_label <- 
+#   tmp1[is.na(tmp1$annotation_label),]$cell_label
+# 
+# tmp2 <- join(lng[lng$tool=="popV",c(1:11)],
+#              pop[pop$organ_level=="lung" &
+#                  pop$cell_match=="skos:exactMatch", c(3:6)], 
+#              by="cell_id", type="left") 
+# tmp2[is.na(tmp3$annotation_label),]$annotation_label <- 
+#   tmp2[is.na(tmp2$annotation_label),]$cell_label
+# 
+# tmp3 <- join(lng[lng$tool=="CellTypist",c(1:11)],
+#              ctp[ctp$organ_level=="Human_Lung_Atlas_pkl" &
+#                  ctp$cell_match=="skos:exactMatch", c(3:6)], 
+#              by="cell_id", type="left")
+# tmp3[is.na(tmp3$annotation_label),]$annotation_label <- 
+#   tmp3[is.na(tmp3$annotation_label),]$cell_label
+# 
+# # Combine temp files
+# lng <- rbind(tmp1,tmp2,tmp3) 
+# names(lng)[14] <- "cell_label2"
+
+lng <- lng %>%
+  select(organ,as,cell_id,cell_label,#annotation_label,
+         cell_count,percentage,tool,sex) %>%
   mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
+  # mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  # ddply(.(sex,tool,as,cell_lab), summarise,
+  #     obvs = length(cell_lab),
+  #     cell_count = sum(cell_count),
+  #     mn_pct = mean(percentage)) %>%
   select(organ,as,cell_lab,cell_count,percentage,tool,sex) %>%
   arrange(sex, tool, as, desc(percentage)) %>%
   group_by(sex, tool, as) %>%
   mutate(rank = row_number()) %>%
   filter(percentage >= .08)
+
+# Factor Lung AS
 lng$as <- factor(lng$as, 
                  levels=c("Lateral Bronchopulmonary Segment",
                           "Lateral Segmental Bronchus",
@@ -300,6 +268,11 @@ lng$as <- factor(lng$as,
                           "Lateral\nSegmental\nBronchus",
                           "Left Apical\nBronchopulmonary\nSegment",
                           "Medial\nBronchopulmonary\nSegment"))
+
+# lng$cell_lab <- factor(lng$cell_lab)
+# View(as.data.frame(levels(lng$cell_lab)))
+
+# Factor Lung Cell Types
 lng$cell_lab <- factor(lng$cell_lab,
                        levels=c("CL:0000057: fibroblast",
                                 "CL:4028004: Alveolar fibroblasts",
@@ -334,6 +307,361 @@ lng$cell_lab <- factor(lng$cell_lab,
                                 "CL:1001603: Monocyte-derived Mph",
                                 "CL:0000875: Non-classical Monocytes"))
 
+color_pal_kid <- c("#CD8490","#AADCDF","#88B1B3",
+                   "#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
+                   "#D6B6D7","#AB92AC",
+                   "#9C534E","#582FC5","#A1ACD2")
+
+color_pal_kid2 <- c("#F9CE8D","#E97B74","#556E6F","#70A5A8","#EDB8AC","#CD8490",
+                    "#E9E4F3","#D6B6D7","#A295C9","#AB92AC","#8DC599","#6F9A78",
+                    "#9C534E","#C39A5D","#A17F4D","#675868")
+
+lng_bg <- lng %>% arrange(sex,tool,as,percentage) %>%
+        ggplot(aes(x=as,y=percentage)) +
+          geom_bar(aes(fill=cell_lab), stat="identity") +
+          facet_wrap(facets=vars(tool, sex), ncol=2) +
+          labs(x="Anatomical Structure", y="Percentage (%)",
+               title="Lung Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
+          scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
+          scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+          theme_light() +
+          theme(legend.position = "bottom",
+                legend.title = element_text(face="bold", size=10),
+                legend.key.spacing.y = unit(.3,"pt"),
+                strip.background = element_rect(fill = "#cdcecf"),
+                strip.text = element_text(color="black", size=10, hjust=0)) +
+          guides(fill=guide_legend(ncol=4))
+
+# Export pdf
+ggsave(file=paste0("../output/barplots/lung_as_celltype_bargraph_0.2.pdf"),
+       lng_bg, width=14, height=12, units="in")
+
+lng_bg
+```
+
+
+#### Kidney - Anatomical Structure - Cell Types
+
+```{r bar_kidney_as_1, fig.height=6, fig.width=14}
+# Kidney - 898 records - 449 row agg.
+kid <- df[df$organ==levels(df$organ)[2],]
+
+kid <- join(kid[kid$tool=="Azimuth",c(1:11)],
+             azi[azi$organ_level=="Kidney_L3" &
+                 azi$cell_match=="skos:exactMatch", c(3:6)],
+             by="cell_id", type="left")
+names(kid)[14] <- "cell_label2"
+kid[is.na(kid$annotation_label),]$annotation_label <-
+  kid[is.na(kid$annotation_label),]$cell_label
+
+kid <- kid %>%
+  select(organ,as,cell_id,annotation_label,
+         cell_count,percentage,tool,sex) %>%
+  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  ddply(.(sex,tool,as,cell_lab), summarise,
+        ct = length(cell_count),
+        mean_cell_ct = mean(cell_count),
+        mean_cell_pt = mean(percentage)) %>%
+  arrange(sex, tool, as, desc(mean_cell_pt)) %>%
+  group_by(sex, tool, as) %>%
+  mutate(rank = row_number()) %>%
+  filter(mean_cell_pt >= .08)
+
+# Factor Kidney AS
+kid$as <- factor(kid$as)
+
+# Factor Kidney Cell Types
+#View(as.data.frame(levels(factor(kid$cell_lab))))
+kid$cell_lab <- factor(kid$cell_lab, 
+                       levels=c("CL:1000714: Cortical Collecting Duct Principal",
+                                "CL:1000716: Outer Medullary Collecting Duct Principal",
+                                "CL:1000718: Inner Medullary Collecting Duct",
+                                "CL:1001108: Medullary Thick Ascending Limb",
+                                "CL:1001109: Cortical Thick Ascending Limb",
+                                "CL:1001107: Ascending Thin Limb",
+                                "CL:4030012: Descending Thin Limb Type 1",
+                                "CL:4030014: Descending Thin Limb Type 3",
+                                "CL:1000768: Connecting Tubule",
+                                "CL:4030016: Distal Convoluted Tubule Type 1",
+                                "CL:4030009: Proximal Tubule Epithelial Segment 1",
+                                "CL:4030022: Medullary Fibroblast"))
+
+
+
+color_pal_kid <- c("#CD8490","#A26771","#C0BCC8","#AADCDF","#88B1B3","#556E6F",
+                   "#8DC599","#6F9A78","#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
+                   "#D6B6D7","#AB92AC","#675868","#E97B74","#E07770","#BE655F",
+                   "#7A413D","#582F2C","#A1ACD2","#E9E4F3","#CD8490")
+
+color_pal_kid2 <- c("#7495AF","#70A5A8","#AADCDF","#D6B6D7","#A295C9",
+                    "#9C534E","#E97B74","#EDB8AC","#8DC599","#6F9A78","#F9CE8D","#A1ACD2",
+                    "#556E6F","#FF0043","#BAD2E7","#D8D7DB","#4B4B5E","#C4C5C6",
+                    "#A2A3A4","#818182","#5F6060","#3D3E3E","#cdcecf")
+
+kid_bg <- kid %>% arrange(sex,tool,as,mean_cell_pt) %>%
+              ggplot(aes(x=as,y=mean_cell_pt)) +
+                geom_bar(aes(fill=cell_lab), stat="identity") +
+                facet_wrap(facets=vars(tool, sex)) +
+                labs(x="Anatomical Structure", y="Percentage (%)",
+                     title="Kidney Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
+                scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
+                scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+                theme_light() +
+                theme(legend.position = "bottom",
+                      legend.title = element_text(face="bold", size=10),
+                     # legend.key.spacing.y = unit(.1)
+                      strip.background = element_rect(fill = "#cdcecf"),
+                      strip.text = element_text(color="black", size=10, hjust=0))
+
+# Export pdf
+ggsave(file=paste0("../output/barplots/kidney_as_celltype_bargraph_0.2.pdf"),
+       kid_bg, width=14, height=6, units="in")
+
+kid_bg
+```
+
+#### Large Intestine - Anatomical Structure - Cell Types
+
+```{r bar_largeIntestine_as_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+# Large Intestine - 1714 records
+lrg <- df[df$organ==levels(df$organ)[4],]
+
+#Updating cell labels for heart
+tmp1 <- join(lrg[lrg$tool=="SC Proteomics",c(1:11)],
+             pop[pop$organ_level=="large intestine" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp2 <- join(lrg[lrg$tool=="popV",c(1:11)],
+             pop[pop$organ_level=="large intestine" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left") 
+tmp3 <- join(lrg[lrg$tool=="CellTypist",c(1:11)],
+             ctp[ctp$organ_level=="intestine_L1" &
+                 ctp$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp3[is.na(tmp3$annotation_label),]$annotation_label <- 
+  tmp3[is.na(tmp3$annotation_label),]$cell_label
+
+# Combine temp files
+lrg <- rbind(tmp1,tmp2,tmp3) 
+names(lrg)[14] <- "cell_label2"
+
+# Updates NA annotations - missing from crosswalk
+lrg[is.na(lrg$annotation_label),]$annotation_label <-
+  lrg[is.na(lrg$annotation_label),]$cell_label
+  
+# Select data for visualization
+lrg <- lrg %>%
+  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  select(organ,as,cell_lab,cell_count,percentage,tool,sex) %>%
+  ddply(.(sex,tool,as,cell_lab), summarise,
+        obvs = length(cell_lab),
+        cell_count = sum(cell_count),
+        mn_pct = mean(percentage)) %>%
+  arrange(sex, tool, as, desc(mn_pct)) %>%
+  group_by(sex, tool, as) %>%
+  mutate(rank = row_number()) %>%
+  filter(mn_pct >= .08)
+
+# Factor Organ AS  
+lrg$as <- factor(lrg$as, levels=c("Caecum","Ascending Colon","Transverse Colon",
+                                  "Descending Colon","Sigmoid Colon","Rectum"))
+# Factor Cell Types
+lrg$cell_lab <- factor(lrg$cell_lab, 
+                       levels=c("ASCTB-TEMP:colonocyte: Colonocyte",
+                                "ASCTB-TEMP:cycling-plasma-cell: Cycling plasma cell",
+                                "ASCTB-TEMP:cycling-ta: Cycling TA",
+                                "CL:0000131: Gut Endothelial Cell",
+                                "ASCTB-TEMP:endothelial: Endothelial",
+                                "CL:0002071: Enterocyte Of Epithelium Of Large Intestine",
+                                "ASCTB-TEMP:enterocyte: Enterocyte",
+                                "CL:1000320: Large Intestine Goblet Cell",
+                                "ASCTB-TEMP:goblet-cell: Goblet cell",
+                                "ASCTB-TEMP:goblet: Goblet",
+                                "ASCTB-TEMP:m2-macrophage: M2 Macrophage",
+                                "ASCTB-TEMP:mesoderm-1-hand1-: Mesoderm 1 (HAND1+)",
+                                "ASCTB-TEMP:smooth-muscle: Smooth muscle",
+                                "ASCTB-TEMP:smc-plpp2-: SMC (PLPP2+)",
+                                "ASCTB-TEMP:stroma: Stroma",
+                                "CL:0000057: Fibroblast",
+                                "CL:0019032: Intestinal Tuft Cell"),
+                        labels=c("ASCTB-TEMP: Colonocyte",
+                                "ASCTB-TEMP: Cycling plasma cell",
+                                "ASCTB-TEMP: Cycling TA",
+                                "CL:0000131: Gut Endothelial Cell",
+                                "ASCTB-TEMP: Endothelial",
+                                "CL:0002071: Enterocyte Of Epithelium",
+                                "ASCTB-TEMP: Enterocyte",
+                                "CL:1000320: Goblet cell",
+                                "ASCTB-TEMP: Goblet cell",
+                                "ASCTB-TEMP: Goblet cell",
+                                "ASCTB-TEMP: Macrophage",
+                                "ASCTB-TEMP: Mesoderm 1 (HAND1+)",
+                                "ASCTB-TEMP: Smooth muscle",
+                                "ASCTB-TEMP: SMC (PLPP2+)",
+                                "ASCTB-TEMP: Stroma",
+                                "CL:0000057: Fibroblast",
+                                "CL:0019032: Intestinal Tuft cell")
+                       )
+
+color_pal_kid <- c("#CD8490","#AADCDF","#88B1B3",
+                   "#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
+                   "#D6B6D7","#AB92AC",
+                   "#9C534E","#582FC5","#A1ACD2")
+
+color_pal_kid2 <- c("#F9CE8D","#556E6F","#70A5A8","#E9E4F3","#D6B6D7","#EDB8AC","#CD8490",
+                    "#AADCDF","#BAD2E7","#7495AF","#A295C9","#8DC599","#6F9A78","#E97B74",
+                    "#9C534E","#C39A5D","#A17F4D","#675868")
+
+lrg_bg <- lrg %>% arrange(sex,tool,as,mn_pct) %>%
+              ggplot(aes(x=as,y=mn_pct)) +
+                geom_bar(aes(fill=cell_lab), stat="identity") +
+                facet_wrap(facets=vars(tool, sex), ncol=2) +
+                labs(x="Anatomical Structure", y="Percentage (%)",
+                     title="Large Intestine Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
+                scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
+                scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+                theme_light() +
+                theme(legend.position = "bottom",
+                      legend.title = element_text(face="bold", size=10),
+                      legend.key.spacing.y = unit(.3,"pt"),
+                      strip.background = element_rect(fill = "#cdcecf"),
+                      strip.text = element_text(color="black", size=10, hjust=0)) +
+                guides(fill=guide_legend(ncol=4))
+
+# Export pdf
+ggsave(file=paste0("../output/barplots/lrgIntestines_as_celltype_bargraph_0.2.pdf"),
+       lrg_bg, width=14, height=12, units="in")
+
+lrg_bg
+```
+
+#### Small Intestine - Anatomical Structure - Cell Types
+
+```{r bar_smallIntestine_as_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+# Small Intestine - 2012 records
+sml <- df[df$organ==levels(df$organ)[9],] 
+
+tmp1 <- join(sml[sml$tool=="SC Proteomics",c(1:11)],
+             pop[pop$organ_level=="small intestine" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp2 <- join(sml[sml$tool=="popV",c(1:11)],
+             pop[pop$organ_level=="small intestine" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left") 
+tmp3 <- join(sml[sml$tool=="CellTypist",c(1:11)],
+             ctp[ctp$organ_level=="intestine_L1" &
+                 ctp$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp3[is.na(tmp3$annotation_label),]$annotation_label <- 
+  tmp3[is.na(tmp3$annotation_label),]$cell_label
+
+# Combine temp files
+sml <- rbind(tmp1,tmp2,tmp3) 
+names(sml)[14] <- "cell_label2"
+
+# Updates NA annotations - missing from crosswalk
+sml[is.na(sml$annotation_label),]$annotation_label <-
+  sml[is.na(sml$annotation_label),]$cell_label
+  
+# Prepare for visualization
+sml <- sml %>% 
+  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  select(organ,as,cell_lab,cell_count,percentage,tool,sex) %>%
+  ddply(.(sex,tool,as,cell_lab), summarise,
+        obvs = length(cell_lab),
+        cell_count = sum(cell_count),
+        mn_pct = mean(percentage)) %>%
+  arrange(sex, tool, as, desc(mn_pct)) %>%
+  group_by(sex, tool, as) %>%
+  mutate(rank = row_number()) %>%
+  filter(mn_pct >= .08)
+
+# Factor Organ AS
+sml$as <- factor(sml$as, 
+                 levels=c("Superior part of Duodenum", 
+                          "Descending part of Duodenum",
+                          "Horizontal part of Duodenum",
+                          "Ascending part of Duodenum",
+                          "Jejunum",
+                          "Ileum",
+                          "Distal part of Ileum"),
+                 labels=c("Superior\nDuodenum", 
+                          "Descending\nDuodenum",
+                          "Horizontal\nDuodenum",
+                          "Ascending\nDuodenum",
+                          "Jejunum",
+                          "Ileum",
+                          "Distal\nIleum"))
+
+# Factor Organ Cell Types
+sml$cell_lab <- factor(sml$cell_lab,
+                       levels=c("ASCTB-TEMP:b: B","ASCTB-TEMP:cd8-t: CD8+ T",
+                                "ASCTB-TEMP:cycling-plasma-cell: Cycling plasma cell",
+                                "ASCTB-TEMP:cycling-ta: Cycling TA",
+                                "ASCTB-TEMP:endothelial: Endothelial",
+                                "CL:1000334: Enterocyte Of Epithelium Of Small Intestine",
+                                "ASCTB-TEMP:enterocyte: Enterocyte",
+                                "CL:1000495: Small Intestine Goblet Cell",
+                                "ASCTB-TEMP:goblet-cell: Goblet cell",
+                                "ASCTB-TEMP:mesoderm-1-hand1-: Mesoderm 1 (HAND1+)",
+                                "ASCTB-TEMP:microfold-cell: Microfold cell",
+                                "ASCTB-TEMP:paneth: Paneth",
+                                "ASCTB-TEMP:smooth-muscle: Smooth muscle",
+                                "ASCTB-TEMP:stroma: Stroma"),
+                       labels=c("ASCTB-TEMP: B",
+                                "ASCTB-TEMP: CD8+ T",
+                                "ASCTB-TEMP: Cycling Plasma Cell",
+                                "ASCTB-TEMP: Cycling TA",
+                                "ASCTB-TEMP: Endothelial",
+                                "ASCTB-TEMP: Enterocyte",
+                                "CL:1000334: Enterocyte of Epithelium",
+                                "CL:1000495: Goblet Cell",
+                                "ASCTB-TEMP: Goblet cell",
+                                "ASCTB-TEMP: Mesoderm 1 (HAND1+)",
+                                "ASCTB-TEMP: Microfold cell",
+                                "ASCTB-TEMP: Paneth",
+                                "ASCTB-TEMP: Smooth muscle",
+                                "ASCTB-TEMP: Stroma"))
+
+color_pal_kid <- c("#CD8490","#AADCDF","#88B1B3",
+                   "#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
+                   "#D6B6D7","#AB92AC",
+                   "#9C534E","#582FC5","#A1ACD2")
+
+color_pal_kid2 <- c("#F9CE8D","#E97B74","#556E6F","#70A5A8","#A295C9","#EDB8AC","#CD8490",
+                    "#E9E4F3","#D6B6D7","#AADCDF","#BAD2E7","#7495AF","#8DC599","#6F9A78",
+                    "#9C534E","#C39A5D","#A17F4D","#675868")
+
+sml_bg <- sml %>% arrange(sex,tool,as,mn_pct) %>%
+              ggplot(aes(x=as,y=mn_pct)) +
+                geom_bar(aes(fill=cell_lab), stat="identity") +
+                facet_wrap(facets=vars(tool, sex), ncol=2) +
+                labs(x="Anatomical Structure", y="Percentage (%)",
+                     title="Small Intestine Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
+                scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
+                scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+                theme_light() +
+                theme(legend.position = "bottom",
+                      legend.title = element_text(face="bold", size=10),
+                      legend.key.spacing.y = unit(.3,"pt"),
+                      strip.background = element_rect(fill = "#cdcecf"),
+                      strip.text = element_text(color="black", size=10, hjust=0)) +
+                guides(fill=guide_legend(ncol=4))
+
+# Export pdf
+ggsave(file=paste0("../output/barplots/smlIntestines_as_celltype_bargraph_0.2.pdf"),
+       sml_bg, width=14, height=12, units="in")
+
+sml_bg
+```
+
+
+
+```{r not visualized}
 # Liver - 81 records
 lvr <- df[df$organ==levels(df$organ)[5],] %>%
   mutate(cell_lab = paste0(cell_id,": ",cell_label)) %>%
@@ -383,169 +711,6 @@ bld <- df[df$organ==levels(df$organ)[12],] %>%
 bld$as <- factor(bld$as)
 bld$cell_lab <- factor(bld$cell_lab)
 
-```
-
-# Visualization
-
-Base design for 100% stacked bar graphs representing the cell types commonly identified in anatomical structures within donated organs.
-
-Bar graph definition:
-
-Stacked bar represent top cell types associated with an organ anatomical structure
-* Data threshold: 8% minimum cell percentage values (or mean cell percentage values PER AS)
-* Bars - anatomical structure categories.
-  * Bar segment-area-Cell Type percentage measures
-    * Bar/Bar segments should total to at most 1 or 100%.
-    * Mean cell type percentage calculation-tool, sex organ, as
-  * Bar segment-color-cell types categories.
-* Facets represent combination of analytic tool and gender.
-
-## Heart - Anatomical Structure - Cell Types
-
-```{r bar_heart_as_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
-color_pal_kid <- c("#CD8490","#AADCDF","#88B1B3",
-                   "#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
-                   "#D6B6D7","#AB92AC",
-                   "#9C534E","#582FC5","#A1ACD2")
-
-color_pal_kid2 <- c("#556E6F","#70A5A8","#AADCDF","#7495AF","#BAD2E7",
-                    "#8DC599","#6F9A78","#E97B74","#EDB8AC","#BE655F",
-                    "#CD8490","#A26771","#9C534E","#E9E4F3","#D6B6D7","#A295C9",
-                    "#675868","#F9CE8D","#C39A5D","#A17F4D",
-                    "#C4C5C6","#A2A3A4","#818182","#5F6060","#3D3E3E","#cdcecf")
-
-
-hrt %>% arrange(sex,tool,as,mean_cell_pt) %>%
-        ggplot(aes(x=as,y=mean_cell_pt)) +
-          geom_bar(aes(fill=cell_lab), stat="identity") +
-          facet_wrap(facets=vars(tool, sex), ncol=2) +
-          labs(x="Anatomical Structure", y="Percentage (%)",
-               title="Heart Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
-          scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
-          scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
-          theme_light() +
-          theme(legend.position = "bottom",
-                legend.title = element_text(face="bold", size=10),
-                legend.key.spacing.y = unit(.3,"pt"),
-                strip.background = element_rect(fill = "#cdcecf"),
-                strip.text = element_text(color="black", size=10, hjust=0))
-```
-
-## Kidney - Anatomical Structure - Cell Types
-
-```{r bar_kidney_as_1, fig.height=6, fig.width=14}
-color_pal_kid <- c("#CD8490","#A26771","#C0BCC8","#AADCDF","#88B1B3","#556E6F",
-                   "#8DC599","#6F9A78","#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
-                   "#D6B6D7","#AB92AC","#675868","#E97B74","#E07770","#BE655F",
-                   "#9C534E","#7A413D","#582F2C","#A1ACD2")
-
-color_pal_kid2 <- c("#7495AF","#70A5A8","#AADCDF",
-"#E9E4F3","#D6B6D7","#A295C9","#CD8490","#E97B74","#F9CE8D","#EDB8AC","#8DC599","#A1ACD2",
-"#FF0043","#BAD2E7","#D8D7DB","#4B4B5E","#C4C5C6","#A2A3A4","#818182","#5F6060","#3D3E3E","#cdcecf")
-
-
-kid %>% arrange(sex,tool,as,mean_cell_pt) %>%
-        ggplot(aes(x=as,y=mean_cell_pt)) +
-          geom_bar(aes(fill=cell_lab), stat="identity") +
-          facet_wrap(facets=vars(tool, sex)) +
-          labs(x="Anatomical Structure", y="Percentage (%)",
-               title="Kidney Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
-          scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
-          scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
-          theme_light() +
-          theme(legend.position = "bottom",
-                legend.title = element_text(face="bold", size=10),
-               # legend.key.spacing.y = unit(.1)
-                strip.background = element_rect(fill = "#cdcecf"),
-                strip.text = element_text(color="black", size=10, hjust=0))
-```
-
-## Large Intestine
-
-```{r bar_largeIntestine_as_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
-color_pal_kid <- c("#CD8490","#AADCDF","#88B1B3",
-                   "#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
-                   "#D6B6D7","#AB92AC",
-                   "#9C534E","#582FC5","#A1ACD2")
-
-color_pal_kid2 <- c("#F9CE8D","#556E6F","#70A5A8","#E9E4F3","#D6B6D7","#EDB8AC","#CD8490",
-                    "#AADCDF","#BAD2E7","#7495AF","#A295C9","#E97B74","#8DC599","#6F9A78",
-                    "#9C534E","#C39A5D","#A17F4D","#675868")
-
-lrg %>% arrange(sex,tool,as,percentage) %>%
-        ggplot(aes(x=as,y=percentage)) +
-          geom_bar(aes(fill=cell_lab), stat="identity") +
-          facet_wrap(facets=vars(tool, sex), ncol=2) +
-          labs(x="Anatomical Structure", y="Percentage (%)",
-               title="Large Intestine Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
-          scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
-          scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
-          theme_light() +
-          theme(legend.position = "bottom",
-                legend.title = element_text(face="bold", size=10),
-                legend.key.spacing.y = unit(.3,"pt"),
-                strip.background = element_rect(fill = "#cdcecf"),
-                strip.text = element_text(color="black", size=10, hjust=0)) +
-          guides(fill=guide_legend(ncol=4))
-```
-
-## Small Intestine
-
-```{r bar_smallIntestine_as_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
-color_pal_kid <- c("#CD8490","#AADCDF","#88B1B3",
-                   "#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
-                   "#D6B6D7","#AB92AC",
-                   "#9C534E","#582FC5","#A1ACD2")
-
-color_pal_kid2 <- c("#F9CE8D","#E97B74","#556E6F","#70A5A8","#A295C9","#EDB8AC","#CD8490",
-                    "#E9E4F3","#D6B6D7","#AADCDF","#BAD2E7","#7495AF","#8DC599","#6F9A78",
-                    "#9C534E","#C39A5D","#A17F4D","#675868")
-
-sml %>% arrange(sex,tool,as,percentage) %>%
-        ggplot(aes(x=as,y=percentage)) +
-          geom_bar(aes(fill=cell_lab), stat="identity") +
-          facet_wrap(facets=vars(tool, sex), ncol=2) +
-          labs(x="Anatomical Structure", y="Percentage (%)",
-               title="Small Intestine Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
-          scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
-          scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
-          theme_light() +
-          theme(legend.position = "bottom",
-                legend.title = element_text(face="bold", size=10),
-                legend.key.spacing.y = unit(.3,"pt"),
-                strip.background = element_rect(fill = "#cdcecf"),
-                strip.text = element_text(color="black", size=10, hjust=0)) +
-          guides(fill=guide_legend(ncol=4))
-```
-
-
-## Lung
-
-```{r bar_lung_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
-color_pal_kid <- c("#CD8490","#AADCDF","#88B1B3",
-                   "#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
-                   "#D6B6D7","#AB92AC",
-                   "#9C534E","#582FC5","#A1ACD2")
-
-color_pal_kid2 <- c("#F9CE8D","#E97B74","#556E6F","#70A5A8","#EDB8AC","#CD8490",
-                    "#E9E4F3","#D6B6D7","#A295C9","#AB92AC","#8DC599","#6F9A78",
-                    "#9C534E","#C39A5D","#A17F4D","#675868")
-
-lng %>% arrange(sex,tool,as,percentage) %>%
-        ggplot(aes(x=as,y=percentage)) +
-          geom_bar(aes(fill=cell_lab), stat="identity") +
-          facet_wrap(facets=vars(tool, sex), ncol=2) +
-          labs(x="Anatomical Structure", y="Percentage (%)",
-               title="Lung Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
-          scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
-          scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
-          theme_light() +
-          theme(legend.position = "bottom",
-                legend.title = element_text(face="bold", size=10),
-                legend.key.spacing.y = unit(.3,"pt"),
-                strip.background = element_rect(fill = "#cdcecf"),
-                strip.text = element_text(color="black", size=10, hjust=0)) +
-          guides(fill=guide_legend(ncol=4))
 ```
 
 
