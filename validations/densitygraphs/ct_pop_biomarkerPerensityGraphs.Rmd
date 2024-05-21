@@ -120,6 +120,8 @@ gene_sets_o2 <-
 gene_sets_o2$organ <- 
   factor(as.character(gene_sets_o2$organ),
          levels=c("Heart","Lung","Kidney","Small Intestine","Large Intestine"))
+# gene_sets_o2$gene <- 
+#   factor(gene_sets_o2$gene)
 ```
 
 ### Visualization
@@ -141,107 +143,77 @@ overall_dr <- ggplot(gene_sets_o1,
                   theme(legend.justification = "top")
 
 # Export visualization
-ggsave(file=paste0("../output/densityplots/overall_top20_gene_expression_v0.1.pdf"),
-       overall_dr, width=5, height=6.5, units="in")
-
-ggsave(file=paste0("../output/densityplots/overall_top20_gene_expression_v0.1.png"),
-       overall_dr, width=5, height=6.5, units="in")
+ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_v0.1.pdf"),
+       overall_dr, width=14, height=12, units="in")
 overall_dr
 ```
 
 
 #### Heart - Top 20 Biomarkers (cell counts) - Gene Expression Density Ridge Plots
-```{r density_heart, fig.height=6, fig.width=4.75, message=FALSE, warning=FALSE}
-theme_set(theme_minimal())
-
+```{r density_heart, fig.height=6, fig.width=4, message=FALSE, warning=FALSE}
 # Subset organ
 heart <- gene_sets_o2[gene_sets_o2$organ=="Heart",] 
-
-# Unique factor with cell count
-labs <- unique(heart[order(heart$max_cells),c(2,6)]) %>%
-  mutate(facs = paste0(gene," (",max_cells,")")) %>%
-  filter(gene != "NA") 
-heart <- left_join(heart,labs[,c(1,3)],by="gene")
-heart$facs <- factor(heart$facs, 
-                     levels=labs$facs)
-
+heart$gene <- factor(heart$gene, 
+                     levels=unique(heart[order(-heart$max_cells),]$gene))
 # Color palette 
 color_org <- c("#E97B74")
 
 # Visualization
 hrt_dr <- heart %>% 
-            filter(facs != "NA") %>%
+            filter(gene != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
-                       y=facs)) +
+                       y=gene)) +
               geom_density_ridges(aes(fill=organ), 
                                   na.rm = TRUE,,
                                   bandwidth = 0.15,
                                   rel_min_height = 0.01, alpha=.85) +
-              labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)") +
+              labs(x="Mean Gene Expression Values (log2)", y="Biomarker") +
               scale_fill_manual(name="Organ", values=color_org) +
               theme(legend.position = "none")
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_v0.1.pdf"),
-       hrt_dr, width=4.75, height=6, units="in")
-ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_v0.1.png"),
-       hrt_dr, width=4.75, height=6, units="in")
+       hrt_dr, width=14, height=12, units="in")
 hrt_dr
 ```
 
 
 #### Lung - Top 20 Biomarkers (cell counts) - Gene Expression Density Ridge Plots
-```{r density_lung, fig.height=6, fig.width=4.75, message=FALSE, warning=FALSE}
-theme_set(theme_minimal())
-
+```{r density_lung, fig.height=6, fig.width=4, message=FALSE, warning=FALSE}
 # Subset organ
 lung <- gene_sets_o2[gene_sets_o2$organ=="Lung",] 
-
-# Unique factor with cell count
-labs <- unique(lung[order(lung$max_cells),c(2,6)]) %>%
-  mutate(facs = paste0(gene," (",max_cells,")")) %>%
-  filter(gene != "NA") 
-lung <- left_join(lung,labs[,c(1,3)],by="gene")
-lung$facs <- factor(lung$facs, 
-                    levels=labs$facs)
+lung$gene <- factor(lung$gene, 
+                     levels=unique(lung[order(-lung$max_cells),]$gene))
 
 # Color palette 
 color_org <- c("#F9CE8D")
 
 # Visualization
 lung_dr <- lung %>% 
-            filter(facs != "NA") %>%
+            filter(gene != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
-                       y=facs)) +
+                       y=gene)) +
               geom_density_ridges(aes(fill=organ), 
                                   na.rm = TRUE,,
                                   bandwidth = 0.15,
                                   rel_min_height = 0.01, alpha=.85) +
-              labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)") +
+              labs(x="Mean Gene Expression Values (log2)", y="Biomarker") +
               scale_fill_manual(name="Organ", values=color_org) +
               theme(legend.position = "none")
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_v0.1.pdf"),
-       lung_dr, width=4.75, height=6, units="in")
-ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_v0.1.png"),
-       lung_dr, width=4.75, height=6, units="in")
+       lung_dr, width=14, height=12, units="in")
 lung_dr
 ```
 
 
 #### Kidney - Top 20 Biomarkers (cell counts) - Gene Expression Density Ridge Plots
-```{r density_kidney, fig.height=6, fig.width=4.75, message=FALSE, warning=FALSE}
+```{r density_kidney, fig.height=6, fig.width=4, message=FALSE, warning=FALSE}
 # Subset organ
 kid <- gene_sets_o2[gene_sets_o2$organ=="Kidney",] 
-
-# Unique factor with cell count
-labs <- unique(kid[order(kid$max_cells),c(2,6)]) %>%
-  mutate(facs = paste0(gene," (",max_cells,")")) %>%
-  filter(gene != "NA") 
-kid <- left_join(kid,labs[,c(1,3)],by="gene")
-kid$facs <- factor(kid$facs, 
-                   levels=labs$facs)
+kid$gene <- factor(kid$gene, 
+                   levels=unique(kid[order(-kid$max_cells),]$gene))
 
 # Color palette 
 color_org <- c("#A295C9")
@@ -249,96 +221,89 @@ color_org <- c("#A295C9")
 
 # Visualization
 kid_dr <- kid %>% 
-            filter(facs != "NA") %>%
+            filter(gene != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
-                       y=facs)) +
+                       y=gene)) +
               geom_density_ridges(aes(fill=organ), 
                                   na.rm = TRUE,,
                                   bandwidth = 0.15,
                                   rel_min_height = 0.01, alpha=.85) +
-              labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)") +
+              labs(x="Mean Gene Expression Values (log2)", y="Biomarker") +
               scale_fill_manual(name="Organ", values=color_org) +
               theme(legend.position = "none")
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/kidney_top20_gene_expression_v0.1.pdf"),
-       kid_dr, width=4.75, height=6, units="in")
-ggsave(file=paste0("../output/densityplots/kidney_top20_gene_expression_v0.1.png"),
-       kid_dr, width=4.75, height=6, units="in")
+       kid_dr, width=14, height=12, units="in")
 kid_dr
 ```
 
 #### Small Intestine - Top 20 Biomarkers (cell counts) - Gene Expression Density Ridge Plots
-```{r density_sml, fig.height=6, fig.width=4.75, message=FALSE, warning=FALSE}
+```{r density_sml, fig.height=6, fig.width=4, message=FALSE, warning=FALSE}
 # Subset organ
 sml <- gene_sets_o2[gene_sets_o2$organ=="Small Intestine",] 
-
-# Unique factor with cell count
-labs <- unique(sml[order(sml$max_cells),c(2,6)]) %>%
-  mutate(facs = paste0(gene," (",max_cells,")")) %>%
-  filter(gene != "NA") 
-sml <- left_join(sml,labs[,c(1,3)],by="gene")
-sml$facs <- factor(sml$facs, 
-                   levels=labs$facs)
+sml$gene <- factor(sml$gene, 
+                   levels=unique(sml[order(-sml$max_cells),]$gene))
 
 # Color palette 
 color_org <- c("#7495AF")
 
 # Visualization
 sml_dr <- sml %>% 
-            filter(facs != "NA") %>%
+            filter(gene != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
-                       y=facs)) +
+                       y=gene)) +
               geom_density_ridges(aes(fill=organ), 
                                   na.rm = TRUE,,
                                   bandwidth = 0.15,
                                   rel_min_height = 0.01, alpha=.85) +
-              labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)") +
+              labs(x="Mean Gene Expression Values (log2)", y="Biomarker") +
               scale_fill_manual(name="Organ", values=color_org) +
               theme(legend.position = "none")
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/smallIntestine_top20_gene_expression_v0.1.pdf"),
-       sml_dr, width=4.75, height=6, units="in")
-ggsave(file=paste0("../output/densityplots/smallIntestine_top20_gene_expression_v0.1.png"),
-       sml_dr, width=4.75, height=6, units="in")
+       sml_dr, width=14, height=12, units="in")
 sml_dr
 ```
 
 #### Large Intestine - Top 20 Biomarkers (cell counts) - Gene Expression Density Ridge Plots
-```{r density_lrg, fig.height=6, fig.width=4.75, message=FALSE, warning=FALSE}
+```{r density_lrg, fig.height=6, fig.width=4, message=FALSE, warning=FALSE}
 # Subset organ
 lrg <- gene_sets_o2[gene_sets_o2$organ=="Large Intestine",] 
-
-# Unique factor with cell count
-labs <- unique(lrg[order(lrg$max_cells),c(2,6)]) %>%
-  mutate(facs = paste0(gene," (",max_cells,")")) %>%
-  filter(gene != "NA") 
-lrg <- left_join(lrg,labs[,c(1,3)],by="gene")
-lrg$facs <- factor(lrg$facs, 
-                   levels=labs$facs)
+lrg$gene <- factor(lrg$gene, 
+                   levels=unique(lrg[order(-lrg$max_cells),]$gene))
 
 # Color palette 
 color_org <- c("#8DC599")
 
 # Visualization
 lrg_dr  <- lrg %>% 
-            filter(facs != "NA") %>%
+            filter(gene != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
-                       y=facs)) +
+                       y=gene)) +
               geom_density_ridges(aes(fill=organ), 
                                   na.rm = TRUE,,
                                   bandwidth = 0.15,
                                   rel_min_height = 0.01, alpha=.85) +
-              labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)") +
+              labs(x="Mean Gene Expression Values (log2)", y="Biomarker") +
               scale_fill_manual(name="Organ", values=color_org) +
               theme(legend.position = "none")
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/largeIntestine_top20_gene_expression_v0.1.pdf"),
-       lrg_dr, width=4.75, height=6, units="in")
-ggsave(file=paste0("../output/densityplots/largeIntestine_top20_gene_expression_v0.1.png"),
-       lrg_dr, width=4.75, height=6, units="in")
+       lrg_dr, width=14, height=12, units="in")
 lrg_dr
 ```
+
+
+
+
+
+
+
+
+
+
+
 
