@@ -144,7 +144,7 @@ overall_dr <- ggplot(gene_sets_o1,
 
 # Export visualization
 ggsave(file=paste0("../output/densityplots/overall_top20_gene_expression_v0.1.pdf"),
-       overall_dr, width=14, height=12, units="in")
+       overall_dr, width=4, height=6, units="in")
 overall_dr
 ```
 
@@ -173,7 +173,7 @@ hrt_dr <- heart %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_v0.1.pdf"),
-       hrt_dr, width=14, height=12, units="in")
+       hrt_dr, width=4, height=6, units="in")
 hrt_dr
 ```
 
@@ -203,7 +203,7 @@ lung_dr <- lung %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_v0.1.pdf"),
-       lung_dr, width=14, height=12, units="in")
+       lung_dr, width=4, height=6, units="in")
 lung_dr
 ```
 
@@ -234,7 +234,7 @@ kid_dr <- kid %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/kidney_top20_gene_expression_v0.1.pdf"),
-       kid_dr, width=14, height=12, units="in")
+       kid_dr, width=4, height=6, units="in")
 kid_dr
 ```
 
@@ -263,7 +263,7 @@ sml_dr <- sml %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/smallIntestine_top20_gene_expression_v0.1.pdf"),
-       sml_dr, width=14, height=12, units="in")
+       sml_dr, width=4, height=6, units="in")
 sml_dr
 ```
 
@@ -292,7 +292,7 @@ lrg_dr  <- lrg %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/largeIntestine_top20_gene_expression_v0.1.pdf"),
-       lrg_dr, width=14, height=12, units="in")
+       lrg_dr, width=4, height=6, units="in")
 lrg_dr
 ```
 
