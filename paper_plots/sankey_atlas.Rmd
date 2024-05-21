@@ -1,5 +1,5 @@
 ---
-title: "HRApop Plots Notebook"
+title: "HRApop Sankey Atlas"
 output:
   html_document:
     df_print: paged
@@ -31,19 +31,17 @@ nb.cols <- 16
 cat_colors <- colorRampPalette(brewer.pal(12, "Paired"))(nb.cols)
 ```
 
-# Supplemental Fig. Sankey
 We will use `networkD3` to render the Sankey diagram. On the data side, we need two tibbles:\
 - NODES with NodeId\
 - LINKS with Source, Target, Value
+# Supplemental Fig. Sankey (atlas only)
+
 
 ## Load Data
 
 ```{r message=FALSE, warning=FALSE}
 # atlas data only
-# table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/table-s1.csv", sep = ""))
-
-# universe
-table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/universe-ad-hoc/sankey.csv", sep = ""))
+table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/table-s1.csv", sep = ""))
 ```
 
 ## Create bins for donor age and BMI
@@ -232,5 +230,5 @@ p
 ## Export the Sankey diagram as HTML
 
 ```{r}
-saveNetwork(p, "../docs/sankey.html")
+saveNetwork(p, "../docs/sankey_atlas.html")
 ```
