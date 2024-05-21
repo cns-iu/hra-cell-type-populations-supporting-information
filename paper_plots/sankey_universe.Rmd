@@ -275,5 +275,5 @@ p
 ## Export the Sankey diagram as HTML
 
 ```{r}
-saveNetwork(p, "../docs/sankey_atlas.html")
+saveNetwork(p, "../docs/sankey_universe.html")
 ```
