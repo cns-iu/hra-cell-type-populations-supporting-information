@@ -129,15 +129,25 @@ gene_sets_o2$organ <-
 ```{r densityplot_biomarkers_organ_overall, fig.height=10, fig.width=6, message=FALSE, warning=FALSE}
 theme_set(theme_minimal())
 
-color_pal_kid2 <- c("#E97B74","#F9CE8D","#A295C9","#7495AF","#8DC599")
+# Factor gene + cell observation label
+labs <- unique(gene_sets_o1[order(gene_sets_o1$max_cells),c(2,6)]) %>%
+  mutate(facs = paste0(gene," (",max_cells,")")) %>%
+  filter(gene != "NA") 
+gene_sets_o1 <- left_join(gene_sets_o1,labs,by=c("gene","max_cells")) 
+gene_sets_o1$facs <- factor(gene_sets_o1$facs, 
+                            levels=labs$facs)
+
+
+# Visualization
+color_pal <- c("#E97B74","#F9CE8D","#A295C9","#7495AF","#8DC599")
                   
-overall_dr <- ggplot(gene_sets_o1, 
-                     aes(x=log(mean_gene_expression_value), y=gene)) +
+overall_dr <- gene_sets_o1 %>%
+              ggplot(aes(x=log(mean_gene_expression_value), y=facs)) +
                   geom_density_ridges(aes(fill=organ),
                                       bandwidth = 0.15,
                                       rel_min_height = 0.01, alpha=.55) +
-                  labs(x="Mean Gene Expression Values (log2)", y="Biomarker") +
-                  scale_fill_manual(name="Organ", values=color_pal_kid2) +
+                  labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)") +
+                  scale_fill_manual(name="Organ", values=color_pal) +
                   theme(legend.justification = "top")
 
 # Export visualization
