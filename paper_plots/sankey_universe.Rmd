@@ -277,3 +277,12 @@ p
 ```{r}
 saveNetwork(p, "../docs/sankey_universe.html")
 ```
+
+## Check numbers
+Number of unique dataset IDs that are part of the atlas
+```{r Check numbers}
+
+atlas = sankey_universe %>% filter(is_atlas_dataset == TRUE)
+
+atlas$unique_dataset_id %>% unique() %>% length()
+```
