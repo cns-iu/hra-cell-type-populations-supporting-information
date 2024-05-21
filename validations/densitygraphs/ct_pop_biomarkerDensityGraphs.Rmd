@@ -144,7 +144,7 @@ overall_dr <- ggplot(gene_sets_o1,
 
 # Export visualization
 ggsave(file=paste0("../output/densityplots/overall_top20_gene_expression_v0.1.pdf"),
-       overall_dr, width=4, height=6, units="in")
+       overall_dr, width=5, height=6.5, units="in")
 overall_dr
 ```
 
