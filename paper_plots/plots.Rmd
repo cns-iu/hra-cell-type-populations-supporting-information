@@ -39,13 +39,11 @@ We will use `networkD3` to render the Sankey diagram. On the data side, we need 
 ## Load Data
 
 ```{r message=FALSE, warning=FALSE}
-table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/table-s1.csv", sep = ""))
-```
+# atlas data only
+# table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/atlas/table-s1.csv", sep = ""))
 
-## Isolate unique datasets
-``` {r}
-
-table_s1 %>% filter(portal=="HuBMAP" | !is.na(dataset_id) ) %>% unique()
+# universe
+table_s1 = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/universe-ad-hoc/sankey.csv", sep = ""))
 ```
 
 ## Create bins for donor age and BMI
@@ -93,8 +91,9 @@ subset_sankey = table_s1_with_bins %>%
   # unify left and right kidney
   mutate(organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "kidney", organ_name))
   
-  # unify unknown values in race
+  # unify unknown values in race and sex
   subset_sankey$donor_race[subset_sankey$donor_race == "Unknown"] <- "Unknown Race"
+  subset_sankey$donor_sex[subset_sankey$donor_sex == "Unknown"] <- "Unknown Sex"
   
   # replace HCA and LungMAP with CxG
   subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CxG"
@@ -225,7 +224,7 @@ names(nodes)[1] = "name"
 ```{r}
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name", 
-                   units = "occurrences", fontSize = 15, nodeWidth = 30, width=950, height = 650)
+                   units = "occurrences", fontSize = 15, nodeWidth = 30, width=1200, height = 650)
 
 p
 ```
