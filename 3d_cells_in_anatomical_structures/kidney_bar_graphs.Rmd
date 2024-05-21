@@ -1,0 +1,47 @@
+---
+title: "AS Bar"
+author: "Andreas Bueckle"
+date: "`r Sys.Date()`"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r libraries message=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+# Load data
+```{r read_data message=FALSE, warning=FALSE}
+raw = read_csv("input/hra-pop_per_as.csv")
+```
+
+# Identify shared cell types
+```{r}
+
+raw
+```
+
+# Filter for kidney and cell types
+```{r filter message=FALSE, warning=FALSE}
+
+kidney = raw %>% filter(
+  organ == "Left Kidney",
+  sex == "Male",
+  tool == "azimuth",
+  cell_percentage > 0.1
+  )
+```
+
+# Create bar graph
+```{r}
+
+plot = ggplot(kidney, aes(x = as_label, y=cell_percentage, fill=cell_label))+
+                geom_bar(stat = "identity")+
+  theme(
+    axis.text.x = element_text(angle=90),
+    guide_legend(position = "bottom"))
+  
+
+plot
+```

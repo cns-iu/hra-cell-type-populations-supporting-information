@@ -1,0 +1,64 @@
+---
+title: "Cell Cover"
+output: html_notebook
+---
+
+# import libraries
+```{r }
+
+library(tidyverse)
+```
+
+# Load data
+```{r read_data message=FALSE, warning=FALSE}
+raw = read_csv("hra-pop_per_as.csv")
+```
+
+```{r}
+
+top_values <- raw %>%
+  group_by(cell_id) %>%
+  summarize(distinct_values_count = n_distinct(organ),
+              # unique_organs = toString(unique(organ))) %>%
+              unique_organs = unique(organ)) %>%
+  arrange(desc(distinct_values_count))
+
+top_values <- top_values
+
+print(top_values)
+```
+```{r}
+
+combinations <- raw %>%
+  group_by(organ) %>%
+  summarise(combination = list(unique(cell_id))) %>%
+  unnest(combination) %>%
+  group_by(organ, combination) %>%
+  summarise(count = n_distinct(organ))
+
+# Find the top 4 values in column2 with the most shared values in column1
+top_values <- combinations %>%
+  arrange(desc(count)) %>%
+  top_n(4)
+
+print(top_values) %>% view()
+```
+
+
+```{r}
+# Explode the list of strings in column2 into separate rows
+exploded_tibble <- raw %>%
+  unnest(top_values)
+
+# Group by column1, count the number of occurrences of each value in column1, and arrange in descending order
+grouped_counts <- exploded_tibble %>%
+  group_by(cell_id) %>%
+  count(unique_organs) %>%
+  arrange(desc(n))
+
+# Select the top 4 values in column1 with the most strings in column2 in common
+top_values <- grouped_counts %>%
+  top_n(4)
+
+print(top_values)
+```
