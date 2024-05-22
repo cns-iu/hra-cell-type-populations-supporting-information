@@ -95,6 +95,7 @@ subset_sankey = sankey_universe_with_bins %>%
   
   # unify unknown values in race and sex
   subset_sankey$donor_race[subset_sankey$donor_race == "Unknown"] <- "Unknown Race"
+  subset_sankey$donor_race[subset_sankey$donor_race == "na"] <- "Unknown Race"
   subset_sankey$donor_sex[subset_sankey$donor_sex == "Unknown"] <- "Unknown Sex"
   
   # replace HCA and LungMAP with CxG
