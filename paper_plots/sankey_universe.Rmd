@@ -19,6 +19,7 @@ library(RColorBrewer) # for plots
 library(ggcorrplot) # for tissue block similarity matrix
 library(lsa) # for tissue block similarity matrix
 library(rmarkdown) # for rendering this
+library(glue)
 
 #load themes
 source("scripts/themes.R")
@@ -83,7 +84,7 @@ subset_sankey = sankey_universe_with_bins %>%
   # replace NAs
   replace_na(list(donor_sex = "Unknown Sex")) %>% 
   replace_na(list(donor_race = "Unknown Race")) %>% 
-  replace_na(list(organ_name = "Unknown Organ")) %>% 
+  replace_na(list(organ_name = "Organ Not Supported")) %>% 
   replace_na(list(cell_type_annotation_tool = "No Cell Summary")) %>%
   
   # replace NAs for binned variables
@@ -188,28 +189,28 @@ sex_age = subset_sankey %>%
   )
 
 age_bmi = subset_sankey %>% 
-  group_by(donor_age_binned, donor_bmi_binned) %>% 
+  group_by(donor_age_binned, donor_race) %>% 
   summarize(count=n()) %>% 
   rename(
     source = donor_age_binned,
-    target = donor_bmi_binned,
-    value=count
-  )
-
-bmi_race = subset_sankey %>% 
-  group_by(donor_bmi_binned, donor_race) %>% 
-  summarize(count=n()) %>% 
-  rename(
-    source = donor_bmi_binned,
     target = donor_race,
     value=count
   )
 
-race_organ = subset_sankey %>%
-  group_by(donor_race, organ_name) %>%
-  summarize(count=n()) %>%
+race_bmi = subset_sankey %>% 
+  group_by(donor_race, donor_bmi_binned) %>% 
+  summarize(count=n()) %>% 
   rename(
     source = donor_race,
+    target = donor_bmi_binned,
+    value=count
+  )
+
+race_organ = subset_sankey %>%
+  group_by(donor_bmi_binned, organ_name) %>%
+  summarize(count=n()) %>%
+  rename(
+    source = donor_bmi_binned,
     target = organ_name,
     value=count
   )
@@ -242,7 +243,8 @@ rui_atlas = subset_sankey %>%
   )
 
 
-prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, bmi_race, race_organ, organ_ctann, ctann_rui, rui_atlas))
+prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, race_bmi
+                                     , race_organ, organ_ctann, ctann_rui, rui_atlas))
 prep_links 
 
 links = prep_links 
@@ -268,7 +270,7 @@ names(nodes)[1] = "name"
 ```{r}
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name", 
-                   units = "occurrences", fontSize = 15, nodeWidth = 30, width=1200, height = 650)
+                   units = "occurrences", fontSize = 10, nodeWidth = 20, width=1500, height = 650)
 
 p
 ```
@@ -281,9 +283,40 @@ saveNetwork(p, "../docs/sankey_universe.html")
 
 ## Check numbers
 Number of unique dataset IDs that are part of the atlas
-```{r Check numbers}
+```{r atlas}
 
 atlas = sankey_universe %>% filter(is_atlas_dataset == TRUE)
 
 atlas$unique_dataset_id %>% unique() %>% length()
+```
+
+Non-atlas datasets
+```{r non-atlas datasets}
+
+# datasets that are RUI-registered but have have not been annotated
+no_cell_summary = sankey_universe %>% filter(is_rui_registered==TRUE, is.na(cell_type_annotation_tool), is_atlas_dataset==FALSE)
+print(glue("Datasets with extraction site but without cell summary: {no_cell_summary$unique_dataset_id %>% unique() %>% length()}")) 
+
+
+# datasets that are RUI-registered but have have no cell summary but are still atlas
+still_atlas = sankey_universe %>% filter(is_rui_registered==TRUE, is.na(cell_type_annotation_tool), is_atlas_dataset == TRUE)
+print(glue("Datasets with extraction site but without cell summary that are still atlas for some reason: {still_atlas$unique_dataset_id %>% unique() %>% length()}")) 
+print(glue("Dataset IDs:"))
+print(glue("{still_atlas$unique_dataset_id}"))
+
+
+# datasets that have a cell summary but cannot be rui-registered
+no_rui = sankey_universe %>% filter(is_rui_registered==FALSE, !is.na(cell_type_annotation_tool))
+print(glue("Datasets with cell summary but without extraction site: {no_rui$unique_dataset_id %>% unique() %>% length()}")) 
+
+
+# numberDatasets with neither
+neither = sankey_universe %>% filter(is_rui_registered == FALSE, is.na(cell_type_annotation_tool))
+print(glue("Datasets with neither: {neither$unique_dataset_id %>% unique() %>% length()}")) 
+
+# number of non-atlas datasets
+not_atlas = sankey_universe %>% filter(is_atlas_dataset == FALSE)
+print(glue("Non-atlas datasets total: {not_atlas$unique_dataset_id %>% unique() %>% length()}")) 
+
+
 ```
