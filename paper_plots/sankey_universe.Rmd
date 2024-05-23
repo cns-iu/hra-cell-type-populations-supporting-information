@@ -1,9 +1,9 @@
 ---
 title: "HRApop Sankey Universe"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 ---
 
 # Environment
@@ -47,6 +47,24 @@ sankey_universe = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"
 ```
 
 ## Create bins for donor age and BMI
+
+### Load CxG developmental stage (not in graph yet)
+```{r}
+
+cxg_age = read_csv("data/cxg-development-stage.csv")
+
+# add column headers
+names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
+
+
+```
+### Replace NAs in donor_developmental_stage  with values from cxg_age
+```{r} 
+
+sankey_universe <- sankey_universe %>% 
+  left_join(cxg_age, by = 'unique_dataset_id')
+```
+
 
 ### Define functions 
 ```{r}
@@ -108,20 +126,6 @@ subset_sankey = sankey_universe_with_bins %>%
   subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == FALSE] <- "Is not RUI-registered"
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == TRUE] <- "Is Atlas Dataset"
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == FALSE] <- "Is not Atlas Dataset"
-
-  # Recode strings that are too long
-  subset_sankey$donor_race[subset_sankey$donor_race == "Greater Middle Eastern (Middle Eastern or North African or Persian)"] <- "Greater Middle Eastern"
-  subset_sankey$donor_race[subset_sankey$donor_race == "Native American, Hispanic or Latin American"] <- "Native, Hispanic or Latin American"
-  subset_sankey$organ_name[subset_sankey$organ_name == "Set of lactiferous glands in right breast"] <- "Breast"
-
-  
-  # Define the string to search for
-search_string <- "Greater Middle Eastern"
-# Filter the tibble to find all values in 'text_column' that contain 'search_string'
-result <- subset_sankey %>%
-  filter(str_detect(donor_race, search_string))
-# Print the result
-print(result)
   
 ```
 
