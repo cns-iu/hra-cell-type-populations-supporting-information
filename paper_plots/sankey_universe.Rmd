@@ -92,6 +92,21 @@ labels_bmi = c("underweight", "healthy", "overweight", "obese")
 sankey_universe_with_bins$donor_age_binned = add_bin(sankey_universe_with_bins$donor_age, bins_age, labels_age)
 sankey_universe_with_bins$donor_bmi_binned = add_bin(sankey_universe_with_bins$donor_bmi, bins_bmi, labels_bmi)
 
+```
+
+### Assign developmetal_stage to bins
+```{r}
+
+sankey_universe_with_bins <- sankey_universe_with_bins %>% 
+  mutate(
+    AgeCategory = case_when(
+      AgeDescription %in% c("young", "young adult") ~ "Young",
+      AgeDescription %in% c("middle-aged", "adult") ~ "Adult",
+      AgeDescription %in% c("senior", "old", "elderly") ~ "Senior",
+      TRUE ~ "Unknown"
+    )
+  )
+
 
 ```
 
