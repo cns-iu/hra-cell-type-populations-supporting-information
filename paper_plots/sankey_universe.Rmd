@@ -117,7 +117,7 @@ sankey_universe_with_bins$donor_bmi_binned = add_bin(sankey_universe_with_bins$d
 ## Create subset and replace NAs, unify unknown values, adjust portal values
 ```{r}
 subset_sankey = sankey_universe_with_bins %>% 
-  select(portal, donor_sex, organ_name, cell_type_annotation_tool, donor_race, donor_bmi_binned, donor_age_binned, is_rui_registered, is_atlas_dataset) %>% 
+  select(portal, donor_sex, organ_name, dataset_id, unique_dataset_id, cell_type_annotation_tool, donor_race, donor_bmi_binned, donor_age_binned, is_rui_registered, is_atlas_dataset) %>% 
   
   # replace NAs
   replace_na(list(donor_sex = "Unknown Sex")) %>% 
@@ -140,12 +140,31 @@ subset_sankey = sankey_universe_with_bins %>%
   subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CxG"
   subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "CxG"
   
-  # turn LGL into meaningful CHAR for rui and atlas
-  subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == TRUE] <- "Is RUI-registered"
-  subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == FALSE] <- "Is not RUI-registered"
-  subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == TRUE] <- "Is Atlas Dataset"
-  subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == FALSE] <- "Is not Atlas Dataset"
+  # replace portal==HRA with HRA-OMAP
+  subset_sankey$portal[subset_sankey$portal == "HRA"] <- "HRA-OMAP"
   
+  # turn LGL into meaningful CHAR for rui and atlas
+  subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == TRUE] <- "RUI-registered"
+  subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == FALSE] <- "Not RUI-registered"
+  subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == TRUE] <- "Atlas Dataset"
+  subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == FALSE] <- "Not Atlas Dataset"
+    
+```
+
+##Remove duplictate rows
+```{r}
+ 
+# replace tool with sc-transcriptomics, no cell summary, sc-proteomics
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "azimuth"] <- "sc_transcriptomics with Cell Summary"
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "celltypist"] <- "sc_transcriptomics with Cell Summary"
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "popv"] <- "sc_transcriptomics with CellSsummary"#
+
+duplicates <- subset_sankey[duplicated(subset_sankey),]
+duplicates
+
+subset_sankey <- distinct(subset_sankey)
+print(subset_sankey)
+
 ```
 
 ## Map race/ethnicity values to race values
