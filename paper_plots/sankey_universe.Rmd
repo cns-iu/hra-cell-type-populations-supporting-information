@@ -155,9 +155,11 @@ subset_sankey = sankey_universe_with_bins %>%
 ```{r}
  
 # replace tool with sc-transcriptomics, no cell summary, sc-proteomics
-subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "azimuth"] <- "sc_transcriptomics with Cell Summary"
-subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "celltypist"] <- "sc_transcriptomics with Cell Summary"
-subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "popv"] <- "sc_transcriptomics with CellSsummary"#
+tool_replacement = "sc_transcriptomics with Cell Summary"
+
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "azimuth"] <- tool_replacement
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "celltypist"] <- tool_replacement
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "popv"] <- tool_replacement
 
 duplicates <- subset_sankey[duplicated(subset_sankey),]
 duplicates
