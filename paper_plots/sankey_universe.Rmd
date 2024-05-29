@@ -58,6 +58,7 @@ names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
 
 
 ```
+
 ### Replace NAs in donor_developmental_stage  with values from cxg_age
 ```{r} 
 
@@ -131,7 +132,7 @@ subset_sankey = sankey_universe_with_bins %>%
   mutate(organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "kidney", organ_name))
   
   # unify unknown values in race and sex
-  subset_sankey$donor_race[subset_sankey$donor_race == "Unknown"] <- "Unknown Race"
+  subset_sankey$donor_race[subset_sankey$donor_race == tolower("Unknown")] <- "Unknown Race"
   subset_sankey$donor_race[subset_sankey$donor_race == "na"] <- "Unknown Race"
   subset_sankey$donor_sex[subset_sankey$donor_sex == "Unknown"] <- "Unknown Sex"
   
@@ -145,6 +146,29 @@ subset_sankey = sankey_universe_with_bins %>%
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == TRUE] <- "Is Atlas Dataset"
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == FALSE] <- "Is not Atlas Dataset"
   
+```
+
+## Map race/ethnicity values to race values
+```{r}
+# export donor_race as CSV
+donor_race = as_tibble(subset_sankey$donor_race %>% unique())
+
+# set header
+donor_race = donor_race %>% rename(donor_race = value)
+
+# export
+write_csv(donor_race, "output/donor_race.csv")
+
+# read manually mapped CSV file back in
+race_mapped = read_csv("data/donor_race_mapped.csv")
+
+# replace race values in Sankey with mapped values
+subset_sankey <- subset_sankey %>%
+  left_join(race_mapped, by = "donor_race")
+
+# replace donor_race with mapped values
+subset_sankey$donor_race = subset_sankey$mapped_donor_race
+
 ```
 
 ## Create nodes
