@@ -1,9 +1,9 @@
 ---
 title: "HRApop Sankey Universe"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 ---
 
 # Environment
@@ -48,7 +48,25 @@ sankey_universe = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"
 
 ## Create bins for donor age and BMI
 
-### Define function to create bins
+### Load CxG developmental stage (not in graph yet)
+```{r}
+
+cxg_age = read_csv("data/cxg-development-stage.csv")
+
+# add column headers
+names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
+
+
+```
+### Replace NAs in donor_developmental_stage  with values from cxg_age
+```{r} 
+
+sankey_universe <- sankey_universe %>% 
+  left_join(cxg_age, by = 'unique_dataset_id')
+```
+
+
+### Define functions 
 ```{r}
 add_bin = function(original_column, bins, labels){
   # Create new column with bins
@@ -56,6 +74,7 @@ add_bin = function(original_column, bins, labels){
   
   return(as.character(result))
 }
+
 ```
 
 ### Add bins
@@ -65,13 +84,31 @@ add_bin = function(original_column, bins, labels){
 sankey_universe_with_bins = sankey_universe 
 
 # Create bins and labels
-bins_age = c(0, 18, 35, 50, 65, 85, 120)  # Define bin edges
-labels_age = c("Underage", "Young adult", "Adult", "Middle", "Senior", "Very senior") 
+# age bins see WHO at https://apps.who.int/gho/data/node.searo-metadata.AGEGROUP
+bins_age = c(0,1,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100)  # Define bin edges
+labels_age = c("<1 year", "1-4 years", "5-9 years", "10-14 years", "15-19 years", "20-24 years", "25-29 years", "30-34 years", "35-39 years", "40-44 years", "45-49 years", "50-54 years", "55-59 years", "60-64 years", "65-69 years", "70-74 years", "75-79 years", "80-84 years", "85-89 years", "90-94 years", "95-99 years") 
+
+# BMI bins
 bins_bmi = c(0,18.5, 24.9, 29.9, 30.0)
 labels_bmi = c("underweight", "healthy", "overweight", "obese")
 
 sankey_universe_with_bins$donor_age_binned = add_bin(sankey_universe_with_bins$donor_age, bins_age, labels_age)
 sankey_universe_with_bins$donor_bmi_binned = add_bin(sankey_universe_with_bins$donor_bmi, bins_bmi, labels_bmi)
+
+```
+
+### Assign developmetal_stage to bins
+```{r}
+
+# sankey_universe_with_bins <- sankey_universe_with_bins %>% 
+#   mutate(
+#     AgeCategory = case_when(
+#       AgeDescription %in% c("young", "young adult") ~ "Young",
+#       AgeDescription %in% c("middle-aged", "adult") ~ "Adult",
+#       AgeDescription %in% c("senior", "old", "elderly") ~ "Senior",
+#       TRUE ~ "Unknown"
+#     )
+#   )
 
 
 ```
@@ -107,8 +144,7 @@ subset_sankey = sankey_universe_with_bins %>%
   subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == FALSE] <- "Is not RUI-registered"
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == TRUE] <- "Is Atlas Dataset"
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == FALSE] <- "Is not Atlas Dataset"
-
-
+  
 ```
 
 ## Create nodes
