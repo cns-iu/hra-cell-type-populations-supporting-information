@@ -175,7 +175,7 @@ data_hp <- data %>%
                           values_fn = mean)
 
 # Convert DF to a matrix
-data_hpv <- data.matrix(data_hp[,2:ncol(data_hp)])
+data_hpv <- data.matrix(data_hp[,3:ncol(data_hp)])
 
 # Assign Row.names as organs
 rownames(data_hpv) <- paste0(data_hp$organ,"-",data_hp$as)

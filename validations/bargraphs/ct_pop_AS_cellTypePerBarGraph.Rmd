@@ -99,6 +99,173 @@ df$cell_label <- df$cell_label %>%
   str_replace("_"," ")
 ```
 
+#### Clean up Cell Labeling
+
+```{r cell_labs}
+# Creating Organ Subset for Cell Label clean-up
+
+# Heart - 1086 records
+hrt <- df[df$organ==levels(df$organ)[1],]
+tmp1 <- join(hrt[hrt$tool=="Azimuth",c(1:13)],
+             azi[azi$organ_level=="Heart_L2" &
+                 azi$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp2 <- join(hrt[hrt$tool=="popV",c(1:13)],
+             pop[pop$organ_level=="heart" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left") 
+tmp3 <- join(hrt[hrt$tool=="CellTypist",c(1:13)],
+             ctp[ctp$organ_level=="heart_L1" &
+                 ctp$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+hrt <- rbind(tmp1,tmp2,tmp3) 
+hrt[is.na(hrt$annotation_label),]$annotation_label <- 
+  hrt[is.na(hrt$annotation_label),]$cell_label
+names(hrt)[16] <- "cell_label2"
+
+# Lung - 826 records
+lng <- df[df$organ==levels(df$organ)[6],]
+tmp1 <- join(lng[lng$tool=="Azimuth",c(1:13)],
+             azi[azi$organ_level=="Lung_v2_L5" &
+                 azi$cell_match=="skos:exactMatch", c(3:6)],
+             by="cell_id", type="left")
+tmp2 <- join(lng[lng$tool=="popV",c(1:13)],
+             pop[pop$organ_level=="lung" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)],
+             by="cell_id", type="left")
+tmp3 <- join(lng[lng$tool=="CellTypist",c(1:13)],
+             ctp[ctp$organ_level=="Human_Lung_Atlas_pkl" &
+                 ctp$cell_match=="skos:exactMatch", c(3:6)],
+             by="cell_id", type="left")
+lng <- rbind(tmp1,tmp2,tmp3)
+names(lng)[16] <- "cell_label2"
+lng[is.na(lng$annotation_label),]$annotation_label <-
+  lng[is.na(lng$annotation_label),]$cell_label
+
+
+# Kidney - 898 records
+kid <- df[df$organ==levels(df$organ)[2],]
+kid <- join(kid[kid$tool=="Azimuth",c(1:13)],
+             azi[azi$organ_level=="Kidney_L3" &
+                 azi$cell_match=="skos:exactMatch", c(3:6)],
+             by="cell_id", type="left")
+
+names(kid)[16] <- "cell_label2"
+kid[is.na(kid$annotation_label),]$annotation_label <-
+  kid[is.na(kid$annotation_label),]$cell_label
+
+# Large Intestine - 1714 records
+lrg <- df[df$organ==levels(df$organ)[4],]
+tmp1 <- join(lrg[lrg$tool=="SC Proteomics",c(1:13)],
+             pop[pop$organ_level=="large intestine" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp2 <- join(lrg[lrg$tool=="popV",c(1:13)],
+             pop[pop$organ_level=="large intestine" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left") 
+tmp3 <- join(lrg[lrg$tool=="CellTypist",c(1:13)],
+             ctp[ctp$organ_level=="intestine_L1" &
+                 ctp$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+lrg <- rbind(tmp1,tmp2,tmp3) 
+names(lrg)[16] <- "cell_label2"
+lrg[is.na(lrg$annotation_label),]$annotation_label <-
+  lrg[is.na(lrg$annotation_label),]$cell_label
+
+# Small Intestine - 2012 records
+sml <- df[df$organ==levels(df$organ)[9],] 
+tmp1 <- join(sml[sml$tool=="SC Proteomics",c(1:13)],
+             pop[pop$organ_level=="small intestine" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp2 <- join(sml[sml$tool=="popV",c(1:13)],
+             pop[pop$organ_level=="small intestine" &
+                 pop$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left") 
+tmp3 <- join(sml[sml$tool=="CellTypist",c(1:13)],
+             ctp[ctp$organ_level=="intestine_L1" &
+                 ctp$cell_match=="skos:exactMatch", c(3:6)], 
+             by="cell_id", type="left")
+sml <- rbind(tmp1,tmp2,tmp3) 
+names(sml)[16] <- "cell_label2"
+sml[is.na(sml$annotation_label),]$annotation_label <-
+  sml[is.na(sml$annotation_label),]$cell_label
+
+# Clean up
+rm(tmp1,tmp2,tmp3)
+
+# Data with clean cell lables for pivots
+df2 <- rbind(hrt,lng,kid,lrg,sml) %>%
+  select(tool, modality, sex, organ, organId, as, as_id, cell_id, cell_label, 
+         annotation_label, cell_count, percentage, 
+         asct_relation_in_asctb_table, 
+         indirect_asct_relation_in_asctb_table )
+# Cell label corrections
+df2$annotation_label <- df2$annotation_label %>%
+                          str_replace(" Cells", "") %>%
+                          str_replace(" Cell", "") %>%
+                          str_replace("_cell", "") %>%
+                          str_replace(" cell", "") %>%
+                          str_replace("Cardiomyocytes", "Cardiomyocyte") %>%
+                          str_replace("Adipocytes", "Adipocyte") %>%
+                          str_replace("Ilc", "ILC")
+
+```
+
+#### Pivot - Identification of Common Cell Types
+
+The goal of this pivot table is to generate descriptive statistics for cell types associated with anatomical structures. Data is aggregated to identify cell types associated with given organ anatomical structures, and the tools that generated the cell type analysis results. Cell type statistics include, the count of anatomical structures related to a cell type, the mean & median of a cell type percentage measure.
+
+```{r piv-vt}
+# Pivot 1 - Count Records
+piv1 <- df2 %>% 
+  filter(asct_relation_in_asctb_table == 'true' |
+         indirect_asct_relation_in_asctb_table == 'true') %>%
+  select(tool, organ, as, cell_id, cell_label, annotation_label, 
+         cell_count, percentage) %>% 
+  #mutate(as = factor(as)) %>%
+  ddply(.(tool, organ, as, cell_id, annotation_label), summarise,
+        measure_ct = length(cell_count),
+        mean_cell_ct = mean(cell_count),
+        median_cell_ct = median(cell_count),
+        mean_cell_per = mean(percentage),
+        median_cell_per = median(percentage))
+# Pivot 2 - Count AS
+piv2 <- piv1 %>% 
+  ddply(.(tool, organ, cell_id, annotation_label), summarise,
+        as_ct = length(as),
+        measure_ct = sum(measure_ct),
+        mean_cell_ct = mean(mean_cell_ct),
+        median_cell_ct = median(median_cell_ct),
+        mean_cell_per = mean(mean_cell_per),
+        median_cell_per = median(median_cell_per)) %>% 
+  arrange(tool, desc(median_cell_per)) %>%
+  group_by(organ, tool) %>%
+  mutate(rank = rank(-median_cell_per))
+
+# Pivot 2 - Count Organ
+piv3 <- piv2 %>%  
+  ddply(.(tool, cell_id, annotation_label), summarise,
+        og_ct = length(organ),
+        as_ct = sum(as_ct),
+        measure_ct = sum(measure_ct),
+        mean_cell_ct = mean(mean_cell_ct),
+        median_cell_ct = median(median_cell_ct),
+        mean_cell_per = mean(mean_cell_per),
+        median_cell_per = median(median_cell_per)) %>%
+  arrange(tool, desc(og_ct), desc(median_cell_per)) %>%
+  group_by(tool) %>%
+  mutate(rank = rank(-median_cell_per))
+
+# Create filters of common cell types to exclude from analysis
+cell_filter <- piv3 %>%
+  ungroup() %>%
+  filter(og_ct >= 2) %>%
+  select(cell_id) %>%
+  distinct() 
+```
+
 ### Visualization
 
 Base design for 100% stacked bar graphs representing the cell types commonly identified in anatomical structures within donated organs.
@@ -118,31 +285,9 @@ Stacked bar represent top cell types associated with an organ anatomical structu
 
 The code chunk documents the general process used to prepare data for visualizations. In the first step, we subset data related to an single organ. Next, assign the best cell type name associated with an organ, based on the cell type annotation tool used. These tool subsets are re-combined and clean cell label is created. After cleaning the cell identifiers, the data is aggregated to determine the mean count and percentage of a cell types associated with tissue registration data, based on donor sex, analysis tools, and anatomical structure of an organ. After aggregation, cell types that make up at least 8% of cell type populations are selected for visualization. 
 
-```{r bar_heart_as_1, echo=TRUE, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
-# Heart - 730 records
-hrt <- df[df$organ==levels(df$organ)[1],]
-
-#Updating cell labels for heart
-tmp1 <- join(hrt[hrt$tool=="Azimuth",c(1:11)],
-             azi[azi$organ_level=="Heart_L2" &
-                 azi$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left")
-tmp2 <- join(hrt[hrt$tool=="popV",c(1:11)],
-             pop[pop$organ_level=="heart" &
-                 pop$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left") 
-tmp3 <- join(hrt[hrt$tool=="CellTypist",c(1:11)],
-             ctp[ctp$organ_level=="heart_L1" &
-                 ctp$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left")
-tmp3[is.na(tmp3$annotation_label),]$annotation_label <- 
-  tmp3[is.na(tmp3$annotation_label),]$cell_label
-
-# Combine temp files
-hrt <- rbind(tmp1,tmp2,tmp3) 
-names(hrt)[14] <- "cell_label2"
-
-hrt <- hrt %>% 
+```{r bar_heart_as_1, echo=TRUE, fig.height=12, fig.width=14, message=FALSE, warning=FALSE}
+hrt <- hrt %>%
+  filter(!cell_id %in% cell_filter$cell_id) %>%
   select(organ,as,cell_id,cell_label,annotation_label,
          cell_count,percentage,tool,sex) %>%
   mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
@@ -153,44 +298,91 @@ hrt <- hrt %>%
   arrange(sex, tool, as, desc(mn_pct)) %>%
   group_by(sex, tool, as) %>%
   mutate(rank = row_number()) %>%
-  filter(mn_pct >= .08)
+  ungroup()
+  
+hrt2 <- hrt %>%  
+  filter(mn_pct >= .02)
 
 # Factoring AS and Cell Types for heart
-hrt$as <- factor(hrt$as, 
+hrt2$as <- factor(hrt2$as, 
                  levels=c("Left Ventricle","Right Ventricle",
                           "Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle",
                           "Interventricular Septum","Left Cardiac Atrium","Right Cardiac Atrium"),
                  labels=c("Left Ventricle","Right Ventricle","Left Ventricle",
                           "Interventricular Septum","Left Cardiac Atrium","Right Cardiac Atrium"))
-hrt$cell_lab <- factor(hrt$cell_lab,
-                       levels=c("CL:0000057: Fibroblast","CL:0000057: Fibroblasts",
-                                "CL:0002548: Fibroblast Of Cardiac Tissue","CL:0000746: Cardiac Muscle Cell",
-                                "CL:0000192: Smooth Muscle Cell","CL:0000235: Macrophage",
-                                "CL:0000235: MoMP","CL:0000236: B","CL:0000669: PC1 vent",
-                                "CL:0000669: PC3 str","CL:0000669: Pericyte","CL:0002129: Atrial Cardiomyocyte",
-                                "CL:0002129: Atrial Cardiomyocytes","CL:0002131: Ventricular Cardiomycoyte",
-                                "CL:0002131: Ventricular Cardiomyocytes","CL:0002144: Capillary Endothelial",
-                                "CL:0002144: Capillary Endothelial Cells","CL:0010008: Cardiac Endothelial Cell",
-                                "CL:1000413: Arterial Endothelial"),
-                        labels=c("CL:0000057: Fibroblast","CL:0000057: Fibroblast",
-                                 "CL:0002548: Fibroblast","CL:0000746: Cardiac Muscle Cell",
-                                 "CL:0000192: Smooth Muscle Cell","CL:0000235: Macrophage",
-                                 "CL:0000235: Macrophage","CL:0000236: B","CL:0000669: Pericyte",
-                                 "CL:0000669: Pericyte","CL:0000669: Pericyte","CL:0002129: Atrial Cardiomyocyte",
-                                 "CL:0002129: Atrial Cardiomyocyte","CL:0002131: Ventricular Cardiomycoyte",
-                                 "CL:0002131: Ventricular Cardiomyocyte","CL:0002144: Capillary Endothelial",
-                                 "CL:0002144: Capillary Endothelial","CL:0010008: Cardiac Endothelial",
-                                 "CL:1000413: Arterial Endothelial"))
+
+hrt2$cell_lab <- factor(hrt2$cell_lab,
+                        levels=c("CL:0000115: EC10 CMC-like",
+                                  "CL:0000115: EC4 immune",
+                                  "CL:0000136: Adipocyte",                  
+                                  "CL:0000136: Adipocytes",
+                                  "CL:0000182: Hepatocyte",
+                                  "CL:0000623: Nk",
+                                  "CL:0000669: PC1 vent",
+                                  "CL:0000669: PC2 atria",
+                                  "CL:0000669: PC3 str",
+                                  "CL:0000669: Pericyte",
+                                  "CL:0000746: Cardiac Muscle Cell",
+                                  "CL:0000359: Basic Smc",
+                                  "CL:0002129: Atrial Cardiomyocyte",
+                                  "CL:0002129: Atrial Cardiomyocytes",
+                                  "CL:0002131: Ventricular Cardiomycoyte",   
+                                  "CL:0002131: Ventricular Cardiomyocytes",
+                                  "CL:0002350: EC7 endocardial",
+                                  "CL:0002350: Endocardial",
+                                  "CL:0002396: CD16+Mo",
+                                  "CL:0002548: Fibroblast Of Cardiac Tissue",
+                                  "CL:0002573: Neuronal",                   
+                                  "CL:0010020: NC1 glial",
+                                  "CL:0011031: Monocyte/Cdc",
+                                  "CL:0010008: Cardiac Endothelial Cell",
+                                  "CL:1000413: Arterial Endothelial",
+                                  "CL:1000413: Arterial Endothelial Cells",
+                                  "CL:0002543: Venous Endothelial Cells",
+                                  "CL:0002144: Capillary Endothelial",
+                                  "CL:0002144: Capillary Endothelial Cells", 
+                                  "CL:1000414: Venous Endothelial"),
+                         labels=c("CL:0000115: EC10 CMC-like",
+                                  "CL:0000115: EC4 immune",
+                                  "CL:0000136: Adipocyte",                  
+                                  "CL:0000136: Adipocyte",
+                                  "CL:0000182: Hepatocyte",
+                                  "CL:0000623: Nk",
+                                  "CL:0000669: Pericyte",
+                                  "CL:0000669: Pericyte",
+                                  "CL:0000669: Pericyte",
+                                  "CL:0000669: Pericyte",
+                                  "CL:0000746: Cardiac Muscle Cell",
+                                  "CL:0000359: Basic Smc", 
+                                  "CL:0002129: Atrial Cardiomyocyte",
+                                  "CL:0002129: Atrial Cardiomyocyte",
+                                  "CL:0002131: Ventricular Cardiomycoyte",   
+                                  "CL:0002131: Ventricular Cardiomyocyte",
+                                  "CL:0002350: Endocardial",
+                                  "CL:0002350: Endocardial",
+                                  "CL:0002396: CD16+Mo",
+                                  "CL:0002548: Fibroblast Of Cardiac Tissue",
+                                  "CL:0002573: Neuronal",                   
+                                  "CL:0010020: NC1 glial",
+                                  "CL:0011031: Monocyte/Cdc",
+                                  "CL:0010008: Cardiac Endothelial Cell",
+                                  "CL:1000413: Arterial Endothelial",
+                                  "CL:1000413: Arterial Endothelial",
+                                  "CL:0002543: Venous Endothelial",
+                                  "CL:0002144: Capillary Endothelial",
+                                  "CL:0002144: Capillary Endothelial", 
+                                  "CL:1000414: Venous Endothelial"))
+
 
 # Visualization
-color_pal_kid2 <- c("#556E6F","#70A5A8","#8DC599","#6F9A78",
-                    "#E97B74","#EDB8AC","#F9CE8D","#7495AF","#A1ACD2","#BAD2E7",
-                    "#E9E4F3","#D6B6D7","#A295C9","#CD8490","#A26771","#9C534E",
-                    "#675868","#C39A5D","#A17F4D",
+color_pal_kid2 <- c("#80CBC4","#B2DFDB","#FFE082","#FF8A65","#D4E157","#4CAF50",
+                    "#C62828","#E57373","#81D4FA","#4FC3F7","#03A9F4","#F8BBD0",
+                    "#FFF176","#BBDEFB","#A5D6A7","#AED581","#7986CB",
+                    "#E1BEE7","#CE93D8","#BA68C8","#9C27B0","#7B1FA2",
                     "#C4C5C6","#A2A3A4","#818182","#5F6060","#3D3E3E","#cdcecf")
 
 
-hrt_bg <- hrt %>% arrange(sex,tool,as,mn_pct) %>%
+hrt_bg <- hrt2 %>% arrange(sex,tool,as,mn_pct) %>%
               ggplot(aes(x=as,y=mn_pct)) +
                 geom_bar(aes(fill=cell_lab), stat="identity") +
                 facet_wrap(facets=vars(tool, sex), ncol=2) +
@@ -215,33 +407,6 @@ hrt_bg
 #### Lung - Anatomical Structure - Cell Types
 
 ```{r bar_lung_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
-# Lung - 82cell_lab# Lung - 826 records
-lng <- df[df$organ==levels(df$organ)[6],]
-
-# tmp1 <- join(lng[lng$tool=="Azimuth",c(1:11)],
-#              azi[azi$organ_level=="Lung_v2_L5" &
-#                  azi$cell_match=="skos:exactMatch", c(3:6)], 
-#              by="cell_id", type="left")
-# tmp1[is.na(tmp1$annotation_label),]$annotation_label <- 
-#   tmp1[is.na(tmp1$annotation_label),]$cell_label
-# 
-# tmp2 <- join(lng[lng$tool=="popV",c(1:11)],
-#              pop[pop$organ_level=="lung" &
-#                  pop$cell_match=="skos:exactMatch", c(3:6)], 
-#              by="cell_id", type="left") 
-# tmp2[is.na(tmp3$annotation_label),]$annotation_label <- 
-#   tmp2[is.na(tmp2$annotation_label),]$cell_label
-# 
-# tmp3 <- join(lng[lng$tool=="CellTypist",c(1:11)],
-#              ctp[ctp$organ_level=="Human_Lung_Atlas_pkl" &
-#                  ctp$cell_match=="skos:exactMatch", c(3:6)], 
-#              by="cell_id", type="left")
-# tmp3[is.na(tmp3$annotation_label),]$annotation_label <- 
-#   tmp3[is.na(tmp3$annotation_label),]$cell_label
-# 
-# # Combine temp files
-# lng <- rbind(tmp1,tmp2,tmp3) 
-# names(lng)[14] <- "cell_label2"
 
 lng <- lng %>%
   select(organ,as,cell_id,cell_label,#annotation_label,
@@ -343,16 +508,7 @@ lng_bg
 #### Kidney - Anatomical Structure - Cell Types
 
 ```{r bar_kidney_as_1, fig.height=6, fig.width=14}
-# Kidney - 898 records - 449 row agg.
-kid <- df[df$organ==levels(df$organ)[2],]
 
-kid <- join(kid[kid$tool=="Azimuth",c(1:11)],
-             azi[azi$organ_level=="Kidney_L3" &
-                 azi$cell_match=="skos:exactMatch", c(3:6)],
-             by="cell_id", type="left")
-names(kid)[14] <- "cell_label2"
-kid[is.na(kid$annotation_label),]$annotation_label <-
-  kid[is.na(kid$annotation_label),]$cell_label
 
 kid <- kid %>%
   select(organ,as,cell_id,annotation_label,
@@ -424,32 +580,6 @@ kid_bg
 
 ```{r bar_largeIntestine_as_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
 
-# Large Intestine - 1714 records
-lrg <- df[df$organ==levels(df$organ)[4],]
-
-#Updating cell labels for heart
-tmp1 <- join(lrg[lrg$tool=="SC Proteomics",c(1:11)],
-             pop[pop$organ_level=="large intestine" &
-                 pop$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left")
-tmp2 <- join(lrg[lrg$tool=="popV",c(1:11)],
-             pop[pop$organ_level=="large intestine" &
-                 pop$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left") 
-tmp3 <- join(lrg[lrg$tool=="CellTypist",c(1:11)],
-             ctp[ctp$organ_level=="intestine_L1" &
-                 ctp$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left")
-tmp3[is.na(tmp3$annotation_label),]$annotation_label <- 
-  tmp3[is.na(tmp3$annotation_label),]$cell_label
-
-# Combine temp files
-lrg <- rbind(tmp1,tmp2,tmp3) 
-names(lrg)[14] <- "cell_label2"
-
-# Updates NA annotations - missing from crosswalk
-lrg[is.na(lrg$annotation_label),]$annotation_label <-
-  lrg[is.na(lrg$annotation_label),]$cell_label
   
 # Select data for visualization
 lrg <- lrg %>%
@@ -541,31 +671,6 @@ lrg_bg
 
 ```{r bar_smallIntestine_as_1, fig.height=12, fig.width=14, message=FALSE, warning=FALSE, paged.print=FALSE}
 
-# Small Intestine - 2012 records
-sml <- df[df$organ==levels(df$organ)[9],] 
-
-tmp1 <- join(sml[sml$tool=="SC Proteomics",c(1:11)],
-             pop[pop$organ_level=="small intestine" &
-                 pop$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left")
-tmp2 <- join(sml[sml$tool=="popV",c(1:11)],
-             pop[pop$organ_level=="small intestine" &
-                 pop$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left") 
-tmp3 <- join(sml[sml$tool=="CellTypist",c(1:11)],
-             ctp[ctp$organ_level=="intestine_L1" &
-                 ctp$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left")
-tmp3[is.na(tmp3$annotation_label),]$annotation_label <- 
-  tmp3[is.na(tmp3$annotation_label),]$cell_label
-
-# Combine temp files
-sml <- rbind(tmp1,tmp2,tmp3) 
-names(sml)[14] <- "cell_label2"
-
-# Updates NA annotations - missing from crosswalk
-sml[is.na(sml$annotation_label),]$annotation_label <-
-  sml[is.na(sml$annotation_label),]$cell_label
   
 # Prepare for visualization
 sml <- sml %>% 
