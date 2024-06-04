@@ -163,7 +163,7 @@ gene_sets_o1$facs <- factor(gene_sets_o1$facs,
 
 
 # Visualization
-color_pal <- c("#E97B74","#F9CE8D","#A295C9","#7495AF","#8DC599")
+color_pal <- c("#EF5350","#FFD54F","#9575CD","#0288D1","#4CAF50")
                   
 overall_dr <- gene_sets_o1 %>%
               ggplot(aes(x=log(mean_gene_expression_value), y=facs)) +
@@ -177,9 +177,9 @@ overall_dr <- gene_sets_o1 %>%
 # Export visualization
 ggsave(file=paste0("../output/densityplots/overall_top20_gene_expression_v0.1.pdf"),
        overall_dr, width=5, height=6.5, units="in")
-
 ggsave(file=paste0("../output/densityplots/overall_top20_gene_expression_v0.1.png"),
        overall_dr, width=5, height=6.5, units="in")
+
 overall_dr
 ```
 
