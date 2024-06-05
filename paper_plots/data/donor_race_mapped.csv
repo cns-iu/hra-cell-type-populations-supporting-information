@@ -6,8 +6,8 @@ African,"Black, African-American, or Afro-Carribean"
 South Asian,Asian
 East Asian,Asian
 Asian,Asian
-Hispanic or Latin American,"Native American,Hispanic or Latin American"
-"Native American,Hispanic or Latin American","Native American,Hispanic or Latin American"
+Hispanic or Latin American,"Native American, Hispanic or Latin American"
+"Native American,Hispanic or Latin American","Native American, Hispanic or Latin American"
 Greater Middle Eastern  (Middle Eastern or North African or Persian),White
 African American,"Black, African-American, or Afro-Carribean"
 Pacific Islander,Pacific Islander
@@ -17,7 +17,7 @@ Irish,White
 Bangladeshi,Asian
 "European,Asian",Unknown Race
 American,Unknown Race
-Native American,"Native American,Hispanic or Latin American"
+Native American,"Native American, Hispanic or Latin American"
 Oceanian,Unknown Race
 Jewish Israeli,White
 Finnish,White

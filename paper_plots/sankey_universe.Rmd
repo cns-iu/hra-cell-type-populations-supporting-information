@@ -146,9 +146,10 @@ subset_sankey = sankey_universe_with_bins %>%
   subset_sankey$donor_race[subset_sankey$donor_race == "na"] <- "Unknown Race"
   subset_sankey$donor_sex[subset_sankey$donor_sex == "Unknown"] <- "Unknown Sex"
   
-  # replace HCA and LungMAP with CxG
-  subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CxG"
-  subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "CxG"
+  # fix portal names
+  subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CZ CELLxGENE"
+  subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "CZ CELLxGENE"
+  subset_sankey$portal[subset_sankey$portal == "CxG"] <- "CZ CELLxGENE"
   
   # replace portal==HRA with HRA-OMAP
   subset_sankey$portal[subset_sankey$portal == "HRA"] <- "HRA-OMAP"
