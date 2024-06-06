@@ -104,15 +104,23 @@ cell_ids_count <-
   ddply(.(cell_id), summarise,
         count = length(cell_label))
 cell_ids_unique <- 
-  right_join(cell_ids_unique,cell_ids_count, by="cell_id") %>%
+  right_join(cell_ids_unique, cell_ids_count, by="cell_id") %>%
   arrange(desc(count), cell_id)
+
+## Identify Unique Pairs of AS-Cell Type combinations
+as_cell_ids_unique <- 
+  unique(df[,c(4,6,7,8)]) %>%
+  arrange(as_id,cell_id)
+
 # Export results
 write.csv(cell_ids_unique, file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_cellLabels.csv"),
           row.names = FALSE)
 write.csv(cell_ids_count, file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_countLabels.csv"),
           row.names = FALSE)
+write.csv(as_cell_ids_unique, file=paste0("../bargraphs/HRApop_Organ-AS-CellTypes_List.csv"),
+          row.names = FALSE)
 
-rm(cell_ids_unique, cell_ids_count)
+rm(cell_ids_unique, cell_ids_count, as_cell_ids_unique)
 ```
 
 ## Clean up Cell Labeling
