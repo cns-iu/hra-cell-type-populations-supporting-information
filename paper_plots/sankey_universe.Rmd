@@ -1,9 +1,9 @@
 ---
 title: "HRApop Sankey Universe"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 # Environment
@@ -48,24 +48,6 @@ sankey_universe = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"
 
 ## Create bins for donor age and BMI
 
-### Load CxG developmental stage (not in graph yet)
-```{r}
-
-cxg_age = read_csv("data/cxg-development-stage.csv")
-
-# add column headers
-names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
-
-
-```
-
-### Replace NAs in donor_developmental_stage  with values from cxg_age
-```{r} 
-
-sankey_universe <- sankey_universe %>% 
-  left_join(cxg_age, by = 'unique_dataset_id')
-```
-
 
 ### Define functions 
 ```{r}
@@ -78,6 +60,35 @@ add_bin = function(original_column, bins, labels){
 
 ```
 
+## Handle CxG age
+
+### Load CxG developmental stage (not in hra-pop graph yet)
+```{r}
+
+# load sheet with CxG age values
+cxg_age = read_csv("data/cxg-development-stage.csv")
+
+# add column headers
+names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
+
+# extract age using {stringr}
+cxg_age= cxg_age %>% 
+  mutate(
+    contains_number = str_detect(donor_developmental_stage_cxg, "\\d"),
+     extracted_age_number = as.numeric(str_extract(donor_developmental_stage_cxg, "\\d+"))
+         ) 
+```
+
+### Extract numbers and assign as age
+```{r}
+
+# join main tibble with cxG-age tibble with extracted age numbers, replace donor_age if new age value provided
+sankey_universe <- sankey_universe %>%
+  left_join(cxg_age, by = "unique_dataset_id") %>% 
+  mutate(donor_age = if_else(is.na(extracted_age_number) | contains_number == FALSE, donor_age, extracted_age_number)) %>%
+  select(-extracted_age_number, -contains_number)
+```
+
 ### Add bins
 ```{r message=FALSE}
 
@@ -87,7 +98,7 @@ sankey_universe_with_bins = sankey_universe
 # Create bins and labels
 # age bins see WHO at https://apps.who.int/gho/data/node.searo-metadata.AGEGROUP
 bins_age = c(0,1,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100)  # Define bin edges
-labels_age = c("<1 year", "1-4 years", "5-9 years", "10-14 years", "15-19 years", "20-24 years", "25-29 years", "30-34 years", "35-39 years", "40-44 years", "45-49 years", "50-54 years", "55-59 years", "60-64 years", "65-69 years", "70-74 years", "75-79 years", "80-84 years", "85-89 years", "90-94 years", "95-99 years") 
+labels_age = c("<1 Year", "1-4 Years", "5-9 Years", "10-14 Years", "15-19 years", "20-24 Years", "25-29 Years", "30-34 Years", "35-39 Years", "40-44 Years", "45-49 Years", "50-54 Years", "55-59 Years", "60-64 Years", "65-69 Years", "70-74 Years", "75-79 Years", "80-84 Years", "85-89 Years", "90-94 Years", "95-99 Years") 
 
 # BMI bins
 bins_bmi = c(0,18.5, 24.9, 29.9, 30.0)
@@ -95,22 +106,6 @@ labels_bmi = c("underweight", "healthy", "overweight", "obese")
 
 sankey_universe_with_bins$donor_age_binned = add_bin(sankey_universe_with_bins$donor_age, bins_age, labels_age)
 sankey_universe_with_bins$donor_bmi_binned = add_bin(sankey_universe_with_bins$donor_bmi, bins_bmi, labels_bmi)
-
-```
-
-### Assign developmetal_stage to bins
-```{r}
-
-# sankey_universe_with_bins <- sankey_universe_with_bins %>% 
-#   mutate(
-#     AgeCategory = case_when(
-#       AgeDescription %in% c("young", "young adult") ~ "Young",
-#       AgeDescription %in% c("middle-aged", "adult") ~ "Adult",
-#       AgeDescription %in% c("senior", "old", "elderly") ~ "Senior",
-#       TRUE ~ "Unknown"
-#     )
-#   )
-
 
 ```
 
@@ -132,14 +127,14 @@ subset_sankey = sankey_universe_with_bins %>%
   replace_na(list(donor_bmi_binned = "Unknown BMI")) %>%
   replace_na(list(donor_age_binned = "Unknown Age")) %>%
   
-  # mutate(
-  # # make organs lowercase
-  # organ_name = str_to_title(organ_name)
-  # ) %>% 
+  mutate(
+  # make organs lowercase
+  organ_name = str_to_title(organ_name)
+  ) %>%
   
   mutate(
     # unify left and right kidney
-    organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "kidney", organ_name))
+    organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "Kidney", organ_name))
   
   # unify unknown values in race and sex
   subset_sankey$donor_race[subset_sankey$donor_race == tolower("Unknown")] <- "Unknown Race"
