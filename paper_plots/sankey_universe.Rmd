@@ -70,6 +70,10 @@ cxg_age = read_csv("data/cxg-development-stage.csv")
 
 # add column headers
 names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
+```
+
+### Extract numbers and assign as age
+```{r}
 
 # extract age using {stringr}
 cxg_age= cxg_age %>% 
@@ -77,10 +81,6 @@ cxg_age= cxg_age %>%
     contains_number = str_detect(donor_developmental_stage_cxg, "\\d"),
      extracted_age_number = as.numeric(str_extract(donor_developmental_stage_cxg, "\\d+"))
          ) 
-```
-
-### Extract numbers and assign as age
-```{r}
 
 # join main tibble with cxG-age tibble with extracted age numbers, replace donor_age if new age value provided
 sankey_universe <- sankey_universe %>%
