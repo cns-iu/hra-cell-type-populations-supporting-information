@@ -48,17 +48,6 @@ sankey_universe = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"
 
 ## Create bins for donor age and BMI
 
-### Load CxG developmental stage (not in graph yet)
-```{r}
-
-cxg_age = read_csv("data/cxg-development-stage.csv")
-
-# add column headers
-names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
-
-
-```
-
 ### Replace NAs in donor_developmental_stage  with values from cxg_age
 ```{r} 
 
@@ -98,6 +87,28 @@ sankey_universe_with_bins$donor_bmi_binned = add_bin(sankey_universe_with_bins$d
 
 ```
 
+## Handle CxG age
+
+### Load CxG developmental stage (not in graph yet)
+```{r}
+
+cxg_age = read_csv("data/cxg-development-stage.csv")
+
+# add column headers
+names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
+
+# get unique age values
+cxg_age$donor_developmental_stage_cxg %>% unique
+
+cxg_age %>% 
+  mutate(
+    contains_number = str_detect(donor_developmental_stage_cxg, "\\d"),
+     extracted_number = str_extract(donor_developmental_stage_cxg, "\\d+")
+         ) %>% view()
+
+
+```
+
 ### Assign developmetal_stage to bins
 ```{r}
 
@@ -132,14 +143,14 @@ subset_sankey = sankey_universe_with_bins %>%
   replace_na(list(donor_bmi_binned = "Unknown BMI")) %>%
   replace_na(list(donor_age_binned = "Unknown Age")) %>%
   
-  # mutate(
-  # # make organs lowercase
-  # organ_name = str_to_title(organ_name)
-  # ) %>% 
+  mutate(
+  # make organs lowercase
+  organ_name = str_to_title(organ_name)
+  ) %>%
   
   mutate(
     # unify left and right kidney
-    organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "kidney", organ_name))
+    organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "Kidney", organ_name))
   
   # unify unknown values in race and sex
   subset_sankey$donor_race[subset_sankey$donor_race == tolower("Unknown")] <- "Unknown Race"
