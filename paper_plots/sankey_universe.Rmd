@@ -1,9 +1,9 @@
 ---
 title: "HRApop Sankey Universe"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 # Environment
@@ -65,14 +65,13 @@ add_bin = function(original_column, bins, labels){
 ### Load CxG developmental stage (not in hra-pop graph yet)
 ```{r}
 
+# load sheet with CxG age values
 cxg_age = read_csv("data/cxg-development-stage.csv")
 
 # add column headers
 names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
 
-# get unique age values
-cxg_age$donor_developmental_stage_cxg %>% unique
-
+# extract age using {stringr}
 cxg_age= cxg_age %>% 
   mutate(
     contains_number = str_detect(donor_developmental_stage_cxg, "\\d"),
@@ -83,14 +82,11 @@ cxg_age= cxg_age %>%
 ### Extract numbers and assign as age
 ```{r}
 
-# result = sankey_universe
-
+# join main tibble with cxG-age tibble with extracted age numbers, replace donor_age if new age value provided
 sankey_universe <- sankey_universe %>%
   left_join(cxg_age, by = "unique_dataset_id") %>% 
   mutate(donor_age = if_else(is.na(extracted_age_number) | contains_number == FALSE, donor_age, extracted_age_number)) %>%
   select(-extracted_age_number, -contains_number)
-
-# result %>% view()
 ```
 
 ### Add bins
