@@ -1,7 +1,7 @@
 ---
 title: "CT-Pop Cell Type Stacked Bar Graphs Notebook"
 output:
- html_document
+   html_document
 ---
 
 # Environment 
@@ -15,6 +15,17 @@ library(ggplot2)
 library(stringr)
 
 options(scipen = 999)
+
+knitr::opts_chunk$set(
+    echo = FALSE,
+    message = FALSE,
+    warning = FALSE,
+    fig.align='center',
+    fig.pos='H',
+    fig.path = "../output/barplots/",
+    dev = c("pdf"),
+    dpi=500
+)
 ```
 
 # Load Data
