@@ -1,20 +1,7 @@
 ---
 title: "CT-Pop Cell Type Stacked Bar Graphs Notebook"
 output:
-  # html_document:
-  # df_print: paged
-  pdf_document: 
-    dev: pdf
-    fig_caption: no
-    number_sections: yes
-    toc: yes
-    toc_depth: 3
-documentclass: article
-urlcolor: blue
-classoption: a4paper
-header-includes:
-- \usepackage{graphicx}
-- \usepackage{float}
+ html_document
 ---
 
 # Environment 
