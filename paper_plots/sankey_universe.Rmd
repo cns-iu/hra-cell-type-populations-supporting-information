@@ -175,6 +175,12 @@ print(subset_sankey)
 
 ```
 
+## Temporary fix for SenNet atlas datasets
+``` {r}
+
+subset_sankey$cell_type_annotation_tool[subset_sankey$portal == "SenNet" & subset_sankey$is_atlas_dataset == "Atlas Dataset"] <- tool_replacement
+```
+
 ## Map race/ethnicity values to race values
 ```{r}
 # export donor_race as CSV
@@ -195,7 +201,6 @@ subset_sankey <- subset_sankey %>%
 
 # replace donor_race with mapped values
 subset_sankey$donor_race = subset_sankey$mapped_donor_race
-
 ```
 
 ## Create nodes
