@@ -1,5 +1,5 @@
 ---
-title: "CT-Pop Biomarker Density Graphs Notebook"
+title: "CTpop Biomarker Density Graphs Notebook"
 output: html_document
 ---
 
@@ -163,7 +163,7 @@ gene_sets_o1$facs <- factor(gene_sets_o1$facs,
 
 
 # Visualization
-color_pal <- c("#E97B74","#F9CE8D","#A295C9","#7495AF","#8DC599")
+color_pal <- c("#EF5350","#FFD54F","#9575CD","#0288D1","#4CAF50")
                   
 overall_dr <- gene_sets_o1 %>%
               ggplot(aes(x=log(mean_gene_expression_value), y=facs)) +
@@ -177,9 +177,9 @@ overall_dr <- gene_sets_o1 %>%
 # Export visualization
 ggsave(file=paste0("../output/densityplots/overall_top20_gene_expression_v0.1.pdf"),
        overall_dr, width=5, height=6.5, units="in")
-
 ggsave(file=paste0("../output/densityplots/overall_top20_gene_expression_v0.1.png"),
        overall_dr, width=5, height=6.5, units="in")
+
 overall_dr
 ```
 
@@ -206,7 +206,7 @@ heart$facs <- factor(heart$facs,
 color_org <- c("#EF5350")
 
 # Visualization
-hrt_dr <- heart %>% 
+heart_plot <- heart %>% 
             filter(facs != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
                        y=facs)) +
@@ -220,10 +220,10 @@ hrt_dr <- heart %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_v0.1.pdf"),
-       hrt_dr, width=4.75, height=6, units="in")
+       heart_plot, width=4.75, height=6, units="in")
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_v0.1.png"),
-       hrt_dr, width=4.75, height=6, units="in")
-hrt_dr
+       heart_plot, width=4.75, height=6, units="in")
+heart_plot
 ```
 
 ### By Tools
@@ -240,7 +240,7 @@ heart_tools <- gene_sets_t %>%
 labs <- unique(heart_tools[order(heart_tools$max_cells),c(1,3,7)]) %>%
   mutate(facs = paste0(gene," (",max_cells,")")) %>%
   filter(gene != "NA") %>%
-  arrange(tool, desc(max_cells))
+  arrange(tool, max_cells)
 heart_tools <- left_join(heart_tools,labs[,c(1,2,4)],by=c("tool","gene"))
 heart_tools$facs <- factor(heart_tools$facs, 
                            levels=labs$facs)
@@ -250,7 +250,7 @@ color_org <- c("#EF5350","#E57373","#EF9A9A")
 
 # Visualization
 # Azimuth
-hrt_dr_az <- heart_tools %>% 
+heart_tools_azimuth <- heart_tools %>% 
                 filter(facs != "NA") %>%
                 filter(tool == "Azimuth") %>%
                 ggplot(aes(x=log(mean_gene_expression_value), 
@@ -265,12 +265,12 @@ hrt_dr_az <- heart_tools %>%
                   theme(legend.position = "none")
 # Export pdf
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_AZ_v0.1.pdf"),
-       hrt_dr_az, width=5, height=5, units="in")
+       heart_tools_azimuth, width=5, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_AZ_v0.1.png"),
-       hrt_dr_az, width=5, height=5, units="in")
+       heart_tools_azimuth, width=5, height=5, units="in")
 
 # CellTypist 
-hrt_dr_ct <- heart_tools %>% 
+heart_tools_celltypist <- heart_tools %>% 
                 filter(facs != "NA") %>%
                 filter(tool == "CellTypist") %>%
                 ggplot(aes(x=log(mean_gene_expression_value), 
@@ -285,12 +285,12 @@ hrt_dr_ct <- heart_tools %>%
                   theme(legend.position = "none")
 # Export pdf
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_CT_v0.1.pdf"),
-       hrt_dr_ct, width=5, height=5, units="in")
+       heart_tools_celltypist, width=5, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_CT_v0.1.png"),
-       hrt_dr_ct, width=5, height=5, units="in")
+       heart_tools_celltypist, width=5, height=5, units="in")
 
 # PopV
-hrt_dr_pv <- heart_tools %>% 
+heart_tools_popv <- heart_tools %>% 
                 filter(facs != "NA") %>%
                 filter(tool == "PopV") %>%
                 ggplot(aes(x=log(mean_gene_expression_value), 
@@ -306,13 +306,13 @@ hrt_dr_pv <- heart_tools %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_PV_v0.1.pdf"),
-       hrt_dr_pv, width=4, height=5, units="in")
+       heart_tools_popv, width=4, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/heart_top20_gene_expression_PV_v0.1.png"),
-       hrt_dr_pv, width=4, height=5, units="in")
+       heart_tools_popv, width=4, height=5, units="in")
 
-hrt_dr_az
-hrt_dr_ct
-hrt_dr_pv
+heart_tools_azimuth
+heart_tools_celltypist
+heart_tools_popv
 ```
 
 
@@ -337,7 +337,7 @@ lung$facs <- factor(lung$facs,
 color_org <- c("#FFD54F")
 
 # Visualization
-lung_dr <- lung %>% 
+lung_plot <- lung %>% 
             filter(facs != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
                        y=facs)) +
@@ -351,10 +351,10 @@ lung_dr <- lung %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_v0.1.pdf"),
-       lung_dr, width=4.75, height=6, units="in")
+       lung_plot, width=4.75, height=6, units="in")
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_v0.1.png"),
-       lung_dr, width=4.75, height=6, units="in")
-lung_dr
+       lung_plot, width=4.75, height=6, units="in")
+lung_plot
 ```
 
 ### By Tools
@@ -371,7 +371,7 @@ lung_tools <- gene_sets_t %>%
 labs <- unique(lung_tools[order(lung_tools$max_cells),c(1,3,7)]) %>%
   mutate(facs = paste0(gene," (",max_cells,")")) %>%
   filter(gene != "NA") %>%
-  arrange(tool, desc(max_cells))
+  arrange(tool, max_cells)
 lung_tools <- left_join(lung_tools,labs[,c(1,2,4)],by=c("tool","gene"))
 lung_tools$facs <- factor(lung_tools$facs, 
                            levels=labs$facs)
@@ -381,7 +381,7 @@ color_org <- c("#FFB300","#FFCA28","#FFE082")
 
 # Visualization
 # Azimuth
-lng_dr_az <- lung_tools %>% 
+lung_tools_azimuth <- lung_tools %>% 
                 filter(facs != "NA") %>%
                 filter(tool == "Azimuth") %>%
                 ggplot(aes(x=log(mean_gene_expression_value), 
@@ -396,12 +396,12 @@ lng_dr_az <- lung_tools %>%
                   theme(legend.position = "none")
 # Export pdf
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_AZ_v0.1.pdf"),
-       lng_dr_az, width=5, height=5, units="in")
+       lung_tools_azimuth, width=5, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_AZ_v0.1.png"),
-       lng_dr_az, width=5, height=5, units="in")
+       lung_tools_azimuth, width=5, height=5, units="in")
 
 # CellTypist 
-lng_dr_ct <- lung_tools %>% 
+lung_tools_celltypist <- lung_tools %>% 
                 filter(facs != "NA") %>%
                 filter(tool == "CellTypist") %>%
                 ggplot(aes(x=log(mean_gene_expression_value), 
@@ -416,12 +416,12 @@ lng_dr_ct <- lung_tools %>%
                   theme(legend.position = "none")
 # Export pdf
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_CT_v0.1.pdf"),
-       lng_dr_ct, width=5, height=5, units="in")
+       lung_tools_celltypist, width=5, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_CT_v0.1.png"),
-       lng_dr_ct, width=5, height=5, units="in")
+       lung_tools_celltypist, width=5, height=5, units="in")
 
 # PopV
-lng_dr_pv <- lung_tools %>% 
+lung_tools_popv <- lung_tools %>% 
                 filter(facs != "NA") %>%
                 filter(tool == "PopV") %>%
                 ggplot(aes(x=log(mean_gene_expression_value), 
@@ -437,16 +437,14 @@ lng_dr_pv <- lung_tools %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_PV_v0.1.pdf"),
-       lng_dr_pv, width=4, height=5, units="in")
+       lung_tools_popv, width=4, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/lung_top20_gene_expression_PV_v0.1.png"),
-       lng_dr_pv, width=4, height=5, units="in")
+       lung_tools_popv, width=4, height=5, units="in")
 
-lng_dr_az
-lng_dr_ct
-lng_dr_pv
+lung_tools_azimuth
+lung_tools_celltypist
+lung_tools_popv
 ```
-
-
 
 
 ## Kidney 
@@ -454,22 +452,22 @@ lng_dr_pv
 ### Overall - Top 20 Biomarkers (cell counts) - Gene Expression Density Ridge Plots
 ```{r density_kidney, fig.height=6, fig.width=4.75, message=FALSE, warning=FALSE}
 # Subset organ
-kid <- gene_sets_o2[gene_sets_o2$organ=="Kidney",] 
+kidney <- gene_sets_o2[gene_sets_o2$organ=="Kidney",] 
 
 # Unique factor with cell count
-labs <- unique(kid[order(kid$max_cells),c(2,6)]) %>%
+labs <- unique(kidney[order(kidney$max_cells),c(2,6)]) %>%
   mutate(facs = paste0(gene," (",max_cells,")")) %>%
   filter(gene != "NA") 
-kid <- left_join(kid,labs[,c(1,3)],by="gene")
-kid$facs <- factor(kid$facs, 
-                   levels=labs$facs)
+kidney <- left_join(kidney,labs[,c(1,3)],by="gene")
+kidney$facs <- factor(kidney$facs, 
+                      levels=labs$facs)
 
 # Color palette 
 color_org <- c("#9575CD")
 #"#7495AF","#8DC599"
 
 # Visualization
-kid_dr <- kid %>% 
+kidney_plot <- kidney %>% 
             filter(facs != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
                        y=facs)) +
@@ -483,10 +481,10 @@ kid_dr <- kid %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/kidney_top20_gene_expression_v0.1.pdf"),
-       kid_dr, width=4.75, height=6, units="in")
+       kidney_plot, width=4.75, height=6, units="in")
 ggsave(file=paste0("../output/densityplots/kidney_top20_gene_expression_v0.1.png"),
-       kid_dr, width=4.75, height=6, units="in")
-kid_dr
+       kidney_plot, width=4.75, height=6, units="in")
+kidney_plot
 ```
 
 ### By Tools
@@ -503,7 +501,7 @@ kidney_tools <- gene_sets_t %>%
 labs <- unique(kidney_tools[order(kidney_tools$max_cells),c(1,3,7)]) %>%
   mutate(facs = paste0(gene," (",max_cells,")")) %>%
   filter(gene != "NA") %>%
-  arrange(tool, desc(max_cells))
+  arrange(tool, max_cells)
 kidney_tools <- left_join(kidney_tools,labs[,c(1,2,4)],by=c("tool","gene"))
 kidney_tools$facs <- factor(kidney_tools$facs, 
                            levels=labs$facs)
@@ -513,7 +511,7 @@ color_org <- c("#B39DDB")
 
 # Visualization
 # Azimuth
-kid_dr_az <- kidney_tools %>% 
+kidney_tools_azimuth <- kidney_tools %>% 
                 filter(facs != "NA") %>%
                 filter(tool == "Azimuth") %>%
                 ggplot(aes(x=log(mean_gene_expression_value), 
@@ -528,11 +526,11 @@ kid_dr_az <- kidney_tools %>%
                   theme(legend.position = "none")
 # Export pdf
 ggsave(file=paste0("../output/densityplots/kidney_top20_gene_expression_AZ_v0.1.pdf"),
-       kid_dr_az, width=5, height=5, units="in")
+       kidney_tools_azimuth, width=5, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/kidney_top20_gene_expression_AZ_v0.1.png"),
-       kid_dr_az, width=5, height=5, units="in")
+       kidney_tools_azimuth, width=5, height=5, units="in")
 
-kid_dr_az
+kidney_tools_azimuth
 ```
 
 ## Small Intestine 
@@ -540,21 +538,21 @@ kid_dr_az
 ### Overall - Top 20 Biomarkers (cell counts) - Gene Expression Density Ridge Plots
 ```{r density_sml, fig.height=6, fig.width=4.75, message=FALSE, warning=FALSE}
 # Subset organ
-sml <- gene_sets_o2[gene_sets_o2$organ=="Small Intestine",] 
+smallIntestine <- gene_sets_o2[gene_sets_o2$organ=="Small Intestine",] 
 
 # Unique factor with cell count
-labs <- unique(sml[order(sml$max_cells),c(2,6)]) %>%
+labs <- unique(smallIntestine[order(smallIntestine$max_cells),c(2,6)]) %>%
   mutate(facs = paste0(gene," (",max_cells,")")) %>%
   filter(gene != "NA") 
-sml <- left_join(sml,labs[,c(1,3)],by="gene")
-sml$facs <- factor(sml$facs, 
+smallIntestine <- left_join(smallIntestine,labs[,c(1,3)],by="gene")
+smallIntestine$facs <- factor(smallIntestine$facs, 
                    levels=labs$facs)
 
 # Color palette 
 color_org <- c("#0288D1")
 
 # Visualization
-sml_dr <- sml %>% 
+smallIntestine_plot <- smallIntestine %>% 
             filter(facs != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
                        y=facs)) +
@@ -568,77 +566,82 @@ sml_dr <- sml %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/smallIntestine_top20_gene_expression_v0.1.pdf"),
-       sml_dr, width=4.75, height=6, units="in")
+       smallIntestine_plot, width=4.75, height=6, units="in")
 ggsave(file=paste0("../output/densityplots/smallIntestine_top20_gene_expression_v0.1.png"),
-       sml_dr, width=4.75, height=6, units="in")
-sml_dr
+       smallIntestine_plot, width=4.75, height=6, units="in")
+smallIntestine_plot
 ```
 ### By Tools
 
 ```{r ds_sml_tools, fig.height=5, fig.width=5}
 # Select Data
-sml_tools <- gene_sets_t %>% 
+smallIntestine_tools <- gene_sets_t %>% 
   filter(organ == "Small Intestine") %>%
   mutate(tool = factor(tool, 
                        levels=c("Celltypist","Popv"),
                        labels=c("CellTypist","PopV")))
 
 # Unique factor with cell count
-labs <- unique(sml_tools[order(sml_tools$max_cells),c(1,3,7)]) %>%
+labs <- unique(smallIntestine_tools[order(smallIntestine_tools$max_cells),
+                                    c(1,3,7)]) %>%
   mutate(facs = paste0(gene," (",max_cells,")")) %>%
   filter(gene != "NA") %>%
-  arrange(tool, desc(max_cells))
-sml_tools <- left_join(sml_tools,labs[,c(1,2,4)],by=c("tool","gene"))
-sml_tools$facs <- factor(sml_tools$facs, 
-                         levels=labs$facs)
+  arrange(tool, max_cells)
+smallIntestine_tools <- left_join(smallIntestine_tools,
+                                  labs[,c(1,2,4)],by=c("tool","gene"))
+smallIntestine_tools$facs <- factor(smallIntestine_tools$facs,
+                                    levels=labs$facs)
 
 # Color palette 
 color_org <- c("#4FC3F7","#B3E5FC")
 
 # Visualization
 # CellTypist 
-sml_dr_ct <- sml_tools %>% 
-                filter(facs != "NA") %>%
-                filter(tool == "CellTypist") %>%
-                ggplot(aes(x=log(mean_gene_expression_value), 
-                           y=facs)) +
-                  geom_density_ridges(aes(fill=organ), 
-                                      na.rm = TRUE,,
-                                      bandwidth = 0.15,
-                                      rel_min_height = 0.01, alpha=.85) +
-                  labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)",
-                       title="CellTypist") +
-                  scale_fill_manual(name="Organ", values=color_org[1]) +
-                  theme(legend.position = "none")
+smallIntestine_tools_celltypist <- 
+  smallIntestine_tools %>% 
+  filter(facs != "NA") %>%
+  filter(tool == "CellTypist") %>%
+  ggplot(aes(x=log(mean_gene_expression_value), 
+             y=facs)) +
+    geom_density_ridges(aes(fill=organ), 
+                        na.rm = TRUE,,
+                        bandwidth = 0.15,
+                        rel_min_height = 0.01, alpha=.85) +
+    labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)",
+         title="CellTypist") +
+    scale_fill_manual(name="Organ", values=color_org[1]) +
+    theme(legend.position = "none")
+
 # Export pdf
 ggsave(file=paste0("../output/densityplots/smallIntestine_top20_gene_expression_CT_v0.1.pdf"),
-       sml_dr_ct, width=5, height=5, units="in")
+       smallIntestine_tools_celltypist, width=5, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/smallIntestine_top20_gene_expression_CT_v0.1.png"),
-       sml_dr_ct, width=5, height=5, units="in")
+       smallIntestine_tools_celltypist, width=5, height=5, units="in")
 
 # PopV
-sml_dr_pv <- sml_tools %>% 
-                filter(facs != "NA") %>%
-                filter(tool == "PopV") %>%
-                ggplot(aes(x=log(mean_gene_expression_value), 
-                           y=facs)) +
-                  geom_density_ridges(aes(fill=organ), 
-                                      na.rm = TRUE,,
-                                      bandwidth = 0.15,
-                                      rel_min_height = 0.01, alpha=.85) +
-                  labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)",
-                       title="PopV") +
-                  scale_fill_manual(name="Organ", values=color_org[2]) +
-                  theme(legend.position = "none")
+smallIntestine_tools_popv <- 
+  smallIntestine_tools %>% 
+  filter(facs != "NA") %>%
+  filter(tool == "PopV") %>%
+  ggplot(aes(x=log(mean_gene_expression_value), 
+             y=facs)) +
+    geom_density_ridges(aes(fill=organ), 
+                        na.rm = TRUE,,
+                        bandwidth = 0.15,
+                        rel_min_height = 0.01, alpha=.85) +
+    labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)",
+         title="PopV") +
+    scale_fill_manual(name="Organ", values=color_org[2]) +
+    theme(legend.position = "none")
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/smallIntestine_top20_gene_expression_PV_v0.1.pdf"),
-       sml_dr_pv, width=4, height=5, units="in")
+       smallIntestine_tools_popv, width=4, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/smallIntestine_top20_gene_expression_PV_v0.1.png"),
-       sml_dr_pv, width=4, height=5, units="in")
+       smallIntestine_tools_popv, width=4, height=5, units="in")
 
-sml_dr_ct
-sml_dr_pv
+smallIntestine_tools_celltypist
+smallIntestine_tools_popv
 ```
 
 
@@ -647,21 +650,22 @@ sml_dr_pv
 ### Overall - Top 20 Biomarkers (cell counts) - Gene Expression Density Ridge Plots
 ```{r density_lrg, fig.height=6, fig.width=4.75, message=FALSE, warning=FALSE}
 # Subset organ
-lrg <- gene_sets_o2[gene_sets_o2$organ=="Large Intestine",] 
+largeIntestine <- gene_sets_o2[gene_sets_o2$organ=="Large Intestine",] 
 
 # Unique factor with cell count
-labs <- unique(lrg[order(lrg$max_cells),c(2,6)]) %>%
+labs <- unique(largeIntestine[order(largeIntestine$max_cells),c(2,6)]) %>%
   mutate(facs = paste0(gene," (",max_cells,")")) %>%
   filter(gene != "NA") 
-lrg <- left_join(lrg,labs[,c(1,3)],by="gene")
-lrg$facs <- factor(lrg$facs, 
-                   levels=labs$facs)
+largeIntestine <- left_join(largeIntestine,
+                            labs[,c(1,3)],by="gene")
+largeIntestine$facs <- factor(largeIntestine$facs, 
+                              levels=labs$facs)
 
 # Color palette 
 color_org <- c("#4CAF50")
 
 # Visualization
-lrg_dr  <- lrg %>% 
+largeIntestine_plot  <- largeIntestine %>% 
             filter(facs != "NA") %>%
             ggplot(aes(x=log(mean_gene_expression_value), 
                        y=facs)) +
@@ -675,75 +679,78 @@ lrg_dr  <- lrg %>%
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/largeIntestine_top20_gene_expression_v0.1.pdf"),
-       lrg_dr, width=4.75, height=6, units="in")
+       largeIntestine_plot, width=4.75, height=6, units="in")
 ggsave(file=paste0("../output/densityplots/largeIntestine_top20_gene_expression_v0.1.png"),
-       lrg_dr, width=4.75, height=6, units="in")
-lrg_dr
+       largeIntestine_plot, width=4.75, height=6, units="in")
+largeIntestine_plot
 ```
 
 
 ```{r ds_lrg_tools, fig.height=5, fig.width=5}
 # Select Data
-lrgI_tools <- gene_sets_t %>% 
+largeIntestine_tools <- gene_sets_t %>% 
   filter(organ == "Large Intestine") %>%
   mutate(tool = factor(tool, 
                        levels=c("Celltypist","Popv"),
                        labels=c("CellTypist","PopV")))
 
 # Unique factor with cell count
-labs <- unique(lrgI_tools[order(lrgI_tools$max_cells),c(1,3,7)]) %>%
+labs <- unique(largeIntestine_tools[order(largeIntestine_tools$max_cells),c(1,3,7)]) %>%
   mutate(facs = paste0(gene," (",max_cells,")")) %>%
   filter(gene != "NA") %>%
-  arrange(tool, desc(max_cells))
-lrgI_tools <- left_join(lrgI_tools,labs[,c(1,2,4)],by=c("tool","gene"))
-lrgI_tools$facs <- factor(lrgI_tools$facs, 
-                           levels=labs$facs)
+  arrange(tool, max_cells)
+largeIntestine_tools <- left_join(largeIntestine_tools,
+                                  labs[,c(1,2,4)],by=c("tool","gene"))
+largeIntestine_tools$facs <- factor(largeIntestine_tools$facs, 
+                                    levels=labs$facs)
 
 # Color palette 
 color_org <- c("#66BB6A","#A5D6A7")
 
 # Visualization
 # CellTypist 
-lrg_dr_ct <- lrgI_tools %>% 
-                filter(facs != "NA") %>%
-                filter(tool == "CellTypist") %>%
-                ggplot(aes(x=log(mean_gene_expression_value), 
-                           y=facs)) +
-                  geom_density_ridges(aes(fill=organ), 
-                                      na.rm = TRUE,,
-                                      bandwidth = 0.15,
-                                      rel_min_height = 0.01, alpha=.85) +
-                  labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)",
-                       title="CellTypist") +
-                  scale_fill_manual(name="Organ", values=color_org[1]) +
-                  theme(legend.position = "none")
+largeIntestine_tools_celltypist <- 
+  largeIntestine_tools %>% 
+  filter(facs != "NA") %>%
+  filter(tool == "CellTypist") %>%
+  ggplot(aes(x=log(mean_gene_expression_value), 
+             y=facs)) +
+    geom_density_ridges(aes(fill=organ), 
+                        na.rm = TRUE,,
+                        bandwidth = 0.15,
+                        rel_min_height = 0.01, alpha=.85) +
+    labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)",
+         title="CellTypist") +
+    scale_fill_manual(name="Organ", values=color_org[1]) +
+    theme(legend.position = "none")
 # Export pdf
 ggsave(file=paste0("../output/densityplots/largeIntestine_top20_gene_expression_CT_v0.1.pdf"),
-       lrg_dr_ct, width=5, height=5, units="in")
+       largeIntestine_tools_celltypist, width=5, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/largeIntestine_top20_gene_expression_CT_v0.1.png"),
-       lrg_dr_ct, width=5, height=5, units="in")
+       largeIntestine_tools_celltypist, width=5, height=5, units="in")
 
 # PopV
-lrg_dr_pv <- lrgI_tools %>% 
-                filter(facs != "NA") %>%
-                filter(tool == "PopV") %>%
-                ggplot(aes(x=log(mean_gene_expression_value), 
-                           y=facs)) +
-                  geom_density_ridges(aes(fill=organ), 
-                                      na.rm = TRUE,,
-                                      bandwidth = 0.15,
-                                      rel_min_height = 0.01, alpha=.85) +
-                  labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)",
-                       title="PopV") +
-                  scale_fill_manual(name="Organ", values=color_org[2]) +
-                  theme(legend.position = "none")
+largeIntestine_tools_popv <- 
+  largeIntestine_tools %>% 
+  filter(facs != "NA") %>%
+  filter(tool == "PopV") %>%
+  ggplot(aes(x=log(mean_gene_expression_value), 
+             y=facs)) +
+    geom_density_ridges(aes(fill=organ), 
+                        na.rm = TRUE,,
+                        bandwidth = 0.15,
+                        rel_min_height = 0.01, alpha=.85) +
+    labs(x="Mean Gene Expression Values (log2)", y="Biomarker (Cells)",
+         title="PopV") +
+    scale_fill_manual(name="Organ", values=color_org[2]) +
+    theme(legend.position = "none")
 
 # Export pdf
 ggsave(file=paste0("../output/densityplots/largeIntestine_top20_gene_expression_PV_v0.1.pdf"),
-       lrg_dr_pv, width=4, height=5, units="in")
+       largeIntestine_tools_popv, width=4, height=5, units="in")
 ggsave(file=paste0("../output/densityplots/largeIntestine_top20_gene_expression_PV_v0.1.png"),
-       lrg_dr_pv, width=4, height=5, units="in")
+       largeIntestine_tools_popv, width=4, height=5, units="in")
 
-lrg_dr_ct
-lrg_dr_pv
+largeIntestine_tools_celltypist
+largeIntestine_tools_popv
 ```
