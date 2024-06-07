@@ -27,6 +27,8 @@ source("scripts/themes.R")
 # global variables
 hra_pop_version = "0.10.2"
 
+only_atlas = TRUE #set to FALSE for universe
+
 # set up color palettes
 # extend Brewer color palettes
 nb.cols <- 16
@@ -203,6 +205,12 @@ subset_sankey <- subset_sankey %>%
 subset_sankey$donor_race = subset_sankey$mapped_donor_race
 ```
 
+## OPTIONAL: Filter for only atlas data
+``` {r OnlyAtlas} 
+if(only_atlas) {subset_sankey = subset_sankey %>% filter(is_atlas_dataset == "Atlas Dataset")}
+
+```
+
 ## Create nodes
 ```{r}
 p = subset_sankey %>% 
@@ -371,7 +379,13 @@ p
 ## Export the Sankey diagram as HTML
 
 ```{r}
-saveNetwork(p, "../docs/sankey_universe.html")
+
+if (only_atlas == TRUE) {
+  saveNetwork(p, "../docs/sankey_atlas.html")
+} else {
+  saveNetwork(p, "../docs/sankey_universe.html")
+}
+
 ```
 
 ## Check numbers
