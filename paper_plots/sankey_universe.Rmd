@@ -27,7 +27,7 @@ source("scripts/themes.R")
 # global variables
 hra_pop_version = "0.10.2"
 
-only_atlas = TRUE #set to FALSE for universe
+only_atlas = FALSE #set to FALSE for universe
 
 # set up color palettes
 # extend Brewer color palettes
