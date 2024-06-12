@@ -282,9 +282,9 @@ The goal of this pivot table is to generate descriptive statistics for cell type
 ```{r pivot}
 # Cell Type Counts and Percentages
 piv10 <- df2 %>% 
-  select(organ, as, cell_id, cell_count, percentage) %>%
+  select(tool, organ, as, cell_id, cell_count, percentage) %>%
   distinct() %>%
-  ddply(.(organ, as, cell_id), summarise,
+  ddply(.(tool, organ, as, cell_id), summarise,
         measure_count = length(cell_count),
         mean_cell_count = mean(cell_count),
         mean_cell_percentage = mean(percentage)) %>%
@@ -292,9 +292,9 @@ piv10 <- df2 %>%
 
 # Anatomical Structure Counts 
 piv20 <- piv10 %>% 
-  select(organ, as, cell_id, measure_count, 
+  select(tool, organ, as, cell_id, measure_count, 
          mean_cell_count, mean_cell_percentage) %>% 
-  ddply(.(organ, cell_id), summarise,
+  ddply(.(tool, organ, cell_id), summarise,
         as_count = length(as),
         measure_count = sum(measure_count),
         mean_cell_count = mean(mean_cell_count),
@@ -303,9 +303,9 @@ piv20 <- piv10 %>%
 
 # Organ Count
 piv30 <- piv20 %>% 
-  select(organ, cell_id, as_count, measure_count, 
+  select(tool, organ, cell_id, as_count, measure_count, 
          mean_cell_count, mean_cell_percentage) %>% 
-  ddply(.(cell_id), summarise,
+  ddply(.(tool, cell_id), summarise,
         og_count = length(organ),
         as_count = sum(as_count),
         measure_count = sum(measure_count),
