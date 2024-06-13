@@ -1,0 +1,561 @@
+"to","from","source_id_lab","target_id_lab","weight","weight_recs"
+0,4,"UBERON:0000948 Heart","FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle",1,20
+0,12,"UBERON:0000948 Heart","UBERON:0002078 Right Cardiac Atrium",1,68
+0,13,"UBERON:0000948 Heart","UBERON:0002079 Left Cardiac Atrium",1,72
+0,14,"UBERON:0000948 Heart","UBERON:0002080 Right Ventricle",1,70
+0,15,"UBERON:0000948 Heart","UBERON:0002084 Left Ventricle",1,72
+0,16,"UBERON:0000948 Heart","UBERON:0002094 Interventricular Septum",1,59
+1,5,"UBERON:0001004 Lung","FMA:7360 Medial Bronchopulmonary Segment",1,74
+1,6,"UBERON:0001004 Lung","FMA:7361 Lateral Bronchopulmonary Segment",1,74
+1,7,"UBERON:0001004 Lung","FMA:7385 Left Apical Bronchopulmonary Segment",1,33
+1,8,"UBERON:0001004 Lung","FMA:7402 Lateral Segmental Bronchus",1,70
+2,9,"UBERON:0004538 Kidney","UBERON:0001228 Renal Papilla",1,32
+2,10,"UBERON:0004538 Kidney","UBERON:0001284 Renal Column",1,85
+2,11,"UBERON:0004538 Kidney","UBERON:0002015 Kidney Capsule",1,77
+2,17,"UBERON:0004538 Kidney","UBERON:0002189 Outer Cortex of Kidney",1,100
+2,18,"UBERON:0004538 Kidney","UBERON:0004200 Kidney Pyramid",1,99
+2,19,"UBERON:0004538 Kidney","UBERON:0008716 Hilum of Kidney",1,78
+3,9,"UBERON:0004539 Kidney","UBERON:0001228 Renal Papilla",1,32
+3,10,"UBERON:0004539 Kidney","UBERON:0001284 Renal Column",1,85
+3,11,"UBERON:0004539 Kidney","UBERON:0002015 Kidney Capsule",1,77
+3,17,"UBERON:0004539 Kidney","UBERON:0002189 Outer Cortex of Kidney",1,100
+3,18,"UBERON:0004539 Kidney","UBERON:0004200 Kidney Pyramid",1,99
+3,19,"UBERON:0004539 Kidney","UBERON:0008716 Hilum of Kidney",1,78
+4,27,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000057",1,1
+4,28,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000077",1,1
+4,29,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000084",1,1
+4,30,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000097",1,1
+4,32,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000115",1,1
+4,33,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000136",1,1
+4,36,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000192",1,1
+4,37,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000235",1,1
+4,38,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000236",1,1
+4,43,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000623",1,1
+4,47,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000669",1,1
+4,60,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002129",1,1
+4,61,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002131",1,1
+4,62,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002138",1,1
+4,63,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002144",1,1
+4,66,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002350",1,1
+4,69,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002573",1,1
+4,74,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0011031",1,1
+4,77,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:1000413",1,1
+4,78,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:1000414",1,1
+5,20,"FMA:7360 Medial Bronchopulmonary Segment","ASCTB-TEMP:alveolar-m-proliferating",1,1
+5,22,"FMA:7360 Medial Bronchopulmonary Segment","ASCTB-TEMP:interstitial-m-perivascular",1,2
+5,23,"FMA:7360 Medial Bronchopulmonary Segment","ASCTB-TEMP:monocyte-derived-m",1,2
+5,24,"FMA:7360 Medial Bronchopulmonary Segment","ASCTB-TEMP:non-classical-monocytes",1,2
+5,26,"FMA:7360 Medial Bronchopulmonary Segment","ASCTB-TEMP:transitional-club-at2",1,2
+5,29,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000084",1,2
+5,30,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000097",1,2
+5,34,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000158",1,2
+5,35,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000186",1,2
+5,36,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000192",1,2
+5,38,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000236",1,2
+5,39,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000313",1,2
+5,40,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000492",1,2
+5,41,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000576",1,2
+5,42,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000583",1,2
+5,43,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000623",1,2
+5,49,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000786",1,1
+5,53,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000913",1,2
+5,55,"FMA:7360 Medial Bronchopulmonary Segment","CL:0001058",1,1
+5,57,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002062",1,2
+5,58,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002063",1,2
+5,59,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002075",1,2
+5,62,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002138",1,2
+5,63,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002144",1,2
+5,65,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002241",1,2
+5,67,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002399",1,2
+5,68,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002480",1,2
+5,70,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002633",1,2
+5,71,"FMA:7360 Medial Bronchopulmonary Segment","CL:0005006",1,2
+5,72,"FMA:7360 Medial Bronchopulmonary Segment","CL:0005012",1,2
+5,73,"FMA:7360 Medial Bronchopulmonary Segment","CL:0009089",1,2
+5,75,"FMA:7360 Medial Bronchopulmonary Segment","CL:0019003",1,1
+5,77,"FMA:7360 Medial Bronchopulmonary Segment","CL:1000413",1,2
+5,78,"FMA:7360 Medial Bronchopulmonary Segment","CL:1000414",1,2
+5,95,"FMA:7360 Medial Bronchopulmonary Segment","CL:4028003",1,2
+5,96,"FMA:7360 Medial Bronchopulmonary Segment","CL:4028004",1,2
+5,97,"FMA:7360 Medial Bronchopulmonary Segment","CL:4028006",1,2
+5,109,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033005",1,1
+5,110,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033022",1,1
+5,111,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033023",1,1
+5,112,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033044",1,1
+6,20,"FMA:7361 Lateral Bronchopulmonary Segment","ASCTB-TEMP:alveolar-m-proliferating",1,1
+6,22,"FMA:7361 Lateral Bronchopulmonary Segment","ASCTB-TEMP:interstitial-m-perivascular",1,2
+6,23,"FMA:7361 Lateral Bronchopulmonary Segment","ASCTB-TEMP:monocyte-derived-m",1,2
+6,24,"FMA:7361 Lateral Bronchopulmonary Segment","ASCTB-TEMP:non-classical-monocytes",1,2
+6,26,"FMA:7361 Lateral Bronchopulmonary Segment","ASCTB-TEMP:transitional-club-at2",1,2
+6,29,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000084",1,2
+6,30,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000097",1,2
+6,34,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000158",1,2
+6,35,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000186",1,2
+6,36,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000192",1,2
+6,38,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000236",1,2
+6,39,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000313",1,2
+6,40,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000492",1,2
+6,41,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000576",1,2
+6,42,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000583",1,2
+6,43,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000623",1,2
+6,49,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000786",1,1
+6,53,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000913",1,2
+6,55,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0001058",1,1
+6,57,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002062",1,2
+6,58,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002063",1,2
+6,59,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002075",1,2
+6,62,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002138",1,2
+6,63,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002144",1,2
+6,65,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002241",1,2
+6,67,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002399",1,2
+6,68,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002480",1,2
+6,70,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002633",1,2
+6,71,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0005006",1,2
+6,72,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0005012",1,2
+6,73,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0009089",1,2
+6,75,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0019003",1,1
+6,77,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1000413",1,2
+6,78,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1000414",1,2
+6,95,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4028003",1,2
+6,96,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4028004",1,2
+6,97,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4028006",1,2
+6,109,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033005",1,1
+6,110,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033022",1,1
+6,111,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033023",1,1
+6,112,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033044",1,1
+7,20,"FMA:7385 Left Apical Bronchopulmonary Segment","ASCTB-TEMP:alveolar-m-proliferating",1,1
+7,22,"FMA:7385 Left Apical Bronchopulmonary Segment","ASCTB-TEMP:interstitial-m-perivascular",1,1
+7,23,"FMA:7385 Left Apical Bronchopulmonary Segment","ASCTB-TEMP:monocyte-derived-m",1,1
+7,24,"FMA:7385 Left Apical Bronchopulmonary Segment","ASCTB-TEMP:non-classical-monocytes",1,1
+7,26,"FMA:7385 Left Apical Bronchopulmonary Segment","ASCTB-TEMP:transitional-club-at2",1,1
+7,29,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000084",1,1
+7,30,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000097",1,1
+7,34,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000158",1,1
+7,35,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000186",1,1
+7,36,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000192",1,1
+7,38,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000236",1,1
+7,40,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000492",1,1
+7,41,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000576",1,1
+7,42,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000583",1,1
+7,43,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000623",1,1
+7,49,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000786",1,1
+7,53,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000913",1,1
+7,55,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0001058",1,1
+7,57,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002062",1,1
+7,58,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002063",1,1
+7,62,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002138",1,1
+7,63,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002144",1,1
+7,67,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002399",1,1
+7,68,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002480",1,1
+7,70,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002633",1,1
+7,71,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0005006",1,1
+7,72,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0005012",1,1
+7,73,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0009089",1,1
+7,77,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:1000413",1,1
+7,78,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:1000414",1,1
+7,95,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4028003",1,1
+7,96,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4028004",1,1
+7,97,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4028006",1,1
+8,20,"FMA:7402 Lateral Segmental Bronchus","ASCTB-TEMP:alveolar-m-proliferating",1,1
+8,22,"FMA:7402 Lateral Segmental Bronchus","ASCTB-TEMP:interstitial-m-perivascular",1,2
+8,23,"FMA:7402 Lateral Segmental Bronchus","ASCTB-TEMP:monocyte-derived-m",1,2
+8,24,"FMA:7402 Lateral Segmental Bronchus","ASCTB-TEMP:non-classical-monocytes",1,2
+8,26,"FMA:7402 Lateral Segmental Bronchus","ASCTB-TEMP:transitional-club-at2",1,2
+8,29,"FMA:7402 Lateral Segmental Bronchus","CL:0000084",1,2
+8,30,"FMA:7402 Lateral Segmental Bronchus","CL:0000097",1,2
+8,34,"FMA:7402 Lateral Segmental Bronchus","CL:0000158",1,2
+8,35,"FMA:7402 Lateral Segmental Bronchus","CL:0000186",1,2
+8,36,"FMA:7402 Lateral Segmental Bronchus","CL:0000192",1,2
+8,38,"FMA:7402 Lateral Segmental Bronchus","CL:0000236",1,2
+8,39,"FMA:7402 Lateral Segmental Bronchus","CL:0000313",1,1
+8,40,"FMA:7402 Lateral Segmental Bronchus","CL:0000492",1,2
+8,41,"FMA:7402 Lateral Segmental Bronchus","CL:0000576",1,2
+8,42,"FMA:7402 Lateral Segmental Bronchus","CL:0000583",1,2
+8,43,"FMA:7402 Lateral Segmental Bronchus","CL:0000623",1,2
+8,49,"FMA:7402 Lateral Segmental Bronchus","CL:0000786",1,1
+8,53,"FMA:7402 Lateral Segmental Bronchus","CL:0000913",1,2
+8,55,"FMA:7402 Lateral Segmental Bronchus","CL:0001058",1,1
+8,57,"FMA:7402 Lateral Segmental Bronchus","CL:0002062",1,2
+8,58,"FMA:7402 Lateral Segmental Bronchus","CL:0002063",1,2
+8,59,"FMA:7402 Lateral Segmental Bronchus","CL:0002075",1,1
+8,62,"FMA:7402 Lateral Segmental Bronchus","CL:0002138",1,2
+8,63,"FMA:7402 Lateral Segmental Bronchus","CL:0002144",1,2
+8,65,"FMA:7402 Lateral Segmental Bronchus","CL:0002241",1,2
+8,67,"FMA:7402 Lateral Segmental Bronchus","CL:0002399",1,2
+8,68,"FMA:7402 Lateral Segmental Bronchus","CL:0002480",1,2
+8,70,"FMA:7402 Lateral Segmental Bronchus","CL:0002633",1,2
+8,71,"FMA:7402 Lateral Segmental Bronchus","CL:0005006",1,2
+8,72,"FMA:7402 Lateral Segmental Bronchus","CL:0005012",1,2
+8,73,"FMA:7402 Lateral Segmental Bronchus","CL:0009089",1,2
+8,77,"FMA:7402 Lateral Segmental Bronchus","CL:1000413",1,2
+8,78,"FMA:7402 Lateral Segmental Bronchus","CL:1000414",1,2
+8,95,"FMA:7402 Lateral Segmental Bronchus","CL:4028003",1,2
+8,96,"FMA:7402 Lateral Segmental Bronchus","CL:4028004",1,2
+8,97,"FMA:7402 Lateral Segmental Bronchus","CL:4028006",1,2
+8,110,"FMA:7402 Lateral Segmental Bronchus","CL:4033022",1,1
+8,111,"FMA:7402 Lateral Segmental Bronchus","CL:4033023",1,1
+8,112,"FMA:7402 Lateral Segmental Bronchus","CL:4033044",1,1
+9,21,"UBERON:0001228 Renal Papilla","ASCTB-TEMP:descending-vasa-recta-endothelial",1,2
+9,25,"UBERON:0001228 Renal Papilla","ASCTB-TEMP:peritubular-capilary-endothelial",1,2
+9,29,"UBERON:0001228 Renal Papilla","CL:0000084",1,2
+9,30,"UBERON:0001228 Renal Papilla","CL:0000097",1,2
+9,38,"UBERON:0001228 Renal Papilla","CL:0000236",1,2
+9,49,"UBERON:0001228 Renal Papilla","CL:0000786",1,2
+9,50,"UBERON:0001228 Renal Papilla","CL:0000814",1,2
+9,51,"UBERON:0001228 Renal Papilla","CL:0000875",1,2
+9,52,"UBERON:0001228 Renal Papilla","CL:0000890",1,2
+9,64,"UBERON:0001228 Renal Papilla","CL:0002201",1,2
+9,74,"UBERON:0001228 Renal Papilla","CL:0011031",1,2
+9,80,"UBERON:0001228 Renal Papilla","CL:1000597",1,2
+9,81,"UBERON:0001228 Renal Papilla","CL:1000692",1,2
+9,82,"UBERON:0001228 Renal Papilla","CL:1000714",1,2
+9,84,"UBERON:0001228 Renal Papilla","CL:1000716",1,2
+9,85,"UBERON:0001228 Renal Papilla","CL:1000717",1,2
+9,86,"UBERON:0001228 Renal Papilla","CL:1000718",1,4
+9,87,"UBERON:0001228 Renal Papilla","CL:1000768",1,2
+9,88,"UBERON:0001228 Renal Papilla","CL:1000850",1,2
+9,90,"UBERON:0001228 Renal Papilla","CL:1001107",1,2
+9,91,"UBERON:0001228 Renal Papilla","CL:1001108",1,2
+9,92,"UBERON:0001228 Renal Papilla","CL:1001109",1,2
+9,93,"UBERON:0001228 Renal Papilla","CL:1001131",1,2
+9,94,"UBERON:0001228 Renal Papilla","CL:1001318",1,4
+9,99,"UBERON:0001228 Renal Papilla","CL:4030010",1,2
+9,101,"UBERON:0001228 Renal Papilla","CL:4030012",1,2
+9,102,"UBERON:0001228 Renal Papilla","CL:4030013",1,2
+9,103,"UBERON:0001228 Renal Papilla","CL:4030014",1,2
+9,104,"UBERON:0001228 Renal Papilla","CL:4030016",1,2
+9,108,"UBERON:0001228 Renal Papilla","CL:4030022",1,2
+10,21,"UBERON:0001284 Renal Column","ASCTB-TEMP:descending-vasa-recta-endothelial",1,4
+10,25,"UBERON:0001284 Renal Column","ASCTB-TEMP:peritubular-capilary-endothelial",1,4
+10,29,"UBERON:0001284 Renal Column","CL:0000084",1,4
+10,30,"UBERON:0001284 Renal Column","CL:0000097",1,2
+10,38,"UBERON:0001284 Renal Column","CL:0000236",1,2
+10,44,"UBERON:0001284 Renal Column","CL:0000648",1,2
+10,45,"UBERON:0001284 Renal Column","CL:0000650",1,4
+10,46,"UBERON:0001284 Renal Column","CL:0000653",1,8
+10,49,"UBERON:0001284 Renal Column","CL:0000786",1,2
+10,50,"UBERON:0001284 Renal Column","CL:0000814",1,4
+10,51,"UBERON:0001284 Renal Column","CL:0000875",1,2
+10,52,"UBERON:0001284 Renal Column","CL:0000890",1,4
+10,54,"UBERON:0001284 Renal Column","CL:0000990",1,2
+10,55,"UBERON:0001284 Renal Column","CL:0001058",1,2
+10,62,"UBERON:0001284 Renal Column","CL:0002138",1,4
+10,64,"UBERON:0001284 Renal Column","CL:0002201",1,4
+10,69,"UBERON:0001284 Renal Column","CL:0002573",1,4
+10,74,"UBERON:0001284 Renal Column","CL:0011031",1,4
+10,76,"UBERON:0001284 Renal Column","CL:1000412",1,4
+10,79,"UBERON:0001284 Renal Column","CL:1000452",1,8
+10,80,"UBERON:0001284 Renal Column","CL:1000597",1,2
+10,81,"UBERON:0001284 Renal Column","CL:1000692",1,4
+10,82,"UBERON:0001284 Renal Column","CL:1000714",1,4
+10,83,"UBERON:0001284 Renal Column","CL:1000715",1,4
+10,84,"UBERON:0001284 Renal Column","CL:1000716",1,4
+10,85,"UBERON:0001284 Renal Column","CL:1000717",1,4
+10,86,"UBERON:0001284 Renal Column","CL:1000718",1,2
+10,87,"UBERON:0001284 Renal Column","CL:1000768",1,4
+10,88,"UBERON:0001284 Renal Column","CL:1000850",1,4
+10,89,"UBERON:0001284 Renal Column","CL:1001005",1,4
+10,90,"UBERON:0001284 Renal Column","CL:1001107",1,4
+10,91,"UBERON:0001284 Renal Column","CL:1001108",1,4
+10,92,"UBERON:0001284 Renal Column","CL:1001109",1,4
+10,93,"UBERON:0001284 Renal Column","CL:1001131",1,4
+10,94,"UBERON:0001284 Renal Column","CL:1001318",1,8
+10,98,"UBERON:0001284 Renal Column","CL:4030009",1,2
+10,99,"UBERON:0001284 Renal Column","CL:4030010",1,2
+10,100,"UBERON:0001284 Renal Column","CL:4030011",1,4
+10,101,"UBERON:0001284 Renal Column","CL:4030012",1,4
+10,102,"UBERON:0001284 Renal Column","CL:4030013",1,4
+10,103,"UBERON:0001284 Renal Column","CL:4030014",1,4
+10,104,"UBERON:0001284 Renal Column","CL:4030016",1,4
+10,105,"UBERON:0001284 Renal Column","CL:4030017",1,2
+10,106,"UBERON:0001284 Renal Column","CL:4030018",1,4
+10,107,"UBERON:0001284 Renal Column","CL:4030020",1,2
+10,108,"UBERON:0001284 Renal Column","CL:4030022",1,4
+11,21,"UBERON:0002015 Kidney Capsule","ASCTB-TEMP:descending-vasa-recta-endothelial",1,4
+11,25,"UBERON:0002015 Kidney Capsule","ASCTB-TEMP:peritubular-capilary-endothelial",1,4
+11,29,"UBERON:0002015 Kidney Capsule","CL:0000084",1,4
+11,30,"UBERON:0002015 Kidney Capsule","CL:0000097",1,2
+11,38,"UBERON:0002015 Kidney Capsule","CL:0000236",1,2
+11,44,"UBERON:0002015 Kidney Capsule","CL:0000648",1,2
+11,45,"UBERON:0002015 Kidney Capsule","CL:0000650",1,2
+11,46,"UBERON:0002015 Kidney Capsule","CL:0000653",1,4
+11,49,"UBERON:0002015 Kidney Capsule","CL:0000786",1,2
+11,50,"UBERON:0002015 Kidney Capsule","CL:0000814",1,4
+11,51,"UBERON:0002015 Kidney Capsule","CL:0000875",1,4
+11,52,"UBERON:0002015 Kidney Capsule","CL:0000890",1,4
+11,54,"UBERON:0002015 Kidney Capsule","CL:0000990",1,2
+11,55,"UBERON:0002015 Kidney Capsule","CL:0001058",1,2
+11,62,"UBERON:0002015 Kidney Capsule","CL:0002138",1,2
+11,64,"UBERON:0002015 Kidney Capsule","CL:0002201",1,2
+11,69,"UBERON:0002015 Kidney Capsule","CL:0002573",1,2
+11,74,"UBERON:0002015 Kidney Capsule","CL:0011031",1,4
+11,76,"UBERON:0002015 Kidney Capsule","CL:1000412",1,4
+11,79,"UBERON:0002015 Kidney Capsule","CL:1000452",1,4
+11,80,"UBERON:0002015 Kidney Capsule","CL:1000597",1,2
+11,81,"UBERON:0002015 Kidney Capsule","CL:1000692",1,4
+11,82,"UBERON:0002015 Kidney Capsule","CL:1000714",1,4
+11,83,"UBERON:0002015 Kidney Capsule","CL:1000715",1,4
+11,84,"UBERON:0002015 Kidney Capsule","CL:1000716",1,4
+11,85,"UBERON:0002015 Kidney Capsule","CL:1000717",1,4
+11,86,"UBERON:0002015 Kidney Capsule","CL:1000718",1,4
+11,87,"UBERON:0002015 Kidney Capsule","CL:1000768",1,4
+11,88,"UBERON:0002015 Kidney Capsule","CL:1000850",1,4
+11,89,"UBERON:0002015 Kidney Capsule","CL:1001005",1,2
+11,90,"UBERON:0002015 Kidney Capsule","CL:1001107",1,4
+11,91,"UBERON:0002015 Kidney Capsule","CL:1001108",1,4
+11,92,"UBERON:0002015 Kidney Capsule","CL:1001109",1,4
+11,93,"UBERON:0002015 Kidney Capsule","CL:1001131",1,4
+11,94,"UBERON:0002015 Kidney Capsule","CL:1001318",1,8
+11,98,"UBERON:0002015 Kidney Capsule","CL:4030009",1,2
+11,99,"UBERON:0002015 Kidney Capsule","CL:4030010",1,2
+11,100,"UBERON:0002015 Kidney Capsule","CL:4030011",1,2
+11,101,"UBERON:0002015 Kidney Capsule","CL:4030012",1,4
+11,102,"UBERON:0002015 Kidney Capsule","CL:4030013",1,4
+11,103,"UBERON:0002015 Kidney Capsule","CL:4030014",1,4
+11,104,"UBERON:0002015 Kidney Capsule","CL:4030016",1,4
+11,105,"UBERON:0002015 Kidney Capsule","CL:4030017",1,2
+11,106,"UBERON:0002015 Kidney Capsule","CL:4030018",1,4
+11,107,"UBERON:0002015 Kidney Capsule","CL:4030020",1,2
+11,108,"UBERON:0002015 Kidney Capsule","CL:4030022",1,4
+12,27,"UBERON:0002078 Right Cardiac Atrium","CL:0000057",1,4
+12,28,"UBERON:0002078 Right Cardiac Atrium","CL:0000077",1,2
+12,29,"UBERON:0002078 Right Cardiac Atrium","CL:0000084",1,2
+12,30,"UBERON:0002078 Right Cardiac Atrium","CL:0000097",1,4
+12,32,"UBERON:0002078 Right Cardiac Atrium","CL:0000115",1,4
+12,33,"UBERON:0002078 Right Cardiac Atrium","CL:0000136",1,4
+12,36,"UBERON:0002078 Right Cardiac Atrium","CL:0000192",1,4
+12,37,"UBERON:0002078 Right Cardiac Atrium","CL:0000235",1,4
+12,38,"UBERON:0002078 Right Cardiac Atrium","CL:0000236",1,4
+12,43,"UBERON:0002078 Right Cardiac Atrium","CL:0000623",1,2
+12,47,"UBERON:0002078 Right Cardiac Atrium","CL:0000669",1,4
+12,60,"UBERON:0002078 Right Cardiac Atrium","CL:0002129",1,2
+12,61,"UBERON:0002078 Right Cardiac Atrium","CL:0002131",1,2
+12,62,"UBERON:0002078 Right Cardiac Atrium","CL:0002138",1,4
+12,63,"UBERON:0002078 Right Cardiac Atrium","CL:0002144",1,4
+12,66,"UBERON:0002078 Right Cardiac Atrium","CL:0002350",1,4
+12,69,"UBERON:0002078 Right Cardiac Atrium","CL:0002573",1,4
+12,74,"UBERON:0002078 Right Cardiac Atrium","CL:0011031",1,2
+12,77,"UBERON:0002078 Right Cardiac Atrium","CL:1000413",1,4
+12,78,"UBERON:0002078 Right Cardiac Atrium","CL:1000414",1,4
+13,27,"UBERON:0002079 Left Cardiac Atrium","CL:0000057",1,4
+13,28,"UBERON:0002079 Left Cardiac Atrium","CL:0000077",1,2
+13,29,"UBERON:0002079 Left Cardiac Atrium","CL:0000084",1,2
+13,30,"UBERON:0002079 Left Cardiac Atrium","CL:0000097",1,4
+13,32,"UBERON:0002079 Left Cardiac Atrium","CL:0000115",1,4
+13,33,"UBERON:0002079 Left Cardiac Atrium","CL:0000136",1,4
+13,36,"UBERON:0002079 Left Cardiac Atrium","CL:0000192",1,4
+13,37,"UBERON:0002079 Left Cardiac Atrium","CL:0000235",1,4
+13,38,"UBERON:0002079 Left Cardiac Atrium","CL:0000236",1,4
+13,43,"UBERON:0002079 Left Cardiac Atrium","CL:0000623",1,2
+13,47,"UBERON:0002079 Left Cardiac Atrium","CL:0000669",1,4
+13,56,"UBERON:0002079 Left Cardiac Atrium","CL:0001065",1,4
+13,60,"UBERON:0002079 Left Cardiac Atrium","CL:0002129",1,2
+13,61,"UBERON:0002079 Left Cardiac Atrium","CL:0002131",1,2
+13,62,"UBERON:0002079 Left Cardiac Atrium","CL:0002138",1,4
+13,63,"UBERON:0002079 Left Cardiac Atrium","CL:0002144",1,4
+13,66,"UBERON:0002079 Left Cardiac Atrium","CL:0002350",1,4
+13,69,"UBERON:0002079 Left Cardiac Atrium","CL:0002573",1,4
+13,74,"UBERON:0002079 Left Cardiac Atrium","CL:0011031",1,2
+13,77,"UBERON:0002079 Left Cardiac Atrium","CL:1000413",1,4
+13,78,"UBERON:0002079 Left Cardiac Atrium","CL:1000414",1,4
+14,27,"UBERON:0002080 Right Ventricle","CL:0000057",1,4
+14,28,"UBERON:0002080 Right Ventricle","CL:0000077",1,2
+14,29,"UBERON:0002080 Right Ventricle","CL:0000084",1,2
+14,30,"UBERON:0002080 Right Ventricle","CL:0000097",1,4
+14,32,"UBERON:0002080 Right Ventricle","CL:0000115",1,4
+14,33,"UBERON:0002080 Right Ventricle","CL:0000136",1,4
+14,36,"UBERON:0002080 Right Ventricle","CL:0000192",1,4
+14,37,"UBERON:0002080 Right Ventricle","CL:0000235",1,4
+14,38,"UBERON:0002080 Right Ventricle","CL:0000236",1,4
+14,43,"UBERON:0002080 Right Ventricle","CL:0000623",1,2
+14,47,"UBERON:0002080 Right Ventricle","CL:0000669",1,4
+14,56,"UBERON:0002080 Right Ventricle","CL:0001065",1,2
+14,60,"UBERON:0002080 Right Ventricle","CL:0002129",1,2
+14,61,"UBERON:0002080 Right Ventricle","CL:0002131",1,2
+14,62,"UBERON:0002080 Right Ventricle","CL:0002138",1,4
+14,63,"UBERON:0002080 Right Ventricle","CL:0002144",1,4
+14,66,"UBERON:0002080 Right Ventricle","CL:0002350",1,4
+14,69,"UBERON:0002080 Right Ventricle","CL:0002573",1,4
+14,74,"UBERON:0002080 Right Ventricle","CL:0011031",1,2
+14,77,"UBERON:0002080 Right Ventricle","CL:1000413",1,4
+14,78,"UBERON:0002080 Right Ventricle","CL:1000414",1,4
+15,27,"UBERON:0002084 Left Ventricle","CL:0000057",1,4
+15,28,"UBERON:0002084 Left Ventricle","CL:0000077",1,2
+15,29,"UBERON:0002084 Left Ventricle","CL:0000084",1,2
+15,30,"UBERON:0002084 Left Ventricle","CL:0000097",1,4
+15,32,"UBERON:0002084 Left Ventricle","CL:0000115",1,4
+15,33,"UBERON:0002084 Left Ventricle","CL:0000136",1,4
+15,36,"UBERON:0002084 Left Ventricle","CL:0000192",1,4
+15,37,"UBERON:0002084 Left Ventricle","CL:0000235",1,4
+15,38,"UBERON:0002084 Left Ventricle","CL:0000236",1,4
+15,43,"UBERON:0002084 Left Ventricle","CL:0000623",1,2
+15,47,"UBERON:0002084 Left Ventricle","CL:0000669",1,4
+15,56,"UBERON:0002084 Left Ventricle","CL:0001065",1,4
+15,60,"UBERON:0002084 Left Ventricle","CL:0002129",1,2
+15,61,"UBERON:0002084 Left Ventricle","CL:0002131",1,2
+15,62,"UBERON:0002084 Left Ventricle","CL:0002138",1,4
+15,63,"UBERON:0002084 Left Ventricle","CL:0002144",1,4
+15,66,"UBERON:0002084 Left Ventricle","CL:0002350",1,4
+15,69,"UBERON:0002084 Left Ventricle","CL:0002573",1,4
+15,74,"UBERON:0002084 Left Ventricle","CL:0011031",1,2
+15,77,"UBERON:0002084 Left Ventricle","CL:1000413",1,4
+15,78,"UBERON:0002084 Left Ventricle","CL:1000414",1,4
+16,27,"UBERON:0002094 Interventricular Septum","CL:0000057",1,4
+16,28,"UBERON:0002094 Interventricular Septum","CL:0000077",1,2
+16,29,"UBERON:0002094 Interventricular Septum","CL:0000084",1,2
+16,30,"UBERON:0002094 Interventricular Septum","CL:0000097",1,4
+16,32,"UBERON:0002094 Interventricular Septum","CL:0000115",1,1
+16,33,"UBERON:0002094 Interventricular Septum","CL:0000136",1,4
+16,36,"UBERON:0002094 Interventricular Septum","CL:0000192",1,2
+16,37,"UBERON:0002094 Interventricular Septum","CL:0000235",1,4
+16,38,"UBERON:0002094 Interventricular Septum","CL:0000236",1,4
+16,43,"UBERON:0002094 Interventricular Septum","CL:0000623",1,2
+16,47,"UBERON:0002094 Interventricular Septum","CL:0000669",1,4
+16,60,"UBERON:0002094 Interventricular Septum","CL:0002129",1,2
+16,61,"UBERON:0002094 Interventricular Septum","CL:0002131",1,2
+16,62,"UBERON:0002094 Interventricular Septum","CL:0002138",1,4
+16,63,"UBERON:0002094 Interventricular Septum","CL:0002144",1,4
+16,66,"UBERON:0002094 Interventricular Septum","CL:0002350",1,4
+16,69,"UBERON:0002094 Interventricular Septum","CL:0002573",1,2
+16,74,"UBERON:0002094 Interventricular Septum","CL:0011031",1,2
+16,77,"UBERON:0002094 Interventricular Septum","CL:1000413",1,4
+16,78,"UBERON:0002094 Interventricular Septum","CL:1000414",1,2
+17,21,"UBERON:0002189 Outer Cortex of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial",1,4
+17,25,"UBERON:0002189 Outer Cortex of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial",1,4
+17,29,"UBERON:0002189 Outer Cortex of Kidney","CL:0000084",1,4
+17,30,"UBERON:0002189 Outer Cortex of Kidney","CL:0000097",1,4
+17,31,"UBERON:0002189 Outer Cortex of Kidney","CL:0000113",1,2
+17,38,"UBERON:0002189 Outer Cortex of Kidney","CL:0000236",1,4
+17,44,"UBERON:0002189 Outer Cortex of Kidney","CL:0000648",1,4
+17,45,"UBERON:0002189 Outer Cortex of Kidney","CL:0000650",1,4
+17,46,"UBERON:0002189 Outer Cortex of Kidney","CL:0000653",1,8
+17,48,"UBERON:0002189 Outer Cortex of Kidney","CL:0000775",1,2
+17,49,"UBERON:0002189 Outer Cortex of Kidney","CL:0000786",1,4
+17,50,"UBERON:0002189 Outer Cortex of Kidney","CL:0000814",1,4
+17,51,"UBERON:0002189 Outer Cortex of Kidney","CL:0000875",1,4
+17,52,"UBERON:0002189 Outer Cortex of Kidney","CL:0000890",1,4
+17,54,"UBERON:0002189 Outer Cortex of Kidney","CL:0000990",1,4
+17,55,"UBERON:0002189 Outer Cortex of Kidney","CL:0001058",1,4
+17,62,"UBERON:0002189 Outer Cortex of Kidney","CL:0002138",1,4
+17,64,"UBERON:0002189 Outer Cortex of Kidney","CL:0002201",1,4
+17,69,"UBERON:0002189 Outer Cortex of Kidney","CL:0002573",1,4
+17,74,"UBERON:0002189 Outer Cortex of Kidney","CL:0011031",1,4
+17,76,"UBERON:0002189 Outer Cortex of Kidney","CL:1000412",1,4
+17,79,"UBERON:0002189 Outer Cortex of Kidney","CL:1000452",1,8
+17,80,"UBERON:0002189 Outer Cortex of Kidney","CL:1000597",1,4
+17,81,"UBERON:0002189 Outer Cortex of Kidney","CL:1000692",1,4
+17,82,"UBERON:0002189 Outer Cortex of Kidney","CL:1000714",1,4
+17,83,"UBERON:0002189 Outer Cortex of Kidney","CL:1000715",1,4
+17,84,"UBERON:0002189 Outer Cortex of Kidney","CL:1000716",1,4
+17,85,"UBERON:0002189 Outer Cortex of Kidney","CL:1000717",1,4
+17,86,"UBERON:0002189 Outer Cortex of Kidney","CL:1000718",1,4
+17,87,"UBERON:0002189 Outer Cortex of Kidney","CL:1000768",1,4
+17,88,"UBERON:0002189 Outer Cortex of Kidney","CL:1000850",1,4
+17,89,"UBERON:0002189 Outer Cortex of Kidney","CL:1001005",1,4
+17,90,"UBERON:0002189 Outer Cortex of Kidney","CL:1001107",1,4
+17,91,"UBERON:0002189 Outer Cortex of Kidney","CL:1001108",1,4
+17,92,"UBERON:0002189 Outer Cortex of Kidney","CL:1001109",1,4
+17,93,"UBERON:0002189 Outer Cortex of Kidney","CL:1001131",1,4
+17,94,"UBERON:0002189 Outer Cortex of Kidney","CL:1001318",1,8
+17,98,"UBERON:0002189 Outer Cortex of Kidney","CL:4030009",1,4
+17,99,"UBERON:0002189 Outer Cortex of Kidney","CL:4030010",1,4
+17,100,"UBERON:0002189 Outer Cortex of Kidney","CL:4030011",1,4
+17,101,"UBERON:0002189 Outer Cortex of Kidney","CL:4030012",1,4
+17,102,"UBERON:0002189 Outer Cortex of Kidney","CL:4030013",1,4
+17,103,"UBERON:0002189 Outer Cortex of Kidney","CL:4030014",1,4
+17,104,"UBERON:0002189 Outer Cortex of Kidney","CL:4030016",1,4
+17,105,"UBERON:0002189 Outer Cortex of Kidney","CL:4030017",1,4
+17,106,"UBERON:0002189 Outer Cortex of Kidney","CL:4030018",1,4
+17,107,"UBERON:0002189 Outer Cortex of Kidney","CL:4030020",1,4
+17,108,"UBERON:0002189 Outer Cortex of Kidney","CL:4030022",1,4
+18,21,"UBERON:0004200 Kidney Pyramid","ASCTB-TEMP:descending-vasa-recta-endothelial",1,4
+18,25,"UBERON:0004200 Kidney Pyramid","ASCTB-TEMP:peritubular-capilary-endothelial",1,4
+18,29,"UBERON:0004200 Kidney Pyramid","CL:0000084",1,4
+18,30,"UBERON:0004200 Kidney Pyramid","CL:0000097",1,4
+18,31,"UBERON:0004200 Kidney Pyramid","CL:0000113",1,4
+18,38,"UBERON:0004200 Kidney Pyramid","CL:0000236",1,4
+18,44,"UBERON:0004200 Kidney Pyramid","CL:0000648",1,4
+18,45,"UBERON:0004200 Kidney Pyramid","CL:0000650",1,4
+18,46,"UBERON:0004200 Kidney Pyramid","CL:0000653",1,4
+18,48,"UBERON:0004200 Kidney Pyramid","CL:0000775",1,4
+18,49,"UBERON:0004200 Kidney Pyramid","CL:0000786",1,4
+18,50,"UBERON:0004200 Kidney Pyramid","CL:0000814",1,4
+18,51,"UBERON:0004200 Kidney Pyramid","CL:0000875",1,4
+18,52,"UBERON:0004200 Kidney Pyramid","CL:0000890",1,4
+18,54,"UBERON:0004200 Kidney Pyramid","CL:0000990",1,4
+18,55,"UBERON:0004200 Kidney Pyramid","CL:0001058",1,2
+18,62,"UBERON:0004200 Kidney Pyramid","CL:0002138",1,4
+18,64,"UBERON:0004200 Kidney Pyramid","CL:0002201",1,4
+18,69,"UBERON:0004200 Kidney Pyramid","CL:0002573",1,4
+18,74,"UBERON:0004200 Kidney Pyramid","CL:0011031",1,4
+18,76,"UBERON:0004200 Kidney Pyramid","CL:1000412",1,4
+18,79,"UBERON:0004200 Kidney Pyramid","CL:1000452",1,4
+18,80,"UBERON:0004200 Kidney Pyramid","CL:1000597",1,4
+18,81,"UBERON:0004200 Kidney Pyramid","CL:1000692",1,4
+18,82,"UBERON:0004200 Kidney Pyramid","CL:1000714",1,4
+18,83,"UBERON:0004200 Kidney Pyramid","CL:1000715",1,4
+18,84,"UBERON:0004200 Kidney Pyramid","CL:1000716",1,4
+18,85,"UBERON:0004200 Kidney Pyramid","CL:1000717",1,4
+18,86,"UBERON:0004200 Kidney Pyramid","CL:1000718",1,4
+18,87,"UBERON:0004200 Kidney Pyramid","CL:1000768",1,4
+18,88,"UBERON:0004200 Kidney Pyramid","CL:1000850",1,4
+18,89,"UBERON:0004200 Kidney Pyramid","CL:1001005",1,4
+18,90,"UBERON:0004200 Kidney Pyramid","CL:1001107",1,4
+18,91,"UBERON:0004200 Kidney Pyramid","CL:1001108",1,4
+18,92,"UBERON:0004200 Kidney Pyramid","CL:1001109",1,4
+18,93,"UBERON:0004200 Kidney Pyramid","CL:1001131",1,8
+18,94,"UBERON:0004200 Kidney Pyramid","CL:1001318",1,8
+18,98,"UBERON:0004200 Kidney Pyramid","CL:4030009",1,4
+18,99,"UBERON:0004200 Kidney Pyramid","CL:4030010",1,4
+18,100,"UBERON:0004200 Kidney Pyramid","CL:4030011",1,4
+18,101,"UBERON:0004200 Kidney Pyramid","CL:4030012",1,4
+18,102,"UBERON:0004200 Kidney Pyramid","CL:4030013",1,4
+18,103,"UBERON:0004200 Kidney Pyramid","CL:4030014",1,4
+18,104,"UBERON:0004200 Kidney Pyramid","CL:4030016",1,4
+18,105,"UBERON:0004200 Kidney Pyramid","CL:4030017",1,4
+18,106,"UBERON:0004200 Kidney Pyramid","CL:4030018",1,4
+18,107,"UBERON:0004200 Kidney Pyramid","CL:4030020",1,4
+18,108,"UBERON:0004200 Kidney Pyramid","CL:4030022",1,4
+19,21,"UBERON:0008716 Hilum of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial",1,4
+19,25,"UBERON:0008716 Hilum of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial",1,4
+19,29,"UBERON:0008716 Hilum of Kidney","CL:0000084",1,4
+19,30,"UBERON:0008716 Hilum of Kidney","CL:0000097",1,2
+19,38,"UBERON:0008716 Hilum of Kidney","CL:0000236",1,2
+19,44,"UBERON:0008716 Hilum of Kidney","CL:0000648",1,2
+19,45,"UBERON:0008716 Hilum of Kidney","CL:0000650",1,4
+19,46,"UBERON:0008716 Hilum of Kidney","CL:0000653",1,4
+19,49,"UBERON:0008716 Hilum of Kidney","CL:0000786",1,2
+19,50,"UBERON:0008716 Hilum of Kidney","CL:0000814",1,4
+19,51,"UBERON:0008716 Hilum of Kidney","CL:0000875",1,2
+19,52,"UBERON:0008716 Hilum of Kidney","CL:0000890",1,4
+19,54,"UBERON:0008716 Hilum of Kidney","CL:0000990",1,2
+19,55,"UBERON:0008716 Hilum of Kidney","CL:0001058",1,2
+19,62,"UBERON:0008716 Hilum of Kidney","CL:0002138",1,4
+19,64,"UBERON:0008716 Hilum of Kidney","CL:0002201",1,4
+19,69,"UBERON:0008716 Hilum of Kidney","CL:0002573",1,4
+19,74,"UBERON:0008716 Hilum of Kidney","CL:0011031",1,4
+19,76,"UBERON:0008716 Hilum of Kidney","CL:1000412",1,4
+19,79,"UBERON:0008716 Hilum of Kidney","CL:1000452",1,4
+19,80,"UBERON:0008716 Hilum of Kidney","CL:1000597",1,2
+19,81,"UBERON:0008716 Hilum of Kidney","CL:1000692",1,4
+19,82,"UBERON:0008716 Hilum of Kidney","CL:1000714",1,4
+19,83,"UBERON:0008716 Hilum of Kidney","CL:1000715",1,4
+19,84,"UBERON:0008716 Hilum of Kidney","CL:1000716",1,4
+19,85,"UBERON:0008716 Hilum of Kidney","CL:1000717",1,4
+19,86,"UBERON:0008716 Hilum of Kidney","CL:1000718",1,2
+19,87,"UBERON:0008716 Hilum of Kidney","CL:1000768",1,4
+19,88,"UBERON:0008716 Hilum of Kidney","CL:1000850",1,4
+19,89,"UBERON:0008716 Hilum of Kidney","CL:1001005",1,4
+19,90,"UBERON:0008716 Hilum of Kidney","CL:1001107",1,4
+19,91,"UBERON:0008716 Hilum of Kidney","CL:1001108",1,4
+19,92,"UBERON:0008716 Hilum of Kidney","CL:1001109",1,4
+19,93,"UBERON:0008716 Hilum of Kidney","CL:1001131",1,4
+19,94,"UBERON:0008716 Hilum of Kidney","CL:1001318",1,8
+19,98,"UBERON:0008716 Hilum of Kidney","CL:4030009",1,2
+19,100,"UBERON:0008716 Hilum of Kidney","CL:4030011",1,4
+19,101,"UBERON:0008716 Hilum of Kidney","CL:4030012",1,4
+19,102,"UBERON:0008716 Hilum of Kidney","CL:4030013",1,4
+19,103,"UBERON:0008716 Hilum of Kidney","CL:4030014",1,4
+19,104,"UBERON:0008716 Hilum of Kidney","CL:4030016",1,4
+19,106,"UBERON:0008716 Hilum of Kidney","CL:4030018",1,4
+19,108,"UBERON:0008716 Hilum of Kidney","CL:4030022",1,4

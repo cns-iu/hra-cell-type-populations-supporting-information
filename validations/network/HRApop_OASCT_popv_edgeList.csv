@@ -1,0 +1,398 @@
+"to","from","source_id_lab","target_id_lab","weight","weight_recs"
+0,14,"UBERON:0000059 Large Intestine","UBERON:0001052 Rectum",1,22
+0,15,"UBERON:0000059 Large Intestine","UBERON:0001153 Caecum",1,24
+0,16,"UBERON:0000059 Large Intestine","UBERON:0001156 Ascending Colon",1,48
+0,17,"UBERON:0000059 Large Intestine","UBERON:0001157 Transverse Colon",1,46
+0,18,"UBERON:0000059 Large Intestine","UBERON:0001158 Descending Colon",1,46
+0,19,"UBERON:0000059 Large Intestine","UBERON:0001159 Sigmoid Colon",1,46
+1,9,"UBERON:0000948 Heart","FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle",1,6
+1,20,"UBERON:0000948 Heart","UBERON:0002078 Right Cardiac Atrium",1,20
+1,21,"UBERON:0000948 Heart","UBERON:0002079 Left Cardiac Atrium",1,20
+1,22,"UBERON:0000948 Heart","UBERON:0002080 Right Ventricle",1,20
+1,23,"UBERON:0000948 Heart","UBERON:0002084 Left Ventricle",1,20
+1,24,"UBERON:0000948 Heart","UBERON:0002094 Interventricular Septum",1,16
+2,10,"UBERON:0001004 Lung","FMA:7360 Medial Bronchopulmonary Segment",1,65
+2,11,"UBERON:0001004 Lung","FMA:7361 Lateral Bronchopulmonary Segment",1,67
+2,12,"UBERON:0001004 Lung","FMA:7385 Left Apical Bronchopulmonary Segment",1,31
+2,13,"UBERON:0001004 Lung","FMA:7402 Lateral Segmental Bronchus",1,65
+3,4,"UBERON:0002108 Small Intestine","FMA:14926 Superior part of Duodenum",1,16
+3,5,"UBERON:0002108 Small Intestine","FMA:14928 Descending part of Duodenum",1,40
+3,6,"UBERON:0002108 Small Intestine","FMA:14929 Horizontal part of Duodenum",1,44
+3,7,"UBERON:0002108 Small Intestine","FMA:14930 Ascending part of Duodenum",1,44
+3,8,"UBERON:0002108 Small Intestine","FMA:14966 Distal part of Ileum",1,42
+3,25,"UBERON:0002108 Small Intestine","UBERON:0002115 Jejunum",1,42
+3,26,"UBERON:0002108 Small Intestine","UBERON:0002116 Ileum",1,20
+4,27,"FMA:14926 Superior part of Duodenum","CL:0000057",1,1
+4,29,"FMA:14926 Superior part of Duodenum","CL:0000097",1,1
+4,30,"FMA:14926 Superior part of Duodenum","CL:0000131",1,1
+4,35,"FMA:14926 Superior part of Duodenum","CL:0000236",1,1
+4,38,"FMA:14926 Superior part of Duodenum","CL:0000576",1,1
+4,39,"FMA:14926 Superior part of Duodenum","CL:0000624",1,1
+4,40,"FMA:14926 Superior part of Duodenum","CL:0000625",1,1
+4,45,"FMA:14926 Superior part of Duodenum","CL:0000775",1,1
+4,47,"FMA:14926 Superior part of Duodenum","CL:0000786",1,1
+4,63,"FMA:14926 Superior part of Duodenum","CL:0009006",1,1
+4,66,"FMA:14926 Superior part of Duodenum","CL:0009012",1,1
+4,68,"FMA:14926 Superior part of Duodenum","CL:0009017",1,1
+4,69,"FMA:14926 Superior part of Duodenum","CL:0009080",1,1
+4,76,"FMA:14926 Superior part of Duodenum","CL:1000334",1,1
+4,77,"FMA:14926 Superior part of Duodenum","CL:1000343",1,1
+4,79,"FMA:14926 Superior part of Duodenum","CL:1000495",1,1
+5,27,"FMA:14928 Descending part of Duodenum","CL:0000057",1,4
+5,29,"FMA:14928 Descending part of Duodenum","CL:0000097",1,2
+5,30,"FMA:14928 Descending part of Duodenum","CL:0000131",1,2
+5,35,"FMA:14928 Descending part of Duodenum","CL:0000236",1,2
+5,38,"FMA:14928 Descending part of Duodenum","CL:0000576",1,2
+5,39,"FMA:14928 Descending part of Duodenum","CL:0000624",1,2
+5,40,"FMA:14928 Descending part of Duodenum","CL:0000625",1,2
+5,45,"FMA:14928 Descending part of Duodenum","CL:0000775",1,4
+5,47,"FMA:14928 Descending part of Duodenum","CL:0000786",1,4
+5,63,"FMA:14928 Descending part of Duodenum","CL:0009006",1,2
+5,66,"FMA:14928 Descending part of Duodenum","CL:0009012",1,2
+5,68,"FMA:14928 Descending part of Duodenum","CL:0009017",1,2
+5,69,"FMA:14928 Descending part of Duodenum","CL:0009080",1,4
+5,76,"FMA:14928 Descending part of Duodenum","CL:1000334",1,2
+5,77,"FMA:14928 Descending part of Duodenum","CL:1000343",1,2
+5,79,"FMA:14928 Descending part of Duodenum","CL:1000495",1,2
+6,27,"FMA:14929 Horizontal part of Duodenum","CL:0000057",1,4
+6,29,"FMA:14929 Horizontal part of Duodenum","CL:0000097",1,4
+6,30,"FMA:14929 Horizontal part of Duodenum","CL:0000131",1,2
+6,35,"FMA:14929 Horizontal part of Duodenum","CL:0000236",1,4
+6,38,"FMA:14929 Horizontal part of Duodenum","CL:0000576",1,2
+6,39,"FMA:14929 Horizontal part of Duodenum","CL:0000624",1,2
+6,40,"FMA:14929 Horizontal part of Duodenum","CL:0000625",1,2
+6,45,"FMA:14929 Horizontal part of Duodenum","CL:0000775",1,4
+6,47,"FMA:14929 Horizontal part of Duodenum","CL:0000786",1,4
+6,63,"FMA:14929 Horizontal part of Duodenum","CL:0009006",1,2
+6,66,"FMA:14929 Horizontal part of Duodenum","CL:0009012",1,2
+6,68,"FMA:14929 Horizontal part of Duodenum","CL:0009017",1,2
+6,69,"FMA:14929 Horizontal part of Duodenum","CL:0009080",1,4
+6,76,"FMA:14929 Horizontal part of Duodenum","CL:1000334",1,2
+6,77,"FMA:14929 Horizontal part of Duodenum","CL:1000343",1,2
+6,79,"FMA:14929 Horizontal part of Duodenum","CL:1000495",1,2
+7,27,"FMA:14930 Ascending part of Duodenum","CL:0000057",1,4
+7,29,"FMA:14930 Ascending part of Duodenum","CL:0000097",1,4
+7,30,"FMA:14930 Ascending part of Duodenum","CL:0000131",1,2
+7,35,"FMA:14930 Ascending part of Duodenum","CL:0000236",1,4
+7,38,"FMA:14930 Ascending part of Duodenum","CL:0000576",1,2
+7,39,"FMA:14930 Ascending part of Duodenum","CL:0000624",1,2
+7,40,"FMA:14930 Ascending part of Duodenum","CL:0000625",1,2
+7,45,"FMA:14930 Ascending part of Duodenum","CL:0000775",1,4
+7,47,"FMA:14930 Ascending part of Duodenum","CL:0000786",1,4
+7,63,"FMA:14930 Ascending part of Duodenum","CL:0009006",1,2
+7,66,"FMA:14930 Ascending part of Duodenum","CL:0009012",1,2
+7,68,"FMA:14930 Ascending part of Duodenum","CL:0009017",1,2
+7,69,"FMA:14930 Ascending part of Duodenum","CL:0009080",1,4
+7,76,"FMA:14930 Ascending part of Duodenum","CL:1000334",1,2
+7,77,"FMA:14930 Ascending part of Duodenum","CL:1000343",1,2
+7,79,"FMA:14930 Ascending part of Duodenum","CL:1000495",1,2
+8,27,"FMA:14966 Distal part of Ileum","CL:0000057",1,4
+8,29,"FMA:14966 Distal part of Ileum","CL:0000097",1,4
+8,30,"FMA:14966 Distal part of Ileum","CL:0000131",1,2
+8,35,"FMA:14966 Distal part of Ileum","CL:0000236",1,4
+8,38,"FMA:14966 Distal part of Ileum","CL:0000576",1,2
+8,39,"FMA:14966 Distal part of Ileum","CL:0000624",1,2
+8,40,"FMA:14966 Distal part of Ileum","CL:0000625",1,2
+8,45,"FMA:14966 Distal part of Ileum","CL:0000775",1,4
+8,47,"FMA:14966 Distal part of Ileum","CL:0000786",1,4
+8,63,"FMA:14966 Distal part of Ileum","CL:0009006",1,2
+8,66,"FMA:14966 Distal part of Ileum","CL:0009012",1,2
+8,69,"FMA:14966 Distal part of Ileum","CL:0009080",1,4
+8,76,"FMA:14966 Distal part of Ileum","CL:1000334",1,2
+8,77,"FMA:14966 Distal part of Ileum","CL:1000343",1,2
+8,79,"FMA:14966 Distal part of Ileum","CL:1000495",1,2
+9,32,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000182",1,1
+9,33,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000192",1,1
+9,34,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000235",1,1
+9,43,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000746",1,1
+9,61,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002548",1,1
+9,70,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0010008",1,1
+10,27,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000057",1,2
+10,28,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000071",1,2
+10,31,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000158",1,2
+10,33,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000192",1,1
+10,34,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000235",1,2
+10,35,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000236",1,2
+10,36,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000359",1,2
+10,37,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000451",1,2
+10,39,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000624",1,2
+10,40,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000625",1,2
+10,41,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000646",1,2
+10,42,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000669",1,2
+10,44,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000767",1,2
+10,45,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000775",1,2
+10,47,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000786",1,2
+10,48,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000814",1,2
+10,49,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000860",1,2
+10,50,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000875",1,2
+10,51,"FMA:7360 Medial Bronchopulmonary Segment","CL:0001044",1,2
+10,52,"FMA:7360 Medial Bronchopulmonary Segment","CL:0001050",1,2
+10,53,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002062",1,2
+10,54,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002063",1,2
+10,56,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002138",1,2
+10,57,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002144",1,2
+10,58,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002370",1,2
+10,59,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002393",1,2
+10,60,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002543",1,2
+10,62,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002598",1,2
+10,71,"FMA:7360 Medial Bronchopulmonary Segment","CL:0017000",1,1
+10,73,"FMA:7360 Medial Bronchopulmonary Segment","CL:1000271",1,2
+10,75,"FMA:7360 Medial Bronchopulmonary Segment","CL:1000331",1,1
+10,78,"FMA:7360 Medial Bronchopulmonary Segment","CL:1000413",1,2
+10,81,"FMA:7360 Medial Bronchopulmonary Segment","CL:2000016",1,2
+10,82,"FMA:7360 Medial Bronchopulmonary Segment","CL:4028006",1,2
+11,27,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000057",1,2
+11,28,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000071",1,2
+11,31,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000158",1,2
+11,33,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000192",1,2
+11,34,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000235",1,2
+11,35,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000236",1,2
+11,36,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000359",1,2
+11,37,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000451",1,2
+11,39,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000624",1,2
+11,40,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000625",1,2
+11,41,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000646",1,2
+11,42,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000669",1,2
+11,44,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000767",1,2
+11,45,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000775",1,2
+11,46,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000784",1,1
+11,47,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000786",1,2
+11,48,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000814",1,2
+11,49,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000860",1,2
+11,50,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000875",1,2
+11,51,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0001044",1,2
+11,52,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0001050",1,2
+11,53,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002062",1,2
+11,54,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002063",1,2
+11,56,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002138",1,2
+11,57,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002144",1,2
+11,58,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002370",1,2
+11,59,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002393",1,2
+11,60,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002543",1,2
+11,62,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002598",1,2
+11,71,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0017000",1,1
+11,73,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1000271",1,2
+11,75,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1000331",1,1
+11,78,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1000413",1,2
+11,81,"FMA:7361 Lateral Bronchopulmonary Segment","CL:2000016",1,2
+11,82,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4028006",1,2
+12,27,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000057",1,1
+12,31,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000158",1,1
+12,34,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000235",1,1
+12,35,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000236",1,1
+12,36,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000359",1,1
+12,37,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000451",1,1
+12,39,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000624",1,1
+12,40,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000625",1,1
+12,41,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000646",1,1
+12,42,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000669",1,1
+12,44,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000767",1,1
+12,45,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000775",1,1
+12,47,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000786",1,1
+12,48,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000814",1,1
+12,49,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000860",1,1
+12,50,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000875",1,1
+12,51,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0001044",1,1
+12,52,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0001050",1,1
+12,53,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002062",1,1
+12,54,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002063",1,1
+12,56,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002138",1,1
+12,57,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002144",1,1
+12,58,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002370",1,1
+12,59,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002393",1,1
+12,60,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002543",1,1
+12,62,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002598",1,1
+12,71,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0017000",1,1
+12,73,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:1000271",1,1
+12,78,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:1000413",1,1
+12,81,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:2000016",1,1
+12,82,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4028006",1,1
+13,27,"FMA:7402 Lateral Segmental Bronchus","CL:0000057",1,2
+13,28,"FMA:7402 Lateral Segmental Bronchus","CL:0000071",1,2
+13,31,"FMA:7402 Lateral Segmental Bronchus","CL:0000158",1,2
+13,33,"FMA:7402 Lateral Segmental Bronchus","CL:0000192",1,2
+13,34,"FMA:7402 Lateral Segmental Bronchus","CL:0000235",1,2
+13,35,"FMA:7402 Lateral Segmental Bronchus","CL:0000236",1,2
+13,36,"FMA:7402 Lateral Segmental Bronchus","CL:0000359",1,2
+13,37,"FMA:7402 Lateral Segmental Bronchus","CL:0000451",1,2
+13,39,"FMA:7402 Lateral Segmental Bronchus","CL:0000624",1,2
+13,40,"FMA:7402 Lateral Segmental Bronchus","CL:0000625",1,2
+13,41,"FMA:7402 Lateral Segmental Bronchus","CL:0000646",1,2
+13,42,"FMA:7402 Lateral Segmental Bronchus","CL:0000669",1,2
+13,44,"FMA:7402 Lateral Segmental Bronchus","CL:0000767",1,2
+13,45,"FMA:7402 Lateral Segmental Bronchus","CL:0000775",1,2
+13,46,"FMA:7402 Lateral Segmental Bronchus","CL:0000784",1,1
+13,47,"FMA:7402 Lateral Segmental Bronchus","CL:0000786",1,2
+13,48,"FMA:7402 Lateral Segmental Bronchus","CL:0000814",1,2
+13,49,"FMA:7402 Lateral Segmental Bronchus","CL:0000860",1,2
+13,50,"FMA:7402 Lateral Segmental Bronchus","CL:0000875",1,2
+13,51,"FMA:7402 Lateral Segmental Bronchus","CL:0001044",1,2
+13,52,"FMA:7402 Lateral Segmental Bronchus","CL:0001050",1,2
+13,53,"FMA:7402 Lateral Segmental Bronchus","CL:0002062",1,2
+13,54,"FMA:7402 Lateral Segmental Bronchus","CL:0002063",1,2
+13,56,"FMA:7402 Lateral Segmental Bronchus","CL:0002138",1,2
+13,57,"FMA:7402 Lateral Segmental Bronchus","CL:0002144",1,2
+13,58,"FMA:7402 Lateral Segmental Bronchus","CL:0002370",1,2
+13,59,"FMA:7402 Lateral Segmental Bronchus","CL:0002393",1,2
+13,60,"FMA:7402 Lateral Segmental Bronchus","CL:0002543",1,2
+13,62,"FMA:7402 Lateral Segmental Bronchus","CL:0002598",1,2
+13,73,"FMA:7402 Lateral Segmental Bronchus","CL:1000271",1,2
+13,78,"FMA:7402 Lateral Segmental Bronchus","CL:1000413",1,2
+13,81,"FMA:7402 Lateral Segmental Bronchus","CL:2000016",1,2
+13,82,"FMA:7402 Lateral Segmental Bronchus","CL:4028006",1,2
+14,27,"UBERON:0001052 Rectum","CL:0000057",1,2
+14,29,"UBERON:0001052 Rectum","CL:0000097",1,2
+14,30,"UBERON:0001052 Rectum","CL:0000131",1,1
+14,35,"UBERON:0001052 Rectum","CL:0000236",1,1
+14,38,"UBERON:0001052 Rectum","CL:0000576",1,1
+14,39,"UBERON:0001052 Rectum","CL:0000624",1,1
+14,40,"UBERON:0001052 Rectum","CL:0000625",1,1
+14,45,"UBERON:0001052 Rectum","CL:0000775",1,1
+14,47,"UBERON:0001052 Rectum","CL:0000786",1,2
+14,55,"UBERON:0001052 Rectum","CL:0002071",1,2
+14,64,"UBERON:0001052 Rectum","CL:0009009",1,2
+14,65,"UBERON:0001052 Rectum","CL:0009011",1,2
+14,72,"UBERON:0001052 Rectum","CL:0019032",1,2
+14,74,"UBERON:0001052 Rectum","CL:1000320",1,1
+14,80,"UBERON:0001052 Rectum","CL:1001516",1,1
+15,27,"UBERON:0001153 Caecum","CL:0000057",1,2
+15,29,"UBERON:0001153 Caecum","CL:0000097",1,2
+15,30,"UBERON:0001153 Caecum","CL:0000131",1,1
+15,35,"UBERON:0001153 Caecum","CL:0000236",1,1
+15,38,"UBERON:0001153 Caecum","CL:0000576",1,1
+15,39,"UBERON:0001153 Caecum","CL:0000624",1,1
+15,40,"UBERON:0001153 Caecum","CL:0000625",1,1
+15,45,"UBERON:0001153 Caecum","CL:0000775",1,1
+15,47,"UBERON:0001153 Caecum","CL:0000786",1,2
+15,55,"UBERON:0001153 Caecum","CL:0002071",1,2
+15,64,"UBERON:0001153 Caecum","CL:0009009",1,2
+15,65,"UBERON:0001153 Caecum","CL:0009011",1,2
+15,67,"UBERON:0001153 Caecum","CL:0009016",1,2
+15,72,"UBERON:0001153 Caecum","CL:0019032",1,2
+15,74,"UBERON:0001153 Caecum","CL:1000320",1,1
+15,80,"UBERON:0001153 Caecum","CL:1001516",1,1
+16,27,"UBERON:0001156 Ascending Colon","CL:0000057",1,4
+16,29,"UBERON:0001156 Ascending Colon","CL:0000097",1,4
+16,30,"UBERON:0001156 Ascending Colon","CL:0000131",1,2
+16,35,"UBERON:0001156 Ascending Colon","CL:0000236",1,2
+16,38,"UBERON:0001156 Ascending Colon","CL:0000576",1,2
+16,39,"UBERON:0001156 Ascending Colon","CL:0000624",1,2
+16,40,"UBERON:0001156 Ascending Colon","CL:0000625",1,2
+16,45,"UBERON:0001156 Ascending Colon","CL:0000775",1,2
+16,47,"UBERON:0001156 Ascending Colon","CL:0000786",1,4
+16,55,"UBERON:0001156 Ascending Colon","CL:0002071",1,4
+16,64,"UBERON:0001156 Ascending Colon","CL:0009009",1,4
+16,65,"UBERON:0001156 Ascending Colon","CL:0009011",1,4
+16,67,"UBERON:0001156 Ascending Colon","CL:0009016",1,4
+16,72,"UBERON:0001156 Ascending Colon","CL:0019032",1,4
+16,74,"UBERON:0001156 Ascending Colon","CL:1000320",1,2
+16,80,"UBERON:0001156 Ascending Colon","CL:1001516",1,2
+17,27,"UBERON:0001157 Transverse Colon","CL:0000057",1,4
+17,29,"UBERON:0001157 Transverse Colon","CL:0000097",1,4
+17,30,"UBERON:0001157 Transverse Colon","CL:0000131",1,2
+17,35,"UBERON:0001157 Transverse Colon","CL:0000236",1,2
+17,38,"UBERON:0001157 Transverse Colon","CL:0000576",1,2
+17,39,"UBERON:0001157 Transverse Colon","CL:0000624",1,2
+17,40,"UBERON:0001157 Transverse Colon","CL:0000625",1,2
+17,45,"UBERON:0001157 Transverse Colon","CL:0000775",1,2
+17,47,"UBERON:0001157 Transverse Colon","CL:0000786",1,4
+17,55,"UBERON:0001157 Transverse Colon","CL:0002071",1,4
+17,64,"UBERON:0001157 Transverse Colon","CL:0009009",1,4
+17,65,"UBERON:0001157 Transverse Colon","CL:0009011",1,4
+17,67,"UBERON:0001157 Transverse Colon","CL:0009016",1,2
+17,72,"UBERON:0001157 Transverse Colon","CL:0019032",1,4
+17,74,"UBERON:0001157 Transverse Colon","CL:1000320",1,2
+17,80,"UBERON:0001157 Transverse Colon","CL:1001516",1,2
+18,27,"UBERON:0001158 Descending Colon","CL:0000057",1,4
+18,29,"UBERON:0001158 Descending Colon","CL:0000097",1,4
+18,30,"UBERON:0001158 Descending Colon","CL:0000131",1,2
+18,35,"UBERON:0001158 Descending Colon","CL:0000236",1,2
+18,38,"UBERON:0001158 Descending Colon","CL:0000576",1,2
+18,39,"UBERON:0001158 Descending Colon","CL:0000624",1,2
+18,40,"UBERON:0001158 Descending Colon","CL:0000625",1,2
+18,45,"UBERON:0001158 Descending Colon","CL:0000775",1,2
+18,47,"UBERON:0001158 Descending Colon","CL:0000786",1,4
+18,55,"UBERON:0001158 Descending Colon","CL:0002071",1,4
+18,64,"UBERON:0001158 Descending Colon","CL:0009009",1,4
+18,65,"UBERON:0001158 Descending Colon","CL:0009011",1,4
+18,67,"UBERON:0001158 Descending Colon","CL:0009016",1,2
+18,72,"UBERON:0001158 Descending Colon","CL:0019032",1,4
+18,74,"UBERON:0001158 Descending Colon","CL:1000320",1,2
+18,80,"UBERON:0001158 Descending Colon","CL:1001516",1,2
+19,27,"UBERON:0001159 Sigmoid Colon","CL:0000057",1,4
+19,29,"UBERON:0001159 Sigmoid Colon","CL:0000097",1,4
+19,30,"UBERON:0001159 Sigmoid Colon","CL:0000131",1,2
+19,35,"UBERON:0001159 Sigmoid Colon","CL:0000236",1,2
+19,38,"UBERON:0001159 Sigmoid Colon","CL:0000576",1,2
+19,39,"UBERON:0001159 Sigmoid Colon","CL:0000624",1,2
+19,40,"UBERON:0001159 Sigmoid Colon","CL:0000625",1,2
+19,45,"UBERON:0001159 Sigmoid Colon","CL:0000775",1,2
+19,47,"UBERON:0001159 Sigmoid Colon","CL:0000786",1,4
+19,55,"UBERON:0001159 Sigmoid Colon","CL:0002071",1,4
+19,64,"UBERON:0001159 Sigmoid Colon","CL:0009009",1,4
+19,65,"UBERON:0001159 Sigmoid Colon","CL:0009011",1,4
+19,67,"UBERON:0001159 Sigmoid Colon","CL:0009016",1,2
+19,72,"UBERON:0001159 Sigmoid Colon","CL:0019032",1,4
+19,74,"UBERON:0001159 Sigmoid Colon","CL:1000320",1,2
+19,80,"UBERON:0001159 Sigmoid Colon","CL:1001516",1,2
+20,32,"UBERON:0002078 Right Cardiac Atrium","CL:0000182",1,2
+20,33,"UBERON:0002078 Right Cardiac Atrium","CL:0000192",1,4
+20,34,"UBERON:0002078 Right Cardiac Atrium","CL:0000235",1,4
+20,43,"UBERON:0002078 Right Cardiac Atrium","CL:0000746",1,4
+20,61,"UBERON:0002078 Right Cardiac Atrium","CL:0002548",1,2
+20,70,"UBERON:0002078 Right Cardiac Atrium","CL:0010008",1,4
+21,32,"UBERON:0002079 Left Cardiac Atrium","CL:0000182",1,2
+21,33,"UBERON:0002079 Left Cardiac Atrium","CL:0000192",1,4
+21,34,"UBERON:0002079 Left Cardiac Atrium","CL:0000235",1,4
+21,43,"UBERON:0002079 Left Cardiac Atrium","CL:0000746",1,4
+21,61,"UBERON:0002079 Left Cardiac Atrium","CL:0002548",1,2
+21,70,"UBERON:0002079 Left Cardiac Atrium","CL:0010008",1,4
+22,32,"UBERON:0002080 Right Ventricle","CL:0000182",1,2
+22,33,"UBERON:0002080 Right Ventricle","CL:0000192",1,4
+22,34,"UBERON:0002080 Right Ventricle","CL:0000235",1,4
+22,43,"UBERON:0002080 Right Ventricle","CL:0000746",1,4
+22,61,"UBERON:0002080 Right Ventricle","CL:0002548",1,2
+22,70,"UBERON:0002080 Right Ventricle","CL:0010008",1,4
+23,32,"UBERON:0002084 Left Ventricle","CL:0000182",1,2
+23,33,"UBERON:0002084 Left Ventricle","CL:0000192",1,4
+23,34,"UBERON:0002084 Left Ventricle","CL:0000235",1,4
+23,43,"UBERON:0002084 Left Ventricle","CL:0000746",1,4
+23,61,"UBERON:0002084 Left Ventricle","CL:0002548",1,2
+23,70,"UBERON:0002084 Left Ventricle","CL:0010008",1,4
+24,32,"UBERON:0002094 Interventricular Septum","CL:0000182",1,2
+24,33,"UBERON:0002094 Interventricular Septum","CL:0000192",1,2
+24,34,"UBERON:0002094 Interventricular Septum","CL:0000235",1,4
+24,43,"UBERON:0002094 Interventricular Septum","CL:0000746",1,4
+24,61,"UBERON:0002094 Interventricular Septum","CL:0002548",1,2
+24,70,"UBERON:0002094 Interventricular Septum","CL:0010008",1,2
+25,27,"UBERON:0002115 Jejunum","CL:0000057",1,4
+25,29,"UBERON:0002115 Jejunum","CL:0000097",1,4
+25,30,"UBERON:0002115 Jejunum","CL:0000131",1,2
+25,35,"UBERON:0002115 Jejunum","CL:0000236",1,2
+25,38,"UBERON:0002115 Jejunum","CL:0000576",1,2
+25,39,"UBERON:0002115 Jejunum","CL:0000624",1,2
+25,40,"UBERON:0002115 Jejunum","CL:0000625",1,2
+25,45,"UBERON:0002115 Jejunum","CL:0000775",1,4
+25,47,"UBERON:0002115 Jejunum","CL:0000786",1,4
+25,63,"UBERON:0002115 Jejunum","CL:0009006",1,2
+25,66,"UBERON:0002115 Jejunum","CL:0009012",1,2
+25,68,"UBERON:0002115 Jejunum","CL:0009017",1,2
+25,69,"UBERON:0002115 Jejunum","CL:0009080",1,4
+25,76,"UBERON:0002115 Jejunum","CL:1000334",1,2
+25,77,"UBERON:0002115 Jejunum","CL:1000343",1,2
+25,79,"UBERON:0002115 Jejunum","CL:1000495",1,2
+26,27,"UBERON:0002116 Ileum","CL:0000057",1,2
+26,29,"UBERON:0002116 Ileum","CL:0000097",1,2
+26,30,"UBERON:0002116 Ileum","CL:0000131",1,1
+26,35,"UBERON:0002116 Ileum","CL:0000236",1,2
+26,38,"UBERON:0002116 Ileum","CL:0000576",1,1
+26,39,"UBERON:0002116 Ileum","CL:0000624",1,1
+26,40,"UBERON:0002116 Ileum","CL:0000625",1,1
+26,45,"UBERON:0002116 Ileum","CL:0000775",1,2
+26,47,"UBERON:0002116 Ileum","CL:0000786",1,2
+26,63,"UBERON:0002116 Ileum","CL:0009006",1,1
+26,66,"UBERON:0002116 Ileum","CL:0009012",1,1
+26,69,"UBERON:0002116 Ileum","CL:0009080",1,1
+26,76,"UBERON:0002116 Ileum","CL:1000334",1,1
+26,77,"UBERON:0002116 Ileum","CL:1000343",1,1
+26,79,"UBERON:0002116 Ileum","CL:1000495",1,1

@@ -1,0 +1,114 @@
+"id","id_lab","label","tool","type","records"
+0,"UBERON:0000948 Heart","Heart","Azimuth","Organ",361
+1,"UBERON:0001004 Lung","Lung","Azimuth","Organ",251
+2,"UBERON:0004538 Kidney","Kidney","Azimuth","Organ",471
+3,"UBERON:0004539 Kidney","Kidney","Azimuth","Organ",471
+4,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","Azimuth","Anatomical Structure",20
+5,"FMA:7360 Medial Bronchopulmonary Segment","Medial Bronchopulmonary Segment","Azimuth","Anatomical Structure",74
+6,"FMA:7361 Lateral Bronchopulmonary Segment","Lateral Bronchopulmonary Segment","Azimuth","Anatomical Structure",74
+7,"FMA:7385 Left Apical Bronchopulmonary Segment","Left Apical Bronchopulmonary Segment","Azimuth","Anatomical Structure",33
+8,"FMA:7402 Lateral Segmental Bronchus","Lateral Segmental Bronchus","Azimuth","Anatomical Structure",70
+9,"UBERON:0001228 Renal Papilla","Renal Papilla","Azimuth","Anatomical Structure",64
+10,"UBERON:0001284 Renal Column","Renal Column","Azimuth","Anatomical Structure",170
+11,"UBERON:0002015 Kidney Capsule","Kidney Capsule","Azimuth","Anatomical Structure",154
+12,"UBERON:0002078 Right Cardiac Atrium","Right Cardiac Atrium","Azimuth","Anatomical Structure",68
+13,"UBERON:0002079 Left Cardiac Atrium","Left Cardiac Atrium","Azimuth","Anatomical Structure",72
+14,"UBERON:0002080 Right Ventricle","Right Ventricle","Azimuth","Anatomical Structure",70
+15,"UBERON:0002084 Left Ventricle","Left Ventricle","Azimuth","Anatomical Structure",72
+16,"UBERON:0002094 Interventricular Septum","Interventricular Septum","Azimuth","Anatomical Structure",59
+17,"UBERON:0002189 Outer Cortex of Kidney","Outer Cortex of Kidney","Azimuth","Anatomical Structure",200
+18,"UBERON:0004200 Kidney Pyramid","Kidney Pyramid","Azimuth","Anatomical Structure",198
+19,"UBERON:0008716 Hilum of Kidney","Hilum of Kidney","Azimuth","Anatomical Structure",156
+20,"ASCTB-TEMP:alveolar-m-proliferating","Alveolar Mφ proliferating","Azimuth","Cell type",4
+21,"ASCTB-TEMP:descending-vasa-recta-endothelial","Descending Vasa Recta Endothelial ","Azimuth","Cell type",22
+22,"ASCTB-TEMP:interstitial-m-perivascular","Interstitial Mφ perivascular","Azimuth","Cell type",7
+23,"ASCTB-TEMP:monocyte-derived-m","Monocyte-derived Mφ","Azimuth","Cell type",7
+24,"ASCTB-TEMP:non-classical-monocytes","Non-classical monocytes","Azimuth","Cell type",7
+25,"ASCTB-TEMP:peritubular-capilary-endothelial","Peritubular Capilary Endothelial ","Azimuth","Cell type",22
+26,"ASCTB-TEMP:transitional-club-at2","Transitional Club-AT2","Azimuth","Cell type",7
+27,"CL:0000057","Fibroblast","Azimuth","Cell type",21
+28,"CL:0000077","Mesothelial","Azimuth","Cell type",11
+29,"CL:0000084","T","Azimuth","Cell type",40
+30,"CL:0000097","Mast","Azimuth","Cell type",44
+31,"CL:0000113","Cycling Mononuclear Phagocyte","Azimuth","Cell type",6
+32,"CL:0000115","Endothelial","Azimuth","Cell type",18
+33,"CL:0000136","Adipocyte","Azimuth","Cell type",21
+34,"CL:0000158","Club (nasal)","Azimuth","Cell type",7
+35,"CL:0000186","Myofibroblasts","Azimuth","Cell type",7
+36,"CL:0000192","Smooth Muscle","Azimuth","Cell type",26
+37,"CL:0000235","Macrophage","Azimuth","Cell type",21
+38,"CL:0000236","B","Azimuth","Cell type",44
+39,"CL:0000313","SM activated stress response","Azimuth","Cell type",5
+40,"CL:0000492","CD4 T cells","Azimuth","Cell type",7
+41,"CL:0000576","Classical monocytes","Azimuth","Cell type",7
+42,"CL:0000583","Alveolar macrophages","Azimuth","Cell type",7
+43,"CL:0000623","NK","Azimuth","Cell type",18
+44,"CL:0000648","Renin-positive Juxtaglomerular Granular","Azimuth","Cell type",14
+45,"CL:0000650","Mesangial","Azimuth","Cell type",18
+46,"CL:0000653","Podocyte","Azimuth","Cell type",28
+47,"CL:0000669","Pericyte","Azimuth","Cell type",21
+48,"CL:0000775","Neutrophil","Azimuth","Cell type",6
+49,"CL:0000786","Plasma","Azimuth","Cell type",20
+50,"CL:0000814","Natural Killer T","Azimuth","Cell type",22
+51,"CL:0000875","Non-classical monocyte","Azimuth","Cell type",18
+52,"CL:0000890","M2 Macrophage","Azimuth","Cell type",22
+53,"CL:0000913","CD8 T cells","Azimuth","Cell type",7
+54,"CL:0000990","Classical Dendritic","Azimuth","Cell type",14
+55,"CL:0001058","Plasmacytoid Dendritic","Azimuth","Cell type",16
+56,"CL:0001065","ILC","Azimuth","Cell type",10
+57,"CL:0002062","AT1","Azimuth","Cell type",7
+58,"CL:0002063","AT2","Azimuth","Cell type",7
+59,"CL:0002075","Tuft","Azimuth","Cell type",5
+60,"CL:0002129","Atrial Cardiomyocyte","Azimuth","Cell type",11
+61,"CL:0002131","Ventricular Cardiomycoyte","Azimuth","Cell type",11
+62,"CL:0002138","Lymphatic Endothelial","Azimuth","Cell type",46
+63,"CL:0002144","Capillary Endothelial","Azimuth","Cell type",28
+64,"CL:0002201","Intercalated Type B","Azimuth","Cell type",20
+65,"CL:0002241","Peribronchial fibroblasts","Azimuth","Cell type",6
+66,"CL:0002350","Endocardial","Azimuth","Cell type",21
+67,"CL:0002399","DC2","Azimuth","Cell type",7
+68,"CL:0002480","Goblet (nasal)","Azimuth","Cell type",7
+69,"CL:0002573","Neuronal","Azimuth","Cell type",37
+70,"CL:0002633","Basal resting","Azimuth","Cell type",7
+71,"CL:0005006","Ionocyte","Azimuth","Cell type",7
+72,"CL:0005012","Multiciliated (non-nasal)","Azimuth","Cell type",7
+73,"CL:0009089","Pericytes","Azimuth","Cell type",7
+74,"CL:0011031","Monocyte/cDC","Azimuth","Cell type",33
+75,"CL:0019003","Goblet (bronchial)","Azimuth","Cell type",2
+76,"CL:1000412","Afferent / Efferent Arteriole Endothelial","Azimuth","Cell type",20
+77,"CL:1000413","Arterial Endothelial","Azimuth","Cell type",28
+78,"CL:1000414","Venous Endothelial","Azimuth","Cell type",26
+79,"CL:1000452","Parietal Epithelial","Azimuth","Cell type",28
+80,"CL:1000597","Papillary Tip Epithelial","Azimuth","Cell type",16
+81,"CL:1000692","Fibroblast","Azimuth","Cell type",22
+82,"CL:1000714","Cortical Collecting Duct Principal","Azimuth","Cell type",22
+83,"CL:1000715","Cortical Collecting Duct Intercalated Type A","Azimuth","Cell type",20
+84,"CL:1000716","Outer Medullary Collecting Duct Principal","Azimuth","Cell type",22
+85,"CL:1000717","Outer Medullary Collecting Duct Intercalated Type A","Azimuth","Cell type",22
+86,"CL:1000718","Inner Medullary Collecting Duct","Azimuth","Cell type",20
+87,"CL:1000768","Connecting Tubule","Azimuth","Cell type",22
+88,"CL:1000850","Macula Densa","Azimuth","Cell type",22
+89,"CL:1001005","Glomerular Capillary Endothelial","Azimuth","Cell type",18
+90,"CL:1001107","Ascending Thin Limb","Azimuth","Cell type",22
+91,"CL:1001108","Medullary Thick Ascending Limb","Azimuth","Cell type",22
+92,"CL:1001109","Cortical Thick Ascending Limb","Azimuth","Cell type",22
+93,"CL:1001131","Ascending Vasa Recta Endothelial","Azimuth","Cell type",26
+94,"CL:1001318","Vascular Smooth Muscle / Pericyte","Azimuth","Cell type",44
+95,"CL:4028003","EC aerocyte capillary","Azimuth","Cell type",7
+96,"CL:4028004","Alveolar fibroblasts","Azimuth","Cell type",7
+97,"CL:4028006","Adventitial fibroblasts","Azimuth","Cell type",7
+98,"CL:4030009","Proximal Tubule Epithelial Segment 1","Azimuth","Cell type",14
+99,"CL:4030010","Proximal Tubule Epithelial Segment 2","Azimuth","Cell type",14
+100,"CL:4030011","Proximal Tubule Epithelial Segment 3","Azimuth","Cell type",18
+101,"CL:4030012","Descending Thin Limb Type 1","Azimuth","Cell type",22
+102,"CL:4030013","Descending Thin Limb Type 2","Azimuth","Cell type",22
+103,"CL:4030014","Descending Thin Limb Type 3","Azimuth","Cell type",22
+104,"CL:4030016","Distal Convoluted Tubule Type 1","Azimuth","Cell type",22
+105,"CL:4030017","Distal Convoluted Tubule Type 2","Azimuth","Cell type",12
+106,"CL:4030018","Connecting Tubule Principal","Azimuth","Cell type",20
+107,"CL:4030020","Connecting Tubule Intercalated Type A","Azimuth","Cell type",12
+108,"CL:4030022","Medullary Fibroblast","Azimuth","Cell type",22
+109,"CL:4033005","SMG serous (bronchial)","Azimuth","Cell type",2
+110,"CL:4033022","SMG mucous","Azimuth","Cell type",3
+111,"CL:4033023","SMG duct","Azimuth","Cell type",3
+112,"CL:4033044","Deuterosomal","Azimuth","Cell type",3

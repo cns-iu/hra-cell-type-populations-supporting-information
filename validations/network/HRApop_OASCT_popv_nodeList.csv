@@ -1,0 +1,84 @@
+"id","id_lab","label","tool","type","records"
+0,"UBERON:0000059 Large Intestine","Large Intestine","popV","Organ",232
+1,"UBERON:0000948 Heart","Heart","popV","Organ",102
+2,"UBERON:0001004 Lung","Lung","popV","Organ",228
+3,"UBERON:0002108 Small Intestine","Small Intestine","popV","Organ",248
+4,"FMA:14926 Superior part of Duodenum","Superior part of Duodenum","popV","Anatomical Structure",16
+5,"FMA:14928 Descending part of Duodenum","Descending part of Duodenum","popV","Anatomical Structure",40
+6,"FMA:14929 Horizontal part of Duodenum","Horizontal part of Duodenum","popV","Anatomical Structure",44
+7,"FMA:14930 Ascending part of Duodenum","Ascending part of Duodenum","popV","Anatomical Structure",44
+8,"FMA:14966 Distal part of Ileum","Distal part of Ileum","popV","Anatomical Structure",42
+9,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","popV","Anatomical Structure",6
+10,"FMA:7360 Medial Bronchopulmonary Segment","Medial Bronchopulmonary Segment","popV","Anatomical Structure",65
+11,"FMA:7361 Lateral Bronchopulmonary Segment","Lateral Bronchopulmonary Segment","popV","Anatomical Structure",67
+12,"FMA:7385 Left Apical Bronchopulmonary Segment","Left Apical Bronchopulmonary Segment","popV","Anatomical Structure",31
+13,"FMA:7402 Lateral Segmental Bronchus","Lateral Segmental Bronchus","popV","Anatomical Structure",65
+14,"UBERON:0001052 Rectum","Rectum","popV","Anatomical Structure",22
+15,"UBERON:0001153 Caecum","Caecum","popV","Anatomical Structure",24
+16,"UBERON:0001156 Ascending Colon","Ascending Colon","popV","Anatomical Structure",48
+17,"UBERON:0001157 Transverse Colon","Transverse Colon","popV","Anatomical Structure",46
+18,"UBERON:0001158 Descending Colon","Descending Colon","popV","Anatomical Structure",46
+19,"UBERON:0001159 Sigmoid Colon","Sigmoid Colon","popV","Anatomical Structure",46
+20,"UBERON:0002078 Right Cardiac Atrium","Right Cardiac Atrium","popV","Anatomical Structure",20
+21,"UBERON:0002079 Left Cardiac Atrium","Left Cardiac Atrium","popV","Anatomical Structure",20
+22,"UBERON:0002080 Right Ventricle","Right Ventricle","popV","Anatomical Structure",20
+23,"UBERON:0002084 Left Ventricle","Left Ventricle","popV","Anatomical Structure",20
+24,"UBERON:0002094 Interventricular Septum","Interventricular Septum","popV","Anatomical Structure",16
+25,"UBERON:0002115 Jejunum","Jejunum","popV","Anatomical Structure",42
+26,"UBERON:0002116 Ileum","Ileum","popV","Anatomical Structure",20
+27,"CL:0000057","fibroblast","popV","Cell type",50
+28,"CL:0000071","blood vessel endothelial cell","popV","Cell type",6
+29,"CL:0000097","mast cell","popV","Cell type",41
+30,"CL:0000131","gut endothelial cell","popV","Cell type",22
+31,"CL:0000158","club cell","popV","Cell type",7
+32,"CL:0000182","hepatocyte","popV","Cell type",11
+33,"CL:0000192","smooth muscle cell","popV","Cell type",24
+34,"CL:0000235","macrophage","popV","Cell type",28
+35,"CL:0000236","B cell","popV","Cell type",36
+36,"CL:0000359","vascular associated smooth muscle cell","popV","Cell type",7
+37,"CL:0000451","dendritic cell","popV","Cell type",7
+38,"CL:0000576","monocyte","popV","Cell type",22
+39,"CL:0000624","CD4-positive, alpha-beta T cell","popV","Cell type",29
+40,"CL:0000625","CD8-positive, alpha-beta T cell","popV","Cell type",29
+41,"CL:0000646","basal cell","popV","Cell type",7
+42,"CL:0000669","pericyte","popV","Cell type",7
+43,"CL:0000746","cardiac muscle cell","popV","Cell type",21
+44,"CL:0000767","basophil","popV","Cell type",7
+45,"CL:0000775","neutrophil","popV","Cell type",40
+46,"CL:0000784","plasmacytoid dendritic cell","popV","Cell type",2
+47,"CL:0000786","plasma cell","popV","Cell type",50
+48,"CL:0000814","mature NK T cell","popV","Cell type",7
+49,"CL:0000860","classical monocyte","popV","Cell type",7
+50,"CL:0000875","non-classical monocyte","popV","Cell type",7
+51,"CL:0001044","effector CD4-positive, alpha-beta T cell","popV","Cell type",7
+52,"CL:0001050","effector CD8-positive, alpha-beta T cell","popV","Cell type",7
+53,"CL:0002062","type I pneumocyte","popV","Cell type",7
+54,"CL:0002063","type II pneumocyte","popV","Cell type",7
+55,"CL:0002071","enterocyte of epithelium of large intestine","popV","Cell type",20
+56,"CL:0002138","endothelial cell of lymphatic vessel","popV","Cell type",7
+57,"CL:0002144","capillary endothelial cell","popV","Cell type",7
+58,"CL:0002370","respiratory goblet cell","popV","Cell type",7
+59,"CL:0002393","intermediate monocyte","popV","Cell type",7
+60,"CL:0002543","vein endothelial cell","popV","Cell type",7
+61,"CL:0002548","fibroblast of cardiac tissue","popV","Cell type",11
+62,"CL:0002598","bronchial smooth muscle cell","popV","Cell type",7
+63,"CL:0009006","intestinal enteroendocrine cell","popV","Cell type",12
+64,"CL:0009009","paneth cell of colon","popV","Cell type",20
+65,"CL:0009011","transit amplifying cell of colon","popV","Cell type",20
+66,"CL:0009012","transit amplifying cell of small intestine","popV","Cell type",12
+67,"CL:0009016","intestinal crypt stem cell of large intestine","popV","Cell type",12
+68,"CL:0009017","intestinal crypt stem cell of small intestine","popV","Cell type",9
+69,"CL:0009080","intestinal tuft cell","popV","Cell type",22
+70,"CL:0010008","cardiac endothelial cell","popV","Cell type",19
+71,"CL:0017000","pulmonary ionocyte","popV","Cell type",3
+72,"CL:0019032","intestinal tuft cell","popV","Cell type",20
+73,"CL:1000271","lung ciliated cell","popV","Cell type",7
+74,"CL:1000320","large intestine goblet cell","popV","Cell type",10
+75,"CL:1000331","serous cell of epithelium of bronchus","popV","Cell type",2
+76,"CL:1000334","enterocyte of epithelium of small intestine","popV","Cell type",12
+77,"CL:1000343","paneth cell of epithelium of small intestine","popV","Cell type",12
+78,"CL:1000413","endothelial cell of artery","popV","Cell type",7
+79,"CL:1000495","small intestine goblet cell","popV","Cell type",12
+80,"CL:1001516","intestinal enteroendocrine cell","popV","Cell type",10
+81,"CL:2000016","lung microvascular endothelial cell","popV","Cell type",7
+82,"CL:4028006","adventitial cell","popV","Cell type",7
