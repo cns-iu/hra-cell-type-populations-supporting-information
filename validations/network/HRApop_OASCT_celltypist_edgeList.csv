@@ -1,0 +1,2178 @@
+"to","from","source_id_lab","target_id_lab","weight","weight_recs"
+0,14,"UBERON:0000059 Large Intestine","UBERON:0001052 Rectum",1,133
+0,15,"UBERON:0000059 Large Intestine","UBERON:0001153 Caecum",1,131
+0,16,"UBERON:0000059 Large Intestine","UBERON:0001156 Ascending Colon",1,262
+0,17,"UBERON:0000059 Large Intestine","UBERON:0001157 Transverse Colon",1,262
+0,18,"UBERON:0000059 Large Intestine","UBERON:0001158 Descending Colon",1,260
+0,19,"UBERON:0000059 Large Intestine","UBERON:0001159 Sigmoid Colon",1,260
+1,9,"UBERON:0000948 Heart","FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle",1,39
+1,20,"UBERON:0000948 Heart","UBERON:0002078 Right Cardiac Atrium",1,115
+1,21,"UBERON:0000948 Heart","UBERON:0002079 Left Cardiac Atrium",1,116
+1,22,"UBERON:0000948 Heart","UBERON:0002080 Right Ventricle",1,122
+1,23,"UBERON:0000948 Heart","UBERON:0002084 Left Ventricle",1,125
+1,24,"UBERON:0000948 Heart","UBERON:0002094 Interventricular Septum",1,106
+2,10,"UBERON:0001004 Lung","FMA:7360 Medial Bronchopulmonary Segment",1,99
+2,11,"UBERON:0001004 Lung","FMA:7361 Lateral Bronchopulmonary Segment",1,99
+2,12,"UBERON:0001004 Lung","FMA:7385 Left Apical Bronchopulmonary Segment",1,50
+2,13,"UBERON:0001004 Lung","FMA:7402 Lateral Segmental Bronchus",1,99
+3,4,"UBERON:0002108 Small Intestine","FMA:14926 Superior part of Duodenum",1,124
+3,5,"UBERON:0002108 Small Intestine","FMA:14928 Descending part of Duodenum",1,254
+3,6,"UBERON:0002108 Small Intestine","FMA:14929 Horizontal part of Duodenum",1,259
+3,7,"UBERON:0002108 Small Intestine","FMA:14930 Ascending part of Duodenum",1,259
+3,8,"UBERON:0002108 Small Intestine","FMA:14966 Distal part of Ileum",1,261
+3,25,"UBERON:0002108 Small Intestine","UBERON:0002115 Jejunum",1,239
+3,26,"UBERON:0002108 Small Intestine","UBERON:0002116 Ileum",1,130
+4,27,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:-cells-ins-",1,1
+4,28,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:activated-cd4-t",1,1
+4,29,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:activated-cd8-t",1,1
+4,30,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:activated-t",1,1
+4,31,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:adult-glia",1,1
+4,32,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:angiogenic-pericyte",1,1
+4,33,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:arterial-capillary",1,1
+4,34,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:best2-goblet-cell",1,1
+4,35,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:best4-epithelial",1,1
+4,36,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:branch-a1-imn-",1,1
+4,37,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:branch-a2-ipan-in-",1,1
+4,38,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:branch-a3-ipan-in-",1,1
+4,39,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:branch-a4-in-",1,1
+4,40,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:branch-b1-emn-",1,1
+4,41,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:branch-b2-emn-",1,1
+4,42,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:branch-b3-ipan-",1,1
+4,43,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cd8-tmem",1,1
+4,44,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cdc1",1,1
+4,45,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cdc2",1,1
+4,46,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:clc-mast-cell",1,1
+4,47,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cldn10-cells",1,1
+4,48,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:clp",1,1
+4,49,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:colonocyte",1,1
+4,50,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:contractile-pericyte-pln-",1,1
+4,52,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cycling-b-cell",1,1
+4,53,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cycling-ec",1,1
+4,54,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cycling-encc-glia",1,1
+4,55,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cycling-neuroblast",1,1
+4,56,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cycling-plasma-cell",1,1
+4,58,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:d-cells-sst-",1,1
+4,59,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:differentiating-glia",1,1
+4,60,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:distal-progenitor",1,1
+4,61,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:dz-gc-cell",1,1
+4,62,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:ec-cells-npw-",1,1
+4,63,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:ec-cells-tac1-",1,1
+4,64,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:eecs",1,1
+4,65,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:encc-glia-progenitor",1,1
+4,66,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:enterocyte",1,1
+4,67,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:fcrl4-memory-b",1,1
+4,68,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:fdc",1,1
+4,69,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:fetal-arterial-ec",1,1
+4,70,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:fetal-venous-ec",1,1
+4,71,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:gc-b-cell",1,1
+4,73,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:germ",1,1
+4,74,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:glia-1-dhh-",1,1
+4,75,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:glia-2-eln-",1,1
+4,76,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:glia-3-bcan-",1,1
+4,77,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:goblet-cell",1,1
+4,78,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:i-cells-cck-",1,1
+4,79,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:icc",1,1
+4,80,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:iga-plasma-cell",1,1
+4,81,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:igg-plasma-cell",1,1
+4,83,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:ilc2",1,1
+4,84,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:ilc3",1,1
+4,85,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:ilcp",1,1
+4,86,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:immature-b",1,1
+4,87,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:immature-pericyte",1,1
+4,88,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:k-cells-gip-",1,1
+4,89,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:l-cells-pyy-",1,1
+4,90,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lec1-ackr4-",1,1
+4,91,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lec2-madcam1-",1,1
+4,92,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lec3-adgrg3-",1,1
+4,93,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lec4-stab2-",1,1
+4,94,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lec5-cldn11-",1,1
+4,95,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lec6-adamts4-",1,1
+4,96,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lti-like-ncr-ilc3",1,1
+4,97,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lymphoid-dc",1,1
+4,98,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lyve1-macrophage",1,1
+4,99,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lz-gc-cell",1,1
+4,100,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,1
+4,101,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:macrophages",1,1
+4,102,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mait-cell",1,1
+4,103,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mast-cell",1,1
+4,104,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mature-arterial-ec",1,1
+4,105,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mature-venous-ec",1,1
+4,106,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:megakaryocyte",1,1
+4,107,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:memory-b",1,1
+4,108,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mesoderm-1-hand1-",1,1
+4,110,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mesothelium",1,1
+4,112,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mesothelium-rgs5-",1,1
+4,113,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:microfold-cell",1,1
+4,114,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mln-stroma-fmo2-",1,1
+4,115,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mlto",1,1
+4,116,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,1
+4,117,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:monocytes",1,1
+4,118,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:mpo-mono-neutrophil",1,1
+4,119,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:myofibroblast",1,1
+4,120,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:myofibroblast-rspo2-",1,1
+4,121,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:n-cells-nts-",1,1
+4,122,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:naive-b",1,1
+4,123,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:neuroblast",1,1
+4,124,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:nk-cell",1,1
+4,125,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:nk-t-cell",1,1
+4,126,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:paneth",1,1
+4,127,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:pdc",1,1
+4,128,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:pericyte",1,1
+4,129,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:pre-b",1,1
+4,130,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:pro-b",1,1
+4,131,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:progenitor-neurog3-",1,1
+4,132,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:proximal-progenitor",1,1
+4,133,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:rbc",1,1
+4,134,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:sell-cd4-t",1,1
+4,135,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:sell-cd8-t",1,1
+4,136,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:smc-part1-capn3-",1,1
+4,137,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:smc-plpp2-",1,1
+4,138,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:stat1-naive-b",1,1
+4,139,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:stem-cells",1,1
+4,141,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:stromal-1-ccl11-",1,1
+4,143,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:stromal-2-npy-",1,1
+4,144,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:stromal-3-c7-",1,1
+4,145,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:stromal-3-kcnn3-",1,1
+4,146,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:stromal-4-mmp1-",1,1
+4,147,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:t-reticular",1,1
+4,148,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:ta",1,1
+4,149,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:tfh",1,1
+4,150,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:th1",1,1
+4,151,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:th17",1,1
+4,152,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:transitional-stromal-3-c3-",1,1
+4,153,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:trdv2-trgv9-gdt",1,1
+4,154,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:treg",1,1
+4,155,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:trgv2-gdt",1,1
+4,156,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:trgv4-gdt",1,1
+4,157,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:trgv5-7-gdt",1,1
+4,158,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:tuft",1,1
+5,27,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:-cells-ins-",1,2
+5,28,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:activated-cd4-t",1,2
+5,29,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:activated-cd8-t",1,2
+5,30,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:activated-t",1,2
+5,31,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:adult-glia",1,2
+5,32,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:angiogenic-pericyte",1,2
+5,33,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:arterial-capillary",1,2
+5,34,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:best2-goblet-cell",1,2
+5,35,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:best4-epithelial",1,2
+5,36,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:branch-a1-imn-",1,2
+5,37,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:branch-a2-ipan-in-",1,2
+5,38,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:branch-a3-ipan-in-",1,2
+5,39,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:branch-a4-in-",1,2
+5,40,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:branch-b1-emn-",1,2
+5,41,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:branch-b2-emn-",1,2
+5,42,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:branch-b3-ipan-",1,2
+5,43,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cd8-tmem",1,2
+5,44,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cdc1",1,2
+5,45,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cdc2",1,2
+5,46,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:clc-mast-cell",1,2
+5,47,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cldn10-cells",1,2
+5,48,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:clp",1,2
+5,49,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:colonocyte",1,2
+5,50,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:contractile-pericyte-pln-",1,2
+5,51,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cx3cr1-cd8-tmem",1,1
+5,52,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cycling-b-cell",1,2
+5,53,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cycling-ec",1,2
+5,54,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cycling-encc-glia",1,1
+5,55,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cycling-neuroblast",1,2
+5,56,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cycling-plasma-cell",1,2
+5,57,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cycling-stromal",1,1
+5,58,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:d-cells-sst-",1,2
+5,59,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:differentiating-glia",1,2
+5,60,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:distal-progenitor",1,2
+5,61,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:dz-gc-cell",1,2
+5,62,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:ec-cells-npw-",1,2
+5,63,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:ec-cells-tac1-",1,2
+5,64,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:eecs",1,2
+5,65,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:encc-glia-progenitor",1,2
+5,66,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:enterocyte",1,2
+5,67,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:fcrl4-memory-b",1,2
+5,68,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:fdc",1,2
+5,69,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:fetal-arterial-ec",1,2
+5,70,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:fetal-venous-ec",1,2
+5,71,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:gc-b-cell",1,2
+5,72,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:gdt",1,1
+5,73,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:germ",1,2
+5,74,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:glia-1-dhh-",1,2
+5,75,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:glia-2-eln-",1,2
+5,76,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:glia-3-bcan-",1,2
+5,77,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:goblet-cell",1,2
+5,78,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:i-cells-cck-",1,2
+5,79,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:icc",1,2
+5,80,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:iga-plasma-cell",1,2
+5,81,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:igg-plasma-cell",1,2
+5,82,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:igm-plasma-cell",1,1
+5,83,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:ilc2",1,2
+5,84,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:ilc3",1,2
+5,85,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:ilcp",1,2
+5,86,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:immature-b",1,2
+5,87,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:immature-pericyte",1,2
+5,88,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:k-cells-gip-",1,2
+5,89,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:l-cells-pyy-",1,2
+5,90,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lec1-ackr4-",1,2
+5,91,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lec2-madcam1-",1,2
+5,92,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lec3-adgrg3-",1,2
+5,93,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lec4-stab2-",1,2
+5,94,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lec5-cldn11-",1,2
+5,95,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lec6-adamts4-",1,2
+5,96,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lti-like-ncr-ilc3",1,2
+5,97,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lymphoid-dc",1,2
+5,98,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lyve1-macrophage",1,2
+5,99,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lz-gc-cell",1,2
+5,100,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,2
+5,101,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:macrophages",1,2
+5,102,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mait-cell",1,2
+5,103,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mast-cell",1,2
+5,104,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mature-arterial-ec",1,2
+5,105,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mature-venous-ec",1,2
+5,106,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:megakaryocyte",1,2
+5,107,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:memory-b",1,2
+5,108,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mesoderm-1-hand1-",1,2
+5,110,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mesothelium",1,2
+5,111,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mesothelium-prg4-",1,1
+5,112,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mesothelium-rgs5-",1,2
+5,113,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:microfold-cell",1,2
+5,114,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mln-stroma-fmo2-",1,2
+5,115,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mlto",1,2
+5,116,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,2
+5,117,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:monocytes",1,2
+5,118,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:mpo-mono-neutrophil",1,2
+5,119,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:myofibroblast",1,2
+5,120,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:myofibroblast-rspo2-",1,2
+5,121,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:n-cells-nts-",1,2
+5,122,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:naive-b",1,2
+5,123,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:neuroblast",1,2
+5,124,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:nk-cell",1,2
+5,125,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:nk-t-cell",1,2
+5,126,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:paneth",1,2
+5,127,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:pdc",1,2
+5,128,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:pericyte",1,2
+5,129,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:pre-b",1,2
+5,130,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:pro-b",1,2
+5,131,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:progenitor-neurog3-",1,2
+5,132,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:proximal-progenitor",1,2
+5,133,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:rbc",1,2
+5,134,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:sell-cd4-t",1,2
+5,135,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:sell-cd8-t",1,2
+5,136,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:smc-part1-capn3-",1,2
+5,137,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:smc-plpp2-",1,2
+5,138,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:stat1-naive-b",1,2
+5,139,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:stem-cells",1,2
+5,141,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:stromal-1-ccl11-",1,2
+5,142,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:stromal-2-ch25h-",1,1
+5,143,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:stromal-2-npy-",1,2
+5,144,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:stromal-3-c7-",1,2
+5,145,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:stromal-3-kcnn3-",1,2
+5,146,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:stromal-4-mmp1-",1,2
+5,147,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:t-reticular",1,2
+5,148,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:ta",1,2
+5,149,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:tfh",1,2
+5,150,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:th1",1,2
+5,151,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:th17",1,2
+5,152,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:transitional-stromal-3-c3-",1,2
+5,153,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:trdv2-trgv9-gdt",1,2
+5,154,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:treg",1,2
+5,155,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:trgv2-gdt",1,2
+5,156,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:trgv4-gdt",1,2
+5,157,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:trgv5-7-gdt",1,2
+5,158,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:tuft",1,2
+5,159,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:venous-capillary",1,1
+6,27,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:-cells-ins-",1,1
+6,28,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:activated-cd4-t",1,2
+6,29,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:activated-cd8-t",1,2
+6,30,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:activated-t",1,2
+6,31,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:adult-glia",1,2
+6,32,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:angiogenic-pericyte",1,2
+6,33,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:arterial-capillary",1,2
+6,34,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:best2-goblet-cell",1,2
+6,35,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:best4-epithelial",1,2
+6,36,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:branch-a1-imn-",1,2
+6,37,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:branch-a2-ipan-in-",1,2
+6,38,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:branch-a3-ipan-in-",1,2
+6,39,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:branch-a4-in-",1,2
+6,40,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:branch-b1-emn-",1,2
+6,41,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:branch-b2-emn-",1,2
+6,42,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:branch-b3-ipan-",1,2
+6,43,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cd8-tmem",1,2
+6,44,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cdc1",1,2
+6,45,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cdc2",1,2
+6,46,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:clc-mast-cell",1,2
+6,47,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cldn10-cells",1,2
+6,48,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:clp",1,2
+6,49,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:colonocyte",1,2
+6,50,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:contractile-pericyte-pln-",1,2
+6,51,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cx3cr1-cd8-tmem",1,2
+6,52,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cycling-b-cell",1,2
+6,53,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cycling-ec",1,2
+6,54,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cycling-encc-glia",1,2
+6,55,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cycling-neuroblast",1,2
+6,56,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cycling-plasma-cell",1,2
+6,57,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cycling-stromal",1,1
+6,58,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:d-cells-sst-",1,2
+6,59,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:differentiating-glia",1,1
+6,60,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:distal-progenitor",1,2
+6,61,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:dz-gc-cell",1,2
+6,62,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:ec-cells-npw-",1,2
+6,63,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:ec-cells-tac1-",1,2
+6,64,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:eecs",1,2
+6,65,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:encc-glia-progenitor",1,2
+6,66,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:enterocyte",1,2
+6,67,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:fcrl4-memory-b",1,2
+6,68,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:fdc",1,2
+6,69,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:fetal-arterial-ec",1,2
+6,70,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:fetal-venous-ec",1,2
+6,71,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:gc-b-cell",1,2
+6,72,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:gdt",1,2
+6,73,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:germ",1,2
+6,74,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:glia-1-dhh-",1,2
+6,75,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:glia-2-eln-",1,2
+6,76,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:glia-3-bcan-",1,2
+6,77,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:goblet-cell",1,2
+6,78,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:i-cells-cck-",1,2
+6,79,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:icc",1,2
+6,80,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:iga-plasma-cell",1,2
+6,81,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:igg-plasma-cell",1,2
+6,82,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:igm-plasma-cell",1,1
+6,83,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:ilc2",1,2
+6,84,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:ilc3",1,2
+6,85,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:ilcp",1,2
+6,86,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:immature-b",1,1
+6,87,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:immature-pericyte",1,2
+6,88,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:k-cells-gip-",1,2
+6,89,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:l-cells-pyy-",1,2
+6,90,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lec1-ackr4-",1,2
+6,91,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lec2-madcam1-",1,2
+6,92,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lec3-adgrg3-",1,2
+6,93,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lec4-stab2-",1,2
+6,94,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lec5-cldn11-",1,2
+6,95,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lec6-adamts4-",1,2
+6,96,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lti-like-ncr-ilc3",1,2
+6,97,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lymphoid-dc",1,2
+6,98,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lyve1-macrophage",1,2
+6,99,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lz-gc-cell",1,2
+6,100,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,2
+6,101,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:macrophages",1,2
+6,102,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mait-cell",1,2
+6,103,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mast-cell",1,2
+6,104,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mature-arterial-ec",1,2
+6,105,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mature-venous-ec",1,2
+6,106,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:megakaryocyte",1,2
+6,107,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:memory-b",1,2
+6,108,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mesoderm-1-hand1-",1,2
+6,109,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mesoderm-2-zeb2-",1,1
+6,110,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mesothelium",1,2
+6,111,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mesothelium-prg4-",1,2
+6,112,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mesothelium-rgs5-",1,2
+6,113,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:microfold-cell",1,2
+6,114,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mln-stroma-fmo2-",1,2
+6,115,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mlto",1,2
+6,116,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,2
+6,117,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:monocytes",1,2
+6,118,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:mpo-mono-neutrophil",1,2
+6,119,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:myofibroblast",1,2
+6,120,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:myofibroblast-rspo2-",1,2
+6,121,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:n-cells-nts-",1,2
+6,122,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:naive-b",1,2
+6,123,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:neuroblast",1,2
+6,124,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:nk-cell",1,2
+6,125,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:nk-t-cell",1,2
+6,126,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:paneth",1,2
+6,127,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:pdc",1,2
+6,128,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:pericyte",1,2
+6,129,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:pre-b",1,2
+6,130,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:pro-b",1,2
+6,131,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:progenitor-neurog3-",1,2
+6,132,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:proximal-progenitor",1,2
+6,133,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:rbc",1,2
+6,134,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:sell-cd4-t",1,2
+6,135,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:sell-cd8-t",1,2
+6,136,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:smc-part1-capn3-",1,2
+6,137,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:smc-plpp2-",1,2
+6,138,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stat1-naive-b",1,2
+6,139,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stem-cells",1,2
+6,140,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stromal-1-adamdec1-",1,1
+6,141,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stromal-1-ccl11-",1,2
+6,142,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stromal-2-ch25h-",1,2
+6,143,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stromal-2-npy-",1,2
+6,144,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stromal-3-c7-",1,2
+6,145,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stromal-3-kcnn3-",1,2
+6,146,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stromal-4-mmp1-",1,2
+6,147,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:t-reticular",1,2
+6,148,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:ta",1,2
+6,149,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:tfh",1,2
+6,150,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:th1",1,2
+6,151,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:th17",1,2
+6,152,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:transitional-stromal-3-c3-",1,2
+6,153,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:trdv2-trgv9-gdt",1,2
+6,154,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:treg",1,2
+6,155,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:trgv2-gdt",1,2
+6,156,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:trgv4-gdt",1,2
+6,157,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:trgv5-7-gdt",1,2
+6,158,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:tuft",1,2
+6,159,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:venous-capillary",1,2
+7,27,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:-cells-ins-",1,1
+7,28,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:activated-cd4-t",1,2
+7,29,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:activated-cd8-t",1,2
+7,30,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:activated-t",1,2
+7,31,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:adult-glia",1,2
+7,32,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:angiogenic-pericyte",1,2
+7,33,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:arterial-capillary",1,2
+7,34,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:best2-goblet-cell",1,2
+7,35,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:best4-epithelial",1,2
+7,36,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:branch-a1-imn-",1,2
+7,37,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:branch-a2-ipan-in-",1,2
+7,38,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:branch-a3-ipan-in-",1,2
+7,39,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:branch-a4-in-",1,2
+7,40,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:branch-b1-emn-",1,2
+7,41,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:branch-b2-emn-",1,2
+7,42,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:branch-b3-ipan-",1,2
+7,43,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cd8-tmem",1,2
+7,44,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cdc1",1,2
+7,45,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cdc2",1,2
+7,46,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:clc-mast-cell",1,2
+7,47,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cldn10-cells",1,2
+7,48,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:clp",1,2
+7,49,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:colonocyte",1,2
+7,50,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:contractile-pericyte-pln-",1,2
+7,51,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cx3cr1-cd8-tmem",1,2
+7,52,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cycling-b-cell",1,2
+7,53,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cycling-ec",1,2
+7,54,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cycling-encc-glia",1,2
+7,55,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cycling-neuroblast",1,2
+7,56,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cycling-plasma-cell",1,2
+7,57,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cycling-stromal",1,1
+7,58,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:d-cells-sst-",1,2
+7,59,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:differentiating-glia",1,1
+7,60,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:distal-progenitor",1,2
+7,61,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:dz-gc-cell",1,2
+7,62,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:ec-cells-npw-",1,2
+7,63,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:ec-cells-tac1-",1,2
+7,64,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:eecs",1,2
+7,65,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:encc-glia-progenitor",1,2
+7,66,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:enterocyte",1,2
+7,67,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:fcrl4-memory-b",1,2
+7,68,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:fdc",1,2
+7,69,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:fetal-arterial-ec",1,2
+7,70,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:fetal-venous-ec",1,2
+7,71,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:gc-b-cell",1,2
+7,72,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:gdt",1,2
+7,73,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:germ",1,2
+7,74,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:glia-1-dhh-",1,2
+7,75,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:glia-2-eln-",1,2
+7,76,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:glia-3-bcan-",1,2
+7,77,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:goblet-cell",1,2
+7,78,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:i-cells-cck-",1,2
+7,79,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:icc",1,2
+7,80,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:iga-plasma-cell",1,2
+7,81,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:igg-plasma-cell",1,2
+7,82,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:igm-plasma-cell",1,1
+7,83,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:ilc2",1,2
+7,84,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:ilc3",1,2
+7,85,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:ilcp",1,2
+7,86,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:immature-b",1,1
+7,87,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:immature-pericyte",1,2
+7,88,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:k-cells-gip-",1,2
+7,89,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:l-cells-pyy-",1,2
+7,90,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lec1-ackr4-",1,2
+7,91,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lec2-madcam1-",1,2
+7,92,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lec3-adgrg3-",1,2
+7,93,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lec4-stab2-",1,2
+7,94,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lec5-cldn11-",1,2
+7,95,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lec6-adamts4-",1,2
+7,96,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lti-like-ncr-ilc3",1,2
+7,97,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lymphoid-dc",1,2
+7,98,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lyve1-macrophage",1,2
+7,99,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lz-gc-cell",1,2
+7,100,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,2
+7,101,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:macrophages",1,2
+7,102,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mait-cell",1,2
+7,103,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mast-cell",1,2
+7,104,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mature-arterial-ec",1,2
+7,105,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mature-venous-ec",1,2
+7,106,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:megakaryocyte",1,2
+7,107,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:memory-b",1,2
+7,108,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mesoderm-1-hand1-",1,2
+7,109,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mesoderm-2-zeb2-",1,1
+7,110,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mesothelium",1,2
+7,111,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mesothelium-prg4-",1,2
+7,112,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mesothelium-rgs5-",1,2
+7,113,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:microfold-cell",1,2
+7,114,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mln-stroma-fmo2-",1,2
+7,115,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mlto",1,2
+7,116,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,2
+7,117,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:monocytes",1,2
+7,118,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:mpo-mono-neutrophil",1,2
+7,119,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:myofibroblast",1,2
+7,120,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:myofibroblast-rspo2-",1,2
+7,121,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:n-cells-nts-",1,2
+7,122,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:naive-b",1,2
+7,123,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:neuroblast",1,2
+7,124,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:nk-cell",1,2
+7,125,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:nk-t-cell",1,2
+7,126,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:paneth",1,2
+7,127,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:pdc",1,2
+7,128,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:pericyte",1,2
+7,129,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:pre-b",1,2
+7,130,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:pro-b",1,2
+7,131,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:progenitor-neurog3-",1,2
+7,132,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:proximal-progenitor",1,2
+7,133,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:rbc",1,2
+7,134,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:sell-cd4-t",1,2
+7,135,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:sell-cd8-t",1,2
+7,136,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:smc-part1-capn3-",1,2
+7,137,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:smc-plpp2-",1,2
+7,138,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stat1-naive-b",1,2
+7,139,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stem-cells",1,2
+7,140,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stromal-1-adamdec1-",1,1
+7,141,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stromal-1-ccl11-",1,2
+7,142,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stromal-2-ch25h-",1,2
+7,143,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stromal-2-npy-",1,2
+7,144,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stromal-3-c7-",1,2
+7,145,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stromal-3-kcnn3-",1,2
+7,146,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stromal-4-mmp1-",1,2
+7,147,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:t-reticular",1,2
+7,148,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:ta",1,2
+7,149,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:tfh",1,2
+7,150,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:th1",1,2
+7,151,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:th17",1,2
+7,152,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:transitional-stromal-3-c3-",1,2
+7,153,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:trdv2-trgv9-gdt",1,2
+7,154,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:treg",1,2
+7,155,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:trgv2-gdt",1,2
+7,156,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:trgv4-gdt",1,2
+7,157,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:trgv5-7-gdt",1,2
+7,158,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:tuft",1,2
+7,159,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:venous-capillary",1,2
+8,27,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:-cells-ins-",1,2
+8,28,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:activated-cd4-t",1,2
+8,29,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:activated-cd8-t",1,2
+8,30,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:activated-t",1,2
+8,31,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:adult-glia",1,2
+8,32,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:angiogenic-pericyte",1,2
+8,33,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:arterial-capillary",1,2
+8,34,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:best2-goblet-cell",1,2
+8,35,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:best4-epithelial",1,2
+8,36,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:branch-a1-imn-",1,2
+8,37,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:branch-a2-ipan-in-",1,2
+8,38,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:branch-a3-ipan-in-",1,2
+8,39,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:branch-a4-in-",1,2
+8,40,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:branch-b1-emn-",1,2
+8,41,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:branch-b2-emn-",1,2
+8,42,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:branch-b3-ipan-",1,2
+8,43,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cd8-tmem",1,2
+8,44,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cdc1",1,2
+8,45,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cdc2",1,2
+8,46,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:clc-mast-cell",1,2
+8,47,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cldn10-cells",1,2
+8,48,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:clp",1,2
+8,49,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:colonocyte",1,2
+8,50,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:contractile-pericyte-pln-",1,2
+8,51,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cx3cr1-cd8-tmem",1,2
+8,52,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cycling-b-cell",1,2
+8,53,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cycling-ec",1,2
+8,54,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cycling-encc-glia",1,2
+8,55,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cycling-neuroblast",1,2
+8,56,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cycling-plasma-cell",1,2
+8,57,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cycling-stromal",1,2
+8,58,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:d-cells-sst-",1,2
+8,59,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:differentiating-glia",1,2
+8,60,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:distal-progenitor",1,2
+8,61,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:dz-gc-cell",1,2
+8,62,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:ec-cells-npw-",1,2
+8,63,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:ec-cells-tac1-",1,2
+8,64,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:eecs",1,2
+8,65,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:encc-glia-progenitor",1,2
+8,66,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:enterocyte",1,2
+8,67,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:fcrl4-memory-b",1,2
+8,68,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:fdc",1,2
+8,69,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:fetal-arterial-ec",1,2
+8,70,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:fetal-venous-ec",1,2
+8,71,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:gc-b-cell",1,2
+8,73,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:germ",1,2
+8,74,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:glia-1-dhh-",1,2
+8,75,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:glia-2-eln-",1,2
+8,76,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:glia-3-bcan-",1,2
+8,77,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:goblet-cell",1,2
+8,78,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:i-cells-cck-",1,2
+8,79,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:icc",1,2
+8,80,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:iga-plasma-cell",1,2
+8,81,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:igg-plasma-cell",1,2
+8,82,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:igm-plasma-cell",1,1
+8,83,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:ilc2",1,2
+8,84,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:ilc3",1,2
+8,85,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:ilcp",1,2
+8,86,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:immature-b",1,2
+8,87,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:immature-pericyte",1,2
+8,88,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:k-cells-gip-",1,2
+8,89,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:l-cells-pyy-",1,2
+8,90,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lec1-ackr4-",1,2
+8,91,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lec2-madcam1-",1,2
+8,92,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lec3-adgrg3-",1,2
+8,93,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lec4-stab2-",1,2
+8,94,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lec5-cldn11-",1,2
+8,95,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lec6-adamts4-",1,2
+8,96,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lti-like-ncr-ilc3",1,2
+8,97,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lymphoid-dc",1,2
+8,98,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lyve1-macrophage",1,2
+8,99,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lz-gc-cell",1,2
+8,100,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,2
+8,101,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:macrophages",1,2
+8,102,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mait-cell",1,2
+8,103,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mast-cell",1,2
+8,104,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mature-arterial-ec",1,2
+8,105,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mature-venous-ec",1,2
+8,106,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:megakaryocyte",1,2
+8,107,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:memory-b",1,2
+8,108,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mesoderm-1-hand1-",1,2
+8,110,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mesothelium",1,2
+8,111,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mesothelium-prg4-",1,2
+8,112,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mesothelium-rgs5-",1,2
+8,113,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:microfold-cell",1,2
+8,114,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mln-stroma-fmo2-",1,2
+8,115,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mlto",1,2
+8,116,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,2
+8,117,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:monocytes",1,2
+8,118,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:mpo-mono-neutrophil",1,2
+8,119,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:myofibroblast",1,2
+8,120,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:myofibroblast-rspo2-",1,2
+8,121,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:n-cells-nts-",1,2
+8,122,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:naive-b",1,2
+8,123,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:neuroblast",1,2
+8,124,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:nk-cell",1,2
+8,125,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:nk-t-cell",1,2
+8,126,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:paneth",1,2
+8,127,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:pdc",1,2
+8,128,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:pericyte",1,2
+8,129,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:pre-b",1,2
+8,130,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:pro-b",1,2
+8,131,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:progenitor-neurog3-",1,2
+8,132,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:proximal-progenitor",1,2
+8,133,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:rbc",1,2
+8,134,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:sell-cd4-t",1,2
+8,135,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:sell-cd8-t",1,2
+8,136,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:smc-part1-capn3-",1,2
+8,137,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:smc-plpp2-",1,2
+8,138,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stat1-naive-b",1,2
+8,139,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stem-cells",1,2
+8,140,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stromal-1-adamdec1-",1,2
+8,141,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stromal-1-ccl11-",1,2
+8,142,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stromal-2-ch25h-",1,2
+8,143,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stromal-2-npy-",1,2
+8,144,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stromal-3-c7-",1,2
+8,145,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stromal-3-kcnn3-",1,2
+8,146,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stromal-4-mmp1-",1,2
+8,147,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:t-reticular",1,2
+8,148,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:ta",1,2
+8,149,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:tfh",1,2
+8,150,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:th1",1,2
+8,151,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:th17",1,2
+8,152,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:transitional-stromal-3-c3-",1,2
+8,153,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:trdv2-trgv9-gdt",1,2
+8,154,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:treg",1,2
+8,155,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:trgv2-gdt",1,2
+8,156,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:trgv4-gdt",1,2
+8,157,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:trgv5-7-gdt",1,2
+8,158,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:tuft",1,2
+8,159,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:venous-capillary",1,2
+9,161,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000057",1,1
+9,164,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000097",1,1
+9,165,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000115",1,1
+9,166,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000136",1,1
+9,171,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000235",1,1
+9,172,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000236",1,1
+9,174,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000359",1,1
+9,175,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000451",1,1
+9,176,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000492",1,1
+9,177,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000545",1,1
+9,178,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000546",1,1
+9,182,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000625",1,1
+9,183,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000669",1,1
+9,184,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000775",1,1
+9,186,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000786",1,1
+9,187,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000791",1,1
+9,188,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000792",1,1
+9,189,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000794",1,1
+9,190,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000798",1,1
+9,191,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000814",1,1
+9,193,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000895",1,1
+9,194,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000899",1,1
+9,195,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000913",1,1
+9,196,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000938",1,1
+9,197,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0000939",1,1
+9,198,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0001043",1,1
+9,199,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0001050",1,1
+9,201,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0001065",1,1
+9,202,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002057",1,1
+9,208,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002129",1,1
+9,209,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002131",1,1
+9,210,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002138",1,1
+9,211,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002144",1,1
+9,213,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002350",1,1
+9,215,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002396",1,1
+9,218,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0002543",1,1
+9,224,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:0010020",1,1
+9,228,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:1000413",1,1
+9,230,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CL:1000477",1,1
+10,160,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000037",1,2
+10,163,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000084",1,2
+10,164,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000097",1,2
+10,167,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000158",1,2
+10,168,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000165",1,2
+10,169,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000186",1,2
+10,170,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000192",1,2
+10,172,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000236",1,2
+10,173,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000313",1,2
+10,176,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000492",1,2
+10,179,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000576",1,2
+10,180,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000583",1,2
+10,181,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000623",1,2
+10,183,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000669",1,2
+10,185,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000784",1,2
+10,186,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000786",1,2
+10,192,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000875",1,2
+10,195,"FMA:7360 Medial Bronchopulmonary Segment","CL:0000913",1,2
+10,200,"FMA:7360 Medial Bronchopulmonary Segment","CL:0001056",1,2
+10,203,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002062",1,2
+10,204,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002063",1,2
+10,207,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002075",1,2
+10,210,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002138",1,2
+10,211,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002144",1,2
+10,212,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002241",1,2
+10,214,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002394",1,2
+10,216,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002399",1,2
+10,217,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002480",1,2
+10,219,"FMA:7360 Medial Bronchopulmonary Segment","CL:0002633",1,2
+10,220,"FMA:7360 Medial Bronchopulmonary Segment","CL:0005006",1,2
+10,221,"FMA:7360 Medial Bronchopulmonary Segment","CL:0005012",1,2
+10,222,"FMA:7360 Medial Bronchopulmonary Segment","CL:0010003",1,2
+10,225,"FMA:7360 Medial Bronchopulmonary Segment","CL:0019001",1,2
+10,226,"FMA:7360 Medial Bronchopulmonary Segment","CL:0019003",1,2
+10,227,"FMA:7360 Medial Bronchopulmonary Segment","CL:1000312",1,2
+10,228,"FMA:7360 Medial Bronchopulmonary Segment","CL:1000413",1,2
+10,229,"FMA:7360 Medial Bronchopulmonary Segment","CL:1000414",1,2
+10,231,"FMA:7360 Medial Bronchopulmonary Segment","CL:1000491",1,2
+10,232,"FMA:7360 Medial Bronchopulmonary Segment","CL:1001603",1,2
+10,233,"FMA:7360 Medial Bronchopulmonary Segment","CL:4023054",1,2
+10,234,"FMA:7360 Medial Bronchopulmonary Segment","CL:4028003",1,2
+10,235,"FMA:7360 Medial Bronchopulmonary Segment","CL:4028004",1,2
+10,236,"FMA:7360 Medial Bronchopulmonary Segment","CL:4028006",1,2
+10,237,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033005",1,2
+10,238,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033022",1,2
+10,239,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033023",1,2
+10,240,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033041",1,2
+10,241,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033042",1,1
+10,242,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033043",1,2
+10,243,"FMA:7360 Medial Bronchopulmonary Segment","CL:4033044",1,2
+11,160,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000037",1,2
+11,163,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000084",1,2
+11,164,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000097",1,2
+11,167,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000158",1,2
+11,168,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000165",1,2
+11,169,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000186",1,2
+11,170,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000192",1,2
+11,172,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000236",1,2
+11,173,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000313",1,2
+11,176,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000492",1,2
+11,179,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000576",1,2
+11,180,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000583",1,2
+11,181,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000623",1,2
+11,183,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000669",1,2
+11,185,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000784",1,2
+11,186,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000786",1,2
+11,192,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000875",1,2
+11,195,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0000913",1,2
+11,200,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0001056",1,2
+11,203,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002062",1,2
+11,204,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002063",1,2
+11,207,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002075",1,2
+11,210,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002138",1,2
+11,211,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002144",1,2
+11,212,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002241",1,2
+11,214,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002394",1,2
+11,216,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002399",1,2
+11,217,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002480",1,2
+11,219,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0002633",1,2
+11,220,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0005006",1,2
+11,221,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0005012",1,2
+11,222,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0010003",1,2
+11,225,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0019001",1,2
+11,226,"FMA:7361 Lateral Bronchopulmonary Segment","CL:0019003",1,2
+11,227,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1000312",1,2
+11,228,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1000413",1,2
+11,229,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1000414",1,2
+11,231,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1000491",1,2
+11,232,"FMA:7361 Lateral Bronchopulmonary Segment","CL:1001603",1,2
+11,233,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4023054",1,2
+11,234,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4028003",1,2
+11,235,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4028004",1,2
+11,236,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4028006",1,2
+11,237,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033005",1,2
+11,238,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033022",1,2
+11,239,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033023",1,2
+11,240,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033041",1,2
+11,241,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033042",1,1
+11,242,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033043",1,2
+11,243,"FMA:7361 Lateral Bronchopulmonary Segment","CL:4033044",1,2
+12,160,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000037",1,1
+12,163,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000084",1,1
+12,164,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000097",1,1
+12,167,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000158",1,1
+12,168,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000165",1,1
+12,169,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000186",1,1
+12,170,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000192",1,1
+12,172,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000236",1,1
+12,173,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000313",1,1
+12,176,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000492",1,1
+12,179,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000576",1,1
+12,180,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000583",1,1
+12,181,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000623",1,1
+12,183,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000669",1,1
+12,185,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000784",1,1
+12,186,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000786",1,1
+12,192,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000875",1,1
+12,195,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0000913",1,1
+12,200,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0001056",1,1
+12,203,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002062",1,1
+12,204,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002063",1,1
+12,207,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002075",1,1
+12,210,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002138",1,1
+12,211,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002144",1,1
+12,212,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002241",1,1
+12,214,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002394",1,1
+12,216,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002399",1,1
+12,217,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002480",1,1
+12,219,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0002633",1,1
+12,220,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0005006",1,1
+12,221,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0005012",1,1
+12,222,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0010003",1,1
+12,225,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0019001",1,1
+12,226,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:0019003",1,1
+12,227,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:1000312",1,1
+12,228,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:1000413",1,1
+12,229,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:1000414",1,1
+12,231,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:1000491",1,1
+12,232,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:1001603",1,1
+12,233,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4023054",1,1
+12,234,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4028003",1,1
+12,235,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4028004",1,1
+12,236,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4028006",1,1
+12,237,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4033005",1,1
+12,238,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4033022",1,1
+12,239,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4033023",1,1
+12,240,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4033041",1,1
+12,241,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4033042",1,1
+12,242,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4033043",1,1
+12,243,"FMA:7385 Left Apical Bronchopulmonary Segment","CL:4033044",1,1
+13,160,"FMA:7402 Lateral Segmental Bronchus","CL:0000037",1,2
+13,163,"FMA:7402 Lateral Segmental Bronchus","CL:0000084",1,2
+13,164,"FMA:7402 Lateral Segmental Bronchus","CL:0000097",1,2
+13,167,"FMA:7402 Lateral Segmental Bronchus","CL:0000158",1,2
+13,168,"FMA:7402 Lateral Segmental Bronchus","CL:0000165",1,2
+13,169,"FMA:7402 Lateral Segmental Bronchus","CL:0000186",1,2
+13,170,"FMA:7402 Lateral Segmental Bronchus","CL:0000192",1,2
+13,172,"FMA:7402 Lateral Segmental Bronchus","CL:0000236",1,2
+13,173,"FMA:7402 Lateral Segmental Bronchus","CL:0000313",1,2
+13,176,"FMA:7402 Lateral Segmental Bronchus","CL:0000492",1,2
+13,179,"FMA:7402 Lateral Segmental Bronchus","CL:0000576",1,2
+13,180,"FMA:7402 Lateral Segmental Bronchus","CL:0000583",1,2
+13,181,"FMA:7402 Lateral Segmental Bronchus","CL:0000623",1,2
+13,183,"FMA:7402 Lateral Segmental Bronchus","CL:0000669",1,2
+13,185,"FMA:7402 Lateral Segmental Bronchus","CL:0000784",1,2
+13,186,"FMA:7402 Lateral Segmental Bronchus","CL:0000786",1,2
+13,192,"FMA:7402 Lateral Segmental Bronchus","CL:0000875",1,2
+13,195,"FMA:7402 Lateral Segmental Bronchus","CL:0000913",1,2
+13,200,"FMA:7402 Lateral Segmental Bronchus","CL:0001056",1,2
+13,203,"FMA:7402 Lateral Segmental Bronchus","CL:0002062",1,2
+13,204,"FMA:7402 Lateral Segmental Bronchus","CL:0002063",1,2
+13,207,"FMA:7402 Lateral Segmental Bronchus","CL:0002075",1,2
+13,210,"FMA:7402 Lateral Segmental Bronchus","CL:0002138",1,2
+13,211,"FMA:7402 Lateral Segmental Bronchus","CL:0002144",1,2
+13,212,"FMA:7402 Lateral Segmental Bronchus","CL:0002241",1,2
+13,214,"FMA:7402 Lateral Segmental Bronchus","CL:0002394",1,2
+13,216,"FMA:7402 Lateral Segmental Bronchus","CL:0002399",1,2
+13,217,"FMA:7402 Lateral Segmental Bronchus","CL:0002480",1,2
+13,219,"FMA:7402 Lateral Segmental Bronchus","CL:0002633",1,2
+13,220,"FMA:7402 Lateral Segmental Bronchus","CL:0005006",1,2
+13,221,"FMA:7402 Lateral Segmental Bronchus","CL:0005012",1,2
+13,222,"FMA:7402 Lateral Segmental Bronchus","CL:0010003",1,2
+13,225,"FMA:7402 Lateral Segmental Bronchus","CL:0019001",1,2
+13,226,"FMA:7402 Lateral Segmental Bronchus","CL:0019003",1,2
+13,227,"FMA:7402 Lateral Segmental Bronchus","CL:1000312",1,2
+13,228,"FMA:7402 Lateral Segmental Bronchus","CL:1000413",1,2
+13,229,"FMA:7402 Lateral Segmental Bronchus","CL:1000414",1,2
+13,231,"FMA:7402 Lateral Segmental Bronchus","CL:1000491",1,2
+13,232,"FMA:7402 Lateral Segmental Bronchus","CL:1001603",1,2
+13,233,"FMA:7402 Lateral Segmental Bronchus","CL:4023054",1,2
+13,234,"FMA:7402 Lateral Segmental Bronchus","CL:4028003",1,2
+13,235,"FMA:7402 Lateral Segmental Bronchus","CL:4028004",1,2
+13,236,"FMA:7402 Lateral Segmental Bronchus","CL:4028006",1,2
+13,237,"FMA:7402 Lateral Segmental Bronchus","CL:4033005",1,2
+13,238,"FMA:7402 Lateral Segmental Bronchus","CL:4033022",1,2
+13,239,"FMA:7402 Lateral Segmental Bronchus","CL:4033023",1,2
+13,240,"FMA:7402 Lateral Segmental Bronchus","CL:4033041",1,2
+13,241,"FMA:7402 Lateral Segmental Bronchus","CL:4033042",1,1
+13,242,"FMA:7402 Lateral Segmental Bronchus","CL:4033043",1,2
+13,243,"FMA:7402 Lateral Segmental Bronchus","CL:4033044",1,2
+14,27,"UBERON:0001052 Rectum","ASCTB-TEMP:-cells-ins-",1,1
+14,28,"UBERON:0001052 Rectum","ASCTB-TEMP:activated-cd4-t",1,1
+14,29,"UBERON:0001052 Rectum","ASCTB-TEMP:activated-cd8-t",1,1
+14,30,"UBERON:0001052 Rectum","ASCTB-TEMP:activated-t",1,1
+14,31,"UBERON:0001052 Rectum","ASCTB-TEMP:adult-glia",1,1
+14,32,"UBERON:0001052 Rectum","ASCTB-TEMP:angiogenic-pericyte",1,1
+14,33,"UBERON:0001052 Rectum","ASCTB-TEMP:arterial-capillary",1,1
+14,34,"UBERON:0001052 Rectum","ASCTB-TEMP:best2-goblet-cell",1,1
+14,35,"UBERON:0001052 Rectum","ASCTB-TEMP:best4-epithelial",1,1
+14,36,"UBERON:0001052 Rectum","ASCTB-TEMP:branch-a1-imn-",1,1
+14,37,"UBERON:0001052 Rectum","ASCTB-TEMP:branch-a2-ipan-in-",1,1
+14,38,"UBERON:0001052 Rectum","ASCTB-TEMP:branch-a3-ipan-in-",1,1
+14,39,"UBERON:0001052 Rectum","ASCTB-TEMP:branch-a4-in-",1,1
+14,40,"UBERON:0001052 Rectum","ASCTB-TEMP:branch-b1-emn-",1,1
+14,41,"UBERON:0001052 Rectum","ASCTB-TEMP:branch-b2-emn-",1,1
+14,42,"UBERON:0001052 Rectum","ASCTB-TEMP:branch-b3-ipan-",1,1
+14,43,"UBERON:0001052 Rectum","ASCTB-TEMP:cd8-tmem",1,1
+14,44,"UBERON:0001052 Rectum","ASCTB-TEMP:cdc1",1,1
+14,45,"UBERON:0001052 Rectum","ASCTB-TEMP:cdc2",1,1
+14,46,"UBERON:0001052 Rectum","ASCTB-TEMP:clc-mast-cell",1,1
+14,47,"UBERON:0001052 Rectum","ASCTB-TEMP:cldn10-cells",1,1
+14,48,"UBERON:0001052 Rectum","ASCTB-TEMP:clp",1,1
+14,49,"UBERON:0001052 Rectum","ASCTB-TEMP:colonocyte",1,1
+14,50,"UBERON:0001052 Rectum","ASCTB-TEMP:contractile-pericyte-pln-",1,1
+14,51,"UBERON:0001052 Rectum","ASCTB-TEMP:cx3cr1-cd8-tmem",1,1
+14,52,"UBERON:0001052 Rectum","ASCTB-TEMP:cycling-b-cell",1,1
+14,53,"UBERON:0001052 Rectum","ASCTB-TEMP:cycling-ec",1,1
+14,54,"UBERON:0001052 Rectum","ASCTB-TEMP:cycling-encc-glia",1,1
+14,55,"UBERON:0001052 Rectum","ASCTB-TEMP:cycling-neuroblast",1,1
+14,56,"UBERON:0001052 Rectum","ASCTB-TEMP:cycling-plasma-cell",1,1
+14,57,"UBERON:0001052 Rectum","ASCTB-TEMP:cycling-stromal",1,1
+14,58,"UBERON:0001052 Rectum","ASCTB-TEMP:d-cells-sst-",1,1
+14,59,"UBERON:0001052 Rectum","ASCTB-TEMP:differentiating-glia",1,1
+14,60,"UBERON:0001052 Rectum","ASCTB-TEMP:distal-progenitor",1,1
+14,61,"UBERON:0001052 Rectum","ASCTB-TEMP:dz-gc-cell",1,1
+14,62,"UBERON:0001052 Rectum","ASCTB-TEMP:ec-cells-npw-",1,1
+14,63,"UBERON:0001052 Rectum","ASCTB-TEMP:ec-cells-tac1-",1,1
+14,64,"UBERON:0001052 Rectum","ASCTB-TEMP:eecs",1,1
+14,65,"UBERON:0001052 Rectum","ASCTB-TEMP:encc-glia-progenitor",1,1
+14,66,"UBERON:0001052 Rectum","ASCTB-TEMP:enterocyte",1,1
+14,67,"UBERON:0001052 Rectum","ASCTB-TEMP:fcrl4-memory-b",1,1
+14,68,"UBERON:0001052 Rectum","ASCTB-TEMP:fdc",1,1
+14,69,"UBERON:0001052 Rectum","ASCTB-TEMP:fetal-arterial-ec",1,1
+14,70,"UBERON:0001052 Rectum","ASCTB-TEMP:fetal-venous-ec",1,1
+14,71,"UBERON:0001052 Rectum","ASCTB-TEMP:gc-b-cell",1,1
+14,72,"UBERON:0001052 Rectum","ASCTB-TEMP:gdt",1,1
+14,73,"UBERON:0001052 Rectum","ASCTB-TEMP:germ",1,1
+14,74,"UBERON:0001052 Rectum","ASCTB-TEMP:glia-1-dhh-",1,1
+14,75,"UBERON:0001052 Rectum","ASCTB-TEMP:glia-2-eln-",1,1
+14,76,"UBERON:0001052 Rectum","ASCTB-TEMP:glia-3-bcan-",1,1
+14,77,"UBERON:0001052 Rectum","ASCTB-TEMP:goblet-cell",1,1
+14,78,"UBERON:0001052 Rectum","ASCTB-TEMP:i-cells-cck-",1,1
+14,79,"UBERON:0001052 Rectum","ASCTB-TEMP:icc",1,1
+14,80,"UBERON:0001052 Rectum","ASCTB-TEMP:iga-plasma-cell",1,1
+14,81,"UBERON:0001052 Rectum","ASCTB-TEMP:igg-plasma-cell",1,1
+14,82,"UBERON:0001052 Rectum","ASCTB-TEMP:igm-plasma-cell",1,1
+14,83,"UBERON:0001052 Rectum","ASCTB-TEMP:ilc2",1,1
+14,84,"UBERON:0001052 Rectum","ASCTB-TEMP:ilc3",1,1
+14,85,"UBERON:0001052 Rectum","ASCTB-TEMP:ilcp",1,1
+14,86,"UBERON:0001052 Rectum","ASCTB-TEMP:immature-b",1,1
+14,87,"UBERON:0001052 Rectum","ASCTB-TEMP:immature-pericyte",1,1
+14,88,"UBERON:0001052 Rectum","ASCTB-TEMP:k-cells-gip-",1,1
+14,89,"UBERON:0001052 Rectum","ASCTB-TEMP:l-cells-pyy-",1,1
+14,90,"UBERON:0001052 Rectum","ASCTB-TEMP:lec1-ackr4-",1,1
+14,91,"UBERON:0001052 Rectum","ASCTB-TEMP:lec2-madcam1-",1,1
+14,92,"UBERON:0001052 Rectum","ASCTB-TEMP:lec3-adgrg3-",1,1
+14,93,"UBERON:0001052 Rectum","ASCTB-TEMP:lec4-stab2-",1,1
+14,94,"UBERON:0001052 Rectum","ASCTB-TEMP:lec5-cldn11-",1,1
+14,95,"UBERON:0001052 Rectum","ASCTB-TEMP:lec6-adamts4-",1,1
+14,96,"UBERON:0001052 Rectum","ASCTB-TEMP:lti-like-ncr-ilc3",1,1
+14,97,"UBERON:0001052 Rectum","ASCTB-TEMP:lymphoid-dc",1,1
+14,98,"UBERON:0001052 Rectum","ASCTB-TEMP:lyve1-macrophage",1,1
+14,99,"UBERON:0001052 Rectum","ASCTB-TEMP:lz-gc-cell",1,1
+14,100,"UBERON:0001052 Rectum","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,1
+14,101,"UBERON:0001052 Rectum","ASCTB-TEMP:macrophages",1,1
+14,102,"UBERON:0001052 Rectum","ASCTB-TEMP:mait-cell",1,1
+14,103,"UBERON:0001052 Rectum","ASCTB-TEMP:mast-cell",1,1
+14,104,"UBERON:0001052 Rectum","ASCTB-TEMP:mature-arterial-ec",1,1
+14,105,"UBERON:0001052 Rectum","ASCTB-TEMP:mature-venous-ec",1,1
+14,106,"UBERON:0001052 Rectum","ASCTB-TEMP:megakaryocyte",1,1
+14,107,"UBERON:0001052 Rectum","ASCTB-TEMP:memory-b",1,1
+14,108,"UBERON:0001052 Rectum","ASCTB-TEMP:mesoderm-1-hand1-",1,1
+14,109,"UBERON:0001052 Rectum","ASCTB-TEMP:mesoderm-2-zeb2-",1,1
+14,110,"UBERON:0001052 Rectum","ASCTB-TEMP:mesothelium",1,1
+14,111,"UBERON:0001052 Rectum","ASCTB-TEMP:mesothelium-prg4-",1,1
+14,112,"UBERON:0001052 Rectum","ASCTB-TEMP:mesothelium-rgs5-",1,1
+14,113,"UBERON:0001052 Rectum","ASCTB-TEMP:microfold-cell",1,1
+14,114,"UBERON:0001052 Rectum","ASCTB-TEMP:mln-stroma-fmo2-",1,1
+14,115,"UBERON:0001052 Rectum","ASCTB-TEMP:mlto",1,1
+14,116,"UBERON:0001052 Rectum","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,1
+14,117,"UBERON:0001052 Rectum","ASCTB-TEMP:monocytes",1,1
+14,118,"UBERON:0001052 Rectum","ASCTB-TEMP:mpo-mono-neutrophil",1,1
+14,119,"UBERON:0001052 Rectum","ASCTB-TEMP:myofibroblast",1,1
+14,120,"UBERON:0001052 Rectum","ASCTB-TEMP:myofibroblast-rspo2-",1,1
+14,121,"UBERON:0001052 Rectum","ASCTB-TEMP:n-cells-nts-",1,1
+14,122,"UBERON:0001052 Rectum","ASCTB-TEMP:naive-b",1,1
+14,123,"UBERON:0001052 Rectum","ASCTB-TEMP:neuroblast",1,1
+14,124,"UBERON:0001052 Rectum","ASCTB-TEMP:nk-cell",1,1
+14,125,"UBERON:0001052 Rectum","ASCTB-TEMP:nk-t-cell",1,1
+14,126,"UBERON:0001052 Rectum","ASCTB-TEMP:paneth",1,1
+14,127,"UBERON:0001052 Rectum","ASCTB-TEMP:pdc",1,1
+14,128,"UBERON:0001052 Rectum","ASCTB-TEMP:pericyte",1,1
+14,129,"UBERON:0001052 Rectum","ASCTB-TEMP:pre-b",1,1
+14,130,"UBERON:0001052 Rectum","ASCTB-TEMP:pro-b",1,1
+14,131,"UBERON:0001052 Rectum","ASCTB-TEMP:progenitor-neurog3-",1,1
+14,132,"UBERON:0001052 Rectum","ASCTB-TEMP:proximal-progenitor",1,1
+14,133,"UBERON:0001052 Rectum","ASCTB-TEMP:rbc",1,1
+14,134,"UBERON:0001052 Rectum","ASCTB-TEMP:sell-cd4-t",1,1
+14,135,"UBERON:0001052 Rectum","ASCTB-TEMP:sell-cd8-t",1,1
+14,136,"UBERON:0001052 Rectum","ASCTB-TEMP:smc-part1-capn3-",1,1
+14,137,"UBERON:0001052 Rectum","ASCTB-TEMP:smc-plpp2-",1,1
+14,138,"UBERON:0001052 Rectum","ASCTB-TEMP:stat1-naive-b",1,1
+14,139,"UBERON:0001052 Rectum","ASCTB-TEMP:stem-cells",1,1
+14,140,"UBERON:0001052 Rectum","ASCTB-TEMP:stromal-1-adamdec1-",1,1
+14,141,"UBERON:0001052 Rectum","ASCTB-TEMP:stromal-1-ccl11-",1,1
+14,142,"UBERON:0001052 Rectum","ASCTB-TEMP:stromal-2-ch25h-",1,1
+14,143,"UBERON:0001052 Rectum","ASCTB-TEMP:stromal-2-npy-",1,1
+14,144,"UBERON:0001052 Rectum","ASCTB-TEMP:stromal-3-c7-",1,1
+14,145,"UBERON:0001052 Rectum","ASCTB-TEMP:stromal-3-kcnn3-",1,1
+14,146,"UBERON:0001052 Rectum","ASCTB-TEMP:stromal-4-mmp1-",1,1
+14,147,"UBERON:0001052 Rectum","ASCTB-TEMP:t-reticular",1,1
+14,148,"UBERON:0001052 Rectum","ASCTB-TEMP:ta",1,1
+14,149,"UBERON:0001052 Rectum","ASCTB-TEMP:tfh",1,1
+14,150,"UBERON:0001052 Rectum","ASCTB-TEMP:th1",1,1
+14,151,"UBERON:0001052 Rectum","ASCTB-TEMP:th17",1,1
+14,152,"UBERON:0001052 Rectum","ASCTB-TEMP:transitional-stromal-3-c3-",1,1
+14,153,"UBERON:0001052 Rectum","ASCTB-TEMP:trdv2-trgv9-gdt",1,1
+14,154,"UBERON:0001052 Rectum","ASCTB-TEMP:treg",1,1
+14,155,"UBERON:0001052 Rectum","ASCTB-TEMP:trgv2-gdt",1,1
+14,156,"UBERON:0001052 Rectum","ASCTB-TEMP:trgv4-gdt",1,1
+14,157,"UBERON:0001052 Rectum","ASCTB-TEMP:trgv5-7-gdt",1,1
+14,158,"UBERON:0001052 Rectum","ASCTB-TEMP:tuft",1,1
+14,159,"UBERON:0001052 Rectum","ASCTB-TEMP:venous-capillary",1,1
+15,27,"UBERON:0001153 Caecum","ASCTB-TEMP:-cells-ins-",1,1
+15,28,"UBERON:0001153 Caecum","ASCTB-TEMP:activated-cd4-t",1,1
+15,29,"UBERON:0001153 Caecum","ASCTB-TEMP:activated-cd8-t",1,1
+15,30,"UBERON:0001153 Caecum","ASCTB-TEMP:activated-t",1,1
+15,31,"UBERON:0001153 Caecum","ASCTB-TEMP:adult-glia",1,1
+15,32,"UBERON:0001153 Caecum","ASCTB-TEMP:angiogenic-pericyte",1,1
+15,33,"UBERON:0001153 Caecum","ASCTB-TEMP:arterial-capillary",1,1
+15,34,"UBERON:0001153 Caecum","ASCTB-TEMP:best2-goblet-cell",1,1
+15,35,"UBERON:0001153 Caecum","ASCTB-TEMP:best4-epithelial",1,1
+15,36,"UBERON:0001153 Caecum","ASCTB-TEMP:branch-a1-imn-",1,1
+15,37,"UBERON:0001153 Caecum","ASCTB-TEMP:branch-a2-ipan-in-",1,1
+15,38,"UBERON:0001153 Caecum","ASCTB-TEMP:branch-a3-ipan-in-",1,1
+15,39,"UBERON:0001153 Caecum","ASCTB-TEMP:branch-a4-in-",1,1
+15,40,"UBERON:0001153 Caecum","ASCTB-TEMP:branch-b1-emn-",1,1
+15,41,"UBERON:0001153 Caecum","ASCTB-TEMP:branch-b2-emn-",1,1
+15,42,"UBERON:0001153 Caecum","ASCTB-TEMP:branch-b3-ipan-",1,1
+15,43,"UBERON:0001153 Caecum","ASCTB-TEMP:cd8-tmem",1,1
+15,44,"UBERON:0001153 Caecum","ASCTB-TEMP:cdc1",1,1
+15,45,"UBERON:0001153 Caecum","ASCTB-TEMP:cdc2",1,1
+15,46,"UBERON:0001153 Caecum","ASCTB-TEMP:clc-mast-cell",1,1
+15,47,"UBERON:0001153 Caecum","ASCTB-TEMP:cldn10-cells",1,1
+15,48,"UBERON:0001153 Caecum","ASCTB-TEMP:clp",1,1
+15,49,"UBERON:0001153 Caecum","ASCTB-TEMP:colonocyte",1,1
+15,50,"UBERON:0001153 Caecum","ASCTB-TEMP:contractile-pericyte-pln-",1,1
+15,51,"UBERON:0001153 Caecum","ASCTB-TEMP:cx3cr1-cd8-tmem",1,1
+15,52,"UBERON:0001153 Caecum","ASCTB-TEMP:cycling-b-cell",1,1
+15,53,"UBERON:0001153 Caecum","ASCTB-TEMP:cycling-ec",1,1
+15,54,"UBERON:0001153 Caecum","ASCTB-TEMP:cycling-encc-glia",1,1
+15,55,"UBERON:0001153 Caecum","ASCTB-TEMP:cycling-neuroblast",1,1
+15,56,"UBERON:0001153 Caecum","ASCTB-TEMP:cycling-plasma-cell",1,1
+15,58,"UBERON:0001153 Caecum","ASCTB-TEMP:d-cells-sst-",1,1
+15,59,"UBERON:0001153 Caecum","ASCTB-TEMP:differentiating-glia",1,1
+15,60,"UBERON:0001153 Caecum","ASCTB-TEMP:distal-progenitor",1,1
+15,61,"UBERON:0001153 Caecum","ASCTB-TEMP:dz-gc-cell",1,1
+15,62,"UBERON:0001153 Caecum","ASCTB-TEMP:ec-cells-npw-",1,1
+15,63,"UBERON:0001153 Caecum","ASCTB-TEMP:ec-cells-tac1-",1,1
+15,64,"UBERON:0001153 Caecum","ASCTB-TEMP:eecs",1,1
+15,65,"UBERON:0001153 Caecum","ASCTB-TEMP:encc-glia-progenitor",1,1
+15,66,"UBERON:0001153 Caecum","ASCTB-TEMP:enterocyte",1,1
+15,67,"UBERON:0001153 Caecum","ASCTB-TEMP:fcrl4-memory-b",1,1
+15,68,"UBERON:0001153 Caecum","ASCTB-TEMP:fdc",1,1
+15,69,"UBERON:0001153 Caecum","ASCTB-TEMP:fetal-arterial-ec",1,1
+15,70,"UBERON:0001153 Caecum","ASCTB-TEMP:fetal-venous-ec",1,1
+15,71,"UBERON:0001153 Caecum","ASCTB-TEMP:gc-b-cell",1,1
+15,72,"UBERON:0001153 Caecum","ASCTB-TEMP:gdt",1,1
+15,73,"UBERON:0001153 Caecum","ASCTB-TEMP:germ",1,1
+15,74,"UBERON:0001153 Caecum","ASCTB-TEMP:glia-1-dhh-",1,1
+15,75,"UBERON:0001153 Caecum","ASCTB-TEMP:glia-2-eln-",1,1
+15,76,"UBERON:0001153 Caecum","ASCTB-TEMP:glia-3-bcan-",1,1
+15,77,"UBERON:0001153 Caecum","ASCTB-TEMP:goblet-cell",1,1
+15,78,"UBERON:0001153 Caecum","ASCTB-TEMP:i-cells-cck-",1,1
+15,79,"UBERON:0001153 Caecum","ASCTB-TEMP:icc",1,1
+15,80,"UBERON:0001153 Caecum","ASCTB-TEMP:iga-plasma-cell",1,1
+15,81,"UBERON:0001153 Caecum","ASCTB-TEMP:igg-plasma-cell",1,1
+15,82,"UBERON:0001153 Caecum","ASCTB-TEMP:igm-plasma-cell",1,1
+15,83,"UBERON:0001153 Caecum","ASCTB-TEMP:ilc2",1,1
+15,84,"UBERON:0001153 Caecum","ASCTB-TEMP:ilc3",1,1
+15,85,"UBERON:0001153 Caecum","ASCTB-TEMP:ilcp",1,1
+15,86,"UBERON:0001153 Caecum","ASCTB-TEMP:immature-b",1,1
+15,87,"UBERON:0001153 Caecum","ASCTB-TEMP:immature-pericyte",1,1
+15,88,"UBERON:0001153 Caecum","ASCTB-TEMP:k-cells-gip-",1,1
+15,89,"UBERON:0001153 Caecum","ASCTB-TEMP:l-cells-pyy-",1,1
+15,90,"UBERON:0001153 Caecum","ASCTB-TEMP:lec1-ackr4-",1,1
+15,91,"UBERON:0001153 Caecum","ASCTB-TEMP:lec2-madcam1-",1,1
+15,92,"UBERON:0001153 Caecum","ASCTB-TEMP:lec3-adgrg3-",1,1
+15,93,"UBERON:0001153 Caecum","ASCTB-TEMP:lec4-stab2-",1,1
+15,94,"UBERON:0001153 Caecum","ASCTB-TEMP:lec5-cldn11-",1,1
+15,95,"UBERON:0001153 Caecum","ASCTB-TEMP:lec6-adamts4-",1,1
+15,96,"UBERON:0001153 Caecum","ASCTB-TEMP:lti-like-ncr-ilc3",1,1
+15,97,"UBERON:0001153 Caecum","ASCTB-TEMP:lymphoid-dc",1,1
+15,98,"UBERON:0001153 Caecum","ASCTB-TEMP:lyve1-macrophage",1,1
+15,99,"UBERON:0001153 Caecum","ASCTB-TEMP:lz-gc-cell",1,1
+15,100,"UBERON:0001153 Caecum","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,1
+15,101,"UBERON:0001153 Caecum","ASCTB-TEMP:macrophages",1,1
+15,102,"UBERON:0001153 Caecum","ASCTB-TEMP:mait-cell",1,1
+15,103,"UBERON:0001153 Caecum","ASCTB-TEMP:mast-cell",1,1
+15,104,"UBERON:0001153 Caecum","ASCTB-TEMP:mature-arterial-ec",1,1
+15,105,"UBERON:0001153 Caecum","ASCTB-TEMP:mature-venous-ec",1,1
+15,106,"UBERON:0001153 Caecum","ASCTB-TEMP:megakaryocyte",1,1
+15,107,"UBERON:0001153 Caecum","ASCTB-TEMP:memory-b",1,1
+15,108,"UBERON:0001153 Caecum","ASCTB-TEMP:mesoderm-1-hand1-",1,1
+15,109,"UBERON:0001153 Caecum","ASCTB-TEMP:mesoderm-2-zeb2-",1,1
+15,110,"UBERON:0001153 Caecum","ASCTB-TEMP:mesothelium",1,1
+15,111,"UBERON:0001153 Caecum","ASCTB-TEMP:mesothelium-prg4-",1,1
+15,112,"UBERON:0001153 Caecum","ASCTB-TEMP:mesothelium-rgs5-",1,1
+15,113,"UBERON:0001153 Caecum","ASCTB-TEMP:microfold-cell",1,1
+15,114,"UBERON:0001153 Caecum","ASCTB-TEMP:mln-stroma-fmo2-",1,1
+15,115,"UBERON:0001153 Caecum","ASCTB-TEMP:mlto",1,1
+15,116,"UBERON:0001153 Caecum","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,1
+15,117,"UBERON:0001153 Caecum","ASCTB-TEMP:monocytes",1,1
+15,118,"UBERON:0001153 Caecum","ASCTB-TEMP:mpo-mono-neutrophil",1,1
+15,119,"UBERON:0001153 Caecum","ASCTB-TEMP:myofibroblast",1,1
+15,120,"UBERON:0001153 Caecum","ASCTB-TEMP:myofibroblast-rspo2-",1,1
+15,121,"UBERON:0001153 Caecum","ASCTB-TEMP:n-cells-nts-",1,1
+15,122,"UBERON:0001153 Caecum","ASCTB-TEMP:naive-b",1,1
+15,123,"UBERON:0001153 Caecum","ASCTB-TEMP:neuroblast",1,1
+15,124,"UBERON:0001153 Caecum","ASCTB-TEMP:nk-cell",1,1
+15,125,"UBERON:0001153 Caecum","ASCTB-TEMP:nk-t-cell",1,1
+15,126,"UBERON:0001153 Caecum","ASCTB-TEMP:paneth",1,1
+15,127,"UBERON:0001153 Caecum","ASCTB-TEMP:pdc",1,1
+15,128,"UBERON:0001153 Caecum","ASCTB-TEMP:pericyte",1,1
+15,129,"UBERON:0001153 Caecum","ASCTB-TEMP:pre-b",1,1
+15,130,"UBERON:0001153 Caecum","ASCTB-TEMP:pro-b",1,1
+15,131,"UBERON:0001153 Caecum","ASCTB-TEMP:progenitor-neurog3-",1,1
+15,132,"UBERON:0001153 Caecum","ASCTB-TEMP:proximal-progenitor",1,1
+15,133,"UBERON:0001153 Caecum","ASCTB-TEMP:rbc",1,1
+15,134,"UBERON:0001153 Caecum","ASCTB-TEMP:sell-cd4-t",1,1
+15,135,"UBERON:0001153 Caecum","ASCTB-TEMP:sell-cd8-t",1,1
+15,136,"UBERON:0001153 Caecum","ASCTB-TEMP:smc-part1-capn3-",1,1
+15,137,"UBERON:0001153 Caecum","ASCTB-TEMP:smc-plpp2-",1,1
+15,138,"UBERON:0001153 Caecum","ASCTB-TEMP:stat1-naive-b",1,1
+15,139,"UBERON:0001153 Caecum","ASCTB-TEMP:stem-cells",1,1
+15,141,"UBERON:0001153 Caecum","ASCTB-TEMP:stromal-1-ccl11-",1,1
+15,142,"UBERON:0001153 Caecum","ASCTB-TEMP:stromal-2-ch25h-",1,1
+15,143,"UBERON:0001153 Caecum","ASCTB-TEMP:stromal-2-npy-",1,1
+15,144,"UBERON:0001153 Caecum","ASCTB-TEMP:stromal-3-c7-",1,1
+15,145,"UBERON:0001153 Caecum","ASCTB-TEMP:stromal-3-kcnn3-",1,1
+15,146,"UBERON:0001153 Caecum","ASCTB-TEMP:stromal-4-mmp1-",1,1
+15,147,"UBERON:0001153 Caecum","ASCTB-TEMP:t-reticular",1,1
+15,148,"UBERON:0001153 Caecum","ASCTB-TEMP:ta",1,1
+15,149,"UBERON:0001153 Caecum","ASCTB-TEMP:tfh",1,1
+15,150,"UBERON:0001153 Caecum","ASCTB-TEMP:th1",1,1
+15,151,"UBERON:0001153 Caecum","ASCTB-TEMP:th17",1,1
+15,152,"UBERON:0001153 Caecum","ASCTB-TEMP:transitional-stromal-3-c3-",1,1
+15,153,"UBERON:0001153 Caecum","ASCTB-TEMP:trdv2-trgv9-gdt",1,1
+15,154,"UBERON:0001153 Caecum","ASCTB-TEMP:treg",1,1
+15,155,"UBERON:0001153 Caecum","ASCTB-TEMP:trgv2-gdt",1,1
+15,156,"UBERON:0001153 Caecum","ASCTB-TEMP:trgv4-gdt",1,1
+15,157,"UBERON:0001153 Caecum","ASCTB-TEMP:trgv5-7-gdt",1,1
+15,158,"UBERON:0001153 Caecum","ASCTB-TEMP:tuft",1,1
+15,159,"UBERON:0001153 Caecum","ASCTB-TEMP:venous-capillary",1,1
+16,27,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:-cells-ins-",1,2
+16,28,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:activated-cd4-t",1,2
+16,29,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:activated-cd8-t",1,2
+16,30,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:activated-t",1,2
+16,31,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:adult-glia",1,2
+16,32,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:angiogenic-pericyte",1,2
+16,33,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:arterial-capillary",1,2
+16,34,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:best2-goblet-cell",1,2
+16,35,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:best4-epithelial",1,2
+16,36,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:branch-a1-imn-",1,2
+16,37,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:branch-a2-ipan-in-",1,2
+16,38,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:branch-a3-ipan-in-",1,2
+16,39,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:branch-a4-in-",1,2
+16,40,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:branch-b1-emn-",1,2
+16,41,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:branch-b2-emn-",1,2
+16,42,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:branch-b3-ipan-",1,2
+16,43,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cd8-tmem",1,2
+16,44,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cdc1",1,2
+16,45,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cdc2",1,2
+16,46,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:clc-mast-cell",1,2
+16,47,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cldn10-cells",1,2
+16,48,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:clp",1,2
+16,49,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:colonocyte",1,2
+16,50,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:contractile-pericyte-pln-",1,2
+16,51,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cx3cr1-cd8-tmem",1,2
+16,52,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cycling-b-cell",1,2
+16,53,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cycling-ec",1,2
+16,54,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cycling-encc-glia",1,2
+16,55,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cycling-neuroblast",1,2
+16,56,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cycling-plasma-cell",1,2
+16,57,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cycling-stromal",1,1
+16,58,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:d-cells-sst-",1,2
+16,59,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:differentiating-glia",1,2
+16,60,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:distal-progenitor",1,2
+16,61,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:dz-gc-cell",1,2
+16,62,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:ec-cells-npw-",1,2
+16,63,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:ec-cells-tac1-",1,2
+16,64,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:eecs",1,2
+16,65,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:encc-glia-progenitor",1,2
+16,66,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:enterocyte",1,2
+16,67,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:fcrl4-memory-b",1,2
+16,68,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:fdc",1,2
+16,69,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:fetal-arterial-ec",1,2
+16,70,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:fetal-venous-ec",1,2
+16,71,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:gc-b-cell",1,2
+16,72,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:gdt",1,1
+16,73,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:germ",1,2
+16,74,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:glia-1-dhh-",1,2
+16,75,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:glia-2-eln-",1,2
+16,76,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:glia-3-bcan-",1,2
+16,77,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:goblet-cell",1,2
+16,78,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:i-cells-cck-",1,2
+16,79,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:icc",1,2
+16,80,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:iga-plasma-cell",1,2
+16,81,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:igg-plasma-cell",1,2
+16,82,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:igm-plasma-cell",1,2
+16,83,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:ilc2",1,2
+16,84,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:ilc3",1,2
+16,85,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:ilcp",1,2
+16,86,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:immature-b",1,2
+16,87,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:immature-pericyte",1,2
+16,88,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:k-cells-gip-",1,2
+16,89,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:l-cells-pyy-",1,2
+16,90,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lec1-ackr4-",1,2
+16,91,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lec2-madcam1-",1,2
+16,92,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lec3-adgrg3-",1,2
+16,93,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lec4-stab2-",1,2
+16,94,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lec5-cldn11-",1,2
+16,95,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lec6-adamts4-",1,2
+16,96,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lti-like-ncr-ilc3",1,2
+16,97,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lymphoid-dc",1,2
+16,98,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lyve1-macrophage",1,2
+16,99,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lz-gc-cell",1,2
+16,100,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,2
+16,101,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:macrophages",1,2
+16,102,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mait-cell",1,2
+16,103,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mast-cell",1,2
+16,104,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mature-arterial-ec",1,2
+16,105,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mature-venous-ec",1,2
+16,106,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:megakaryocyte",1,2
+16,107,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:memory-b",1,2
+16,108,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mesoderm-1-hand1-",1,2
+16,109,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mesoderm-2-zeb2-",1,1
+16,110,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mesothelium",1,2
+16,111,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mesothelium-prg4-",1,2
+16,112,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mesothelium-rgs5-",1,2
+16,113,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:microfold-cell",1,2
+16,114,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mln-stroma-fmo2-",1,2
+16,115,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mlto",1,2
+16,116,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,2
+16,117,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:monocytes",1,2
+16,118,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:mpo-mono-neutrophil",1,2
+16,119,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:myofibroblast",1,2
+16,120,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:myofibroblast-rspo2-",1,2
+16,121,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:n-cells-nts-",1,2
+16,122,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:naive-b",1,2
+16,123,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:neuroblast",1,2
+16,124,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:nk-cell",1,2
+16,125,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:nk-t-cell",1,2
+16,126,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:paneth",1,2
+16,127,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:pdc",1,2
+16,128,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:pericyte",1,2
+16,129,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:pre-b",1,2
+16,130,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:pro-b",1,2
+16,131,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:progenitor-neurog3-",1,2
+16,132,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:proximal-progenitor",1,2
+16,133,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:rbc",1,2
+16,134,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:sell-cd4-t",1,2
+16,135,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:sell-cd8-t",1,2
+16,136,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:smc-part1-capn3-",1,2
+16,137,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:smc-plpp2-",1,2
+16,138,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stat1-naive-b",1,2
+16,139,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stem-cells",1,2
+16,140,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stromal-1-adamdec1-",1,1
+16,141,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stromal-1-ccl11-",1,2
+16,142,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stromal-2-ch25h-",1,2
+16,143,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stromal-2-npy-",1,2
+16,144,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stromal-3-c7-",1,2
+16,145,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stromal-3-kcnn3-",1,2
+16,146,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stromal-4-mmp1-",1,2
+16,147,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:t-reticular",1,2
+16,148,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:ta",1,2
+16,149,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:tfh",1,2
+16,150,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:th1",1,2
+16,151,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:th17",1,2
+16,152,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:transitional-stromal-3-c3-",1,2
+16,153,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:trdv2-trgv9-gdt",1,2
+16,154,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:treg",1,2
+16,155,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:trgv2-gdt",1,2
+16,156,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:trgv4-gdt",1,2
+16,157,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:trgv5-7-gdt",1,2
+16,158,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:tuft",1,2
+16,159,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:venous-capillary",1,2
+17,27,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:-cells-ins-",1,2
+17,28,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:activated-cd4-t",1,2
+17,29,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:activated-cd8-t",1,2
+17,30,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:activated-t",1,2
+17,31,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:adult-glia",1,2
+17,32,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:angiogenic-pericyte",1,2
+17,33,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:arterial-capillary",1,2
+17,34,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:best2-goblet-cell",1,2
+17,35,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:best4-epithelial",1,2
+17,36,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:branch-a1-imn-",1,2
+17,37,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:branch-a2-ipan-in-",1,2
+17,38,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:branch-a3-ipan-in-",1,2
+17,39,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:branch-a4-in-",1,2
+17,40,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:branch-b1-emn-",1,2
+17,41,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:branch-b2-emn-",1,2
+17,42,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:branch-b3-ipan-",1,2
+17,43,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cd8-tmem",1,2
+17,44,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cdc1",1,2
+17,45,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cdc2",1,2
+17,46,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:clc-mast-cell",1,2
+17,47,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cldn10-cells",1,2
+17,48,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:clp",1,2
+17,49,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:colonocyte",1,2
+17,50,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:contractile-pericyte-pln-",1,2
+17,51,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cx3cr1-cd8-tmem",1,2
+17,52,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cycling-b-cell",1,2
+17,53,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cycling-ec",1,2
+17,54,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cycling-encc-glia",1,2
+17,55,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cycling-neuroblast",1,2
+17,56,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cycling-plasma-cell",1,2
+17,57,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cycling-stromal",1,2
+17,58,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:d-cells-sst-",1,2
+17,59,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:differentiating-glia",1,2
+17,60,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:distal-progenitor",1,2
+17,61,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:dz-gc-cell",1,2
+17,62,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:ec-cells-npw-",1,2
+17,63,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:ec-cells-tac1-",1,2
+17,64,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:eecs",1,2
+17,65,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:encc-glia-progenitor",1,2
+17,66,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:enterocyte",1,2
+17,67,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:fcrl4-memory-b",1,2
+17,68,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:fdc",1,2
+17,69,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:fetal-arterial-ec",1,2
+17,70,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:fetal-venous-ec",1,2
+17,71,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:gc-b-cell",1,2
+17,72,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:gdt",1,1
+17,73,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:germ",1,2
+17,74,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:glia-1-dhh-",1,2
+17,75,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:glia-2-eln-",1,2
+17,76,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:glia-3-bcan-",1,2
+17,77,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:goblet-cell",1,2
+17,78,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:i-cells-cck-",1,2
+17,79,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:icc",1,2
+17,80,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:iga-plasma-cell",1,2
+17,81,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:igg-plasma-cell",1,2
+17,82,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:igm-plasma-cell",1,1
+17,83,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:ilc2",1,2
+17,84,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:ilc3",1,2
+17,85,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:ilcp",1,2
+17,86,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:immature-b",1,2
+17,87,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:immature-pericyte",1,2
+17,88,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:k-cells-gip-",1,2
+17,89,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:l-cells-pyy-",1,2
+17,90,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lec1-ackr4-",1,2
+17,91,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lec2-madcam1-",1,2
+17,92,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lec3-adgrg3-",1,2
+17,93,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lec4-stab2-",1,2
+17,94,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lec5-cldn11-",1,2
+17,95,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lec6-adamts4-",1,2
+17,96,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lti-like-ncr-ilc3",1,2
+17,97,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lymphoid-dc",1,2
+17,98,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lyve1-macrophage",1,2
+17,99,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lz-gc-cell",1,2
+17,100,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,2
+17,101,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:macrophages",1,2
+17,102,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mait-cell",1,2
+17,103,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mast-cell",1,2
+17,104,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mature-arterial-ec",1,2
+17,105,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mature-venous-ec",1,2
+17,106,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:megakaryocyte",1,2
+17,107,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:memory-b",1,2
+17,108,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mesoderm-1-hand1-",1,2
+17,109,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mesoderm-2-zeb2-",1,2
+17,110,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mesothelium",1,2
+17,111,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mesothelium-prg4-",1,2
+17,112,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mesothelium-rgs5-",1,2
+17,113,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:microfold-cell",1,2
+17,114,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mln-stroma-fmo2-",1,2
+17,115,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mlto",1,2
+17,116,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,2
+17,117,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:monocytes",1,2
+17,118,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:mpo-mono-neutrophil",1,2
+17,119,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:myofibroblast",1,2
+17,120,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:myofibroblast-rspo2-",1,2
+17,121,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:n-cells-nts-",1,2
+17,122,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:naive-b",1,2
+17,123,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:neuroblast",1,2
+17,124,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:nk-cell",1,2
+17,125,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:nk-t-cell",1,2
+17,126,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:paneth",1,2
+17,127,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:pdc",1,2
+17,128,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:pericyte",1,2
+17,129,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:pre-b",1,2
+17,130,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:pro-b",1,2
+17,131,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:progenitor-neurog3-",1,2
+17,132,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:proximal-progenitor",1,2
+17,133,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:rbc",1,2
+17,134,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:sell-cd4-t",1,2
+17,135,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:sell-cd8-t",1,2
+17,136,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:smc-part1-capn3-",1,2
+17,137,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:smc-plpp2-",1,2
+17,138,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:stat1-naive-b",1,2
+17,139,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:stem-cells",1,2
+17,141,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:stromal-1-ccl11-",1,2
+17,142,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:stromal-2-ch25h-",1,2
+17,143,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:stromal-2-npy-",1,2
+17,144,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:stromal-3-c7-",1,2
+17,145,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:stromal-3-kcnn3-",1,2
+17,146,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:stromal-4-mmp1-",1,2
+17,147,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:t-reticular",1,2
+17,148,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:ta",1,2
+17,149,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:tfh",1,2
+17,150,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:th1",1,2
+17,151,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:th17",1,2
+17,152,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:transitional-stromal-3-c3-",1,2
+17,153,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:trdv2-trgv9-gdt",1,2
+17,154,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:treg",1,2
+17,155,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:trgv2-gdt",1,2
+17,156,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:trgv4-gdt",1,2
+17,157,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:trgv5-7-gdt",1,2
+17,158,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:tuft",1,2
+17,159,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:venous-capillary",1,2
+18,27,"UBERON:0001158 Descending Colon","ASCTB-TEMP:-cells-ins-",1,2
+18,28,"UBERON:0001158 Descending Colon","ASCTB-TEMP:activated-cd4-t",1,2
+18,29,"UBERON:0001158 Descending Colon","ASCTB-TEMP:activated-cd8-t",1,2
+18,30,"UBERON:0001158 Descending Colon","ASCTB-TEMP:activated-t",1,2
+18,31,"UBERON:0001158 Descending Colon","ASCTB-TEMP:adult-glia",1,2
+18,32,"UBERON:0001158 Descending Colon","ASCTB-TEMP:angiogenic-pericyte",1,2
+18,33,"UBERON:0001158 Descending Colon","ASCTB-TEMP:arterial-capillary",1,2
+18,34,"UBERON:0001158 Descending Colon","ASCTB-TEMP:best2-goblet-cell",1,2
+18,35,"UBERON:0001158 Descending Colon","ASCTB-TEMP:best4-epithelial",1,2
+18,36,"UBERON:0001158 Descending Colon","ASCTB-TEMP:branch-a1-imn-",1,2
+18,37,"UBERON:0001158 Descending Colon","ASCTB-TEMP:branch-a2-ipan-in-",1,2
+18,38,"UBERON:0001158 Descending Colon","ASCTB-TEMP:branch-a3-ipan-in-",1,2
+18,39,"UBERON:0001158 Descending Colon","ASCTB-TEMP:branch-a4-in-",1,2
+18,40,"UBERON:0001158 Descending Colon","ASCTB-TEMP:branch-b1-emn-",1,2
+18,41,"UBERON:0001158 Descending Colon","ASCTB-TEMP:branch-b2-emn-",1,2
+18,42,"UBERON:0001158 Descending Colon","ASCTB-TEMP:branch-b3-ipan-",1,2
+18,43,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cd8-tmem",1,2
+18,44,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cdc1",1,2
+18,45,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cdc2",1,2
+18,46,"UBERON:0001158 Descending Colon","ASCTB-TEMP:clc-mast-cell",1,2
+18,47,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cldn10-cells",1,2
+18,48,"UBERON:0001158 Descending Colon","ASCTB-TEMP:clp",1,2
+18,49,"UBERON:0001158 Descending Colon","ASCTB-TEMP:colonocyte",1,2
+18,50,"UBERON:0001158 Descending Colon","ASCTB-TEMP:contractile-pericyte-pln-",1,2
+18,51,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cx3cr1-cd8-tmem",1,2
+18,52,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cycling-b-cell",1,2
+18,53,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cycling-ec",1,2
+18,54,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cycling-encc-glia",1,2
+18,55,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cycling-neuroblast",1,2
+18,56,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cycling-plasma-cell",1,2
+18,57,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cycling-stromal",1,1
+18,58,"UBERON:0001158 Descending Colon","ASCTB-TEMP:d-cells-sst-",1,2
+18,59,"UBERON:0001158 Descending Colon","ASCTB-TEMP:differentiating-glia",1,2
+18,60,"UBERON:0001158 Descending Colon","ASCTB-TEMP:distal-progenitor",1,2
+18,61,"UBERON:0001158 Descending Colon","ASCTB-TEMP:dz-gc-cell",1,2
+18,62,"UBERON:0001158 Descending Colon","ASCTB-TEMP:ec-cells-npw-",1,2
+18,63,"UBERON:0001158 Descending Colon","ASCTB-TEMP:ec-cells-tac1-",1,2
+18,64,"UBERON:0001158 Descending Colon","ASCTB-TEMP:eecs",1,2
+18,65,"UBERON:0001158 Descending Colon","ASCTB-TEMP:encc-glia-progenitor",1,2
+18,66,"UBERON:0001158 Descending Colon","ASCTB-TEMP:enterocyte",1,2
+18,67,"UBERON:0001158 Descending Colon","ASCTB-TEMP:fcrl4-memory-b",1,2
+18,68,"UBERON:0001158 Descending Colon","ASCTB-TEMP:fdc",1,2
+18,69,"UBERON:0001158 Descending Colon","ASCTB-TEMP:fetal-arterial-ec",1,2
+18,70,"UBERON:0001158 Descending Colon","ASCTB-TEMP:fetal-venous-ec",1,2
+18,71,"UBERON:0001158 Descending Colon","ASCTB-TEMP:gc-b-cell",1,2
+18,73,"UBERON:0001158 Descending Colon","ASCTB-TEMP:germ",1,2
+18,74,"UBERON:0001158 Descending Colon","ASCTB-TEMP:glia-1-dhh-",1,2
+18,75,"UBERON:0001158 Descending Colon","ASCTB-TEMP:glia-2-eln-",1,2
+18,76,"UBERON:0001158 Descending Colon","ASCTB-TEMP:glia-3-bcan-",1,2
+18,77,"UBERON:0001158 Descending Colon","ASCTB-TEMP:goblet-cell",1,2
+18,78,"UBERON:0001158 Descending Colon","ASCTB-TEMP:i-cells-cck-",1,2
+18,79,"UBERON:0001158 Descending Colon","ASCTB-TEMP:icc",1,2
+18,80,"UBERON:0001158 Descending Colon","ASCTB-TEMP:iga-plasma-cell",1,2
+18,81,"UBERON:0001158 Descending Colon","ASCTB-TEMP:igg-plasma-cell",1,2
+18,82,"UBERON:0001158 Descending Colon","ASCTB-TEMP:igm-plasma-cell",1,1
+18,83,"UBERON:0001158 Descending Colon","ASCTB-TEMP:ilc2",1,2
+18,84,"UBERON:0001158 Descending Colon","ASCTB-TEMP:ilc3",1,2
+18,85,"UBERON:0001158 Descending Colon","ASCTB-TEMP:ilcp",1,2
+18,86,"UBERON:0001158 Descending Colon","ASCTB-TEMP:immature-b",1,2
+18,87,"UBERON:0001158 Descending Colon","ASCTB-TEMP:immature-pericyte",1,2
+18,88,"UBERON:0001158 Descending Colon","ASCTB-TEMP:k-cells-gip-",1,2
+18,89,"UBERON:0001158 Descending Colon","ASCTB-TEMP:l-cells-pyy-",1,2
+18,90,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lec1-ackr4-",1,2
+18,91,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lec2-madcam1-",1,2
+18,92,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lec3-adgrg3-",1,2
+18,93,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lec4-stab2-",1,2
+18,94,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lec5-cldn11-",1,2
+18,95,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lec6-adamts4-",1,2
+18,96,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lti-like-ncr-ilc3",1,2
+18,97,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lymphoid-dc",1,2
+18,98,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lyve1-macrophage",1,2
+18,99,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lz-gc-cell",1,2
+18,100,"UBERON:0001158 Descending Colon","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,1
+18,101,"UBERON:0001158 Descending Colon","ASCTB-TEMP:macrophages",1,2
+18,102,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mait-cell",1,2
+18,103,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mast-cell",1,2
+18,104,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mature-arterial-ec",1,2
+18,105,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mature-venous-ec",1,2
+18,106,"UBERON:0001158 Descending Colon","ASCTB-TEMP:megakaryocyte",1,2
+18,107,"UBERON:0001158 Descending Colon","ASCTB-TEMP:memory-b",1,2
+18,108,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mesoderm-1-hand1-",1,2
+18,109,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mesoderm-2-zeb2-",1,2
+18,110,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mesothelium",1,2
+18,111,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mesothelium-prg4-",1,2
+18,112,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mesothelium-rgs5-",1,2
+18,113,"UBERON:0001158 Descending Colon","ASCTB-TEMP:microfold-cell",1,2
+18,114,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mln-stroma-fmo2-",1,2
+18,115,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mlto",1,2
+18,116,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,2
+18,117,"UBERON:0001158 Descending Colon","ASCTB-TEMP:monocytes",1,2
+18,118,"UBERON:0001158 Descending Colon","ASCTB-TEMP:mpo-mono-neutrophil",1,2
+18,119,"UBERON:0001158 Descending Colon","ASCTB-TEMP:myofibroblast",1,2
+18,120,"UBERON:0001158 Descending Colon","ASCTB-TEMP:myofibroblast-rspo2-",1,2
+18,121,"UBERON:0001158 Descending Colon","ASCTB-TEMP:n-cells-nts-",1,2
+18,122,"UBERON:0001158 Descending Colon","ASCTB-TEMP:naive-b",1,2
+18,123,"UBERON:0001158 Descending Colon","ASCTB-TEMP:neuroblast",1,2
+18,124,"UBERON:0001158 Descending Colon","ASCTB-TEMP:nk-cell",1,2
+18,125,"UBERON:0001158 Descending Colon","ASCTB-TEMP:nk-t-cell",1,2
+18,126,"UBERON:0001158 Descending Colon","ASCTB-TEMP:paneth",1,2
+18,127,"UBERON:0001158 Descending Colon","ASCTB-TEMP:pdc",1,2
+18,128,"UBERON:0001158 Descending Colon","ASCTB-TEMP:pericyte",1,2
+18,129,"UBERON:0001158 Descending Colon","ASCTB-TEMP:pre-b",1,2
+18,130,"UBERON:0001158 Descending Colon","ASCTB-TEMP:pro-b",1,2
+18,131,"UBERON:0001158 Descending Colon","ASCTB-TEMP:progenitor-neurog3-",1,2
+18,132,"UBERON:0001158 Descending Colon","ASCTB-TEMP:proximal-progenitor",1,2
+18,133,"UBERON:0001158 Descending Colon","ASCTB-TEMP:rbc",1,2
+18,134,"UBERON:0001158 Descending Colon","ASCTB-TEMP:sell-cd4-t",1,2
+18,135,"UBERON:0001158 Descending Colon","ASCTB-TEMP:sell-cd8-t",1,2
+18,136,"UBERON:0001158 Descending Colon","ASCTB-TEMP:smc-part1-capn3-",1,2
+18,137,"UBERON:0001158 Descending Colon","ASCTB-TEMP:smc-plpp2-",1,2
+18,138,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stat1-naive-b",1,2
+18,139,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stem-cells",1,2
+18,140,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stromal-1-adamdec1-",1,1
+18,141,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stromal-1-ccl11-",1,2
+18,142,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stromal-2-ch25h-",1,2
+18,143,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stromal-2-npy-",1,2
+18,144,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stromal-3-c7-",1,2
+18,145,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stromal-3-kcnn3-",1,2
+18,146,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stromal-4-mmp1-",1,2
+18,147,"UBERON:0001158 Descending Colon","ASCTB-TEMP:t-reticular",1,2
+18,148,"UBERON:0001158 Descending Colon","ASCTB-TEMP:ta",1,2
+18,149,"UBERON:0001158 Descending Colon","ASCTB-TEMP:tfh",1,2
+18,150,"UBERON:0001158 Descending Colon","ASCTB-TEMP:th1",1,2
+18,151,"UBERON:0001158 Descending Colon","ASCTB-TEMP:th17",1,2
+18,152,"UBERON:0001158 Descending Colon","ASCTB-TEMP:transitional-stromal-3-c3-",1,2
+18,153,"UBERON:0001158 Descending Colon","ASCTB-TEMP:trdv2-trgv9-gdt",1,2
+18,154,"UBERON:0001158 Descending Colon","ASCTB-TEMP:treg",1,2
+18,155,"UBERON:0001158 Descending Colon","ASCTB-TEMP:trgv2-gdt",1,2
+18,156,"UBERON:0001158 Descending Colon","ASCTB-TEMP:trgv4-gdt",1,2
+18,157,"UBERON:0001158 Descending Colon","ASCTB-TEMP:trgv5-7-gdt",1,2
+18,158,"UBERON:0001158 Descending Colon","ASCTB-TEMP:tuft",1,2
+18,159,"UBERON:0001158 Descending Colon","ASCTB-TEMP:venous-capillary",1,2
+19,27,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:-cells-ins-",1,1
+19,28,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:activated-cd4-t",1,2
+19,29,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:activated-cd8-t",1,2
+19,30,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:activated-t",1,2
+19,31,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:adult-glia",1,2
+19,32,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:angiogenic-pericyte",1,2
+19,33,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:arterial-capillary",1,2
+19,34,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:best2-goblet-cell",1,2
+19,35,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:best4-epithelial",1,2
+19,36,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:branch-a1-imn-",1,2
+19,37,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:branch-a2-ipan-in-",1,2
+19,38,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:branch-a3-ipan-in-",1,2
+19,39,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:branch-a4-in-",1,2
+19,40,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:branch-b1-emn-",1,2
+19,41,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:branch-b2-emn-",1,2
+19,42,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:branch-b3-ipan-",1,2
+19,43,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cd8-tmem",1,2
+19,44,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cdc1",1,2
+19,45,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cdc2",1,2
+19,46,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:clc-mast-cell",1,2
+19,47,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cldn10-cells",1,2
+19,48,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:clp",1,2
+19,49,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:colonocyte",1,2
+19,50,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:contractile-pericyte-pln-",1,2
+19,51,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cx3cr1-cd8-tmem",1,2
+19,52,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cycling-b-cell",1,2
+19,53,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cycling-ec",1,2
+19,54,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cycling-encc-glia",1,2
+19,55,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cycling-neuroblast",1,2
+19,56,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cycling-plasma-cell",1,2
+19,57,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cycling-stromal",1,1
+19,58,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:d-cells-sst-",1,2
+19,59,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:differentiating-glia",1,2
+19,60,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:distal-progenitor",1,2
+19,61,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:dz-gc-cell",1,2
+19,62,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:ec-cells-npw-",1,2
+19,63,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:ec-cells-tac1-",1,2
+19,64,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:eecs",1,2
+19,65,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:encc-glia-progenitor",1,2
+19,66,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:enterocyte",1,2
+19,67,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:fcrl4-memory-b",1,2
+19,68,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:fdc",1,2
+19,69,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:fetal-arterial-ec",1,2
+19,70,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:fetal-venous-ec",1,2
+19,71,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:gc-b-cell",1,2
+19,72,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:gdt",1,1
+19,73,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:germ",1,2
+19,74,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:glia-1-dhh-",1,2
+19,75,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:glia-2-eln-",1,2
+19,76,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:glia-3-bcan-",1,2
+19,77,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:goblet-cell",1,2
+19,78,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:i-cells-cck-",1,2
+19,79,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:icc",1,2
+19,80,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:iga-plasma-cell",1,2
+19,81,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:igg-plasma-cell",1,2
+19,82,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:igm-plasma-cell",1,1
+19,83,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:ilc2",1,2
+19,84,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:ilc3",1,2
+19,85,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:ilcp",1,2
+19,86,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:immature-b",1,2
+19,87,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:immature-pericyte",1,2
+19,88,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:k-cells-gip-",1,2
+19,89,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:l-cells-pyy-",1,2
+19,90,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lec1-ackr4-",1,2
+19,91,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lec2-madcam1-",1,2
+19,92,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lec3-adgrg3-",1,2
+19,93,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lec4-stab2-",1,2
+19,94,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lec5-cldn11-",1,2
+19,95,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lec6-adamts4-",1,2
+19,96,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lti-like-ncr-ilc3",1,2
+19,97,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lymphoid-dc",1,2
+19,98,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lyve1-macrophage",1,2
+19,99,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lz-gc-cell",1,2
+19,100,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,2
+19,101,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:macrophages",1,2
+19,102,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mait-cell",1,2
+19,103,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mast-cell",1,2
+19,104,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mature-arterial-ec",1,2
+19,105,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mature-venous-ec",1,2
+19,106,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:megakaryocyte",1,2
+19,107,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:memory-b",1,2
+19,108,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mesoderm-1-hand1-",1,2
+19,109,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mesoderm-2-zeb2-",1,1
+19,110,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mesothelium",1,2
+19,111,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mesothelium-prg4-",1,2
+19,112,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mesothelium-rgs5-",1,2
+19,113,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:microfold-cell",1,2
+19,114,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mln-stroma-fmo2-",1,2
+19,115,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mlto",1,2
+19,116,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,2
+19,117,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:monocytes",1,2
+19,118,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:mpo-mono-neutrophil",1,2
+19,119,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:myofibroblast",1,2
+19,120,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:myofibroblast-rspo2-",1,2
+19,121,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:n-cells-nts-",1,2
+19,122,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:naive-b",1,2
+19,123,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:neuroblast",1,2
+19,124,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:nk-cell",1,2
+19,125,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:nk-t-cell",1,2
+19,126,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:paneth",1,2
+19,127,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:pdc",1,2
+19,128,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:pericyte",1,2
+19,129,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:pre-b",1,2
+19,130,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:pro-b",1,2
+19,131,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:progenitor-neurog3-",1,2
+19,132,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:proximal-progenitor",1,2
+19,133,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:rbc",1,2
+19,134,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:sell-cd4-t",1,2
+19,135,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:sell-cd8-t",1,2
+19,136,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:smc-part1-capn3-",1,2
+19,137,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:smc-plpp2-",1,2
+19,138,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stat1-naive-b",1,2
+19,139,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stem-cells",1,2
+19,140,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stromal-1-adamdec1-",1,1
+19,141,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stromal-1-ccl11-",1,2
+19,142,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stromal-2-ch25h-",1,2
+19,143,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stromal-2-npy-",1,2
+19,144,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stromal-3-c7-",1,2
+19,145,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stromal-3-kcnn3-",1,2
+19,146,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stromal-4-mmp1-",1,2
+19,147,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:t-reticular",1,2
+19,148,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:ta",1,2
+19,149,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:tfh",1,2
+19,150,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:th1",1,2
+19,151,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:th17",1,2
+19,152,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:transitional-stromal-3-c3-",1,2
+19,153,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:trdv2-trgv9-gdt",1,2
+19,154,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:treg",1,2
+19,155,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:trgv2-gdt",1,2
+19,156,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:trgv4-gdt",1,2
+19,157,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:trgv5-7-gdt",1,2
+19,158,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:tuft",1,2
+19,159,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:venous-capillary",1,2
+20,161,"UBERON:0002078 Right Cardiac Atrium","CL:0000057",1,4
+20,162,"UBERON:0002078 Right Cardiac Atrium","CL:0000077",1,2
+20,164,"UBERON:0002078 Right Cardiac Atrium","CL:0000097",1,4
+20,165,"UBERON:0002078 Right Cardiac Atrium","CL:0000115",1,4
+20,166,"UBERON:0002078 Right Cardiac Atrium","CL:0000136",1,4
+20,171,"UBERON:0002078 Right Cardiac Atrium","CL:0000235",1,4
+20,172,"UBERON:0002078 Right Cardiac Atrium","CL:0000236",1,4
+20,174,"UBERON:0002078 Right Cardiac Atrium","CL:0000359",1,4
+20,175,"UBERON:0002078 Right Cardiac Atrium","CL:0000451",1,2
+20,176,"UBERON:0002078 Right Cardiac Atrium","CL:0000492",1,4
+20,177,"UBERON:0002078 Right Cardiac Atrium","CL:0000545",1,2
+20,178,"UBERON:0002078 Right Cardiac Atrium","CL:0000546",1,2
+20,182,"UBERON:0002078 Right Cardiac Atrium","CL:0000625",1,2
+20,183,"UBERON:0002078 Right Cardiac Atrium","CL:0000669",1,4
+20,184,"UBERON:0002078 Right Cardiac Atrium","CL:0000775",1,1
+20,186,"UBERON:0002078 Right Cardiac Atrium","CL:0000786",1,2
+20,187,"UBERON:0002078 Right Cardiac Atrium","CL:0000791",1,2
+20,188,"UBERON:0002078 Right Cardiac Atrium","CL:0000792",1,2
+20,189,"UBERON:0002078 Right Cardiac Atrium","CL:0000794",1,4
+20,191,"UBERON:0002078 Right Cardiac Atrium","CL:0000814",1,2
+20,193,"UBERON:0002078 Right Cardiac Atrium","CL:0000895",1,4
+20,195,"UBERON:0002078 Right Cardiac Atrium","CL:0000913",1,2
+20,196,"UBERON:0002078 Right Cardiac Atrium","CL:0000938",1,2
+20,197,"UBERON:0002078 Right Cardiac Atrium","CL:0000939",1,2
+20,198,"UBERON:0002078 Right Cardiac Atrium","CL:0001043",1,2
+20,199,"UBERON:0002078 Right Cardiac Atrium","CL:0001050",1,4
+20,201,"UBERON:0002078 Right Cardiac Atrium","CL:0001065",1,4
+20,202,"UBERON:0002078 Right Cardiac Atrium","CL:0002057",1,2
+20,205,"UBERON:0002078 Right Cardiac Atrium","CL:0002068",1,2
+20,206,"UBERON:0002078 Right Cardiac Atrium","CL:0002072",1,2
+20,208,"UBERON:0002078 Right Cardiac Atrium","CL:0002129",1,2
+20,209,"UBERON:0002078 Right Cardiac Atrium","CL:0002131",1,2
+20,210,"UBERON:0002078 Right Cardiac Atrium","CL:0002138",1,4
+20,211,"UBERON:0002078 Right Cardiac Atrium","CL:0002144",1,4
+20,213,"UBERON:0002078 Right Cardiac Atrium","CL:0002350",1,4
+20,215,"UBERON:0002078 Right Cardiac Atrium","CL:0002396",1,2
+20,218,"UBERON:0002078 Right Cardiac Atrium","CL:0002543",1,4
+20,224,"UBERON:0002078 Right Cardiac Atrium","CL:0010020",1,2
+20,228,"UBERON:0002078 Right Cardiac Atrium","CL:1000413",1,4
+20,230,"UBERON:0002078 Right Cardiac Atrium","CL:1000477",1,2
+21,161,"UBERON:0002079 Left Cardiac Atrium","CL:0000057",1,4
+21,162,"UBERON:0002079 Left Cardiac Atrium","CL:0000077",1,2
+21,164,"UBERON:0002079 Left Cardiac Atrium","CL:0000097",1,4
+21,165,"UBERON:0002079 Left Cardiac Atrium","CL:0000115",1,4
+21,166,"UBERON:0002079 Left Cardiac Atrium","CL:0000136",1,4
+21,171,"UBERON:0002079 Left Cardiac Atrium","CL:0000235",1,4
+21,172,"UBERON:0002079 Left Cardiac Atrium","CL:0000236",1,4
+21,174,"UBERON:0002079 Left Cardiac Atrium","CL:0000359",1,4
+21,175,"UBERON:0002079 Left Cardiac Atrium","CL:0000451",1,2
+21,176,"UBERON:0002079 Left Cardiac Atrium","CL:0000492",1,4
+21,177,"UBERON:0002079 Left Cardiac Atrium","CL:0000545",1,2
+21,178,"UBERON:0002079 Left Cardiac Atrium","CL:0000546",1,2
+21,182,"UBERON:0002079 Left Cardiac Atrium","CL:0000625",1,2
+21,183,"UBERON:0002079 Left Cardiac Atrium","CL:0000669",1,4
+21,184,"UBERON:0002079 Left Cardiac Atrium","CL:0000775",1,2
+21,186,"UBERON:0002079 Left Cardiac Atrium","CL:0000786",1,2
+21,187,"UBERON:0002079 Left Cardiac Atrium","CL:0000791",1,2
+21,188,"UBERON:0002079 Left Cardiac Atrium","CL:0000792",1,2
+21,189,"UBERON:0002079 Left Cardiac Atrium","CL:0000794",1,4
+21,190,"UBERON:0002079 Left Cardiac Atrium","CL:0000798",1,1
+21,191,"UBERON:0002079 Left Cardiac Atrium","CL:0000814",1,2
+21,193,"UBERON:0002079 Left Cardiac Atrium","CL:0000895",1,4
+21,194,"UBERON:0002079 Left Cardiac Atrium","CL:0000899",1,1
+21,195,"UBERON:0002079 Left Cardiac Atrium","CL:0000913",1,2
+21,196,"UBERON:0002079 Left Cardiac Atrium","CL:0000938",1,2
+21,197,"UBERON:0002079 Left Cardiac Atrium","CL:0000939",1,2
+21,198,"UBERON:0002079 Left Cardiac Atrium","CL:0001043",1,2
+21,199,"UBERON:0002079 Left Cardiac Atrium","CL:0001050",1,4
+21,201,"UBERON:0002079 Left Cardiac Atrium","CL:0001065",1,4
+21,202,"UBERON:0002079 Left Cardiac Atrium","CL:0002057",1,2
+21,205,"UBERON:0002079 Left Cardiac Atrium","CL:0002068",1,2
+21,208,"UBERON:0002079 Left Cardiac Atrium","CL:0002129",1,2
+21,209,"UBERON:0002079 Left Cardiac Atrium","CL:0002131",1,2
+21,210,"UBERON:0002079 Left Cardiac Atrium","CL:0002138",1,4
+21,211,"UBERON:0002079 Left Cardiac Atrium","CL:0002144",1,4
+21,213,"UBERON:0002079 Left Cardiac Atrium","CL:0002350",1,4
+21,215,"UBERON:0002079 Left Cardiac Atrium","CL:0002396",1,2
+21,218,"UBERON:0002079 Left Cardiac Atrium","CL:0002543",1,4
+21,224,"UBERON:0002079 Left Cardiac Atrium","CL:0010020",1,2
+21,228,"UBERON:0002079 Left Cardiac Atrium","CL:1000413",1,4
+21,230,"UBERON:0002079 Left Cardiac Atrium","CL:1000477",1,2
+22,161,"UBERON:0002080 Right Ventricle","CL:0000057",1,4
+22,162,"UBERON:0002080 Right Ventricle","CL:0000077",1,2
+22,164,"UBERON:0002080 Right Ventricle","CL:0000097",1,4
+22,165,"UBERON:0002080 Right Ventricle","CL:0000115",1,4
+22,166,"UBERON:0002080 Right Ventricle","CL:0000136",1,4
+22,171,"UBERON:0002080 Right Ventricle","CL:0000235",1,4
+22,172,"UBERON:0002080 Right Ventricle","CL:0000236",1,4
+22,174,"UBERON:0002080 Right Ventricle","CL:0000359",1,4
+22,175,"UBERON:0002080 Right Ventricle","CL:0000451",1,2
+22,176,"UBERON:0002080 Right Ventricle","CL:0000492",1,4
+22,177,"UBERON:0002080 Right Ventricle","CL:0000545",1,2
+22,178,"UBERON:0002080 Right Ventricle","CL:0000546",1,2
+22,182,"UBERON:0002080 Right Ventricle","CL:0000625",1,2
+22,183,"UBERON:0002080 Right Ventricle","CL:0000669",1,4
+22,184,"UBERON:0002080 Right Ventricle","CL:0000775",1,2
+22,186,"UBERON:0002080 Right Ventricle","CL:0000786",1,2
+22,187,"UBERON:0002080 Right Ventricle","CL:0000791",1,2
+22,188,"UBERON:0002080 Right Ventricle","CL:0000792",1,2
+22,189,"UBERON:0002080 Right Ventricle","CL:0000794",1,4
+22,190,"UBERON:0002080 Right Ventricle","CL:0000798",1,2
+22,191,"UBERON:0002080 Right Ventricle","CL:0000814",1,2
+22,193,"UBERON:0002080 Right Ventricle","CL:0000895",1,4
+22,194,"UBERON:0002080 Right Ventricle","CL:0000899",1,2
+22,195,"UBERON:0002080 Right Ventricle","CL:0000913",1,2
+22,196,"UBERON:0002080 Right Ventricle","CL:0000938",1,2
+22,197,"UBERON:0002080 Right Ventricle","CL:0000939",1,2
+22,198,"UBERON:0002080 Right Ventricle","CL:0001043",1,2
+22,199,"UBERON:0002080 Right Ventricle","CL:0001050",1,4
+22,201,"UBERON:0002080 Right Ventricle","CL:0001065",1,4
+22,202,"UBERON:0002080 Right Ventricle","CL:0002057",1,2
+22,205,"UBERON:0002080 Right Ventricle","CL:0002068",1,2
+22,206,"UBERON:0002080 Right Ventricle","CL:0002072",1,1
+22,208,"UBERON:0002080 Right Ventricle","CL:0002129",1,2
+22,209,"UBERON:0002080 Right Ventricle","CL:0002131",1,2
+22,210,"UBERON:0002080 Right Ventricle","CL:0002138",1,4
+22,211,"UBERON:0002080 Right Ventricle","CL:0002144",1,4
+22,213,"UBERON:0002080 Right Ventricle","CL:0002350",1,4
+22,215,"UBERON:0002080 Right Ventricle","CL:0002396",1,2
+22,218,"UBERON:0002080 Right Ventricle","CL:0002543",1,4
+22,223,"UBERON:0002080 Right Ventricle","CL:0010005",1,1
+22,224,"UBERON:0002080 Right Ventricle","CL:0010020",1,2
+22,228,"UBERON:0002080 Right Ventricle","CL:1000413",1,4
+22,230,"UBERON:0002080 Right Ventricle","CL:1000477",1,4
+23,161,"UBERON:0002084 Left Ventricle","CL:0000057",1,4
+23,162,"UBERON:0002084 Left Ventricle","CL:0000077",1,2
+23,164,"UBERON:0002084 Left Ventricle","CL:0000097",1,4
+23,165,"UBERON:0002084 Left Ventricle","CL:0000115",1,4
+23,166,"UBERON:0002084 Left Ventricle","CL:0000136",1,4
+23,171,"UBERON:0002084 Left Ventricle","CL:0000235",1,4
+23,172,"UBERON:0002084 Left Ventricle","CL:0000236",1,4
+23,174,"UBERON:0002084 Left Ventricle","CL:0000359",1,4
+23,175,"UBERON:0002084 Left Ventricle","CL:0000451",1,2
+23,176,"UBERON:0002084 Left Ventricle","CL:0000492",1,4
+23,177,"UBERON:0002084 Left Ventricle","CL:0000545",1,2
+23,178,"UBERON:0002084 Left Ventricle","CL:0000546",1,2
+23,182,"UBERON:0002084 Left Ventricle","CL:0000625",1,2
+23,183,"UBERON:0002084 Left Ventricle","CL:0000669",1,4
+23,184,"UBERON:0002084 Left Ventricle","CL:0000775",1,2
+23,186,"UBERON:0002084 Left Ventricle","CL:0000786",1,2
+23,187,"UBERON:0002084 Left Ventricle","CL:0000791",1,2
+23,188,"UBERON:0002084 Left Ventricle","CL:0000792",1,2
+23,189,"UBERON:0002084 Left Ventricle","CL:0000794",1,4
+23,190,"UBERON:0002084 Left Ventricle","CL:0000798",1,2
+23,191,"UBERON:0002084 Left Ventricle","CL:0000814",1,2
+23,193,"UBERON:0002084 Left Ventricle","CL:0000895",1,4
+23,194,"UBERON:0002084 Left Ventricle","CL:0000899",1,2
+23,195,"UBERON:0002084 Left Ventricle","CL:0000913",1,2
+23,196,"UBERON:0002084 Left Ventricle","CL:0000938",1,2
+23,197,"UBERON:0002084 Left Ventricle","CL:0000939",1,2
+23,198,"UBERON:0002084 Left Ventricle","CL:0001043",1,2
+23,199,"UBERON:0002084 Left Ventricle","CL:0001050",1,4
+23,201,"UBERON:0002084 Left Ventricle","CL:0001065",1,4
+23,202,"UBERON:0002084 Left Ventricle","CL:0002057",1,2
+23,205,"UBERON:0002084 Left Ventricle","CL:0002068",1,4
+23,206,"UBERON:0002084 Left Ventricle","CL:0002072",1,2
+23,208,"UBERON:0002084 Left Ventricle","CL:0002129",1,2
+23,209,"UBERON:0002084 Left Ventricle","CL:0002131",1,2
+23,210,"UBERON:0002084 Left Ventricle","CL:0002138",1,4
+23,211,"UBERON:0002084 Left Ventricle","CL:0002144",1,4
+23,213,"UBERON:0002084 Left Ventricle","CL:0002350",1,4
+23,215,"UBERON:0002084 Left Ventricle","CL:0002396",1,2
+23,218,"UBERON:0002084 Left Ventricle","CL:0002543",1,4
+23,223,"UBERON:0002084 Left Ventricle","CL:0010005",1,1
+23,224,"UBERON:0002084 Left Ventricle","CL:0010020",1,2
+23,228,"UBERON:0002084 Left Ventricle","CL:1000413",1,4
+23,230,"UBERON:0002084 Left Ventricle","CL:1000477",1,4
+24,161,"UBERON:0002094 Interventricular Septum","CL:0000057",1,4
+24,162,"UBERON:0002094 Interventricular Septum","CL:0000077",1,1
+24,164,"UBERON:0002094 Interventricular Septum","CL:0000097",1,4
+24,165,"UBERON:0002094 Interventricular Septum","CL:0000115",1,2
+24,166,"UBERON:0002094 Interventricular Septum","CL:0000136",1,4
+24,171,"UBERON:0002094 Interventricular Septum","CL:0000235",1,4
+24,172,"UBERON:0002094 Interventricular Septum","CL:0000236",1,4
+24,174,"UBERON:0002094 Interventricular Septum","CL:0000359",1,4
+24,175,"UBERON:0002094 Interventricular Septum","CL:0000451",1,2
+24,176,"UBERON:0002094 Interventricular Septum","CL:0000492",1,2
+24,177,"UBERON:0002094 Interventricular Septum","CL:0000545",1,2
+24,178,"UBERON:0002094 Interventricular Septum","CL:0000546",1,2
+24,182,"UBERON:0002094 Interventricular Septum","CL:0000625",1,2
+24,183,"UBERON:0002094 Interventricular Septum","CL:0000669",1,4
+24,184,"UBERON:0002094 Interventricular Septum","CL:0000775",1,2
+24,186,"UBERON:0002094 Interventricular Septum","CL:0000786",1,2
+24,187,"UBERON:0002094 Interventricular Septum","CL:0000791",1,2
+24,188,"UBERON:0002094 Interventricular Septum","CL:0000792",1,2
+24,189,"UBERON:0002094 Interventricular Septum","CL:0000794",1,2
+24,190,"UBERON:0002094 Interventricular Septum","CL:0000798",1,2
+24,191,"UBERON:0002094 Interventricular Septum","CL:0000814",1,2
+24,193,"UBERON:0002094 Interventricular Septum","CL:0000895",1,2
+24,194,"UBERON:0002094 Interventricular Septum","CL:0000899",1,1
+24,195,"UBERON:0002094 Interventricular Septum","CL:0000913",1,2
+24,196,"UBERON:0002094 Interventricular Septum","CL:0000938",1,2
+24,197,"UBERON:0002094 Interventricular Septum","CL:0000939",1,2
+24,198,"UBERON:0002094 Interventricular Septum","CL:0001043",1,2
+24,199,"UBERON:0002094 Interventricular Septum","CL:0001050",1,2
+24,201,"UBERON:0002094 Interventricular Septum","CL:0001065",1,4
+24,202,"UBERON:0002094 Interventricular Septum","CL:0002057",1,2
+24,205,"UBERON:0002094 Interventricular Septum","CL:0002068",1,2
+24,208,"UBERON:0002094 Interventricular Septum","CL:0002129",1,2
+24,209,"UBERON:0002094 Interventricular Septum","CL:0002131",1,2
+24,210,"UBERON:0002094 Interventricular Septum","CL:0002138",1,4
+24,211,"UBERON:0002094 Interventricular Septum","CL:0002144",1,4
+24,213,"UBERON:0002094 Interventricular Septum","CL:0002350",1,4
+24,215,"UBERON:0002094 Interventricular Septum","CL:0002396",1,2
+24,218,"UBERON:0002094 Interventricular Septum","CL:0002543",1,4
+24,224,"UBERON:0002094 Interventricular Septum","CL:0010020",1,2
+24,228,"UBERON:0002094 Interventricular Septum","CL:1000413",1,4
+24,230,"UBERON:0002094 Interventricular Septum","CL:1000477",1,2
+25,27,"UBERON:0002115 Jejunum","ASCTB-TEMP:-cells-ins-",1,2
+25,28,"UBERON:0002115 Jejunum","ASCTB-TEMP:activated-cd4-t",1,2
+25,29,"UBERON:0002115 Jejunum","ASCTB-TEMP:activated-cd8-t",1,2
+25,30,"UBERON:0002115 Jejunum","ASCTB-TEMP:activated-t",1,2
+25,31,"UBERON:0002115 Jejunum","ASCTB-TEMP:adult-glia",1,2
+25,32,"UBERON:0002115 Jejunum","ASCTB-TEMP:angiogenic-pericyte",1,2
+25,33,"UBERON:0002115 Jejunum","ASCTB-TEMP:arterial-capillary",1,2
+25,34,"UBERON:0002115 Jejunum","ASCTB-TEMP:best2-goblet-cell",1,2
+25,35,"UBERON:0002115 Jejunum","ASCTB-TEMP:best4-epithelial",1,2
+25,36,"UBERON:0002115 Jejunum","ASCTB-TEMP:branch-a1-imn-",1,2
+25,37,"UBERON:0002115 Jejunum","ASCTB-TEMP:branch-a2-ipan-in-",1,2
+25,38,"UBERON:0002115 Jejunum","ASCTB-TEMP:branch-a3-ipan-in-",1,1
+25,39,"UBERON:0002115 Jejunum","ASCTB-TEMP:branch-a4-in-",1,2
+25,40,"UBERON:0002115 Jejunum","ASCTB-TEMP:branch-b1-emn-",1,2
+25,41,"UBERON:0002115 Jejunum","ASCTB-TEMP:branch-b2-emn-",1,2
+25,42,"UBERON:0002115 Jejunum","ASCTB-TEMP:branch-b3-ipan-",1,2
+25,43,"UBERON:0002115 Jejunum","ASCTB-TEMP:cd8-tmem",1,2
+25,44,"UBERON:0002115 Jejunum","ASCTB-TEMP:cdc1",1,2
+25,45,"UBERON:0002115 Jejunum","ASCTB-TEMP:cdc2",1,1
+25,46,"UBERON:0002115 Jejunum","ASCTB-TEMP:clc-mast-cell",1,2
+25,47,"UBERON:0002115 Jejunum","ASCTB-TEMP:cldn10-cells",1,2
+25,48,"UBERON:0002115 Jejunum","ASCTB-TEMP:clp",1,2
+25,49,"UBERON:0002115 Jejunum","ASCTB-TEMP:colonocyte",1,2
+25,50,"UBERON:0002115 Jejunum","ASCTB-TEMP:contractile-pericyte-pln-",1,2
+25,51,"UBERON:0002115 Jejunum","ASCTB-TEMP:cx3cr1-cd8-tmem",1,1
+25,52,"UBERON:0002115 Jejunum","ASCTB-TEMP:cycling-b-cell",1,2
+25,53,"UBERON:0002115 Jejunum","ASCTB-TEMP:cycling-ec",1,2
+25,54,"UBERON:0002115 Jejunum","ASCTB-TEMP:cycling-encc-glia",1,1
+25,55,"UBERON:0002115 Jejunum","ASCTB-TEMP:cycling-neuroblast",1,1
+25,56,"UBERON:0002115 Jejunum","ASCTB-TEMP:cycling-plasma-cell",1,2
+25,57,"UBERON:0002115 Jejunum","ASCTB-TEMP:cycling-stromal",1,1
+25,58,"UBERON:0002115 Jejunum","ASCTB-TEMP:d-cells-sst-",1,2
+25,59,"UBERON:0002115 Jejunum","ASCTB-TEMP:differentiating-glia",1,1
+25,60,"UBERON:0002115 Jejunum","ASCTB-TEMP:distal-progenitor",1,2
+25,61,"UBERON:0002115 Jejunum","ASCTB-TEMP:dz-gc-cell",1,2
+25,62,"UBERON:0002115 Jejunum","ASCTB-TEMP:ec-cells-npw-",1,2
+25,63,"UBERON:0002115 Jejunum","ASCTB-TEMP:ec-cells-tac1-",1,2
+25,64,"UBERON:0002115 Jejunum","ASCTB-TEMP:eecs",1,2
+25,65,"UBERON:0002115 Jejunum","ASCTB-TEMP:encc-glia-progenitor",1,1
+25,66,"UBERON:0002115 Jejunum","ASCTB-TEMP:enterocyte",1,2
+25,67,"UBERON:0002115 Jejunum","ASCTB-TEMP:fcrl4-memory-b",1,2
+25,68,"UBERON:0002115 Jejunum","ASCTB-TEMP:fdc",1,2
+25,69,"UBERON:0002115 Jejunum","ASCTB-TEMP:fetal-arterial-ec",1,2
+25,70,"UBERON:0002115 Jejunum","ASCTB-TEMP:fetal-venous-ec",1,2
+25,71,"UBERON:0002115 Jejunum","ASCTB-TEMP:gc-b-cell",1,2
+25,73,"UBERON:0002115 Jejunum","ASCTB-TEMP:germ",1,2
+25,74,"UBERON:0002115 Jejunum","ASCTB-TEMP:glia-1-dhh-",1,2
+25,75,"UBERON:0002115 Jejunum","ASCTB-TEMP:glia-2-eln-",1,1
+25,76,"UBERON:0002115 Jejunum","ASCTB-TEMP:glia-3-bcan-",1,2
+25,77,"UBERON:0002115 Jejunum","ASCTB-TEMP:goblet-cell",1,2
+25,78,"UBERON:0002115 Jejunum","ASCTB-TEMP:i-cells-cck-",1,2
+25,79,"UBERON:0002115 Jejunum","ASCTB-TEMP:icc",1,2
+25,80,"UBERON:0002115 Jejunum","ASCTB-TEMP:iga-plasma-cell",1,1
+25,81,"UBERON:0002115 Jejunum","ASCTB-TEMP:igg-plasma-cell",1,1
+25,82,"UBERON:0002115 Jejunum","ASCTB-TEMP:igm-plasma-cell",1,1
+25,83,"UBERON:0002115 Jejunum","ASCTB-TEMP:ilc2",1,2
+25,84,"UBERON:0002115 Jejunum","ASCTB-TEMP:ilc3",1,1
+25,85,"UBERON:0002115 Jejunum","ASCTB-TEMP:ilcp",1,1
+25,86,"UBERON:0002115 Jejunum","ASCTB-TEMP:immature-b",1,1
+25,87,"UBERON:0002115 Jejunum","ASCTB-TEMP:immature-pericyte",1,2
+25,88,"UBERON:0002115 Jejunum","ASCTB-TEMP:k-cells-gip-",1,2
+25,89,"UBERON:0002115 Jejunum","ASCTB-TEMP:l-cells-pyy-",1,2
+25,90,"UBERON:0002115 Jejunum","ASCTB-TEMP:lec1-ackr4-",1,2
+25,91,"UBERON:0002115 Jejunum","ASCTB-TEMP:lec2-madcam1-",1,2
+25,92,"UBERON:0002115 Jejunum","ASCTB-TEMP:lec3-adgrg3-",1,2
+25,93,"UBERON:0002115 Jejunum","ASCTB-TEMP:lec4-stab2-",1,2
+25,94,"UBERON:0002115 Jejunum","ASCTB-TEMP:lec5-cldn11-",1,2
+25,95,"UBERON:0002115 Jejunum","ASCTB-TEMP:lec6-adamts4-",1,2
+25,96,"UBERON:0002115 Jejunum","ASCTB-TEMP:lti-like-ncr-ilc3",1,2
+25,97,"UBERON:0002115 Jejunum","ASCTB-TEMP:lymphoid-dc",1,2
+25,98,"UBERON:0002115 Jejunum","ASCTB-TEMP:lyve1-macrophage",1,2
+25,99,"UBERON:0002115 Jejunum","ASCTB-TEMP:lz-gc-cell",1,2
+25,100,"UBERON:0002115 Jejunum","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,2
+25,101,"UBERON:0002115 Jejunum","ASCTB-TEMP:macrophages",1,2
+25,102,"UBERON:0002115 Jejunum","ASCTB-TEMP:mait-cell",1,2
+25,103,"UBERON:0002115 Jejunum","ASCTB-TEMP:mast-cell",1,2
+25,104,"UBERON:0002115 Jejunum","ASCTB-TEMP:mature-arterial-ec",1,2
+25,105,"UBERON:0002115 Jejunum","ASCTB-TEMP:mature-venous-ec",1,2
+25,106,"UBERON:0002115 Jejunum","ASCTB-TEMP:megakaryocyte",1,2
+25,107,"UBERON:0002115 Jejunum","ASCTB-TEMP:memory-b",1,2
+25,108,"UBERON:0002115 Jejunum","ASCTB-TEMP:mesoderm-1-hand1-",1,2
+25,110,"UBERON:0002115 Jejunum","ASCTB-TEMP:mesothelium",1,1
+25,111,"UBERON:0002115 Jejunum","ASCTB-TEMP:mesothelium-prg4-",1,1
+25,112,"UBERON:0002115 Jejunum","ASCTB-TEMP:mesothelium-rgs5-",1,2
+25,113,"UBERON:0002115 Jejunum","ASCTB-TEMP:microfold-cell",1,2
+25,114,"UBERON:0002115 Jejunum","ASCTB-TEMP:mln-stroma-fmo2-",1,1
+25,115,"UBERON:0002115 Jejunum","ASCTB-TEMP:mlto",1,2
+25,116,"UBERON:0002115 Jejunum","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,2
+25,117,"UBERON:0002115 Jejunum","ASCTB-TEMP:monocytes",1,2
+25,118,"UBERON:0002115 Jejunum","ASCTB-TEMP:mpo-mono-neutrophil",1,2
+25,119,"UBERON:0002115 Jejunum","ASCTB-TEMP:myofibroblast",1,2
+25,120,"UBERON:0002115 Jejunum","ASCTB-TEMP:myofibroblast-rspo2-",1,2
+25,121,"UBERON:0002115 Jejunum","ASCTB-TEMP:n-cells-nts-",1,1
+25,122,"UBERON:0002115 Jejunum","ASCTB-TEMP:naive-b",1,2
+25,123,"UBERON:0002115 Jejunum","ASCTB-TEMP:neuroblast",1,2
+25,124,"UBERON:0002115 Jejunum","ASCTB-TEMP:nk-cell",1,2
+25,125,"UBERON:0002115 Jejunum","ASCTB-TEMP:nk-t-cell",1,2
+25,126,"UBERON:0002115 Jejunum","ASCTB-TEMP:paneth",1,2
+25,127,"UBERON:0002115 Jejunum","ASCTB-TEMP:pdc",1,2
+25,128,"UBERON:0002115 Jejunum","ASCTB-TEMP:pericyte",1,2
+25,129,"UBERON:0002115 Jejunum","ASCTB-TEMP:pre-b",1,2
+25,130,"UBERON:0002115 Jejunum","ASCTB-TEMP:pro-b",1,2
+25,131,"UBERON:0002115 Jejunum","ASCTB-TEMP:progenitor-neurog3-",1,2
+25,132,"UBERON:0002115 Jejunum","ASCTB-TEMP:proximal-progenitor",1,2
+25,133,"UBERON:0002115 Jejunum","ASCTB-TEMP:rbc",1,2
+25,134,"UBERON:0002115 Jejunum","ASCTB-TEMP:sell-cd4-t",1,2
+25,135,"UBERON:0002115 Jejunum","ASCTB-TEMP:sell-cd8-t",1,2
+25,136,"UBERON:0002115 Jejunum","ASCTB-TEMP:smc-part1-capn3-",1,2
+25,137,"UBERON:0002115 Jejunum","ASCTB-TEMP:smc-plpp2-",1,2
+25,138,"UBERON:0002115 Jejunum","ASCTB-TEMP:stat1-naive-b",1,2
+25,139,"UBERON:0002115 Jejunum","ASCTB-TEMP:stem-cells",1,2
+25,140,"UBERON:0002115 Jejunum","ASCTB-TEMP:stromal-1-adamdec1-",1,1
+25,141,"UBERON:0002115 Jejunum","ASCTB-TEMP:stromal-1-ccl11-",1,2
+25,142,"UBERON:0002115 Jejunum","ASCTB-TEMP:stromal-2-ch25h-",1,2
+25,143,"UBERON:0002115 Jejunum","ASCTB-TEMP:stromal-2-npy-",1,2
+25,144,"UBERON:0002115 Jejunum","ASCTB-TEMP:stromal-3-c7-",1,2
+25,145,"UBERON:0002115 Jejunum","ASCTB-TEMP:stromal-3-kcnn3-",1,2
+25,146,"UBERON:0002115 Jejunum","ASCTB-TEMP:stromal-4-mmp1-",1,1
+25,147,"UBERON:0002115 Jejunum","ASCTB-TEMP:t-reticular",1,2
+25,148,"UBERON:0002115 Jejunum","ASCTB-TEMP:ta",1,2
+25,149,"UBERON:0002115 Jejunum","ASCTB-TEMP:tfh",1,2
+25,150,"UBERON:0002115 Jejunum","ASCTB-TEMP:th1",1,2
+25,151,"UBERON:0002115 Jejunum","ASCTB-TEMP:th17",1,1
+25,152,"UBERON:0002115 Jejunum","ASCTB-TEMP:transitional-stromal-3-c3-",1,2
+25,153,"UBERON:0002115 Jejunum","ASCTB-TEMP:trdv2-trgv9-gdt",1,2
+25,154,"UBERON:0002115 Jejunum","ASCTB-TEMP:treg",1,2
+25,155,"UBERON:0002115 Jejunum","ASCTB-TEMP:trgv2-gdt",1,2
+25,156,"UBERON:0002115 Jejunum","ASCTB-TEMP:trgv4-gdt",1,2
+25,157,"UBERON:0002115 Jejunum","ASCTB-TEMP:trgv5-7-gdt",1,1
+25,158,"UBERON:0002115 Jejunum","ASCTB-TEMP:tuft",1,2
+25,159,"UBERON:0002115 Jejunum","ASCTB-TEMP:venous-capillary",1,2
+26,27,"UBERON:0002116 Ileum","ASCTB-TEMP:-cells-ins-",1,1
+26,28,"UBERON:0002116 Ileum","ASCTB-TEMP:activated-cd4-t",1,1
+26,29,"UBERON:0002116 Ileum","ASCTB-TEMP:activated-cd8-t",1,1
+26,30,"UBERON:0002116 Ileum","ASCTB-TEMP:activated-t",1,1
+26,31,"UBERON:0002116 Ileum","ASCTB-TEMP:adult-glia",1,1
+26,32,"UBERON:0002116 Ileum","ASCTB-TEMP:angiogenic-pericyte",1,1
+26,33,"UBERON:0002116 Ileum","ASCTB-TEMP:arterial-capillary",1,1
+26,34,"UBERON:0002116 Ileum","ASCTB-TEMP:best2-goblet-cell",1,1
+26,35,"UBERON:0002116 Ileum","ASCTB-TEMP:best4-epithelial",1,1
+26,36,"UBERON:0002116 Ileum","ASCTB-TEMP:branch-a1-imn-",1,1
+26,37,"UBERON:0002116 Ileum","ASCTB-TEMP:branch-a2-ipan-in-",1,1
+26,38,"UBERON:0002116 Ileum","ASCTB-TEMP:branch-a3-ipan-in-",1,1
+26,39,"UBERON:0002116 Ileum","ASCTB-TEMP:branch-a4-in-",1,1
+26,40,"UBERON:0002116 Ileum","ASCTB-TEMP:branch-b1-emn-",1,1
+26,41,"UBERON:0002116 Ileum","ASCTB-TEMP:branch-b2-emn-",1,1
+26,42,"UBERON:0002116 Ileum","ASCTB-TEMP:branch-b3-ipan-",1,1
+26,43,"UBERON:0002116 Ileum","ASCTB-TEMP:cd8-tmem",1,1
+26,44,"UBERON:0002116 Ileum","ASCTB-TEMP:cdc1",1,1
+26,45,"UBERON:0002116 Ileum","ASCTB-TEMP:cdc2",1,1
+26,46,"UBERON:0002116 Ileum","ASCTB-TEMP:clc-mast-cell",1,1
+26,47,"UBERON:0002116 Ileum","ASCTB-TEMP:cldn10-cells",1,1
+26,48,"UBERON:0002116 Ileum","ASCTB-TEMP:clp",1,1
+26,49,"UBERON:0002116 Ileum","ASCTB-TEMP:colonocyte",1,1
+26,50,"UBERON:0002116 Ileum","ASCTB-TEMP:contractile-pericyte-pln-",1,1
+26,51,"UBERON:0002116 Ileum","ASCTB-TEMP:cx3cr1-cd8-tmem",1,1
+26,52,"UBERON:0002116 Ileum","ASCTB-TEMP:cycling-b-cell",1,1
+26,53,"UBERON:0002116 Ileum","ASCTB-TEMP:cycling-ec",1,1
+26,54,"UBERON:0002116 Ileum","ASCTB-TEMP:cycling-encc-glia",1,1
+26,55,"UBERON:0002116 Ileum","ASCTB-TEMP:cycling-neuroblast",1,1
+26,56,"UBERON:0002116 Ileum","ASCTB-TEMP:cycling-plasma-cell",1,1
+26,57,"UBERON:0002116 Ileum","ASCTB-TEMP:cycling-stromal",1,1
+26,58,"UBERON:0002116 Ileum","ASCTB-TEMP:d-cells-sst-",1,1
+26,59,"UBERON:0002116 Ileum","ASCTB-TEMP:differentiating-glia",1,1
+26,60,"UBERON:0002116 Ileum","ASCTB-TEMP:distal-progenitor",1,1
+26,61,"UBERON:0002116 Ileum","ASCTB-TEMP:dz-gc-cell",1,1
+26,62,"UBERON:0002116 Ileum","ASCTB-TEMP:ec-cells-npw-",1,1
+26,63,"UBERON:0002116 Ileum","ASCTB-TEMP:ec-cells-tac1-",1,1
+26,64,"UBERON:0002116 Ileum","ASCTB-TEMP:eecs",1,1
+26,65,"UBERON:0002116 Ileum","ASCTB-TEMP:encc-glia-progenitor",1,1
+26,66,"UBERON:0002116 Ileum","ASCTB-TEMP:enterocyte",1,1
+26,67,"UBERON:0002116 Ileum","ASCTB-TEMP:fcrl4-memory-b",1,1
+26,68,"UBERON:0002116 Ileum","ASCTB-TEMP:fdc",1,1
+26,69,"UBERON:0002116 Ileum","ASCTB-TEMP:fetal-arterial-ec",1,1
+26,70,"UBERON:0002116 Ileum","ASCTB-TEMP:fetal-venous-ec",1,1
+26,71,"UBERON:0002116 Ileum","ASCTB-TEMP:gc-b-cell",1,1
+26,73,"UBERON:0002116 Ileum","ASCTB-TEMP:germ",1,1
+26,74,"UBERON:0002116 Ileum","ASCTB-TEMP:glia-1-dhh-",1,1
+26,75,"UBERON:0002116 Ileum","ASCTB-TEMP:glia-2-eln-",1,1
+26,76,"UBERON:0002116 Ileum","ASCTB-TEMP:glia-3-bcan-",1,1
+26,77,"UBERON:0002116 Ileum","ASCTB-TEMP:goblet-cell",1,1
+26,78,"UBERON:0002116 Ileum","ASCTB-TEMP:i-cells-cck-",1,1
+26,79,"UBERON:0002116 Ileum","ASCTB-TEMP:icc",1,1
+26,80,"UBERON:0002116 Ileum","ASCTB-TEMP:iga-plasma-cell",1,1
+26,81,"UBERON:0002116 Ileum","ASCTB-TEMP:igg-plasma-cell",1,1
+26,83,"UBERON:0002116 Ileum","ASCTB-TEMP:ilc2",1,1
+26,84,"UBERON:0002116 Ileum","ASCTB-TEMP:ilc3",1,1
+26,85,"UBERON:0002116 Ileum","ASCTB-TEMP:ilcp",1,1
+26,86,"UBERON:0002116 Ileum","ASCTB-TEMP:immature-b",1,1
+26,87,"UBERON:0002116 Ileum","ASCTB-TEMP:immature-pericyte",1,1
+26,88,"UBERON:0002116 Ileum","ASCTB-TEMP:k-cells-gip-",1,1
+26,89,"UBERON:0002116 Ileum","ASCTB-TEMP:l-cells-pyy-",1,1
+26,90,"UBERON:0002116 Ileum","ASCTB-TEMP:lec1-ackr4-",1,1
+26,91,"UBERON:0002116 Ileum","ASCTB-TEMP:lec2-madcam1-",1,1
+26,92,"UBERON:0002116 Ileum","ASCTB-TEMP:lec3-adgrg3-",1,1
+26,93,"UBERON:0002116 Ileum","ASCTB-TEMP:lec4-stab2-",1,1
+26,94,"UBERON:0002116 Ileum","ASCTB-TEMP:lec5-cldn11-",1,1
+26,95,"UBERON:0002116 Ileum","ASCTB-TEMP:lec6-adamts4-",1,1
+26,96,"UBERON:0002116 Ileum","ASCTB-TEMP:lti-like-ncr-ilc3",1,1
+26,97,"UBERON:0002116 Ileum","ASCTB-TEMP:lymphoid-dc",1,1
+26,98,"UBERON:0002116 Ileum","ASCTB-TEMP:lyve1-macrophage",1,1
+26,99,"UBERON:0002116 Ileum","ASCTB-TEMP:lz-gc-cell",1,1
+26,100,"UBERON:0002116 Ileum","ASCTB-TEMP:m-x-cells-mln-ghrl-",1,1
+26,101,"UBERON:0002116 Ileum","ASCTB-TEMP:macrophages",1,1
+26,102,"UBERON:0002116 Ileum","ASCTB-TEMP:mait-cell",1,1
+26,103,"UBERON:0002116 Ileum","ASCTB-TEMP:mast-cell",1,1
+26,104,"UBERON:0002116 Ileum","ASCTB-TEMP:mature-arterial-ec",1,1
+26,105,"UBERON:0002116 Ileum","ASCTB-TEMP:mature-venous-ec",1,1
+26,106,"UBERON:0002116 Ileum","ASCTB-TEMP:megakaryocyte",1,1
+26,107,"UBERON:0002116 Ileum","ASCTB-TEMP:memory-b",1,1
+26,108,"UBERON:0002116 Ileum","ASCTB-TEMP:mesoderm-1-hand1-",1,1
+26,110,"UBERON:0002116 Ileum","ASCTB-TEMP:mesothelium",1,1
+26,111,"UBERON:0002116 Ileum","ASCTB-TEMP:mesothelium-prg4-",1,1
+26,112,"UBERON:0002116 Ileum","ASCTB-TEMP:mesothelium-rgs5-",1,1
+26,113,"UBERON:0002116 Ileum","ASCTB-TEMP:microfold-cell",1,1
+26,114,"UBERON:0002116 Ileum","ASCTB-TEMP:mln-stroma-fmo2-",1,1
+26,115,"UBERON:0002116 Ileum","ASCTB-TEMP:mlto",1,1
+26,116,"UBERON:0002116 Ileum","ASCTB-TEMP:mmp9-inflammatory-macrophage",1,1
+26,117,"UBERON:0002116 Ileum","ASCTB-TEMP:monocytes",1,1
+26,118,"UBERON:0002116 Ileum","ASCTB-TEMP:mpo-mono-neutrophil",1,1
+26,119,"UBERON:0002116 Ileum","ASCTB-TEMP:myofibroblast",1,1
+26,120,"UBERON:0002116 Ileum","ASCTB-TEMP:myofibroblast-rspo2-",1,1
+26,121,"UBERON:0002116 Ileum","ASCTB-TEMP:n-cells-nts-",1,1
+26,122,"UBERON:0002116 Ileum","ASCTB-TEMP:naive-b",1,1
+26,123,"UBERON:0002116 Ileum","ASCTB-TEMP:neuroblast",1,1
+26,124,"UBERON:0002116 Ileum","ASCTB-TEMP:nk-cell",1,1
+26,125,"UBERON:0002116 Ileum","ASCTB-TEMP:nk-t-cell",1,1
+26,126,"UBERON:0002116 Ileum","ASCTB-TEMP:paneth",1,1
+26,127,"UBERON:0002116 Ileum","ASCTB-TEMP:pdc",1,1
+26,128,"UBERON:0002116 Ileum","ASCTB-TEMP:pericyte",1,1
+26,129,"UBERON:0002116 Ileum","ASCTB-TEMP:pre-b",1,1
+26,130,"UBERON:0002116 Ileum","ASCTB-TEMP:pro-b",1,1
+26,131,"UBERON:0002116 Ileum","ASCTB-TEMP:progenitor-neurog3-",1,1
+26,132,"UBERON:0002116 Ileum","ASCTB-TEMP:proximal-progenitor",1,1
+26,133,"UBERON:0002116 Ileum","ASCTB-TEMP:rbc",1,1
+26,134,"UBERON:0002116 Ileum","ASCTB-TEMP:sell-cd4-t",1,1
+26,135,"UBERON:0002116 Ileum","ASCTB-TEMP:sell-cd8-t",1,1
+26,136,"UBERON:0002116 Ileum","ASCTB-TEMP:smc-part1-capn3-",1,1
+26,137,"UBERON:0002116 Ileum","ASCTB-TEMP:smc-plpp2-",1,1
+26,138,"UBERON:0002116 Ileum","ASCTB-TEMP:stat1-naive-b",1,1
+26,139,"UBERON:0002116 Ileum","ASCTB-TEMP:stem-cells",1,1
+26,140,"UBERON:0002116 Ileum","ASCTB-TEMP:stromal-1-adamdec1-",1,1
+26,141,"UBERON:0002116 Ileum","ASCTB-TEMP:stromal-1-ccl11-",1,1
+26,142,"UBERON:0002116 Ileum","ASCTB-TEMP:stromal-2-ch25h-",1,1
+26,143,"UBERON:0002116 Ileum","ASCTB-TEMP:stromal-2-npy-",1,1
+26,144,"UBERON:0002116 Ileum","ASCTB-TEMP:stromal-3-c7-",1,1
+26,145,"UBERON:0002116 Ileum","ASCTB-TEMP:stromal-3-kcnn3-",1,1
+26,146,"UBERON:0002116 Ileum","ASCTB-TEMP:stromal-4-mmp1-",1,1
+26,147,"UBERON:0002116 Ileum","ASCTB-TEMP:t-reticular",1,1
+26,148,"UBERON:0002116 Ileum","ASCTB-TEMP:ta",1,1
+26,149,"UBERON:0002116 Ileum","ASCTB-TEMP:tfh",1,1
+26,150,"UBERON:0002116 Ileum","ASCTB-TEMP:th1",1,1
+26,151,"UBERON:0002116 Ileum","ASCTB-TEMP:th17",1,1
+26,152,"UBERON:0002116 Ileum","ASCTB-TEMP:transitional-stromal-3-c3-",1,1
+26,153,"UBERON:0002116 Ileum","ASCTB-TEMP:trdv2-trgv9-gdt",1,1
+26,154,"UBERON:0002116 Ileum","ASCTB-TEMP:treg",1,1
+26,155,"UBERON:0002116 Ileum","ASCTB-TEMP:trgv2-gdt",1,1
+26,156,"UBERON:0002116 Ileum","ASCTB-TEMP:trgv4-gdt",1,1
+26,157,"UBERON:0002116 Ileum","ASCTB-TEMP:trgv5-7-gdt",1,1
+26,158,"UBERON:0002116 Ileum","ASCTB-TEMP:tuft",1,1
+26,159,"UBERON:0002116 Ileum","ASCTB-TEMP:venous-capillary",1,1
