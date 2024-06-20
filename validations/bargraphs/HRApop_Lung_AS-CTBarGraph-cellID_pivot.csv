@@ -1,0 +1,498 @@
+"tool","organ","as","cell_label2","asct_relation_in_asctb_table","indirect_asct_relation_in_asctb_table","count","median_percentage"
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","ASCTB-TEMP:alveolar-m-proliferating: Alveolar Mφ proliferating","false","false",1,0.00000352019713103934
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","ASCTB-TEMP:interstitial-m-perivascular: Interstitial Mφ perivascular","false","false",2,0.00806917465859101
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","ASCTB-TEMP:monocyte-derived-m: Monocyte-derived Mφ","false","false",2,0.0265538049877629
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","ASCTB-TEMP:non-classical-monocytes: Non-classical monocytes","false","false",2,0.0391098774949119
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","ASCTB-TEMP:transitional-club-at2: Transitional Club-AT2","false","false",2,0.00339163474167212
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000084: T cells proliferating","false","true",2,0.000457998812490461
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000097: Mast Cells","false","true",2,0.00157023628766249
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000158: Club (nasal)","false","true",1,0.0000632911392405063
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000158: Club (non-nasal)","false","true",1,0.00131655372700871
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000186: Myofibroblasts","false","true",2,0.0106089718239411
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000192: Smooth Muscle","false","true",2,0.00652057198747434
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000236: B Cells","false","true",2,0.0161618711407332
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000313: SM activated stress response","false","false",2,0.0009540207669351
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000492: Cd4 T Cells","false","true",2,0.0523932689597706
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000576: Classical Monocytes","false","true",2,0.0149442839685098
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000583: Alveolar Macrophages","false","true",2,0.0106812082742456
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000623: Nk Cells","false","true",2,0.000648415298598494
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000786: Plasma Cells","false","true",1,0.000763882777435536
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0000913: Cd8 T Cells","false","true",2,0.0681226933518404
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0001058: Plasmacytoid Dcs","false","true",1,0.000170729560855408
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002062: At1","false","true",2,0.171690026033863
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002063: At2","false","true",2,0.110364504716062
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002075: Tuft","false","false",2,0.000438963569301653
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002138: Lymphatic EC differentiating","false","true",1,0.0195569620253165
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002138: Lymphatic EC mature","false","true",1,0.00847135439584617
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002144: Ec General Capillary","false","true",2,0.177920415695178
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002241: Peribronchial Fibroblasts","false","false",2,0.00573983181032821
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002399: Dc2","false","true",2,0.0127510340579072
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002480: Goblet (Nasal)","false","false",2,0.00165948331081224
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0002633: Suprabasal","false","false",2,0.00561296546530656
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0005006: Ionocyte","false","true",2,0.0211438691199619
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0005012: Multiciliated (non-nasal)","false","false",2,0.0309194676927224
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0009089: Pericytes","false","true",2,0.0224711756010235
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:0019003: Goblet (Bronchial)","false","true",1,0.000179530053683006
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:1000413: Ec Arterial","false","true",2,0.0125867990379613
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:1000414: Ec Venous Systemic","false","true",2,0.0174494946400543
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:4028003: Ec Aerocyte Capillary","false","true",2,0.0134567054742407
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:4028004: Alveolar Fibroblasts","false","true",2,0.0976838773857412
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:4028006: Adventitial Fibroblasts","false","true",2,0.0222881810495312
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:4033005: Smg Serous (Bronchial)","false","true",1,0.000432984247117839
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:4033022: Smg Mucous","false","true",1,0.0000140807885241574
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:4033023: Smg Duct","false","true",1,0.000026401478482795
+"Azimuth","Lung","Lateral Bronchopulmonary Segment","CL:4033044: Deuterosomal","false","true",1,0.000271055179090029
+"Azimuth","Lung","Lateral Segmental Bronchus","ASCTB-TEMP:alveolar-m-proliferating: Alveolar Mφ proliferating","false","false",1,0.0000651465798045603
+"Azimuth","Lung","Lateral Segmental Bronchus","ASCTB-TEMP:interstitial-m-perivascular: Interstitial Mφ perivascular","false","false",2,0.0140416649486661
+"Azimuth","Lung","Lateral Segmental Bronchus","ASCTB-TEMP:monocyte-derived-m: Monocyte-derived Mφ","false","false",2,0.0366845338720983
+"Azimuth","Lung","Lateral Segmental Bronchus","ASCTB-TEMP:non-classical-monocytes: Non-classical monocytes","false","false",2,0.0578776852348163
+"Azimuth","Lung","Lateral Segmental Bronchus","ASCTB-TEMP:transitional-club-at2: Transitional Club-AT2","false","false",2,0.00690110501793593
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000084: T cells proliferating","false","true",2,0.000524471199439245
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000097: Mast Cells","false","true",2,0.00159567888508638
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000158: Club (nasal)","false","true",1,0.0000632911392405063
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000158: Club (non-nasal)","false","true",1,0.000390879478827362
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000186: Myofibroblasts","false","true",2,0.0171129344823321
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000192: Smooth Muscle","false","true",2,0.00476054508720571
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000236: B Cells","false","true",2,0.0222753886117181
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000313: SM activated stress response","false","false",1,0.00145569620253164
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000492: Cd4 T Cells","false","true",2,0.0498790871232425
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000576: Classical Monocytes","false","true",2,0.0148126005030306
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000583: Alveolar Macrophages","false","true",2,0.0447206531150786
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000623: Nk Cells","false","true",2,0.000907413515853709
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000786: Plasma Cells","false","true",1,0.00123778501628664
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0000913: Cd8 T Cells","false","true",2,0.0658928792314353
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0001058: Plasmacytoid Dcs","false","true",1,0.000651465798045603
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0002062: At1","false","true",2,0.16294509957531
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0002063: At2","false","true",2,0.150884942069022
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0002075: Tuft","false","false",1,0.000316455696202532
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0002138: Lymphatic EC differentiating","false","true",2,0.0197296210778048
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0002144: Ec General Capillary","false","true",2,0.0662283016534037
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0002241: Peribronchial Fibroblasts","false","false",2,0.0142596792149425
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0002399: Dc2","false","true",2,0.0210749185667752
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0002480: Goblet (Nasal)","false","false",2,0.000269451201913165
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0002633: Suprabasal","false","false",2,0.00279532428977858
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0005006: Ionocyte","false","true",2,0.00245804642724611
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0005012: Multiciliated (non-nasal)","false","false",2,0.0187061394466664
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:0009089: Pericytes","false","true",2,0.0202091493835814
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:1000413: Ec Arterial","false","true",2,0.0067750381396116
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:1000414: Ec Venous Systemic","false","true",2,0.00307879437595349
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:4028003: Ec Aerocyte Capillary","false","true",2,0.0167055621984909
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:4028004: Alveolar Fibroblasts","false","true",2,0.115740939265246
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:4028006: Adventitial Fibroblasts","false","true",2,0.0379154125262854
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:4033022: Smg Mucous","false","true",1,0.000195439739413681
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:4033023: Smg Duct","false","true",1,0.0000325732899022801
+"Azimuth","Lung","Lateral Segmental Bronchus","CL:4033044: Deuterosomal","false","true",1,0.0000651465798045603
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","ASCTB-TEMP:alveolar-m-proliferating: Alveolar Mφ proliferating","false","false",1,0.0000850243736537807
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","ASCTB-TEMP:interstitial-m-perivascular: Interstitial Mφ perivascular","false","false",1,0.00223897517288289
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","ASCTB-TEMP:monocyte-derived-m: Monocyte-derived Mφ","false","false",1,0.00782224237614783
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","ASCTB-TEMP:non-classical-monocytes: Non-classical monocytes","false","false",1,0.0070853644711484
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","ASCTB-TEMP:transitional-club-at2: Transitional Club-AT2","false","false",1,0.00498809658768847
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000084: T cells proliferating","false","true",1,0.0000850243736537807
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000097: Mast Cells","false","true",1,0.00212560934134452
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000158: Club (non-nasal)","false","true",1,0.0000850243736537807
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000186: Myofibroblasts","false","true",1,0.000878585194422401
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000192: Smooth Muscle","false","true",1,0.0017855118467294
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000236: B Cells","false","true",1,0.00110531685749915
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000492: Cd4 T Cells","false","true",1,0.0201791180138306
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000576: Classical Monocytes","false","true",1,0.00328760911461286
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000583: Alveolar Macrophages","false","true",1,0.034378188414012
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000623: Nk Cells","false","true",1,0.000425121868268904
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000786: Plasma Cells","false","true",1,0.0000566829157691872
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0000913: Cd8 T Cells","false","true",1,0.0132354608321052
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0001058: Plasmacytoid Dcs","false","true",1,0.0000566829157691872
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0002062: At1","false","true",1,0.248554585647886
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0002063: At2","false","true",1,0.401371726561614
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0002138: Lymphatic EC differentiating","false","true",1,0.00966443713864641
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0002144: Ec General Capillary","false","true",1,0.071760571363791
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0002399: Dc2","false","true",1,0.00615009636095681
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0002480: Goblet (Nasal)","false","false",1,0.000141707289422968
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0002633: Suprabasal","false","false",1,0.00501643804557306
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0005006: Ionocyte","false","true",1,0.0414068699693912
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0005012: Multiciliated (non-nasal)","false","false",1,0.0419736991270831
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:0009089: Pericytes","false","true",1,0.0026640970411518
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:1000413: Ec Arterial","false","true",1,0.0130087291690284
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:1000414: Ec Venous Systemic","false","true",1,0.00841741299172429
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:4028003: Ec Aerocyte Capillary","false","true",1,0.0075104863394173
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:4028004: Alveolar Fibroblasts","false","true",1,0.0399047727015078
+"Azimuth","Lung","Left Apical Bronchopulmonary Segment","CL:4028006: Adventitial Fibroblasts","false","true",1,0.00255073120961342
+"Azimuth","Lung","Medial Bronchopulmonary Segment","ASCTB-TEMP:alveolar-m-proliferating: Alveolar Mφ proliferating","false","false",1,0.00000287486355717879
+"Azimuth","Lung","Medial Bronchopulmonary Segment","ASCTB-TEMP:interstitial-m-perivascular: Interstitial Mφ perivascular","false","false",2,0.00773686306256361
+"Azimuth","Lung","Medial Bronchopulmonary Segment","ASCTB-TEMP:monocyte-derived-m: Monocyte-derived Mφ","false","false",2,0.0258289899647558
+"Azimuth","Lung","Medial Bronchopulmonary Segment","ASCTB-TEMP:non-classical-monocytes: Non-classical monocytes","false","false",2,0.0371620690166198
+"Azimuth","Lung","Medial Bronchopulmonary Segment","ASCTB-TEMP:transitional-club-at2: Transitional Club-AT2","false","false",2,0.00365335549049751
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000084: T cells proliferating","false","true",2,0.000448313349310967
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000097: Mast Cells","false","true",2,0.00163262980206698
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000158: Club (nasal)","false","true",1,0.0000632911392405063
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000158: Club (non-nasal)","false","true",1,0.000682140437688489
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000186: Myofibroblasts","false","true",2,0.0104200811756991
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000192: Smooth Muscle","false","true",2,0.00576827791519475
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000236: B Cells","false","true",2,0.0166695581468139
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000313: SM activated stress response","false","false",2,0.000991769559763452
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000492: Cd4 T Cells","false","true",2,0.0535390905085217
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000576: Classical Monocytes","false","true",2,0.0137242068945189
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000583: Alveolar Macrophages","false","true",2,0.00916692174272647
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000623: Nk Cells","false","true",2,0.000884510018920512
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000786: Plasma Cells","false","true",1,0.000664434871755714
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0000913: Cd8 T Cells","false","true",2,0.0588543527401445
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0001058: Plasmacytoid Dcs","false","true",1,0.000280245293133235
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002062: At1","false","true",2,0.181070970063833
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002063: At2","false","true",2,0.103084469976038
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002075: Tuft","false","false",2,0.000244736086116222
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002138: Lymphatic EC differentiating","false","true",1,0.0195569620253165
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002138: Lymphatic EC mature","false","true",1,0.00795109638599608
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002144: Ec General Capillary","false","true",2,0.18356489003764
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002241: Peribronchial Fibroblasts","false","false",2,0.0052538814760616
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002399: Dc2","false","true",2,0.0123199573933721
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002480: Goblet (Nasal)","false","false",2,0.000723537154659556
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0002633: Suprabasal","false","false",2,0.00468099083542971
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0005006: Ionocyte","false","true",2,0.0129163600164492
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0005012: Multiciliated (non-nasal)","false","false",2,0.0587695395253219
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0009089: Pericytes","false","true",2,0.0191739675388468
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:0019003: Goblet (Bronchial)","false","true",1,0.0000461271857749336
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:1000413: Ec Arterial","false","true",2,0.014201193376023
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:1000414: Ec Venous Systemic","false","true",2,0.02441253588268
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:4028003: Ec Aerocyte Capillary","false","true",2,0.0110916909335916
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:4028004: Alveolar Fibroblasts","false","true",2,0.0859544630826662
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:4028006: Adventitial Fibroblasts","false","true",2,0.021314281886592
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:4033005: Smg Serous (Bronchial)","false","true",1,0.000106341202980043
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:4033022: Smg Mucous","false","true",1,0.0000324715838783344
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:4033023: Smg Duct","false","true",1,0.000032529081149478
+"Azimuth","Lung","Medial Bronchopulmonary Segment","CL:4033044: Deuterosomal","false","true",1,0.0000645766226531285
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000037: Hematopoietic Stem Cells","false","true",2,0.000175057398151005
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000084: T cells proliferating","false","true",2,0.00025690198144767
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000097: Mast Cells","false","true",2,0.00547828172048521
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000158: Club (nasal)","false","true",1,0.014746835443038
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000158: Club (non-nasal)","false","true",1,0.0410895010120567
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000165: Neuroendocrine","false","true",2,0.00669373839365384
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000186: Myofibroblasts","false","true",2,0.00847175543096236
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000192: Smooth Muscle","false","true",2,0.0131854442076604
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000236: B Cells","false","true",2,0.0142884523052278
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000313: SMG serous (nasal)","false","false",2,0.000988921961908348
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000492: Cd4 T Cells","false","true",2,0.0829964647640521
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000576: Classical Monocytes","false","true",2,0.000720072475957388
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000583: Alveolar Macrophages","false","true",2,0.0207744350139304
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000623: Nk Cells","false","true",2,0.0111409309807425
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000669: Pericytes","false","true",2,0.0217871823606932
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000784: Plasmacytoid Dcs","false","true",2,0.00113879491175556
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000786: Plasma Cells","false","true",2,0.00474530928162357
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000875: Non-Classical Monocytes","false","true",2,0.0802833480193878
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0000913: Cd8 T Cells","false","true",2,0.0112763666664067
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0001056: Migratory DCs","false","true",2,0.000609331084566052
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002062: At1","false","true",2,0.0803241728372232
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002063: At2","false","true",2,0.167218799189463
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002075: Tuft","false","false",2,0.000254189424481189
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002138: Lymphatic EC differentiating","false","true",2,0.0214835542182767
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002144: Ec General Capillary","false","true",2,0.0590142361896317
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002241: Peribronchial Fibroblasts","false","false",2,0.0110462114992364
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002394: Dc1","false","true",2,0.00142667964089533
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002399: Dc2","false","true",2,0.0115293000711837
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002480: Goblet (Nasal)","false","false",2,0.001647800378087
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0002633: Suprabasal","false","false",2,0.0440608314571945
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0005006: Ionocyte","false","true",2,0.000320229325247277
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0005012: Multiciliated (nasal)","false","false",1,0.0269620253164557
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0005012: Multiciliated (non-nasal)","false","false",1,0.0807691630731321
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0010003: AT0","false","false",2,0.00298761971176715
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0019001: pre-TB secretory","false","false",2,0.028771442846369
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:0019003: Goblet (Bronchial)","false","true",2,0.000246341390054552
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:1000312: Goblet (subsegmental)","false","false",2,0.0149496478131889
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:1000413: Ec Arterial","false","true",2,0.0101269025495808
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:1000414: Ec Venous Systemic","false","true",2,0.00814494801582306
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:1000491: Mesothelium","false","false",2,0.000558722680875192
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:1001603: Monocyte-derived Mph","false","false",2,0.0682533945951606
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4023054: Subpleural Fibroblasts","false","false",2,0.000211030805066856
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4028003: Ec Aerocyte Capillary","false","true",2,0.0176347338742109
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4028004: Alveolar Fibroblasts","false","true",2,0.0614419078354464
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4028006: Adventitial Fibroblasts","false","true",2,0.00965660254189424
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4033005: Smg Serous (Bronchial)","false","true",2,0.00169032124026794
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4033022: Smg Mucous","false","true",2,0.0016870182704915
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4033023: Smg Duct","false","true",2,0.000354442633597608
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4033041: Alveolar Mph Ccl3+","false","true",2,0.000823400287631297
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4033042: Alveolar Mph Mt-Positive","false","true",1,0.00042594385285576
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4033043: Interstitial Mph perivascular","false","true",2,0.00603991747588498
+"CellTypist","Lung","Lateral Bronchopulmonary Segment","CL:4033044: Deuterosomal","false","true",2,0.0010880778943874
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000037: Hematopoietic Stem Cells","false","true",2,0.000258730878654187
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000084: T cells proliferating","false","true",2,0.000193584298849627
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000097: Mast Cells","false","true",2,0.00258267018513174
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000158: Club (nasal)","false","true",1,0.014746835443038
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000158: Hillock-like","false","true",1,0.0126384364820847
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000165: Neuroendocrine","false","true",2,0.00155939471405599
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000186: Myofibroblasts","false","true",2,0.0121626190574362
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000192: Smooth Muscle","false","true",2,0.0130132354760236
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000236: B Cells","false","true",2,0.0200068032820682
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000313: SMG serous (nasal)","false","false",2,0.000498391951511153
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000492: Cd4 T Cells","false","true",2,0.0706864099286686
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000576: Classical Monocytes","false","true",2,0.00102471859151445
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000583: Alveolar Macrophages","false","true",2,0.0588196305611677
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000623: Nk Cells","false","true",2,0.0142669978971674
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000669: Pericytes","false","true",2,0.022146023172391
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000784: Plasmacytoid Dcs","false","true",2,0.00196470539727044
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000786: Plasma Cells","false","true",2,0.00243887354141756
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000875: Non-Classical Monocytes","false","true",2,0.0778081062136643
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0000913: Cd8 T Cells","false","true",2,0.0122112728322269
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0001056: Migratory DCs","false","true",2,0.00114243598730054
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002062: At1","false","true",2,0.0889719828474828
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002063: At2","false","true",2,0.176173875396858
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002075: Tuft","false","false",2,0.000305735372943553
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002138: Lymphatic EC differentiating","false","true",2,0.0262562363418958
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002144: Ec General Capillary","false","true",2,0.0177822331257989
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002241: Peribronchial Fibroblasts","false","false",2,0.0205294190409434
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002394: Dc1","false","true",2,0.00131602276007092
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002399: Dc2","false","true",2,0.0118596668453387
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002480: Goblet (Nasal)","false","false",2,0.0020159361728446
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0002633: Suprabasal","false","false",2,0.00770585082257865
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0005006: Ionocyte","false","true",2,0.00024151651342102
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0005012: Multiciliated (nasal)","false","false",2,0.0228295468601822
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0010003: AT0","false","false",2,0.00611749061971715
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0019001: pre-TB secretory","false","false",2,0.033624190821754
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:0019003: Goblet (Bronchial)","false","true",2,0.0000958644291427864
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:1000312: Goblet (subsegmental)","false","false",2,0.00467818414216798
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:1000413: Ec Arterial","false","true",2,0.0105858038180844
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:1000414: Ec Venous Systemic","false","true",2,0.00661598565125964
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:1000491: Mesothelium","false","false",2,0.00020894322351874
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:1001603: Monocyte-derived Mph","false","false",2,0.0939350801962643
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4023054: Subpleural Fibroblasts","false","false",2,0.000223374427905826
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4028003: Ec Aerocyte Capillary","false","true",2,0.0164398218777058
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4028004: Alveolar Fibroblasts","false","true",2,0.0818565744443986
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4028006: Adventitial Fibroblasts","false","true",2,0.0197210654352039
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4033005: Smg Serous (Bronchial)","false","true",2,0.000530965241413433
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4033022: Smg Mucous","false","true",2,0.000389951758545335
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4033023: Smg Duct","false","true",2,0.000711046056158001
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4033041: Alveolar Mph Ccl3+","false","true",2,0.00158774172267348
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4033042: Alveolar Mph Mt-Positive","false","true",1,0.000716612377850163
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4033043: Interstitial Mph perivascular","false","true",2,0.0189724982476395
+"CellTypist","Lung","Lateral Segmental Bronchus","CL:4033044: Deuterosomal","false","true",2,0.000881849668082299
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000037: Hematopoietic Stem Cells","false","true",1,0.000850243736537808
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000084: T cells proliferating","false","true",1,0.000311756036730529
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000097: Mast Cells","false","true",1,0.00578165740845709
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000158: Hillock-like","false","true",1,0.0254222877224804
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000165: Neuroendocrine","false","true",1,0.0105713637909534
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000186: Myofibroblasts","false","true",1,0.00161546309942183
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000192: Smooth Muscle","false","true",1,0.0145108264369119
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000236: B Cells","false","true",1,0.00286248724634395
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000313: SMG serous (nasal)","false","false",1,0.00580999886634168
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000492: Cd4 T Cells","false","true",1,0.019527264482485
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000576: Classical Monocytes","false","true",1,0.00039678041038431
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000583: Alveolar Macrophages","false","true",1,0.0339814080036277
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000623: Nk Cells","false","true",1,0.0177700940936402
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000669: Pericytes","false","true",1,0.00249404829384423
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000784: Plasmacytoid Dcs","false","true",1,0.00070853644711484
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000786: Plasma Cells","false","true",1,0.00181385330461399
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000875: Non-Classical Monocytes","false","true",1,0.0278879945584401
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0000913: Cd8 T Cells","false","true",1,0.00623512073461059
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0001056: Migratory DCs","false","true",1,0.0000283414578845936
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002062: At1","false","true",1,0.187025280580433
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002063: At2","false","true",1,0.377309828817594
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002075: Tuft","false","false",1,0.000283414578845936
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002138: Lymphatic EC proliferating","false","true",1,0.0154177530892189
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002144: Ec General Capillary","false","true",1,0.0137739485319125
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002241: Peribronchial Fibroblasts","false","false",1,0.00291917016211314
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002394: Dc1","false","true",1,0.00272077995692098
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002399: Dc2","false","true",1,0.00410951139326607
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002480: Goblet (Nasal)","false","false",1,0.000226731663076749
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0002633: Suprabasal","false","false",1,0.0413218455957374
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0005006: Ionocyte","false","true",1,0.0000850243736537807
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0005012: Multiciliated (nasal)","false","false",1,0.0323659449042059
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0010003: AT0","false","false",1,0.00668858406076409
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0019001: pre-TB secretory","false","false",1,0.0229849223444054
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:0019003: Goblet (Bronchial)","false","true",1,0.0000566829157691872
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:1000312: Goblet (subsegmental)","false","false",1,0.00416619430903526
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:1000413: Ec Arterial","false","true",1,0.0189320938669085
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:1000414: Ec Venous Systemic","false","true",1,0.0154177530892189
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:1000491: Mesothelium","false","false",1,0.000765219362884027
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:1001603: Monocyte-derived Mph","false","false",1,0.0201224350980614
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4023054: Subpleural Fibroblasts","false","false",1,0.000538487699807278
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4028003: Ec Aerocyte Capillary","false","true",1,0.00609341344518762
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4028004: Alveolar Fibroblasts","false","true",1,0.0308071647205532
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4028006: Adventitial Fibroblasts","false","true",1,0.00340097494615123
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4033005: Smg Serous (Bronchial)","false","true",1,0.000170048747307561
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4033022: Smg Mucous","false","true",1,0.00393946264595851
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4033023: Smg Duct","false","true",1,0.00161546309942183
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4033041: Alveolar Mph Ccl3+","false","true",1,0.00257907266749802
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4033042: Alveolar Mph Mt-Positive","false","true",1,0.000651853531345652
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4033043: Interstitial Mph perivascular","false","true",1,0.00385443827230473
+"CellTypist","Lung","Left Apical Bronchopulmonary Segment","CL:4033044: Deuterosomal","false","true",1,0.00107697539961456
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000037: Hematopoietic Stem Cells","false","true",2,0.000132174666860233
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000084: T cells proliferating","false","true",2,0.000175249106895388
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000097: Mast Cells","false","true",2,0.00387470172082879
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000158: Club (nasal)","false","true",1,0.014746835443038
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000158: Club (non-nasal)","false","true",1,0.0616811391370859
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000165: Neuroendocrine","false","true",2,0.0039410017345724
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000186: Myofibroblasts","false","true",2,0.00803169089229912
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000192: Smooth Muscle","false","true",2,0.0104603358567611
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000236: B Cells","false","true",2,0.0138079935310461
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000313: SMG serous (nasal)","false","false",2,0.000613896536733042
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000492: Cd4 T Cells","false","true",2,0.0927870272927743
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000576: Classical Monocytes","false","true",2,0.000724478881266046
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000583: Alveolar Macrophages","false","true",2,0.019007527960958
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000623: Nk Cells","false","true",2,0.0101533884974792
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000669: Pericytes","false","true",2,0.0188021404084631
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000784: Plasmacytoid Dcs","false","true",2,0.000965305152944505
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000786: Plasma Cells","false","true",2,0.00363559240136523
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000875: Non-Classical Monocytes","false","true",2,0.0688549736888384
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0000913: Cd8 T Cells","false","true",2,0.0116940553477295
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0001056: Migratory DCs","false","true",2,0.000551587941248053
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002062: At1","false","true",2,0.0818375850637851
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002063: At2","false","true",2,0.1666869906744
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002075: Tuft","false","false",2,0.000208151141546791
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002138: Lymphatic EC differentiating","false","true",2,0.0189376582441466
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002144: Ec General Capillary","false","true",2,0.0552666112704538
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002241: Peribronchial Fibroblasts","false","false",2,0.0096540812073164
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002394: Dc1","false","true",2,0.0010377591714902
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002399: Dc2","false","true",2,0.0100339130054399
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002480: Goblet (Nasal)","false","false",2,0.00145391741118283
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0002633: Suprabasal","false","false",2,0.0907825493851918
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0005006: Ionocyte","false","true",2,0.000204837352282535
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0005012: Multiciliated (nasal)","false","false",1,0.0269620253164557
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0005012: Multiciliated (non-nasal)","false","false",1,0.0795005784153606
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0010003: AT0","false","false",2,0.00271805558599307
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0019001: pre-TB secretory","false","false",2,0.0258474105233567
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:0019003: Goblet (Bronchial)","false","true",2,0.000124444877470869
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:1000312: Goblet (subsegmental)","false","false",2,0.0112131693812815
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:1000413: Ec Arterial","false","true",2,0.00885869789762707
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:1000414: Ec Venous Systemic","false","true",2,0.00711626962988383
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:1000491: Mesothelium","false","false",2,0.000392668359580534
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:1001603: Monocyte-derived Mph","false","false",2,0.0622462549716951
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4023054: Subpleural Fibroblasts","false","false",2,0.000191874532458597
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4028003: Ec Aerocyte Capillary","false","true",2,0.0134140193715923
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4028004: Alveolar Fibroblasts","false","true",2,0.0542765528126489
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4028006: Adventitial Fibroblasts","false","true",2,0.00895818490868429
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4033005: Smg Serous (Bronchial)","false","true",2,0.000854732840866525
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4033022: Smg Mucous","false","true",2,0.0010475109497644
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4033023: Smg Duct","false","true",2,0.000254498553697175
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4033041: Alveolar Mph Ccl3+","false","true",2,0.000575413912469973
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4033042: Alveolar Mph Mt-Positive","false","true",1,0.000192134318685151
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4033043: Interstitial Mph perivascular","false","true",2,0.00527299967989431
+"CellTypist","Lung","Medial Bronchopulmonary Segment","CL:4033044: Deuterosomal","false","true",2,0.00077870934942407
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000057: Fibroblast","false","true",2,0.153675006956841
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000071: Blood Vessel Endothelial Cell","false","true",2,0.000097421014261391
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000158: Club Cell","false","true",2,0.0365184345838205
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000192: Smooth Muscle Cell","false","true",2,0.000254406709662341
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000235: Macrophage","false","true",2,0.0889293514802514
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000236: B Cell","false","true",2,0.0131000770512037
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000359: Vascular Associated Smooth Muscle Cell","false","true",2,0.00106997319748942
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000451: Dendritic Cell","false","true",2,0.00332674586212992
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000624: Cd4-Positive, Alpha-Beta T Cell","false","true",2,0.159910148569954
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000625: Cd8-Positive, Alpha-Beta T Cell","false","true",2,0.0112329673741832
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000646: Basal Cell","false","true",2,0.00886573407938387
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000669: Pericyte","false","true",2,0.0128889915176065
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000767: Basophil","false","true",2,0.00922503052157866
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000775: Neutrophil","false","true",2,0.0112302597171483
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000784: Plasmacytoid Dendritic Cell","false","true",1,0.0000347802756088411
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000786: Plasma Cell","false","true",2,0.00649691656818807
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000814: Mature Nk T Cell","false","true",2,0.00740292034187942
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000860: Classical Monocyte","false","true",2,0.0248643391576249
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0000875: Non-Classical Monocyte","false","true",2,0.0135347026646502
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0001044: Effector Cd4-Positive, Alpha-Beta T Cell","false","false",2,0.000573522656692296
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0001050: Effector Cd8-Positive, Alpha-Beta T Cell","false","true",2,0.00987366882504587
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0002062: Type I Pneumocyte","false","true",2,0.0749457962297867
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0002063: Type Ii Pneumocyte","false","true",2,0.186575374549134
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0002138: Endothelial Cell Of Lymphatic Vessel","false","true",2,0.0101271582285242
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0002144: Capillary Endothelial Cell","false","true",2,0.0972035972081816
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0002370: Respiratory Goblet Cell","false","false",2,0.00502925222438888
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0002393: Intermediate Monocyte","false","false",2,0.000727256349153463
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0002543: Vein Endothelial Cell","false","true",2,0.0195723219510112
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0002598: Bronchial Smooth Muscle Cell","false","true",2,0.00140393106109118
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:0017000: Pulmonary Ionocyte","false","true",1,0.0000422331918107357
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:1000271: Lung Ciliated Cell","false","true",2,0.0268454245210943
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:1000331: Serous Cell Of Epithelium Of Bronchus","false","true",1,0.000712995649981244
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:1000413: Endothelial Cell Of Artery","false","true",2,0.0038832783856342
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:2000016: Lung Microvascular Endothelial Cell","false","false",2,0.0000776052195319361
+"popV","Lung","Lateral Bronchopulmonary Segment","CL:4028006: Adventitial Cell","false","true",2,0.000143380664173074
+"popV","Lung","Lateral Segmental Bronchus","CL:0000057: Fibroblast","false","true",2,0.197147878612955
+"popV","Lung","Lateral Segmental Bronchus","CL:0000071: Blood Vessel Endothelial Cell","false","true",2,0.00012750999876304
+"popV","Lung","Lateral Segmental Bronchus","CL:0000158: Club Cell","false","true",2,0.0443610068857461
+"popV","Lung","Lateral Segmental Bronchus","CL:0000192: Smooth Muscle Cell","false","true",2,0.000269451201913165
+"popV","Lung","Lateral Segmental Bronchus","CL:0000235: Macrophage","false","true",2,0.144266276336948
+"popV","Lung","Lateral Segmental Bronchus","CL:0000236: B Cell","false","true",2,0.0182040366140271
+"popV","Lung","Lateral Segmental Bronchus","CL:0000359: Vascular Associated Smooth Muscle Cell","false","true",2,0.00149053725312333
+"popV","Lung","Lateral Segmental Bronchus","CL:0000451: Dendritic Cell","false","true",2,0.00613150950397889
+"popV","Lung","Lateral Segmental Bronchus","CL:0000624: Cd4-Positive, Alpha-Beta T Cell","false","true",2,0.111540737228384
+"popV","Lung","Lateral Segmental Bronchus","CL:0000625: Cd8-Positive, Alpha-Beta T Cell","false","true",2,0.0145581989856925
+"popV","Lung","Lateral Segmental Bronchus","CL:0000646: Basal Cell","false","true",2,0.00425287593287428
+"popV","Lung","Lateral Segmental Bronchus","CL:0000669: Pericyte","false","true",2,0.0130998227023461
+"popV","Lung","Lateral Segmental Bronchus","CL:0000767: Basophil","false","true",2,0.00832103244959386
+"popV","Lung","Lateral Segmental Bronchus","CL:0000775: Neutrophil","false","true",2,0.00358790665072362
+"popV","Lung","Lateral Segmental Bronchus","CL:0000784: Plasmacytoid Dendritic Cell","false","true",1,0.000456026058631922
+"popV","Lung","Lateral Segmental Bronchus","CL:0000786: Plasma Cell","false","true",2,0.00859986393435864
+"popV","Lung","Lateral Segmental Bronchus","CL:0000814: Mature Nk T Cell","false","true",2,0.0093281243557498
+"popV","Lung","Lateral Segmental Bronchus","CL:0000860: Classical Monocyte","false","true",2,0.0323081680616831
+"popV","Lung","Lateral Segmental Bronchus","CL:0000875: Non-Classical Monocyte","false","true",2,0.0263988991052653
+"popV","Lung","Lateral Segmental Bronchus","CL:0001044: Effector Cd4-Positive, Alpha-Beta T Cell","false","false",2,0.000624046509710139
+"popV","Lung","Lateral Segmental Bronchus","CL:0001050: Effector Cd8-Positive, Alpha-Beta T Cell","false","true",2,0.00673236300663835
+"popV","Lung","Lateral Segmental Bronchus","CL:0002062: Type I Pneumocyte","false","true",2,0.0928955180802375
+"popV","Lung","Lateral Segmental Bronchus","CL:0002063: Type Ii Pneumocyte","false","true",2,0.160274708283511
+"popV","Lung","Lateral Segmental Bronchus","CL:0002138: Endothelial Cell Of Lymphatic Vessel","false","true",2,0.0171384983301035
+"popV","Lung","Lateral Segmental Bronchus","CL:0002144: Capillary Endothelial Cell","false","true",2,0.037452789345648
+"popV","Lung","Lateral Segmental Bronchus","CL:0002370: Respiratory Goblet Cell","false","false",2,0.00285263678720158
+"popV","Lung","Lateral Segmental Bronchus","CL:0002393: Intermediate Monocyte","false","false",2,0.00107079536552179
+"popV","Lung","Lateral Segmental Bronchus","CL:0002543: Vein Endothelial Cell","false","true",2,0.015791036160475
+"popV","Lung","Lateral Segmental Bronchus","CL:0002598: Bronchial Smooth Muscle Cell","false","true",2,0.00124386673813549
+"popV","Lung","Lateral Segmental Bronchus","CL:1000271: Lung Ciliated Cell","false","true",2,0.0162368572960046
+"popV","Lung","Lateral Segmental Bronchus","CL:1000413: Endothelial Cell Of Artery","false","true",2,0.00299643343091576
+"popV","Lung","Lateral Segmental Bronchus","CL:2000016: Lung Microvascular Endothelial Cell","false","false",2,0.0000479322145713932
+"popV","Lung","Lateral Segmental Bronchus","CL:4028006: Adventitial Cell","false","true",2,0.000420669607883561
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000057: Fibroblast","false","true",1,0.0448928692891962
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000158: Club Cell","false","true",1,0.0223047273551751
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000235: Macrophage","false","true",1,0.0949722253712731
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000236: B Cell","false","true",1,0.000765219362884027
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000359: Vascular Associated Smooth Muscle Cell","false","true",1,0.00104863394172996
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000451: Dendritic Cell","false","true",1,0.00181385330461399
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000624: Cd4-Positive, Alpha-Beta T Cell","false","true",1,0.0536220383176511
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000625: Cd8-Positive, Alpha-Beta T Cell","false","true",1,0.0133771681215282
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000646: Basal Cell","false","true",1,0.0198673619771001
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000669: Pericyte","false","true",1,0.00136038997846049
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000767: Basophil","false","true",1,0.00311756036730529
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000775: Neutrophil","false","true",1,0.000538487699807278
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000786: Plasma Cell","false","true",1,0.00107697539961456
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000814: Mature Nk T Cell","false","true",1,0.00589502323999546
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000860: Classical Monocyte","false","true",1,0.00498809658768847
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0000875: Non-Classical Monocyte","false","true",1,0.00855912028114726
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0001044: Effector Cd4-Positive, Alpha-Beta T Cell","false","false",1,0.000680194989230246
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0001050: Effector Cd8-Positive, Alpha-Beta T Cell","false","true",1,0.0022106337149983
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0002062: Type I Pneumocyte","false","true",1,0.18793220723274
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0002063: Type Ii Pneumocyte","false","true",1,0.426992404489287
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0002138: Endothelial Cell Of Lymphatic Vessel","false","true",1,0.00850243736537807
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0002144: Capillary Endothelial Cell","false","true",1,0.0324793107357442
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0002370: Respiratory Goblet Cell","false","false",1,0.00079356082076862
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0002393: Intermediate Monocyte","false","false",1,0.000113365831538374
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0002543: Vein Endothelial Cell","false","true",1,0.0247704341911348
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0002598: Bronchial Smooth Muscle Cell","false","true",1,0.00150209726788346
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:0017000: Pulmonary Ionocyte","false","true",1,0.0000283414578845936
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:1000271: Lung Ciliated Cell","false","true",1,0.0261875070853645
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:1000413: Endothelial Cell Of Artery","false","true",1,0.00904092506518535
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:2000016: Lung Microvascular Endothelial Cell","false","false",1,0.000510146241922685
+"popV","Lung","Left Apical Bronchopulmonary Segment","CL:4028006: Adventitial Cell","false","true",1,0.0000566829157691872
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000057: Fibroblast","false","true",2,0.152549934580277
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000071: Blood Vessel Endothelial Cell","false","true",2,0.000098083179664653
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000158: Club Cell","false","true",2,0.0402974130604833
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000192: Smooth Muscle Cell","false","true",1,0.000506329113924051
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000235: Macrophage","false","true",2,0.0829644447396192
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000236: B Cell","false","true",2,0.0127980182241504
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000359: Vascular Associated Smooth Muscle Cell","false","true",2,0.00104516556728026
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000451: Dendritic Cell","false","true",2,0.0031218634677747
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000624: Cd4-Positive, Alpha-Beta T Cell","false","true",2,0.146274342828075
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000625: Cd8-Positive, Alpha-Beta T Cell","false","true",2,0.0106633312889249
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000646: Basal Cell","false","true",2,0.00728626259490853
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000669: Pericyte","false","true",2,0.012174860949238
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000767: Basophil","false","true",2,0.0114780651853725
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000775: Neutrophil","false","true",2,0.00875220352391222
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000786: Plasma Cell","false","true",2,0.00678810686481623
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000814: Mature Nk T Cell","false","true",2,0.00739454161275511
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000860: Classical Monocyte","false","true",2,0.0239740138042523
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0000875: Non-Classical Monocyte","false","true",2,0.0127174630040101
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0001044: Effector Cd4-Positive, Alpha-Beta T Cell","false","false",2,0.000607185544413973
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0001050: Effector Cd8-Positive, Alpha-Beta T Cell","false","true",2,0.00876832107989019
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0002062: Type I Pneumocyte","false","true",2,0.0873713877970389
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0002063: Type Ii Pneumocyte","false","true",2,0.206374714073763
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0002138: Endothelial Cell Of Lymphatic Vessel","false","true",2,0.00992676153427689
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0002144: Capillary Endothelial Cell","false","true",2,0.0923075404391773
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0002370: Respiratory Goblet Cell","false","false",2,0.00317909274854607
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0002393: Intermediate Monocyte","false","false",2,0.000708387239833647
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0002543: Vein Endothelial Cell","false","true",2,0.0213531988198086
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0002598: Bronchial Smooth Muscle Cell","false","true",2,0.00131041396339706
+"popV","Lung","Medial Bronchopulmonary Segment","CL:0017000: Pulmonary Ionocyte","false","true",1,0.0000283497019430802
+"popV","Lung","Medial Bronchopulmonary Segment","CL:1000271: Lung Ciliated Cell","false","true",2,0.0227103142761125
+"popV","Lung","Medial Bronchopulmonary Segment","CL:1000331: Serous Cell Of Epithelium Of Bronchus","false","true",1,0.000275835363023322
+"popV","Lung","Medial Bronchopulmonary Segment","CL:1000413: Endothelial Cell Of Artery","false","true",2,0.00437933745375255
+"popV","Lung","Medial Bronchopulmonary Segment","CL:2000016: Lung Microvascular Endothelial Cell","false","false",2,0.0000952318114784355
+"popV","Lung","Medial Bronchopulmonary Segment","CL:4028006: Adventitial Cell","false","true",2,0.00012474165355064
