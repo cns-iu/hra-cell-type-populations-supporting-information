@@ -376,13 +376,13 @@ cell_filter <-
 #   filter(!cell_id %in% cell_filter$cell_id)
 # 
 # lung <- lung %>%
-#           ddply(.(tool,organ,as,cell_label2,asct_relation_in_asctb_table,
+#           ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
 #                   indirect_asct_relation_in_asctb_table), summarise,
 #                 count = length(cell_label2),
 #                 median_percentage = median(percentage))
 # 
 # lung2 <- lung2 %>%
-#           ddply(.(tool,organ,as,cell_label2,asct_relation_in_asctb_table,
+#           ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
 #                   indirect_asct_relation_in_asctb_table), summarise,
 #                 count = length(cell_label2),
 #                 median_percentage = median(percentage))
@@ -419,13 +419,13 @@ cell_filter <-
 # 
 # 
 # kidney <- kidney %>%
-#           ddply(.(tool,organ,as,cell_label2,asct_relation_in_asctb_table,
+#           ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
 #                   indirect_asct_relation_in_asctb_table), summarise,
 #                 count = length(cell_label2),
 #                 median_percentage = median(percentage))
 # 
 # kidney2 <- kidney2 %>%
-#           ddply(.(tool,organ,as,cell_label2,asct_relation_in_asctb_table,
+#           ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
 #                   indirect_asct_relation_in_asctb_table), summarise,
 #                 count = length(cell_label2),
 #                 median_percentage = median(percentage))
