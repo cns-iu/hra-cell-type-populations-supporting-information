@@ -1,274 +1,472 @@
-"tool","organ","as","cell_label2","asct_relation_in_asctb_table","indirect_asct_relation_in_asctb_table","count","median_percentage"
-"Azimuth","Kidney","Hilum of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",4,0.0258657615835904
-"Azimuth","Kidney","Hilum of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",4,0.0074290385911211
-"Azimuth","Kidney","Hilum of Kidney","CL:0000084: T","false","true",4,0.00661079380664104
-"Azimuth","Kidney","Hilum of Kidney","CL:0000097: Mast","false","true",2,0.0013912939033301
-"Azimuth","Kidney","Hilum of Kidney","CL:0000236: B","false","true",2,0.0136827249341888
-"Azimuth","Kidney","Hilum of Kidney","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","true",2,0.0000300279259711532
-"Azimuth","Kidney","Hilum of Kidney","CL:0000650: Mesangial","false","false",4,0.00779177404105933
-"Azimuth","Kidney","Hilum of Kidney","CL:0000653: Podocyte","false","true",4,0.00229094981132741
-"Azimuth","Kidney","Hilum of Kidney","CL:0000786: Plasma","false","true",2,0.000100093086570511
-"Azimuth","Kidney","Hilum of Kidney","CL:0000814: Natural Killer T","false","true",4,0.000144898601299784
-"Azimuth","Kidney","Hilum of Kidney","CL:0000875: Non-Classical Monocyte","false","true",2,0.0000300279259711532
-"Azimuth","Kidney","Hilum of Kidney","CL:0000890: M2 Macrophage","false","false",4,0.00226415373297886
-"Azimuth","Kidney","Hilum of Kidney","CL:0000990: Classical Dendritic","false","true",2,0.0100993924349645
-"Azimuth","Kidney","Hilum of Kidney","CL:0001058: Plasmacytoid Dendritic","false","true",2,0.0000400372346282042
-"Azimuth","Kidney","Hilum of Kidney","CL:0002138: Lymphatic Endothelial","false","true",4,0.000899183159542402
-"Azimuth","Kidney","Hilum of Kidney","CL:0002201: Intercalated Type B","false","true",4,0.00462906887965866
-"Azimuth","Kidney","Hilum of Kidney","CL:0002573: Schwann / Neural","false","true",4,0.00018481764881426
-"Azimuth","Kidney","Hilum of Kidney","CL:0011031: Monocyte-Derived","false","true",4,0.000230095911998446
-"Azimuth","Kidney","Hilum of Kidney","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","true",4,0.00147030468856295
-"Azimuth","Kidney","Hilum of Kidney","CL:1000452: Parietal Epithelial","false","true",4,0.00943830531514423
-"Azimuth","Kidney","Hilum of Kidney","CL:1000597: Papillary Tip Epithelial","false","true",2,0.0000100093086570511
-"Azimuth","Kidney","Hilum of Kidney","CL:1000692: Fibroblast","false","true",4,0.0104388042279464
-"Azimuth","Kidney","Hilum of Kidney","CL:1000714: Cortical Collecting Duct Principal","false","true",4,0.00710018624681299
-"Azimuth","Kidney","Hilum of Kidney","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","true",4,0.013582358877381
-"Azimuth","Kidney","Hilum of Kidney","CL:1000716: Outer Medullary Collecting Duct Principal","false","true",4,0.0523047720642485
-"Azimuth","Kidney","Hilum of Kidney","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","true",4,0.00260234285927149
-"Azimuth","Kidney","Hilum of Kidney","CL:1000718: Inner Medullary Collecting Duct","false","true",2,0.12846947661325
-"Azimuth","Kidney","Hilum of Kidney","CL:1000768: Connecting Tubule","false","true",4,0.0459677908030589
-"Azimuth","Kidney","Hilum of Kidney","CL:1000850: Macula Densa","false","true",4,0.00593426077093221
-"Azimuth","Kidney","Hilum of Kidney","CL:1001005: Glomerular Capillary Endothelial","false","true",4,0.000439700458227878
-"Azimuth","Kidney","Hilum of Kidney","CL:1001107: Ascending Thin Limb","false","true",4,0.0503265675534253
-"Azimuth","Kidney","Hilum of Kidney","CL:1001108: Medullary Thick Ascending Limb","false","true",4,0.180190258551577
-"Azimuth","Kidney","Hilum of Kidney","CL:1001109: Cortical Thick Ascending Limb","false","true",4,0.139829013051186
-"Azimuth","Kidney","Hilum of Kidney","CL:1001131: Ascending Vasa Recta Endothelial","false","true",4,0.0161220091721983
-"Azimuth","Kidney","Hilum of Kidney","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","true",4,0.011750105253124
-"Azimuth","Kidney","Hilum of Kidney","CL:1001318: Vascular Smooth Muscle / Pericyte","false","true",4,0.011750105253124
-"Azimuth","Kidney","Hilum of Kidney","CL:4030009: Proximal Tubule Epithelial Segment 1","false","true",2,0.219364008527931
-"Azimuth","Kidney","Hilum of Kidney","CL:4030011: Proximal Tubule Epithelial Segment 3","false","true",4,0.0116005565588368
-"Azimuth","Kidney","Hilum of Kidney","CL:4030012: Descending Thin Limb Type 1","false","true",4,0.0788044083347069
-"Azimuth","Kidney","Hilum of Kidney","CL:4030013: Descending Thin Limb Type 2","false","true",4,0.0504274597528663
-"Azimuth","Kidney","Hilum of Kidney","CL:4030014: Descending Thin Limb Type 3","false","true",4,0.00503956872171148
-"Azimuth","Kidney","Hilum of Kidney","CL:4030016: Distal Convoluted Tubule Type 1","false","true",4,0.024731347071981
-"Azimuth","Kidney","Hilum of Kidney","CL:4030018: Connecting Tubule Principal","false","true",4,0.0209638370541472
-"Azimuth","Kidney","Hilum of Kidney","CL:4030022: Medullary Fibroblast","false","true",4,0.0159869608968899
-"Azimuth","Kidney","Kidney Capsule","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",4,0.022647693941713
-"Azimuth","Kidney","Kidney Capsule","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",4,0.00679612782819448
-"Azimuth","Kidney","Kidney Capsule","CL:0000084: T","false","true",4,0.00253267445503413
-"Azimuth","Kidney","Kidney Capsule","CL:0000097: Mast","false","true",2,0.000341025354132723
-"Azimuth","Kidney","Kidney Capsule","CL:0000236: B","false","true",2,0.00541956638309824
-"Azimuth","Kidney","Kidney Capsule","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","true",2,0.00015243563282472
-"Azimuth","Kidney","Kidney Capsule","CL:0000650: Mesangial","false","false",2,0.00143858609380749
-"Azimuth","Kidney","Kidney Capsule","CL:0000653: Podocyte","false","true",4,0.00246770883464813
-"Azimuth","Kidney","Kidney Capsule","CL:0000786: Plasma","false","true",2,0.00202311749651518
-"Azimuth","Kidney","Kidney Capsule","CL:0000814: Natural Killer T","false","true",4,0.000195322438540465
-"Azimuth","Kidney","Kidney Capsule","CL:0000875: Non-Classical Monocyte","false","true",4,0.000217769558802021
-"Azimuth","Kidney","Kidney Capsule","CL:0000890: M2 Macrophage","false","false",4,0.0070529542934551
-"Azimuth","Kidney","Kidney Capsule","CL:0000990: Classical Dendritic","false","true",2,0.0000284960318368792
-"Azimuth","Kidney","Kidney Capsule","CL:0001058: Plasmacytoid Dendritic","false","true",2,0.0000850044287750753
-"Azimuth","Kidney","Kidney Capsule","CL:0002138: Lymphatic Endothelial","false","true",2,0.00059422489019959
-"Azimuth","Kidney","Kidney Capsule","CL:0002201: Intercalated Type B","false","true",2,0.00220890598131305
-"Azimuth","Kidney","Kidney Capsule","CL:0002573: Schwann / Neural","false","true",2,0.0010855496824083
-"Azimuth","Kidney","Kidney Capsule","CL:0011031: Monocyte-Derived","false","true",4,0.0027703474720553
-"Azimuth","Kidney","Kidney Capsule","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","true",4,0.000138913961257567
-"Azimuth","Kidney","Kidney Capsule","CL:1000452: Parietal Epithelial","false","true",4,0.00150410362794347
-"Azimuth","Kidney","Kidney Capsule","CL:1000597: Papillary Tip Epithelial","false","true",2,0.00686168291802094
-"Azimuth","Kidney","Kidney Capsule","CL:1000692: Fibroblast","false","true",4,0.0149137058645393
-"Azimuth","Kidney","Kidney Capsule","CL:1000714: Cortical Collecting Duct Principal","false","true",4,0.0429976036719748
-"Azimuth","Kidney","Kidney Capsule","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","true",4,0.00410642827144643
-"Azimuth","Kidney","Kidney Capsule","CL:1000716: Outer Medullary Collecting Duct Principal","false","true",4,0.00604401211096103
-"Azimuth","Kidney","Kidney Capsule","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","true",4,0.00519218525554082
-"Azimuth","Kidney","Kidney Capsule","CL:1000718: Inner Medullary Collecting Duct","false","true",4,0.213812578257119
-"Azimuth","Kidney","Kidney Capsule","CL:1000768: Connecting Tubule","false","true",4,0.0736107178245143
-"Azimuth","Kidney","Kidney Capsule","CL:1000850: Macula Densa","false","true",4,0.0106305685618851
-"Azimuth","Kidney","Kidney Capsule","CL:1001005: Glomerular Capillary Endothelial","false","true",2,0.00183692595610434
-"Azimuth","Kidney","Kidney Capsule","CL:1001107: Ascending Thin Limb","false","true",4,0.0887303093724176
-"Azimuth","Kidney","Kidney Capsule","CL:1001108: Medullary Thick Ascending Limb","false","true",4,0.0370089546507068
-"Azimuth","Kidney","Kidney Capsule","CL:1001109: Cortical Thick Ascending Limb","false","true",4,0.0271348394197712
-"Azimuth","Kidney","Kidney Capsule","CL:1001131: Ascending Vasa Recta Endothelial","false","true",4,0.0324036692432908
-"Azimuth","Kidney","Kidney Capsule","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","true",4,0.00848072449881597
-"Azimuth","Kidney","Kidney Capsule","CL:1001318: Vascular Smooth Muscle / Pericyte","false","true",4,0.00848072449881597
-"Azimuth","Kidney","Kidney Capsule","CL:4030009: Proximal Tubule Epithelial Segment 1","false","true",2,0.0516043991424266
-"Azimuth","Kidney","Kidney Capsule","CL:4030010: Proximal Tubule Epithelial Segment 2","false","true",2,0.0129576938318626
-"Azimuth","Kidney","Kidney Capsule","CL:4030011: Proximal Tubule Epithelial Segment 3","false","true",2,0.0493792500199109
-"Azimuth","Kidney","Kidney Capsule","CL:4030012: Descending Thin Limb Type 1","false","true",4,0.0335643448687257
-"Azimuth","Kidney","Kidney Capsule","CL:4030013: Descending Thin Limb Type 2","false","true",4,0.0266729420723039
-"Azimuth","Kidney","Kidney Capsule","CL:4030014: Descending Thin Limb Type 3","false","true",4,0.058118225898631
-"Azimuth","Kidney","Kidney Capsule","CL:4030016: Distal Convoluted Tubule Type 1","false","true",4,0.0678951885175232
-"Azimuth","Kidney","Kidney Capsule","CL:4030017: Distal Convoluted Tubule Type 2","false","true",2,0.000421958921216816
-"Azimuth","Kidney","Kidney Capsule","CL:4030018: Connecting Tubule Principal","false","true",4,0.00377555605171677
-"Azimuth","Kidney","Kidney Capsule","CL:4030020: Connecting Tubule Intercalated Type A","false","true",2,0.0000907882768211746
-"Azimuth","Kidney","Kidney Capsule","CL:4030022: Medullary Fibroblast","false","true",4,0.130319023655835
-"Azimuth","Kidney","Kidney Pyramid","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",4,0.0283850712290548
-"Azimuth","Kidney","Kidney Pyramid","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",4,0.00582693202070464
-"Azimuth","Kidney","Kidney Pyramid","CL:0000084: T","false","false",4,0.00350284025347773
-"Azimuth","Kidney","Kidney Pyramid","CL:0000097: Mast","false","false",4,0.00022484062734888
-"Azimuth","Kidney","Kidney Pyramid","CL:0000113: Cycling Mononuclear Phagocyte","false","false",4,0.00000593676475748939
-"Azimuth","Kidney","Kidney Pyramid","CL:0000236: B","false","false",4,0.00227491233623538
-"Azimuth","Kidney","Kidney Pyramid","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","false",4,0.000179898500044137
-"Azimuth","Kidney","Kidney Pyramid","CL:0000650: Mesangial","false","false",4,0.00309965190095362
-"Azimuth","Kidney","Kidney Pyramid","CL:0000653: Podocyte","false","false",4,0.00185110067272227
-"Azimuth","Kidney","Kidney Pyramid","CL:0000775: Neutrophil","false","false",4,0.00000801407756195237
-"Azimuth","Kidney","Kidney Pyramid","CL:0000786: Plasma","false","false",4,0.000174500351283949
-"Azimuth","Kidney","Kidney Pyramid","CL:0000814: Natural Killer T","false","false",4,0.0000348264910022084
-"Azimuth","Kidney","Kidney Pyramid","CL:0000875: Non-Classical Monocyte","false","false",4,0.0000284075424381219
-"Azimuth","Kidney","Kidney Pyramid","CL:0000890: M2 Macrophage","false","false",4,0.00273111246537969
-"Azimuth","Kidney","Kidney Pyramid","CL:0000990: Classical Dendritic","false","false",4,0.0012885818561857
-"Azimuth","Kidney","Kidney Pyramid","CL:0001058: Plasmacytoid Dendritic","false","false",2,0.00000985648681337723
-"Azimuth","Kidney","Kidney Pyramid","CL:0002138: Lymphatic Endothelial","false","false",4,0.000259198876672426
-"Azimuth","Kidney","Kidney Pyramid","CL:0002201: Intercalated Type B","false","false",4,0.0106288552417072
-"Azimuth","Kidney","Kidney Pyramid","CL:0002573: Schwann / Neural","false","false",4,0.000234058730789811
-"Azimuth","Kidney","Kidney Pyramid","CL:0011031: Monocyte-Derived","false","false",4,0.00406264852901305
-"Azimuth","Kidney","Kidney Pyramid","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","false",4,0.00142443252838301
-"Azimuth","Kidney","Kidney Pyramid","CL:1000452: Parietal Epithelial","false","false",4,0.0117009148729143
-"Azimuth","Kidney","Kidney Pyramid","CL:1000597: Papillary Tip Epithelial","false","false",4,0.00159957501237422
-"Azimuth","Kidney","Kidney Pyramid","CL:1000692: Fibroblast","false","false",4,0.0171290410412386
-"Azimuth","Kidney","Kidney Pyramid","CL:1000714: Cortical Collecting Duct Principal","false","false",4,0.0744960074298869
-"Azimuth","Kidney","Kidney Pyramid","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","false",4,0.00882566384352866
-"Azimuth","Kidney","Kidney Pyramid","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",4,0.00933201454724516
-"Azimuth","Kidney","Kidney Pyramid","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",4,0.00757833880559776
-"Azimuth","Kidney","Kidney Pyramid","CL:1000718: Inner Medullary Collecting Duct","false","false",4,0.0997894884873628
-"Azimuth","Kidney","Kidney Pyramid","CL:1000768: Connecting Tubule","false","false",4,0.0788085716718865
-"Azimuth","Kidney","Kidney Pyramid","CL:1000850: Macula Densa","false","false",4,0.0144246673680091
-"Azimuth","Kidney","Kidney Pyramid","CL:1001005: Glomerular Capillary Endothelial","false","false",4,0.00241978983134431
-"Azimuth","Kidney","Kidney Pyramid","CL:1001107: Ascending Thin Limb","false","false",4,0.0538038418994362
-"Azimuth","Kidney","Kidney Pyramid","CL:1001108: Medullary Thick Ascending Limb","false","false",4,0.0785759565222918
-"Azimuth","Kidney","Kidney Pyramid","CL:1001109: Cortical Thick Ascending Limb","false","false",4,0.174639006782088
-"Azimuth","Kidney","Kidney Pyramid","CL:1001131: Ascending Vasa Recta Endothelial","false","false",4,0.011644615830912
-"Azimuth","Kidney","Kidney Pyramid","CL:1001131: Ascending Vasa Recta Endothelial","false","true",4,0.011644615830912
-"Azimuth","Kidney","Kidney Pyramid","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",4,0.00775411649456022
-"Azimuth","Kidney","Kidney Pyramid","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",4,0.00775411649456022
-"Azimuth","Kidney","Kidney Pyramid","CL:4030009: Proximal Tubule Epithelial Segment 1","false","false",4,0.0107867355860947
-"Azimuth","Kidney","Kidney Pyramid","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",4,0.000224774330878971
-"Azimuth","Kidney","Kidney Pyramid","CL:4030011: Proximal Tubule Epithelial Segment 3","false","false",4,0.00314978440587831
-"Azimuth","Kidney","Kidney Pyramid","CL:4030012: Descending Thin Limb Type 1","false","false",4,0.0886757570757229
-"Azimuth","Kidney","Kidney Pyramid","CL:4030013: Descending Thin Limb Type 2","false","false",4,0.0311024009165341
-"Azimuth","Kidney","Kidney Pyramid","CL:4030014: Descending Thin Limb Type 3","false","false",4,0.017098009962115
-"Azimuth","Kidney","Kidney Pyramid","CL:4030016: Distal Convoluted Tubule Type 1","false","false",4,0.0728171277727495
-"Azimuth","Kidney","Kidney Pyramid","CL:4030017: Distal Convoluted Tubule Type 2","false","false",4,0.0000794892352045254
-"Azimuth","Kidney","Kidney Pyramid","CL:4030018: Connecting Tubule Principal","false","false",4,0.0037686122443486
-"Azimuth","Kidney","Kidney Pyramid","CL:4030020: Connecting Tubule Intercalated Type A","false","false",4,0.0000161200194843046
-"Azimuth","Kidney","Kidney Pyramid","CL:4030022: Medullary Fibroblast","false","false",4,0.0535288287711904
-"Azimuth","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",4,0.00972443357868548
-"Azimuth","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",4,0.00719581403558458
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000084: T","false","false",4,0.00169105019077806
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000097: Mast","false","false",4,0.00142202080820468
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000113: Cycling Mononuclear Phagocyte","false","false",2,0.00000206926975483802
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000236: B","false","false",4,0.00312650459420321
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","false",4,0.000163687204325616
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000650: Mesangial","false","false",4,0.00454938421807838
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000653: Podocyte","true","false",4,0.00748951435074628
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000653: Podocyte","true","true",4,0.00748951435074628
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000775: Neutrophil","false","false",2,0.00000758732243440607
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000786: Plasma","false","false",4,0.000436055265217478
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000814: Natural Killer T","false","false",4,0.000117266562341017
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000875: Non-Classical Monocyte","false","false",4,0.000090573325114782
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000890: M2 Macrophage","false","false",4,0.00211767340931694
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0000990: Classical Dendritic","false","false",4,0.00159424896841235
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0001058: Plasmacytoid Dendritic","false","false",4,0.0000345742917718244
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0002138: Lymphatic Endothelial","false","false",4,0.000391635071962256
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0002201: Intercalated Type B","false","false",4,0.00534727572605651
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0002573: Schwann / Neural","false","false",4,0.000418208567322324
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:0011031: Monocyte-Derived","false","false",4,0.000808646160972419
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","false",4,0.00176284419436149
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000452: Parietal Epithelial","false","false",4,0.0094298476175204
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000452: Parietal Epithelial","false","true",4,0.0094298476175204
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000597: Papillary Tip Epithelial","false","false",4,0.000125079807274022
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000692: Fibroblast","false","false",4,0.0251163044546501
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000714: Cortical Collecting Duct Principal","false","false",4,0.0220981222326072
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","false",4,0.0105608982963071
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",4,0.0100394060195021
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",4,0.00417537915138595
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000718: Inner Medullary Collecting Duct","false","false",4,0.160309150417635
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000768: Connecting Tubule","false","false",4,0.059846034113514
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1000850: Macula Densa","false","false",4,0.0195121892748467
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1001005: Glomerular Capillary Endothelial","false","false",4,0.00335065512838946
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1001107: Ascending Thin Limb","false","false",4,0.0552807008926233
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1001108: Medullary Thick Ascending Limb","false","false",4,0.0419601043323853
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1001109: Cortical Thick Ascending Limb","false","false",4,0.130070194781225
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1001131: Ascending Vasa Recta Endothelial","false","false",4,0.00556593040048255
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",4,0.00661991229879262
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",4,0.00661991229879262
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030009: Proximal Tubule Epithelial Segment 1","false","false",4,0.0685182197104934
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",4,0.00240947011455645
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030011: Proximal Tubule Epithelial Segment 3","false","false",4,0.04235873234943
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030012: Descending Thin Limb Type 1","false","false",4,0.105641220605842
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030013: Descending Thin Limb Type 2","false","false",4,0.0535206256912409
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030014: Descending Thin Limb Type 3","false","false",4,0.0168405451864761
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030016: Distal Convoluted Tubule Type 1","false","false",4,0.0747066737187274
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030017: Distal Convoluted Tubule Type 2","false","false",4,0.00119278942008998
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030018: Connecting Tubule Principal","false","false",4,0.00476827157111626
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030020: Connecting Tubule Intercalated Type A","false","false",4,0.000254891576897929
-"Azimuth","Kidney","Outer Cortex of Kidney","CL:4030022: Medullary Fibroblast","false","false",4,0.017242412016438
-"Azimuth","Kidney","Renal Column","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",4,0.0271738563145235
-"Azimuth","Kidney","Renal Column","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",4,0.0100172254114996
-"Azimuth","Kidney","Renal Column","CL:0000084: T","false","false",4,0.00640392077718913
-"Azimuth","Kidney","Renal Column","CL:0000097: Mast","false","false",2,0.00271383746563861
-"Azimuth","Kidney","Renal Column","CL:0000236: B","false","false",2,0.00929746014539127
-"Azimuth","Kidney","Renal Column","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","false",2,0.0000535301701087824
-"Azimuth","Kidney","Renal Column","CL:0000650: Mesangial","false","false",4,0.00533802141422844
-"Azimuth","Kidney","Renal Column","CL:0000653: Podocyte","true","false",4,0.00239974529076312
-"Azimuth","Kidney","Renal Column","CL:0000653: Podocyte","true","true",4,0.00239974529076312
-"Azimuth","Kidney","Renal Column","CL:0000786: Plasma","false","false",2,0.00112065313082131
-"Azimuth","Kidney","Renal Column","CL:0000814: Natural Killer T","false","false",4,0.000139936888372376
-"Azimuth","Kidney","Renal Column","CL:0000875: Non-Classical Monocyte","false","false",2,0.0000714470905984893
-"Azimuth","Kidney","Renal Column","CL:0000890: M2 Macrophage","false","false",4,0.00526854405010671
-"Azimuth","Kidney","Renal Column","CL:0000990: Classical Dendritic","false","false",2,0.00704483019391794
-"Azimuth","Kidney","Renal Column","CL:0001058: Plasmacytoid Dendritic","false","false",2,0.0000261768414268222
-"Azimuth","Kidney","Renal Column","CL:0002138: Lymphatic Endothelial","false","false",4,0.00126785887149333
-"Azimuth","Kidney","Renal Column","CL:0002201: Intercalated Type B","false","false",4,0.00333934495841807
-"Azimuth","Kidney","Renal Column","CL:0002573: Schwann / Neural","false","false",4,0.000253012560891357
-"Azimuth","Kidney","Renal Column","CL:0011031: Monocyte-Derived","false","false",4,0.000578707268966597
-"Azimuth","Kidney","Renal Column","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","false",4,0.00133460956209922
-"Azimuth","Kidney","Renal Column","CL:1000452: Parietal Epithelial","false","false",4,0.00738457001484341
-"Azimuth","Kidney","Renal Column","CL:1000452: Parietal Epithelial","false","true",4,0.00738457001484341
-"Azimuth","Kidney","Renal Column","CL:1000597: Papillary Tip Epithelial","false","false",2,0.0243371585019023
-"Azimuth","Kidney","Renal Column","CL:1000692: Fibroblast","false","false",4,0.0269519897623007
-"Azimuth","Kidney","Renal Column","CL:1000714: Cortical Collecting Duct Principal","false","false",4,0.00778566335994732
-"Azimuth","Kidney","Renal Column","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","false",4,0.0120002244406822
-"Azimuth","Kidney","Renal Column","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",4,0.0563771970696889
-"Azimuth","Kidney","Renal Column","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",4,0.0027428856586384
-"Azimuth","Kidney","Renal Column","CL:1000718: Inner Medullary Collecting Duct","false","false",2,0.135403119191247
-"Azimuth","Kidney","Renal Column","CL:1000768: Connecting Tubule","false","false",4,0.0394397064596528
-"Azimuth","Kidney","Renal Column","CL:1000850: Macula Densa","false","false",4,0.00684787569527071
-"Azimuth","Kidney","Renal Column","CL:1001005: Glomerular Capillary Endothelial","false","false",4,0.000859204144760049
-"Azimuth","Kidney","Renal Column","CL:1001107: Ascending Thin Limb","false","false",4,0.0353694923462904
-"Azimuth","Kidney","Renal Column","CL:1001108: Medullary Thick Ascending Limb","false","false",4,0.17298848743612
-"Azimuth","Kidney","Renal Column","CL:1001109: Cortical Thick Ascending Limb","false","false",4,0.14424103725228
-"Azimuth","Kidney","Renal Column","CL:1001131: Ascending Vasa Recta Endothelial","false","false",4,0.0156279673081022
-"Azimuth","Kidney","Renal Column","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",4,0.013883531459313
-"Azimuth","Kidney","Renal Column","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",4,0.013883531459313
-"Azimuth","Kidney","Renal Column","CL:4030009: Proximal Tubule Epithelial Segment 1","false","false",2,0.158047753715727
-"Azimuth","Kidney","Renal Column","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",2,0.00220726166169707
-"Azimuth","Kidney","Renal Column","CL:4030011: Proximal Tubule Epithelial Segment 3","false","false",4,0.0155061497796123
-"Azimuth","Kidney","Renal Column","CL:4030012: Descending Thin Limb Type 1","false","false",4,0.0699953015471721
-"Azimuth","Kidney","Renal Column","CL:4030013: Descending Thin Limb Type 2","false","false",4,0.0423324495887694
-"Azimuth","Kidney","Renal Column","CL:4030014: Descending Thin Limb Type 3","false","false",4,0.00438349156223428
-"Azimuth","Kidney","Renal Column","CL:4030016: Distal Convoluted Tubule Type 1","false","false",4,0.022153363082803
-"Azimuth","Kidney","Renal Column","CL:4030017: Distal Convoluted Tubule Type 2","false","false",2,0.000101717127267146
-"Azimuth","Kidney","Renal Column","CL:4030018: Connecting Tubule Principal","false","false",4,0.0219103586436295
-"Azimuth","Kidney","Renal Column","CL:4030020: Connecting Tubule Intercalated Type A","false","false",2,0.000273337205610413
-"Azimuth","Kidney","Renal Column","CL:4030022: Medullary Fibroblast","false","false",4,0.0473551287986612
-"Azimuth","Kidney","Renal Papilla","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.0214531061775369
-"Azimuth","Kidney","Renal Papilla","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.000138805982771145
-"Azimuth","Kidney","Renal Papilla","CL:0000084: T","false","false",2,0.0014912894871673
-"Azimuth","Kidney","Renal Papilla","CL:0000097: Mast","false","false",2,0.0000670701177255532
-"Azimuth","Kidney","Renal Papilla","CL:0000236: B","false","false",2,0.000110811498850914
-"Azimuth","Kidney","Renal Papilla","CL:0000786: Plasma","false","false",2,0.000538893815464444
-"Azimuth","Kidney","Renal Papilla","CL:0000814: Natural Killer T","false","false",2,0.0000901072451182431
-"Azimuth","Kidney","Renal Papilla","CL:0000875: Non-Classical Monocyte","false","false",2,0.000138805982771145
-"Azimuth","Kidney","Renal Papilla","CL:0000890: M2 Macrophage","false","false",2,0.0111065198861441
-"Azimuth","Kidney","Renal Papilla","CL:0002201: Intercalated Type B","false","false",2,0.00117985085355473
-"Azimuth","Kidney","Renal Papilla","CL:0011031: Monocyte-Derived","false","false",2,0.000811840033686696
-"Azimuth","Kidney","Renal Papilla","CL:1000597: Papillary Tip Epithelial","true","true",2,0.0000694029913855724
-"Azimuth","Kidney","Renal Papilla","CL:1000692: Fibroblast","false","false",2,0.00020121035317666
-"Azimuth","Kidney","Renal Papilla","CL:1000714: Cortical Collecting Duct Principal","false","false",2,0.00432456454726067
-"Azimuth","Kidney","Renal Papilla","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",2,0.0248830136761802
-"Azimuth","Kidney","Renal Papilla","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",2,0.00263731367265175
-"Azimuth","Kidney","Renal Papilla","CL:1000718: Inner Medullary Collecting Duct","true","false",2,0.37432678369333
-"Azimuth","Kidney","Renal Papilla","CL:1000718: Inner Medullary Collecting Duct","true","true",2,0.37432678369333
-"Azimuth","Kidney","Renal Papilla","CL:1000768: Connecting Tubule","false","false",2,0.047228735637882
-"Azimuth","Kidney","Renal Papilla","CL:1000850: Macula Densa","false","false",2,0.000902238888012441
-"Azimuth","Kidney","Renal Papilla","CL:1001107: Ascending Thin Limb","false","false",2,0.0502955896731848
-"Azimuth","Kidney","Renal Papilla","CL:1001108: Medullary Thick Ascending Limb","false","false",2,0.00046686634121135
-"Azimuth","Kidney","Renal Papilla","CL:1001109: Cortical Thick Ascending Limb","false","false",2,0.0000414085074653415
-"Azimuth","Kidney","Renal Papilla","CL:1001131: Ascending Vasa Recta Endothelial","false","false",2,0.0769209683641919
-"Azimuth","Kidney","Renal Papilla","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",2,0.00531866033563636
-"Azimuth","Kidney","Renal Papilla","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",2,0.00531866033563636
-"Azimuth","Kidney","Renal Papilla","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",2,0.0000207042537326708
-"Azimuth","Kidney","Renal Papilla","CL:4030012: Descending Thin Limb Type 1","false","false",2,0.0216578158412036
-"Azimuth","Kidney","Renal Papilla","CL:4030013: Descending Thin Limb Type 2","false","false",2,0.0000877743714582239
-"Azimuth","Kidney","Renal Papilla","CL:4030014: Descending Thin Limb Type 3","false","false",2,0.0709759314508404
-"Azimuth","Kidney","Renal Papilla","CL:4030016: Distal Convoluted Tubule Type 1","false","false",2,0.000208208974156717
-"Azimuth","Kidney","Renal Papilla","CL:4030022: Medullary Fibroblast","false","false",2,0.282305707346248
+"tool","sex","organ","as","cell_label2","asct_relation_in_asctb_table","indirect_asct_relation_in_asctb_table","count","median_percentage"
+"Azimuth","Female","Kidney","Hilum of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.00270251333740379
+"Azimuth","Female","Kidney","Hilum of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.00179166624961214
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000084: T","false","true",2,0.0128619616243106
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000097: Mast","false","true",2,0.0013912939033301
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000236: B","false","true",2,0.0136827249341888
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","true",2,0.0000300279259711532
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000650: Mesangial","false","false",2,0.01510404676349
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000653: Podocyte","false","true",2,0.00338314632608326
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000786: Plasma","false","true",2,0.000100093086570511
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000814: Natural Killer T","false","true",2,0.0000500465432852553
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000875: Non-Classical Monocyte","false","true",2,0.0000300279259711532
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000890: M2 Macrophage","false","false",2,0.00153142422452881
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000990: Classical Dendritic","false","true",2,0.0100993924349645
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0001058: Plasmacytoid Dendritic","false","true",2,0.0000400372346282042
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002138: Lymphatic Endothelial","false","true",2,0.000120111703884613
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002201: Intercalated Type B","false","true",2,0.009018387100003
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002573: Schwann / Neural","false","true",2,0.0000100093086570511
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0011031: Monocyte-Derived","false","true",2,0.000340316494339736
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","true",2,0.0018617314102115
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000452: Parietal Epithelial","false","true",2,0.0183971093116598
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000597: Papillary Tip Epithelial","false","true",2,0.0000100093086570511
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000692: Fibroblast","false","true",2,0.0148838419730349
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000714: Cortical Collecting Duct Principal","false","true",2,0.0127618685377401
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","true",2,0.0167355640745894
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000716: Outer Medullary Collecting Duct Principal","false","true",2,0.00930865705105748
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","true",2,0.0000500465432852553
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000718: Inner Medullary Collecting Duct","false","true",2,0.12846947661325
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000768: Connecting Tubule","false","true",2,0.0869008177605173
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000850: Macula Densa","false","true",2,0.00551512907003513
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001005: Glomerular Capillary Endothelial","false","true",2,0.000160148938512817
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001107: Ascending Thin Limb","false","true",2,0.100413384447536
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001108: Medullary Thick Ascending Limb","false","true",2,0.0585344370264346
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001109: Cortical Thick Ascending Limb","false","true",2,0.00957890838479786
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001131: Ascending Vasa Recta Endothelial","false","true",2,0.00383356521565055
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","true",2,0.00743691633218894
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001318: Vascular Smooth Muscle / Pericyte","false","true",2,0.00743691633218894
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030009: Proximal Tubule Epithelial Segment 1","false","true",2,0.219364008527931
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030011: Proximal Tubule Epithelial Segment 3","false","true",2,0.00773719559190047
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030012: Descending Thin Limb Type 1","false","true",2,0.0927562633248921
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030013: Descending Thin Limb Type 2","false","true",2,0.0608165594002422
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030014: Descending Thin Limb Type 3","false","true",2,0.0099592621137658
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030016: Distal Convoluted Tubule Type 1","false","true",2,0.0477844395287617
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030018: Connecting Tubule Principal","false","true",2,0.00572532455183321
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030022: Medullary Fibroblast","false","true",2,0.00871810784029147
+"Azimuth","Female","Kidney","Kidney Capsule","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.00526890419497058
+"Azimuth","Female","Kidney","Kidney Capsule","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.0131107340481068
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000084: T","false","true",2,0.00277812127072794
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000097: Mast","false","true",2,0.000341025354132723
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000236: B","false","true",2,0.00541956638309824
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","true",2,0.00015243563282472
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000650: Mesangial","false","false",2,0.00143858609380749
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000653: Podocyte","false","true",2,0.00475484706619044
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000786: Plasma","false","true",2,0.00202311749651518
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000814: Natural Killer T","false","true",2,0.0000295036708693007
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000875: Non-Classical Monocyte","false","true",2,0.0000142077103571428
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000890: M2 Macrophage","false","false",2,0.00297072139538498
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000990: Classical Dendritic","false","true",2,0.0000284960318368792
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0001058: Plasmacytoid Dendritic","false","true",2,0.0000850044287750753
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002138: Lymphatic Endothelial","false","true",2,0.00059422489019959
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002201: Intercalated Type B","false","true",2,0.00220890598131305
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002573: Schwann / Neural","false","true",2,0.0010855496824083
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0011031: Monocyte-Derived","false","true",2,0.000123576850936169
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","true",2,0.0000972573194093204
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000452: Parietal Epithelial","false","true",2,0.00282763665278113
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000692: Fibroblast","false","true",2,0.0212202129810348
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000714: Cortical Collecting Duct Principal","false","true",2,0.0277310927418068
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","true",2,0.00815266634185759
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000716: Outer Medullary Collecting Duct Principal","false","true",2,0.00956003577844065
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","true",2,0.00334211698995489
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000718: Inner Medullary Collecting Duct","false","true",2,0.216538121483541
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000768: Connecting Tubule","false","true",2,0.0683120820917877
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000850: Macula Densa","false","true",2,0.0212009469227349
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001005: Glomerular Capillary Endothelial","false","true",2,0.00183692595610434
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001107: Ascending Thin Limb","false","true",2,0.0630390465767842
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001108: Medullary Thick Ascending Limb","false","true",2,0.0721520130693201
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001109: Cortical Thick Ascending Limb","false","true",2,0.0542094886385072
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001131: Ascending Vasa Recta Endothelial","false","true",2,0.00594132187408607
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","true",2,0.00594664220817726
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001318: Vascular Smooth Muscle / Pericyte","false","true",2,0.00594664220817726
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030009: Proximal Tubule Epithelial Segment 1","false","true",2,0.0516043991424266
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030010: Proximal Tubule Epithelial Segment 2","false","true",2,0.0129576938318626
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030011: Proximal Tubule Epithelial Segment 3","false","true",2,0.0493792500199109
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030012: Descending Thin Limb Type 1","false","true",2,0.0298709552966183
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030013: Descending Thin Limb Type 2","false","true",2,0.0458822992162342
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030014: Descending Thin Limb Type 3","false","true",2,0.0189690869242633
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030016: Distal Convoluted Tubule Type 1","false","true",2,0.135730186834011
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030017: Distal Convoluted Tubule Type 2","false","true",2,0.000421958921216816
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030018: Connecting Tubule Principal","false","true",2,0.00544445506719905
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030020: Connecting Tubule Intercalated Type A","false","true",2,0.0000907882768211746
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030022: Medullary Fibroblast","false","true",2,0.0251137906606533
+"Azimuth","Female","Kidney","Kidney Pyramid","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.0151337261070282
+"Azimuth","Female","Kidney","Kidney Pyramid","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.00672495272630298
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000084: T","false","false",2,0.00229388287390372
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000097: Mast","false","false",2,0.000377607848476875
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000113: Cycling Mononuclear Phagocyte","false","false",2,0.00000356224214842813
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000236: B","false","false",2,0.00422591718122155
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","false",2,0.000279703201558666
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000650: Mesangial","false","false",2,0.00530021366845588
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000653: Podocyte","false","false",2,0.00152571828930039
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000775: Neutrophil","false","false",2,0.00000356122407407876
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000786: Plasma","false","false",2,0.000322618598644624
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000814: Natural Killer T","false","false",2,0.000033363823540215
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000875: Non-Classical Monocyte","false","false",2,0.0000406517087701444
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000890: M2 Macrophage","false","false",2,0.00209264826185953
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000990: Classical Dendritic","false","false",2,0.00183330349306512
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0001058: Plasmacytoid Dendritic","false","false",2,0.00000985648681337723
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002138: Lymphatic Endothelial","false","false",2,0.000447743499441805
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002201: Intercalated Type B","false","false",2,0.00697606178264821
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002573: Schwann / Neural","false","false",2,0.000439323006498207
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0011031: Monocyte-Derived","false","false",2,0.00196822888658646
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","false",2,0.00187608704952283
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000452: Parietal Epithelial","false","false",2,0.0189425311007944
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000597: Papillary Tip Epithelial","false","false",2,0.000942866142954358
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000692: Fibroblast","false","false",2,0.0182794658945363
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000714: Cortical Collecting Duct Principal","false","false",2,0.0503393713683895
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","false",2,0.0146878696083929
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",2,0.0109440752793169
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",2,0.00883399249422446
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000718: Inner Medullary Collecting Duct","false","false",2,0.154486101912258
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000768: Connecting Tubule","false","false",2,0.0779413797126633
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000850: Macula Densa","false","false",2,0.0151410027934402
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001005: Glomerular Capillary Endothelial","false","false",2,0.0019967848540118
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001107: Ascending Thin Limb","false","false",2,0.0460447336595486
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001108: Medullary Thick Ascending Limb","false","false",2,0.0790353469234389
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001109: Cortical Thick Ascending Limb","false","false",2,0.130076554823533
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001131: Ascending Vasa Recta Endothelial","false","false",2,0.00791892690752822
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001131: Ascending Vasa Recta Endothelial","false","true",2,0.00791892690752822
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",2,0.009030571452269
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",2,0.009030571452269
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030009: Proximal Tubule Epithelial Segment 1","false","false",2,0.0169949533433477
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",2,0.000209163375077039
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030011: Proximal Tubule Epithelial Segment 3","false","false",2,0.00497725961431314
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030012: Descending Thin Limb Type 1","false","false",2,0.0762404895146624
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030013: Descending Thin Limb Type 2","false","false",2,0.0496236259049234
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030014: Descending Thin Limb Type 3","false","false",2,0.0112793093462617
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030016: Distal Convoluted Tubule Type 1","false","false",2,0.100012936365335
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030017: Distal Convoluted Tubule Type 2","false","false",2,0.000078494041373216
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030018: Connecting Tubule Principal","false","false",2,0.0039106378805615
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030020: Connecting Tubule Intercalated Type A","false","false",2,0.000021850929760421
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030022: Medullary Fibroblast","false","false",2,0.0401009727972234
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.00824056820534261
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.00633249316435394
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000084: T","false","false",2,0.00259487774237433
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000097: Mast","false","false",2,0.00246364085981163
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000236: B","false","false",2,0.00518664550807988
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","false",2,0.000228549189064801
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000650: Mesangial","false","false",2,0.00519807493064132
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000653: Podocyte","true","false",2,0.00666714318535093
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000653: Podocyte","true","true",2,0.00666714318535093
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000786: Plasma","false","false",2,0.000545855665755495
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000814: Natural Killer T","false","false",2,0.0000988517966138905
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000875: Non-Classical Monocyte","false","false",2,0.0000805370303578771
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000890: M2 Macrophage","false","false",2,0.00187448522653628
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000990: Classical Dendritic","false","false",2,0.0000876972091999268
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0001058: Plasmacytoid Dendritic","false","false",2,0.0000553534518447286
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002138: Lymphatic Endothelial","false","false",2,0.000485441527623846
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002201: Intercalated Type B","false","false",2,0.00344623023919791
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002573: Schwann / Neural","false","false",2,0.000616525494390201
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0011031: Monocyte-Derived","false","false",2,0.00080645724559058
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","false",2,0.00202601444855898
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000452: Parietal Epithelial","false","false",2,0.0131526616668161
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000452: Parietal Epithelial","false","true",2,0.0131526616668161
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000597: Papillary Tip Epithelial","false","false",2,0.0000160044978734992
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000692: Fibroblast","false","false",2,0.0171482667015149
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000714: Cortical Collecting Duct Principal","false","false",2,0.0207539447212703
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","false",2,0.013637857289308
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",2,0.0135644597734953
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",2,0.00273428322146303
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000718: Inner Medullary Collecting Duct","false","false",2,0.177696989331809
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000768: Connecting Tubule","false","false",2,0.0632011111770991
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000850: Macula Densa","false","false",2,0.0171016211843428
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001005: Glomerular Capillary Endothelial","false","false",2,0.00202139597822363
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001107: Ascending Thin Limb","false","false",2,0.0428950526904439
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001108: Medullary Thick Ascending Limb","false","false",2,0.0526384711429088
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001109: Cortical Thick Ascending Limb","false","false",2,0.0724542588557774
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001131: Ascending Vasa Recta Endothelial","false","false",2,0.00510548234952889
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",2,0.00694501185159415
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",2,0.00694501185159415
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030009: Proximal Tubule Epithelial Segment 1","false","false",2,0.0420534764724376
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",2,0.00366487296437562
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030011: Proximal Tubule Epithelial Segment 3","false","false",2,0.0289467969988663
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030012: Descending Thin Limb Type 1","false","false",2,0.17765749572776
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030013: Descending Thin Limb Type 2","false","false",2,0.0543346234880399
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030014: Descending Thin Limb Type 3","false","false",2,0.0204883196508825
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030016: Distal Convoluted Tubule Type 1","false","false",2,0.0777360593177732
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030017: Distal Convoluted Tubule Type 2","false","false",2,0.000585053770360067
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030018: Connecting Tubule Principal","false","false",2,0.0056693283520806
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030020: Connecting Tubule Intercalated Type A","false","false",2,0.000280094211008838
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030022: Medullary Fibroblast","false","false",2,0.0204815644922578
+"Azimuth","Female","Kidney","Renal Column","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.00531870279927005
+"Azimuth","Female","Kidney","Renal Column","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.00696803989036903
+"Azimuth","Female","Kidney","Renal Column","CL:0000084: T","false","false",2,0.0124482155654068
+"Azimuth","Female","Kidney","Renal Column","CL:0000097: Mast","false","false",2,0.00271383746563861
+"Azimuth","Female","Kidney","Renal Column","CL:0000236: B","false","false",2,0.00929746014539127
+"Azimuth","Female","Kidney","Renal Column","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","false",2,0.0000535301701087824
+"Azimuth","Female","Kidney","Renal Column","CL:0000650: Mesangial","false","false",2,0.0101965415098283
+"Azimuth","Female","Kidney","Renal Column","CL:0000653: Podocyte","true","false",2,0.00360073728495467
+"Azimuth","Female","Kidney","Renal Column","CL:0000653: Podocyte","true","true",2,0.00360073728495467
+"Azimuth","Female","Kidney","Renal Column","CL:0000786: Plasma","false","false",2,0.00112065313082131
+"Azimuth","Female","Kidney","Renal Column","CL:0000814: Natural Killer T","false","false",2,0.0000401231174304381
+"Azimuth","Female","Kidney","Renal Column","CL:0000875: Non-Classical Monocyte","false","false",2,0.0000714470905984893
+"Azimuth","Female","Kidney","Renal Column","CL:0000890: M2 Macrophage","false","false",2,0.00754020485878452
+"Azimuth","Female","Kidney","Renal Column","CL:0000990: Classical Dendritic","false","false",2,0.00704483019391794
+"Azimuth","Female","Kidney","Renal Column","CL:0001058: Plasmacytoid Dendritic","false","false",2,0.0000261768414268222
+"Azimuth","Female","Kidney","Renal Column","CL:0002138: Lymphatic Endothelial","false","false",2,0.000857463127786467
+"Azimuth","Female","Kidney","Renal Column","CL:0002201: Intercalated Type B","false","false",2,0.00643893925752183
+"Azimuth","Female","Kidney","Renal Column","CL:0002573: Schwann / Neural","false","false",2,0.000146399132811244
+"Azimuth","Female","Kidney","Renal Column","CL:0011031: Monocyte-Derived","false","false",2,0.00103753920827604
+"Azimuth","Female","Kidney","Renal Column","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","false",2,0.00159034115728404
+"Azimuth","Female","Kidney","Renal Column","CL:1000452: Parietal Epithelial","false","false",2,0.0142896387110582
+"Azimuth","Female","Kidney","Renal Column","CL:1000452: Parietal Epithelial","false","true",2,0.0142896387110582
+"Azimuth","Female","Kidney","Renal Column","CL:1000597: Papillary Tip Epithelial","false","false",2,0.0243371585019023
+"Azimuth","Female","Kidney","Renal Column","CL:1000692: Fibroblast","false","false",2,0.0479102130417436
+"Azimuth","Female","Kidney","Renal Column","CL:1000714: Cortical Collecting Duct Principal","false","false",2,0.0141328227640088
+"Azimuth","Female","Kidney","Renal Column","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","false",2,0.0135712952011918
+"Azimuth","Female","Kidney","Renal Column","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",2,0.0174535070619383
+"Azimuth","Female","Kidney","Renal Column","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",2,0.000331132142019071
+"Azimuth","Female","Kidney","Renal Column","CL:1000718: Inner Medullary Collecting Duct","false","false",2,0.135403119191247
+"Azimuth","Female","Kidney","Renal Column","CL:1000768: Connecting Tubule","false","false",2,0.073844649073705
+"Azimuth","Female","Kidney","Renal Column","CL:1000850: Macula Densa","false","false",2,0.00734235891871213
+"Azimuth","Female","Kidney","Renal Column","CL:1001005: Glomerular Capillary Endothelial","false","false",2,0.000999156311577159
+"Azimuth","Female","Kidney","Renal Column","CL:1001107: Ascending Thin Limb","false","false",2,0.0704992340332664
+"Azimuth","Female","Kidney","Renal Column","CL:1001108: Medullary Thick Ascending Limb","false","false",2,0.0441308947955194
+"Azimuth","Female","Kidney","Renal Column","CL:1001109: Cortical Thick Ascending Limb","false","false",2,0.0184029567869858
+"Azimuth","Female","Kidney","Renal Column","CL:1001131: Ascending Vasa Recta Endothelial","false","false",2,0.00284548148745833
+"Azimuth","Female","Kidney","Renal Column","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",2,0.011703768744567
+"Azimuth","Female","Kidney","Renal Column","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",2,0.011703768744567
+"Azimuth","Female","Kidney","Renal Column","CL:4030009: Proximal Tubule Epithelial Segment 1","false","false",2,0.158047753715727
+"Azimuth","Female","Kidney","Renal Column","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",2,0.00220726166169707
+"Azimuth","Female","Kidney","Renal Column","CL:4030011: Proximal Tubule Epithelial Segment 3","false","false",2,0.0155483820334514
+"Azimuth","Female","Kidney","Renal Column","CL:4030012: Descending Thin Limb Type 1","false","false",2,0.0751380497498224
+"Azimuth","Female","Kidney","Renal Column","CL:4030013: Descending Thin Limb Type 2","false","false",2,0.0446265390720486
+"Azimuth","Female","Kidney","Renal Column","CL:4030014: Descending Thin Limb Type 3","false","false",2,0.0086471077948114
+"Azimuth","Female","Kidney","Renal Column","CL:4030016: Distal Convoluted Tubule Type 1","false","false",2,0.0426284715504058
+"Azimuth","Female","Kidney","Renal Column","CL:4030017: Distal Convoluted Tubule Type 2","false","false",2,0.000101717127267146
+"Azimuth","Female","Kidney","Renal Column","CL:4030018: Connecting Tubule Principal","false","false",2,0.00761836773079775
+"Azimuth","Female","Kidney","Renal Column","CL:4030020: Connecting Tubule Intercalated Type A","false","false",2,0.000273337205610413
+"Azimuth","Female","Kidney","Renal Column","CL:4030022: Medullary Fibroblast","false","false",2,0.0714544436438339
+"Azimuth","Male","Kidney","Hilum of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.049029009829777
+"Azimuth","Male","Kidney","Hilum of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.0130664109326301
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000084: T","false","true",2,0.00035962598897147
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000650: Mesangial","false","false",2,0.000479501318628626
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000653: Podocyte","false","true",2,0.00119875329657156
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000814: Natural Killer T","false","true",2,0.000239750659314313
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000890: M2 Macrophage","false","false",2,0.00299688324142891
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002138: Lymphatic Endothelial","false","true",2,0.00167825461520019
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002201: Intercalated Type B","false","true",2,0.000239750659314313
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002573: Schwann / Neural","false","true",2,0.00035962598897147
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0011031: Monocyte-Derived","false","true",2,0.000119875329657156
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","true",2,0.00107887796691441
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000452: Parietal Epithelial","false","true",2,0.000479501318628626
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000692: Fibroblast","false","true",2,0.00599376648285783
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000714: Cortical Collecting Duct Principal","false","true",2,0.00143850395588588
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","true",2,0.0104291536801726
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000716: Outer Medullary Collecting Duct Principal","false","true",2,0.0953008870774394
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","true",2,0.00515463917525773
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000768: Connecting Tubule","false","true",2,0.00503476384560058
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000850: Macula Densa","false","true",2,0.0063533924718293
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001005: Glomerular Capillary Endothelial","false","true",2,0.000719251977942939
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001107: Ascending Thin Limb","false","true",2,0.000239750659314313
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001108: Medullary Thick Ascending Limb","false","true",2,0.30184608007672
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001109: Cortical Thick Ascending Limb","false","true",2,0.270079117717574
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001131: Ascending Vasa Recta Endothelial","false","true",2,0.0284104531287461
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","true",2,0.016063294174059
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001318: Vascular Smooth Muscle / Pericyte","false","true",2,0.016063294174059
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030011: Proximal Tubule Epithelial Segment 3","false","true",2,0.0154639175257732
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030012: Descending Thin Limb Type 1","false","true",2,0.0648525533445217
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030013: Descending Thin Limb Type 2","false","true",2,0.0400383601054903
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030014: Descending Thin Limb Type 3","false","true",2,0.000119875329657156
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030016: Distal Convoluted Tubule Type 1","false","true",2,0.00167825461520019
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030018: Connecting Tubule Principal","false","true",2,0.0362023495564613
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030022: Medullary Fibroblast","false","true",2,0.0232558139534884
+"Azimuth","Male","Kidney","Kidney Capsule","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.0400264836884555
+"Azimuth","Male","Kidney","Kidney Capsule","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.000481521608282171
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000084: T","false","true",2,0.00228722763934031
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000653: Podocyte","false","true",2,0.000180570603105814
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000814: Natural Killer T","false","true",2,0.000361141206211629
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000875: Non-Classical Monocyte","false","true",2,0.0004213314072469
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000890: M2 Macrophage","false","false",2,0.0111351871915252
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0011031: Monocyte-Derived","false","true",2,0.00541711809317443
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","true",2,0.000180570603105814
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000452: Parietal Epithelial","false","true",2,0.000180570603105814
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000597: Papillary Tip Epithelial","false","true",2,0.00686168291802094
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000692: Fibroblast","false","true",2,0.00860719874804382
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000714: Cortical Collecting Duct Principal","false","true",2,0.0582641146021428
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","true",2,0.0000601902010352714
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000716: Outer Medullary Collecting Duct Principal","false","true",2,0.0025279884434814
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","true",2,0.00704225352112676
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000718: Inner Medullary Collecting Duct","false","true",2,0.211087035030697
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000768: Connecting Tubule","false","true",2,0.0789093535572409
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000850: Macula Densa","false","true",2,0.0000601902010352714
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001107: Ascending Thin Limb","false","true",2,0.114421572168051
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001108: Medullary Thick Ascending Limb","false","true",2,0.00186589623209341
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001109: Cortical Thick Ascending Limb","false","true",2,0.0000601902010352714
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001131: Ascending Vasa Recta Endothelial","false","true",2,0.0588660166124955
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","true",2,0.0110148067894547
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001318: Vascular Smooth Muscle / Pericyte","false","true",2,0.0110148067894547
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030012: Descending Thin Limb Type 1","false","true",2,0.037257734440833
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030013: Descending Thin Limb Type 2","false","true",2,0.00746358492837366
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030014: Descending Thin Limb Type 3","false","true",2,0.0972673648729987
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030016: Distal Convoluted Tubule Type 1","false","true",2,0.0000601902010352714
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030018: Connecting Tubule Principal","false","true",2,0.0021066570362345
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030022: Medullary Fibroblast","false","true",2,0.235524256651017
+"Azimuth","Male","Kidney","Kidney Pyramid","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.0416364163510815
+"Azimuth","Male","Kidney","Kidney Pyramid","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.0049289113151063
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000084: T","false","false",2,0.00471179763305174
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000097: Mast","false","false",2,0.0000720734062208855
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000113: Cycling Mononuclear Phagocyte","false","false",2,0.00000831128736655064
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000236: B","false","false",2,0.000323907491249212
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","false",2,0.0000800937985296069
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000650: Mesangial","false","false",2,0.000899090133451349
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000653: Podocyte","false","false",2,0.00217648305614414
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000775: Neutrophil","false","false",2,0.000012466931049826
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000786: Plasma","false","false",2,0.0000263821039232734
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000814: Natural Killer T","false","false",2,0.0000362891584642018
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000875: Non-Classical Monocyte","false","false",2,0.0000161633761060994
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000890: M2 Macrophage","false","false",2,0.00336957666889985
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000990: Classical Dendritic","false","false",2,0.000743860219306283
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002138: Lymphatic Endothelial","false","false",2,0.000070654253903047
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002201: Intercalated Type B","false","false",2,0.0142816487007663
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002573: Schwann / Neural","false","false",2,0.0000287944550814147
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0011031: Monocyte-Derived","false","false",2,0.00615706817143965
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","false",2,0.000972778007243187
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000452: Parietal Epithelial","false","false",2,0.00445929864503409
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000597: Papillary Tip Epithelial","false","false",2,0.00225628388179408
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000692: Fibroblast","false","false",2,0.0159786161879409
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000714: Cortical Collecting Duct Principal","false","false",2,0.0986526434913843
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","false",2,0.00296345807866441
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",2,0.00771995381517346
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",2,0.00632268511697106
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000718: Inner Medullary Collecting Duct","false","false",2,0.0450928750624676
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000768: Connecting Tubule","false","false",2,0.0796757636311097
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000850: Macula Densa","false","false",2,0.0137083319425779
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001005: Glomerular Capillary Endothelial","false","false",2,0.00284279480867682
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001107: Ascending Thin Limb","false","false",2,0.0615629501393238
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001108: Medullary Thick Ascending Limb","false","false",2,0.0781165661211448
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001109: Cortical Thick Ascending Limb","false","false",2,0.219201458740642
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001131: Ascending Vasa Recta Endothelial","false","false",2,0.0153703047542957
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001131: Ascending Vasa Recta Endothelial","false","true",2,0.0153703047542957
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",2,0.00647766153685145
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",2,0.00647766153685145
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030009: Proximal Tubule Epithelial Segment 1","false","false",2,0.00457851782884174
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",2,0.000240385286680903
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030011: Proximal Tubule Epithelial Segment 3","false","false",2,0.00132230919744348
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030012: Descending Thin Limb Type 1","false","false",2,0.101111024636783
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030013: Descending Thin Limb Type 2","false","false",2,0.0125811759281447
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030014: Descending Thin Limb Type 3","false","false",2,0.0229167105779682
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030016: Distal Convoluted Tubule Type 1","false","false",2,0.045621319180164
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030017: Distal Convoluted Tubule Type 2","false","false",2,0.0000804844290358348
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030018: Connecting Tubule Principal","false","false",2,0.0036265866081357
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030020: Connecting Tubule Intercalated Type A","false","false",2,0.0000103891092081883
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030022: Medullary Fibroblast","false","false",2,0.0669566847451573
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.0112082989520284
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.00805913490681523
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000084: T","false","false",2,0.000787222639181802
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000097: Mast","false","false",2,0.000380400756597722
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000113: Cycling Mononuclear Phagocyte","false","false",2,0.00000206926975483802
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000236: B","false","false",2,0.00106636368032653
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000648: Renin-Positive Juxtaglomerular Granular","false","false",2,0.0000988252195864315
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000650: Mesangial","false","false",2,0.00390069350551545
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000653: Podocyte","true","false",2,0.00831188551614162
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000653: Podocyte","true","true",2,0.00831188551614162
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000775: Neutrophil","false","false",2,0.00000758732243440607
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000786: Plasma","false","false",2,0.000326254864679461
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000814: Natural Killer T","false","false",2,0.000135681328068144
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000875: Non-Classical Monocyte","false","false",2,0.000100609619871687
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000890: M2 Macrophage","false","false",2,0.0023608615920976
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000990: Classical Dendritic","false","false",2,0.00310080072762477
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0001058: Plasmacytoid Dendritic","false","false",2,0.0000137951316989201
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002138: Lymphatic Endothelial","false","false",2,0.000297828616300666
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002201: Intercalated Type B","false","false",2,0.0072483212129151
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002573: Schwann / Neural","false","false",2,0.000219891640254447
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0011031: Monocyte-Derived","false","false",2,0.000810835076354259
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","false",2,0.001499673940164
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000452: Parietal Epithelial","false","false",2,0.00570703356822473
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000452: Parietal Epithelial","false","true",2,0.00570703356822473
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000597: Papillary Tip Epithelial","false","false",2,0.000234155116674546
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000692: Fibroblast","false","false",2,0.0330843422077853
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000714: Cortical Collecting Duct Principal","false","false",2,0.0234422997439441
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","false",2,0.00748393930330632
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",2,0.00651435226550893
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",2,0.00561647508130888
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000718: Inner Medullary Collecting Duct","false","false",2,0.14292131150346
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000768: Connecting Tubule","false","false",2,0.056490957049929
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000850: Macula Densa","false","false",2,0.0219227573653507
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001005: Glomerular Capillary Endothelial","false","false",2,0.00467991427855529
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001107: Ascending Thin Limb","false","false",2,0.0676663490948027
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001108: Medullary Thick Ascending Limb","false","false",2,0.0312817375218618
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001109: Cortical Thick Ascending Limb","false","false",2,0.187686130706673
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001131: Ascending Vasa Recta Endothelial","false","false",2,0.0060263784514362
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",2,0.0062948127459911
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",2,0.0062948127459911
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030009: Proximal Tubule Epithelial Segment 1","false","false",2,0.0949829629485493
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",2,0.00115406726473729
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030011: Proximal Tubule Epithelial Segment 3","false","false",2,0.0557706676999937
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030012: Descending Thin Limb Type 1","false","false",2,0.0336249454839243
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030013: Descending Thin Limb Type 2","false","false",2,0.052706627894442
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030014: Descending Thin Limb Type 3","false","false",2,0.0131927707220697
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030016: Distal Convoluted Tubule Type 1","false","false",2,0.0716772881196816
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030017: Distal Convoluted Tubule Type 2","false","false",2,0.00180052506981989
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030018: Connecting Tubule Principal","false","false",2,0.00386721479015192
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030020: Connecting Tubule Intercalated Type A","false","false",2,0.00022968894278702
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030022: Medullary Fibroblast","false","false",2,0.0140032595406183
+"Azimuth","Male","Kidney","Renal Column","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.049029009829777
+"Azimuth","Male","Kidney","Renal Column","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.0130664109326301
+"Azimuth","Male","Kidney","Renal Column","CL:0000084: T","false","false",2,0.00035962598897147
+"Azimuth","Male","Kidney","Renal Column","CL:0000650: Mesangial","false","false",2,0.000479501318628626
+"Azimuth","Male","Kidney","Renal Column","CL:0000653: Podocyte","true","false",2,0.00119875329657157
+"Azimuth","Male","Kidney","Renal Column","CL:0000653: Podocyte","true","true",2,0.00119875329657157
+"Azimuth","Male","Kidney","Renal Column","CL:0000814: Natural Killer T","false","false",2,0.000239750659314313
+"Azimuth","Male","Kidney","Renal Column","CL:0000890: M2 Macrophage","false","false",2,0.00299688324142891
+"Azimuth","Male","Kidney","Renal Column","CL:0002138: Lymphatic Endothelial","false","false",2,0.00167825461520019
+"Azimuth","Male","Kidney","Renal Column","CL:0002201: Intercalated Type B","false","false",2,0.000239750659314313
+"Azimuth","Male","Kidney","Renal Column","CL:0002573: Schwann / Neural","false","false",2,0.00035962598897147
+"Azimuth","Male","Kidney","Renal Column","CL:0011031: Monocyte-Derived","false","false",2,0.000119875329657157
+"Azimuth","Male","Kidney","Renal Column","CL:1000412: Afferent / Efferent Arteriole Endothelial","false","false",2,0.00107887796691441
+"Azimuth","Male","Kidney","Renal Column","CL:1000452: Parietal Epithelial","false","false",2,0.000479501318628626
+"Azimuth","Male","Kidney","Renal Column","CL:1000452: Parietal Epithelial","false","true",2,0.000479501318628626
+"Azimuth","Male","Kidney","Renal Column","CL:1000692: Fibroblast","false","false",2,0.00599376648285783
+"Azimuth","Male","Kidney","Renal Column","CL:1000714: Cortical Collecting Duct Principal","false","false",2,0.00143850395588588
+"Azimuth","Male","Kidney","Renal Column","CL:1000715: Cortical Collecting Duct Intercalated Type A","false","false",2,0.0104291536801726
+"Azimuth","Male","Kidney","Renal Column","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",2,0.0953008870774395
+"Azimuth","Male","Kidney","Renal Column","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",2,0.00515463917525773
+"Azimuth","Male","Kidney","Renal Column","CL:1000768: Connecting Tubule","false","false",2,0.00503476384560058
+"Azimuth","Male","Kidney","Renal Column","CL:1000850: Macula Densa","false","false",2,0.0063533924718293
+"Azimuth","Male","Kidney","Renal Column","CL:1001005: Glomerular Capillary Endothelial","false","false",2,0.000719251977942939
+"Azimuth","Male","Kidney","Renal Column","CL:1001107: Ascending Thin Limb","false","false",2,0.000239750659314313
+"Azimuth","Male","Kidney","Renal Column","CL:1001108: Medullary Thick Ascending Limb","false","false",2,0.30184608007672
+"Azimuth","Male","Kidney","Renal Column","CL:1001109: Cortical Thick Ascending Limb","false","false",2,0.270079117717574
+"Azimuth","Male","Kidney","Renal Column","CL:1001131: Ascending Vasa Recta Endothelial","false","false",2,0.0284104531287461
+"Azimuth","Male","Kidney","Renal Column","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",2,0.016063294174059
+"Azimuth","Male","Kidney","Renal Column","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",2,0.016063294174059
+"Azimuth","Male","Kidney","Renal Column","CL:4030011: Proximal Tubule Epithelial Segment 3","false","false",2,0.0154639175257732
+"Azimuth","Male","Kidney","Renal Column","CL:4030012: Descending Thin Limb Type 1","false","false",2,0.0648525533445217
+"Azimuth","Male","Kidney","Renal Column","CL:4030013: Descending Thin Limb Type 2","false","false",2,0.0400383601054903
+"Azimuth","Male","Kidney","Renal Column","CL:4030014: Descending Thin Limb Type 3","false","false",2,0.000119875329657157
+"Azimuth","Male","Kidney","Renal Column","CL:4030016: Distal Convoluted Tubule Type 1","false","false",2,0.00167825461520019
+"Azimuth","Male","Kidney","Renal Column","CL:4030018: Connecting Tubule Principal","false","false",2,0.0362023495564613
+"Azimuth","Male","Kidney","Renal Column","CL:4030022: Medullary Fibroblast","false","false",2,0.0232558139534884
+"Azimuth","Male","Kidney","Renal Papilla","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,0.0214531061775369
+"Azimuth","Male","Kidney","Renal Papilla","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.000138805982771145
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000084: T","false","false",2,0.0014912894871673
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000097: Mast","false","false",2,0.0000670701177255532
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000236: B","false","false",2,0.000110811498850914
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000786: Plasma","false","false",2,0.000538893815464444
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000814: Natural Killer T","false","false",2,0.0000901072451182431
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000875: Non-Classical Monocyte","false","false",2,0.000138805982771145
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000890: M2 Macrophage","false","false",2,0.0111065198861441
+"Azimuth","Male","Kidney","Renal Papilla","CL:0002201: Intercalated Type B","false","false",2,0.00117985085355473
+"Azimuth","Male","Kidney","Renal Papilla","CL:0011031: Monocyte-Derived","false","false",2,0.000811840033686696
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000597: Papillary Tip Epithelial","true","true",2,0.0000694029913855724
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000692: Fibroblast","false","false",2,0.00020121035317666
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000714: Cortical Collecting Duct Principal","false","false",2,0.00432456454726067
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000716: Outer Medullary Collecting Duct Principal","false","false",2,0.0248830136761802
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000717: Outer Medullary Collecting Duct Intercalated Type A","false","false",2,0.00263731367265175
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000718: Inner Medullary Collecting Duct","true","false",2,0.37432678369333
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000718: Inner Medullary Collecting Duct","true","true",2,0.37432678369333
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000768: Connecting Tubule","false","false",2,0.047228735637882
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000850: Macula Densa","false","false",2,0.000902238888012441
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001107: Ascending Thin Limb","false","false",2,0.0502955896731848
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001108: Medullary Thick Ascending Limb","false","false",2,0.00046686634121135
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001109: Cortical Thick Ascending Limb","false","false",2,0.0000414085074653415
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001131: Ascending Vasa Recta Endothelial","false","false",2,0.0769209683641919
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001318: Cortical Vascular Smooth Muscle / Pericyte","false","false",2,0.00531866033563636
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001318: Vascular Smooth Muscle / Pericyte","false","false",2,0.00531866033563636
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030010: Proximal Tubule Epithelial Segment 2","false","false",2,0.0000207042537326708
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030012: Descending Thin Limb Type 1","false","false",2,0.0216578158412036
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030013: Descending Thin Limb Type 2","false","false",2,0.0000877743714582239
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030014: Descending Thin Limb Type 3","false","false",2,0.0709759314508404
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030016: Distal Convoluted Tubule Type 1","false","false",2,0.000208208974156717
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030022: Medullary Fibroblast","false","false",2,0.282305707346248
