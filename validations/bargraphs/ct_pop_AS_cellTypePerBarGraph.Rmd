@@ -369,16 +369,30 @@ cell_filter <-
 # # Add back missing cell labels when annotation label is missing
 # lung[is.na(lung$annotation_label),]$annotation_label <-
 #   lung[is.na(lung$annotation_label),]$cell_label
-# write.csv(lung,
-#           file=paste0("../bargraphs/HRApop_Lung_AS-CTBarGraph-cellID_annotationIDs.csv"),
-#           row.names = FALSE)
+# lung <- lung %>% mutate(cell_label2 = paste0(cell_id,": ",annotation_label))
 # #Remove common cell types
-# lung <-
+# lung2 <-
 #   lung %>%
 #   filter(!cell_id %in% cell_filter$cell_id)
+# 
+# lung <- lung %>%
+#           ddply(.(tool,organ,as,cell_label2,asct_relation_in_asctb_table,
+#                   indirect_asct_relation_in_asctb_table), summarise,
+#                 count = length(cell_label2),
+#                 median_percentage = median(percentage))
+# 
+# lung2 <- lung2 %>%
+#           ddply(.(tool,organ,as,cell_label2,asct_relation_in_asctb_table,
+#                   indirect_asct_relation_in_asctb_table), summarise,
+#                 count = length(cell_label2),
+#                 median_percentage = median(percentage))
 # write.csv(lung,
-#           file=paste0("../bargraphs/HRApop_Lung_AS-CTBarGraph-cellID_annotationIDs_commonCTremoved.csv"),
+#           file=paste0("../bargraphs/HRApop_Lung_AS-CTBarGraph-cellID_pivot.csv"),
 #           row.names = FALSE)
+# write.csv(lung2,
+#           file=paste0("../bargraphs/HRApop_Lung_AS-CTBarGraph-cellID_pivot_commonCTRemoved.csv"),
+#           row.names = FALSE)
+# 
 # 
 # ## Kidney - 920
 # kidney <- df[df$organ==levels(df$organ)[2],]
@@ -396,24 +410,41 @@ cell_filter <-
 # # Add back missing cell labels when annotation label is missing
 # kidney[is.na(kidney$annotation_label),]$annotation_label <-
 #   kidney[is.na(kidney$annotation_label),]$cell_label
-# write.csv(kidney,
-#           file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_annotationIDs.csv"),
-#          row.names = FALSE)
+# 
+# kidney <- kidney %>% mutate(cell_label2 = paste0(cell_id,": ",annotation_label))
 # # Remove common cell types
-# kidney <-
+# kidney2 <-
 #   kidney %>%
 #   filter(!cell_id %in% cell_filter$cell_id)
-# write.csv(kidney_annotation,
-#           file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_annotationIDs_commonCTremoved.csv"),
-#           row.names = FALSE)
-# organ_as_ct_lookup <- 
-#   organ_as_ct_lookup %>%
-#   filter(!cell_id %in% cell_filter$cell_id) 
 # 
-# write.csv(organ_as_ct_lookup, 
+# 
+# kidney <- kidney %>%
+#           ddply(.(tool,organ,as,cell_label2,asct_relation_in_asctb_table,
+#                   indirect_asct_relation_in_asctb_table), summarise,
+#                 count = length(cell_label2),
+#                 median_percentage = median(percentage))
+# 
+# kidney2 <- kidney2 %>%
+#           ddply(.(tool,organ,as,cell_label2,asct_relation_in_asctb_table,
+#                   indirect_asct_relation_in_asctb_table), summarise,
+#                 count = length(cell_label2),
+#                 median_percentage = median(percentage))
+# write.csv(kidney,
+#           file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_pivot.csv"),
+#           row.names = FALSE)
+# write.csv(kidney2,
+#           file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_pivot_commonCTRemoved.csv"),
+#           row.names = FALSE)
+# 
+# 
+# organ_as_ct_lookup <-
+#   organ_as_ct_lookup %>%
+#   filter(!cell_id %in% cell_filter$cell_id)
+# 
+# write.csv(organ_as_ct_lookup,
 #           file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_annotationIDs_commonCTremoved.csv"),
 #           row.names = FALSE)
-# rm(lung,kidney)
+# rm(lung,kidney, lung2,kidney2)
 ```
 
 ### Identification of Representative Cell Types Using Term Frequency - Inverse Document Frequency  (TF-IDF) Analysis
