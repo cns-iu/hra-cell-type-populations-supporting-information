@@ -285,9 +285,9 @@ write.csv(organ_as_ct_lookup,
 # Clean up
 rm(tmp1,tmp2,tmp3)
 rm(heart,lung,kidney,largeIntestine,smallIntestine)
-# rm(heart_annotation,lung_annotation,kidney_annotation,
-#    largeIntestine_annotation, smallIntestine_annotation,
-#    organ_as_ct_lookup)
+rm(heart_annotation,lung_annotation,kidney_annotation,
+   largeIntestine_annotation, smallIntestine_annotation,
+   organ_as_ct_lookup)
 ```
 
 
