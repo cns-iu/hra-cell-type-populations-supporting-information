@@ -1,339 +1,339 @@
-"to","from","source_id_lab","target_id_lab","weight","weight_recs"
-0,7,"UBERON:0000059 Large Intestine","UBERON:0001052 Rectum",1,25
-0,8,"UBERON:0000059 Large Intestine","UBERON:0001153 Caecum",1,25
-0,9,"UBERON:0000059 Large Intestine","UBERON:0001156 Ascending Colon",1,50
-0,10,"UBERON:0000059 Large Intestine","UBERON:0001157 Transverse Colon",1,50
-0,11,"UBERON:0000059 Large Intestine","UBERON:0001158 Descending Colon",1,50
-0,12,"UBERON:0000059 Large Intestine","UBERON:0001159 Sigmoid Colon",1,50
-1,2,"UBERON:0002108 Small Intestine","FMA:14926 Superior part of Duodenum",1,25
-1,3,"UBERON:0002108 Small Intestine","FMA:14928 Descending part of Duodenum",1,54
-1,4,"UBERON:0002108 Small Intestine","FMA:14929 Horizontal part of Duodenum",1,54
-1,5,"UBERON:0002108 Small Intestine","FMA:14930 Ascending part of Duodenum",1,54
-1,6,"UBERON:0002108 Small Intestine","FMA:14966 Distal part of Ileum",1,54
-1,13,"UBERON:0002108 Small Intestine","UBERON:0002115 Jejunum",1,54
-1,14,"UBERON:0002108 Small Intestine","UBERON:0002116 Ileum",1,27
-2,15,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:b",1,1
-2,16,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cd4-t-cell",1,1
-2,17,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cd57-enterocyte",1,1
-2,18,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cd66-enterocyte",1,1
-2,19,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cd7-immune",1,1
-2,20,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cd8-t",1,1
-2,21,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:cycling-ta",1,1
-2,22,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:dc",1,1
-2,23,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:endothelial",1,1
-2,24,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:enterocyte",1,1
-2,25,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:goblet",1,1
-2,26,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:icc",1,1
-2,27,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:lymphatic",1,1
-2,28,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:m1-macrophage",1,1
-2,29,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:m2-macrophage",1,1
-2,30,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:muc1-enterocyte",1,1
-2,31,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:nerve",1,1
-2,32,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:neuroendocrine",1,1
-2,33,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:neutrophil",1,1
-2,34,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:nk",1,1
-2,35,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:paneth",1,1
-2,36,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:plasma",1,1
-2,37,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:smooth-muscle",1,1
-2,38,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:stroma",1,1
-2,39,"FMA:14926 Superior part of Duodenum","ASCTB-TEMP:ta",1,1
-3,15,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:b",1,2
-3,16,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cd4-t-cell",1,2
-3,17,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cd57-enterocyte",1,2
-3,18,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cd66-enterocyte",1,2
-3,19,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cd7-immune",1,2
-3,20,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cd8-t",1,4
-3,21,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:cycling-ta",1,2
-3,22,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:dc",1,2
-3,23,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:endothelial",1,2
-3,24,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:enterocyte",1,2
-3,25,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:goblet",1,2
-3,26,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:icc",1,2
-3,27,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:lymphatic",1,4
-3,28,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:m1-macrophage",1,2
-3,29,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:m2-macrophage",1,2
-3,30,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:muc1-enterocyte",1,2
-3,31,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:nerve",1,2
-3,32,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:neuroendocrine",1,2
-3,33,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:neutrophil",1,2
-3,34,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:nk",1,2
-3,35,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:paneth",1,2
-3,36,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:plasma",1,2
-3,37,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:smooth-muscle",1,2
-3,38,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:stroma",1,2
-3,39,"FMA:14928 Descending part of Duodenum","ASCTB-TEMP:ta",1,2
-4,15,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:b",1,2
-4,16,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cd4-t-cell",1,2
-4,17,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cd57-enterocyte",1,2
-4,18,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cd66-enterocyte",1,2
-4,19,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cd7-immune",1,2
-4,20,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cd8-t",1,4
-4,21,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:cycling-ta",1,2
-4,22,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:dc",1,2
-4,23,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:endothelial",1,2
-4,24,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:enterocyte",1,2
-4,25,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:goblet",1,2
-4,26,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:icc",1,2
-4,27,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:lymphatic",1,4
-4,28,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:m1-macrophage",1,2
-4,29,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:m2-macrophage",1,2
-4,30,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:muc1-enterocyte",1,2
-4,31,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:nerve",1,2
-4,32,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:neuroendocrine",1,2
-4,33,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:neutrophil",1,2
-4,34,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:nk",1,2
-4,35,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:paneth",1,2
-4,36,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:plasma",1,2
-4,37,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:smooth-muscle",1,2
-4,38,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:stroma",1,2
-4,39,"FMA:14929 Horizontal part of Duodenum","ASCTB-TEMP:ta",1,2
-5,15,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:b",1,2
-5,16,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cd4-t-cell",1,2
-5,17,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cd57-enterocyte",1,2
-5,18,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cd66-enterocyte",1,2
-5,19,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cd7-immune",1,2
-5,20,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cd8-t",1,4
-5,21,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:cycling-ta",1,2
-5,22,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:dc",1,2
-5,23,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:endothelial",1,2
-5,24,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:enterocyte",1,2
-5,25,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:goblet",1,2
-5,26,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:icc",1,2
-5,27,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:lymphatic",1,4
-5,28,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:m1-macrophage",1,2
-5,29,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:m2-macrophage",1,2
-5,30,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:muc1-enterocyte",1,2
-5,31,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:nerve",1,2
-5,32,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:neuroendocrine",1,2
-5,33,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:neutrophil",1,2
-5,34,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:nk",1,2
-5,35,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:paneth",1,2
-5,36,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:plasma",1,2
-5,37,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:smooth-muscle",1,2
-5,38,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:stroma",1,2
-5,39,"FMA:14930 Ascending part of Duodenum","ASCTB-TEMP:ta",1,2
-6,15,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:b",1,2
-6,16,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cd4-t-cell",1,2
-6,17,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cd57-enterocyte",1,2
-6,18,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cd66-enterocyte",1,2
-6,19,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cd7-immune",1,2
-6,20,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cd8-t",1,4
-6,21,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:cycling-ta",1,2
-6,22,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:dc",1,2
-6,23,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:endothelial",1,2
-6,24,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:enterocyte",1,2
-6,25,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:goblet",1,2
-6,26,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:icc",1,2
-6,27,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:lymphatic",1,4
-6,28,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:m1-macrophage",1,2
-6,29,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:m2-macrophage",1,2
-6,30,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:muc1-enterocyte",1,2
-6,31,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:nerve",1,2
-6,32,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:neuroendocrine",1,2
-6,33,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:neutrophil",1,2
-6,34,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:nk",1,2
-6,35,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:paneth",1,2
-6,36,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:plasma",1,2
-6,37,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:smooth-muscle",1,2
-6,38,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:stroma",1,2
-6,39,"FMA:14966 Distal part of Ileum","ASCTB-TEMP:ta",1,2
-7,15,"UBERON:0001052 Rectum","ASCTB-TEMP:b",1,1
-7,16,"UBERON:0001052 Rectum","ASCTB-TEMP:cd4-t-cell",1,1
-7,17,"UBERON:0001052 Rectum","ASCTB-TEMP:cd57-enterocyte",1,1
-7,18,"UBERON:0001052 Rectum","ASCTB-TEMP:cd66-enterocyte",1,1
-7,19,"UBERON:0001052 Rectum","ASCTB-TEMP:cd7-immune",1,1
-7,20,"UBERON:0001052 Rectum","ASCTB-TEMP:cd8-t",1,1
-7,21,"UBERON:0001052 Rectum","ASCTB-TEMP:cycling-ta",1,1
-7,22,"UBERON:0001052 Rectum","ASCTB-TEMP:dc",1,1
-7,23,"UBERON:0001052 Rectum","ASCTB-TEMP:endothelial",1,1
-7,24,"UBERON:0001052 Rectum","ASCTB-TEMP:enterocyte",1,1
-7,25,"UBERON:0001052 Rectum","ASCTB-TEMP:goblet",1,1
-7,26,"UBERON:0001052 Rectum","ASCTB-TEMP:icc",1,1
-7,27,"UBERON:0001052 Rectum","ASCTB-TEMP:lymphatic",1,1
-7,28,"UBERON:0001052 Rectum","ASCTB-TEMP:m1-macrophage",1,1
-7,29,"UBERON:0001052 Rectum","ASCTB-TEMP:m2-macrophage",1,1
-7,30,"UBERON:0001052 Rectum","ASCTB-TEMP:muc1-enterocyte",1,1
-7,31,"UBERON:0001052 Rectum","ASCTB-TEMP:nerve",1,1
-7,32,"UBERON:0001052 Rectum","ASCTB-TEMP:neuroendocrine",1,1
-7,33,"UBERON:0001052 Rectum","ASCTB-TEMP:neutrophil",1,1
-7,34,"UBERON:0001052 Rectum","ASCTB-TEMP:nk",1,1
-7,35,"UBERON:0001052 Rectum","ASCTB-TEMP:paneth",1,1
-7,36,"UBERON:0001052 Rectum","ASCTB-TEMP:plasma",1,1
-7,37,"UBERON:0001052 Rectum","ASCTB-TEMP:smooth-muscle",1,1
-7,38,"UBERON:0001052 Rectum","ASCTB-TEMP:stroma",1,1
-7,39,"UBERON:0001052 Rectum","ASCTB-TEMP:ta",1,1
-8,15,"UBERON:0001153 Caecum","ASCTB-TEMP:b",1,1
-8,16,"UBERON:0001153 Caecum","ASCTB-TEMP:cd4-t-cell",1,1
-8,17,"UBERON:0001153 Caecum","ASCTB-TEMP:cd57-enterocyte",1,1
-8,18,"UBERON:0001153 Caecum","ASCTB-TEMP:cd66-enterocyte",1,1
-8,19,"UBERON:0001153 Caecum","ASCTB-TEMP:cd7-immune",1,1
-8,20,"UBERON:0001153 Caecum","ASCTB-TEMP:cd8-t",1,1
-8,21,"UBERON:0001153 Caecum","ASCTB-TEMP:cycling-ta",1,1
-8,22,"UBERON:0001153 Caecum","ASCTB-TEMP:dc",1,1
-8,23,"UBERON:0001153 Caecum","ASCTB-TEMP:endothelial",1,1
-8,24,"UBERON:0001153 Caecum","ASCTB-TEMP:enterocyte",1,1
-8,25,"UBERON:0001153 Caecum","ASCTB-TEMP:goblet",1,1
-8,26,"UBERON:0001153 Caecum","ASCTB-TEMP:icc",1,1
-8,27,"UBERON:0001153 Caecum","ASCTB-TEMP:lymphatic",1,1
-8,28,"UBERON:0001153 Caecum","ASCTB-TEMP:m1-macrophage",1,1
-8,29,"UBERON:0001153 Caecum","ASCTB-TEMP:m2-macrophage",1,1
-8,30,"UBERON:0001153 Caecum","ASCTB-TEMP:muc1-enterocyte",1,1
-8,31,"UBERON:0001153 Caecum","ASCTB-TEMP:nerve",1,1
-8,32,"UBERON:0001153 Caecum","ASCTB-TEMP:neuroendocrine",1,1
-8,33,"UBERON:0001153 Caecum","ASCTB-TEMP:neutrophil",1,1
-8,34,"UBERON:0001153 Caecum","ASCTB-TEMP:nk",1,1
-8,35,"UBERON:0001153 Caecum","ASCTB-TEMP:paneth",1,1
-8,36,"UBERON:0001153 Caecum","ASCTB-TEMP:plasma",1,1
-8,37,"UBERON:0001153 Caecum","ASCTB-TEMP:smooth-muscle",1,1
-8,38,"UBERON:0001153 Caecum","ASCTB-TEMP:stroma",1,1
-8,39,"UBERON:0001153 Caecum","ASCTB-TEMP:ta",1,1
-9,15,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:b",1,2
-9,16,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cd4-t-cell",1,2
-9,17,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cd57-enterocyte",1,2
-9,18,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cd66-enterocyte",1,2
-9,19,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cd7-immune",1,2
-9,20,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cd8-t",1,2
-9,21,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:cycling-ta",1,2
-9,22,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:dc",1,2
-9,23,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:endothelial",1,2
-9,24,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:enterocyte",1,2
-9,25,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:goblet",1,2
-9,26,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:icc",1,2
-9,27,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:lymphatic",1,2
-9,28,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:m1-macrophage",1,2
-9,29,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:m2-macrophage",1,2
-9,30,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:muc1-enterocyte",1,2
-9,31,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:nerve",1,2
-9,32,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:neuroendocrine",1,2
-9,33,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:neutrophil",1,2
-9,34,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:nk",1,2
-9,35,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:paneth",1,2
-9,36,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:plasma",1,2
-9,37,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:smooth-muscle",1,2
-9,38,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:stroma",1,2
-9,39,"UBERON:0001156 Ascending Colon","ASCTB-TEMP:ta",1,2
-10,15,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:b",1,2
-10,16,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cd4-t-cell",1,2
-10,17,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cd57-enterocyte",1,2
-10,18,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cd66-enterocyte",1,2
-10,19,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cd7-immune",1,2
-10,20,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cd8-t",1,2
-10,21,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:cycling-ta",1,2
-10,22,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:dc",1,2
-10,23,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:endothelial",1,2
-10,24,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:enterocyte",1,2
-10,25,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:goblet",1,2
-10,26,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:icc",1,2
-10,27,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:lymphatic",1,2
-10,28,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:m1-macrophage",1,2
-10,29,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:m2-macrophage",1,2
-10,30,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:muc1-enterocyte",1,2
-10,31,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:nerve",1,2
-10,32,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:neuroendocrine",1,2
-10,33,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:neutrophil",1,2
-10,34,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:nk",1,2
-10,35,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:paneth",1,2
-10,36,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:plasma",1,2
-10,37,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:smooth-muscle",1,2
-10,38,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:stroma",1,2
-10,39,"UBERON:0001157 Transverse Colon","ASCTB-TEMP:ta",1,2
-11,15,"UBERON:0001158 Descending Colon","ASCTB-TEMP:b",1,2
-11,16,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cd4-t-cell",1,2
-11,17,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cd57-enterocyte",1,2
-11,18,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cd66-enterocyte",1,2
-11,19,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cd7-immune",1,2
-11,20,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cd8-t",1,2
-11,21,"UBERON:0001158 Descending Colon","ASCTB-TEMP:cycling-ta",1,2
-11,22,"UBERON:0001158 Descending Colon","ASCTB-TEMP:dc",1,2
-11,23,"UBERON:0001158 Descending Colon","ASCTB-TEMP:endothelial",1,2
-11,24,"UBERON:0001158 Descending Colon","ASCTB-TEMP:enterocyte",1,2
-11,25,"UBERON:0001158 Descending Colon","ASCTB-TEMP:goblet",1,2
-11,26,"UBERON:0001158 Descending Colon","ASCTB-TEMP:icc",1,2
-11,27,"UBERON:0001158 Descending Colon","ASCTB-TEMP:lymphatic",1,2
-11,28,"UBERON:0001158 Descending Colon","ASCTB-TEMP:m1-macrophage",1,2
-11,29,"UBERON:0001158 Descending Colon","ASCTB-TEMP:m2-macrophage",1,2
-11,30,"UBERON:0001158 Descending Colon","ASCTB-TEMP:muc1-enterocyte",1,2
-11,31,"UBERON:0001158 Descending Colon","ASCTB-TEMP:nerve",1,2
-11,32,"UBERON:0001158 Descending Colon","ASCTB-TEMP:neuroendocrine",1,2
-11,33,"UBERON:0001158 Descending Colon","ASCTB-TEMP:neutrophil",1,2
-11,34,"UBERON:0001158 Descending Colon","ASCTB-TEMP:nk",1,2
-11,35,"UBERON:0001158 Descending Colon","ASCTB-TEMP:paneth",1,2
-11,36,"UBERON:0001158 Descending Colon","ASCTB-TEMP:plasma",1,2
-11,37,"UBERON:0001158 Descending Colon","ASCTB-TEMP:smooth-muscle",1,2
-11,38,"UBERON:0001158 Descending Colon","ASCTB-TEMP:stroma",1,2
-11,39,"UBERON:0001158 Descending Colon","ASCTB-TEMP:ta",1,2
-12,15,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:b",1,2
-12,16,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cd4-t-cell",1,2
-12,17,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cd57-enterocyte",1,2
-12,18,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cd66-enterocyte",1,2
-12,19,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cd7-immune",1,2
-12,20,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cd8-t",1,2
-12,21,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:cycling-ta",1,2
-12,22,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:dc",1,2
-12,23,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:endothelial",1,2
-12,24,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:enterocyte",1,2
-12,25,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:goblet",1,2
-12,26,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:icc",1,2
-12,27,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:lymphatic",1,2
-12,28,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:m1-macrophage",1,2
-12,29,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:m2-macrophage",1,2
-12,30,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:muc1-enterocyte",1,2
-12,31,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:nerve",1,2
-12,32,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:neuroendocrine",1,2
-12,33,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:neutrophil",1,2
-12,34,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:nk",1,2
-12,35,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:paneth",1,2
-12,36,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:plasma",1,2
-12,37,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:smooth-muscle",1,2
-12,38,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:stroma",1,2
-12,39,"UBERON:0001159 Sigmoid Colon","ASCTB-TEMP:ta",1,2
-13,15,"UBERON:0002115 Jejunum","ASCTB-TEMP:b",1,2
-13,16,"UBERON:0002115 Jejunum","ASCTB-TEMP:cd4-t-cell",1,2
-13,17,"UBERON:0002115 Jejunum","ASCTB-TEMP:cd57-enterocyte",1,2
-13,18,"UBERON:0002115 Jejunum","ASCTB-TEMP:cd66-enterocyte",1,2
-13,19,"UBERON:0002115 Jejunum","ASCTB-TEMP:cd7-immune",1,2
-13,20,"UBERON:0002115 Jejunum","ASCTB-TEMP:cd8-t",1,4
-13,21,"UBERON:0002115 Jejunum","ASCTB-TEMP:cycling-ta",1,2
-13,22,"UBERON:0002115 Jejunum","ASCTB-TEMP:dc",1,2
-13,23,"UBERON:0002115 Jejunum","ASCTB-TEMP:endothelial",1,2
-13,24,"UBERON:0002115 Jejunum","ASCTB-TEMP:enterocyte",1,2
-13,25,"UBERON:0002115 Jejunum","ASCTB-TEMP:goblet",1,2
-13,26,"UBERON:0002115 Jejunum","ASCTB-TEMP:icc",1,2
-13,27,"UBERON:0002115 Jejunum","ASCTB-TEMP:lymphatic",1,4
-13,28,"UBERON:0002115 Jejunum","ASCTB-TEMP:m1-macrophage",1,2
-13,29,"UBERON:0002115 Jejunum","ASCTB-TEMP:m2-macrophage",1,2
-13,30,"UBERON:0002115 Jejunum","ASCTB-TEMP:muc1-enterocyte",1,2
-13,31,"UBERON:0002115 Jejunum","ASCTB-TEMP:nerve",1,2
-13,32,"UBERON:0002115 Jejunum","ASCTB-TEMP:neuroendocrine",1,2
-13,33,"UBERON:0002115 Jejunum","ASCTB-TEMP:neutrophil",1,2
-13,34,"UBERON:0002115 Jejunum","ASCTB-TEMP:nk",1,2
-13,35,"UBERON:0002115 Jejunum","ASCTB-TEMP:paneth",1,2
-13,36,"UBERON:0002115 Jejunum","ASCTB-TEMP:plasma",1,2
-13,37,"UBERON:0002115 Jejunum","ASCTB-TEMP:smooth-muscle",1,2
-13,38,"UBERON:0002115 Jejunum","ASCTB-TEMP:stroma",1,2
-13,39,"UBERON:0002115 Jejunum","ASCTB-TEMP:ta",1,2
-14,15,"UBERON:0002116 Ileum","ASCTB-TEMP:b",1,1
-14,16,"UBERON:0002116 Ileum","ASCTB-TEMP:cd4-t-cell",1,1
-14,17,"UBERON:0002116 Ileum","ASCTB-TEMP:cd57-enterocyte",1,1
-14,18,"UBERON:0002116 Ileum","ASCTB-TEMP:cd66-enterocyte",1,1
-14,19,"UBERON:0002116 Ileum","ASCTB-TEMP:cd7-immune",1,1
-14,20,"UBERON:0002116 Ileum","ASCTB-TEMP:cd8-t",1,2
-14,21,"UBERON:0002116 Ileum","ASCTB-TEMP:cycling-ta",1,1
-14,22,"UBERON:0002116 Ileum","ASCTB-TEMP:dc",1,1
-14,23,"UBERON:0002116 Ileum","ASCTB-TEMP:endothelial",1,1
-14,24,"UBERON:0002116 Ileum","ASCTB-TEMP:enterocyte",1,1
-14,25,"UBERON:0002116 Ileum","ASCTB-TEMP:goblet",1,1
-14,26,"UBERON:0002116 Ileum","ASCTB-TEMP:icc",1,1
-14,27,"UBERON:0002116 Ileum","ASCTB-TEMP:lymphatic",1,2
-14,28,"UBERON:0002116 Ileum","ASCTB-TEMP:m1-macrophage",1,1
-14,29,"UBERON:0002116 Ileum","ASCTB-TEMP:m2-macrophage",1,1
-14,30,"UBERON:0002116 Ileum","ASCTB-TEMP:muc1-enterocyte",1,1
-14,31,"UBERON:0002116 Ileum","ASCTB-TEMP:nerve",1,1
-14,32,"UBERON:0002116 Ileum","ASCTB-TEMP:neuroendocrine",1,1
-14,33,"UBERON:0002116 Ileum","ASCTB-TEMP:neutrophil",1,1
-14,34,"UBERON:0002116 Ileum","ASCTB-TEMP:nk",1,1
-14,35,"UBERON:0002116 Ileum","ASCTB-TEMP:paneth",1,1
-14,36,"UBERON:0002116 Ileum","ASCTB-TEMP:plasma",1,1
-14,37,"UBERON:0002116 Ileum","ASCTB-TEMP:smooth-muscle",1,1
-14,38,"UBERON:0002116 Ileum","ASCTB-TEMP:stroma",1,1
-14,39,"UBERON:0002116 Ileum","ASCTB-TEMP:ta",1,1
+source,target,source_id_lab,target_id_lab,weight,weight_recs,weight_tfidf
+0,7,UBERON:0000059 Large Intestine,UBERON:0001052 Rectum,1,25,0.760262552
+0,8,UBERON:0000059 Large Intestine,UBERON:0001153 Caecum,1,25,0.731119769
+0,9,UBERON:0000059 Large Intestine,UBERON:0001156 Ascending Colon,1,50,1.476725905
+0,10,UBERON:0000059 Large Intestine,UBERON:0001157 Transverse Colon,1,50,1.512146999
+0,11,UBERON:0000059 Large Intestine,UBERON:0001158 Descending Colon,1,50,1.487034976
+0,12,UBERON:0000059 Large Intestine,UBERON:0001159 Sigmoid Colon,1,50,1.549945993
+1,2,UBERON:0002108 Small Intestine,FMA:14926 Superior part of Duodenum,1,25,0.867077105
+1,3,UBERON:0002108 Small Intestine,FMA:14928 Descending part of Duodenum,1,54,1.827111116
+1,4,UBERON:0002108 Small Intestine,FMA:14929 Horizontal part of Duodenum,1,54,1.978405523
+1,5,UBERON:0002108 Small Intestine,FMA:14930 Ascending part of Duodenum,1,54,1.978405523
+1,6,UBERON:0002108 Small Intestine,FMA:14966 Distal part of Ileum,1,54,1.957119652
+1,13,UBERON:0002108 Small Intestine,UBERON:0002115 Jejunum,1,54,2.010766671
+1,14,UBERON:0002108 Small Intestine,UBERON:0002116 Ileum,1,27,0.99973829
+2,15,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:b,1,1,0.001925923
+2,16,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:cd4-t-cell,1,1,0.044038839
+2,17,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:cd57-enterocyte,1,1,0.001721793
+2,18,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:cd66-enterocyte,1,1,0.008058699
+2,19,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:cd7-immune,1,1,0.000860896
+2,20,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:cd8-t,1,1,0.033867838
+2,21,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:cycling-ta,1,1,0.090420737
+2,22,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:dc,1,1,0.010481634
+2,23,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:endothelial,1,1,0.066368892
+2,24,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:enterocyte,1,1,0.261829209
+2,25,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:goblet,1,1,0.050402372
+2,26,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:icc,1,1,0.004774279
+2,27,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:lymphatic,1,1,0.024832864
+2,28,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:m1-macrophage,1,1,0.001650791
+2,29,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:m2-macrophage,1,1,0.040728382
+2,30,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:muc1-enterocyte,1,1,0.008777592
+2,31,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:nerve,1,1,0.024184973
+2,32,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:neuroendocrine,1,1,0.005582513
+2,33,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:neutrophil,1,1,0.002804569
+2,34,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:nk,1,1,0.002147803
+2,35,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:paneth,1,1,0.012657015
+2,36,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:plasma,1,1,0.037772934
+2,37,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:smooth-muscle,1,1,0.064469595
+2,38,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:stroma,1,1,0.05235492
+2,39,FMA:14926 Superior part of Duodenum,ASCTB-TEMP:ta,1,1,0.014362042
+3,15,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:b,1,2,0.001330412
+3,16,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:cd4-t-cell,1,2,0.03989315
+3,17,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:cd57-enterocyte,1,2,0.002428498
+3,18,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:cd66-enterocyte,1,2,0.006491127
+3,19,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:cd7-immune,1,2,0.002446534
+3,20,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:cd8-t,1,4,0.049026437
+3,21,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:cycling-ta,1,2,0.053446563
+3,22,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:dc,1,2,0.008321531
+3,23,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:endothelial,1,2,0.064314328
+3,24,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:enterocyte,1,2,0.247961107
+3,25,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:goblet,1,2,0.047695288
+3,26,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:icc,1,2,0.00463641
+3,27,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:lymphatic,1,4,0.020448643
+3,28,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:m1-macrophage,1,2,0.006637536
+3,29,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:m2-macrophage,1,2,0.037007033
+3,30,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:muc1-enterocyte,1,2,0.011096509
+3,31,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:nerve,1,2,0.021132042
+3,32,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:neuroendocrine,1,2,0.006668346
+3,33,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:neutrophil,1,2,0.00410996
+3,34,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:nk,1,2,0.001799022
+3,35,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:paneth,1,2,0.019809786
+3,36,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:plasma,1,2,0.046274783
+3,37,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:smooth-muscle,1,2,0.070923257
+3,38,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:stroma,1,2,0.057308739
+3,39,FMA:14928 Descending part of Duodenum,ASCTB-TEMP:ta,1,2,0.012873439
+4,15,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:b,1,2,0.044458305
+4,16,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:cd4-t-cell,1,2,0.042558061
+4,17,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:cd57-enterocyte,1,2,0.000288077
+4,18,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:cd66-enterocyte,1,2,0.005506442
+4,19,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:cd7-immune,1,2,0.003336111
+4,20,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:cd8-t,1,4,0.066817755
+4,21,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:cycling-ta,1,2,0.022711017
+4,22,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:dc,1,2,0.011661586
+4,23,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:endothelial,1,2,0.066221725
+4,24,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:enterocyte,1,2,0.235225133
+4,25,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:goblet,1,2,0.03418926
+4,26,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:icc,1,2,0.006275395
+4,27,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:lymphatic,1,4,0.022591775
+4,28,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:m1-macrophage,1,2,0.004742972
+4,29,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:m2-macrophage,1,2,0.039905657
+4,30,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:muc1-enterocyte,1,2,0.003716629
+4,31,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:nerve,1,2,0.029525643
+4,32,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:neuroendocrine,1,2,0.004267515
+4,33,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:neutrophil,1,2,0.00872811
+4,34,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:nk,1,2,0.001375998
+4,35,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:paneth,1,2,0.019826496
+4,36,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:plasma,1,2,0.02910056
+4,37,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:smooth-muscle,1,2,0.118388703
+4,38,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:stroma,1,2,0.065228192
+4,39,FMA:14929 Horizontal part of Duodenum,ASCTB-TEMP:ta,1,2,0.013146115
+5,15,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:b,1,2,0.044458305
+5,16,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:cd4-t-cell,1,2,0.042558061
+5,17,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:cd57-enterocyte,1,2,0.000288077
+5,18,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:cd66-enterocyte,1,2,0.005506442
+5,19,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:cd7-immune,1,2,0.003336111
+5,20,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:cd8-t,1,4,0.066817755
+5,21,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:cycling-ta,1,2,0.022711017
+5,22,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:dc,1,2,0.011661586
+5,23,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:endothelial,1,2,0.066221725
+5,24,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:enterocyte,1,2,0.235225133
+5,25,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:goblet,1,2,0.03418926
+5,26,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:icc,1,2,0.006275395
+5,27,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:lymphatic,1,4,0.022591775
+5,28,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:m1-macrophage,1,2,0.004742972
+5,29,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:m2-macrophage,1,2,0.039905657
+5,30,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:muc1-enterocyte,1,2,0.003716629
+5,31,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:nerve,1,2,0.029525643
+5,32,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:neuroendocrine,1,2,0.004267515
+5,33,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:neutrophil,1,2,0.00872811
+5,34,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:nk,1,2,0.001375998
+5,35,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:paneth,1,2,0.019826496
+5,36,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:plasma,1,2,0.02910056
+5,37,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:smooth-muscle,1,2,0.118388703
+5,38,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:stroma,1,2,0.065228192
+5,39,FMA:14930 Ascending part of Duodenum,ASCTB-TEMP:ta,1,2,0.013146115
+6,15,FMA:14966 Distal part of Ileum,ASCTB-TEMP:b,1,2,0.016428655
+6,16,FMA:14966 Distal part of Ileum,ASCTB-TEMP:cd4-t-cell,1,2,0.038627471
+6,17,FMA:14966 Distal part of Ileum,ASCTB-TEMP:cd57-enterocyte,1,2,0.000104742
+6,18,FMA:14966 Distal part of Ileum,ASCTB-TEMP:cd66-enterocyte,1,2,0.005336021
+6,19,FMA:14966 Distal part of Ileum,ASCTB-TEMP:cd7-immune,1,2,0.001479857
+6,20,FMA:14966 Distal part of Ileum,ASCTB-TEMP:cd8-t,1,4,0.065666274
+6,21,FMA:14966 Distal part of Ileum,ASCTB-TEMP:cycling-ta,1,2,0.022638184
+6,22,FMA:14966 Distal part of Ileum,ASCTB-TEMP:dc,1,2,0.009461171
+6,23,FMA:14966 Distal part of Ileum,ASCTB-TEMP:endothelial,1,2,0.062073605
+6,24,FMA:14966 Distal part of Ileum,ASCTB-TEMP:enterocyte,1,2,0.177006251
+6,25,FMA:14966 Distal part of Ileum,ASCTB-TEMP:goblet,1,2,0.051379214
+6,26,FMA:14966 Distal part of Ileum,ASCTB-TEMP:icc,1,2,0.006960412
+6,27,FMA:14966 Distal part of Ileum,ASCTB-TEMP:lymphatic,1,4,0.029538527
+6,28,FMA:14966 Distal part of Ileum,ASCTB-TEMP:m1-macrophage,1,2,0.004925147
+6,29,FMA:14966 Distal part of Ileum,ASCTB-TEMP:m2-macrophage,1,2,0.044165528
+6,30,FMA:14966 Distal part of Ileum,ASCTB-TEMP:muc1-enterocyte,1,2,0.001684779
+6,31,FMA:14966 Distal part of Ileum,ASCTB-TEMP:nerve,1,2,0.025560253
+6,32,FMA:14966 Distal part of Ileum,ASCTB-TEMP:neuroendocrine,1,2,0.004799513
+6,33,FMA:14966 Distal part of Ileum,ASCTB-TEMP:neutrophil,1,2,0.003570878
+6,34,FMA:14966 Distal part of Ileum,ASCTB-TEMP:nk,1,2,0.001565063
+6,35,FMA:14966 Distal part of Ileum,ASCTB-TEMP:paneth,1,2,0.056298468
+6,36,FMA:14966 Distal part of Ileum,ASCTB-TEMP:plasma,1,2,0.028165598
+6,37,FMA:14966 Distal part of Ileum,ASCTB-TEMP:smooth-muscle,1,2,0.122928518
+6,38,FMA:14966 Distal part of Ileum,ASCTB-TEMP:stroma,1,2,0.083988342
+6,39,FMA:14966 Distal part of Ileum,ASCTB-TEMP:ta,1,2,0.019002551
+7,15,UBERON:0001052 Rectum,ASCTB-TEMP:b,1,1,0.014927654
+7,16,UBERON:0001052 Rectum,ASCTB-TEMP:cd4-t-cell,1,1,0.032941436
+7,17,UBERON:0001052 Rectum,ASCTB-TEMP:cd57-enterocyte,1,1,0.000251494
+7,18,UBERON:0001052 Rectum,ASCTB-TEMP:cd66-enterocyte,1,1,0.02590387
+7,19,UBERON:0001052 Rectum,ASCTB-TEMP:cd7-immune,1,1,0.001589953
+7,20,UBERON:0001052 Rectum,ASCTB-TEMP:cd8-t,1,1,0.024313917
+7,21,UBERON:0001052 Rectum,ASCTB-TEMP:cycling-ta,1,1,0.021070072
+7,22,UBERON:0001052 Rectum,ASCTB-TEMP:dc,1,1,0.014897816
+7,23,UBERON:0001052 Rectum,ASCTB-TEMP:endothelial,1,1,0.05006007
+7,24,UBERON:0001052 Rectum,ASCTB-TEMP:enterocyte,1,1,0.048630891
+7,25,UBERON:0001052 Rectum,ASCTB-TEMP:goblet,1,1,0.06669703
+7,26,UBERON:0001052 Rectum,ASCTB-TEMP:icc,1,1,0.005099006
+7,27,UBERON:0001052 Rectum,ASCTB-TEMP:lymphatic,1,1,0.021922594
+7,28,UBERON:0001052 Rectum,ASCTB-TEMP:m1-macrophage,1,1,0.005179069
+7,29,UBERON:0001052 Rectum,ASCTB-TEMP:m2-macrophage,1,1,0.042250972
+7,30,UBERON:0001052 Rectum,ASCTB-TEMP:muc1-enterocyte,1,1,0.00580141
+7,31,UBERON:0001052 Rectum,ASCTB-TEMP:nerve,1,1,0.024509997
+7,32,UBERON:0001052 Rectum,ASCTB-TEMP:neuroendocrine,1,1,0.00415178
+7,33,UBERON:0001052 Rectum,ASCTB-TEMP:neutrophil,1,1,0.003439925
+7,34,UBERON:0001052 Rectum,ASCTB-TEMP:nk,1,1,0.00148765
+7,35,UBERON:0001052 Rectum,ASCTB-TEMP:paneth,1,1,0.000981325
+7,36,UBERON:0001052 Rectum,ASCTB-TEMP:plasma,1,1,0.039075329
+7,37,UBERON:0001052 Rectum,ASCTB-TEMP:smooth-muscle,1,1,0.18806201
+7,38,UBERON:0001052 Rectum,ASCTB-TEMP:stroma,1,1,0.088717664
+7,39,UBERON:0001052 Rectum,ASCTB-TEMP:ta,1,1,0.028299619
+8,15,UBERON:0001153 Caecum,ASCTB-TEMP:b,1,1,0.008854888
+8,16,UBERON:0001153 Caecum,ASCTB-TEMP:cd4-t-cell,1,1,0.0372927
+8,17,UBERON:0001153 Caecum,ASCTB-TEMP:cd57-enterocyte,1,1,2.12858E-05
+8,18,UBERON:0001153 Caecum,ASCTB-TEMP:cd66-enterocyte,1,1,0.030289676
+8,19,UBERON:0001153 Caecum,ASCTB-TEMP:cd7-immune,1,1,0.001277147
+8,20,UBERON:0001153 Caecum,ASCTB-TEMP:cd8-t,1,1,0.034589405
+8,21,UBERON:0001153 Caecum,ASCTB-TEMP:cycling-ta,1,1,0.03850599
+8,22,UBERON:0001153 Caecum,ASCTB-TEMP:dc,1,1,0.012750187
+8,23,UBERON:0001153 Caecum,ASCTB-TEMP:endothelial,1,1,0.053597613
+8,24,UBERON:0001153 Caecum,ASCTB-TEMP:enterocyte,1,1,0.058279002
+8,25,UBERON:0001153 Caecum,ASCTB-TEMP:goblet,1,1,0.07988556
+8,26,UBERON:0001153 Caecum,ASCTB-TEMP:icc,1,1,0.005908287
+8,27,UBERON:0001153 Caecum,ASCTB-TEMP:lymphatic,1,1,0.02122193
+8,28,UBERON:0001153 Caecum,ASCTB-TEMP:m1-macrophage,1,1,0.001937007
+8,29,UBERON:0001153 Caecum,ASCTB-TEMP:m2-macrophage,1,1,0.039208421
+8,30,UBERON:0001153 Caecum,ASCTB-TEMP:muc1-enterocyte,1,1,0.009514747
+8,31,UBERON:0001153 Caecum,ASCTB-TEMP:nerve,1,1,0.014516907
+8,32,UBERON:0001153 Caecum,ASCTB-TEMP:neuroendocrine,1,1,0.002767152
+8,33,UBERON:0001153 Caecum,ASCTB-TEMP:neutrophil,1,1,0.004065585
+8,34,UBERON:0001153 Caecum,ASCTB-TEMP:nk,1,1,0.001639006
+8,35,UBERON:0001153 Caecum,ASCTB-TEMP:paneth,1,1,0.000611898
+8,36,UBERON:0001153 Caecum,ASCTB-TEMP:plasma,1,1,0.058280486
+8,37,UBERON:0001153 Caecum,ASCTB-TEMP:smooth-muscle,1,1,0.097531478
+8,38,UBERON:0001153 Caecum,ASCTB-TEMP:stroma,1,1,0.09231646
+8,39,UBERON:0001153 Caecum,ASCTB-TEMP:ta,1,1,0.026256952
+9,15,UBERON:0001156 Ascending Colon,ASCTB-TEMP:b,1,2,0.008943203
+9,16,UBERON:0001156 Ascending Colon,ASCTB-TEMP:cd4-t-cell,1,2,0.035712016
+9,17,UBERON:0001156 Ascending Colon,ASCTB-TEMP:cd57-enterocyte,1,2,0.000138764
+9,18,UBERON:0001156 Ascending Colon,ASCTB-TEMP:cd66-enterocyte,1,2,0.032068585
+9,19,UBERON:0001156 Ascending Colon,ASCTB-TEMP:cd7-immune,1,2,0.001156969
+9,20,UBERON:0001156 Ascending Colon,ASCTB-TEMP:cd8-t,1,2,0.035294663
+9,21,UBERON:0001156 Ascending Colon,ASCTB-TEMP:cycling-ta,1,2,0.033155067
+9,22,UBERON:0001156 Ascending Colon,ASCTB-TEMP:dc,1,2,0.013396103
+9,23,UBERON:0001156 Ascending Colon,ASCTB-TEMP:endothelial,1,2,0.05481977
+9,24,UBERON:0001156 Ascending Colon,ASCTB-TEMP:enterocyte,1,2,0.059819265
+9,25,UBERON:0001156 Ascending Colon,ASCTB-TEMP:goblet,1,2,0.0626221
+9,26,UBERON:0001156 Ascending Colon,ASCTB-TEMP:icc,1,2,0.00582696
+9,27,UBERON:0001156 Ascending Colon,ASCTB-TEMP:lymphatic,1,2,0.021637222
+9,28,UBERON:0001156 Ascending Colon,ASCTB-TEMP:m1-macrophage,1,2,0.005007259
+9,29,UBERON:0001156 Ascending Colon,ASCTB-TEMP:m2-macrophage,1,2,0.036524016
+9,30,UBERON:0001156 Ascending Colon,ASCTB-TEMP:muc1-enterocyte,1,2,0.009145012
+9,31,UBERON:0001156 Ascending Colon,ASCTB-TEMP:nerve,1,2,0.02075054
+9,32,UBERON:0001156 Ascending Colon,ASCTB-TEMP:neuroendocrine,1,2,0.003173323
+9,33,UBERON:0001156 Ascending Colon,ASCTB-TEMP:neutrophil,1,2,0.005225953
+9,34,UBERON:0001156 Ascending Colon,ASCTB-TEMP:nk,1,2,0.001546834
+9,35,UBERON:0001156 Ascending Colon,ASCTB-TEMP:paneth,1,2,0.000689072
+9,36,UBERON:0001156 Ascending Colon,ASCTB-TEMP:plasma,1,2,0.051679616
+9,37,UBERON:0001156 Ascending Colon,ASCTB-TEMP:smooth-muscle,1,2,0.131509973
+9,38,UBERON:0001156 Ascending Colon,ASCTB-TEMP:stroma,1,2,0.08358916
+9,39,UBERON:0001156 Ascending Colon,ASCTB-TEMP:ta,1,2,0.02493151
+10,15,UBERON:0001157 Transverse Colon,ASCTB-TEMP:b,1,2,0.004749188
+10,16,UBERON:0001157 Transverse Colon,ASCTB-TEMP:cd4-t-cell,1,2,0.02986212
+10,17,UBERON:0001157 Transverse Colon,ASCTB-TEMP:cd57-enterocyte,1,2,0.00016391
+10,18,UBERON:0001157 Transverse Colon,ASCTB-TEMP:cd66-enterocyte,1,2,0.037258178
+10,19,UBERON:0001157 Transverse Colon,ASCTB-TEMP:cd7-immune,1,2,0.001003814
+10,20,UBERON:0001157 Transverse Colon,ASCTB-TEMP:cd8-t,1,2,0.024836174
+10,21,UBERON:0001157 Transverse Colon,ASCTB-TEMP:cycling-ta,1,2,0.023883627
+10,22,UBERON:0001157 Transverse Colon,ASCTB-TEMP:dc,1,2,0.011173601
+10,23,UBERON:0001157 Transverse Colon,ASCTB-TEMP:endothelial,1,2,0.060274378
+10,24,UBERON:0001157 Transverse Colon,ASCTB-TEMP:enterocyte,1,2,0.051492561
+10,25,UBERON:0001157 Transverse Colon,ASCTB-TEMP:goblet,1,2,0.047287849
+10,26,UBERON:0001157 Transverse Colon,ASCTB-TEMP:icc,1,2,0.008389193
+10,27,UBERON:0001157 Transverse Colon,ASCTB-TEMP:lymphatic,1,2,0.025644135
+10,28,UBERON:0001157 Transverse Colon,ASCTB-TEMP:m1-macrophage,1,2,0.007588655
+10,29,UBERON:0001157 Transverse Colon,ASCTB-TEMP:m2-macrophage,1,2,0.051612028
+10,30,UBERON:0001157 Transverse Colon,ASCTB-TEMP:muc1-enterocyte,1,2,0.005642824
+10,31,UBERON:0001157 Transverse Colon,ASCTB-TEMP:nerve,1,2,0.033420814
+10,32,UBERON:0001157 Transverse Colon,ASCTB-TEMP:neuroendocrine,1,2,0.002583425
+10,33,UBERON:0001157 Transverse Colon,ASCTB-TEMP:neutrophil,1,2,0.003923458
+10,34,UBERON:0001157 Transverse Colon,ASCTB-TEMP:nk,1,2,0.001257608
+10,35,UBERON:0001157 Transverse Colon,ASCTB-TEMP:paneth,1,2,0.002032959
+10,36,UBERON:0001157 Transverse Colon,ASCTB-TEMP:plasma,1,2,0.038835903
+10,37,UBERON:0001157 Transverse Colon,ASCTB-TEMP:smooth-muscle,1,2,0.159570961
+10,38,UBERON:0001157 Transverse Colon,ASCTB-TEMP:stroma,1,2,0.100168341
+10,39,UBERON:0001157 Transverse Colon,ASCTB-TEMP:ta,1,2,0.023417797
+11,15,UBERON:0001158 Descending Colon,ASCTB-TEMP:b,1,2,0.030336974
+11,16,UBERON:0001158 Descending Colon,ASCTB-TEMP:cd4-t-cell,1,2,0.044206491
+11,17,UBERON:0001158 Descending Colon,ASCTB-TEMP:cd57-enterocyte,1,2,8.78005E-05
+11,18,UBERON:0001158 Descending Colon,ASCTB-TEMP:cd66-enterocyte,1,2,0.027542712
+11,19,UBERON:0001158 Descending Colon,ASCTB-TEMP:cd7-immune,1,2,0.001287316
+11,20,UBERON:0001158 Descending Colon,ASCTB-TEMP:cd8-t,1,2,0.031117242
+11,21,UBERON:0001158 Descending Colon,ASCTB-TEMP:cycling-ta,1,2,0.05139685
+11,22,UBERON:0001158 Descending Colon,ASCTB-TEMP:dc,1,2,0.014646701
+11,23,UBERON:0001158 Descending Colon,ASCTB-TEMP:endothelial,1,2,0.050945201
+11,24,UBERON:0001158 Descending Colon,ASCTB-TEMP:enterocyte,1,2,0.063971432
+11,25,UBERON:0001158 Descending Colon,ASCTB-TEMP:goblet,1,2,0.075322874
+11,26,UBERON:0001158 Descending Colon,ASCTB-TEMP:icc,1,2,0.005402235
+11,27,UBERON:0001158 Descending Colon,ASCTB-TEMP:lymphatic,1,2,0.017872934
+11,28,UBERON:0001158 Descending Colon,ASCTB-TEMP:m1-macrophage,1,2,0.005713073
+11,29,UBERON:0001158 Descending Colon,ASCTB-TEMP:m2-macrophage,1,2,0.032180161
+11,30,UBERON:0001158 Descending Colon,ASCTB-TEMP:muc1-enterocyte,1,2,0.005379105
+11,31,UBERON:0001158 Descending Colon,ASCTB-TEMP:nerve,1,2,0.025288113
+11,32,UBERON:0001158 Descending Colon,ASCTB-TEMP:neuroendocrine,1,2,0.005239626
+11,33,UBERON:0001158 Descending Colon,ASCTB-TEMP:neutrophil,1,2,0.002840251
+11,34,UBERON:0001158 Descending Colon,ASCTB-TEMP:nk,1,2,0.001221853
+11,35,UBERON:0001158 Descending Colon,ASCTB-TEMP:paneth,1,2,0.000819194
+11,36,UBERON:0001158 Descending Colon,ASCTB-TEMP:plasma,1,2,0.042411901
+11,37,UBERON:0001158 Descending Colon,ASCTB-TEMP:smooth-muscle,1,2,0.111574362
+11,38,UBERON:0001158 Descending Colon,ASCTB-TEMP:stroma,1,2,0.060196424
+11,39,UBERON:0001158 Descending Colon,ASCTB-TEMP:ta,1,2,0.036516661
+12,15,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:b,1,2,0.007543086
+12,16,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:cd4-t-cell,1,2,0.021679142
+12,17,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:cd57-enterocyte,1,2,0.000159715
+12,18,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:cd66-enterocyte,1,2,0.027207166
+12,19,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:cd7-immune,1,2,0.000919526
+12,20,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:cd8-t,1,2,0.017070994
+12,21,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:cycling-ta,1,2,0.022016215
+12,22,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:dc,1,2,0.013495209
+12,23,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:endothelial,1,2,0.057627979
+12,24,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:enterocyte,1,2,0.039547456
+12,25,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:goblet,1,2,0.037390705
+12,26,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:icc,1,2,0.005138955
+12,27,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:lymphatic,1,2,0.030866537
+12,28,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:m1-macrophage,1,2,0.00282731
+12,29,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:m2-macrophage,1,2,0.061660616
+12,30,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:muc1-enterocyte,1,2,0.010101918
+12,31,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:nerve,1,2,0.03106194
+12,32,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:neuroendocrine,1,2,0.002743927
+12,33,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:neutrophil,1,2,0.016009162
+12,34,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:nk,1,2,0.001434508
+12,35,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:paneth,1,2,0.000744005
+12,36,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:plasma,1,2,0.021994682
+12,37,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:smooth-muscle,1,2,0.207880371
+12,38,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:stroma,1,2,0.109532074
+12,39,UBERON:0001159 Sigmoid Colon,ASCTB-TEMP:ta,1,2,0.028319799
+13,15,UBERON:0002115 Jejunum,ASCTB-TEMP:b,1,2,0.000582724
+13,16,UBERON:0002115 Jejunum,ASCTB-TEMP:cd4-t-cell,1,2,0.042420731
+13,17,UBERON:0002115 Jejunum,ASCTB-TEMP:cd57-enterocyte,1,2,0.000300624
+13,18,UBERON:0002115 Jejunum,ASCTB-TEMP:cd66-enterocyte,1,2,0.008730725
+13,19,UBERON:0002115 Jejunum,ASCTB-TEMP:cd7-immune,1,2,0.002176273
+13,20,UBERON:0002115 Jejunum,ASCTB-TEMP:cd8-t,1,4,0.088223175
+13,21,UBERON:0002115 Jejunum,ASCTB-TEMP:cycling-ta,1,2,0.065944361
+13,22,UBERON:0002115 Jejunum,ASCTB-TEMP:dc,1,2,0.010199681
+13,23,UBERON:0002115 Jejunum,ASCTB-TEMP:endothelial,1,2,0.058766487
+13,24,UBERON:0002115 Jejunum,ASCTB-TEMP:enterocyte,1,2,0.248182195
+13,25,UBERON:0002115 Jejunum,ASCTB-TEMP:goblet,1,2,0.040280049
+13,26,UBERON:0002115 Jejunum,ASCTB-TEMP:icc,1,2,0.003958275
+13,27,UBERON:0002115 Jejunum,ASCTB-TEMP:lymphatic,1,4,0.024547819
+13,28,UBERON:0002115 Jejunum,ASCTB-TEMP:m1-macrophage,1,2,0.003856992
+13,29,UBERON:0002115 Jejunum,ASCTB-TEMP:m2-macrophage,1,2,0.031476749
+13,30,UBERON:0002115 Jejunum,ASCTB-TEMP:muc1-enterocyte,1,2,0.001199321
+13,31,UBERON:0002115 Jejunum,ASCTB-TEMP:nerve,1,2,0.025256008
+13,32,UBERON:0002115 Jejunum,ASCTB-TEMP:neuroendocrine,1,2,0.004614145
+13,33,UBERON:0002115 Jejunum,ASCTB-TEMP:neutrophil,1,2,0.00618152
+13,34,UBERON:0002115 Jejunum,ASCTB-TEMP:nk,1,2,0.002147805
+13,35,UBERON:0002115 Jejunum,ASCTB-TEMP:paneth,1,2,0.030813629
+13,36,UBERON:0002115 Jejunum,ASCTB-TEMP:plasma,1,2,0.026151718
+13,37,UBERON:0002115 Jejunum,ASCTB-TEMP:smooth-muscle,1,2,0.085388102
+13,38,UBERON:0002115 Jejunum,ASCTB-TEMP:stroma,1,2,0.059780107
+13,39,UBERON:0002115 Jejunum,ASCTB-TEMP:ta,1,2,0.021433127
+14,15,UBERON:0002116 Ileum,ASCTB-TEMP:b,1,1,0.002583919
+14,16,UBERON:0002116 Ileum,ASCTB-TEMP:cd4-t-cell,1,1,0.030737539
+14,17,UBERON:0002116 Ileum,ASCTB-TEMP:cd57-enterocyte,1,1,3.17045E-05
+14,18,UBERON:0002116 Ileum,ASCTB-TEMP:cd66-enterocyte,1,1,0.002758294
+14,19,UBERON:0002116 Ileum,ASCTB-TEMP:cd7-immune,1,1,0.001204772
+14,20,UBERON:0002116 Ileum,ASCTB-TEMP:cd8-t,1,2,0.051313777
+14,21,UBERON:0002116 Ileum,ASCTB-TEMP:cycling-ta,1,1,0.032481288
+14,22,UBERON:0002116 Ileum,ASCTB-TEMP:dc,1,1,0.007054257
+14,23,UBERON:0002116 Ileum,ASCTB-TEMP:endothelial,1,1,0.063694395
+14,24,UBERON:0002116 Ileum,ASCTB-TEMP:enterocyte,1,1,0.215076735
+14,25,UBERON:0002116 Ileum,ASCTB-TEMP:goblet,1,1,0.044433895
+14,26,UBERON:0002116 Ileum,ASCTB-TEMP:icc,1,1,0.006409574
+14,27,UBERON:0002116 Ileum,ASCTB-TEMP:lymphatic,1,2,0.040740318
+14,28,UBERON:0002116 Ileum,ASCTB-TEMP:m1-macrophage,1,1,0.000951136
+14,29,UBERON:0002116 Ileum,ASCTB-TEMP:m2-macrophage,1,1,0.053961105
+14,30,UBERON:0002116 Ileum,ASCTB-TEMP:muc1-enterocyte,1,1,0.000966988
+14,31,UBERON:0002116 Ileum,ASCTB-TEMP:nerve,1,1,0.027963393
+14,32,UBERON:0002116 Ileum,ASCTB-TEMP:neuroendocrine,1,1,0.005151986
+14,33,UBERON:0002116 Ileum,ASCTB-TEMP:neutrophil,1,1,0.002821703
+14,34,UBERON:0002116 Ileum,ASCTB-TEMP:nk,1,1,0.001014545
+14,35,UBERON:0002116 Ileum,ASCTB-TEMP:paneth,1,1,0.027697651
+14,36,UBERON:0002116 Ileum,ASCTB-TEMP:plasma,1,1,0.021844419
+14,37,UBERON:0002116 Ileum,ASCTB-TEMP:smooth-muscle,1,1,0.138358557
+14,38,UBERON:0002116 Ileum,ASCTB-TEMP:stroma,1,1,0.104260338
+14,39,UBERON:0002116 Ileum,ASCTB-TEMP:ta,1,1,0.024171904
