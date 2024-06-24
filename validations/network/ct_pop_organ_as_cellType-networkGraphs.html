@@ -584,6 +584,65 @@ rm(tmp1,tmp2,tmp3)
 rm(heart,lung,kidney,largeIntestine,smallIntestine)
 rm(heart_annotation,lung_annotation,kidney_annotation,
    largeIntestine_annotation,smallIntestine_annotation)</code></pre>
+<div id="identification-of-representative-cell-types-using-term-frequency---inverse-document-frequency-tf-idf-analysis" class="section level3">
+<h3>Identification of Representative Cell Types Using Term Frequency -
+Inverse Document Frequency (TF-IDF) Analysis</h3>
+<p>The goal of this analysis is to identify cell types that are most
+descriptive of an tool-organ-anatomical structure set.</p>
+<p>This section implements a term-frequency &amp; inverse document
+frequency analysis to the data set to identify cell types most
+representative of the combinations of organs, &amp; anatomical
+structures. In this analysis the sets of tools, organs, &amp; anatomical
+structures are equivalent to documents, and cell types are equivalent to
+terms in a document.</p>
+<p>In a TF-IDF analysis TF is the frequency of a term divided by the
+total number of terms in a document. In this case, cell type frequency
+(cTF) would be equivalent to the cell type <em>percentage</em>
+measurement, which is the number of cells (cell count) divided by the
+total cells found in a given tool-organ-as tissue sample.</p>
+<pre class="r"><code># Initial data selection - cell type term frequencies
+tf &lt;- 
+  df2 %&gt;% 
+  # removes duplicate data rows
+  distinct() %&gt;%
+  # combines sex and tools as a record sum of cell count and avg percentage
+  ddply(.(organ, as, cell_id, cell_label2), summarise,
+        records = length(cell_count),
+        cell_count = sum(cell_count),
+        tf = mean(percentage))
+
+tf[is.na(tf$cell_label2),]$cell_label2 &lt;- tf[is.na(tf$cell_label2),]$cell_label
+
+# Calculate IDF based on TF data.
+## Number of documents (unique combinations of tools, organ, anatomical structures)
+docs &lt;- tf %&gt;% 
+          select(organ, as) %&gt;%
+          distinct() %&gt;%
+          nrow()
+
+## Calculate IDF 
+idf &lt;- tf %&gt;% 
+          group_by(organ, as) %&gt;%
+          ddply(.(cell_id, cell_label2), summarise,
+                term_docs = length(records)) %&gt;%
+          mutate(idf = log(docs/term_docs)) %&gt;%
+          arrange(desc(idf))
+
+# Join IDF results to the TF data
+tf_idf &lt;- 
+  left_join(tf, idf,by=c(&quot;cell_id&quot;,&quot;cell_label2&quot;)) %&gt;%
+  mutate(tfidf = tf*idf) %&gt;% 
+  select(organ, as, cell_id, cell_label2, 
+         cell_count, tf, idf, tfidf) %&gt;%
+  arrange(organ,as,desc(tfidf))
+
+# Add TF IDF results to data for bar graphs.
+df2 &lt;- 
+  left_join(df2, tf_idf[,c(1:4,6:8)],
+            by=c(&quot;organ&quot;,&quot;as&quot;,&quot;cell_id&quot;,&quot;cell_label2&quot;))
+
+rm(tf,idf,docs)</code></pre>
+</div>
 </div>
 <div id="network-extraction" class="section level2">
 <h2>Network Extraction</h2>
@@ -614,7 +673,7 @@ for(i in 1:length(df_list)){
             records = length(cell_count)) %&gt;%
       mutate(id_lab = paste0(organId,&quot; &quot;,organ),
              type = &quot;Organ&quot;) %&gt;% 
-      rename(label = organ) %&gt;%
+      dplyr::rename(label = organ) %&gt;%
       select(tool, id_lab, label, type, records)
     
     anatomical_structures &lt;-
@@ -624,7 +683,7 @@ for(i in 1:length(df_list)){
             records = length(cell_count)) %&gt;%
       mutate(id_lab = paste0(as_id,&quot; &quot;,as),
              type = &quot;Anatomical Structure&quot;) %&gt;% 
-      rename(label = as) %&gt;%
+      dplyr::rename(label = as) %&gt;%
       select(tool, id_lab, label, type, records)
     
     cell_types &lt;- 
@@ -652,16 +711,18 @@ for(i in 1:length(df_list)){
              target_id_lab = paste0(as_id,&quot; &quot;,as)) %&gt;%
       ddply(.(source_id_lab,target_id_lab), summarise,
             weight = 1,
-            weight_recs = length(tool)) 
+            weight_recs = length(tool),
+            weight_tfidf = sum(tfidf)) 
       
     as_celltypes &lt;- 
       df_list[[i]] %&gt;% 
       ddply(.(tool, as_id, as, cell_id), summarise,
-            weight_recs = length(tool)) %&gt;%
+            weight_recs = length(tool),
+            weight_tfidf = median(tfidf)) %&gt;%
       mutate(source_id_lab = paste0(as_id,&quot; &quot;,as),
              target_id_lab = cell_id,
              weight = 1) %&gt;%
-      select(source_id_lab, target_id_lab, weight, weight_recs)
+      select(source_id_lab, target_id_lab, weight, weight_recs, weight_tfidf)
     
     # Combine edge lists
     edges &lt;- rbind(organ_as, as_celltypes) %&gt;% 
@@ -671,12 +732,12 @@ for(i in 1:length(df_list)){
     # Update edge list source and target ids
     edges &lt;- left_join(edges, 
                        nodes[,1:2], by=c(&quot;source_id_lab&quot;=&quot;id_lab&quot;)) %&gt;%
-             rename(to = id)
+             dplyr::rename(to = id)
     edges &lt;- left_join(edges, 
                        nodes[,1:2], by=c(&quot;target_id_lab&quot;=&quot;id_lab&quot;)) %&gt;%
-             rename(from = id) %&gt;%
+             dplyr::rename(from = id) %&gt;%
              select(to, from, source_id_lab, target_id_lab,
-                    weight, weight_recs)
+                    weight, weight_recs, weight_tfidf)
     
     ## Create network from data_frames
     # Select tool name for graph
