@@ -421,18 +421,18 @@ kidney2 <-
 
 
 kidney <- kidney %>%
-          ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
-                  indirect_asct_relation_in_asctb_table), summarise,
-                count = length(cell_label2),
-                median_cell_count = median(cell_count),
-                median_percentage = median(percentage))
+  ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
+          indirect_asct_relation_in_asctb_table), summarise,
+        count = length(cell_label2),
+        median_cell_count = median(cell_count),
+        median_percentage = median(percentage))
 
 kidney2 <- kidney2 %>%
-          ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
-                  indirect_asct_relation_in_asctb_table), summarise,
-                count = length(cell_label2),
-                median_cell_count = median(cell_count),
-                median_percentage = median(percentage))
+  ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
+        indirect_asct_relation_in_asctb_table), summarise,
+        count = length(cell_label2),
+        median_cell_count = median(cell_count),
+        median_percentage = median(percentage))
 write.csv(kidney,
           file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_pivot.csv"),
           row.names = FALSE)
@@ -441,13 +441,12 @@ write.csv(kidney2,
           row.names = FALSE)
 
 
-organ_as_ct_lookup <-
-  organ_as_ct_lookup %>%
-  filter(!cell_id %in% cell_filter$cell_id)
-
-write.csv(organ_as_ct_lookup,
-          file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_annotationIDs_commonCTremoved.csv"),
-          row.names = FALSE)
+# organ_as_ct_lookup <-
+#   organ_as_ct_lookup %>%
+#   filter(!cell_id %in% cell_filter$cell_id)
+# write.csv(organ_as_ct_lookup,
+#           file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_annotationIDs_commonCTremoved.csv"),
+#           row.names = FALSE)
 rm(lung,kidney,lung2,kidney2)
 ```
 
@@ -504,7 +503,7 @@ df2 <-
   left_join(df2, tf_idf[,c(1:4,6:8)],
             by=c("organ","as","cell_id","cell_label2"))
 
-rm(tf,idf,docs)
+#rm(tf,idf,docs)
 ```
 
 ## Visualization
@@ -676,9 +675,9 @@ barGraph_plot <-
 
 # Export PDF & PNG files
 ggsave(file=paste0("../output/barplots/lung_as_celltype_bargraph_0.3.pdf"),
-       barGraph_plot, width=21, height=12, units="in")
+       barGraph_plot, width=21, height=20, units="in")
 ggsave(file=paste0("../output/barplots/lung_as_celltype_bargraph_0.3.png"),
-       barGraph_plot, width=21, height=12, units="in")
+       barGraph_plot, width=21, height=20, units="in")
 
 barGraph_plot
 ```
