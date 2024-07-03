@@ -1,245 +1,241 @@
-"id","id_lab","label","tool","type","records"
-0,"UBERON:0000059 Large Intestine","Large Intestine","CellTypist","Organ",1308
-1,"UBERON:0000948 Heart","Heart","CellTypist","Organ",623
-2,"UBERON:0001004 Lung","Lung","CellTypist","Organ",347
-3,"UBERON:0002108 Small Intestine","Small Intestine","CellTypist","Organ",1526
-4,"FMA:14926 Superior part of Duodenum","Superior part of Duodenum","CellTypist","Anatomical Structure",124
-5,"FMA:14928 Descending part of Duodenum","Descending part of Duodenum","CellTypist","Anatomical Structure",254
-6,"FMA:14929 Horizontal part of Duodenum","Horizontal part of Duodenum","CellTypist","Anatomical Structure",259
-7,"FMA:14930 Ascending part of Duodenum","Ascending part of Duodenum","CellTypist","Anatomical Structure",259
-8,"FMA:14966 Distal part of Ileum","Distal part of Ileum","CellTypist","Anatomical Structure",261
-9,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CellTypist","Anatomical Structure",39
-10,"FMA:7360 Medial Bronchopulmonary Segment","Medial Bronchopulmonary Segment","CellTypist","Anatomical Structure",99
-11,"FMA:7361 Lateral Bronchopulmonary Segment","Lateral Bronchopulmonary Segment","CellTypist","Anatomical Structure",99
-12,"FMA:7385 Left Apical Bronchopulmonary Segment","Left Apical Bronchopulmonary Segment","CellTypist","Anatomical Structure",50
-13,"FMA:7402 Lateral Segmental Bronchus","Lateral Segmental Bronchus","CellTypist","Anatomical Structure",99
-14,"UBERON:0001052 Rectum","Rectum","CellTypist","Anatomical Structure",133
-15,"UBERON:0001153 Caecum","Caecum","CellTypist","Anatomical Structure",131
-16,"UBERON:0001156 Ascending Colon","Ascending Colon","CellTypist","Anatomical Structure",262
-17,"UBERON:0001157 Transverse Colon","Transverse Colon","CellTypist","Anatomical Structure",262
-18,"UBERON:0001158 Descending Colon","Descending Colon","CellTypist","Anatomical Structure",260
-19,"UBERON:0001159 Sigmoid Colon","Sigmoid Colon","CellTypist","Anatomical Structure",260
-20,"UBERON:0002078 Right Cardiac Atrium","Right Cardiac Atrium","CellTypist","Anatomical Structure",115
-21,"UBERON:0002079 Left Cardiac Atrium","Left Cardiac Atrium","CellTypist","Anatomical Structure",116
-22,"UBERON:0002080 Right Ventricle","Right Ventricle","CellTypist","Anatomical Structure",122
-23,"UBERON:0002084 Left Ventricle","Left Ventricle","CellTypist","Anatomical Structure",125
-24,"UBERON:0002094 Interventricular Septum","Interventricular Septum","CellTypist","Anatomical Structure",106
-25,"UBERON:0002115 Jejunum","Jejunum","CellTypist","Anatomical Structure",239
-26,"UBERON:0002116 Ileum","Ileum","CellTypist","Anatomical Structure",130
-27,"ASCTB-TEMP:-cells-ins-","β cells (INS+)","CellTypist","Cell type",19
-28,"ASCTB-TEMP:activated-cd4-t","Activated CD4 T","CellTypist","Cell type",22
-29,"ASCTB-TEMP:activated-cd8-t","Activated CD8 T","CellTypist","Cell type",22
-30,"ASCTB-TEMP:activated-t","Activated T","CellTypist","Cell type",22
-31,"ASCTB-TEMP:adult-glia","Adult Glia","CellTypist","Cell type",22
-32,"ASCTB-TEMP:angiogenic-pericyte","angiogenic pericyte","CellTypist","Cell type",22
-33,"ASCTB-TEMP:arterial-capillary","arterial capillary","CellTypist","Cell type",22
-34,"ASCTB-TEMP:best2-goblet-cell","BEST2+ Goblet cell","CellTypist","Cell type",22
-35,"ASCTB-TEMP:best4-epithelial","BEST4+ epithelial","CellTypist","Cell type",22
-36,"ASCTB-TEMP:branch-a1-imn-","Branch A1 (iMN)","CellTypist","Cell type",22
-37,"ASCTB-TEMP:branch-a2-ipan-in-","Branch A2 (IPAN/IN)","CellTypist","Cell type",22
-38,"ASCTB-TEMP:branch-a3-ipan-in-","Branch A3 (IPAN/IN)","CellTypist","Cell type",21
-39,"ASCTB-TEMP:branch-a4-in-","Branch A4 (IN)","CellTypist","Cell type",22
-40,"ASCTB-TEMP:branch-b1-emn-","Branch B1 (eMN)","CellTypist","Cell type",22
-41,"ASCTB-TEMP:branch-b2-emn-","Branch B2 (eMN)","CellTypist","Cell type",22
-42,"ASCTB-TEMP:branch-b3-ipan-","Branch B3 (IPAN)","CellTypist","Cell type",22
-43,"ASCTB-TEMP:cd8-tmem","CD8 Tmem","CellTypist","Cell type",22
-44,"ASCTB-TEMP:cdc1","cDC1","CellTypist","Cell type",22
-45,"ASCTB-TEMP:cdc2","cDC2","CellTypist","Cell type",21
-46,"ASCTB-TEMP:clc-mast-cell","CLC+ Mast cell","CellTypist","Cell type",22
-47,"ASCTB-TEMP:cldn10-cells","CLDN10+ cells","CellTypist","Cell type",22
-48,"ASCTB-TEMP:clp","CLP","CellTypist","Cell type",22
-49,"ASCTB-TEMP:colonocyte","Colonocyte","CellTypist","Cell type",22
-50,"ASCTB-TEMP:contractile-pericyte-pln-","Contractile pericyte (PLN+)","CellTypist","Cell type",22
-51,"ASCTB-TEMP:cx3cr1-cd8-tmem","CX3CR1+ CD8 Tmem","CellTypist","Cell type",19
-52,"ASCTB-TEMP:cycling-b-cell","Cycling B cell","CellTypist","Cell type",22
-53,"ASCTB-TEMP:cycling-ec","cycling EC","CellTypist","Cell type",22
-54,"ASCTB-TEMP:cycling-encc-glia","cycling ENCC/glia","CellTypist","Cell type",20
-55,"ASCTB-TEMP:cycling-neuroblast","cycling neuroblast","CellTypist","Cell type",21
-56,"ASCTB-TEMP:cycling-plasma-cell","Cycling plasma cell","CellTypist","Cell type",22
-57,"ASCTB-TEMP:cycling-stromal","cycling stromal","CellTypist","Cell type",13
-58,"ASCTB-TEMP:d-cells-sst-","D cells (SST+)","CellTypist","Cell type",22
-59,"ASCTB-TEMP:differentiating-glia","Differentiating glia","CellTypist","Cell type",19
-60,"ASCTB-TEMP:distal-progenitor","Distal progenitor","CellTypist","Cell type",22
-61,"ASCTB-TEMP:dz-gc-cell","DZ GC cell","CellTypist","Cell type",22
-62,"ASCTB-TEMP:ec-cells-npw-","EC cells (NPW+)","CellTypist","Cell type",22
-63,"ASCTB-TEMP:ec-cells-tac1-","EC cells (TAC1+)","CellTypist","Cell type",22
-64,"ASCTB-TEMP:eecs","EECs","CellTypist","Cell type",22
-65,"ASCTB-TEMP:encc-glia-progenitor","ENCC/glia Progenitor","CellTypist","Cell type",21
-66,"ASCTB-TEMP:enterocyte","Enterocyte","CellTypist","Cell type",22
-67,"ASCTB-TEMP:fcrl4-memory-b","FCRL4+ Memory B","CellTypist","Cell type",22
-68,"ASCTB-TEMP:fdc","FDC","CellTypist","Cell type",22
-69,"ASCTB-TEMP:fetal-arterial-ec","Fetal arterial EC","CellTypist","Cell type",22
-70,"ASCTB-TEMP:fetal-venous-ec","Fetal venous EC","CellTypist","Cell type",22
-71,"ASCTB-TEMP:gc-b-cell","GC B cell","CellTypist","Cell type",22
-72,"ASCTB-TEMP:gdt","gdT","CellTypist","Cell type",10
-73,"ASCTB-TEMP:germ","Germ","CellTypist","Cell type",22
-74,"ASCTB-TEMP:glia-1-dhh-","Glia 1 (DHH+)","CellTypist","Cell type",22
-75,"ASCTB-TEMP:glia-2-eln-","Glia 2 (ELN+)","CellTypist","Cell type",21
-76,"ASCTB-TEMP:glia-3-bcan-","Glia 3 (BCAN+)","CellTypist","Cell type",22
-77,"ASCTB-TEMP:goblet-cell","Goblet cell","CellTypist","Cell type",22
-78,"ASCTB-TEMP:i-cells-cck-","I cells (CCK+)","CellTypist","Cell type",22
-79,"ASCTB-TEMP:icc","ICC","CellTypist","Cell type",22
-80,"ASCTB-TEMP:iga-plasma-cell","IgA plasma cell","CellTypist","Cell type",21
-81,"ASCTB-TEMP:igg-plasma-cell","IgG plasma cell","CellTypist","Cell type",21
-82,"ASCTB-TEMP:igm-plasma-cell","IgM plasma cell","CellTypist","Cell type",12
-83,"ASCTB-TEMP:ilc2","ILC2","CellTypist","Cell type",22
-84,"ASCTB-TEMP:ilc3","ILC3","CellTypist","Cell type",21
-85,"ASCTB-TEMP:ilcp","ILCP","CellTypist","Cell type",21
-86,"ASCTB-TEMP:immature-b","Immature B","CellTypist","Cell type",19
-87,"ASCTB-TEMP:immature-pericyte","Immature pericyte","CellTypist","Cell type",22
-88,"ASCTB-TEMP:k-cells-gip-","K cells (GIP+)","CellTypist","Cell type",22
-89,"ASCTB-TEMP:l-cells-pyy-","L cells (PYY+)","CellTypist","Cell type",22
-90,"ASCTB-TEMP:lec1-ackr4-","LEC1 (ACKR4+)","CellTypist","Cell type",22
-91,"ASCTB-TEMP:lec2-madcam1-","LEC2 (MADCAM1+)","CellTypist","Cell type",22
-92,"ASCTB-TEMP:lec3-adgrg3-","LEC3 (ADGRG3+)","CellTypist","Cell type",22
-93,"ASCTB-TEMP:lec4-stab2-","LEC4 (STAB2+)","CellTypist","Cell type",22
-94,"ASCTB-TEMP:lec5-cldn11-","LEC5 (CLDN11+)","CellTypist","Cell type",22
-95,"ASCTB-TEMP:lec6-adamts4-","LEC6 (ADAMTS4+)","CellTypist","Cell type",22
-96,"ASCTB-TEMP:lti-like-ncr-ilc3","LTi-like NCR- ILC3","CellTypist","Cell type",22
-97,"ASCTB-TEMP:lymphoid-dc","Lymphoid DC","CellTypist","Cell type",22
-98,"ASCTB-TEMP:lyve1-macrophage","LYVE1+ Macrophage","CellTypist","Cell type",22
-99,"ASCTB-TEMP:lz-gc-cell","LZ GC cell","CellTypist","Cell type",22
-100,"ASCTB-TEMP:m-x-cells-mln-ghrl-","M/X cells (MLN/GHRL+)","CellTypist","Cell type",21
-101,"ASCTB-TEMP:macrophages","Macrophages","CellTypist","Cell type",22
-102,"ASCTB-TEMP:mait-cell","MAIT cell","CellTypist","Cell type",22
-103,"ASCTB-TEMP:mast-cell","Mast cell","CellTypist","Cell type",22
-104,"ASCTB-TEMP:mature-arterial-ec","Mature arterial EC","CellTypist","Cell type",22
-105,"ASCTB-TEMP:mature-venous-ec","Mature venous EC","CellTypist","Cell type",22
-106,"ASCTB-TEMP:megakaryocyte","Megakaryocyte","CellTypist","Cell type",22
-107,"ASCTB-TEMP:memory-b","Memory B","CellTypist","Cell type",22
-108,"ASCTB-TEMP:mesoderm-1-hand1-","Mesoderm 1 (HAND1+)","CellTypist","Cell type",22
-109,"ASCTB-TEMP:mesoderm-2-zeb2-","Mesoderm 2 (ZEB2+)","CellTypist","Cell type",10
-110,"ASCTB-TEMP:mesothelium","Mesothelium","CellTypist","Cell type",21
-111,"ASCTB-TEMP:mesothelium-prg4-","Mesothelium (PRG4+)","CellTypist","Cell type",19
-112,"ASCTB-TEMP:mesothelium-rgs5-","Mesothelium (RGS5+)","CellTypist","Cell type",22
-113,"ASCTB-TEMP:microfold-cell","Microfold cell","CellTypist","Cell type",22
-114,"ASCTB-TEMP:mln-stroma-fmo2-","mLN Stroma (FMO2+)","CellTypist","Cell type",21
-115,"ASCTB-TEMP:mlto","mLTo","CellTypist","Cell type",22
-116,"ASCTB-TEMP:mmp9-inflammatory-macrophage","MMP9+ Inflammatory macrophage","CellTypist","Cell type",22
-117,"ASCTB-TEMP:monocytes","Monocytes","CellTypist","Cell type",22
-118,"ASCTB-TEMP:mpo-mono-neutrophil","MPO+ mono-neutrophil","CellTypist","Cell type",22
-119,"ASCTB-TEMP:myofibroblast","myofibroblast","CellTypist","Cell type",22
-120,"ASCTB-TEMP:myofibroblast-rspo2-","myofibroblast (RSPO2+)","CellTypist","Cell type",22
-121,"ASCTB-TEMP:n-cells-nts-","N cells (NTS+)","CellTypist","Cell type",21
-122,"ASCTB-TEMP:naive-b","Naive B","CellTypist","Cell type",22
-123,"ASCTB-TEMP:neuroblast","Neuroblast","CellTypist","Cell type",22
-124,"ASCTB-TEMP:nk-cell","NK cell","CellTypist","Cell type",22
-125,"ASCTB-TEMP:nk-t-cell","NK T cell","CellTypist","Cell type",22
-126,"ASCTB-TEMP:paneth","Paneth","CellTypist","Cell type",22
-127,"ASCTB-TEMP:pdc","pDC","CellTypist","Cell type",22
-128,"ASCTB-TEMP:pericyte","Pericyte","CellTypist","Cell type",22
-129,"ASCTB-TEMP:pre-b","Pre-B","CellTypist","Cell type",22
-130,"ASCTB-TEMP:pro-b","Pro-B","CellTypist","Cell type",22
-131,"ASCTB-TEMP:progenitor-neurog3-","Progenitor (NEUROG3+)","CellTypist","Cell type",22
-132,"ASCTB-TEMP:proximal-progenitor","Proximal progenitor","CellTypist","Cell type",22
-133,"ASCTB-TEMP:rbc","RBC","CellTypist","Cell type",22
-134,"ASCTB-TEMP:sell-cd4-t","SELL+ CD4 T","CellTypist","Cell type",22
-135,"ASCTB-TEMP:sell-cd8-t","SELL+ CD8 T","CellTypist","Cell type",22
-136,"ASCTB-TEMP:smc-part1-capn3-","SMC (PART1/CAPN3+)","CellTypist","Cell type",22
-137,"ASCTB-TEMP:smc-plpp2-","SMC (PLPP2+)","CellTypist","Cell type",22
-138,"ASCTB-TEMP:stat1-naive-b","STAT1+ Naive B","CellTypist","Cell type",22
-139,"ASCTB-TEMP:stem-cells","Stem cells","CellTypist","Cell type",22
-140,"ASCTB-TEMP:stromal-1-adamdec1-","Stromal 1 (ADAMDEC1+)","CellTypist","Cell type",10
-141,"ASCTB-TEMP:stromal-1-ccl11-","Stromal 1 (CCL11+)","CellTypist","Cell type",22
-142,"ASCTB-TEMP:stromal-2-ch25h-","Stromal 2 (CH25H+)","CellTypist","Cell type",20
-143,"ASCTB-TEMP:stromal-2-npy-","Stromal 2 (NPY+)","CellTypist","Cell type",22
-144,"ASCTB-TEMP:stromal-3-c7-","Stromal 3 (C7+)","CellTypist","Cell type",22
-145,"ASCTB-TEMP:stromal-3-kcnn3-","Stromal 3 (KCNN3+)","CellTypist","Cell type",22
-146,"ASCTB-TEMP:stromal-4-mmp1-","Stromal 4 (MMP1+)","CellTypist","Cell type",21
-147,"ASCTB-TEMP:t-reticular","T reticular","CellTypist","Cell type",22
-148,"ASCTB-TEMP:ta","TA","CellTypist","Cell type",22
-149,"ASCTB-TEMP:tfh","Tfh","CellTypist","Cell type",22
-150,"ASCTB-TEMP:th1","Th1","CellTypist","Cell type",22
-151,"ASCTB-TEMP:th17","Th17","CellTypist","Cell type",21
-152,"ASCTB-TEMP:transitional-stromal-3-c3-","Transitional Stromal 3 (C3+)","CellTypist","Cell type",22
-153,"ASCTB-TEMP:trdv2-trgv9-gdt","TRDV2/TRGV9 gdT","CellTypist","Cell type",22
-154,"ASCTB-TEMP:treg","Treg","CellTypist","Cell type",22
-155,"ASCTB-TEMP:trgv2-gdt","TRGV2 gdT","CellTypist","Cell type",22
-156,"ASCTB-TEMP:trgv4-gdt","TRGV4 gdT","CellTypist","Cell type",22
-157,"ASCTB-TEMP:trgv5-7-gdt","TRGV5/7 gdT","CellTypist","Cell type",21
-158,"ASCTB-TEMP:tuft","Tuft","CellTypist","Cell type",22
-159,"ASCTB-TEMP:venous-capillary","venous capillary","CellTypist","Cell type",20
-160,"CL:0000037","Hematopoietic stem cells","CellTypist","Cell type",7
-161,"CL:0000057","FB4 activated","CellTypist","Cell type",21
-162,"CL:0000077","Meso","CellTypist","Cell type",9
-163,"CL:0000084","T cells proliferating","CellTypist","Cell type",7
-164,"CL:0000097","Mast","CellTypist","Cell type",28
-165,"CL:0000115","EC4 immune","CellTypist","Cell type",19
-166,"CL:0000136","Adip1","CellTypist","Cell type",21
-167,"CL:0000158","Club (nasal)","CellTypist","Cell type",7
-168,"CL:0000165","Neuroendocrine","CellTypist","Cell type",7
-169,"CL:0000186","Myofibroblasts","CellTypist","Cell type",7
-170,"CL:0000192","Smooth muscle","CellTypist","Cell type",7
-171,"CL:0000235","LYVE1+TIMD4+MP","CellTypist","Cell type",21
-172,"CL:0000236","B","CellTypist","Cell type",28
-173,"CL:0000313","SMG serous (nasal)","CellTypist","Cell type",7
-174,"CL:0000359","SMC1 basic","CellTypist","Cell type",21
-175,"CL:0000451","DC","CellTypist","Cell type",11
-176,"CL:0000492","CD4+T Tfh","CellTypist","Cell type",26
-177,"CL:0000545","CD4+T Th1","CellTypist","Cell type",11
-178,"CL:0000546","CD4+T Th2","CellTypist","Cell type",11
-179,"CL:0000576","Classical monocytes","CellTypist","Cell type",7
-180,"CL:0000583","Alveolar macrophages","CellTypist","Cell type",7
-181,"CL:0000623","NK cells","CellTypist","Cell type",7
-182,"CL:0000625","CD8+T trans","CellTypist","Cell type",11
-183,"CL:0000669","PC2 atria","CellTypist","Cell type",28
-184,"CL:0000775","Neut","CellTypist","Cell type",10
-185,"CL:0000784","Plasmacytoid DCs","CellTypist","Cell type",7
-186,"CL:0000786","B plasma","CellTypist","Cell type",18
-187,"CL:0000791","MAIT-like","CellTypist","Cell type",11
-188,"CL:0000792","CD4+T reg","CellTypist","Cell type",11
-189,"CL:0000794","CD8+T cytox","CellTypist","Cell type",19
-190,"CL:0000798","gdT","CellTypist","Cell type",8
-191,"CL:0000814","T/NK cycling","CellTypist","Cell type",11
-192,"CL:0000875","Non-classical monocytes","CellTypist","Cell type",7
-193,"CL:0000895","CD4+T naive","CellTypist","Cell type",19
-194,"CL:0000899","CD4+T Th17","CellTypist","Cell type",7
-195,"CL:0000913","CD8+T em","CellTypist","Cell type",18
-196,"CL:0000938","NK CD56hi","CellTypist","Cell type",11
-197,"CL:0000939","NK CD16hi","CellTypist","Cell type",11
-198,"CL:0001043","CD4+T act","CellTypist","Cell type",11
-199,"CL:0001050","CD8+T te","CellTypist","Cell type",19
-200,"CL:0001056","Migratory DCs","CellTypist","Cell type",7
-201,"CL:0001065","ILC","CellTypist","Cell type",21
-202,"CL:0002057","CD14+Mo","CellTypist","Cell type",11
-203,"CL:0002062","AT1","CellTypist","Cell type",7
-204,"CL:0002063","AT2","CellTypist","Cell type",7
-205,"CL:0002068","Purkinje cell","CellTypist","Cell type",12
-206,"CL:0002072","AVN P_cell","CellTypist","Cell type",5
-207,"CL:0002075","Tuft","CellTypist","Cell type",7
-208,"CL:0002129","aCM5","CellTypist","Cell type",11
-209,"CL:0002131","vCM4","CellTypist","Cell type",11
-210,"CL:0002138","EC8 ln","CellTypist","Cell type",28
-211,"CL:0002144","EC1 cap","CellTypist","Cell type",28
-212,"CL:0002241","Peribronchial fibroblasts","CellTypist","Cell type",7
-213,"CL:0002350","EC7 endocardial","CellTypist","Cell type",21
-214,"CL:0002394","DC1","CellTypist","Cell type",7
-215,"CL:0002396","CD16+Mo","CellTypist","Cell type",11
-216,"CL:0002399","DC2","CellTypist","Cell type",7
-217,"CL:0002480","Goblet (nasal)","CellTypist","Cell type",7
-218,"CL:0002543","EC6 ven","CellTypist","Cell type",21
-219,"CL:0002633","Basal resting","CellTypist","Cell type",7
-220,"CL:0005006","Ionocyte","CellTypist","Cell type",7
-221,"CL:0005012","Multiciliated (nasal)","CellTypist","Cell type",7
-222,"CL:0010003","AT0","CellTypist","Cell type",7
-223,"CL:0010005","AVN bundle_cell","CellTypist","Cell type",2
-224,"CL:0010020","NC1 glial","CellTypist","Cell type",11
-225,"CL:0019001","pre-TB secretory","CellTypist","Cell type",7
-226,"CL:0019003","Goblet (bronchial)","CellTypist","Cell type",7
-227,"CL:1000312","Goblet (subsegmental)","CellTypist","Cell type",7
-228,"CL:1000413","EC5 art","CellTypist","Cell type",28
-229,"CL:1000414","EC venous pulmonary","CellTypist","Cell type",7
-230,"CL:1000477","SAN P_cell","CellTypist","Cell type",15
-231,"CL:1000491","Mesothelium","CellTypist","Cell type",7
-232,"CL:1001603","Monocyte-derived Mph","CellTypist","Cell type",7
-233,"CL:4023054","Subpleural fibroblasts","CellTypist","Cell type",7
-234,"CL:4028003","EC aerocyte capillary","CellTypist","Cell type",7
-235,"CL:4028004","Alveolar fibroblasts","CellTypist","Cell type",7
-236,"CL:4028006","Adventitial fibroblasts","CellTypist","Cell type",7
-237,"CL:4033005","SMG serous (bronchial)","CellTypist","Cell type",7
-238,"CL:4033022","SMG mucous","CellTypist","Cell type",7
-239,"CL:4033023","SMG duct","CellTypist","Cell type",7
-240,"CL:4033041","Alveolar Mph CCL3+","CellTypist","Cell type",7
-241,"CL:4033042","Alveolar Mph MT-positive","CellTypist","Cell type",4
-242,"CL:4033043","Interstitial Mph perivascular","CellTypist","Cell type",7
-243,"CL:4033044","Deuterosomal","CellTypist","Cell type",7
+"id","id_lab","label","tool","type","partOf","records"
+0,"FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle","CellTypist","Anatomical Structure","Heart",126
+1,"UBERON:0002078 Right Cardiac Atrium","Right Cardiac Atrium","CellTypist","Anatomical Structure","Heart",401
+2,"UBERON:0002079 Left Cardiac Atrium","Left Cardiac Atrium","CellTypist","Anatomical Structure","Heart",406
+3,"UBERON:0002080 Right Ventricle","Right Ventricle","CellTypist","Anatomical Structure","Heart",414
+4,"UBERON:0002084 Left Ventricle","Left Ventricle","CellTypist","Anatomical Structure","Heart",417
+5,"UBERON:0002094 Interventricular Septum","Interventricular Septum","CellTypist","Anatomical Structure","Heart",388
+6,"UBERON:0001052 Rectum","Rectum","CellTypist","Anatomical Structure","Large Intestine",133
+7,"UBERON:0001153 Caecum","Caecum","CellTypist","Anatomical Structure","Large Intestine",131
+8,"UBERON:0001156 Ascending Colon","Ascending Colon","CellTypist","Anatomical Structure","Large Intestine",262
+9,"UBERON:0001157 Transverse Colon","Transverse Colon","CellTypist","Anatomical Structure","Large Intestine",262
+10,"UBERON:0001158 Descending Colon","Descending Colon","CellTypist","Anatomical Structure","Large Intestine",260
+11,"UBERON:0001159 Sigmoid Colon","Sigmoid Colon","CellTypist","Anatomical Structure","Large Intestine",260
+12,"FMA:7360 Medial Bronchopulmonary Segment","Medial Bronchopulmonary Segment","CellTypist","Anatomical Structure","Lung",203
+13,"FMA:7361 Lateral Bronchopulmonary Segment","Lateral Bronchopulmonary Segment","CellTypist","Anatomical Structure","Lung",203
+14,"FMA:7385 Left Apical Bronchopulmonary Segment","Left Apical Bronchopulmonary Segment","CellTypist","Anatomical Structure","Lung",102
+15,"FMA:7402 Lateral Segmental Bronchus","Lateral Segmental Bronchus","CellTypist","Anatomical Structure","Lung",203
+16,"FMA:14926 Superior part of Duodenum","Superior part of Duodenum","CellTypist","Anatomical Structure","Small Intestine",124
+17,"FMA:14928 Descending part of Duodenum","Descending part of Duodenum","CellTypist","Anatomical Structure","Small Intestine",254
+18,"FMA:14929 Horizontal part of Duodenum","Horizontal part of Duodenum","CellTypist","Anatomical Structure","Small Intestine",259
+19,"FMA:14930 Ascending part of Duodenum","Ascending part of Duodenum","CellTypist","Anatomical Structure","Small Intestine",259
+20,"FMA:14966 Distal part of Ileum","Distal part of Ileum","CellTypist","Anatomical Structure","Small Intestine",261
+21,"UBERON:0002115 Jejunum","Jejunum","CellTypist","Anatomical Structure","Small Intestine",239
+22,"UBERON:0002116 Ileum","Ileum","CellTypist","Anatomical Structure","Small Intestine",130
+23,"ASCTB-TEMP:-cells-ins-","β cells (INS+)","CellTypist","Cell type","Organ(s): 2",19
+24,"ASCTB-TEMP:activated-cd4-t","Activated CD4 T","CellTypist","Cell type","Organ(s): 2",22
+25,"ASCTB-TEMP:activated-cd8-t","Activated CD8 T","CellTypist","Cell type","Organ(s): 2",22
+26,"ASCTB-TEMP:activated-t","Activated T","CellTypist","Cell type","Organ(s): 2",22
+27,"ASCTB-TEMP:adult-glia","Adult Glia","CellTypist","Cell type","Organ(s): 2",22
+28,"ASCTB-TEMP:angiogenic-pericyte","angiogenic pericyte","CellTypist","Cell type","Organ(s): 2",22
+29,"ASCTB-TEMP:arterial-capillary","arterial capillary","CellTypist","Cell type","Organ(s): 2",22
+30,"ASCTB-TEMP:best2-goblet-cell","BEST2+ Goblet cell","CellTypist","Cell type","Organ(s): 2",22
+31,"ASCTB-TEMP:best4-epithelial","BEST4+ epithelial","CellTypist","Cell type","Organ(s): 2",22
+32,"ASCTB-TEMP:branch-a1-imn-","Branch A1 (iMN)","CellTypist","Cell type","Organ(s): 2",22
+33,"ASCTB-TEMP:branch-a2-ipan-in-","Branch A2 (IPAN/IN)","CellTypist","Cell type","Organ(s): 2",22
+34,"ASCTB-TEMP:branch-a3-ipan-in-","Branch A3 (IPAN/IN)","CellTypist","Cell type","Organ(s): 2",21
+35,"ASCTB-TEMP:branch-a4-in-","Branch A4 (IN)","CellTypist","Cell type","Organ(s): 2",22
+36,"ASCTB-TEMP:branch-b1-emn-","Branch B1 (eMN)","CellTypist","Cell type","Organ(s): 2",22
+37,"ASCTB-TEMP:branch-b2-emn-","Branch B2 (eMN)","CellTypist","Cell type","Organ(s): 2",22
+38,"ASCTB-TEMP:branch-b3-ipan-","Branch B3 (IPAN)","CellTypist","Cell type","Organ(s): 2",22
+39,"ASCTB-TEMP:cd8-tmem","CD8 Tmem","CellTypist","Cell type","Organ(s): 2",22
+40,"ASCTB-TEMP:cdc1","cDC1","CellTypist","Cell type","Organ(s): 2",22
+41,"ASCTB-TEMP:cdc2","cDC2","CellTypist","Cell type","Organ(s): 2",21
+42,"ASCTB-TEMP:clc-mast-cell","CLC+ Mast cell","CellTypist","Cell type","Organ(s): 2",22
+43,"ASCTB-TEMP:cldn10-cells","CLDN10+ cells","CellTypist","Cell type","Organ(s): 2",22
+44,"ASCTB-TEMP:clp","CLP","CellTypist","Cell type","Organ(s): 2",22
+45,"ASCTB-TEMP:colonocyte","Colonocyte","CellTypist","Cell type","Organ(s): 2",22
+46,"ASCTB-TEMP:contractile-pericyte-pln-","Contractile pericyte (PLN+)","CellTypist","Cell type","Organ(s): 2",22
+47,"ASCTB-TEMP:cx3cr1-cd8-tmem","CX3CR1+ CD8 Tmem","CellTypist","Cell type","Organ(s): 2",19
+48,"ASCTB-TEMP:cycling-b-cell","Cycling B cell","CellTypist","Cell type","Organ(s): 2",22
+49,"ASCTB-TEMP:cycling-ec","cycling EC","CellTypist","Cell type","Organ(s): 2",22
+50,"ASCTB-TEMP:cycling-encc-glia","cycling ENCC/glia","CellTypist","Cell type","Organ(s): 2",20
+51,"ASCTB-TEMP:cycling-neuroblast","cycling neuroblast","CellTypist","Cell type","Organ(s): 2",21
+52,"ASCTB-TEMP:cycling-plasma-cell","Cycling plasma cell","CellTypist","Cell type","Organ(s): 2",22
+53,"ASCTB-TEMP:cycling-stromal","cycling stromal","CellTypist","Cell type","Organ(s): 2",13
+54,"ASCTB-TEMP:d-cells-sst-","D cells (SST+)","CellTypist","Cell type","Organ(s): 2",22
+55,"ASCTB-TEMP:differentiating-glia","Differentiating glia","CellTypist","Cell type","Organ(s): 2",19
+56,"ASCTB-TEMP:distal-progenitor","Distal progenitor","CellTypist","Cell type","Organ(s): 2",22
+57,"ASCTB-TEMP:dz-gc-cell","DZ GC cell","CellTypist","Cell type","Organ(s): 2",22
+58,"ASCTB-TEMP:ec-cells-npw-","EC cells (NPW+)","CellTypist","Cell type","Organ(s): 2",22
+59,"ASCTB-TEMP:ec-cells-tac1-","EC cells (TAC1+)","CellTypist","Cell type","Organ(s): 2",22
+60,"ASCTB-TEMP:eecs","EECs","CellTypist","Cell type","Organ(s): 2",22
+61,"ASCTB-TEMP:encc-glia-progenitor","ENCC/glia Progenitor","CellTypist","Cell type","Organ(s): 2",21
+62,"ASCTB-TEMP:enterocyte","Enterocyte","CellTypist","Cell type","Organ(s): 2",22
+63,"ASCTB-TEMP:fcrl4-memory-b","FCRL4+ Memory B","CellTypist","Cell type","Organ(s): 2",22
+64,"ASCTB-TEMP:fdc","FDC","CellTypist","Cell type","Organ(s): 2",22
+65,"ASCTB-TEMP:fetal-arterial-ec","Fetal arterial EC","CellTypist","Cell type","Organ(s): 2",22
+66,"ASCTB-TEMP:fetal-venous-ec","Fetal venous EC","CellTypist","Cell type","Organ(s): 2",22
+67,"ASCTB-TEMP:gc-b-cell","GC B cell","CellTypist","Cell type","Organ(s): 2",22
+68,"ASCTB-TEMP:gdt","gdT","CellTypist","Cell type","Organ(s): 2",10
+69,"ASCTB-TEMP:germ","Germ","CellTypist","Cell type","Organ(s): 2",22
+70,"ASCTB-TEMP:glia-1-dhh-","Glia 1 (DHH+)","CellTypist","Cell type","Organ(s): 2",22
+71,"ASCTB-TEMP:glia-2-eln-","Glia 2 (ELN+)","CellTypist","Cell type","Organ(s): 2",21
+72,"ASCTB-TEMP:glia-3-bcan-","Glia 3 (BCAN+)","CellTypist","Cell type","Organ(s): 2",22
+73,"ASCTB-TEMP:goblet-cell","Goblet cell","CellTypist","Cell type","Organ(s): 2",22
+74,"ASCTB-TEMP:i-cells-cck-","I cells (CCK+)","CellTypist","Cell type","Organ(s): 2",22
+75,"ASCTB-TEMP:icc","ICC","CellTypist","Cell type","Organ(s): 2",22
+76,"ASCTB-TEMP:iga-plasma-cell","IgA plasma cell","CellTypist","Cell type","Organ(s): 2",21
+77,"ASCTB-TEMP:igg-plasma-cell","IgG plasma cell","CellTypist","Cell type","Organ(s): 2",21
+78,"ASCTB-TEMP:igm-plasma-cell","IgM plasma cell","CellTypist","Cell type","Organ(s): 2",12
+79,"ASCTB-TEMP:ilc2","ILC2","CellTypist","Cell type","Organ(s): 2",22
+80,"ASCTB-TEMP:ilc3","ILC3","CellTypist","Cell type","Organ(s): 2",21
+81,"ASCTB-TEMP:ilcp","ILCP","CellTypist","Cell type","Organ(s): 2",21
+82,"ASCTB-TEMP:immature-b","Immature B","CellTypist","Cell type","Organ(s): 2",19
+83,"ASCTB-TEMP:immature-pericyte","Immature pericyte","CellTypist","Cell type","Organ(s): 2",22
+84,"ASCTB-TEMP:k-cells-gip-","K cells (GIP+)","CellTypist","Cell type","Organ(s): 2",22
+85,"ASCTB-TEMP:l-cells-pyy-","L cells (PYY+)","CellTypist","Cell type","Organ(s): 2",22
+86,"ASCTB-TEMP:lec1-ackr4-","LEC1 (ACKR4+)","CellTypist","Cell type","Organ(s): 2",22
+87,"ASCTB-TEMP:lec2-madcam1-","LEC2 (MADCAM1+)","CellTypist","Cell type","Organ(s): 2",22
+88,"ASCTB-TEMP:lec3-adgrg3-","LEC3 (ADGRG3+)","CellTypist","Cell type","Organ(s): 2",22
+89,"ASCTB-TEMP:lec4-stab2-","LEC4 (STAB2+)","CellTypist","Cell type","Organ(s): 2",22
+90,"ASCTB-TEMP:lec5-cldn11-","LEC5 (CLDN11+)","CellTypist","Cell type","Organ(s): 2",22
+91,"ASCTB-TEMP:lec6-adamts4-","LEC6 (ADAMTS4+)","CellTypist","Cell type","Organ(s): 2",22
+92,"ASCTB-TEMP:lti-like-ncr-ilc3","LTi-like NCR- ILC3","CellTypist","Cell type","Organ(s): 2",22
+93,"ASCTB-TEMP:lymphoid-dc","Lymphoid DC","CellTypist","Cell type","Organ(s): 2",22
+94,"ASCTB-TEMP:lyve1-macrophage","LYVE1+ Macrophage","CellTypist","Cell type","Organ(s): 2",22
+95,"ASCTB-TEMP:lz-gc-cell","LZ GC cell","CellTypist","Cell type","Organ(s): 2",22
+96,"ASCTB-TEMP:m-x-cells-mln-ghrl-","M/X cells (MLN/GHRL+)","CellTypist","Cell type","Organ(s): 2",21
+97,"ASCTB-TEMP:macrophages","Macrophages","CellTypist","Cell type","Organ(s): 2",22
+98,"ASCTB-TEMP:mait-cell","MAIT cell","CellTypist","Cell type","Organ(s): 2",22
+99,"ASCTB-TEMP:mast-cell","Mast cell","CellTypist","Cell type","Organ(s): 2",22
+100,"ASCTB-TEMP:mature-arterial-ec","Mature arterial EC","CellTypist","Cell type","Organ(s): 2",22
+101,"ASCTB-TEMP:mature-venous-ec","Mature venous EC","CellTypist","Cell type","Organ(s): 2",22
+102,"ASCTB-TEMP:megakaryocyte","Megakaryocyte","CellTypist","Cell type","Organ(s): 2",22
+103,"ASCTB-TEMP:memory-b","Memory B","CellTypist","Cell type","Organ(s): 2",22
+104,"ASCTB-TEMP:mesoderm-1-hand1-","Mesoderm 1 (HAND1+)","CellTypist","Cell type","Organ(s): 2",22
+105,"ASCTB-TEMP:mesoderm-2-zeb2-","Mesoderm 2 (ZEB2+)","CellTypist","Cell type","Organ(s): 2",10
+106,"ASCTB-TEMP:mesothelium","Mesothelium","CellTypist","Cell type","Organ(s): 2",21
+107,"ASCTB-TEMP:mesothelium-prg4-","Mesothelium (PRG4+)","CellTypist","Cell type","Organ(s): 2",19
+108,"ASCTB-TEMP:mesothelium-rgs5-","Mesothelium (RGS5+)","CellTypist","Cell type","Organ(s): 2",22
+109,"ASCTB-TEMP:microfold-cell","Microfold cell","CellTypist","Cell type","Organ(s): 2",22
+110,"ASCTB-TEMP:mln-stroma-fmo2-","mLN Stroma (FMO2+)","CellTypist","Cell type","Organ(s): 2",21
+111,"ASCTB-TEMP:mlto","mLTo","CellTypist","Cell type","Organ(s): 2",22
+112,"ASCTB-TEMP:mmp9-inflammatory-macrophage","MMP9+ Inflammatory macrophage","CellTypist","Cell type","Organ(s): 2",22
+113,"ASCTB-TEMP:monocytes","Monocytes","CellTypist","Cell type","Organ(s): 2",22
+114,"ASCTB-TEMP:mpo-mono-neutrophil","MPO+ mono-neutrophil","CellTypist","Cell type","Organ(s): 2",22
+115,"ASCTB-TEMP:myofibroblast","myofibroblast","CellTypist","Cell type","Organ(s): 2",22
+116,"ASCTB-TEMP:myofibroblast-rspo2-","myofibroblast (RSPO2+)","CellTypist","Cell type","Organ(s): 2",22
+117,"ASCTB-TEMP:n-cells-nts-","N cells (NTS+)","CellTypist","Cell type","Organ(s): 2",21
+118,"ASCTB-TEMP:naive-b","Naive B","CellTypist","Cell type","Organ(s): 2",22
+119,"ASCTB-TEMP:neuroblast","Neuroblast","CellTypist","Cell type","Organ(s): 2",22
+120,"ASCTB-TEMP:nk-cell","NK cell","CellTypist","Cell type","Organ(s): 2",22
+121,"ASCTB-TEMP:nk-t-cell","NK T cell","CellTypist","Cell type","Organ(s): 2",22
+122,"ASCTB-TEMP:paneth","Paneth","CellTypist","Cell type","Organ(s): 2",22
+123,"ASCTB-TEMP:pdc","pDC","CellTypist","Cell type","Organ(s): 2",22
+124,"ASCTB-TEMP:pericyte","Pericyte","CellTypist","Cell type","Organ(s): 2",22
+125,"ASCTB-TEMP:pre-b","Pre-B","CellTypist","Cell type","Organ(s): 2",22
+126,"ASCTB-TEMP:pro-b","Pro-B","CellTypist","Cell type","Organ(s): 2",22
+127,"ASCTB-TEMP:progenitor-neurog3-","Progenitor (NEUROG3+)","CellTypist","Cell type","Organ(s): 2",22
+128,"ASCTB-TEMP:proximal-progenitor","Proximal progenitor","CellTypist","Cell type","Organ(s): 2",22
+129,"ASCTB-TEMP:rbc","RBC","CellTypist","Cell type","Organ(s): 2",22
+130,"ASCTB-TEMP:sell-cd4-t","SELL+ CD4 T","CellTypist","Cell type","Organ(s): 2",22
+131,"ASCTB-TEMP:sell-cd8-t","SELL+ CD8 T","CellTypist","Cell type","Organ(s): 2",22
+132,"ASCTB-TEMP:smc-part1-capn3-","SMC (PART1/CAPN3+)","CellTypist","Cell type","Organ(s): 2",22
+133,"ASCTB-TEMP:smc-plpp2-","SMC (PLPP2+)","CellTypist","Cell type","Organ(s): 2",22
+134,"ASCTB-TEMP:stat1-naive-b","STAT1+ Naive B","CellTypist","Cell type","Organ(s): 2",22
+135,"ASCTB-TEMP:stem-cells","Stem cells","CellTypist","Cell type","Organ(s): 2",22
+136,"ASCTB-TEMP:stromal-1-adamdec1-","Stromal 1 (ADAMDEC1+)","CellTypist","Cell type","Organ(s): 2",10
+137,"ASCTB-TEMP:stromal-1-ccl11-","Stromal 1 (CCL11+)","CellTypist","Cell type","Organ(s): 2",22
+138,"ASCTB-TEMP:stromal-2-ch25h-","Stromal 2 (CH25H+)","CellTypist","Cell type","Organ(s): 2",20
+139,"ASCTB-TEMP:stromal-2-npy-","Stromal 2 (NPY+)","CellTypist","Cell type","Organ(s): 2",22
+140,"ASCTB-TEMP:stromal-3-c7-","Stromal 3 (C7+)","CellTypist","Cell type","Organ(s): 2",22
+141,"ASCTB-TEMP:stromal-3-kcnn3-","Stromal 3 (KCNN3+)","CellTypist","Cell type","Organ(s): 2",22
+142,"ASCTB-TEMP:stromal-4-mmp1-","Stromal 4 (MMP1+)","CellTypist","Cell type","Organ(s): 2",21
+143,"ASCTB-TEMP:t-reticular","T reticular","CellTypist","Cell type","Organ(s): 2",22
+144,"ASCTB-TEMP:ta","TA","CellTypist","Cell type","Organ(s): 2",22
+145,"ASCTB-TEMP:tfh","Tfh","CellTypist","Cell type","Organ(s): 2",22
+146,"ASCTB-TEMP:th1","Th1","CellTypist","Cell type","Organ(s): 2",22
+147,"ASCTB-TEMP:th17","Th17","CellTypist","Cell type","Organ(s): 2",21
+148,"ASCTB-TEMP:transitional-stromal-3-c3-","Transitional Stromal 3 (C3+)","CellTypist","Cell type","Organ(s): 2",22
+149,"ASCTB-TEMP:trdv2-trgv9-gdt","TRDV2/TRGV9 gdT","CellTypist","Cell type","Organ(s): 2",22
+150,"ASCTB-TEMP:treg","Treg","CellTypist","Cell type","Organ(s): 2",22
+151,"ASCTB-TEMP:trgv2-gdt","TRGV2 gdT","CellTypist","Cell type","Organ(s): 2",22
+152,"ASCTB-TEMP:trgv4-gdt","TRGV4 gdT","CellTypist","Cell type","Organ(s): 2",22
+153,"ASCTB-TEMP:trgv5-7-gdt","TRGV5/7 gdT","CellTypist","Cell type","Organ(s): 2",21
+154,"ASCTB-TEMP:tuft","Tuft","CellTypist","Cell type","Organ(s): 2",22
+155,"ASCTB-TEMP:venous-capillary","venous capillary","CellTypist","Cell type","Organ(s): 2",20
+156,"CL:0000037","Hematopoietic stem cells","CellTypist","Cell type","Organ(s): 1",7
+157,"CL:0000057","FB4 activated","CellTypist","Cell type","Organ(s): 1",231
+158,"CL:0000077","Meso","CellTypist","Cell type","Organ(s): 1",9
+159,"CL:0000084","T cells proliferating","CellTypist","Cell type","Organ(s): 1",14
+160,"CL:0000097","Mast","CellTypist","Cell type","Organ(s): 2",28
+161,"CL:0000115","EC4 immune","CellTypist","Cell type","Organ(s): 1",114
+162,"CL:0000136","Adip1","CellTypist","Cell type","Organ(s): 1",84
+163,"CL:0000158","Club (nasal)","CellTypist","Cell type","Organ(s): 1",21
+164,"CL:0000165","Neuroendocrine","CellTypist","Cell type","Organ(s): 1",7
+165,"CL:0000186","Myofibroblasts","CellTypist","Cell type","Organ(s): 1",7
+166,"CL:0000192","Smooth muscle","CellTypist","Cell type","Organ(s): 1",14
+167,"CL:0000235","LYVE1+TIMD4+MP","CellTypist","Cell type","Organ(s): 1",294
+168,"CL:0000236","B","CellTypist","Cell type","Organ(s): 2",196
+169,"CL:0000313","SMG serous (nasal)","CellTypist","Cell type","Organ(s): 1",14
+170,"CL:0000359","SMC1 basic","CellTypist","Cell type","Organ(s): 1",126
+171,"CL:0000451","DC","CellTypist","Cell type","Organ(s): 1",11
+172,"CL:0000492","CD4+T Tfh","CellTypist","Cell type","Organ(s): 2",26
+173,"CL:0000545","CD4+T Th1","CellTypist","Cell type","Organ(s): 1",11
+174,"CL:0000546","CD4+T Th2","CellTypist","Cell type","Organ(s): 1",11
+175,"CL:0000576","Classical monocytes","CellTypist","Cell type","Organ(s): 1",7
+176,"CL:0000583","Alveolar macrophages","CellTypist","Cell type","Organ(s): 1",14
+177,"CL:0000623","NK cells","CellTypist","Cell type","Organ(s): 1",21
+178,"CL:0000625","CD8+T trans","CellTypist","Cell type","Organ(s): 1",11
+179,"CL:0000669","PC2 atria","CellTypist","Cell type","Organ(s): 2",287
+180,"CL:0000775","Neut","CellTypist","Cell type","Organ(s): 1",30
+181,"CL:0000784","Plasmacytoid DCs","CellTypist","Cell type","Organ(s): 1",7
+182,"CL:0000786","B plasma","CellTypist","Cell type","Organ(s): 2",18
+183,"CL:0000791","MAIT-like","CellTypist","Cell type","Organ(s): 1",11
+184,"CL:0000792","CD4+T reg","CellTypist","Cell type","Organ(s): 1",11
+185,"CL:0000794","CD8+T cytox","CellTypist","Cell type","Organ(s): 1",19
+186,"CL:0000798","gdT","CellTypist","Cell type","Organ(s): 1",24
+187,"CL:0000814","T/NK cycling","CellTypist","Cell type","Organ(s): 1",33
+188,"CL:0000875","Non-classical monocytes","CellTypist","Cell type","Organ(s): 1",14
+189,"CL:0000895","CD4+T naive","CellTypist","Cell type","Organ(s): 1",19
+190,"CL:0000899","CD4+T Th17","CellTypist","Cell type","Organ(s): 1",7
+191,"CL:0000913","CD8+T em","CellTypist","Cell type","Organ(s): 2",180
+192,"CL:0000938","NK CD56hi","CellTypist","Cell type","Organ(s): 1",11
+193,"CL:0000939","NK CD16hi","CellTypist","Cell type","Organ(s): 1",11
+194,"CL:0001043","CD4+T act","CellTypist","Cell type","Organ(s): 1",11
+195,"CL:0001050","CD8+T te","CellTypist","Cell type","Organ(s): 1",19
+196,"CL:0001056","Migratory DCs","CellTypist","Cell type","Organ(s): 1",42
+197,"CL:0001065","ILC","CellTypist","Cell type","Organ(s): 1",21
+198,"CL:0002057","CD14+Mo","CellTypist","Cell type","Organ(s): 1",11
+199,"CL:0002062","AT1","CellTypist","Cell type","Organ(s): 1",7
+200,"CL:0002063","AT2","CellTypist","Cell type","Organ(s): 1",14
+201,"CL:0002068","Purkinje cell","CellTypist","Cell type","Organ(s): 1",12
+202,"CL:0002072","AVN P_cell","CellTypist","Cell type","Organ(s): 1",5
+203,"CL:0002075","Tuft","CellTypist","Cell type","Organ(s): 1",7
+204,"CL:0002129","aCM5","CellTypist","Cell type","Organ(s): 1",55
+205,"CL:0002131","vCM4","CellTypist","Cell type","Organ(s): 1",55
+206,"CL:0002138","EC8 ln","CellTypist","Cell type","Organ(s): 2",168
+207,"CL:0002144","EC1 cap","CellTypist","Cell type","Organ(s): 2",91
+208,"CL:0002241","Peribronchial fibroblasts","CellTypist","Cell type","Organ(s): 1",7
+209,"CL:0002350","EC7 endocardial","CellTypist","Cell type","Organ(s): 1",21
+210,"CL:0002394","DC1","CellTypist","Cell type","Organ(s): 1",7
+211,"CL:0002396","CD16+Mo","CellTypist","Cell type","Organ(s): 1",11
+212,"CL:0002399","DC2","CellTypist","Cell type","Organ(s): 1",7
+213,"CL:0002480","Goblet (nasal)","CellTypist","Cell type","Organ(s): 1",7
+214,"CL:0002543","EC6 ven","CellTypist","Cell type","Organ(s): 1",42
+215,"CL:0002633","Basal resting","CellTypist","Cell type","Organ(s): 1",14
+216,"CL:0005006","Ionocyte","CellTypist","Cell type","Organ(s): 1",7
+217,"CL:0005012","Multiciliated (nasal)","CellTypist","Cell type","Organ(s): 1",14
+218,"CL:0010003","AT0","CellTypist","Cell type","Organ(s): 1",7
+219,"CL:0010005","AVN bundle_cell","CellTypist","Cell type","Organ(s): 1",2
+220,"CL:0010020","NC1 glial","CellTypist","Cell type","Organ(s): 1",66
+221,"CL:0019001","pre-TB secretory","CellTypist","Cell type","Organ(s): 1",7
+222,"CL:0019003","Goblet (bronchial)","CellTypist","Cell type","Organ(s): 1",7
+223,"CL:1000312","Goblet (subsegmental)","CellTypist","Cell type","Organ(s): 1",7
+224,"CL:1000413","EC5 art","CellTypist","Cell type","Organ(s): 2",28
+225,"CL:1000414","EC venous pulmonary","CellTypist","Cell type","Organ(s): 1",14
+226,"CL:1000477","SAN P_cell","CellTypist","Cell type","Organ(s): 1",15
+227,"CL:1000491","Mesothelium","CellTypist","Cell type","Organ(s): 1",7
+228,"CL:1001603","Monocyte-derived Mph","CellTypist","Cell type","Organ(s): 1",7
+229,"CL:4023054","Subpleural fibroblasts","CellTypist","Cell type","Organ(s): 1",7
+230,"CL:4028003","EC aerocyte capillary","CellTypist","Cell type","Organ(s): 1",7
+231,"CL:4028004","Alveolar fibroblasts","CellTypist","Cell type","Organ(s): 1",14
+232,"CL:4028006","Adventitial fibroblasts","CellTypist","Cell type","Organ(s): 1",7
+233,"CL:4033005","SMG serous (bronchial)","CellTypist","Cell type","Organ(s): 1",7
+234,"CL:4033022","SMG mucous","CellTypist","Cell type","Organ(s): 1",7
+235,"CL:4033023","SMG duct","CellTypist","Cell type","Organ(s): 1",7
+236,"CL:4033041","Alveolar Mph CCL3+","CellTypist","Cell type","Organ(s): 1",7
+237,"CL:4033042","Alveolar Mph MT-positive","CellTypist","Cell type","Organ(s): 1",4
+238,"CL:4033043","Interstitial Mph perivascular","CellTypist","Cell type","Organ(s): 1",7
+239,"CL:4033044","Deuterosomal","CellTypist","Cell type","Organ(s): 1",7
