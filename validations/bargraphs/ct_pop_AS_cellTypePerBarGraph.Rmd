@@ -28,6 +28,7 @@ df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main
 # Cell Type Crosswalks - Data Cleaning
 # https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
 # New version June 2024
+
 ## Azimuth
 azimuth <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/azimuth/v1.0/assets/azimuth-crosswalk.csv",
                 header=T, fileEncoding = "UTF8", skip=10)
