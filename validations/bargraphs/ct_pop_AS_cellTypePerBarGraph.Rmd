@@ -29,15 +29,15 @@ df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main
 # https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
 # New version June 2024
 ## Azimuth
-azimuth <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/azimuth.csv",
+azimuth <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/azimuth/v1.0/assets/azimuth-crosswalk.csv",
                 header=T, fileEncoding = "UTF8", skip=10)
 
 ## Cell Typist
-celltypist <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/celltypist.csv",
+celltypist <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/celltypist/v1.0/assets/celltypist-crosswalk.csv",
                 header=T, fileEncoding = "UTF8", skip=10)
 
 ## PopV
-popv <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/popv.csv",
+popv <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/popv/v1.0/assets/popv-crosswalk.csv",
                 header=T, fileEncoding = "UTF8", skip=10)
 ```
 
@@ -137,15 +137,18 @@ heart <- df[df$organ==levels(df$organ)[1],]
 # Updating cell labels using crosswalks
 tmp1 <- join(heart[heart$tool=="Azimuth",c(1:11)],
              azimuth[azimuth$organ_level=="Heart_L2" &
-                     azimuth$cell_match=="skos:exactMatch", c(3:6)], 
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 tmp2 <- join(heart[heart$tool=="popV",c(1:11)],
              popv[popv$organ_level=="heart" &
-                  popv$cell_match=="skos:exactMatch", c(3:6)], 
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left") 
 tmp3 <- join(heart[heart$tool=="CellTypist",c(1:11)],
              celltypist[celltypist$organ_level=="Healthy_Adult_Heart_pkl" &
-                        celltypist$cell_match=="skos:exactMatch", c(3:6)], 
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 # Clean up names
 names(tmp1) <- names(tmp2) <- names(tmp3) <- 
@@ -153,9 +156,9 @@ names(tmp1) <- names(tmp2) <- names(tmp3) <-
     "cell_id","cell_label","cell_count", "percentage",
     "annotation_label","annotation_label_id","cell_label2")
 # Combine temp files
-heart_annotation <- heart <- rbind(tmp1,tmp2,tmp3) 
+heart <- rbind(tmp1,tmp2,tmp3) 
 # Add back missing cell labels when annotation label is missing
-heart[is.na(heart$annotation_label),]$annotation_label <- 
+heart[is.na(heart$annotation_label),]$cell_label2 <- 
   heart[is.na(heart$annotation_label),]$cell_label
 
 
@@ -164,15 +167,18 @@ lung <- df[df$organ==levels(df$organ)[6],]
 # Updating cell labels using crosswalks
 tmp1 <- join(lung[lung$tool=="Azimuth",c(1:11)],
              azimuth[azimuth$organ_level=="Lung_v2_finest_level" &
-                     azimuth$cell_match=="skos:exactMatch", c(3:6)], 
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 tmp2 <- join(lung[lung$tool=="popV",c(1:11)],
              popv[popv$organ_level=="lung" &
-                  popv$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left") 
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
 tmp3 <- join(lung[lung$tool=="CellTypist",c(1:11)],
              celltypist[celltypist$organ_level=="Human_Lung_Atlas_pkl" &
-                        celltypist$cell_match=="skos:exactMatch", c(3:6)], 
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 #Clean up names
 names(tmp1) <- names(tmp2) <- names(tmp3) <- 
@@ -180,35 +186,34 @@ names(tmp1) <- names(tmp2) <- names(tmp3) <-
     "cell_id","cell_label","cell_count", "percentage",
     "annotation_label","annotation_label_id","cell_label2")
 # Combine temp files
-lung_annotation <- lung <- rbind(tmp1,tmp2,tmp3) 
+lung <- rbind(tmp1,tmp2,tmp3) 
 # Add back missing cell labels when annotation label is missing
-lung[is.na(lung$annotation_label),]$annotation_label <- 
+lung[is.na(lung$annotation_label),]$cell_label2 <- 
   lung[is.na(lung$annotation_label),]$cell_label
-# write.csv(lung_annotation,
+# write.csv(lung,
 #           file=paste0("../bargraphs/HRApop_Lung_AS-CTBarGraph-cellID_annotationIDs.csv"),
 #           row.names = FALSE)
 
+
 ## Kidney - 920
 kidney <- df[df$organ==levels(df$organ)[2],]
-
 # Updating cell labels using crosswalks
 kidney <- join(kidney[kidney$tool=="Azimuth",c(1:11)],
              azimuth[azimuth$organ_level=="Kidney_L3" &
-                     azimuth$cell_match=="skos:exactMatch", c(3:6)], 
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 #Clean up names
 names(kidney) <- 
   c("sex","tool","modality","organ","organId","as","as_id",
     "cell_id","cell_label","cell_count", "percentage",
     "annotation_label","annotation_label_id","cell_label2")
-# Combine temp files
-kidney_annotation <- kidney
 # Add back missing cell labels when annotation label is missing
-kidney[is.na(kidney$annotation_label),]$annotation_label <- 
+kidney[is.na(kidney$annotation_label),]$cell_label2 <- 
   kidney[is.na(kidney$annotation_label),]$cell_label
-# write.csv(kidney_annotation,
+# write.csv(kidney,
 #           file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_annotationIDs.csv"),
-#          row.names = FALSE)
+#           row.names = FALSE)
 
 
 ## Large Intestine - 1790
@@ -220,11 +225,13 @@ tmp1 <- largeIntestine[largeIntestine$tool=="SC Proteomics",c(1:11)] %>%
          cell_label2=NA)
 tmp2 <- join(largeIntestine[largeIntestine$tool=="popV",c(1:11)],
              popv[popv$organ_level=="large intestine" &
-                  popv$cell_match=="skos:exactMatch", c(3:6)], 
-             by="cell_id", type="left") 
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
 tmp3 <- join(largeIntestine[largeIntestine$tool=="CellTypist",c(1:11)],
              celltypist[celltypist$organ_level=="intestine_L1" &
-                        celltypist$cell_match=="skos:exactMatch", c(3:6)], 
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 #Clean up names
 names(tmp1) <- names(tmp2) <- names(tmp3) <- 
@@ -232,9 +239,9 @@ names(tmp1) <- names(tmp2) <- names(tmp3) <-
     "cell_id","cell_label","cell_count", "percentage",
     "annotation_label","annotation_label_id","cell_label2")
 # Combine temp files
-largeIntestine_annotation <- largeIntestine <- rbind(tmp1,tmp2,tmp3) 
+largeIntestine <- rbind(tmp1,tmp2,tmp3) 
 # Add back missing cell labels when annotation label is missing
-largeIntestine[is.na(largeIntestine$annotation_label),]$annotation_label <- 
+largeIntestine[is.na(largeIntestine$annotation_label),]$cell_label2 <- 
   largeIntestine[is.na(largeIntestine$annotation_label),]$cell_label
 
 
@@ -247,11 +254,13 @@ tmp1 <- smallIntestine[smallIntestine$tool=="SC Proteomics",c(1:11)] %>%
          cell_label2=NA)
 tmp2 <- join(smallIntestine[smallIntestine$tool=="popV",c(1:11)],
              popv[popv$organ_level=="small intestine" &
-                  popv$cell_match=="skos:exactMatch", c(3:6)], 
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left") 
 tmp3 <- join(smallIntestine[smallIntestine$tool=="CellTypist",c(1:11)],
              celltypist[celltypist$organ_level=="intestine_L1" &
-                        celltypist$cell_match=="skos:exactMatch", c(3:6)], 
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 #Clean up names
 names(tmp1) <- names(tmp2) <- names(tmp3) <- 
@@ -259,9 +268,9 @@ names(tmp1) <- names(tmp2) <- names(tmp3) <-
     "cell_id","cell_label","cell_count", "percentage",
     "annotation_label","annotation_label_id","cell_label2")
 # Combine temp files
-smallIntestine_annotation <- smallIntestine <- rbind(tmp1,tmp2,tmp3) 
+smallIntestine <- rbind(tmp1,tmp2,tmp3) 
 # Add back missing cell labels when annotation label is missing
-smallIntestine[is.na(smallIntestine$annotation_label),]$annotation_label <- 
+smallIntestine[is.na(smallIntestine$annotation_label),]$cell_label2 <- 
   smallIntestine[is.na(smallIntestine$annotation_label),]$cell_label
 
 
@@ -276,8 +285,7 @@ df2[is.na(df2$cell_label2),]$cell_label2 <-
  
 ## Export annotation look-up
 organ_as_ct_lookup <- 
-  rbind(heart_annotation,lung_annotation,kidney_annotation,
-   largeIntestine_annotation,smallIntestine_annotation)
+  rbind(heart,lung,kidney,largeIntestine,smallIntestine)
 write.csv(organ_as_ct_lookup, 
           file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_annotationIDs.csv"),
           row.names = FALSE)
@@ -285,9 +293,6 @@ write.csv(organ_as_ct_lookup,
 # Clean up
 rm(tmp1,tmp2,tmp3)
 rm(heart,lung,kidney,largeIntestine,smallIntestine)
-rm(heart_annotation,lung_annotation,kidney_annotation,
-   largeIntestine_annotation, smallIntestine_annotation,
-   organ_as_ct_lookup)
 ```
 
 
@@ -343,20 +348,23 @@ cell_filter <-
 ```
 
 ```{r data_exports, eval=FALSE, include=FALSE}
-# Lung data
+## Lungs - 826
 lung <- df[df$organ==levels(df$organ)[6],]
 # Updating cell labels using crosswalks
 tmp1 <- join(lung[lung$tool=="Azimuth",c(1:13)],
              azimuth[azimuth$organ_level=="Lung_v2_finest_level" &
-                     azimuth$cell_match=="skos:exactMatch", c(3:6)],
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 tmp2 <- join(lung[lung$tool=="popV",c(1:13)],
              popv[popv$organ_level=="lung" &
-                  popv$cell_match=="skos:exactMatch", c(3:6)],
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 tmp3 <- join(lung[lung$tool=="CellTypist",c(1:13)],
              celltypist[celltypist$organ_level=="Human_Lung_Atlas_pkl" &
-                        celltypist$cell_match=="skos:exactMatch", c(3:6)],
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 #Clean up names
 names(tmp1) <- names(tmp2) <- names(tmp3) <-
@@ -367,9 +375,9 @@ names(tmp1) <- names(tmp2) <- names(tmp3) <-
 # Combine temp files
 lung <- rbind(tmp1,tmp2,tmp3)
 # Add back missing cell labels when annotation label is missing
-lung[is.na(lung$annotation_label),]$annotation_label <-
+lung[is.na(lung$annotation_label),]$cell_label2 <-
   lung[is.na(lung$annotation_label),]$cell_label
-lung <- lung %>% mutate(cell_label2 = paste0(cell_id,": ",annotation_label))
+lung <- lung %>% mutate(cell_label2 = paste0(cell_id,": ",cell_label2))
 #Remove common cell types
 lung2 <-
   lung %>%
@@ -401,7 +409,8 @@ kidney <- df[df$organ==levels(df$organ)[2],]
 # Updating cell labels using crosswalks
 kidney <- join(kidney[kidney$tool=="Azimuth",c(1:13)],
              azimuth[azimuth$organ_level=="Kidney_L3" &
-                     azimuth$cell_match=="skos:exactMatch", c(3:6)],
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
              by="cell_id", type="left")
 # Clean up names
 names(kidney) <-
@@ -410,29 +419,30 @@ names(kidney) <-
     "asct_relation_in_asctb_table","indirect_asct_relation_in_asctb_table",
     "annotation_label","annotation_label_id","cell_label2")
 # Add back missing cell labels when annotation label is missing
-kidney[is.na(kidney$annotation_label),]$annotation_label <-
+kidney[is.na(kidney$annotation_label),]$cell_label2 <-
   kidney[is.na(kidney$annotation_label),]$cell_label
 
-kidney <- kidney %>% mutate(cell_label2 = paste0(cell_id,": ",annotation_label))
+kidney <- kidney %>% mutate(cell_label2 = paste0(cell_id,": ",cell_label2))
 # Remove common cell types
 kidney2 <-
   kidney %>%
   filter(!cell_id %in% cell_filter$cell_id)
 
-
+# Aggregation 1 - tool, sex, organ, as, cell label.
+# Calculates median cell count and median percentages, calculates count of records.
 kidney <- kidney %>%
-  ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
-          indirect_asct_relation_in_asctb_table), summarise,
-        count = length(cell_label2),
-        median_cell_count = median(cell_count),
-        median_percentage = median(percentage))
-
+          ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
+                  indirect_asct_relation_in_asctb_table), summarise,
+                count = length(cell_label2),
+                median_cell_count = median(cell_count),
+                median_percentage = median(percentage))
+# Aggregation - tool, sex, organ, as, cell label.
 kidney2 <- kidney2 %>%
-  ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
-        indirect_asct_relation_in_asctb_table), summarise,
-        count = length(cell_label2),
-        median_cell_count = median(cell_count),
-        median_percentage = median(percentage))
+          ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
+                  indirect_asct_relation_in_asctb_table), summarise,
+                count = length(cell_label2),
+                median_cell_count = median(cell_count),
+                median_percentage = median(percentage))
 write.csv(kidney,
           file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_pivot.csv"),
           row.names = FALSE)
@@ -441,13 +451,17 @@ write.csv(kidney2,
           row.names = FALSE)
 
 
-# organ_as_ct_lookup <-
-#   organ_as_ct_lookup %>%
-#   filter(!cell_id %in% cell_filter$cell_id)
-# write.csv(organ_as_ct_lookup,
-#           file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_annotationIDs_commonCTremoved.csv"),
-#           row.names = FALSE)
-rm(lung,kidney,lung2,kidney2)
+# Organ AS-CT Look-up file
+organ_as_ct_lookup <-
+  organ_as_ct_lookup %>%
+  filter(!cell_id %in% cell_filter$cell_id)
+write.csv(organ_as_ct_lookup,
+          file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_annotationIDs_commonCTremoved.csv"),
+          row.names = FALSE)
+
+#rm(organ_as_ct_lookup)
+#rm(lung,kidney,lung2,kidney2)
+rm(tmp1,tmp2,tmp3)
 ```
 
 ### Identification of Representative Cell Types Using Term Frequency - Inverse Document Frequency  (TF-IDF) Analysis
@@ -503,7 +517,7 @@ df2 <-
   left_join(df2, tf_idf[,c(1:4,6:8)],
             by=c("organ","as","cell_id","cell_label2"))
 
-#rm(tf,idf,docs)
+rm(tf,idf,docs)
 ```
 
 ## Visualization
@@ -519,7 +533,7 @@ The code chunk documents the general process used to prepare data for visualizat
 
 ### Heart 
 
-```{r bar_heart, fig.height=14, fig.width=12, warning=FALSE}
+```{r bar_heart, fig.height=14, fig.width=19, warning=FALSE}
 # Subset df2 to relevant organ - heart
 barGraph <- df2[df2$organ==levels(df$organ)[1],]
 
@@ -528,9 +542,9 @@ barGraph <- df2[df2$organ==levels(df$organ)[1],]
 barGraph <- barGraph %>%
   filter(!cell_id %in% cell_filter$cell_id) %>%
   #filter(tfidf >= .001) %>%
-  select(organ,as,cell_id,cell_label,annotation_label,
+  select(organ,as,cell_id,cell_label,cell_label2,
          cell_count,percentage,tool,sex) %>%
-  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
   ddply(.(sex,tool,as,cell_lab), summarise,
         ct = length(cell_count),
         mean_cell_count = mean(cell_count),
@@ -580,7 +594,7 @@ color_pal_kid3 <- c("#B3E5FC","#4CAF50","#512DA8","#FCE4EC","#FF8A65","#009688",
                     "#F48FB1","#01579B","#B3E5FC","#4CAF50","#512DA8","#FCE4EC",
                     "#FF8A65","#009688","#FFE082","#81C784","#9575CD","#F48FB1",
                     "#01579B","#B3E5FC","#4CAF50","#512DA8","#FCE4EC","#FF8A65",
-                    "#009688","#FFE082","#81C784","#9575CD","#F48FB1","#01579B")
+                    "#009688","#FFE082","#81C784","#9575CD","#F48FB1","#01579B","#B3E5FC")
 
 # Plot
 barGraph_plot <- 
@@ -601,15 +615,15 @@ barGraph_plot <-
 
 # Export PDF & PNG files
 ggsave(file=paste0("../output/barplots/heart_as_celltype_bargraph_0.3.pdf"),
-       barGraph_plot, width=14, height=12, units="in")
+       barGraph_plot, width=19, height=14, units="in")
 ggsave(file=paste0("../output/barplots/heart_as_celltype_bargraph_0.3.png"),
-       barGraph_plot, width=14, height=12, units="in")
+       barGraph_plot, width=19, height=14, units="in")
 
 barGraph_plot
 ```
 
 ### Lung
-```{r bar_lung, fig.height=14, fig.width=21}
+```{r bar_lung, fig.height=16, fig.width=20, warning=FALSE}
 barGraph <- df2[df2$organ==levels(df$organ)[6],]
 
 # Filter cell types to remove multi-organ cell types.
@@ -617,9 +631,9 @@ barGraph <- df2[df2$organ==levels(df$organ)[6],]
 barGraph <- barGraph %>%
   filter(!cell_id %in% cell_filter$cell_id) %>%
   filter(tfidf >= .001) %>%
-  select(organ,as,cell_id,cell_label,annotation_label,
+  select(organ,as,cell_id,cell_label,cell_label2,
          cell_count,percentage,tool,sex) %>%
-  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
   ddply(.(sex,tool,as,cell_lab), summarise,
         ct = length(cell_count),
         mean_cell_count = mean(cell_count),
@@ -639,21 +653,8 @@ barGraph$as <- factor(barGraph$as,
                           "Lateral\nSegmental\nBronchus",
                           "Left Apical\nBronchopulmonary\nSegment",
                           "Medial\nBronchopulmonary\nSegment"))
-
-barGraph$cell_lab <- factor(barGraph$cell_lab,
-                            levels=,
-                            labels=)
+barGraph$cell_lab <- factor(barGraph$cell_lab)
 #levels(barGraph$cell_lab)
-
-# Set color palette for cell types 
-# color_pal_kid2 <- c("#B3E5FC","#03A9F4","#0288D1","#01579B","#E8F5E9","#C8E6C9",
-#                     "#A5D6A7","#81C784","#66BB6A","#4CAF50","#43A047","#B2DFDB",
-#                     "#4DB6AC","#009688","#4FC3F7","#03A9F4","#512DA8","#673AB7",
-#                     "#9575CD","#D1C4E9","#B2EBF2","#4DD0E1","#00BCD4","#0097A7",
-#                     "#F48FB1","#FCE4EC","#FFE082","#6D4C41","#FFCA28","#FFA000",
-#                     "#C2185B","#880E4F","#8BC34A","#558B2F","#FF5722","#283593",
-#                     "#3949AB","#5C6BC0","#9FA8DA","#E8EAF6","#FF8A65","#FFCCBC",
-#                     "#EFEBE9","#BCAAA4","#8D6E63","#4E342E","#3E2723")
 
 # Plot
 barGraph_plot <- 
@@ -675,16 +676,16 @@ barGraph_plot <-
 
 # Export PDF & PNG files
 ggsave(file=paste0("../output/barplots/lung_as_celltype_bargraph_0.3.pdf"),
-       barGraph_plot, width=21, height=20, units="in")
+       barGraph_plot, width=20, height=14, units="in")
 ggsave(file=paste0("../output/barplots/lung_as_celltype_bargraph_0.3.png"),
-       barGraph_plot, width=21, height=20, units="in")
+       barGraph_plot, width=20, height=14, units="in")
 
 barGraph_plot
 ```
 
 
 ### Kidney
-```{r bar_kidney, fig.height=7, fig.width=21}
+```{r bar_kidney, fig.height=8, fig.width=22}
 # Subset df2 to relevant organ
 barGraph <- df2[df2$organ==levels(df$organ)[2],]
 
@@ -693,9 +694,9 @@ barGraph <- df2[df2$organ==levels(df$organ)[2],]
 barGraph <- barGraph %>%
   filter(!cell_id %in% cell_filter$cell_id) %>%
   filter(tfidf >= .001) %>%
-  select(organ,as,cell_id,cell_label,annotation_label,
+  select(organ,as,cell_id,cell_label,cell_label2,
          cell_count,percentage,tool,sex) %>%
-  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
   ddply(.(sex,tool,as,cell_lab), summarise,
         ct = length(cell_count),
         mean_cell_count = mean(cell_count),
@@ -705,23 +706,11 @@ barGraph <- barGraph %>%
   dplyr::mutate(rank = row_number()) %>%
   ungroup()
 
-# Factoring AS and Cell Types for Heart
+# Factoring AS and Cell Types for Kidney
 barGraph$as <- factor(barGraph$as)
+barGraph$cell_lab <- factor(barGraph$cell_lab)
 
-barGraph$cell_lab <- factor(barGraph$cell_lab,
-                            levels=,
-                            labels=)
 #levels(barGraph$cell_lab)
-
-# Set color palette for cell types 
-# color_pal_kid2 <- c("#B3E5FC","#03A9F4","#0288D1","#01579B","#E8F5E9","#C8E6C9",
-#                     "#A5D6A7","#81C784","#66BB6A","#4CAF50","#43A047","#B2DFDB",
-#                     "#4DB6AC","#009688","#4FC3F7","#03A9F4","#512DA8","#673AB7",
-#                     "#9575CD","#D1C4E9","#B2EBF2","#4DD0E1","#00BCD4","#0097A7",
-#                     "#F48FB1","#FCE4EC","#FFE082","#6D4C41","#FFCA28","#FFA000",
-#                     "#C2185B","#880E4F","#8BC34A","#558B2F","#FF5722","#283593",
-#                     "#3949AB","#5C6BC0","#9FA8DA","#E8EAF6","#FF8A65","#FFCCBC",
-#                     "#EFEBE9","#BCAAA4","#8D6E63","#4E342E","#3E2723")
 
 # Plot
 barGraph_plot <- 
@@ -743,15 +732,15 @@ barGraph_plot <-
 
 # Export PDF & PNG files
 ggsave(file=paste0("../output/barplots/kidney_as_celltype_bargraph_0.3.pdf"),
-       barGraph_plot, width=21, height=7, units="in")
+       barGraph_plot, width=22, height=8, units="in")
 ggsave(file=paste0("../output/barplots/kidney_as_celltype_bargraph_0.3.png"),
-       barGraph_plot, width=21, height=7, units="in")
+       barGraph_plot, width=22, height=8, units="in")
 
 barGraph_plot
 ```
 
 ### Large Intestine
-```{r bar_largeIntestine, fig.height=21, fig.width=21}
+```{r bar_largeIntestine, fig.height=18, fig.width=21}
 # Subset df2 to relevant organ
 barGraph <- df2[df2$organ==levels(df$organ)[4],]
 
@@ -760,9 +749,9 @@ barGraph <- df2[df2$organ==levels(df$organ)[4],]
 barGraph <- barGraph %>%
   filter(!cell_id %in% cell_filter$cell_id) %>%
   filter(tfidf >= .001) %>%
-  select(organ,as,cell_id,cell_label,annotation_label,
+  select(organ,as,cell_id,cell_label,cell_label2,
          cell_count,percentage,tool,sex) %>%
-  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
   ddply(.(sex,tool,as,cell_lab), summarise,
         ct = length(cell_count),
         mean_cell_count = mean(cell_count),
@@ -772,23 +761,12 @@ barGraph <- barGraph %>%
   dplyr::mutate(rank = row_number()) %>%
   ungroup()
 
-# Factoring AS and Cell Types for Heart
+# Factoring AS and Cell Types for Large Intestine
 barGraph$as <- factor(barGraph$as, 
                       levels=c("Caecum","Ascending Colon","Transverse Colon",
                                "Descending Colon","Sigmoid Colon","Rectum"))
-
 barGraph$cell_lab <- factor(barGraph$cell_lab)
 #levels(barGraph$cell_lab)
-
-# Set color palette for cell types 
-# color_pal_kid2 <- c("#B3E5FC","#03A9F4","#0288D1","#01579B","#E8F5E9","#C8E6C9",
-#                     "#A5D6A7","#81C784","#66BB6A","#4CAF50","#43A047","#B2DFDB",
-#                     "#4DB6AC","#009688","#4FC3F7","#03A9F4","#512DA8","#673AB7",
-#                     "#9575CD","#D1C4E9","#B2EBF2","#4DD0E1","#00BCD4","#0097A7",
-#                     "#F48FB1","#FCE4EC","#FFE082","#6D4C41","#FFCA28","#FFA000",
-#                     "#C2185B","#880E4F","#8BC34A","#558B2F","#FF5722","#283593",
-#                     "#3949AB","#5C6BC0","#9FA8DA","#E8EAF6","#FF8A65","#FFCCBC",
-#                     "#EFEBE9","#BCAAA4","#8D6E63","#4E342E","#3E2723")
 
 # Plot
 barGraph_plot <- 
@@ -810,16 +788,16 @@ barGraph_plot <-
 
 # Export PDF & PNG files
 ggsave(file=paste0("../output/barplots/largeIntestine_as_celltype_bargraph_0.3.pdf"),
-       barGraph_plot, width=21, height=21, units="in")
+       barGraph_plot, width=18, height=21, units="in")
 ggsave(file=paste0("../output/barplots/largeIntestine_as_celltype_bargraph_0.3.png"),
-       barGraph_plot, width=21, height=21, units="in")
+       barGraph_plot, width=18, height=21, units="in")
 
 barGraph_plot
 ```
 
 ### Small Intestine
 
-```{r bar_smallIntestine, fig.height=21, fig.width=21}
+```{r bar_smallIntestine, fig.height=18, fig.width=21}
 # Subset df2 to relevant organ
 barGraph <- df2[df2$organ==levels(df$organ)[9],]
 
@@ -828,9 +806,9 @@ barGraph <- df2[df2$organ==levels(df$organ)[9],]
 barGraph <- barGraph %>%
   filter(!cell_id %in% cell_filter$cell_id) %>%
   filter(tfidf >= .001) %>%
-  select(organ,as,cell_id,cell_label,annotation_label,
+  select(organ,as,cell_id,cell_label,cell_label2,
          cell_count,percentage,tool,sex) %>%
-  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
   ddply(.(sex,tool,as,cell_lab), summarise,
         ct = length(cell_count),
         mean_cell_count = mean(cell_count),
@@ -860,16 +838,6 @@ barGraph$as <- factor(barGraph$as,
 barGraph$cell_lab <- factor(barGraph$cell_lab)
 #levels(barGraph$cell_lab)
 
-# Set color palette for cell types 
-# color_pal_kid2 <- c("#B3E5FC","#03A9F4","#0288D1","#01579B","#E8F5E9","#C8E6C9",
-#                     "#A5D6A7","#81C784","#66BB6A","#4CAF50","#43A047","#B2DFDB",
-#                     "#4DB6AC","#009688","#4FC3F7","#03A9F4","#512DA8","#673AB7",
-#                     "#9575CD","#D1C4E9","#B2EBF2","#4DD0E1","#00BCD4","#0097A7",
-#                     "#F48FB1","#FCE4EC","#FFE082","#6D4C41","#FFCA28","#FFA000",
-#                     "#C2185B","#880E4F","#8BC34A","#558B2F","#FF5722","#283593",
-#                     "#3949AB","#5C6BC0","#9FA8DA","#E8EAF6","#FF8A65","#FFCCBC",
-#                     "#EFEBE9","#BCAAA4","#8D6E63","#4E342E","#3E2723")
-
 # Plot
 barGraph_plot <- 
   barGraph %>% 
@@ -890,13 +858,9 @@ barGraph_plot <-
 
 # Export PDF & PNG files
 ggsave(file=paste0("../output/barplots/smallIntestine_as_celltype_bargraph_0.3.pdf"),
-       barGraph_plot, width=21, height=21, units="in")
+       barGraph_plot, width=18, height=21, units="in")
 ggsave(file=paste0("../output/barplots/smallIntestine_as_celltype_bargraph_0.3.png"),
-       barGraph_plot, width=21, height=21, units="in")
+       barGraph_plot, width=18, height=21, units="in")
 
 barGraph_plot
 ```
-
-
-
-
