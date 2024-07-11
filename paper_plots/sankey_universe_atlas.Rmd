@@ -145,7 +145,7 @@ subset_sankey = sankey_universe_with_bins %>%
   
   # fix portal names
   subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CZ CELLxGENE"
-  subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "CZ CELLxGENE"
+  subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "LungMap"
   subset_sankey$portal[subset_sankey$portal == "CxG"] <- "CZ CELLxGENE"
   
   # replace portal==HRA with HRA-OMAP
@@ -207,7 +207,7 @@ subset_sankey$donor_race = subset_sankey$mapped_donor_race
 
 ## OPTIONAL: Filter for only atlas data
 ``` {r OnlyAtlas} 
-if(only_atlas) {subset_sankey = subset_sankey %>% filter(is_atlas_dataset == "Atlas Dataset")}
+# if(only_atlas) {subset_sankey = subset_sankey %>% filter(is_atlas_dataset == "Atlas Dataset")}
 
 ```
 
