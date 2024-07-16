@@ -65,3 +65,5 @@ validations/bargraphs/ct_pop_cellTypePerBarGraph.csv
 
 # virtual environments for Jupyter Notebooks
 venv
+validations/corridors/corridors_volume.blend
+validations/corridors/corridors_volume.blend1
