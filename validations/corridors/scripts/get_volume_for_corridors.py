@@ -19,11 +19,6 @@ def calculate_mesh_volume(mesh):
     bm.verts.ensure_lookup_table()
     bm.edges.ensure_lookup_table()
     bm.faces.ensure_lookup_table()
-
-    # Check if mesh is manifold
-    if not all(edge.is_manifold for edge in bm.edges):
-        pass
-#        raise ValueError("Mesh is not manifold")
     
     volume = bm.calc_volume(signed=True)
     bm.free()
