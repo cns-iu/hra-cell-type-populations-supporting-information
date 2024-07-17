@@ -5,6 +5,13 @@ import pandas as pd
 import os
 
 def calculate_mesh_volume(mesh):
+    """A function to get the volume of a 3D mesh
+
+    Args:
+        mesh (mesh): A mesh
+    Returns:
+        volume (float): the volume in cubic meters
+    """
     bm = bmesh.new()
     bm.from_mesh(mesh)
     
@@ -23,8 +30,26 @@ def calculate_mesh_volume(mesh):
     return volume
 
 
-def main():
+def get_origin(mesh):
+    """ A function to get the origin of a mesh
     
+    Args:
+        mesh (mesh): A mesh
+    Returns:
+        3D coordinates (tuple): XYZ coordinates
+    """
+
+def main():
+    """The main function to get volume and 3D coordinates for all meshes in the scene, then exporting it to CSV
+    """
+    bpy.ops.mesh.primitive_cube_add(size=4)
+    print("added")
+
+
+    cube_obj = bpy.context.active_object
+    cube_obj.location.z = 2
+    
+    print("executing!")
     # Get the path of the current blend file
     blend_file_path = bpy.data.filepath
 
@@ -64,3 +89,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
