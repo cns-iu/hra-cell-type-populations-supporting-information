@@ -39,17 +39,9 @@ def get_origin(mesh):
         3D coordinates (tuple): XYZ coordinates
     """
 
-def main():
+def main():    
     """The main function to get volume and 3D coordinates for all meshes in the scene, then exporting it to CSV
     """
-    bpy.ops.mesh.primitive_cube_add(size=4)
-    print("added")
-
-
-    cube_obj = bpy.context.active_object
-    cube_obj.location.z = 2
-    
-    print("executing!")
     # Get the path of the current blend file
     blend_file_path = bpy.data.filepath
 
