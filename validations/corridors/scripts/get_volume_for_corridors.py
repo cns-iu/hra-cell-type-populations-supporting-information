@@ -5,6 +5,13 @@ import pandas as pd
 import os
 
 def calculate_mesh_volume(mesh):
+    """A function to get the volume of a 3D mesh
+
+    Args:
+        mesh (mesh): A mesh
+    Returns:
+        volume (float): the volume in cubic meters
+    """
     bm = bmesh.new()
     bm.from_mesh(mesh)
     
@@ -12,20 +19,24 @@ def calculate_mesh_volume(mesh):
     bm.verts.ensure_lookup_table()
     bm.edges.ensure_lookup_table()
     bm.faces.ensure_lookup_table()
-
-    # Check if mesh is manifold
-    if not all(edge.is_manifold for edge in bm.edges):
-        pass
-#        raise ValueError("Mesh is not manifold")
     
     volume = bm.calc_volume(signed=True)
     bm.free()
     return volume
 
 
-def main():
+def get_origin(mesh):
+    """ A function to get the origin of a mesh
     
-    # Get the path of the current blend file
+    Args:
+        mesh (mesh): A mesh
+    Returns:
+        3D coordinates (tuple): XYZ coordinates
+    """
+
+def set_working_directory():
+    """Sets the working directory to the same one as the BLEND file
+    """ # Get the path of the current blend file
     blend_file_path = bpy.data.filepath
 
     # Extract the directory from the blend file path
@@ -37,6 +48,20 @@ def main():
     # Print to verify the working directory has changed
     print("Current working directory set to:", os.getcwd())
 
+def export_to_csv(df):
+    """Write a DataFramer to CSV
+    """
+    # Write the DataFrame to a CSV file
+    print(os.getcwd())
+    df.to_csv('output/corridor_volumes.csv', index=False)  # index=False prevents writing row numbers to the CSV
+    print("CSV file has been written successfully.")
+
+def main():    
+    """The main function to get volume and 3D coordinates for all meshes in the scene, then exporting it to CSV
+    """
+    
+    # set the working directory to the one for the current BLEND file
+    set_working_directory()
     
     # create dict for exporting results
     result = {'corridor_number': [], 'volume': []}
@@ -56,11 +81,9 @@ def main():
     # Convert the dictionary to a DataFrame
     df = pd.DataFrame(result)
     
-    # Write the DataFrame to a CSV file
-    print(os.getcwd())
-    df.to_csv('output/corridor_volumes.csv', index=False)  # index=False prevents writing row numbers to the CSV
-    print("CSV file has been written successfully.")
-            
+    export_to_csv(df)
 
 if __name__ == "__main__":
     main()
+
+
