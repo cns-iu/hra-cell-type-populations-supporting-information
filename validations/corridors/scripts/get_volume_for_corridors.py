@@ -34,10 +34,9 @@ def get_origin(mesh):
         3D coordinates (tuple): XYZ coordinates
     """
 
-def main():    
-    """The main function to get volume and 3D coordinates for all meshes in the scene, then exporting it to CSV
-    """
-    # Get the path of the current blend file
+def set_working_directory():
+    """Sets the working directory to the same one as the BLEND file
+    """ # Get the path of the current blend file
     blend_file_path = bpy.data.filepath
 
     # Extract the directory from the blend file path
@@ -49,6 +48,20 @@ def main():
     # Print to verify the working directory has changed
     print("Current working directory set to:", os.getcwd())
 
+def export_to_csv(df):
+    """Write a DataFramer to CSV
+    """
+    # Write the DataFrame to a CSV file
+    print(os.getcwd())
+    df.to_csv('output/corridor_volumes.csv', index=False)  # index=False prevents writing row numbers to the CSV
+    print("CSV file has been written successfully.")
+
+def main():    
+    """The main function to get volume and 3D coordinates for all meshes in the scene, then exporting it to CSV
+    """
+    
+    # set the working directory to the one for the current BLEND file
+    set_working_directory()
     
     # create dict for exporting results
     result = {'corridor_number': [], 'volume': []}
@@ -68,11 +81,7 @@ def main():
     # Convert the dictionary to a DataFrame
     df = pd.DataFrame(result)
     
-    # Write the DataFrame to a CSV file
-    print(os.getcwd())
-    df.to_csv('output/corridor_volumes.csv', index=False)  # index=False prevents writing row numbers to the CSV
-    print("CSV file has been written successfully.")
-            
+    export_to_csv(df)
 
 if __name__ == "__main__":
     main()
