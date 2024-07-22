@@ -1,0 +1,1174 @@
+,as_label,uberon_id,sex,ref_organ
+0,Spatial entity of female abdominal ostium of uterine tube,FMA:77049,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+1,Spatial entity of female anterior wall of uterus,FMA:224876,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+2,Spatial entity of female body of uterus,UBERON:0009853,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+3,Spatial entity of female cervix,UBERON:0000002,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+4,Spatial entity of female external cervical os,UBERON:0013760,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+5,Spatial entity of female fundus of uterus,FMA:17561,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+6,Spatial entity of female internal cervical os,UBERON:0013759,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+7,Spatial entity of female lower uterine segment,FMA:17752,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+8,Spatial entity of female posterior wall of uterus,FMA:224878,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+9,Spatial entity of female fundus of urinary bladder base,UBERON:0006082,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+10,Spatial entity of female fundus of urinary bladder dome,UBERON:0006082,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+11,Spatial entity of female trigone of urinary bladder,UBERON:0001257,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+12,Spatial entity of female ureteral orifice,FMA:15940,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+13,Spatial entity of female ureteral orifice,FMA:15939,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+14,Spatial entity of female urinary bladder neck smooth muscle,UBERON:0004230,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+15,Spatial entity of male posterior parahippocampal gyrus R,UBERON:0002657,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+16,Spatial entity of male precuneus L,UBERON:0006093,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+17,Spatial entity of male precuneus R,UBERON:0006093,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+18,Spatial entity of male primary motor cortex L,UBERON:0002703,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+19,Spatial entity of male primary motor cortex R,UBERON:0002703,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+20,Spatial entity of male putamen L,UBERON:0008884,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+21,Spatial entity of male putamen R,UBERON:0008885,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+22,Spatial entity of male red nucleus L,UBERON:0001947,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+23,Spatial entity of male red nucleus R,UBERON:0001947,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+24,Spatial entity of male subcallosal gyrus parolfactory gyrus L,UBERON:0003020,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+25,Spatial entity of male subcallosal gyrus parolfactory gyrus R,UBERON:0003020,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+26,Spatial entity of male substantia nigra L,UBERON:0002038,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+27,Spatial entity of male substantia nigra R,UBERON:0002038,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+28,Spatial entity of male superior colliculus L,UBERON:0001945,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+29,Spatial entity of male superior colliculus R,UBERON:0001945,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+30,Spatial entity of male superior frontal gyrus L,UBERON:0002661,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+31,Spatial entity of male superior frontal gyrus R,UBERON:0002661,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+32,Spatial entity of male superior occipital gyrus L,UBERON:0002948,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+33,Spatial entity of male superior occipital gyrus R,UBERON:0002948,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+34,Spatial entity of male superior temporal gyrus L,UBERON:0002769,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+35,Spatial entity of male superior temporal gyrus R,UBERON:0002769,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+36,Spatial entity of male temporal pole L,UBERON:0002576,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+37,Spatial entity of male temporal pole R,UBERON:0002576,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+38,Spatial entity of male optic chiasm,UBERON:0000959,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+39,Spatial entity of male anterior cardiac vein,FMA:76767,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+40,Spatial entity of male aorta,UBERON:0000947,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+41,Spatial entity of male aortic arch,UBERON:0001508,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+42,Spatial entity of male ascending aorta,UBERON:0001496,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+43,Spatial entity of male blood vasculature of eye,UBERON:0002203,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+44,Spatial entity of male brachiocephalic artery,UBERON:0001529,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+45,Spatial entity of male brachiocephalic artery a,UBERON:0001529,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+46,Spatial entity of male brachiocephalic artery b,UBERON:0001529,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+47,Spatial entity of male brachiocephalic vein,FMA:4723,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+48,Spatial entity of male brachiocephalic vein,FMA:4761,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+49,Spatial entity of male brachiocephalic vein,FMA:4751,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+50,Spatial entity of male cardiac vein,UBERON:0004148,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+51,Spatial entity of male celiac trunk,FMA:14812,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+52,Spatial entity of male central retinal artery,FMA:49881,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+53,Spatial entity of male central retinal artery,FMA:49880,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+54,Spatial entity of male central retinal vein,FMA:51885,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+55,Spatial entity of male central retinal vein,FMA:51884,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+56,Spatial entity of male colic artery,UBERON:0035548,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+57,Spatial entity of male common hepatic artery,UBERON:0005436,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+58,Spatial entity of male common iliac vein,UBERON:0001139,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+59,Spatial entity of male common iliac vein,FMA:21388,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+60,Spatial entity of male common iliac vein,FMA:21387,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+61,Spatial entity of male coronary sinus,UBERON:0005438,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+62,Spatial entity of male cystic artery,UBERON:0039222,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+63,Spatial entity of male cystic vein,UBERON:0035392,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+64,Spatial entity of male descending aorta,UBERON:0001514,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+65,Spatial entity of male descending aorta a,UBERON:0001514,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+66,Spatial entity of male descending aorta b,UBERON:0001514,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+67,Spatial entity of male diagonal branch of anterior descending branch of left coronary artery,FMA:3860,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+68,Spatial entity of male diagonal branch of left anterior descending artery,FMA:3860,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+69,Spatial entity of male external iliac vein,UBERON:0001316,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+70,Spatial entity of male great cardiac vein,UBERON:0006958,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+71,Spatial entity of male hepatic portal vein,UBERON:0001639,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+72,Spatial entity of male ileocolic artery,UBERON:0035548,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+73,Spatial entity of male ileocolic vein,UBERON:0001219,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+74,Spatial entity of male inferior mesenteric artery,UBERON:0001183,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+75,Spatial entity of male inferior mesenteric vein,UBERON:0001215,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+76,Spatial entity of male inferior ophthalmic vein,FMA:51251,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+77,Spatial entity of male inferior ophthalmic vein,FMA:51250,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+78,Spatial entity of male inferior pancreaticoduodenal vein,FMA:0329299,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+79,Spatial entity of male inferior rectal vein,FMA:21242,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+80,Spatial entity of male inferior rectal vein,FMA:21314,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+81,Spatial entity of male inferior rectal vein,FMA:21313,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+82,Spatial entity of male inferior vena cava,FMA:10951,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+83,Spatial entity of male inferior vena cava a,FMA:10951,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+84,Spatial entity of male inferior vena cava b,FMA:10951,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+85,Spatial entity of male internal iliac vein,UBERON:0001317,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+86,Spatial entity of male internal pudendal vein,UBERON:0018252,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+87,Spatial entity of male left anterior descending artery,FMA:8636,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+88,Spatial entity of male left colic artery,FMA:14826,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+89,Spatial entity of male left colic vein,FMA:15394,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+90,Spatial entity of male left common carotid artery,UBERON:0001536,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+91,Spatial entity of male left common carotid artery a,UBERON:0001536,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+92,Spatial entity of male left common carotid artery b,UBERON:0001536,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+93,Spatial entity of male left coronary artery,UBERON:0001626,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+94,Spatial entity of male left hepatic artery,FMA:14779,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+95,Spatial entity of male left hepatic vein,FMA:14339,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+96,Spatial entity of male left marginal branch,FMA:3902,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+97,Spatial entity of male left renal artery,UBERON:0001186,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+98,Spatial entity of male left subclavian artery,UBERON:0001584,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+99,Spatial entity of male left subclavian artery a,UBERON:0001584,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+100,Spatial entity of male left subclavian artery b,UBERON:0001584,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+101,Spatial entity of male long posterior ciliary artery,FMA:49958,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+102,Spatial entity of male long posterior ciliary artery,FMA:49957,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+103,Spatial entity of male marginal artery of D,FMA:14824,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+104,Spatial entity of male median sacral vein,UBERON:0006687,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+105,Spatial entity of male middle cardiac vein,UBERON:0009687,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+106,Spatial entity of male middle colic artery,UBERON:0001196,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+107,Spatial entity of male middle colic vein,UBERON:0001218,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+108,Spatial entity of male middle hepatic vein,FMA:14340,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+109,Spatial entity of male middle rectal vein,FMA:18893,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+110,Spatial entity of male middle rectal vein,FMA:18895,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+111,Spatial entity of male middle rectal vein,FMA:18894,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+112,Spatial entity of male oblique vein of left atrium,FMA:4715,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+113,Spatial entity of male ophthalmic vein,UBERON:0011191,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+114,Spatial entity of male opthalmic artery,UBERON:0001619,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+115,Spatial entity of male posterior vein of left ventricle,FMA:4712,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+116,Spatial entity of male proper hepatic artery,FMA:14772,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+117,Spatial entity of male pulmonary artery,UBERON:0002012,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+118,Spatial entity of male pulmonary artery,UBERON:0001652,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+119,Spatial entity of male pulmonary artery,UBERON:0001651,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+120,Spatial entity of male pulmonary trunk,UBERON:0002333,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+121,Spatial entity of male pulmonary vein,UBERON:0002016,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+122,Spatial entity of male pulmonary vein i,FMA:49913,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+123,Spatial entity of male pulmonary vein s,FMA:49916,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+124,Spatial entity of male pulmonary vein i,FMA:49911,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+125,Spatial entity of male pulmonary vein s,FMA:49914,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+126,Spatial entity of male renal artery,UBERON:0001184,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+127,Spatial entity of male renal vein,UBERON:0001140,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+128,Spatial entity of male renal vein,UBERON:0001142,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+129,Spatial entity of male renal vein,UBERON:0001141,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+130,Spatial entity of male right colic artery,FMA:14811,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+131,Spatial entity of male right colic vein,FMA:15407,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+132,Spatial entity of male right coronary artery,UBERON:0001625,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+133,Spatial entity of male right hepatic artery,FMA:14778,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+134,Spatial entity of male right hepatic vein,FMA:14338,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+135,Spatial entity of male right marginal artery,FMA:3818,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+136,Spatial entity of male right posterior descending artery,FMA:3840,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+137,Spatial entity of male right renal artery,UBERON:0001185,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+138,Spatial entity of male sigmoid artery,UBERON:0035180,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+139,Spatial entity of male sigmoid artery a,UBERON:0035180,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+140,Spatial entity of male sigmoid artery b,UBERON:0035180,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+141,Spatial entity of male sigmoid artery c,UBERON:0035180,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+142,Spatial entity of male sigmoid vein,FMA:15395,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+143,Spatial entity of male small cardiac vein,UBERON:0035374,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+144,Spatial entity of male splenic artery,UBERON:0001194,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+145,Spatial entity of male splenic vein,UBERON:0003713,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+146,Spatial entity of male superior mesenteric artery,UBERON:0001182,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+147,Spatial entity of male superior mesenteric vein,UBERON:0001182,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+148,Spatial entity of male superior ophthalmic vein,FMA:51249,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+149,Spatial entity of male superior ophthalmic vein,FMA:51248,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+150,Spatial entity of male superior rectal vein,UBERON:0035040,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+151,Spatial entity of male superior vena cava,FMA:4720,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+152,Spatial entity of male vena cava,UBERON:0004087,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+153,Spatial entity of female pontine tegmentum L,UBERON:0003023,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+154,Spatial entity of female pontine tegmentum R,UBERON:0003023,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+155,Spatial entity of female postcentral gyrus L,UBERON:0002581,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+156,Spatial entity of female postcentral gyrus R,UBERON:0002581,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+157,Spatial entity of female posterior intermediate orbital gyrus L,UBERON:0002644,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+158,Spatial entity of female posterior intermediate orbital gyrus R,UBERON:0002644,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+159,Spatial entity of female posterior parahippocampal gyrus L,UBERON:0002657,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+160,Spatial entity of female posterior parahippocampal gyrus R,UBERON:0002657,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+161,Spatial entity of female precuneus L,UBERON:0006093,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+162,Spatial entity of female precuneus R,UBERON:0006093,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+163,Spatial entity of female primary motor cortex L,UBERON:0002703,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+164,Spatial entity of female primary motor cortex R,UBERON:0002703,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+165,Spatial entity of female putamen L,UBERON:0008884,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+166,Spatial entity of female putamen R,UBERON:0008885,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+167,Spatial entity of female red nucleus L,UBERON:0001947,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+168,Spatial entity of female red nucleus R,UBERON:0001947,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+169,Spatial entity of female subcallosal gyrus parolfactory gyrus L,UBERON:0003020,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+170,Spatial entity of female subcallosal gyrus parolfactory gyrus R,UBERON:0003020,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+171,Spatial entity of female substantia nigra L,UBERON:0002038,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+172,Spatial entity of female substantia nigra R,UBERON:0002038,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+173,Spatial entity of female superior colliculus L,UBERON:0001945,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+174,Spatial entity of female superior colliculus R,UBERON:0001945,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+175,Spatial entity of female superior frontal gyrus L,UBERON:0002661,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+176,Spatial entity of female superior frontal gyrus R,UBERON:0002661,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+177,Spatial entity of female superior occipital gyrus L,UBERON:0002948,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+178,Spatial entity of female superior occipital gyrus R,UBERON:0002948,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+179,Spatial entity of female superior temporal gyrus L,UBERON:0002769,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+180,Spatial entity of female superior temporal gyrus R,UBERON:0002769,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+181,Spatial entity of female temporal pole L,UBERON:0002576,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+182,Spatial entity of female temporal pole R,UBERON:0002576,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+183,Spatial entity of female optic chiasm,UBERON:0000959,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+184,Spatial entity of female anterior cardiac vein,FMA:76767,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+185,Spatial entity of female aorta,UBERON:0000947,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+186,Spatial entity of female aortic arch,UBERON:0001508,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+187,Spatial entity of female ascending aorta,UBERON:0001496,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+188,Spatial entity of female blood vasculature of eye,UBERON:0002203,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+189,Spatial entity of female brachiocephalic artery a,UBERON:0001529,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+190,Spatial entity of female brachiocephalic artery b,UBERON:0001529,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+191,Spatial entity of female cardiac vein,UBERON:0004148,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+192,Spatial entity of female celiac trunk,FMA:14812,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+193,Spatial entity of female central retinal artery,FMA:49881,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+194,Spatial entity of female central retinal artery,FMA:49880,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+195,Spatial entity of female central retinal vein,FMA:51885,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+196,Spatial entity of female central retinal vein,FMA:51884,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+197,Spatial entity of female common hepatic artery,UBERON:0005436,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+198,Spatial entity of female common iliac vein,UBERON:0001139,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+199,Spatial entity of female coronary sinus,UBERON:0005438,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+200,Spatial entity of female cystic artery,UBERON:0039222,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+201,Spatial entity of female cystic vein,UBERON:0035392,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+202,Spatial entity of female descending aorta,UBERON:0001514,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+203,Spatial entity of female descending aorta a,UBERON:0001514,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+204,Spatial entity of female descending aorta b,UBERON:0001514,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+205,Spatial entity of female diagonal branch of left anterior descending artery,FMA:3860,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+206,Spatial entity of female great cardiac vein,UBERON:0006958,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+207,Spatial entity of female hepatic portal vein,UBERON:0001639,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+208,Spatial entity of female ileocolic artery,UBERON:0035548,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+209,Spatial entity of female ileocolic vein,UBERON:0001219,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+210,Spatial entity of female inferior mesenteric artery,UBERON:0001183,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+211,Spatial entity of female inferior mesenteric vein,UBERON:0001182,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+212,Spatial entity of female inferior ophthalmic vein,FMA:51251,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+213,Spatial entity of female inferior ophthalmic vein,FMA:51250,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+214,Spatial entity of female inferior pancreaticoduodenal vein,FMA:0329299,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+215,Spatial entity of female inferior rectal vein,FMA:21242,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+216,Spatial entity of female inferior vena cava,FMA:10951,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+217,Spatial entity of female inferior vena cava a,FMA:10951,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+218,Spatial entity of female inferior vena cava b,FMA:10951,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+219,Spatial entity of female internal iliac vein,UBERON:0001317,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+220,Spatial entity of female internal pudendal vein,UBERON:0018252,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+221,Spatial entity of female left anterior descending artery,FMA:8636,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+222,Spatial entity of female left circumflex artery,UBERON:0035422,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+223,Spatial entity of female left colic artery,FMA:14826,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+224,Spatial entity of female left colic vein,FMA:15394,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+225,Spatial entity of female left common carotid artery,UBERON:0001536,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+226,Spatial entity of female left common carotid artery a,UBERON:0001536,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+227,Spatial entity of female left common carotid artery b,UBERON:0001536,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+228,Spatial entity of female left common iliac vein,FMA:21388,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+229,Spatial entity of female left coronary artery,UBERON:0001626,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+230,Spatial entity of female left hepatic artery,FMA:14779,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+231,Spatial entity of female left hepatic vein,FMA:14339,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+232,Spatial entity of female left marginal branch,FMA:3902,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+233,Spatial entity of female left marginal vein,FMA:4708,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+234,Spatial entity of female left posterior descending branch of circumflex branch of left coronary artery,FMA:322904,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+235,Spatial entity of female left renal artery,UBERON:0001186,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+236,Spatial entity of female left renal vein,UBERON:0001142,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+237,Spatial entity of female left subclavian artery,UBERON:0001584,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+238,Spatial entity of female left subclavian artery a,UBERON:0001584,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+239,Spatial entity of female left subclavian artery b,UBERON:0001584,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+240,Spatial entity of female left uterine artery,FMA:18831,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+241,Spatial entity of female left uterine vein,FMA:18898,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+242,Spatial entity of female long posterior ciliary artery,FMA:49958,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+243,Spatial entity of female long posterior ciliary artery,FMA:49957,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+244,Spatial entity of female marginal artery of D,FMA:14824,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+245,Spatial entity of female carina,UBERON:0006679,Female,https://purl.humanatlas.io/ref-organ/trachea-female/v1.1#primary
+246,Spatial entity of female tracheal cartilage,UBERON:0003604,Female,https://purl.humanatlas.io/ref-organ/trachea-female/v1.1#primary
+247,Spatial entity of female thymus lobe,UBERON:0005457,Female,https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary
+248,Spatial entity of female thymus lobe,UBERON:0005469,Female,https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary
+249,Spatial entity of female colic surface of spleen,FMA:15838,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+250,Spatial entity of female diaphragmatic surface of spleen,FMA:15828,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+251,Spatial entity of female gastric surface of spleen,FMA:15837,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+252,Spatial entity of female hilum of spleen,UBERON:0001248,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+253,Spatial entity of female renal surface of spleen,FMA:15839,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+254,Spatial entity of female,UBERON:0006469,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+255,Spatial entity of female,UBERON:0006489,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+256,Spatial entity of female,UBERON:0006488,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+257,Spatial entity of female,UBERON:0006490,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+258,Spatial entity of female,UBERON:0006491,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+259,Spatial entity of female,UBERON:0006492,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+260,Spatial entity of female,UBERON:0006493,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+261,Spatial entity of female,UBERON:0006470,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+262,Spatial entity of female eigth thoracic spinal cord segment,UBERON:0006456,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+263,Spatial entity of female eleventh thoracic spinal cord segment,UBERON:0006467,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+264,Spatial entity of female fifth lumbar spinal cord segment,UBERON:0006447,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+265,Spatial entity of female fifth thoracic spinal cord segment,UBERON:0006453,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+266,Spatial entity of female first lumbar spinal cord segment,UBERON:0006448,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+267,Spatial entity of female first sacral spinal cord segment,UBERON:0006460,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+268,Spatial entity of female first thoracic spinal cord segment,UBERON:0006457,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+269,Spatial entity of female fourth lumbar spinal cord segment,UBERON:0006451,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+270,Spatial entity of female fourth sacral spinal cord segment,UBERON:0006463,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+271,Spatial entity of female fourth thoracic spinal cord segment,UBERON:0006452,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+272,Spatial entity of female ninth thoracic spinal cord segment,UBERON:0006465,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+273,Spatial entity of female second lumbar spinal cord segment,UBERON:0006450,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+274,Spatial entity of female second sacral spinal cord segment,UBERON:0006461,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+275,Spatial entity of female second thoracic spinal cord segment,UBERON:0006458,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+276,Spatial entity of female seventh thoracic spinal cord segment,UBERON:0006455,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+277,Spatial entity of female sixth thoracic spinal cord segment,UBERON:0006454,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+278,Spatial entity of female tenth thoracic spinal cord segment,UBERON:0006466,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+279,Spatial entity of female third lumbar spinal cord segment,UBERON:0006449,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+280,Spatial entity of female third sacral spinal cord segment,UBERON:0006462,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+281,Spatial entity of female third thoracic spinal cord segment,UBERON:0006459,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+282,Spatial entity of female twelfth thoracic spinal cord segment,UBERON:0006468,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+283,Spatial entity of female duodenal ampulla,UBERON:0013644,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+284,Spatial entity of female duodenum,UBERON:0002114,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+285,Spatial entity of female duodenum ascending,FMA:14930,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+286,Spatial entity of female duodenum descending,FMA:14928,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+287,Spatial entity of female duodenum horizontal,FMA:14929,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+288,Spatial entity of female duodenum superior,FMA:7206,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+289,Spatial entity of female ileum,UBERON:0002116,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+290,Spatial entity of female ileum terminal,FMA:14966,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+291,Spatial entity of female jejenum,UBERON:0002115,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+292,Spatial entity of female sphincter of heptopancreatic ampulla,FMA:15077,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+293,Spatial entity of female amnion,UBERON:0000305,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+294,Spatial entity of female chorionic plate,UBERON:0004027,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+295,Spatial entity of female umbilical artery 1,UBERON:0001310,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+296,Spatial entity of female umbilical artery 2,UBERON:0001310,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+297,Spatial entity of female umbilical cord,UBERON:0002331,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+298,Spatial entity of female umbilical vein,UBERON:0002066,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+299,Spatial entity of female coccyx,UBERON:0001350,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+300,Spatial entity of female ilium,UBERON:0001273,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+301,Spatial entity of female ilium compact bone,UBERON:0001439,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+302,Spatial entity of female ilium spongy bone,UBERON:0002483,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+303,Spatial entity of female ischium,UBERON:0001274,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+304,Spatial entity of female ischium compact bone,UBERON:0001439,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+305,Spatial entity of female ischium spongy bone,UBERON:0002483,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+306,Spatial entity of female pubis,UBERON:0001275,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+307,Spatial entity of female pubis compact bone,UBERON:0001439,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+308,Spatial entity of female pubis spongy bone,UBERON:0002483,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+309,Spatial entity of male fundus of urinary bladder,UBERON:0006082,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+310,Spatial entity of male fundus of urinary bladder base 1,UBERON:0006082,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+311,Spatial entity of male fundus of urinary bladder dome,UBERON:0006082,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+312,Spatial entity of male trigone of urinary bladder,UBERON:0001257,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+313,Spatial entity of male ureteral orifice,FMA:15940,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+314,Spatial entity of male ureteral orifice,FMA:15939,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+315,Spatial entity of male urinary bladder neck smooth muscle,UBERON:0004230,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+316,Spatial entity of female median sacral vein,UBERON:0006687,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+317,Spatial entity of female middle cardiac vein,UBERON:0009687,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+318,Spatial entity of female middle colic artery,UBERON:0001196,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+319,Spatial entity of female middle colic vein,UBERON:0001218,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+320,Spatial entity of female middle hepatic vein,FMA:14340,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+321,Spatial entity of female middle rectal vein,FMA:18893,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+322,Spatial entity of female middle rectal vein,FMA:18895,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+323,Spatial entity of female middle rectal vein,FMA:18894,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+324,Spatial entity of female oblique vein of left atrium,FMA:4715,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+325,Spatial entity of female ophthalmic vein,UBERON:0011191,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+326,Spatial entity of female opthalmic artery,UBERON:0001619,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+327,Spatial entity of female posterior left ventricular branch,FMA:13905,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+328,Spatial entity of female posterior vein of left ventricle,FMA:4712,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+329,Spatial entity of female proper hepatic artery,FMA:14772,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+330,Spatial entity of female pulmonary artery,UBERON:0002012,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+331,Spatial entity of female pulmonary artery,UBERON:0001652,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+332,Spatial entity of female pulmonary artery,UBERON:0001651,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+333,Spatial entity of female pulmonary trunk,UBERON:0002333,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+334,Spatial entity of female pulmonary vein,UBERON:0002016,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+335,Spatial entity of female pulmonary vein i,FMA:49911,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+336,Spatial entity of female pulmonary vein s,FMA:49916,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+337,Spatial entity of female pulmonary vein i,FMA:49913,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+338,Spatial entity of female pulmonary vein s,FMA:49914,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+339,Spatial entity of female renal artery,UBERON:0001184,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+340,Spatial entity of female renal vein,UBERON:0001140,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+341,Spatial entity of female right colic artery,FMA:14811,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+342,Spatial entity of female right colic vein,FMA:15407,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+343,Spatial entity of female right common iliac vein,FMA:21387,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+344,Spatial entity of female right coronary artery,UBERON:0001625,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+345,Spatial entity of female right hepatic artery,FMA:14778,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+346,Spatial entity of female right hepatic vein,FMA:14338,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+347,Spatial entity of female right marginal artery,FMA:3818,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+348,Spatial entity of female right renal artery,UBERON:0001185,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+349,Spatial entity of female right renal vein,UBERON:0001141,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+350,Spatial entity of female right uterine artery,FMA:18830,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+351,Spatial entity of female right uterine vein,FMA:18897,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+352,Spatial entity of female sigmoid artery,UBERON:0035180,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+353,Spatial entity of female sigmoid artery a,UBERON:0035180,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+354,Spatial entity of female sigmoid artery b,UBERON:0035180,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+355,Spatial entity of female sigmoid artery c,UBERON:0035180,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+356,Spatial entity of female sigmoid vein,FMA:15395,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+357,Spatial entity of female sigmoid vein a,FMA:15395,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+358,Spatial entity of female sigmoid vein b,FMA:15395,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+359,Spatial entity of female sigmoid vein c,FMA:15395,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+360,Spatial entity of female small cardiac vein,UBERON:0035374,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+361,Spatial entity of female splenic artery,UBERON:0001194,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+362,Spatial entity of female splenic vein,UBERON:0003713,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+363,Spatial entity of female superior mesenteric artery,UBERON:0001182,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+364,Spatial entity of female superior mesenteric vein,UBERON:0001138,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+365,Spatial entity of female superior ophthalmic vein,FMA:51249,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+366,Spatial entity of female superior ophthalmic vein,FMA:51248,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+367,Spatial entity of female superior rectal artery,UBERON:0035040,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+368,Spatial entity of female superior rectal vein,UBERON:0035040,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+369,Spatial entity of female superior vena cava,FMA:4720,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+370,Spatial entity of female vena cava,UBERON:0004087,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+371,Spatial entity of female sacrum,UBERON:0003690,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+372,Spatial entity of female body of pancreas,UBERON:0001150,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+373,Spatial entity of female head of pancreas,UBERON:0001069,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+374,Spatial entity of female neck of pancreas,FMA:14517,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+375,Spatial entity of female tail of pancreas,UBERON:0001151,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+376,Spatial entity of female ucinate process 1,UBERON:0010373,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+377,Spatial entity of female right areola,FMA:223677,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+378,Spatial entity of female right areolar tubercles,UBERON:0011828,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+379,Spatial entity of female right fat,FMA:73165,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+380,Spatial entity of female right main lactiferous ducts,UBERON:0015134,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+381,Spatial entity of female right main lactiferous sinuses,FMA:58088,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+382,Spatial entity of female right mammary lobes,UBERON:0018140,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+383,Spatial entity of female right nipple,UBERON:0013773,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+384,Spatial entity of female right suspensory ligaments,FMA:73118,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+385,Spatial entity of female left areola,FMA:223679,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+386,Spatial entity of female left areolar tubercles,UBERON:0011828,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+387,Spatial entity of female left fat,FMA:73166,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+388,Spatial entity of female left main lactiferous ducts,UBERON:0015134,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+389,Spatial entity of female left main lactiferous sinuses,FMA:58088,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+390,Spatial entity of female left mammary lobes,UBERON:0018140,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+391,Spatial entity of female left nipple,UBERON:0013772,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+392,Spatial entity of female left suspensory ligaments,FMA:73119,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+393,Spatial entity of female cartilage of main bronchus,FMA:13144,Female,https://purl.humanatlas.io/ref-organ/main-bronchus-female/v1.1#primary
+394,Spatial entity of female cartilage of main bronchus,FMA:13143,Female,https://purl.humanatlas.io/ref-organ/main-bronchus-female/v1.1#primary
+395,Spatial entity of female left main bronchus,UBERON:0002178,Female,https://purl.humanatlas.io/ref-organ/main-bronchus-female/v1.1#primary
+396,Spatial entity of female right main bronchus,UBERON:0002177,Female,https://purl.humanatlas.io/ref-organ/main-bronchus-female/v1.1#primary
+397,Spatial entity of female afferent lymphatic vessel,UBERON:0010396,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+398,Spatial entity of female blood vasculature,UBERON:0004536,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+399,Spatial entity of female capsule of lymph node,UBERON:0002194,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+400,Spatial entity of female efferent lymph node,UBERON:0010397,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+401,Spatial entity of female follicles,UBERON:0010748,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+402,Spatial entity of female medulla of lymph node,UBERON:0002007,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+403,Spatial entity of female paracortex,UBERON:0010417,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+404,Spatial entity of female bronchi,UBERON:0002185,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+405,Spatial entity of female cartilage of lobar bronchus,FMA:62659,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+406,Spatial entity of female cartilage of tertiary bronchus,FMA:62662,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+407,Spatial entity of female hilum,UBERON:0004887,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+408,Spatial entity of female hilum lower,UBERON:0004887,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+409,Spatial entity of female hilum lower,UBERON:0004888,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+410,Spatial entity of female hilum middle,UBERON:0004888,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+411,Spatial entity of female hilum,UBERON:0004888,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+412,Spatial entity of female hilum upper,UBERON:0004887,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+413,Spatial entity of female hilum upper,UBERON:0004888,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+414,Spatial entity of female lung lower lobe,UBERON:0008953,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+415,Spatial entity of female lung upper lobe,UBERON:0008952,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+416,Spatial entity of female left anterior basal bronchopulmonary segment,FMA:7378,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+417,Spatial entity of female left anterior basal bronchus,FMA:7506,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+418,Spatial entity of female left anterior bronchopulmonary segment,FMA:7373,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+419,Spatial entity of female left anterior bronchus,FMA:7428,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+420,Spatial entity of female left apical bronchopulmonary segment,FMA:7385,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+421,Spatial entity of female left apical bronchus,FMA:7426,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+422,Spatial entity of female left inferior lobar bronchus,UBERON:0012066,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+423,Spatial entity of female left lateral basal bronchopulmonary segment,FMA:7379,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+424,Spatial entity of female left lateral basal bronchus,FMA:7507,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+425,Spatial entity of female left lingula inferior bronchi,FMA:7431,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+426,Spatial entity of female left lingula superior bronchus,FMA:7430,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+427,Spatial entity of female left lungs,UBERON:0002168,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+428,Spatial entity of female lung lower lobe,UBERON:0002171,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+429,Spatial entity of female lung middle lobe,UBERON:0002174,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+430,Spatial entity of female lung upper lobe,UBERON:0002170,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+431,Spatial entity of female left medial basal bronchopulmonary segment,FMA:7377,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+432,Spatial entity of female left medial basal bronchus,FMA:7505,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+433,Spatial entity of female left posterior basal bronchopulmonary segment,FMA:7380,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+434,Spatial entity of female left posterior basal bronchus,FMA:7508,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+435,Spatial entity of female left posterior bronchopulmonary segment,FMA:7386,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+436,Spatial entity of female left posterior bronchus,FMA:7427,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+437,Spatial entity of female left superior bronchopulmonary segment,FMA:7376,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+438,Spatial entity of female left superior bronchus,FMA:7504,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+439,Spatial entity of female left superior lobar bronchus,UBERON:0012065,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+440,Spatial entity of female lingula inferior bronchopulmonary segment,FMA:7375,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+441,Spatial entity of female lingula superior bronchopulmonary segment,FMA:7374,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+442,Spatial entity of female lobar bronchi,UBERON:0003405,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+443,Spatial entity of female lobar bronchus,UBERON:0003404,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+444,Spatial entity of female lungs,UBERON:0002048,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+445,Spatial entity of female lungs,UBERON:0002167,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+446,Spatial entity of female right anterior basal bronchopulmonary segment,FMA:7364,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+447,Spatial entity of female right anterior basal bronchus,FMA:7418,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+448,Spatial entity of female right anterior bronchopulmonary segm,FMA:7359,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+449,Spatial entity of female right anterior bronchus,FMA:7400,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+450,Spatial entity of female right apical bronchopulmonary segment,FMA:7338,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+451,Spatial entity of female right apical bronchus,FMA:7398,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+452,Spatial entity of female right inferior lobar bronchus,FMA:7404,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+453,Spatial entity of female right lateral basal bronchopulmonary segment,FMA:7363,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+454,Spatial entity of female right lateral basal bronchus,FMA:7419,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+455,Spatial entity of female right lateral bronchopulmonary segmennt,FMA:7361,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+456,Spatial entity of female right lateral bronchus,FMA:7402,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+457,Spatial entity of female right medial basal bronchopulmonary segment,FMA:7365,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+458,Spatial entity of female right medial basal bronchus,FMA:7417,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+459,Spatial entity of female right medial bronchopulmonary segment,FMA:7360,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+460,Spatial entity of female right medial bronchus,FMA:7403,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+461,Spatial entity of female right middle lobar bronchus,FMA:7401,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+462,Spatial entity of female right posterior basal bronchopulmonary segment,FMA:7362,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+463,Spatial entity of female right posterior basal bronchus,FMA:7420,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+464,Spatial entity of female right posterior bronchopulmonary segment,FMA:7339,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+465,Spatial entity of female right posterior bronchus,FMA:7399,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+466,Spatial entity of female right superior bronchopulmonary segment,FMA:7366,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+467,Spatial entity of female right superior bronchus,FMA:7416,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+468,Spatial entity of female right superior lobar bronchus,FMA:7397,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+469,Spatial entity of female tertiary bronchi,UBERON:0002184,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+470,Spatial entity of female bare area of liver,UBERON:0001149,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+471,Spatial entity of female capsule of the liver,UBERON:0016479,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+472,Spatial entity of female caudate lobe,UBERON:0001117,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+473,Spatial entity of female colic impression of liver,FMA:14484,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+474,Spatial entity of female coronary ligament of liver,UBERON:0013138,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+475,Spatial entity of female diaphragmatic surface of liver,FMA:15729,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+476,Spatial entity of female duodenal impression of liver,FMA:14485,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+477,Spatial entity of female esophageal impression of liver,FMA:14486,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+478,Spatial entity of female falciform ligament,UBERON:0001247,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+479,Spatial entity of female gastric impression of liver,FMA:14487,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+480,Spatial entity of female hepataduodenal ligament,UBERON:0012472,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+481,Spatial entity of female left lobe of liver,UBERON:0001115,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+482,Spatial entity of female ligamentum venosum,UBERON:0006587,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+483,Spatial entity of female liver left lateral lobe,UBERON:0006727,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+484,Spatial entity of female liver left medial lobe,UBERON:0006728,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+485,Spatial entity of female porta hepatis,FMA:15758,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+486,Spatial entity of female quadrate lobe,UBERON:0001116,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+487,Spatial entity of female renal impression of liver,FMA:14488,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+488,Spatial entity of female right lobe of liver,UBERON:0001114,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+489,Spatial entity of female round ligament of liver,UBERON:0006588,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+490,Spatial entity of female suprarenal impression of liver,FMA:14489,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+491,Spatial entity of female triangular ligament of liver,UBERON:0035444,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+492,Spatial entity of female arytenoid cartilage,UBERON:0001740,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+493,Spatial entity of female arytenoid cartilage,FMA:55114,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+494,Spatial entity of female arytenoid cartilage,FMA:55113,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+495,Spatial entity of female corniculate cartilage,UBERON:0001741,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+496,Spatial entity of female corniculate cartilage,FMA:55116,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+497,Spatial entity of female corniculate cartilage,FMA:55115,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+498,Spatial entity of female cricoid cartilage,UBERON:0002375,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+499,Spatial entity of female epiglotic cartilage,UBERON:0001742,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+500,Spatial entity of female laryngeal cartilage,UBERON:0001739,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+501,Spatial entity of female thyroid cartilage,UBERON:0001738,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+502,Spatial entity of female ascending colon,UBERON:0001156,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+503,Spatial entity of female caecum,UBERON:0001153,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+504,Spatial entity of female descending colon,UBERON:0001158,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+505,Spatial entity of female hepatic flexure of colon,UBERON:0022277,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+506,Spatial entity of female ileocecal valve,UBERON:0000569,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+507,Spatial entity of female rectum,UBERON:0001052,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+508,Spatial entity of female sigmoid colon,UBERON:0001159,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+509,Spatial entity of female splenic flexure of colon,UBERON:0022276,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+510,Spatial entity of female transverse colon,UBERON:0001157,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+511,Spatial entity of female vermiform appendix,UBERON:0001154,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+512,Spatial entity of female right articular cartilage of knee,FMA:33189,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+513,Spatial entity of female right distal most point of medial condyle,UBERON:7500033,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+514,Spatial entity of female right femur,FMA:24474,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+515,Spatial entity of female right fibula,FMA:24480,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+516,Spatial entity of female right intercondylar fossa,FMA:43749,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+517,Spatial entity of female right knee joint,FMA:35176,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+518,Spatial entity of female right lateral condyle of femur frontal,FMA:32860,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+519,Spatial entity of female right lateral condyle of femur inf,FMA:32860,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+520,Spatial entity of female right lateral condyle of femur sup,FMA:32860,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+521,Spatial entity of female medial condyle of right femur inf,FMA:32862,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+522,Spatial entity of female medial condyle of right femur sup,FMA:32862,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+523,Spatial entity of female right patella,FMA:24486,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+524,Spatial entity of female right tibia,FMA:24477,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+525,Spatial entity of female right trochlear groove,FMA:43746,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+526,Spatial entity of female left articular cartilage of knee,FMA:33190,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+527,Spatial entity of female left distal most point of medial condyle,UBERON:7500033,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+528,Spatial entity of female left femur,FMA:24475,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+529,Spatial entity of female left fibula,FMA:24481,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+530,Spatial entity of female left intercondylar fossa,FMA:43750,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+531,Spatial entity of female left knee joint,FMA:35177,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+532,Spatial entity of female left lateral condyle of femur frontal,FMA:32861,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+533,Spatial entity of female left lateral condyle of femur inf,FMA:32861,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+534,Spatial entity of female left lateral condyle of femur sup,FMA:32861,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+535,Spatial entity of female medial condyle of left femur inf,FMA:32863,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+536,Spatial entity of female medial condyle of left femur sup,FMA:32863,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+537,Spatial entity of female left patella,FMA:24487,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+538,Spatial entity of female left tibia,FMA:24478,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+539,Spatial entity of female left trochlear groove,FMA:43747,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+540,Spatial entity of female right cortex of kidney,UBERON:0001225,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+541,Spatial entity of female right hilum of kidney,UBERON:0008716,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+542,Spatial entity of female right kidney capsule,UBERON:0002015,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+543,Spatial entity of female right outer cortex of kidney,UBERON:0002189,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+544,Spatial entity of female right renal column,UBERON:0001284,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+545,Spatial entity of female right renal medulla,UBERON:0000362,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+546,Spatial entity of female right renal papilla,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+547,Spatial entity of female right renal papilla a,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+548,Spatial entity of female right renal papilla b,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+549,Spatial entity of female right renal papilla c,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+550,Spatial entity of male carina,UBERON:0006679,Male,https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary
+551,Spatial entity of male tracheal cartilage,UBERON:0003604,Male,https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary
+552,Spatial entity of male thymus lobe,UBERON:0005457,Male,https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary
+553,Spatial entity of male thymus lobe,UBERON:0005469,Male,https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary
+554,Spatial entity of male colic surface of spleen,FMA:15838,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+555,Spatial entity of male diaphragmatic surface of spleen,FMA:15828,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+556,Spatial entity of male gastric surface of spleen,FMA:15837,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+557,Spatial entity of male hilum of spleen,UBERON:0001248,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+558,Spatial entity of male renal surface of spleen,FMA:15839,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+559,Spatial entity of male,UBERON:0006469,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+560,Spatial entity of male,UBERON:0006489,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+561,Spatial entity of male,UBERON:0006488,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+562,Spatial entity of male,UBERON:0006490,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+563,Spatial entity of male,UBERON:0006491,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+564,Spatial entity of male,UBERON:0006492,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+565,Spatial entity of male,UBERON:0006493,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+566,Spatial entity of male,UBERON:0006470,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+567,Spatial entity of male eighth thoracic spinal cord segment,UBERON:0006456,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+568,Spatial entity of male eleventh thoracic spinal cord segment,UBERON:0006467,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+569,Spatial entity of male fifth lumbar spinal cord segment,UBERON:0006447,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+570,Spatial entity of male fifth sacral spinal cord segment,UBERON:0006464,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+571,Spatial entity of male fifth thoracic spinal cord segment,UBERON:0006453,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+572,Spatial entity of male first lumbar spinal cord segment,UBERON:0006448,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+573,Spatial entity of male first sacral spinal cord segment,UBERON:0006460,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+574,Spatial entity of male first thoracic spinal cord segment,UBERON:0006457,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+575,Spatial entity of male fourth lumbar spinal cord segment,UBERON:0006451,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+576,Spatial entity of male fourth sacral spinal cord segment,UBERON:0006463,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+577,Spatial entity of male fourth thoracic spinal cord segment,UBERON:0006452,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+578,Spatial entity of male ninth thoracic spinal cord segment,UBERON:0006465,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+579,Spatial entity of male second lumbar spinal cord segment,UBERON:0006450,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+580,Spatial entity of male second sacral spinal cord segment,UBERON:0006461,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+581,Spatial entity of male second thoracic spinal cord segment,UBERON:0006458,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+582,Spatial entity of male seventh thoracic spinal cord segment,UBERON:0006455,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+583,Spatial entity of male sixth thoracic spinal cord segment,UBERON:0006454,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+584,Spatial entity of male tenth thoracic spinal cord segment,UBERON:0006466,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+585,Spatial entity of male third lumbar spinal cord segment,UBERON:0006449,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+586,Spatial entity of male third sacral spinal cord segment,UBERON:0006462,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+587,Spatial entity of male third thoracic spinal cord segment,UBERON:0006459,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+588,Spatial entity of male twelfth thoracic spinal cord segment,UBERON:0006468,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+589,Spatial entity of male duodenal ampulla,UBERON:0013644,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+590,Spatial entity of male duodenum,UBERON:0002114,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+591,Spatial entity of male duodenum ascending,FMA:14930,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+592,Spatial entity of male duodenum descending,FMA:14928,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+593,Spatial entity of male duodenum horizonal,FMA:14929,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+594,Spatial entity of male duodenum superior,FMA:7206,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+595,Spatial entity of male ileum,UBERON:0002116,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+596,Spatial entity of male ileum terminal,FMA:14966,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+597,Spatial entity of male jejunum,UBERON:0002115,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+598,Spatial entity of male papilla of santorini,UBERON:0004914,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+599,Spatial entity of male sphincter of hepatopancreatic ampulla,FMA:15077,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+600,Spatial entity of male anterior fibromuscular stroma,FMA:74238,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+601,Spatial entity of male apex of prostate,UBERON:0035441,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+602,Spatial entity of male base of prostate,UBERON:0035331,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+603,Spatial entity of male central zone of prostate,UBERON:8410027,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+604,Spatial entity of male ejaculatory duct,UBERON:0000999,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+605,Spatial entity of male male genital duct,UBERON:0010140,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+606,Spatial entity of male peripheral zone of prostate,UBERON:8410026,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+607,Spatial entity of male prostate duct,UBERON:0002485,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+608,Spatial entity of male prostate gland,UBERON:0002367,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+609,Spatial entity of male prostatic utricle,UBERON:0011199,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+610,Spatial entity of male seminal colliculus,FMA:19719,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+611,Spatial entity of female right renal papilla d,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+612,Spatial entity of female right renal papilla e,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+613,Spatial entity of female right renal papilla f,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+614,Spatial entity of female right renal papilla g,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+615,Spatial entity of female right renal papilla h,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+616,Spatial entity of female right renal papilla i,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+617,Spatial entity of female right renal papilla j,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+618,Spatial entity of female right renal pyramid,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+619,Spatial entity of female right renal pyramid a,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+620,Spatial entity of female right renal pyramid b,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+621,Spatial entity of female right renal pyramid c,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+622,Spatial entity of female right renal pyramid d,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+623,Spatial entity of female right renal pyramid e,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+624,Spatial entity of female right renal pyramid f,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+625,Spatial entity of female right renal pyramid g,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+626,Spatial entity of female right renal pyramid h,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+627,Spatial entity of female right renal pyramid i,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+628,Spatial entity of female right renal pyramid j,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+629,Spatial entity of female left cortex of kidney,UBERON:0001225,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+630,Spatial entity of female left hilum of kidney,UBERON:0008716,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+631,Spatial entity of female left kidney capsule,UBERON:0002015,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+632,Spatial entity of female left outer cortex of kidney,UBERON:0002189,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+633,Spatial entity of female left renal column,UBERON:0001284,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+634,Spatial entity of female left renal medulla,UBERON:0000362,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+635,Spatial entity of female left renal papilla,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+636,Spatial entity of female left renal papilla a,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+637,Spatial entity of female left renal papilla b,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+638,Spatial entity of female left renal papilla c,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+639,Spatial entity of female left renal papilla d,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+640,Spatial entity of female left renal papilla e,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+641,Spatial entity of female left renal papilla f,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+642,Spatial entity of female left renal papilla g,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+643,Spatial entity of female left renal papilla h,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+644,Spatial entity of female left renal papilla i,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+645,Spatial entity of female left renal papilla j,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+646,Spatial entity of female left renal papilla k,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+647,Spatial entity of female left renal pyramid,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+648,Spatial entity of female left renal pyramid a,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+649,Spatial entity of female left renal pyramid b,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+650,Spatial entity of female left renal pyramid c,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+651,Spatial entity of female left renal pyramid d,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+652,Spatial entity of female left renal pyramid e,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+653,Spatial entity of female left renal pyramid f,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+654,Spatial entity of female left renal pyramid g,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+655,Spatial entity of female left renal pyramid h,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+656,Spatial entity of female left renal pyramid i,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+657,Spatial entity of female left renal pyramid j,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+658,Spatial entity of female left renal pyramid k,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+659,Spatial entity of female aortic valve,UBERON:0002137,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+660,Spatial entity of female interventricular septum,UBERON:0002094,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+661,Spatial entity of female left cardiac atrium,UBERON:0002079,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+662,Spatial entity of female left ventricle,UBERON:0002084,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+663,Spatial entity of female mitral valve,UBERON:0002135,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+664,Spatial entity of female papillary muscle of heart,UBERON:0002494,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+665,Spatial entity of female papillary muscle of heart ant,FMA:7264,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+666,Spatial entity of female papillary muscle of heart antlat,FMA:7265,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+667,Spatial entity of female papillary muscle of heart med,FMA:7262,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+668,Spatial entity of female papillary muscle of heart pos,FMA:7261,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+669,Spatial entity of female papillary muscle of heart posmed,FMA:7267,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+670,Spatial entity of female pulmonary valve,UBERON:0002146,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+671,Spatial entity of female right cardiac atrium,UBERON:0002078,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+672,Spatial entity of female right ventricle,UBERON:0002080,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+673,Spatial entity of female tricuspid valve,UBERON:0002134,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+674,Spatial entity of female valve,UBERON:0003978,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+675,Spatial entity of female right ampulla of uterine tube,FMA:18491,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary
+676,Spatial entity of female right fibria of uterine tube,FMA:18497,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary
+677,Spatial entity of female right isthmus of fallopian tube,FMA:18493,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary
+678,Spatial entity of female right uterine tube infundibulum,FMA:18489,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary
+679,Spatial entity of female left ampulla of uterine tube,FMA:18492,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary
+680,Spatial entity of female left fibria of uterine tube,FMA:18498,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary
+681,Spatial entity of female left isthmus of fallopian tube,FMA:18494,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary
+682,Spatial entity of female left uterine tube infundibulum,FMA:18490,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary
+683,Spatial entity of female right aqueous humor,FMA:58820,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+684,Spatial entity of female right bulbar conjunctiva,FMA:59028,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+685,Spatial entity of female right ciliary body,FMA:58296,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+686,Spatial entity of female right ciliary muscle,FMA:49152,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+687,Spatial entity of female right ciliary processes,UBERON:0010427,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+688,Spatial entity of female right cornea,FMA:58239,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+689,Spatial entity of female right corneo scleral junction,FMA:58343,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+690,Spatial entity of female right fovea,FMA:58661,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+691,Spatial entity of female right iris,FMA:58236,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+692,Spatial entity of female right lens,FMA:58242,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+693,Spatial entity of female right macula lutea,FMA:58638,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+694,Spatial entity of female right optic choroid,FMA:58299,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+695,Spatial entity of female right optic disc,FMA:58635,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+696,Spatial entity of female right ora serrata of retina,FMA:58601,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+697,Spatial entity of female palpebral conjunctiva of right lower eyelid,FMA:223074,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+698,Spatial entity of female palpebral conjunctiva of right upper eyelid,FMA:223076,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+699,Spatial entity of female right pupil,UBERON:0010224,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+700,Spatial entity of female right retina,FMA:58302,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+701,Spatial entity of female right schlemms canal,FMA:51874,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+702,Spatial entity of female right sclera,FMA:58271,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+703,Spatial entity of female right suspensory ligament of lens,FMA:58839,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+704,Spatial entity of female right trabecular meshwork,UBERON:0005969,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+705,Spatial entity of female right vitreous humor,FMA:261236,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+706,Spatial entity of male seminal vesicle,UBERON:0000998,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+707,Spatial entity of male transition zone  of prostate,UBERON:8410025,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+708,Spatial entity of male transition zone of prostate,UBERON:8410025,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+709,Spatial entity of male coccyx,UBERON:0001350,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+710,Spatial entity of male ilium,UBERON:0001273,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+711,Spatial entity of male ilium compact bone,UBERON:0001439,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+712,Spatial entity of male ilium spongy bone,UBERON:0002483,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+713,Spatial entity of male ischium,UBERON:0001274,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+714,Spatial entity of male ischium compact bone,UBERON:0001439,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+715,Spatial entity of male ischium spongy bone,UBERON:0002483,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+716,Spatial entity of male pubis,UBERON:0001275,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+717,Spatial entity of male pubis compact bone,UBERON:0001439,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+718,Spatial entity of male pubis spongy bone,UBERON:0002483,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+719,Spatial entity of male sacrum,UBERON:0003690,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+720,Spatial entity of male body of pancreas,UBERON:0001150,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+721,Spatial entity of male head of pancreas,UBERON:0001069,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+722,Spatial entity of male neck of pancreas,FMA:14517,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+723,Spatial entity of male tail of pancreas,UBERON:0001151,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+724,Spatial entity of male uncinate process of the pancreas,UBERON:0010373,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+725,Spatial entity of male cartilage of the main bronchus,FMA:13144,Male,https://purl.humanatlas.io/ref-organ/main-bronchus-male/v1.1#primary
+726,Spatial entity of male cartilage of the main bronchus,FMA:13143,Male,https://purl.humanatlas.io/ref-organ/main-bronchus-male/v1.1#primary
+727,Spatial entity of male left main bronchus,UBERON:0002178,Male,https://purl.humanatlas.io/ref-organ/main-bronchus-male/v1.1#primary
+728,Spatial entity of male right main bronchus,UBERON:0002177,Male,https://purl.humanatlas.io/ref-organ/main-bronchus-male/v1.1#primary
+729,Spatial entity of male afferent lymphatic vessel,UBERON:0010396,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+730,Spatial entity of male blood vasculature,UBERON:0004536,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+731,Spatial entity of male capsule of lymph node,UBERON:0002194,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+732,Spatial entity of male efferent lymph node,UBERON:0010397,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+733,Spatial entity of male follicles,UBERON:0010748,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+734,Spatial entity of male medulla of lymph node,UBERON:0002007,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+735,Spatial entity of male paracortex,UBERON:0010417,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+736,Spatial entity of male bronchi,UBERON:0002185,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+737,Spatial entity of male bronchus,UBERON:0002185,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+738,Spatial entity of male cartilage of the lobar bronchus,FMA:62659,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+739,Spatial entity of male cartilage of the tertiary bronchus,FMA:62662,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+740,Spatial entity of male hilum,UBERON:0004887,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+741,Spatial entity of male hilum lower,UBERON:0004887,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+742,Spatial entity of male hilum lower,UBERON:0004888,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+743,Spatial entity of male hilum middle,UBERON:0004888,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+744,Spatial entity of male hilum,UBERON:0004888,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+745,Spatial entity of male hilum upper,UBERON:0004887,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+746,Spatial entity of male hilum upper,UBERON:0004888,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+747,Spatial entity of male left anterior basal bronchopulmonary segment,FMA:7378,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+748,Spatial entity of male left anterior basal bronchus,FMA:7506,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+749,Spatial entity of male left anterior bronchopulmonary segment,FMA:7373,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+750,Spatial entity of male left anterior bronchus,FMA:7428,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+751,Spatial entity of male left apical bronchopulmonary segment,FMA:7385,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+752,Spatial entity of male left apical bronchus,FMA:7426,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+753,Spatial entity of male left inferior lobar bronchus,UBERON:0012066,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+754,Spatial entity of male left lateral basal bronchopulmonary segment,FMA:7379,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+755,Spatial entity of male left lateral basal bronchus,FMA:7507,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+756,Spatial entity of male left lingula inferior bronchopulmonary segment,FMA:7375,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+757,Spatial entity of male left lingula inferior bronchus,FMA:7431,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+758,Spatial entity of male left lingula superior bronchopulmonary segment,FMA:7374,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+759,Spatial entity of male left lingula superior bronchus,FMA:7430,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+760,Spatial entity of male left medial basal bronchopulmonary segment,FMA:7377,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+761,Spatial entity of male left medial basal bronchus,FMA:7505,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+762,Spatial entity of male left posetrior basal bronchopulmonary segment,FMA:7508,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+763,Spatial entity of male left posterior basal bronchus,FMA:7508,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+764,Spatial entity of male left posterior bronchopulmonary segment,FMA:7386,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+765,Spatial entity of male left superior bronchopulmonary segment,FMA:7376,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+766,Spatial entity of male left superior bronchus,FMA:7504,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+767,Spatial entity of male left superior lobar bronchus,UBERON:0012065,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+768,Spatial entity of male lobar bronchi,UBERON:0003404,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+769,Spatial entity of male lobar bronchus,UBERON:0003405,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+770,Spatial entity of male lungs,UBERON:0002048,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+771,Spatial entity of male lungs,UBERON:0002168,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+772,Spatial entity of male lungs l,UBERON:0008953,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+773,Spatial entity of male lungs u,UBERON:0008952,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+774,Spatial entity of male lungs,UBERON:0002167,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+775,Spatial entity of male lungs l,UBERON:0002171,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+776,Spatial entity of male lungs m,UBERON:0002174,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+777,Spatial entity of male lungs u,UBERON:0002170,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+778,Spatial entity of male right anterior basal bronchopulmonary segment,FMA:7364,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+779,Spatial entity of male right anterior basal bronchus,FMA:7399,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+780,Spatial entity of male right anterior bronchopulmonary segment,FMA:7359,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+781,Spatial entity of male right anterior bronchus,FMA:7400,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+782,Spatial entity of male right apical bronchopulmonary segment,FMA:7338,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+783,Spatial entity of male right apical bronchus,FMA:7416,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+784,Spatial entity of male right intermediate bronchus,FMA:7415,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+785,Spatial entity of female left aqueous humor,FMA:58821,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+786,Spatial entity of female left bulbar conjunctiva,FMA:59029,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+787,Spatial entity of female left ciliary body,FMA:58297,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+788,Spatial entity of female left ciliary muscle,FMA:49153,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+789,Spatial entity of female left ciliary processes,UBERON:0010427,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+790,Spatial entity of female left cornea,FMA:58240,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+791,Spatial entity of female left corneo scleral junction,FMA:58344,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+792,Spatial entity of female left fovea,FMA:58663,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+793,Spatial entity of female left iris,FMA:58237,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+794,Spatial entity of female left lens,FMA:58243,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+795,Spatial entity of female left macula lutea,FMA:58639,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+796,Spatial entity of female left optic choroid,FMA:58300,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+797,Spatial entity of female left optic disc,FMA:58636,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+798,Spatial entity of female left ora serrata of retina,FMA:58602,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+799,Spatial entity of female palpebral conjunctiva of left lower eyelid,FMA:223075,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+800,Spatial entity of female palpebral conjunctiva of left upper eyelid,FMA:223078,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+801,Spatial entity of female left pupil,UBERON:0010223,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+802,Spatial entity of female left retina,FMA:58303,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+803,Spatial entity of female left schlemms canal,FMA:51875,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+804,Spatial entity of female left sclera,FMA:58272,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+805,Spatial entity of female left suspensory ligament of lens,FMA:58840,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+806,Spatial entity of female left trabecular meshwork,UBERON:0005969,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+807,Spatial entity of female left vitreous humor,FMA:261238,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+808,Spatial entity of female anterior commissure L,UBERON:0000935,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+809,Spatial entity of female anterior commissure R,UBERON:0000935,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+810,Spatial entity of female anterior intermediate orbital gyrus L,UBERON:0002644,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+811,Spatial entity of female anterior intermediate orbital gyrus R,UBERON:0002644,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+812,Spatial entity of female anterior olfactory nucleus L,UBERON:0002266,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+813,Spatial entity of female anterior parahippocampal gyrus L,UBERON:0022383,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+814,Spatial entity of female anterior parahippocampal gyrus R,UBERON:0022383,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+815,Spatial entity of female basilar part of pons L,UBERON:0002151,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+816,Spatial entity of female basilar part of pons R,UBERON:0002151,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+817,Spatial entity of female brain hemisphere L,UBERON:0002812,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+818,Spatial entity of female brain hemisphere R,UBERON:0002813,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+819,Spatial entity of female cerebellar vermis L,UBERON:0004720,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+820,Spatial entity of female cerebral peduncle crus cerebri L,UBERON:0002623,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+821,Spatial entity of female cerebral peduncle crus cerebri R,UBERON:0002623,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+822,Spatial entity of female cingulate gyrus caudal posterior part L,UBERON:0002740,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+823,Spatial entity of female cingulate gyrus caudal posterior part R,UBERON:0002740,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+824,Spatial entity of female cingulate gyrus rostral anterior part L,UBERON:0002756,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+825,Spatial entity of female cingulate gyrus rostral anterior part R,UBERON:0002756,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+826,Spatial entity of female corpus callosum L,UBERON:0002336,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+827,Spatial entity of female corpus callosum R,UBERON:0002336,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+828,Spatial entity of female cuneus L,UBERON:0006092,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+829,Spatial entity of female cuneus R,UBERON:0006092,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+830,Spatial entity of female fornix L,UBERON:0000052,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+831,Spatial entity of female fornix R,UBERON:0000052,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+832,Spatial entity of female fourth ventricle L,UBERON:0002422,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+833,Spatial entity of female fourth ventricle R,UBERON:0002422,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+834,Spatial entity of female frontal operculum L,UBERON:0002947,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+835,Spatial entity of female frontal operculum R,UBERON:0002947,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+836,Spatial entity of female gyrus rectus straight gyrus L,UBERON:0004671,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+837,Spatial entity of female gyrus rectus straight gyrus R,UBERON:0004671,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+838,Spatial entity of female hippocampus L,UBERON:0002421,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+839,Spatial entity of female hippocampus R,UBERON:0002421,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+840,Spatial entity of female hypothalamus L,UBERON:0001898,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+841,Spatial entity of female hypothalamus R,UBERON:0001898,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+842,Spatial entity of female inferior colliculus L,UBERON:0001946,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+843,Spatial entity of female inferior colliculus R,UBERON:0001946,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+844,Spatial entity of female inferior frontal gyrus opercular part L,UBERON:0002980,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+845,Spatial entity of female inferior frontal gyrus opercular part R,UBERON:0002980,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+846,Spatial entity of female inferior frontal gyrus triangular part L,UBERON:0002629,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+847,Spatial entity of female inferior frontal gyrus triangular part R,UBERON:0002629,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+848,Spatial entity of female inferior occipital gyrus L,UBERON:0014608,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+849,Spatial entity of female inferior occipital gyrus R,UBERON:0014608,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+850,Spatial entity of female inferior temporal gyrus L,UBERON:0002751,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+851,Spatial entity of female inferior temporal gyrus R,UBERON:0002751,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+852,Spatial entity of female ingulo parahippocampal isthmus L,UBERON:0002738,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+853,Spatial entity of female ingulo parahippocampal isthmus R,UBERON:0002738,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+854,Spatial entity of female lateral occipitotemporal fusiform gyrus occipital part L,UBERON:0022364,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+855,Spatial entity of female lateral occipitotemporal fusiform gyrus occipital part R,UBERON:0022364,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+856,Spatial entity of female lateral orbital gyrus L,UBERON:0002564,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+857,Spatial entity of female lateral orbital gyrus R,UBERON:0002564,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+858,Spatial entity of female lingual gyrus medial occipitotemporal gyrus L,UBERON:0002943,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+859,Spatial entity of female lingual gyrus medial occipitotemporal gyrus R,UBERON:0002943,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+860,Spatial entity of female medial orbital gyrus L,UBERON:0002570,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+861,Spatial entity of female medial orbital gyrus R,UBERON:0002570,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+862,Spatial entity of female middle frontal gyrus L,UBERON:0002702,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+863,Spatial entity of female middle frontal gyrus R,UBERON:0002702,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+864,Spatial entity of female middle temporal gyrus L,UBERON:0002771,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+865,Spatial entity of female middle temporal gyrus R,UBERON:0002771,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+866,Spatial entity of female occipital pole L,UBERON:0002902,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+867,Spatial entity of female occipital pole R,UBERON:0002902,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+868,Spatial entity of female olfactory bulb L,UBERON:0002264,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+869,Spatial entity of female optic radiation L,UBERON:0022264,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+870,Spatial entity of female optic radiation R,UBERON:0022264,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+871,Spatial entity of female optic tract L,UBERON:0001908,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+872,Spatial entity of female optic tract R,UBERON:0001908,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+873,Spatial entity of female paracentral lobule rostral part L,UBERON:0035932,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+874,Spatial entity of female paracentral lobule rostral part R,UBERON:0035932,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+875,Spatial entity of female parietal operculum L,UBERON:0002911,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+876,Spatial entity of female parietal operculum R,UBERON:0002911,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+877,Spatial entity of female pineal body L,UBERON:0001905,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+878,Spatial entity of female pineal body R,UBERON:0001905,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+879,Spatial entity of female piriform region L,UBERON:0004725,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+880,Spatial entity of female planum polare L,UBERON:0023861,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+881,Spatial entity of female planum polare R,UBERON:0023861,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+882,Spatial entity of female planum temporale L,UBERON:0022268,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+883,Spatial entity of female planum temporale R,UBERON:0022268,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+884,Spatial entity of male right lateral basal bronchopulmonary segment,FMA:7363,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+885,Spatial entity of male right lateral basal bronchus,FMA:7419,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+886,Spatial entity of male right lateral bronchopulmonary segment,FMA:7361,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+887,Spatial entity of male right lateral bronchus,FMA:7402,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+888,Spatial entity of male right lower lobar bronchus,FMA:7404,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+889,Spatial entity of male right medial basal bronchopulmonary segment,FMA:7365,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+890,Spatial entity of male right medial basal bronchus,FMA:7417,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+891,Spatial entity of male right medial bronchopulmonary segment,FMA:7360,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+892,Spatial entity of male right medial bronchus,FMA:7403,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+893,Spatial entity of male right middle lobar bronchus,FMA:7401,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+894,Spatial entity of male right posterior basal,FMA:7420,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+895,Spatial entity of male right posterior basal bronchopulmonary segment,FMA:7362,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+896,Spatial entity of male right posterior bronchopulmonary segment,FMA:7339,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+897,Spatial entity of male right posterior bronchus,FMA:7399,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+898,Spatial entity of male right superior bronchopulmonary segment,FMA:7366,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+899,Spatial entity of male right superior bronchus,FMA:7416,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+900,Spatial entity of male right superior lobar bronchus,FMA:7397,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+901,Spatial entity of male tertiary bronchi,UBERON:0002184,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+902,Spatial entity of male bare area of liver,UBERON:0001149,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+903,Spatial entity of male caudate lobe of liver,UBERON:0001117,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+904,Spatial entity of male colic impression of liver,FMA:14484,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+905,Spatial entity of male coronary ligament of liver,UBERON:0013138,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+906,Spatial entity of male diaphragmatic surface,FMA:15729,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+907,Spatial entity of male duodenal impression of liver,FMA:14485,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+908,Spatial entity of male esophageal impression of liver,FMA:14486,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+909,Spatial entity of male falciform ligament,UBERON:0001247,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+910,Spatial entity of male gastric impression of liver,FMA:14487,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+911,Spatial entity of male hepataduodenal ligament,UBERON:0012472,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+912,Spatial entity of male left lateral lobe,UBERON:0006727,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+913,Spatial entity of male left lobe of liver,UBERON:0001115,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+914,Spatial entity of male left medial lobe,UBERON:0006728,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+915,Spatial entity of male ligamentum venosum,UBERON:0006587,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+916,Spatial entity of male liver capsule,UBERON:0016479,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+917,Spatial entity of male porta hepatis,FMA:15758,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+918,Spatial entity of male quadrate lobe of liver,UBERON:0001116,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+919,Spatial entity of male renal impression of liver,FMA:14488,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+920,Spatial entity of male right lobe of liver,UBERON:0001114,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+921,Spatial entity of male round ligament of liver,UBERON:0006588,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+922,Spatial entity of male suprarenal impression of liver,FMA:14489,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+923,Spatial entity of male triangular ligament of liver,UBERON:0035444,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+924,Spatial entity of male arytenoid cartilage,UBERON:0001740,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+925,Spatial entity of male arytenoid cartilage,FMA:55114,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+926,Spatial entity of male arytenoid cartilage,FMA:55113,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+927,Spatial entity of male corniculate cartilage,UBERON:0001741,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+928,Spatial entity of male corniculate cartilage,FMA:55116,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+929,Spatial entity of male corniculate cartilage,FMA:55115,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+930,Spatial entity of male cricoid cartilage,UBERON:0002375,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+931,Spatial entity of male epiglottic cartilage,UBERON:0001742,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+932,Spatial entity of male laryngeal cartilage,UBERON:0001739,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+933,Spatial entity of male thyroid cartilage,UBERON:0001738,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+934,Spatial entity of male ascending colon,UBERON:0001156,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+935,Spatial entity of male caecum,UBERON:0001153,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+936,Spatial entity of male descending colon,UBERON:0001158,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+937,Spatial entity of male hepatic flexure of colon,UBERON:0022277,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+938,Spatial entity of male ileocecal valve,UBERON:0000569,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+939,Spatial entity of male rectum,UBERON:0001052,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+940,Spatial entity of male sigmoid colon,UBERON:0001159,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+941,Spatial entity of male splenic flexure of colon,UBERON:0022276,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+942,Spatial entity of male transverse colon,UBERON:0001157,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+943,Spatial entity of male vermiform appendix,UBERON:0001154,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+944,Spatial entity of male right articular cartilage of knee,FMA:33189,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+945,Spatial entity of male right distal most point of medial condyle of femur,UBERON:7500033,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+946,Spatial entity of male right femur,FMA:24474,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+947,Spatial entity of male right fibula,FMA:24480,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+948,Spatial entity of male right intercondylar fossa,FMA:43749,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+949,Spatial entity of male right knee joint,FMA:35176,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+950,Spatial entity of male right lateral condyle of femur frontal,FMA:32860,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+951,Spatial entity of male right lateral condyle of femur inf,FMA:32860,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+952,Spatial entity of male right lateral condyle of femur sup,FMA:32860,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+953,Spatial entity of male medial condyle of right femur inf,FMA:32862,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+954,Spatial entity of male medial condyle of right femur sup,FMA:32862,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+955,Spatial entity of male right meniscus,FMA:64019,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+956,Spatial entity of male right patella,FMA:24486,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+957,Spatial entity of male right patellar surface,FMA:43746,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+958,Spatial entity of male right tibia,FMA:24477,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+959,Spatial entity of male left articular cartilage of knee,FMA:33190,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+960,Spatial entity of male left distal most point of medial condyle of femur,UBERON:7500033,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+961,Spatial entity of male left femur,FMA:24475,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+962,Spatial entity of male left fibula,FMA:24481,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+963,Spatial entity of male left intercondylar fossa,FMA:43750,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+964,Spatial entity of male left knee joint,FMA:35177,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+965,Spatial entity of male left lateral condyle of femur frontal,FMA:32861,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+966,Spatial entity of male left lateral condyle of femur inf,FMA:32861,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+967,Spatial entity of male left lateral condyle of femur sup,FMA:32861,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+968,Spatial entity of male medial condyle of left femur inf,FMA:32863,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+969,Spatial entity of male medial condyle of left femur sup,FMA:32863,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+970,Spatial entity of male left meniscus,FMA:64019,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+971,Spatial entity of male left patella,FMA:24487,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+972,Spatial entity of male left patellar surface,FMA:43747,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+973,Spatial entity of male left tibia,FMA:24478,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+974,Spatial entity of male right cortex of kidney,UBERON:0001225,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+975,Spatial entity of male right hilum of kidney,UBERON:0008716,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+976,Spatial entity of male right kidney capsule,UBERON:0002015,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+977,Spatial entity of male right outer cortex of kidney,UBERON:0002189,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+978,Spatial entity of male right renal column,UBERON:0001284,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+979,Spatial entity of male right renal medulla,UBERON:0000362,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+980,Spatial entity of male right renal papilla,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+981,Spatial entity of male right renal papilla a,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+982,Spatial entity of male right renal papilla b,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+983,Spatial entity of male right renal papilla c,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+984,Spatial entity of male right renal papilla d,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+985,Spatial entity of male right renal papilla e,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+986,Spatial entity of male right renal papilla f,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+987,Spatial entity of male right renal papilla g,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+988,Spatial entity of male right renal papilla h,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+989,Spatial entity of male right renal papilla i,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+990,Spatial entity of male right renal papilla j,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+991,Spatial entity of male right renal pyramid a,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+992,Spatial entity of male right renal pyramid b,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+993,Spatial entity of male right renal pyramid c,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+994,Spatial entity of male right renal pyramid d,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+995,Spatial entity of male right renal pyramid e,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+996,Spatial entity of male right renal pyramid f,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+997,Spatial entity of male right renal pyramid g,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+998,Spatial entity of male right renal pyramid h,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+999,Spatial entity of male right renal pyramid i,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+1000,Spatial entity of male right renal pyramid j,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+1001,Spatial entity of male right renal pyramid,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+1002,Spatial entity of male left cortex of kidney,UBERON:0001225,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1003,Spatial entity of male left hilum of kidney,UBERON:0008716,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1004,Spatial entity of male left kidney capsule,UBERON:0002015,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1005,Spatial entity of male left outer cortex of kidney,UBERON:0002189,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1006,Spatial entity of male left renal column,UBERON:0001284,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1007,Spatial entity of male left renal medulla,UBERON:0000362,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1008,Spatial entity of male left renal papilla,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1009,Spatial entity of male left renal papilla a,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1010,Spatial entity of male left renal papilla b,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1011,Spatial entity of male left renal papilla c,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1012,Spatial entity of male left renal papilla d,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1013,Spatial entity of male left renal papilla e,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1014,Spatial entity of male left renal papilla f,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1015,Spatial entity of male left renal papilla g,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1016,Spatial entity of male left renal papilla h,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1017,Spatial entity of male left renal papilla i,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1018,Spatial entity of male left renal pyramid,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1019,Spatial entity of male left renal pyramid a,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1020,Spatial entity of male left renal pyramid b,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1021,Spatial entity of male left renal pyramid c,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1022,Spatial entity of male left renal pyramid d,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1023,Spatial entity of male left renal pyramid e,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1024,Spatial entity of male left renal pyramid f,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1025,Spatial entity of male left renal pyramid g,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1026,Spatial entity of male left renal pyramid h,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1027,Spatial entity of male left renal pyramid i,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+1028,Spatial entity of male aortic valve,UBERON:0002137,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1029,Spatial entity of male heart left ventricle,UBERON:0002084,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1030,Spatial entity of male heart right ventricle,UBERON:0002080,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1031,Spatial entity of male heart valve,UBERON:0003978,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1032,Spatial entity of male interventricular septum,UBERON:0002094,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1033,Spatial entity of male left cardiac atrium,UBERON:0002079,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1034,Spatial entity of male mitral valve,UBERON:0002135,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1035,Spatial entity of male papillary muscle of heart,UBERON:0002494,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1036,Spatial entity of male papillary muscle of heart anterior,FMA:7264,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1037,Spatial entity of male papillary muscle of heart anterolateral,FMA:7265,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1038,Spatial entity of male papillary muscle of heart medial,FMA:7262,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1039,Spatial entity of male papillary muscle of heart posterior,FMA:7261,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1040,Spatial entity of male papillary muscle of heart posteromedial,FMA:7267,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1041,Spatial entity of male pulmonary valve,UBERON:0002146,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1042,Spatial entity of male right cardiac atrium,UBERON:0002078,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1043,Spatial entity of male tricuspid valve,UBERON:0002134,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+1044,Spatial entity of male right aqueous humor,FMA:58820,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1045,Spatial entity of male right bulbar conjunctiva,FMA:59028,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1046,Spatial entity of male right ciliary body,FMA:58296,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1047,Spatial entity of male right ciliary muscle,FMA:49152,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1048,Spatial entity of male right ciliary processes,UBERON:0010427,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1049,Spatial entity of male right cornea,FMA:58239,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1050,Spatial entity of male right corneo scleral junction,FMA:58343,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1051,Spatial entity of male right fovea,FMA:58661,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1052,Spatial entity of male right iris,FMA:58236,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1053,Spatial entity of male right lens,FMA:58242,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1054,Spatial entity of male right macula lutea,FMA:58638,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1055,Spatial entity of male right optic choroid,FMA:58299,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1056,Spatial entity of male right optic disc,FMA:58635,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1057,Spatial entity of male right ora serrata of retina,FMA:58601,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1058,Spatial entity of male right palpebral conjunctiva of lower eyelid,FMA:223074,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1059,Spatial entity of male right palpebral conjunctiva of upper eyelid,FMA:223076,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1060,Spatial entity of male right pupil,UBERON:0010224,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1061,Spatial entity of male right retina,FMA:58302,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1062,Spatial entity of male right schlemms canal,FMA:51874,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1063,Spatial entity of male right sclera,FMA:58271,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1064,Spatial entity of male right suspensory ligament of lens,FMA:58839,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1065,Spatial entity of male right trabecular meshwork,UBERON:0005969,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1066,Spatial entity of male right vitreous humor,FMA:261236,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+1067,Spatial entity of male left aqueous humor,FMA:58821,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1068,Spatial entity of male left bulbar conjunctiva,FMA:59029,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1069,Spatial entity of male left ciliary body,FMA:58297,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1070,Spatial entity of male left ciliary muscle,FMA:49153,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1071,Spatial entity of male left ciliary processes,UBERON:0010427,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1072,Spatial entity of male left cornea,FMA:58240,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1073,Spatial entity of male left corneo scleral junction,FMA:58344,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1074,Spatial entity of male left fovea,FMA:58663,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1075,Spatial entity of male left iris,FMA:58237,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1076,Spatial entity of male left lens,FMA:58243,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1077,Spatial entity of male left macula lutea,FMA:58639,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1078,Spatial entity of male left optic choroid,FMA:58300,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1079,Spatial entity of male left optic disc,FMA:58636,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1080,Spatial entity of male left ora serrata of retina,FMA:58602,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1081,Spatial entity of male left palpebral conjunctiva of lower eyelid,FMA:223075,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1082,Spatial entity of male left palpebral conjunctiva of upper eyelid,FMA:223078,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1083,Spatial entity of male left pupil,UBERON:0010223,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1084,Spatial entity of male left retina,FMA:58303,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1085,Spatial entity of male left schlemms canal,FMA:51875,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1086,Spatial entity of male left sclera,FMA:58272,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1087,Spatial entity of male left suspensory ligament of lens,FMA:58840,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1088,Spatial entity of male left trabecular meshwork,UBERON:0005969,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1089,Spatial entity of male left vitreous humor,FMA:261238,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+1090,Spatial entity of male anterior commissure L,UBERON:0000935,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1091,Spatial entity of male anterior commissure R,UBERON:0000935,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1092,Spatial entity of male anterior intermediate orbital gyrus L,UBERON:0002644,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1093,Spatial entity of male anterior intermediate orbital gyrus R,UBERON:0002644,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1094,Spatial entity of male anterior olfactory nucleus L,UBERON:0002266,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1095,Spatial entity of male anterior parahippocampal gyrus L,UBERON:0022383,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1096,Spatial entity of male anterior parahippocampal gyrus R,UBERON:0022383,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1097,Spatial entity of male basilar part of pons L,UBERON:0002151,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1098,Spatial entity of male basilar part of pons R,UBERON:0002151,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1099,Spatial entity of male brain H,UBERON:0002812,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1100,Spatial entity of male brain H,UBERON:0002813,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1101,Spatial entity of male cerebellar vermis L,UBERON:0004720,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1102,Spatial entity of male cerebral peduncle crus cerebri L,UBERON:0002623,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1103,Spatial entity of male cerebral peduncle crus cerebri R,UBERON:0002623,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1104,Spatial entity of male cingulate gyrus caudal posterior part L,UBERON:0002740,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1105,Spatial entity of male cingulate gyrus caudal posterior part R,UBERON:0002740,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1106,Spatial entity of male cingulate gyrus rostral anterior part L,UBERON:0002756,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1107,Spatial entity of male cingulate gyrus rostral anterior part R,UBERON:0002756,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1108,Spatial entity of male corpus callosum L,UBERON:0002336,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1109,Spatial entity of male corpus callosum R,UBERON:0002336,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1110,Spatial entity of male cuneus L,UBERON:0006092,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1111,Spatial entity of male cuneus R,UBERON:0006092,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1112,Spatial entity of male fornix L,UBERON:0000052,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1113,Spatial entity of male fornix R,UBERON:0000052,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1114,Spatial entity of male fourth ventricle L,UBERON:0002422,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1115,Spatial entity of male fourth ventricle R,UBERON:0002422,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1116,Spatial entity of male frontal operculum L,UBERON:0002947,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1117,Spatial entity of male frontal operculum R,UBERON:0002947,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1118,Spatial entity of male gyrus rectus straight gyrus L,UBERON:0004671,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1119,Spatial entity of male gyrus rectus straight gyrus R,UBERON:0004671,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1120,Spatial entity of male hippocampus L,UBERON:0002421,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1121,Spatial entity of male hippocampus R,UBERON:0002421,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1122,Spatial entity of male hypothalamus L,UBERON:0001898,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1123,Spatial entity of male hypothalamus R,UBERON:0001898,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1124,Spatial entity of male inferior colliculus L,UBERON:0001946,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1125,Spatial entity of male inferior colliculus R,UBERON:0001946,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1126,Spatial entity of male inferior frontal gyrus opercular part L,UBERON:0002980,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1127,Spatial entity of male inferior frontal gyrus opercular part R,UBERON:0002980,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1128,Spatial entity of male inferior frontal gyrus triangular part L,UBERON:0002629,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1129,Spatial entity of male inferior frontal gyrus triangular part R,UBERON:0002629,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1130,Spatial entity of male inferior occipital gyrus L,UBERON:0014608,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1131,Spatial entity of male inferior occipital gyrus R,UBERON:0014608,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1132,Spatial entity of male inferior temporal gyrus L,UBERON:0002751,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1133,Spatial entity of male inferior temporal gyrus R,UBERON:0002751,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1134,Spatial entity of male ingulo parahippocampal isthmus L,UBERON:0002738,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1135,Spatial entity of male ingulo parahippocampal isthmus R,UBERON:0002738,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1136,Spatial entity of male lateral occipitotemporal fusiform gyrus occipital part L,UBERON:0022364,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1137,Spatial entity of male lateral occipitotemporal fusiform gyrus occipital part R,UBERON:0022364,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1138,Spatial entity of male lateral orbital gyrus L,UBERON:0002564,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1139,Spatial entity of male lateral orbital gyrus R,UBERON:0002564,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1140,Spatial entity of male lingual gyrus medial occipitotemporal gyrus L,UBERON:0002943,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1141,Spatial entity of male lingual gyrus medial occipitotemporal gyrus R,UBERON:0002943,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1142,Spatial entity of male medial orbital gyrus L,UBERON:0002570,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1143,Spatial entity of male medial orbital gyrus R,UBERON:0002570,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1144,Spatial entity of male middle frontal gyrus L,UBERON:0002702,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1145,Spatial entity of male middle frontal gyrus R,UBERON:0002702,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1146,Spatial entity of male middle temporal gyrus L,UBERON:0002771,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1147,Spatial entity of male middle temporal gyrus R,UBERON:0002771,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1148,Spatial entity of male occipital pole L,UBERON:0002902,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1149,Spatial entity of male occipital pole R,UBERON:0002902,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1150,Spatial entity of male olfactory bulb L,UBERON:0002264,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1151,Spatial entity of male optic radiation L,UBERON:0022264,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1152,Spatial entity of male optic radiation R,UBERON:0022264,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1153,Spatial entity of male optic tract L,UBERON:0001908,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1154,Spatial entity of male optic tract R,UBERON:0001908,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1155,Spatial entity of male paracentral lobule rostral part L,UBERON:0035932,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1156,Spatial entity of male paracentral lobule rostral part R,UBERON:0035932,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1157,Spatial entity of male parietal operculum L,UBERON:0002911,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1158,Spatial entity of male parietal operculum R,UBERON:0002911,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1159,Spatial entity of male pineal body L,UBERON:0001905,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1160,Spatial entity of male pineal body R,UBERON:0001905,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1161,Spatial entity of male piriform region L,UBERON:0004725,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1162,Spatial entity of male planum polare L,UBERON:0023861,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1163,Spatial entity of male planum polare R,UBERON:0023861,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1164,Spatial entity of male planum temporale L,UBERON:0022268,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1165,Spatial entity of male planum temporale R,UBERON:0022268,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1166,Spatial entity of male pontine tegmentum L,UBERON:0003023,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1167,Spatial entity of male pontine tegmentum R,UBERON:0003023,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1168,Spatial entity of male postcentral gyrus L,UBERON:0002581,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1169,Spatial entity of male postcentral gyrus R,UBERON:0002581,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1170,Spatial entity of male posterior intermediate orbital gyrus L,UBERON:0002644,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1171,Spatial entity of male posterior intermediate orbital gyrus R,UBERON:0002644,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+1172,Spatial entity of male posterior parahippocampal gyrus L,UBERON:0002657,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
