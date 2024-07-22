@@ -14,7 +14,7 @@ FROM HRA:
 FROM ccf:
 WHERE {
   ?as_3d ccf:has_reference_organ ?ref_organ ;
-		rdfs:label ?as_label ;
+		rdfs:label ?as_label_long ;
 		ccf:organ_owner_sex ?sex;
 		ccf:representation_of ?as_id .
 	
@@ -25,4 +25,5 @@ WHERE {
   FILTER(!CONTAINS(STR(?ref_organ), '/united-'))
   FILTER (str(?as_3d) != str(?ref_organ))
 	BIND(REPLACE(REPLACE(STR(?as_id), STR(UBERON:), 'UBERON:'), STR(FMA:), 'FMA:') as ?uberon_id)
+	BIND(REPLACE(STR(?as_label_long), STR("Spatial entity of "), '') as ?as_label)
 }
