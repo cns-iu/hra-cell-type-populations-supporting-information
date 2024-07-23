@@ -400,7 +400,7 @@ atlas$unique_dataset_id %>% unique() %>% length()
 # Report numbers for Highlights
 ```{r non-atlas datasets}
 # all datasets downloaded
-all = sankey_universe %>% select(unique_dataset_id, cell_type_annotation_tool) %>% .$unique_dataset_id %>% unique() %>% length()
+all = sankey_universe$unique_dataset_id %>% unique() %>% length()
 print(glue("All datasets: {all}"))
 
 # all sc-proteomics
@@ -409,7 +409,7 @@ print(glue("Datasets sc-proteomics: {all_sc_proteomics}"))
 
 # datasets with cell summary 
 sc_transcriptomics_with_cell_summary = subset_sankey %>% filter(cell_type_annotation_tool != "No Cell Summary", cell_type_annotation_tool != "sc_proteomics") %>% .$unique_dataset_id %>% length()
-print(glue("Datasets sc-transcirptomics with cell summary: {sc_transcriptomics_with_cell_summary}"))
+print(glue("Datasets sc-transcriptomics with cell summary: {sc_transcriptomics_with_cell_summary}"))
 ```
 
 
@@ -417,20 +417,21 @@ print(glue("Datasets sc-transcirptomics with cell summary: {sc_transcriptomics_w
 ```{r non-atlas datasets}
 # FOR EXPERIMENTAL Data
 
-# datasets that are RUI-registered but have have not been annotated
-no_cell_summary = sankey_universe %>% filter(is_rui_registered==TRUE, is.na(cell_type_annotation_tool), is_atlas_dataset==FALSE)
-print(glue("Datasets with extraction site but without cell summary: {no_cell_summary$unique_dataset_id %>% unique() %>% length()}")) 
+# datasets with extraction site but without cell summary
+no_ctann = sankey_universe %>% filter(is_rui_registered==TRUE, is.na(cell_type_annotation_tool))
+print(glue("Datasets with extraction site but without cell summary: {no_ctann$unique_dataset_id %>% unique() %>% length()}")) 
+
 # datasets that are RUI-registered but have have no cell summary but are still atlas
 still_atlas = sankey_universe %>% filter(is_rui_registered==TRUE, is.na(cell_type_annotation_tool), is_atlas_dataset == TRUE)
 print(glue("Datasets with extraction site but without cell summary that are still atlas for some reason: {still_atlas$unique_dataset_id %>% unique() %>% length()}")) 
 print(glue("Dataset IDs:"))
 print(glue("{still_atlas$unique_dataset_id}"))
 
-# datasets that have a cell summary but cannot be rui-registered
+# datasets with cell summary but without extraction site
 no_rui = sankey_universe %>% filter(is_rui_registered==FALSE, !is.na(cell_type_annotation_tool))
 print(glue("Datasets with cell summary but without extraction site: {no_rui$unique_dataset_id %>% unique() %>% length()}")) 
 
-# numberDatasets with neither
+# datasets with neither
 neither = sankey_universe %>% filter(is_rui_registered == FALSE, is.na(cell_type_annotation_tool))
 print(glue("Datasets with neither: {neither$unique_dataset_id %>% unique() %>% length()}")) 
 
