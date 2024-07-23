@@ -46,7 +46,7 @@ print(subset_sankey)
 See GitHub issue: https://github.com/x-atlas-consortia/hra-pop/issues/91
 ``` {r}
 
-subset_sankey$cell_type_annotation_tool[subset_sankey$portal == "SenNet" & subset_sankey$is_atlas_dataset == "Atlas Dataset"] <- tool_replacement
+sankey_universe$cell_type_annotation_tool[sankey_universe$portal == "SenNet" & sankey_universe$is_atlas_dataset == TRUE] <- tool_replacement
 ```
 
 # Get counts for HRApop paper
