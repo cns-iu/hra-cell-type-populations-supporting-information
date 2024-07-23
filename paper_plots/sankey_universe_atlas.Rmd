@@ -8,7 +8,7 @@ output:
 
 # Environment
 
-```{r message=FALSE, warning=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE}
 
 #libraries
 library(tidyverse)
@@ -43,8 +43,7 @@ We will use `networkD3` to render the Sankey diagram. On the data side, we need 
 
 ## Load Data
 
-```{r message=FALSE, warning=FALSE}
-# atlas data only
+```{r warning=FALSE}
 sankey_universe = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/universe-ad-hoc/sankey.csv", sep = ""))
 ```
 
@@ -52,7 +51,7 @@ sankey_universe = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"
 
 
 ### Define functions 
-```{r}
+```{r echo=FALSE}
 add_bin = function(original_column, bins, labels){
   # Create new column with bins
   result <- cut(original_column, breaks = bins, labels = labels, include.lowest = TRUE)
@@ -65,7 +64,7 @@ add_bin = function(original_column, bins, labels){
 ## Handle CxG age
 
 ### Load CxG developmental stage (not in hra-pop graph yet)
-```{r}
+```{r echo=FALSE}
 
 # load sheet with CxG age values
 cxg_age = read_csv("data/cxg-development-stage.csv")
@@ -75,7 +74,7 @@ names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
 ```
 
 ### Extract numbers and assign as age
-```{r}
+```{r echo=FALSE}
 
 # extract age using {stringr}
 cxg_age= cxg_age %>% 
@@ -92,7 +91,7 @@ sankey_universe <- sankey_universe %>%
 ```
 
 ### Add bins
-```{r message=FALSE}
+```{r message=FALSE, echo=FALSE}
 
 # create new tibble
 sankey_universe_with_bins = sankey_universe 
@@ -112,7 +111,7 @@ sankey_universe_with_bins$donor_bmi_binned = add_bin(sankey_universe_with_bins$d
 ```
 
 ## Create subset and replace NAs, unify unknown values, adjust portal values
-```{r}
+```{r echo=FALSE}
 
 organ_not_supported_text = "Organ Not Supported"
 
@@ -160,7 +159,7 @@ subset_sankey = sankey_universe_with_bins %>%
 ```
 
 ##Remove duplictate rows
-```{r}
+```{r echo=FALSE}
  
 # replace tool with sc-transcriptomics, no cell summary, sc-proteomics
 tool_replacement = "sc_transcriptomics with Cell Summary"
@@ -178,13 +177,13 @@ print(subset_sankey)
 ```
 
 ## Temporary fix for SenNet atlas datasets
-``` {r}
+``` {r echo=FALSE}
 
 subset_sankey$cell_type_annotation_tool[subset_sankey$portal == "SenNet" & subset_sankey$is_atlas_dataset == "Atlas Dataset"] <- tool_replacement
 ```
 
 ## Map race/ethnicity values to race values
-```{r}
+```{r echo=FALSE}
 # export donor_race as CSV
 donor_race = as_tibble(subset_sankey$donor_race %>% unique())
 
@@ -206,13 +205,13 @@ subset_sankey$donor_race = subset_sankey$mapped_donor_race
 ```
 
 ## OPTIONAL: Filter for only atlas data
-``` {r OnlyAtlas} 
+``` {r OnlyAtlas, echo=FALSE} 
 # if(only_atlas) {subset_sankey = subset_sankey %>% filter(is_atlas_dataset == "Atlas Dataset")}
 
 ```
 
 ## Create nodes
-```{r}
+```{r echo=FALSE}
 p = subset_sankey %>% 
   group_by(portal) %>% summarize()
 
@@ -258,7 +257,7 @@ nodes = as.data.frame(tibble(name = character()))
   * cell type annotation tool used
   * RUI registered or not
   * ‘atlas’ dataset or not 
-```{r}
+```{r echo=FALSE}
 
 for(u in unique_name){
   nodes = nodes %>% 
@@ -353,7 +352,7 @@ links = prep_links
 
 
 ## Rename node and link tables
-```{r}
+```{r echo=FALSE}
 names(nodes)[1] = "source"
 prep_links = left_join(prep_links, nodes,by="source")
 
@@ -368,7 +367,7 @@ names(nodes)[1] = "name"
 
 ## Draw the Sankey diagram
 
-```{r}
+```{r echo=FALSE}
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name", 
                    units = "occurrences", fontSize = 10, nodeWidth = 20, width=1500, height = 650)
@@ -378,7 +377,7 @@ p
 
 ## Export the Sankey diagram as HTML
 
-```{r}
+```{r echo=FALSE}
 
 if (only_atlas == TRUE) {
   saveNetwork(p, "../docs/sankey_atlas.html")
@@ -390,7 +389,7 @@ if (only_atlas == TRUE) {
 
 ## Check numbers
 Number of unique dataset IDs that are part of the atlas
-```{r atlas}
+```{r atlas, echo=FALSE}
 
 atlas = sankey_universe %>% filter(is_atlas_dataset == TRUE)
 
@@ -398,7 +397,7 @@ atlas$unique_dataset_id %>% unique() %>% length()
 ```
 
 # Report numbers for Highlights
-```{r non-atlas datasets}
+```{r non-atlas datasets highlights}
 # all datasets downloaded
 all = sankey_universe$unique_dataset_id %>% unique() %>% length()
 print(glue("All datasets: {all}"))
@@ -414,7 +413,7 @@ print(glue("Datasets sc-transcriptomics with cell summary: {sc_transcriptomics_w
 
 
 # Report numbers for Sankey/experimental data
-```{r non-atlas datasets}
+```{r non-atlas datasets experimental data}
 # FOR EXPERIMENTAL Data
 
 # datasets with extraction site but without cell summary

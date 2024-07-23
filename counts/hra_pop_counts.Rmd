@@ -1,0 +1,92 @@
+---
+title: "A notebook to compile counts for the HRApop paper"
+output: html_notebook
+---
+
+# Import libraries
+```{r }
+#libraries
+library(tidyverse)
+library(rmarkdown) # for rendering this
+library(glue)
+```
+
+# Set global variables
+```{r}
+# global variables
+hra_pop_version = "0.10.2"
+```
+
+# Load data
+```{r warning=FALSE, message=FALSE}
+sankey_universe = read_csv(paste("../../hra-pop/output-data/v",hra_pop_version,"/reports/universe-ad-hoc/sankey.csv", sep = ""))
+
+# View first few rows
+glimpse(sankey_universe)
+```
+# Pre-processing steps
+## Simplify rows with multiple annotations for getting accurate counts
+```{r}
+# replace tool with sc-transcriptomics, no cell summary, sc-proteomics
+tool_replacement = "sc_transcriptomics with Cell Summary"
+
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "azimuth"] <- tool_replacement
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "celltypist"] <- tool_replacement
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "popv"] <- tool_replacement
+
+duplicates <- subset_sankey[duplicated(subset_sankey),]
+duplicates
+
+subset_sankey <- distinct(subset_sankey)
+print(subset_sankey)
+
+```
+
+## Manually fix missing cell type annotation values for SenNet atlas datasets
+See GitHub issue: https://github.com/x-atlas-consortia/hra-pop/issues/91
+``` {r}
+
+subset_sankey$cell_type_annotation_tool[subset_sankey$portal == "SenNet" & subset_sankey$is_atlas_dataset == "Atlas Dataset"] <- tool_replacement
+```
+
+# Get counts for HRApop paper
+The following sections provide counts of datasets and other metrics for HRApop v0.10.2.
+
+## Report numbers for Highlights
+```{r non-atlas datasets highlights}
+# all datasets downloaded
+all = sankey_universe$unique_dataset_id %>% unique() %>% length()
+print(glue("Number of UNIVERSE datasets:: {all}"))
+
+# all sc-proteomics
+all_sc_proteomics = sankey_universe %>% select(dataset_id, cell_type_annotation_tool) %>% filter(cell_type_annotation_tool == "sc_proteomics") %>% distinct() %>% count()
+print(glue("Number of sc-proteomics datasets: {all_sc_proteomics}"))
+
+# datasets with cell summary 
+sc_transcriptomics_with_cell_summary = subset_sankey %>% filter(cell_type_annotation_tool != "No Cell Summary", cell_type_annotation_tool != "sc_proteomics") %>% .$unique_dataset_id %>% length()
+print(glue("Number of sc-transcriptomics datasets with cell summary: {sc_transcriptomics_with_cell_summary}"))
+```
+
+## Report numbers for Sankey/experimental data
+```{r non-atlas datasets experimental data}
+# atlas datasets
+atlas = sankey_universe %>% filter(is_atlas_dataset == TRUE) 
+print(glue("Atlas datasets: {atlas$unique_dataset_id %>% unique() %>% length()}")) 
+
+# datasets with extraction site but without cell summary
+no_ctann = sankey_universe %>% filter(is_rui_registered==TRUE, is.na(cell_type_annotation_tool))
+print(glue("Datasets with extraction site but without cell summary: {no_ctann$unique_dataset_id %>% unique() %>% length()}"))
+
+# datasets with cell summary but without extraction site
+no_rui = sankey_universe %>% filter(is_rui_registered==FALSE, !is.na(cell_type_annotation_tool))
+print(glue("Datasets with cell summary but without extraction site: {no_rui$unique_dataset_id %>% unique() %>% length()}")) 
+
+# datasets with neither
+neither = sankey_universe %>% filter(is_rui_registered == FALSE, is.na(cell_type_annotation_tool))
+print(glue("Datasets with neither: {neither$unique_dataset_id %>% unique() %>% length()}")) 
+
+# number of non-atlas datasets
+not_atlas = sankey_universe %>% filter(is_atlas_dataset == FALSE)
+print(glue("Non-atlas datasets total: {not_atlas$unique_dataset_id %>% unique() %>% length()}")) 
+
+```
