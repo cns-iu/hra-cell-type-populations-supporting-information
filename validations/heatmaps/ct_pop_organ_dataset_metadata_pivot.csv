@@ -1,0 +1,89 @@
+"tool","organ","as","ds_count"
+"azimuth","Heart","Interventricular Septum",14
+"azimuth","Heart","Left Cardiac Atrium",14
+"azimuth","Heart","Right Cardiac Atrium",16
+"azimuth","Heart","Right Ventricle",29
+"azimuth","Heart","Left Ventricle",64
+"celltypist","Heart","Interventricular Septum",14
+"celltypist","Heart","Left Cardiac Atrium",14
+"celltypist","Heart","Right Cardiac Atrium",16
+"celltypist","Heart","Right Ventricle",29
+"celltypist","Heart","Left Ventricle",64
+"popv","Heart","Interventricular Septum",14
+"popv","Heart","Left Cardiac Atrium",14
+"popv","Heart","Right Cardiac Atrium",16
+"popv","Heart","Right Ventricle",29
+"popv","Heart","Left Ventricle",64
+"azimuth","Kidney","Hilum",3
+"azimuth","Kidney","Renal Papilla",4
+"azimuth","Kidney","Kidney Capsule",6
+"azimuth","Kidney","Renal Column",13
+"azimuth","Kidney","Renal Pyramid",88
+"azimuth","Kidney","Outer Cortex",117
+"celltypist","Large Intestine","Caecum",3
+"celltypist","Large Intestine","Rectum",7
+"celltypist","Large Intestine","Transverse Colon",8
+"celltypist","Large Intestine","Ascending Colon",10
+"celltypist","Large Intestine","Descending Colon",10
+"celltypist","Large Intestine","Sigmoid Colon",11
+"popv","Large Intestine","Caecum",3
+"popv","Large Intestine","Rectum",7
+"popv","Large Intestine","Transverse Colon",8
+"popv","Large Intestine","Ascending Colon",10
+"popv","Large Intestine","Descending Colon",10
+"popv","Large Intestine","Sigmoid Colon",11
+"sc_proteomics","Large Intestine","Caecum",2
+"sc_proteomics","Large Intestine","Rectum",6
+"sc_proteomics","Large Intestine","Transverse Colon",7
+"sc_proteomics","Large Intestine","Ascending Colon",8
+"sc_proteomics","Large Intestine","Sigmoid Colon",8
+"sc_proteomics","Large Intestine","Descending Colon",9
+"celltypist","Liver","Capsule Of The Liver",2
+"celltypist","Liver","Diaphragmatic Surface",2
+"celltypist","Liver","Gastric Impression",2
+"popv","Liver","Capsule Of The Liver",2
+"popv","Liver","Diaphragmatic Surface",2
+"popv","Liver","Gastric Impression",2
+"azimuth","Lung","Apical Bronchopulmonary Segment",3
+"azimuth","Lung","Lateral Segmental Bronchus",9
+"azimuth","Lung","Lateral Bronchopulmonary Segment",20
+"azimuth","Lung","Medial Bronchopulmonary Segment",34
+"celltypist","Lung","Apical Bronchopulmonary Segment",3
+"celltypist","Lung","Lateral Segmental Bronchus",9
+"celltypist","Lung","Lateral Bronchopulmonary Segment",20
+"celltypist","Lung","Medial Bronchopulmonary Segment",34
+"popv","Lung","Apical Bronchopulmonary Segment",3
+"popv","Lung","Lateral Segmental Bronchus",9
+"popv","Lung","Lateral Bronchopulmonary Segment",20
+"popv","Lung","Medial Bronchopulmonary Segment",34
+"popv","Mammary Gland","Interlobar Adipose Tissue",3
+"popv","Prostate","Central Zone",4
+"popv","Prostate","Peripheral Zone",4
+"celltypist","Skin","Skin",2
+"popv","Skin","Skin",2
+"sc_proteomics","Skin","Skin",8
+"celltypist","Small Intestine","Ileum",3
+"celltypist","Small Intestine","Superior Duodenum",4
+"celltypist","Small Intestine","Distal Ileum",9
+"celltypist","Small Intestine","Jejunum",9
+"celltypist","Small Intestine","Ascending Duodenum",10
+"celltypist","Small Intestine","Descending Duodenum",10
+"celltypist","Small Intestine","Horizontal Duodenum",10
+"popv","Small Intestine","Ileum",3
+"popv","Small Intestine","Superior Duodenum",4
+"popv","Small Intestine","Distal Ileum",9
+"popv","Small Intestine","Jejunum",9
+"popv","Small Intestine","Ascending Duodenum",10
+"popv","Small Intestine","Descending Duodenum",10
+"popv","Small Intestine","Horizontal Duodenum",10
+"sc_proteomics","Small Intestine","Ileum",2
+"sc_proteomics","Small Intestine","Superior Duodenum",2
+"sc_proteomics","Small Intestine","Jejunum",7
+"sc_proteomics","Small Intestine","Ascending Duodenum",8
+"sc_proteomics","Small Intestine","Descending Duodenum",8
+"sc_proteomics","Small Intestine","Distal Ileum",8
+"sc_proteomics","Small Intestine","Horizontal Duodenum",8
+"popv","Spleen","Hilum",6
+"popv","Spleen","Diaphragmatic Surface",11
+"azimuth","Ureter","Left Ureter",8
+"popv","Urinary Bladder","Fundus",7
