@@ -24,7 +24,7 @@ as_datasets_modality = as_datasets_modality %>% mutate(
   as_long = paste(organ_label, as_label, sep = "_")
 )
 
-# group
+# group elements to get counts
 df_summary = as_datasets_modality %>%
   group_by(as_long, organ_label, tool, sex) %>%
   summarise(count = n_distinct(dataset))
