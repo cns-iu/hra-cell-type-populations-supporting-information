@@ -28,7 +28,9 @@ metadata <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-po
 data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v6.csv", 
                  header=T, fileEncoding = "UTF8")
 
-#data_spatial <- read.csv()
+# Spatial data aggregation: Organs Small & Large Intestines, AS, cell types measures
+data_spatial <- read.csv("../heatmaps/HRApop_Spatial_OASCT_CellCount_Percentage.csv",
+                         header=T, fileEncoding = "UTF8")
 
 # Cell Type Crosswalks - Data Cleaning
 # https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
@@ -48,7 +50,7 @@ popv <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/popv/v1.0/asse
 
 # Select organs data for heatmaps
 
-```{r select}
+```{r select-prep}
 #Metadata
 metadata$organ_label <- 
   metadata$organ_label %>% 
@@ -88,18 +90,25 @@ metadata <-
   plyr::rename(c("organ_label" = "organ",
                  "as_label" = "as"))
 
-write.csv(metadata,"../heatmaps/ct_pop_organ_dataset_metadata_pivot.csv",
+# Save results
+write.csv(metadata,"../heatmaps/HRApop_organ_dataset_metadata_pivot.csv",
           row.names = F)
+
+# Calculate summary statistics for metadata analysis
 metadata_pivot <- 
   metadata %>%
   ddply(.(organ), summarise,
-        tool_count = length(unique(tool)),
-        as_count = length(unique(as)),
-        min_ds = min(ds_count),
-        max_ds = max(ds_count)) %>%
-  arrange(desc(tool_count), desc(as_count),organ)
+        Tools = length(unique(tool)),
+        AS = length(unique(as)),
+        Median_Data_Set_Count = median(ds_count),
+        Min_Data_Set_Count = min(ds_count),
+        Max_Data_Set_Count = max(ds_count)) %>%
+  arrange(desc(AS), desc(Tools), desc(Median_Data_Set_Count), organ) %>%
+  rename(c("organ"="Organ"))
 
-write.csv(metadata_pivot,"../heatmaps/ct_pop_organ_dataset_metadata_pivot2.csv",
+# Save results
+metadata_pivot
+write.csv(metadata_pivot,"../heatmaps/HRApop_organ_dataset_metadata_pivot2.csv",
           row.names = F)
 ```
 
@@ -172,9 +181,9 @@ labels <-  c("sex", "tool", "modality", "organ", "organId",
              "annotation_label", "annotation_label_id", "cell_label2")
 ```
 
-## Clean up Cell Labeling
+## Clean-up Cell Type Names
 
-```{r cell_type_labels}
+```{r cell_type_names}
 # Create Organ based subsets for cleaning cell type labels
 # Heart - 1086
 heart <- data[data$organ==levels(data$organ)[1],]
@@ -186,6 +195,10 @@ kidney <- data[data$organ==levels(data$organ)[2],]
 largeIntestine <- data[data$organ==levels(data$organ)[4],]
 # Small Intestine
 smallIntestine <- data[data$organ==levels(data$organ)[9],]
+# Spleen
+spleen <- data[data$organ==levels(data$organ)[10],]
+# Prostate
+prostate <- data[data$organ==levels(data$organ)[7],]
 
 # Cleaning Azimuth Author Annotations - Heart, Lung, Kidney
 # Heart
@@ -289,13 +302,29 @@ tmp4 <-
             popv$cell_match=="skos:exactMatch" | 
             popv$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
+# Spleen
+tmp5 <- 
+  join(spleen[spleen$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="spleen" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Prostate
+tmp6 <- 
+  join(prostate[prostate$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="prostate gland" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+
 # Clean names
-names(tmp1) <- names(tmp2) <- names(tmp3) <- names(tmp4) <-
-   c("sex","tool","modality","organ","organId","as","as_id",
-     "cell_id","cell_label","cell_count", "percentage",
-     "annotation_label","annotation_label_id","cell_label2")
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  names(tmp4) <- names(tmp5) <- names(tmp6) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
 # Combine Azimuth temp files
-data_popv <- rbind(tmp1,tmp2,tmp3,tmp4) 
+data_popv <- rbind(tmp1,tmp2,tmp3,tmp4,tmp5,tmp6) 
 #Add back missing cell labels when annotation label is missing
 data_popv[is.na(data_popv$annotation_label),]$cell_label2 <- 
   data_popv[is.na(data_popv$annotation_label),]$cell_label
@@ -332,9 +361,14 @@ data_celltypist$cell_name <-
   paste0(data_celltypist$cell_id,": ",data_celltypist$cell_label2)
 data_azimuth$cell_name <- 
   paste0(data_azimuth$cell_id,": ",data_azimuth$cell_label2)
+data_scproteomics$cell_name <- 
+  paste0(data_scproteomics$cell_id,": ",data_scproteomics$cell_label2)
+
+# Spatial cell_label updated to cell_name. Underlying data did not include AS_ID
+names(data_spatial)[4] <- "cell_name"
 
 # Clean up environment
-rm(tmp1,tmp2,tmp3,tmp4)
+rm(tmp1,tmp2,tmp3,tmp4,tmp5,tmp6)
 rm(heart,lung,kidney,largeIntestine,smallIntestine)
 rm(azimuth,popv,celltypist)
 ```
@@ -345,16 +379,6 @@ rm(azimuth,popv,celltypist)
 
 ```{r heatmap_azimuth_v0.2, fig.height=12, fig.width=24}
 # Create pivot
-# data_azimuth <- 
-#   data %>% 
-#   filter(tool == "azimuth") %>%
-#   select(organ, as, as_id, cell_name, percentage) %>%
-#   pivot_wider(names_from = cell_name,
-#               values_from = percentage,
-#               values_fill = 0,
-#               values_fn = mean) %>%
-#   arrange(organ, as_id)
-
 data_azimuth <- 
   data_azimuth %>%
   select(organ, as, as_id, cell_name, percentage) %>%
@@ -383,11 +407,13 @@ heatmap_plot <- pheatmap::pheatmap(data_azimuth_heatmap, legend=TRUE,
                                    legend_labels = c("0", "1", "2", "3", 
                                      "Percentage (z-scale)\n"))
 
-ggsave(file=paste0("../output/heatmaps/organ_as_celltype-heatmap-azimuth.pdf"),
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-azimuth.pdf"),
        heatmap_plot, width=24, height=12, units="in")
-ggsave(file=paste0("../output/heatmaps/organ_as_celltype-heatmap-azimuth.png"),
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-azimuth.png"),
        heatmap_plot, width=24, height=12, units="in")
 
+# Plot
 heatmap_plot
 ```
 
@@ -423,11 +449,13 @@ heatmap_plot <- pheatmap::pheatmap(data_celltypist_heatmap, legend=TRUE,
                                    legend_labels = c("0", "1", "2", "3", 
                                      "Percentage (z-scale)\n"))
 
-ggsave(file=paste0("../output/heatmaps/organ_as_celltype-heatmap-celltypist.pdf"),
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-celltypist.pdf"),
        heatmap_plot, width=36, height=12, units="in")
-ggsave(file=paste0("../output/heatmaps/organ_as_celltype-heatmap-celltypist.png"),
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-celltypist.png"),
        heatmap_plot, width=36, height=12, units="in")
 
+# Plot
 heatmap_plot
 ```
 
@@ -463,10 +491,99 @@ heatmap_plot <- pheatmap::pheatmap(data_popv_heatmap, legend=TRUE,
                                    legend_labels = c("0", "1", "2", "3", 
                                      "Percentage (z-scale)\n"))
 
-ggsave(file=paste0("../output/heatmaps/organ_as_celltype-heatmap-popv.pdf"),
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-popv.pdf"),
        heatmap_plot, width=24, height=12, units="in")
-ggsave(file=paste0("../output/heatmaps/organ_as_celltype-heatmap-popv.png"),
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-popv.png"),
        heatmap_plot, width=24, height=12, units="in")
 
+# Plot
 heatmap_plot
 ```
+
+
+## SC Proteomics
+
+```{r heatmap_scproteomics_v0.1, fig.height=6.5, fig.width=12}
+# Create pivot
+data_scproteomics <- 
+  data_scproteomics %>%
+  select(organ, as, as_id, cell_name, percentage) %>%
+  pivot_wider(names_from = cell_name,
+              values_from = percentage,
+              values_fill = 0,
+              values_fn = mean) %>%
+  arrange(organ, as_id)
+
+# Convert DF to a matrix
+data_scproteomics_heatmap <- data.matrix(data_scproteomics[,4:ncol(data_scproteomics)])
+
+# Assign Row.names as organs
+rownames(data_scproteomics_heatmap) <- 
+  paste0(data_scproteomics$organ,"-",data_scproteomics$as)
+data_scproteomics_heatmap <- 
+  data_scproteomics_heatmap[order(row.names(data_scproteomics_heatmap)),]
+
+# Scale data
+data_scproteomics_heatmap <- scale(data_scproteomics_heatmap)
+
+# Generate heatmap
+heatmap_plot <- pheatmap::pheatmap(data_scproteomics_heatmap, legend=TRUE,
+                                  legend_breaks = c(-2, -1, 0, 1, 2,
+                                                    max(data_scproteomics_heatmap)),
+                                  legend_labels = c(-2, -1, 0, 1, 2,
+                                                    "Percentage (z-scale)\n"))
+
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-scproteomics.pdf"),
+       heatmap_plot, width=12, height=6.5, units="in")
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-scproteomics.png"),
+       heatmap_plot, width=12, height=6.5, units="in")
+
+# Plot
+heatmap_plot
+```
+
+## Spatial
+
+```{r heatmap_spatial_v0.1, fig.height=5, fig.width=12}
+# Create pivot
+data_spatial <- 
+  data_spatial %>%
+  select(organ, as, as_id, cell_name, percentage) %>%
+  pivot_wider(names_from = cell_name,
+              values_from = percentage,
+              values_fill = 0,
+              values_fn = mean) %>%
+  arrange(organ, as_id)
+
+# Convert DF to a matrix
+data_spatial_heatmap <- data.matrix(data_spatial[,4:ncol(data_spatial)])
+
+# Assign Row.names as organs
+rownames(data_spatial_heatmap) <- 
+  paste0(data_spatial$organ,"-",data_spatial$as)
+data_spatial_heatmap <- 
+  data_spatial_heatmap[order(row.names(data_spatial_heatmap)),]
+
+# Scale data
+data_spatial_heatmap <- scale(data_spatial_heatmap)
+
+# Generate heatmap
+heatmap_plot <- pheatmap::pheatmap(data_spatial_heatmap, legend=TRUE,
+                                   legend_breaks = c(-1, 0, 1, 2,
+                                                     max(data_spatial_heatmap)),
+                                   legend_labels = c("-1", "0", "1", "2",
+                                                     "Percentage (z-scale)\n"))
+
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-spatial.pdf"),
+       heatmap_plot, width=12, height=5, units="in")
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-spatial.png"),
+       heatmap_plot, width=12, height=5, units="in")
+
+# Plot
+heatmap_plot
+```
+
+
