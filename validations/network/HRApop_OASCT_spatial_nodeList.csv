@@ -1,11 +1,11 @@
 "id","id_lab","label","type","partOf","records","cell_count"
 0,"Ascending Colon","Ascending Colon","Anatomical Structure","Large Intestine",8,209839
-1,"Descending Colon","Descending Colon","Anatomical Structure","Large Intestine",8,329603
-2,"Sigmoid Colon","Sigmoid Colon","Anatomical Structure","Large Intestine",8,245164
-3,"Transverse Colon","Transverse Colon","Anatomical Structure","Large Intestine",8,229737
+1,"Transverse Colon","Transverse Colon","Anatomical Structure","Large Intestine",8,229737
+2,"Descending Colon","Descending Colon","Anatomical Structure","Large Intestine",8,329603
+3,"Sigmoid Colon","Sigmoid Colon","Anatomical Structure","Large Intestine",8,245164
 4,"Duodenum","Duodenum","Anatomical Structure","Small Intestine",8,377540
-5,"Ileum","Ileum","Anatomical Structure","Small Intestine",8,366534
-6,"Jejunum","Jejunum","Anatomical Structure","Small Intestine",16,844688
+5,"Jejunum","Jejunum","Anatomical Structure","Small Intestine",16,844688
+6,"Ileum","Ileum","Anatomical Structure","Small Intestine",8,366534
 7,"B","B","Cell Type","Organ(s): 2",64,35529
 8,"CD4+ T cell","CD4+ T cell","Cell Type","Organ(s): 2",64,120286
 9,"CD57+ Enterocyte","CD57+ Enterocyte","Cell Type","Organ(s): 2",64,1927

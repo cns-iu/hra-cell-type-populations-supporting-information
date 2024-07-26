@@ -32,7 +32,7 @@ data_set_meta <- read.csv(paste0("../network/HRApop_intestine_datasets-ASregion_
 
 # Data set id for cell type measures
 data_set_ids <- unique(data_set_meta$dataset_id)
-
+#data_hm <- data
 # data frame for downloaded results
 data <- data.frame(id = as.character(),
                    #organ = as.character(),
@@ -54,10 +54,9 @@ for(i in 1:length(data_set_ids)){
 
 # Join CT measurements with data set metadata
 data <- left_join(data,data_set_meta, by="dataset_id") %>%
-            select(dataset_id, organ, as_uberon_label, 
-                   cell_type, count) %>%
-            rename(as = as_uberon_label,
-                   id = dataset_id)
+           select(dataset_id, organ, uberon_id, as_uberon_label, 
+                  cell_type, count) 
+names(data) <- c("id","organ","as_id","as","cell_label","count")
 
 # Factoring data
 data$id <- factor(data$id)
@@ -85,23 +84,29 @@ contributes to data collected from each anatomical structure.
 # Aggregate data to get limited set of nodes and edges.
 # Organ-AS Total Cell Count (overall)
 data_total_cell_count <- data %>% 
-                          ddply(.(organ,as), summarise,
+                          ddply(.(organ, as_id, as), summarise,
                                   total_cell_count = sum(count))
 # Organ-AS-CT counts 
 data_agg <- data %>% 
-              ddply(.(organ,as,cell_type), summarise,
+              ddply(.(organ, as_id, as, cell_label), summarise,
                     datasets = length(unique(id)),
-                    cell_type_count = sum(count),
-                    mean_count = median(count))
+                    cell_count = sum(count),
+                    mean_cell_count = median(count))
 
 # Combine aggregated data - organ - as - ct counts and percentages.
-data <- left_join(data_agg,data_total_cell_count, by=c("organ","as")) %>%
-          select(organ,as,cell_type,datasets,mean_count,cell_type_count,total_cell_count) %>%
-          mutate(percentage = round(cell_type_count/total_cell_count,5))
+data <- left_join(data_agg,data_total_cell_count, by=c("organ","as_id","as")) %>%
+          select(organ,as_id,as,cell_label,datasets,mean_cell_count,cell_count,total_cell_count) %>%
+          mutate(percentage = round(cell_count/total_cell_count,5))
 
 rm(data_agg,data_total_cell_count)
 
 data$tool <- "Spatial"
+
+# Export results
+write.csv(data,"../heatmaps/HRApop_Spatial_OASCT_CellCount_Percentage.csv",
+          row.names = F)
+write.csv(data,"../network/HRApop_Spatial_OASCT_CellCount_Percentage.csv",
+          row.names = F)
 ```
 
 ## Network Extraction
@@ -132,13 +137,13 @@ for(i in 1:length(df_list)){
     
     cell_types <- 
       df_list[[i]] %>% 
-      select(organ, cell_type, datasets, cell_type_count) %>%
-      ddply(.(cell_type), summarise,
-            label = head(cell_type)[1],
+      select(organ, cell_label, datasets, cell_count) %>%
+      ddply(.(cell_label), summarise,
+            label = head(cell_label)[1],
             records = sum(datasets),
-            cell_count = sum(cell_type_count),
+            cell_count = sum(cell_count),
             partOf = length(unique(organ))) %>%
-      mutate(id_lab = cell_type,
+      mutate(id_lab = cell_label,
              type = "Cell Type",
              partOf = paste0("Organ(s): ",partOf)) %>% 
       select(id_lab, label, type, partOf, 
@@ -156,11 +161,11 @@ for(i in 1:length(df_list)){
     # Create Edge List
     edges <- 
       df_list[[i]] %>% 
-      ddply(.(as, cell_type), summarise,
+      ddply(.(as, cell_label), summarise,
             weight_recs = sum(datasets),
             percentage = mean(percentage)) %>%
       mutate(source_id_lab = as,
-             target_id_lab = cell_type,
+             target_id_lab = cell_label,
              weight = 1) %>% 
       select(source_id_lab, target_id_lab, 
              weight, weight_recs, percentage) %>%
@@ -183,7 +188,7 @@ for(i in 1:length(df_list)){
     write.csv(nodes, file=paste0("../network/HRApop_OASCT_spatial_nodeList.csv"),
               row.names = FALSE)
 
-    # Renameing for igraph
+    # Re-nameing for igraph
     edges <- edges %>%
               dplyr::rename(from = source,
                             to = target)    
