@@ -37,7 +37,8 @@ df_summary = as_datasets_modality %>%
 g = ggplot(df_summary, aes(x = count, y= as_long, fill=sex))+
   geom_bar(stat = "identity")+
   facet_wrap(~tool, nrow = 1)+
- theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+ theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  geom_text(label = df_summary$count, hjust=0)
 
 g
 
