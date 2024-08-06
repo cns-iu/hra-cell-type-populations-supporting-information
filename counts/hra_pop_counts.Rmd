@@ -90,3 +90,12 @@ not_atlas = sankey_universe %>% filter(is_atlas_dataset == FALSE)
 print(glue("Non-atlas datasets total: {not_atlas$unique_dataset_id %>% unique() %>% length()}")) 
 
 ```
+
+# Get HRApop datasets in HuBMAP who were run through Azimuth
+```{r}
+
+sankey = read_csv("../../hra-pop/output-data/v0.10.2/reports/universe-ad-hoc/sankey.csv")
+
+sankey_universe %>% group_by(portal, dataset_id, cell_type_annotation_tool) %>% filter(cell_type_annotation_tool=="azimuth", portal=="HuBMAP", is_rui_registered==TRUE) %>% unique()
+```
+
