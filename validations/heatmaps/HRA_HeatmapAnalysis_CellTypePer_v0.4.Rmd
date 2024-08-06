@@ -1,0 +1,597 @@
+---
+title: "HRA-Pop Cell Type Correlation Analysis Notebook"
+output: html_document
+---
+
+# Environment
+
+```{r message=FALSE, warning=FALSE}
+library(tidyr)
+library(dplyr)
+library(plyr)
+library(knitr)
+library(stringr)
+library(ggplot2)
+library(magrittr)
+options(scipen=999)
+```
+ 
+# Load Data
+
+```{r data}
+# Data set metadata
+metadata <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas-ad-hoc/as-datasets-modality.csv",
+                     header=T, fileEncoding = "UTF8")
+
+# Data for heatmaps
+# Includes organ, anatomical structure, cell types measures by tool and donor gender
+data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v6.csv", 
+                 header=T, fileEncoding = "UTF8")
+
+# Spatial data aggregation: Organs Small & Large Intestines, AS, cell types measures
+data_spatial <- read.csv("../heatmaps/HRApop_Spatial_OASCT_CellCount_Percentage.csv",
+                         header=T, fileEncoding = "UTF8")
+
+# Cell Type Crosswalks - Data Cleaning
+# https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
+# New version June 2024
+## Azimuth
+azimuth <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/azimuth/v1.0/assets/azimuth-crosswalk.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+
+## Cell Typist
+celltypist <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/celltypist/v1.0/assets/celltypist-crosswalk.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+
+## PopV
+popv <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/popv/v1.0/assets/popv-crosswalk.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+```
+
+# Select organs data for heatmaps
+
+```{r select-prep}
+#Metadata
+metadata$organ_label <- 
+  metadata$organ_label %>% 
+    str_replace("left ","") %>%
+    str_replace("right ","") %>%
+    str_replace("Set of lactiferous glands in breast","mammary gland") %>%
+    str_replace("respiratory system", "lung") %>%
+    str_replace("male reproductive system","prostate") %>%
+    str_replace(" of body","") %>%
+    str_to_title()
+
+metadata$as_label <- 
+  metadata$as_label %>% 
+    str_replace("heart ","") %>%
+    str_replace(" of body","") %>%
+    str_replace("part of ","") %>%
+    str_replace("Posteromedial head of posterior papillary muscle of ","") %>%
+    str_replace("Right Lateral", "Lateral") %>%
+    str_replace("Right Medial", "Medial") %>%
+    str_replace("Left apical", "Apical") %>%
+    str_replace(" of right mammary gland","") %>%
+    str_replace(" of prostate","") %>%
+    str_replace(" of spleen","") %>%
+    str_replace(" of liver","") %>%
+    str_replace(" of kidney","") %>%
+    str_replace(" of urinary bladder","") %>%
+    str_to_title()
+
+metadata <-
+  metadata %>%
+  select(modality,tool,organ_label,as_label,dataset) %>% 
+  distinct() %>%
+  arrange(organ_label,as_label,modality,tool) %>%
+  ddply(.(tool,organ_label,as_label), summarise,
+        ds_count = length(unique(dataset)))%>%
+  arrange(organ_label,tool,ds_count) %>%
+  plyr::rename(c("organ_label" = "organ",
+                 "as_label" = "as"))
+
+# Save results
+write.csv(metadata,"../heatmaps/HRApop_organ_dataset_metadata_pivot.csv",
+          row.names = F)
+
+# Calculate summary statistics for metadata analysis
+metadata_pivot <- 
+  metadata %>%
+  ddply(.(organ), summarise,
+        Tools = length(unique(tool)),
+        AS = length(unique(as)),
+        Median_Data_Set_Count = median(ds_count),
+        Min_Data_Set_Count = min(ds_count),
+        Max_Data_Set_Count = max(ds_count)) %>%
+  arrange(desc(AS), desc(Tools), desc(Median_Data_Set_Count), organ) %>%
+  rename(c("organ"="Organ"))
+
+# Save results
+metadata_pivot
+write.csv(metadata_pivot,"../heatmaps/HRApop_organ_dataset_metadata_pivot2.csv",
+          row.names = F)
+```
+
+Notes on organs: 
+
+|Organ              |Tools|AS|Min/Max Data Sets|
+|-------------------|-----|--|-----------------|
+|**Heart**          |    3| 5|            14,64|
+|**Large Intestine**|    3| 6|           2-3,11|
+|**Small Intestine**|    3| 7|           2-3,10|
+|**Lung**           |    3| 4|             3,34|
+|Skin               |    3| 1|              2,8|
+|Liver              |    2| 3|          2 (all)|
+|**Kidney**         | 1 (azi)| 6|         3,117|
+|Ureter             | 1 (azi)| 1|       8 (all)|
+|Mammary Gland      |1 (popv)| 1|       3 (all)|
+|Prostate Gland     |1 (popv)| 2|       4 (all)|
+|Spleen             |1 (popv)| 2|          6,11|
+|Bladder            |1 (popv)| 1|       7 (all)|
+
+# Prepare Data
+
+```{r data prep}
+# Prepare crosswalk field names
+names(celltypist) <- names(popv) <- names(azimuth) <- c("organ_level","organ_id",
+                                                        "annotation_label","annotation_label_id",
+                                                        "cell_label","cell_id","cell_match")
+
+# Title Case for Annotation Labels
+popv$annotation_label <- str_to_title(popv$annotation_label)
+azimuth$annotation_label <- str_to_title(azimuth$annotation_label)
+celltypist$annotation_label <- str_to_title(celltypist$annotation_label)
+
+# Clean up organ label strings
+data$sex <- factor(data$sex)
+
+# Prepare Tool
+data$tool <- factor(data$tool, 
+                  levels=c("azimuth","celltypist","popv","sc_proteomics"),
+                  labels=c("Azimuth","CellTypist","popV","SC Proteomics"))
+
+# Prepare organ labels
+data$organ <- data$organ %>% 
+  str_replace("left ", "") %>%
+  str_replace("right ", "") %>%
+  str_replace("Set of ", "") %>%
+  str_replace("left ", "") %>%
+  str_replace(" of body", "") %>% 
+  str_replace("respiratory system","lung") %>%
+  str_replace("male reproductive system","prostate") %>%
+  str_to_title()
+data$organ <- factor(data$organ)
+
+# Prepare anatomical structure labels
+data$as <- data$as %>% 
+  str_replace("heart ","") %>%
+  str_replace(" of body","") %>%
+  str_replace("part of ","") %>%
+  str_replace("Right Lateral", "Lateral") %>%
+  str_replace("Right Medial", "Medial") %>%
+  str_replace("Left apical", "Apical") %>%
+  str_replace(" of right mammary gland","") %>%
+  str_replace(" of prostate","") %>%
+  str_replace(" of spleen","") %>%
+  str_replace(" of liver","") %>%
+  str_replace(" of kidney","") %>%
+  str_replace(" of urinary bladder","") %>%
+  str_to_title()
+
+data$cell_label <- data$cell_label %>%
+  str_replace("_"," ")
+
+# Common labels for data frames.
+labels <-  c("sex", "tool", "modality", "organ", "organId", 
+             "as", "as_id",  "cell_id", "cell_label", "cell_count",
+             "percentage", "asct_relation_in_asctb_table",
+             "indirect_asct_relation_in_asctb_table", 
+             "annotation_label", "annotation_label_id", "cell_label2")
+```
+
+## Clean-up Cell Type Names
+
+```{r cell_type_names}
+# Create Organ based subsets for cleaning cell type labels
+# Heart - 1086
+heart <- data[data$organ==levels(data$organ)[1],]
+# Lungs - 826
+lung <- data[data$organ==levels(data$organ)[6],]
+# Kidney - 920
+kidney <- data[data$organ==levels(data$organ)[2],]
+# Large Intestine - 1790
+largeIntestine <- data[data$organ==levels(data$organ)[4],]
+# Small Intestine
+smallIntestine <- data[data$organ==levels(data$organ)[9],]
+# Spleen
+spleen <- data[data$organ==levels(data$organ)[10],]
+# Prostate
+prostate <- data[data$organ==levels(data$organ)[7],]
+
+# Cleaning Azimuth Author Annotations - Heart, Lung, Kidney
+# Heart
+tmp1 <- 
+  join(heart[heart$tool=="Azimuth",c(1:11)],
+       azimuth[azimuth$organ_level=="Heart_L2" &
+               azimuth$cell_match=="skos:exactMatch" | 
+               azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Lung
+tmp2 <- 
+  join(lung[lung$tool=="Azimuth",c(1:11)],
+       azimuth[azimuth$organ_level=="Lung_v2_finest_level" &
+               azimuth$cell_match=="skos:exactMatch" | 
+               azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Kidney
+tmp3 <- 
+  join(kidney[kidney$tool=="Azimuth",c(1:11)],
+       azimuth[azimuth$organ_level=="Kidney_L3" &
+               azimuth$cell_match=="skos:exactMatch" | 
+               azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Clean names
+ names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+   c("sex","tool","modality","organ","organId","as","as_id",
+     "cell_id","cell_label","cell_count", "percentage",
+     "annotation_label","annotation_label_id","cell_label2")
+# Combine Azimuth temp files
+data_azimuth <- rbind(tmp1,tmp2,tmp3) 
+#Add back missing cell labels when annotation label is missing
+data_azimuth[is.na(data_azimuth$annotation_label),]$cell_label2 <- 
+  data_azimuth[is.na(data_azimuth$annotation_label),]$cell_label
+
+# Cleaning CellTypist Author Annotations - Heart, Lung, Small & Large Intestine
+# Heart
+tmp1 <- 
+  join(heart[heart$tool=="CellTypist",c(1:11)],
+       celltypist[celltypist$organ_level=="Healthy_Adult_Heart_pkl" &
+                  celltypist$cell_match=="skos:exactMatch" | 
+                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Lung
+tmp2 <- 
+  join(lung[lung$tool=="CellTypist",c(1:11)],
+       celltypist[celltypist$organ_level=="Human_Lung_Atlas_pkl" &
+                  celltypist$cell_match=="skos:exactMatch" | 
+                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Large Intestines
+tmp3 <- 
+  join(largeIntestine[largeIntestine$tool=="CellTypist",c(1:11)],
+       celltypist[celltypist$organ_level=="intestine_L1" &
+                  celltypist$cell_match=="skos:exactMatch" | 
+                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Small Intestines
+tmp4 <- 
+  join(smallIntestine[smallIntestine$tool=="CellTypist",c(1:11)],
+       celltypist[celltypist$organ_level=="intestine_L1" &
+                  celltypist$cell_match=="skos:exactMatch" | 
+                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Clean names
+ names(tmp1) <- names(tmp2) <- names(tmp3) <- names(tmp4) <-
+   c("sex","tool","modality","organ","organId","as","as_id",
+     "cell_id","cell_label","cell_count", "percentage",
+     "annotation_label","annotation_label_id","cell_label2")
+# Combine Azimuth temp files
+data_celltypist <- rbind(tmp1,tmp2,tmp3,tmp4)
+#Add back missing cell labels when annotation label is missing
+data_celltypist[is.na(data_celltypist$annotation_label),]$cell_label2 <- 
+  data_celltypist[is.na(data_celltypist$annotation_label),]$cell_label
+
+# Cleaning popV Author Annotations - Heart, Lung, Small & Large Intestine
+# Heart
+tmp1 <- 
+  join(heart[heart$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="heart" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left") 
+# Lung 
+tmp2 <- 
+  join(lung[lung$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="lung" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Large Intestines
+tmp3 <- 
+  join(largeIntestine[largeIntestine$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="large intestine" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Small Intestines
+tmp4 <- 
+  join(smallIntestine[smallIntestine$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="small intestine" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Spleen
+tmp5 <- 
+  join(spleen[spleen$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="spleen" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Prostate
+tmp6 <- 
+  join(prostate[prostate$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="prostate gland" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+
+# Clean names
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  names(tmp4) <- names(tmp5) <- names(tmp6) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine Azimuth temp files
+data_popv <- rbind(tmp1,tmp2,tmp3,tmp4,tmp5,tmp6) 
+#Add back missing cell labels when annotation label is missing
+data_popv[is.na(data_popv$annotation_label),]$cell_label2 <- 
+  data_popv[is.na(data_popv$annotation_label),]$cell_label
+
+
+# SC Proteomics
+# Large Intestine 
+tmp1 <- 
+  largeIntestine[largeIntestine$tool=="SC Proteomics",c(1:11)] %>%
+  mutate(annotation_label=NA,
+         annotation_label_ids=NA,
+         cell_label2=NA)
+# Small Intestine 
+tmp2 <- 
+  smallIntestine[smallIntestine$tool=="SC Proteomics",c(1:11)] %>%
+  mutate(annotation_label=NA,
+         annotation_label_ids=NA,
+         cell_label2=NA)
+# Clean names
+names(tmp1) <- names(tmp2) <-
+   c("sex","tool","modality","organ","organId","as","as_id",
+     "cell_id","cell_label","cell_count", "percentage",
+     "annotation_label","annotation_label_id","cell_label2")
+# Combine Azimuth temp files
+data_scproteomics <- rbind(tmp1,tmp2) 
+#Add back missing cell labels when annotation label is missing
+data_scproteomics[is.na(data_scproteomics$annotation_label),]$cell_label2 <- 
+  data_scproteomics[is.na(data_scproteomics$annotation_label),]$cell_label
+
+# Add cell_name field to CTann data subsets.
+data_popv$cell_name <- 
+  paste0(data_popv$cell_id,": ",data_popv$cell_label2)
+data_celltypist$cell_name <- 
+  paste0(data_celltypist$cell_id,": ",data_celltypist$cell_label2)
+data_azimuth$cell_name <- 
+  paste0(data_azimuth$cell_id,": ",data_azimuth$cell_label2)
+data_scproteomics$cell_name <- 
+  paste0("ASCTB-TEMP: ",data_scproteomics$cell_label2)
+
+# Spatial cell_label updated to cell_name. Underlying data did not include AS_ID
+names(data_spatial)[4] <- "cell_name"
+
+# Clean up environment
+rm(tmp1,tmp2,tmp3,tmp4,tmp5,tmp6)
+rm(heart,lung,kidney,largeIntestine,smallIntestine)
+rm(azimuth,popv,celltypist)
+```
+
+# Heatmaps Analysis
+
+## Azimuth
+
+```{r heatmap_azimuth_v0.2, fig.height=12, fig.width=24}
+# Create pivot
+data_azimuth <- 
+  data_azimuth %>%
+  select(organ, as, as_id, cell_name, percentage) %>%
+  pivot_wider(names_from = cell_name,
+              values_from = percentage,
+              values_fill = 0,
+              values_fn = mean) %>%
+  arrange(organ, as_id)
+
+# Convert DF to a matrix
+data_azimuth_heatmap <- data.matrix(data_azimuth[,4:ncol(data_azimuth)])
+
+# Assign Row.names as organs
+rownames(data_azimuth_heatmap) <- 
+  paste0(data_azimuth$organ,"-",data_azimuth$as)
+data_azimuth_heatmap <- 
+  data_azimuth_heatmap[order(row.names(data_azimuth_heatmap)),]
+
+# Scale data
+data_azimuth_heatmap <- scale(data_azimuth_heatmap)
+
+# Generate heatmap
+heatmap_plot <- pheatmap::pheatmap(data_azimuth_heatmap, legend=TRUE,
+                                   legend_breaks = c(-1, 0, 1, 2, 3, 
+                                                     max(data_azimuth_heatmap)),
+                                   legend_labels = c("-1", "0", "1", "2", "3", 
+                                     "Percentage (z-scale)\n"))
+
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-azimuth.pdf"),
+       heatmap_plot, width=24, height=12, units="in")
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-azimuth.png"),
+       heatmap_plot, width=24, height=12, units="in")
+
+# Plot
+heatmap_plot
+```
+
+## CellTypist
+
+```{r heatmap_celltypist_v0.2, fig.height=12, fig.width=36}
+# Create pivot
+data_celltypist <- 
+  data_celltypist %>% 
+  select(organ, as, as_id, cell_name, percentage) %>%
+  pivot_wider(names_from = cell_name,
+              values_from = percentage,
+              values_fill = 0,
+              values_fn = mean) %>%
+  arrange(organ, as_id)
+
+# Convert DF to a matrix
+data_celltypist_heatmap <- data.matrix(data_celltypist[,4:ncol(data_celltypist)])
+
+# Assign Row.names as organs
+rownames(data_celltypist_heatmap) <- 
+  paste0(data_celltypist$organ,"-",data_celltypist$as)
+data_celltypist_heatmap <- 
+  data_celltypist_heatmap[order(row.names(data_celltypist_heatmap)),]
+
+# Scale data
+data_celltypist_heatmap <- scale(data_celltypist_heatmap)
+
+# Generate heatmap
+heatmap_plot <- pheatmap::pheatmap(data_celltypist_heatmap, legend=TRUE,
+                                   legend_breaks = c(-1,0, 1, 2, 3, 4,
+                                                     max(data_celltypist_heatmap)),
+                                   legend_labels = c("-1","0", "1", "2", "3", "4",
+                                     "Percentage (z-scale)\n"))
+
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-celltypist.pdf"),
+       heatmap_plot, width=36, height=12, units="in")
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-celltypist.png"),
+       heatmap_plot, width=36, height=12, units="in")
+
+# Plot
+heatmap_plot
+```
+
+## PopV
+
+```{r heatmap_popV_v0.2, fig.height=12, fig.width=24}
+# Create pivot
+data_popv <- 
+  data_popv %>%
+  select(organ, as, as_id, cell_name, percentage) %>%
+  pivot_wider(names_from = cell_name,
+              values_from = percentage,
+              values_fill = 0,
+              values_fn = mean) %>%
+  arrange(organ, as_id)
+
+# Convert DF to a matrix
+data_popv_heatmap <- data.matrix(data_popv[,4:ncol(data_popv)])
+
+# Assign Row.names as organs
+rownames(data_popv_heatmap) <- 
+  paste0(data_popv$organ,"-",data_popv$as)
+data_popv_heatmap <- 
+  data_popv_heatmap[order(row.names(data_popv_heatmap)),]
+
+# Scale data
+data_popv_heatmap <- scale(data_popv_heatmap)
+
+# Generate heatmap
+heatmap_plot <- pheatmap::pheatmap(data_popv_heatmap, legend=TRUE,
+                                   legend_breaks = c(-1, 0, 1, 2, 3, 4,
+                                                     max(data_popv_heatmap)),
+                                   legend_labels = c("-1", "0", "1", "2", "3", "4",
+                                     "Percentage (z-scale)\n"))
+
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-popv.pdf"),
+       heatmap_plot, width=24, height=12, units="in")
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-popv.png"),
+       heatmap_plot, width=24, height=12, units="in")
+
+# Plot
+heatmap_plot
+```
+
+
+## SC Proteomics
+
+```{r heatmap_scproteomics_v0.1, fig.height=6.5, fig.width=12}
+# Create pivot
+data_scproteomics <- 
+  data_scproteomics %>%
+  select(organ, as, as_id, cell_name, percentage) %>%
+  pivot_wider(names_from = cell_name,
+              values_from = percentage,
+              values_fill = 0,
+              values_fn = mean) %>%
+  arrange(organ, as_id)
+
+# Convert DF to a matrix
+data_scproteomics_heatmap <- data.matrix(data_scproteomics[,4:ncol(data_scproteomics)])
+
+# Assign Row.names as organs
+rownames(data_scproteomics_heatmap) <- 
+  paste0(data_scproteomics$organ,"-",data_scproteomics$as)
+data_scproteomics_heatmap <- 
+  data_scproteomics_heatmap[order(row.names(data_scproteomics_heatmap)),]
+
+# Scale data
+data_scproteomics_heatmap <- scale(data_scproteomics_heatmap)
+
+# Generate heatmap
+heatmap_plot <- pheatmap::pheatmap(data_scproteomics_heatmap, legend=TRUE,
+                                  legend_breaks = c(-2, -1, 0, 1, 2,
+                                                    max(data_scproteomics_heatmap)),
+                                  legend_labels = c(-2, -1, 0, 1, 2,
+                                                    "Percentage (z-scale)\n"))
+
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-scproteomics.pdf"),
+       heatmap_plot, width=12, height=6.5, units="in")
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-scproteomics.png"),
+       heatmap_plot, width=12, height=6.5, units="in")
+
+# Plot
+heatmap_plot
+```
+
+## Spatial
+
+```{r heatmap_spatial_v0.1, fig.height=5, fig.width=12}
+# Create pivot
+data_spatial <- 
+  data_spatial %>%
+  select(organ, as, as_id, cell_name, percentage) %>%
+  pivot_wider(names_from = cell_name,
+              values_from = percentage,
+              values_fill = 0,
+              values_fn = mean) %>%
+  arrange(organ, as_id)
+
+# Convert DF to a matrix
+data_spatial_heatmap <- data.matrix(data_spatial[,4:ncol(data_spatial)])
+
+# Assign Row.names as organs
+rownames(data_spatial_heatmap) <- 
+  paste0(data_spatial$organ,"-",data_spatial$as)
+data_spatial_heatmap <- 
+  data_spatial_heatmap[order(row.names(data_spatial_heatmap)),]
+
+# Scale data
+data_spatial_heatmap <- scale(data_spatial_heatmap)
+
+# Generate heatmap
+heatmap_plot <- pheatmap::pheatmap(data_spatial_heatmap, legend=TRUE,
+                                   legend_breaks = c(-1, 0, 1, 2,
+                                                     max(data_spatial_heatmap)),
+                                   legend_labels = c("-1", "0", "1", "2",
+                                                     "Percentage (z-scale)\n"))
+
+# Save visualization
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-spatial.pdf"),
+       heatmap_plot, width=12, height=5, units="in")
+ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-spatial.png"),
+       heatmap_plot, width=12, height=5, units="in")
+
+# Plot
+heatmap_plot
+```
+
+
