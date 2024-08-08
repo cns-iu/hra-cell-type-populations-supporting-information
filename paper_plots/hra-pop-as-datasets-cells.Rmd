@@ -1,0 +1,48 @@
+---
+title: "as-datasets-cells"
+author: "Andreas Bueckle"
+output: html_document
+date: "2024-07-26"
+---
+
+# Import libraries
+```{r import libraries}
+library(tidyverse)
+```
+
+# Load data
+```{r load data}
+as_datasets_modality = read_csv("../../hra-pop/output-data/v0.10.2/reports/atlas-ad-hoc/as-datasets-modality.csv")
+
+dataset_cell_count_check = read_csv("../../hra-pop/output-data/v0.10.2/reports/universe-ad-hoc/dataset-cell-count-check.csv")
+```
+# Preprocessing
+```{r preprocessing}
+
+# add column to combine as_label and organ_label
+as_datasets_modality = as_datasets_modality %>% mutate(
+  as_long = paste(organ_label, as_label, sep = "_")
+)
+
+# group elements to get counts
+df_summary = as_datasets_modality %>%
+  group_by(as_long, organ_label, tool, sex) %>%
+  summarise(count = n_distinct(dataset))
+
+```
+
+
+# Visualize
+```{r visualize, fig.width=15, fig.height=10}
+g = ggplot(df_summary, aes(x = count, y= as_long, fill=sex))+
+  geom_bar(stat = "identity")+
+  facet_grid(sex~tool)+
+  # facet_wrap(~tool, nrow=1)+
+  scale_x_continuous(limits=c(0,85))+
+ theme(axis.text.x = element_text(angle = 90))+
+  geom_text(label = df_summary$count,  hjust=0, size = 3,)
+
+g
+
+```
+
