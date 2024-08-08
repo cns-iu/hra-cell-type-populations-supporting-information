@@ -1,0 +1,65 @@
+hubmap_id,organ_label,as,uberon_id,uberon_label
+HBM235.VKNJ.237,LI,ascending,UBERON:0001156,ascending colon
+HBM238.GTNW.259,SI,ileum,UBERON:0002116,ileum
+HBM242.LSCK.393,LI,sigmoid,UBERON:0001159,sigmoid colon
+HBM284.SBPR.357,SI,proximal jejunum,UBERON:0002115,jejunum
+HBM285.VFDT.966,SI,proximal jejunum,UBERON:0002115,jejunum
+HBM288.BBKK.828,LI,ascending,UBERON:0001156,ascending colon
+HBM295.SWJJ.888,LI,descending,UBERON:0001158,descending colon
+HBM297.MZZX.824,LI,sigmoid,UBERON:0001159,sigmoid colon
+HBM334.QWFV.953,LI,transverse,UBERON:0001157,transverse colon
+HBM353.NZVQ.793,LI,descending,UBERON:0001158,descending colon
+HBM363.CKHC.928,SI,proximal jejunum,UBERON:0002115,jejunum
+HBM363.LLBL.252,LI,transverse,UBERON:0001157,transverse colon
+HBM394.VSKR.883,SI,proximal jejunum,UBERON:0002115,jejunum
+HBM395.NQKF.566,SI,proximal jejunum,UBERON:0002115,jejunum
+HBM424.STVV.842,LI,transverse,UBERON:0001157,transverse colon
+HBM429.LLRT.546,LI,sigmoid,UBERON:0001159,sigmoid colon
+HBM438.JXJW.249,LI,transverse,UBERON:0001157,transverse colon
+HBM439.WJDV.974,LI,sigmoid,UBERON:0001159,sigmoid colon
+HBM443.LGZK.435,SI,duodenum,UBERON:0002114,duodenum
+HBM447.MNKW.592,LI,transverse,UBERON:0001157,transverse colon
+HBM462.JKCN.863,LI,descending,UBERON:0001158,descending colon
+HBM465.ZNVW.226,LI,sigmoid,UBERON:0001159,sigmoid colon
+HBM466.XSKL.867,SI,ileum,UBERON:0002116,ileum
+HBM473.QGDG.848,SI,duodenum,UBERON:0002114,duodenum
+HBM488.CNNZ.544,LI,ascending,UBERON:0001156,ascending colon
+HBM535.QNTP.246,SI,ileum,UBERON:0002116,ileum
+HBM565.LSMX.645,SI,ileum,UBERON:0002116,ileum
+HBM569.NBHZ.832,SI,duodenum,UBERON:0002114,duodenum
+HBM573.SWGH.988,SI,proximal jejunum,UBERON:0002115,jejunum
+HBM573.TTLG.748,LI,sigmoid,UBERON:0001159,sigmoid colon
+HBM575.THQM.284,LI,sigmoid,UBERON:0001159,sigmoid colon
+HBM622.STKS.394,LI,descending,UBERON:0001158,descending colon
+HBM626.VJMB.795,SI,ileum,UBERON:0002116,ileum
+HBM627.KDHD.293,LI,transverse,UBERON:0001157,transverse colon
+HBM666.NDQZ.365,SI,mid jejunum,UBERON:0002115,jejunum
+HBM666.RBCG.529,SI,ileum,UBERON:0002116,ileum
+HBM676.QVGZ.455,SI,mid jejunum,UBERON:0002115,jejunum
+HBM679.NNNK.283,LI,ascending,UBERON:0001156,ascending colon
+HBM683.NRPR.962,LI,ascending,UBERON:0001156,ascending colon
+HBM687.SJLD.889,SI,mid jejunum,UBERON:0002115,jejunum
+HBM727.DMKG.675,SI,mid jejunum,UBERON:0002115,jejunum
+HBM729.XTBN.693,LI,ascending,UBERON:0001156,ascending colon
+HBM739.HCWP.359,LI,sigmoid,UBERON:0001159,sigmoid colon
+HBM742.NHHQ.357,LI,ascending,UBERON:0001156,ascending colon
+HBM749.SMWP.555,SI,mid jejunum,UBERON:0002115,jejunum
+HBM772.TKCN.287,SI,duodenum,UBERON:0002114,duodenum
+HBM785.FJVT.469,SI,proximal jejunum,UBERON:0002115,jejunum
+HBM792.FFJT.499,LI,transverse,UBERON:0001157,transverse colon
+HBM823.RJNG.364,LI,descending,UBERON:0001158,descending colon
+HBM824.XGWZ.857,LI,descending,UBERON:0001158,descending colon
+HBM827.SJBP.777,SI,mid jejunum,UBERON:0002115,jejunum
+HBM832.ZSQJ.442,SI,mid jejunum,UBERON:0002115,jejunum
+HBM845.VMSZ.536,SI,duodenum,UBERON:0002114,duodenum
+HBM852.NKST.623,LI,descending,UBERON:0001158,descending colon
+HBM865.VDXC.862,LI,transverse,UBERON:0001157,transverse colon
+HBM893.MCGS.487,SI,ileum,UBERON:0002116,ileum
+HBM899.KTQM.246,SI,ileum,UBERON:0002116,ileum
+HBM934.KLGL.584,SI,mid jejunum,UBERON:0002115,jejunum
+HBM938.KMNW.825,LI,ascending,UBERON:0001156,ascending colon
+HBM945.FSHR.864,SI,duodenum,UBERON:0002114,duodenum
+HBM953.KMTG.758,SI,duodenum,UBERON:0002114,duodenum
+HBM964.FPNH.767,LI,descending,UBERON:0001158,descending colon
+HBM974.CNWK.327,SI,duodenum,UBERON:0002114,duodenum
+HBM996.MDQH.988,SI,proximal jejunum,UBERON:0002115,jejunum

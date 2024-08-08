@@ -6,6 +6,8 @@ output: html_document
 # Environment
 
 ```{r message=FALSE, warning=FALSE}
+library(Seurat)
+library(SeuratObject)
 library(tidyr)
 library(dplyr)
 library(plyr)
@@ -14,6 +16,7 @@ library(stringr)
 library(ggplot2)
 library(magrittr)
 options(scipen=999)
+
 ```
  
 # Load Data
@@ -29,8 +32,8 @@ data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/ma
                  header=T, fileEncoding = "UTF8")
 
 # Spatial data aggregation: Organs Small & Large Intestines, AS, cell types measures
-data_spatial <- read.csv("../heatmaps/spatial/HRApop_Spatial_OASCT_CellCount_Percentage.csv",
-                         header=T)
+data_spatial <- read.csv("../heatmaps/HRApop_Spatial_OASCT_CellCount_Percentage.csv",
+                         header=T, fileEncoding = "UTF8")
 
 # Cell Type Crosswalks - Data Cleaning
 # https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
@@ -104,7 +107,7 @@ metadata_pivot <-
         Min_Data_Set_Count = min(ds_count),
         Max_Data_Set_Count = max(ds_count)) %>%
   arrange(desc(AS), desc(Tools), desc(Median_Data_Set_Count), organ) %>%
-  plyr::rename(c("organ"="Organ"))
+  rename(c("organ"="Organ"))
 
 # Save results
 metadata_pivot
@@ -164,19 +167,11 @@ data$organ <- factor(data$organ)
 
 # Prepare anatomical structure labels
 data$as <- data$as %>% 
-  str_replace("heart ","") %>%
-  str_replace(" of body","") %>%
-  str_replace("part of ","") %>%
-  str_replace("Right Lateral", "Lateral") %>%
-  str_replace("Right Medial", "Medial") %>%
-  str_replace("Left apical", "Apical") %>%
-  str_replace(" of right mammary gland","") %>%
-  str_replace(" of prostate","") %>%
-  str_replace(" of spleen","") %>%
-  str_replace(" of liver","") %>%
-  str_replace(" of kidney","") %>%
-  str_replace(" of urinary bladder","") %>%
-  str_to_title()
+  str_to_title() %>%
+  str_replace(" Part "," part ") %>%
+  str_replace(" Of "," of ") %>% 
+  str_replace(" In "," in ") %>%
+  str_replace("Heart ","")
 
 data$cell_label <- data$cell_label %>%
   str_replace("_"," ")
@@ -370,7 +365,7 @@ data_celltypist$cell_name <-
 data_azimuth$cell_name <- 
   paste0(data_azimuth$cell_id,": ",data_azimuth$cell_label2)
 data_scproteomics$cell_name <- 
-  paste0("ASCTB-TEMP: ",data_scproteomics$cell_label2)
+  paste0(data_scproteomics$cell_id,": ",data_scproteomics$cell_label2)
 
 # Spatial cell_label updated to cell_name. Underlying data did not include AS_ID
 names(data_spatial)[4] <- "cell_name"
@@ -410,9 +405,9 @@ data_azimuth_heatmap <- scale(data_azimuth_heatmap)
 
 # Generate heatmap
 heatmap_plot <- pheatmap::pheatmap(data_azimuth_heatmap, legend=TRUE,
-                                   legend_breaks = c(-1, 0, 1, 2, 3, 
+                                   legend_breaks = c(0, 1, 2, 3, 
                                                      max(data_azimuth_heatmap)),
-                                   legend_labels = c("-1", "0", "1", "2", "3", 
+                                   legend_labels = c("0", "1", "2", "3", 
                                      "Percentage (z-scale)\n"))
 
 # Save visualization
@@ -452,9 +447,9 @@ data_celltypist_heatmap <- scale(data_celltypist_heatmap)
 
 # Generate heatmap
 heatmap_plot <- pheatmap::pheatmap(data_celltypist_heatmap, legend=TRUE,
-                                   legend_breaks = c(-1,0, 1, 2, 3, 4,
+                                   legend_breaks = c(0, 1, 2, 3, 
                                                      max(data_celltypist_heatmap)),
-                                   legend_labels = c("-1","0", "1", "2", "3", "4",
+                                   legend_labels = c("0", "1", "2", "3", 
                                      "Percentage (z-scale)\n"))
 
 # Save visualization
@@ -494,9 +489,9 @@ data_popv_heatmap <- scale(data_popv_heatmap)
 
 # Generate heatmap
 heatmap_plot <- pheatmap::pheatmap(data_popv_heatmap, legend=TRUE,
-                                   legend_breaks = c(-1, 0, 1, 2, 3, 4,
+                                   legend_breaks = c(0, 1, 2, 3, 
                                                      max(data_popv_heatmap)),
-                                   legend_labels = c("-1", "0", "1", "2", "3", "4",
+                                   legend_labels = c("0", "1", "2", "3", 
                                      "Percentage (z-scale)\n"))
 
 # Save visualization
@@ -555,10 +550,6 @@ heatmap_plot
 ## Spatial
 
 ```{r heatmap_spatial_v0.1, fig.height=5, fig.width=12}
-names(data_spatial) <- c("organ","as_id","as","cell_name","datasets",
-                         "cell_count","mean_cell_ct","total_cell_ct",
-                         "percentage","tool")
-
 # Create pivot
 data_spatial <- 
   data_spatial %>%
@@ -566,7 +557,7 @@ data_spatial <-
   pivot_wider(names_from = cell_name,
               values_from = percentage,
               values_fill = 0,
-              values_fn = sum) %>%
+              values_fn = mean) %>%
   arrange(organ, as_id)
 
 # Convert DF to a matrix
