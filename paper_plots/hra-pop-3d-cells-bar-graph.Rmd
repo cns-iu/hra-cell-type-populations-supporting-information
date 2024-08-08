@@ -1,0 +1,60 @@
+---
+title: "HRApop Visualize 3D Cell Generation API"
+author: "Andreas Bueckle"
+date: "2024-08-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load libraries}
+
+library(tidyverse)
+```
+
+```{r load and preprocess data}
+
+df_bar = read_csv("../3d_cells_in_anatomical_structures/output/3d_cell_distribution.csv")
+
+df_bar = df_bar %>% rename(
+  'cell_type' = "Cell Type"
+)
+```
+
+```{r load color scheme and add}
+color_map = read_csv("data/color_scheme_3d_cells.csv")
+
+df_merged = df_bar %>% left_join(color_map, by = "cell_type")
+```
+
+
+```{r visualize data}
+
+g = ggplot(df_merged, aes(x = fct_infreq(cell_type), fill = cell_color))+
+  geom_bar(width = .5)+
+  xlab("Cell Types")+
+  ylab("Number of Cells")+
+  theme(
+    axis.text = element_text(size=11.5),
+    axis.text.x = element_text(angle=90),
+    axis.title = element_text(size = 13),
+    panel.background = element_rect(fill = "#4B4B5E", color = NA)
+  )+
+  scale_fill_identity(guide = "legend", labels = df_merged$cell_type)+
+  guides(fill = guide_legend(title = "Cell Types")) +
+  theme(legend.position = "none")
+  
+g
+```
+
+```{r export}
+file_name = "output/3d_cells_bar_graph.png"
+
+ggsave(filename = file_name, plot = last_plot(), dpi = 300,width = 2000, height = 1500, units = "px")
+```
+
+
+
+
