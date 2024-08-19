@@ -65,6 +65,8 @@ validations/bargraphs/ct_pop_cellTypePerBarGraph.csv
 
 # virtual environments for Jupyter Notebooks
 venv
+
+# ignore big Blender files
 validations/corridors/corridors_volume.blend
 validations/corridors/corridors_volume.blend1
 validations/corridors/test.py
