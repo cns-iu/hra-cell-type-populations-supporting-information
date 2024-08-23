@@ -70,3 +70,7 @@ venv
 validations/corridors/corridors_volume.blend
 validations/corridors/corridors_volume.blend1
 validations/corridors/test.py
+
+# ignore working validations for related projects
+validations/heatmaps/HRA_HeatmapAnalysis_GTEX_Immune.rmd
+validations/heatmaps/HRApop_organ_dataset_metadata_pivot*~
