@@ -65,6 +65,8 @@ validations/bargraphs/ct_pop_cellTypePerBarGraph.csv
 
 # virtual environments for Jupyter Notebooks
 venv
+
+# ignore big Blender files
 validations/corridors/corridors_volume.blend
 validations/corridors/corridors_volume.blend1
 validations/corridors/test.py
@@ -73,3 +75,7 @@ validations/corridors/test.py
 all_corridors.blend
 all_corridors.blend1
 all_corridors.glb
+
+# ignore working validations for related projects
+validations/heatmaps/HRA_HeatmapAnalysis_GTEX_Immune.rmd
+validations/heatmaps/HRApop_organ_dataset_metadata_pivot*
