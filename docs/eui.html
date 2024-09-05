@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>HRApop Registrations</title>
     <base href="https://cdn.humanatlas.io/ui/ccf-eui/" />
@@ -10,15 +11,33 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
     <script src="wc.js" async></script>
-  </head>
+</head>
 
-  <body>
-    <ccf-eui
-      logo-tooltip="HRApop Registrations"
-      home-url="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/"
-      data-sources='["https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/assets/atlas-enriched-dataset-graph.jsonld"]'
-      theme="hubmap"
-      login-disabled="true"
-    ></ccf-eui>
-  </body>
+<body>
+    <ccf-eui 
+    logo-tooltip="HRApop Registrations" 
+    home-url="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/" 
+    data-sources='["https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/assets/atlas-enriched-dataset-graph.jsonld"]'
+    theme="hubmap" 
+    login-disabled="true" 
+    selected-organs=
+        '[
+         "http://purl.obolibrary.org/obo/UBERON_0000948",
+         "http://purl.obolibrary.org/obo/UBERON_0000059",
+         "http://purl.obolibrary.org/obo/UBERON_0004538",
+         "http://purl.obolibrary.org/obo/UBERON_0001223",
+         "http://purl.obolibrary.org/obo/UBERON_0001004",
+         "http://purl.obolibrary.org/obo/UBERON_0004539",
+         "http://purl.obolibrary.org/obo/UBERON_0002097",
+         "http://purl.obolibrary.org/obo/UBERON_0002108",
+         "http://purl.obolibrary.org/obo/UBERON_0002106",
+         "http://purl.obolibrary.org/obo/UBERON_0002107",
+         "http://purl.obolibrary.org/obo/UBERON_0001255",
+         "http://purl.obolibrary.org/obo/UBERON_0000079",
+         "http://purl.org/sig/ont/fma/fma57987"
+        ]' 
+    </ccf-eui>
+</body>
+
+
 </html>
