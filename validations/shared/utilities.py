@@ -1,6 +1,9 @@
 import requests
 import json
 
+def test():
+  print("test successful")
+
 def dict_to_vec(dict1: dict, dict2: dict):
   """Takes two dictionaries and returns a tuple of nornalized lists with values (0 if key not present)
 
