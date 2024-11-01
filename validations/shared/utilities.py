@@ -1,8 +1,18 @@
+from hra_api_client.models.sparql_query_request import SparqlQueryRequest
+from hra_api_client.api import v1_api as default_api
 import requests
+import hra_api_client
+from sklearn.metrics.pairwise import cosine_similarity
 import json
 
-def test():
-  print("test successful")
+# config
+configuration = hra_api_client.Configuration(
+    host="https://apps.humanatlas.io/api"
+)
+
+
+api_client = hra_api_client.ApiClient(configuration)
+api_instance = default_api.V1Api(api_client)
 
 def dict_to_vec(dict1: dict, dict2: dict):
   """Takes two dictionaries and returns a tuple of nornalized lists with values (0 if key not present)
