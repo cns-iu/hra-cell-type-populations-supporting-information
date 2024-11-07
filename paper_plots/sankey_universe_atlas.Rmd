@@ -25,7 +25,7 @@ library(glue)
 source("scripts/themes.R")
 
 # global variables
-hra_pop_version = "0.10.2"
+hra_pop_version = "0.10.3"
 
 only_atlas = FALSE #set to FALSE for universe
 
@@ -206,7 +206,7 @@ subset_sankey$donor_race = subset_sankey$mapped_donor_race
 
 ## OPTIONAL: Filter for only atlas data
 ``` {r OnlyAtlas, echo=FALSE} 
-# if(only_atlas) {subset_sankey = subset_sankey %>% filter(is_atlas_dataset == "Atlas Dataset")}
+if(only_atlas) {subset_sankey = subset_sankey %>% filter(is_atlas_dataset == "Atlas Dataset")}
 
 ```
 
