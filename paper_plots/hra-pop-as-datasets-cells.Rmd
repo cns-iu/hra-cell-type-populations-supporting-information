@@ -12,7 +12,7 @@ library(glue)
 ```
 
 ```{r set global variables}
-hra_pop_version = "v0.10.3"
+hra_pop_version = "v0.11.1"
 ```
 
 
