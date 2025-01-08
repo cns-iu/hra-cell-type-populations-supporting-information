@@ -1,0 +1,67 @@
+sex,tool,modality,organ,organId,as,as_id,cell_id,cell_label,cell_count,percentage,asct_relation_in_asctb_table,indirect_asct_relation_in_asctb_table
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000717,Outer Medullary Collecting Duct Intercalated Type A,10.062,0.0070422535211267,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:4030014,Descending Thin Limb Type 3,138.976,0.0972673648729986,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1000692,Fibroblast,9.3,0.0059937664828578,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,outer cortex of kidney,UBERON:0002189,CL:1000452,Parietal Epithelial,17480.964,0.0059183964033968,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000692,Fibroblast,12.298,0.0086071987480438,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:0002138,Lymphatic Endothelial,2.604,0.0016782546152001,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:4030016,Distal Convoluted Tubule Type 1,2.604,0.0016782546152001,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:0000084,T,3.268,0.0022872276393403,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1000768,Connecting Tubule,7.812,0.0050347638456005,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney pyramid,UBERON:0004200,CL:1001131,Ascending Vasa Recta Endothelial,6981.290999999999,0.0146683508450404,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1001131,Ascending Vasa Recta Endothelial,44.082,0.0284104531287461,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1000715,Cortical Collecting Duct Intercalated Type A,16.182,0.0104291536801726,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:4030022,Medullary Fibroblast,36.084,0.0232558139534883,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000412,Afferent / Efferent Arteriole Endothelial,0.258,0.0001805706031058143,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000452,Parietal Epithelial,0.258,0.0001805706031058143,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:0000653,Podocyte,0.258,0.0001805706031058143,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:0000814,Natural Killer T,0.516,0.0003611412062116287,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1001131,Ascending Vasa Recta Endothelial,84.108,0.0588660166124954,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:0000653,Podocyte,1.86,0.0011987532965715,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000718,Inner Medullary Collecting Duct,301.602,0.211087035030697,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:4030012,Descending Thin Limb Type 1,53.23399999999999,0.037257734440833,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1000716,Outer Medullary Collecting Duct Principal,147.87,0.0953008870774394,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000714,Cortical Collecting Duct Principal,83.24799999999999,0.0582641146021427,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1001109,Cortical Thick Ascending Limb,419.058,0.2700791177175738,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1001318,Vascular Smooth Muscle / Pericyte,15.738,0.0110148067894546,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1001005,Glomerular Capillary Endothelial,1.116,0.0007192519779429395,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:0002573,Schwann / Neural,0.558,0.0003596259889714697,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:0000084,T,0.558,0.0003596259889714697,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,renal column,UBERON:0001284,CL:0000653,Podocyte,15.04,0.0011987532965715,True,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:0000875,Non-classical monocyte,0.6019999999999999,0.0004213314072469,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000850,Macula Densa,0.086,6.019020103527144e-05,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000715,Cortical Collecting Duct Intercalated Type A,0.086,6.019020103527144e-05,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1001109,Cortical Thick Ascending Limb,0.086,6.019020103527144e-05,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:4030016,Distal Convoluted Tubule Type 1,0.086,6.019020103527144e-05,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:4030018,Connecting Tubule Principal,56.172,0.0362023495564612,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1000717,Outer Medullary Collecting Duct Intercalated Type A,7.998,0.0051546391752577,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,renal papilla,UBERON:0001228,CL:1000597,Papillary Tip Epithelial,0.524,6.675217059205098e-05,True,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1001108,Medullary Thick Ascending Limb,468.348,0.3018460800767203,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:4030013,Descending Thin Limb Type 2,62.124,0.0400383601054902,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,renal papilla,UBERON:0001228,CL:1000718,Inner Medullary Collecting Duct,2858.258,0.3641124534581955,True,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,outer cortex of kidney,UBERON:0002189,CL:0000653,Podocyte,24672.924,0.0083533233443466,True,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,renal column,UBERON:0001284,CL:1000452,Parietal Epithelial,6.016,0.000479501318628626,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000716,Outer Medullary Collecting Duct Principal,3.612,0.0025279884434814,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000768,Connecting Tubule,112.746,0.0789093535572408,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1001318,Vascular Smooth Muscle / Pericyte,24.924,0.0160632941740589,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:4030011,Proximal Tubule Epithelial Segment 3,23.994,0.0154639175257732,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:4030012,Descending Thin Limb Type 1,100.626,0.0648525533445217,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1000412,Afferent / Efferent Arteriole Endothelial,1.674,0.0010788779669144,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1001107,Ascending Thin Limb,163.486,0.114421572168051,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:0011031,Monocyte-derived,7.739999999999999,0.0054171180931744,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1001108,Medullary Thick Ascending Limb,2.666,0.0018658962320934,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:4030013,Descending Thin Limb Type 2,10.664,0.0074635849283736,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:1000597,Papillary Tip Epithelial,9.803999999999998,0.0068616829180209,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:0011031,Monocyte-derived,0.186,0.0001198753296571566,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:0000814,Natural Killer T,0.372,0.0002397506593143131,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1000452,Parietal Epithelial,0.744,0.0004795013186286263,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:4030014,Descending Thin Limb Type 3,0.186,0.0001198753296571566,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:0002201,Intercalated Type B,0.372,0.0002397506593143131,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1001107,Ascending Thin Limb,0.372,0.0002397506593143131,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:4030022,Medullary Fibroblast,336.518,0.2355242566510171,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1000714,Cortical Collecting Duct Principal,2.232,0.0014385039558858,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,hilum of kidney,UBERON:0008716,CL:1000850,Macula Densa,9.858,0.0063533924718292,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,kidney capsule,UBERON:0002015,CL:4030018,Connecting Tubule Principal,3.01,0.0021066570362345,False,True
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,renal column,UBERON:0001284,CL:0000653,Podocyte,15.04,0.0011987532965715,True,False
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,outer cortex of kidney,UBERON:0002189,CL:0000653,Podocyte,24672.924,0.0083533233443466,True,False
+Male,azimuth,sc_transcriptomics,left kidney,UBERON:0004538,renal papilla,UBERON:0001228,CL:1000718,Inner Medullary Collecting Duct,2858.258,0.3641124534581955,True,False
