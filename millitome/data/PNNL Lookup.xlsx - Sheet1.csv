@@ -1,0 +1,173 @@
+HuBMAP Sample ID,Donor,Link,Lab ID,Parent organ type,BLOCK Location,Assay Group
+HBM692.LCNB.765,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM692.LCNB.765,11-106,uterus,35,Multiome
+HBM792.WJLJ.923,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM792.WJLJ.923,11-110,uterus,54,Multiome
+HBM256.MTWQ.585,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM256.MTWQ.585,11-119,uterus,71,Multiome
+HBM568.LZHR.425,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM568.LZHR.425,11-128,uterus,108,Multiome
+HBM252.QVCK.893,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM252.QVCK.893,14-1,ovary (R),3,Multiome
+HBM495.WLDR.795,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM495.WLDR.795,14-13,ovary (R),24,Multiome
+HBM588.TNGJ.868,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM588.TNGJ.868,14-25,ovary (R),27,Multiome
+HBM644.XFGJ.857,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM644.XFGJ.857,11-59,F. tube (R),3,Multiome
+HBM385.QFHD.475,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM385.QFHD.475,11-62,F. tube (R),6,Multiome
+HBM334.CHVK.238,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM334.CHVK.238,11-65,F. tube (R),9,Multiome
+HBM587.DFCW.749,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM587.DFCW.749,11-69,F. tube (R),12,Multiome
+HBM995.CQKZ.339,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM995.CQKZ.339,11-81,uterus,3,Multiome
+HBM966.WGFQ.597,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM966.WGFQ.597,11-93,uterus,21,Multiome
+HBM553.WQWN.884,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM553.WQWN.884,17-3,ovary (R),"3, 6, 9, 12",Multiome
+HBM374.SRZD.953,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM374.SRZD.953,13-101,uterus,108,Multiome
+HBM762.SPJF.928,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM762.SPJF.928,13-102,uterus,104,Visium
+HBM776.DNJZ.945,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM776.DNJZ.945,17-6,ovary (R),"15, 18, 21, 24",Multiome
+HBM459.VMJC.864,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM459.VMJC.864,17-9,ovary (R),"27, 30, 33, 36",Multiome
+HBM696.HWTM.483,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM696.HWTM.483,15-1,ovary (L),"39, 42, 45, 48",Multiome
+HBM992.ZLZB.786,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM992.ZLZB.786,15-12,ovary (R),"3, 6, 9, 12",Multiome
+HBM759.ZTGN.372,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM759.ZTGN.372,15-15,ovary (R),"15, 18, 21, 24",Multiome
+HBM379.BGFQ.837,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM379.BGFQ.837,15-18,ovary (R),"27, 30, 33, 36",Multiome
+HBM476.NQXM.289,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM476.NQXM.289,15-9,ovary (L),"63, 66, 69, 72",Multiome
+HBM872.TSRG.986,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM872.TSRG.986,13-1,ovary (L),48,Multiome
+HBM997.HRCG.585,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM997.HRCG.585,13-13,ovary (L),60,Multiome
+HBM567.DVNV.954,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM567.DVNV.954,13-14,ovary (L),57,Multiome
+HBM779.SKXG.842,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM779.SKXG.842,13-15,ovary (L),54,Multiome
+HBM399.TBPX.343,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM399.TBPX.343,13-16,ovary (L),51,Multiome
+HBM337.QSBH.972,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM337.QSBH.972,13-17,ovary (L),58,Visium
+HBM324.HZVF.467,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM324.HZVF.467,13-18,ovary (L),55,Visium
+HBM269.BZSG.442,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM269.BZSG.442,13-19,ovary (L),49,Visium
+HBM278.XLBD.662,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM278.XLBD.662,13-2,ovary (L),45,Multiome
+HBM235.XDSM.559,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM235.XDSM.559,13-20,ovary (L),52,Visium
+HBM727.WSZX.242,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM727.WSZX.242,13-25,ovary (L),72,Multiome
+HBM927.XWTL.358,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM927.XWTL.358,13-37,F. tube (L),15,Multiome
+HBM255.FFJQ.856,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM255.FFJQ.856,13-38,F. tube (L),13,Visium
+HBM369.WRDC.345,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM369.WRDC.345,13-26,ovary (L),69,Multiome
+HBM724.GMZM.797,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM724.GMZM.797,13-40,F. tube (L),18,Multiome
+HBM474.TQQQ.496,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM474.TQQQ.496,13-41,F. tube (L),16,Visium
+HBM367.JCKP.625,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM367.JCKP.625,13-43,F. tube (L),21,Multiome
+HBM785.MVWL.456,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM785.MVWL.456,13-44,F. tube (L),19,Visium
+HBM773.MKCR.985,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM773.MKCR.985,13-46,F. tube (L),24,Multiome
+HBM827.MZXW.224,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM827.MZXW.224,13-47,F. tube (L),22,Visium
+HBM947.XDKM.768,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM947.XDKM.768,13-49,uterus (cervix),3,Multiome
+HBM224.TTJB.522,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM224.TTJB.522,13-27,ovary (L),63,Multiome
+HBM299.VQZH.986,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM299.VQZH.986,13-50,uterus,1,Visium
+HBM367.VSDK.374,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM367.VSDK.374,13-28,ovary (L),66,Multiome
+HBM863.NCVL.825,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM863.NCVL.825,13-61,uterus (cervix),21,Multiome
+HBM256.ZGQF.566,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM256.ZGQF.566,13-62,uterus,13,Visium
+HBM353.RTXH.756,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM353.RTXH.756,13-29,ovary (L),70,Visium
+HBM758.KNGF.866,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM758.KNGF.866,13-74,uterus,35,Multiome
+HBM327.HPJM.473,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM327.HPJM.473,13-75,uterus,25,Visium
+HBM487.BBDJ.936,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM487.BBDJ.936,13-3,ovary (L),39,Multiome
+HBM479.GRRC.878,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM479.GRRC.878,13-82,uterus,54,Multiome
+HBM366.WHRH.745,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM366.WHRH.745,13-85,uterus,50,Visium
+HBM332.QKWS.625,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM332.QKWS.625,13-94,uterus,71,Multiome
+HBM366.BVQC.294,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM366.BVQC.294,13-95,uterus,67,Visium
+HBM864.QFTF.838,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM864.QFTF.838,13-30,ovary (L),67,Visium
+HBM634.TSZQ.288,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM634.TSZQ.288,14-102,uterus,3,Multiome
+HBM236.RPHZ.924,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM236.RPHZ.924,14-115,uterus,21,Multiome
+HBM387.BHCS.282,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM387.BHCS.282,14-121,uterus,"53, 54",Multiome
+HBM794.WZTX.678,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM794.WZTX.678,13-31,ovary (L),61,Visium
+HBM953.DKKW.389,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM953.DKKW.389,14-139,uterus,"71, 72",Multiome
+HBM235.FZDT.382,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM235.FZDT.382,14-157,uterus,"35, 36",Multiome
+HBM978.MDWW.278,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM978.MDWW.278,14-166,uterus,"107, 108",Multiome
+HBM946.VQKL.632,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM946.VQKL.632,13-32,ovary (L),64,Visium
+HBM924.KTQF.774,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM924.KTQF.774,14-73,F. tube (R),3,Multiome
+HBM298.NXHR.528,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM298.NXHR.528,14-79,F. tube (R),6,Multiome
+HBM455.DCGV.562,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM455.DCGV.562,14-83,F. tube (R),9,Multiome
+HBM754.LXMB.975,https://portal.hubmapconsortium.org/browse/HBM274.TWRJ.896,https://portal.hubmapconsortium.org/browse/HBM754.LXMB.975,14-86,F. tube (R),12,Multiome
+HBM575.MXPN.969,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM575.MXPN.969,15-102,uterus,"53, 54",Multiome
+HBM259.PRLN.377,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM259.PRLN.377,15-111,uterus,"71, 72",Multiome
+HBM924.RGDG.483,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM924.RGDG.483,13-4,ovary (L),42,Multiome
+HBM533.XLXF.795,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM533.XLXF.795,13-5,ovary (L),46,Visium
+HBM623.KJGR.642,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM623.KJGR.642,13-6,ovary (L),43,Visium
+HBM285.SRTL.889,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM285.SRTL.889,13-7,ovary (L),37,Visium
+HBM353.WXCP.267,https://portal.hubmapconsortium.org/browse/HBM624.KWHJ.622,https://portal.hubmapconsortium.org/browse/HBM353.WXCP.267,13-8,ovary (L),40,Visium
+HBM847.JWMZ.742,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM847.JWMZ.742,15-183,uterus,"107, 108",Multiome
+HBM264.TKQN.626,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM264.TKQN.626,15-21,F. tube (R),3,Multiome
+HBM495.CHDG.737,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM495.CHDG.737,15-24b,F. tube (R),6,Multiome
+HBM553.HRBR.567,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM553.HRBR.567,15-27,F. tube (R),9,Multiome
+HBM888.ZGTM.434,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM888.ZGTM.434,15-30,F. tube (R),12,Multiome
+HBM553.WNFJ.668,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM553.WNFJ.668,15-45,uterus (cervix),3,Multiome
+HBM882.MCHD.457,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM882.MCHD.457,15-58,uterus (cervix),21,Multiome
+HBM734.QQXM.932,https://portal.hubmapconsortium.org/browse/HBM446.CSSP.335,https://portal.hubmapconsortium.org/browse/HBM734.QQXM.932,15-93,uterus,"35, 36",Multiome
+HBM878.NKRD.966,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM878.NKRD.966,18-3,ovary (R),"3, 6, 9, 12",Multiome
+HBM798.NZCN.244,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM798.NZCN.244,18-6,ovary (R),"15, 18, 21, 24",Multiome
+HBM547.XHWT.259,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM547.XHWT.259,18-9,ovary (R),"27, 30, 33, 36",Multiome
+HBM835.QGBN.256,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM835.QGBN.256,16-120,uterus,"71, 72",Multiome
+HBM749.KLJP.222,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM749.KLJP.222,11-14,ovary (R),24,Multiome
+HBM724.NCFV.667,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM724.NCFV.667,16-174,uterus,"107, 108",Multiome
+HBM777.LWJN.259,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM777.LWJN.259,11-2,ovary (R),12,Multiome
+HBM589.ZMGW.584,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM589.ZMGW.584,16-21,F. tube (R),3,Multiome
+HBM765.LQQR.483,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM765.LQQR.483,16-24,F. tube (R),6,Multiome
+HBM924.MLQQ.543,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM924.MLQQ.543,16-27,F. tube (R),9,Multiome
+HBM254.FFSR.893,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM254.FFSR.893,16-30,F. tube (R),12,Multiome
+HBM695.LNDL.539,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM695.LNDL.539,16-45,uterus (cervix),3,Multiome
+HBM972.QMDB.665,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM972.QMDB.665,16-59,uterus (cervix),21,Multiome
+HBM983.HJCH.728,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM983.HJCH.728,16-66,uterus,"35, 36",Multiome
+HBM258.LPXQ.626,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM258.LPXQ.626,16-93,uterus,"53, 54",Multiome
+HBM496.KWGJ.958,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM496.KWGJ.958,17-102,uterus,"53, 54",Multiome
+HBM897.DBTQ.278,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM897.DBTQ.278,17-111,uterus,"71, 72",Multiome
+HBM589.LCLB.675,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM589.LCLB.675,17-183,uterus,"107, 108",Multiome
+HBM932.LWTP.253,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM932.LWTP.253,17-21,F. tube (R),3,Multiome
+HBM288.ZRRP.837,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM288.ZRRP.837,17-24,F. tube (R),6,Multiome
+HBM393.CWNW.323,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM393.CWNW.323,17-27,F. tube (R),9,Multiome
+HBM764.TCJN.573,https://portal.hubmapconsortium.org/browse/HBM823.WVQN.738,https://portal.hubmapconsortium.org/browse/HBM764.TCJN.573,11-26,ovary (R),36,Multiome
+HBM466.QQRB.387,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM466.QQRB.387,16-12,ovary (R),"3, 6, 9, 12",Multiome
+HBM356.HGKJ.573,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM356.HGKJ.573,16-15,ovary (R),"15, 18, 21, 24",Multiome
+HBM438.NRLH.282,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM438.NRLH.282,16-18,ovary (R),"27, 30, 33, 36",Multiome
+HBM596.ZHQP.746,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM596.ZHQP.746,16-3,ovary (L),"39, 42, 45, 48",Multiome
+HBM654.HKTS.657,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM654.HKTS.657,16-6,ovary (L),"51, 54, 57, 60",Multiome
+HBM527.XDKX.652,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM527.XDKX.652,17-30,F. tube (R),12,Multiome
+HBM626.NTDP.464,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM626.NTDP.464,17-45,uterus (cervix),3,Multiome
+HBM997.PNFL.384,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM997.PNFL.384,17-57,uterus (cervix),21,Multiome
+HBM636.PRGH.444,https://portal.hubmapconsortium.org/browse/HBM834.QHSW.448,https://portal.hubmapconsortium.org/browse/HBM636.PRGH.444,16-9,ovary (L),"63, 66, 69, 72",Multiome
+HBM472.TKPC.695,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM472.TKPC.695,9OLC.A2,ovary (L),60,Multiome
+HBM274.XLXT.396,https://portal.hubmapconsortium.org/browse/HBM278.PFLB.646,https://portal.hubmapconsortium.org/browse/HBM274.XLXT.396,17-93,uterus,"35, 36",Multiome
+HBM559.ZTZP.945,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM559.ZTZP.945,18-102,uterus,"53, 54",Multiome
+HBM353.GFJR.228,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM353.GFJR.228,18-111,uterus,"71, 72",Multiome
+HBM973.DQTR.568,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM973.DQTR.568,18-183,uterus,"107, 108",Multiome
+HBM359.LMMX.954,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM359.LMMX.954,18-21,F. tube (R),3,Multiome
+HBM699.HPRM.256,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM699.HPRM.256,18-24,F. tube (R),6,Multiome
+HBM236.SCJT.743,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM236.SCJT.743,18-27,F. tube (R),9,Multiome
+HBM524.JPDZ.355,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM524.JPDZ.355,9OLC.A4,ovary (L),60,Visium
+HBM756.LMDM.653,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM756.LMDM.653,18-30,F. tube (R),12,Multiome
+HBM537.RTQD.243,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM537.RTQD.243,18-57,uterus (cervix),21,Multiome
+HBM952.WQNQ.772,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM952.WQNQ.772,9OLC.I2,ovary (L),57,Multiome
+HBM779.WMBJ.259,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM779.WMBJ.259,9OLC.I4,ovary (L),57,Visium
+HBM275.HNJP.353,https://portal.hubmapconsortium.org/browse/HBM632.VMPZ.223,https://portal.hubmapconsortium.org/browse/HBM275.HNJP.353,18-93,uterus,"35, 36",Multiome
+HBM799.QWLQ.586,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM799.QWLQ.586,9ECTC.A3,uterus (cervix),3,Multiome
+HBM389.ZDTG.259,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM389.ZDTG.259,9ECTC.A4,uterus,1,Visium
+HBM946.XPHR.294,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM946.XPHR.294,9ECTC.B4,uterus,4,Visium
+HBM672.FXXC.728,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM672.FXXC.728,9ENDC.A3,uterus (cervix),21,Multiome
+HBM569.QFBX.255,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM569.QFBX.255,9ENDC.A4,uterus,13,Visium
+HBM469.WBDB.236,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM469.WBDB.236,9ENDC.B4,uterus,14,Visium
+HBM726.SXHR.776,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM726.SXHR.776,9OLC.P3,ovary (L),54,Multiome
+HBM635.XWKL.465,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM635.XWKL.465,9OLC.P4,ovary (L),49,Visium
+HBM344.WNWT.887,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM344.WNWT.887,9OLC.S3,ovary (L),51,Multiome
+HBM229.KRZG.433,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM229.KRZG.433,9OLL.A3,ovary (L),72,Multiome
+HBM824.BCPM.928,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM824.BCPM.928,9OLL.I3,ovary (L),69,Multiome
+HBM787.XVBB.778,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM787.XVBB.778,9OLL.P2,ovary (L),63,Multiome
+HBM888.FVGP.722,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM888.FVGP.722,9OLL.S2,ovary (L),66,Multiome
+HBM848.NRQS.525,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM848.NRQS.525,9ORC.S4,ovary (R),16,Visium
+HBM489.JQWW.586,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM489.JQWW.586,9ORM.A3,ovary (R),12,Multiome
+HBM943.BCDD.564,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM943.BCDD.564,9ORM.A4_2slice,ovary (R),10,Visium
+HBM466.LBZB.849,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM466.LBZB.849,9ORM.I3,ovary (R),9,Multiome
+HBM775.NSFR.938,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM775.NSFR.938,9ORM.I4_2slice,ovary (R),7,Visium
+HBM379.LNSK.525,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM379.LNSK.525,9ORM.P3,ovary (R),3,Multiome
+HBM266.FTVW.363,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM266.FTVW.363,9ORM.P4_2slice,ovary (R),1,Visium
+HBM454.KDVK.822,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM454.KDVK.822,9ORM.S1_2slice,ovary (R),4,Visium
+HBM648.HNMT.824,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM648.HNMT.824,9ORM.S3,ovary (R),6,Multiome
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+HBM939.ZDBQ.785,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM939.ZDBQ.785,9RTAMP3,F. tube (R),6,Multiome
+HBM657.BWGV.752,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM657.BWGV.752,9RTAMP4_2slice,F. tube (R),4,Visium
+HBM695.FRXZ.228,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM695.FRXZ.228,9RTF3,F. tube (R),12,Multiome
+HBM374.KHMG.723,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM374.KHMG.723,9RTF4_2slice,F. tube (R),10,Visium
+HBM287.SBVS.723,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM287.SBVS.723,9RTINF3,F. tube (R),9,Multiome
+HBM757.HGNZ.577,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM757.HGNZ.577,9RTINF4_2slice,F. tube (R),7,Visium
+HBM865.JCSK.882,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM865.JCSK.882,9RTIS3,F. tube (R),3,Multiome
+HBM263.FMSF.843,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM263.FMSF.843,9RTIS4_2slice,F. tube (R),1,Visium
+HBM859.TQFB.675,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM859.TQFB.675,9UABSE.C,uterus,50,Visium
+HBM959.HTRP.236,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM959.HTRP.236,9UABSE.C2,uterus,54,Multiome
+HBM275.JHHR.485,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM275.JHHR.485,9UAFSM.C,uterus,67,Visium
+HBM337.XFSG.666,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM337.XFSG.666,9UAFSM.L,uterus,65,Multiome
+HBM428.BWRD.925,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM428.BWRD.925,9UALSM.C2,uterus,35,Multiome
+HBM372.ZGVB.958,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM372.ZGVB.958,9UALSM.L4,uterus,25,Visium
+HBM634.KXMR.248,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM634.KXMR.248,9UPBSE.C,uterus,104,Visium
+HBM765.PNFD.598,https://portal.hubmapconsortium.org/browse/HBM853.HXBK.427,https://portal.hubmapconsortium.org/browse/HBM765.PNFD.598,9UPBSE.L,uterus,102,Multiome
