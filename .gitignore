@@ -80,5 +80,5 @@ all_corridors.glb
 validations/heatmaps/HRA_HeatmapAnalysis_GTEX_Immune.rmd
 validations/heatmaps/HRApop_organ_dataset_metadata_pivot*
 
-# Authentication token
+# Authentication tokens
 token.txt
