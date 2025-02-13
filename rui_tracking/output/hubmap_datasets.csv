@@ -7175,7 +7175,7 @@ HBM952.TKLM.837,Lung (Right),False,PhenoCycler [DeepCell + SPRM],Error,,Universi
 HBM229.FRHQ.564,Lung (Right),True,Publication [ancillary],QA,,MC - IU,True,3e7f10343ef497a45d37fc3f16e6a1a1
 HBM528.KHNM.234,Skin,True,Cell DIVE [DeepCell + SPRM],Error,,General Electric RTI,True,3901b3682111419cfaa2517fd5c3547d
 HBM774.CMMJ.887,Skin,True,Cell DIVE [DeepCell + SPRM],QA,,General Electric RTI,True,bdfc4cedda92325af450685e722812f4
-HBM498.HNDQ.927,Skin,True,Cell DIVE [DeepCell + SPRM],Error,,General Electric RTI,True,f7e7e0283d2d6edd7a3fb3884fcf7dd1
+HBM498.HNDQ.927,Skin,True,Cell DIVE [DeepCell + SPRM],Processing,,General Electric RTI,True,f7e7e0283d2d6edd7a3fb3884fcf7dd1
 HBM285.MWNX.593,Lung (Right),True,SNARE-seq2 [Salmon + ArchR + Muon],Published,1738290129723,University of California San Diego TMC,True,faa9b411d73e86e952e98af962a457ec
 HBM263.NGZD.843,Kidney (Left),True,SNARE-seq2 [Salmon + ArchR + Muon],Error,,University of California San Diego TMC,True,1d6f5f5edbc6d83d1941b57985cf7f36
 HBM338.ZSSZ.366,Kidney (Right),True,10X Multiome [Salmon + ArchR + Muon],Error,,Washington University Kidney TMC,True,c6552a8ac69e0e9e11571a556a0a8881
@@ -7304,7 +7304,7 @@ HBM679.SFQW.922,Skin,True,Cell DIVE [DeepCell + SPRM],QA,,General Electric RTI,T
 HBM886.LDKN.226,Lung (Right),False,PhenoCycler [DeepCell + SPRM],Error,,University of Rochester Medical Center TMC,True,97df8de3b6a2a674a6bf8bb2845ba922
 HBM866.KWWD.376,Skin,True,Cell DIVE [DeepCell + SPRM],QA,,General Electric RTI,True,248ad85aeb8615d28672094d4995015f
 HBM928.NHRQ.399,Skin,True,Cell DIVE [DeepCell + SPRM],QA,,General Electric RTI,True,fc1a2a44485aee70add73be2e195f046
-HBM278.LDBD.578,Skin,True,Cell DIVE [DeepCell + SPRM],Processing,,General Electric RTI,True,537b44c38d5a113974c6011afe59afc4
+HBM278.LDBD.578,Skin,True,Cell DIVE [DeepCell + SPRM],Error,,General Electric RTI,True,537b44c38d5a113974c6011afe59afc4
 HBM576.PJDQ.676,Spleen,True,ATACseq [ArchR],QA,,California Institute of Technology TMC,True,6b4513736a776bfedc7d3969dbeaf866
 HBM892.HFLW.322,Liver,True,ATACseq [ArchR],QA,,California Institute of Technology TMC,True,dacfa5865dbbfdd82d92f0ac894f0605
 HBM288.NVDJ.672,Skin,True,Cell DIVE [DeepCell + SPRM],Error,,General Electric RTI,True,1aeb9c177995e5c8f7fab3140379f268
