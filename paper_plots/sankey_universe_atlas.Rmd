@@ -372,6 +372,17 @@ p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name", 
                    units = "occurrences", fontSize = 10, nodeWidth = 20, width=1500, height = 650)
 
+# Use JavaScript to override font size
+p <- htmlwidgets::onRender(
+  p,
+  '
+  function(el, x) {
+    d3.select(el).selectAll(".node text")
+      .style("font-size", "18.5px");  // Change the font size
+  }
+  '
+)
+
 p
 ```
 
