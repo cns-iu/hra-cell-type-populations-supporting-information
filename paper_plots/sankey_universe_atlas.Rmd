@@ -378,7 +378,7 @@ p <- htmlwidgets::onRender(
   '
   function(el, x) {
     d3.select(el).selectAll(".node text")
-      .style("font-size", "18.5px");  // Change the font size
+      .style("font-size", "13px");  // Change the font size
   }
   '
 )
