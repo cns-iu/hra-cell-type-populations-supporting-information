@@ -19,6 +19,12 @@ library(stringr)
 library(ggplot2)
 library(magrittr)
 options(scipen=999)
+
+knitr::opts_chunk$set(
+    dev = c('pdf', 'png'), 
+    fig.align = 'center',
+    fig.path = 'figs/',
+    pdf.options(encoding = "default")) 
 ```
  
 # Load Data
@@ -420,12 +426,6 @@ heatmap_plot <- pheatmap::pheatmap(data_azimuth_heatmap, legend=TRUE,
                                    legend_labels = c("-1", "0", "1", "2", "3", 
                                      "Percentage (z-scale)\n"))
 
-# Save visualization
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-azimuth.pdf"),
-       heatmap_plot, width=24, height=12, units="in")
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-azimuth.png"),
-       heatmap_plot, width=24, height=12, units="in")
-
 # Plot
 
 heatmap_plot
@@ -463,11 +463,6 @@ heatmap_plot <- pheatmap::pheatmap(data_celltypist_heatmap, legend=TRUE,
                                    legend_labels = c("-1","0", "1", "2", "3", "4",
                                      "Percentage (z-scale)\n"))
 
-# Save visualization
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-celltypist.pdf"),
-       heatmap_plot, width=36, height=12, units="in")
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-celltypist.png"),
-       heatmap_plot, width=36, height=12, units="in")
 
 # Plot
 heatmap_plot
@@ -504,12 +499,6 @@ heatmap_plot <- pheatmap::pheatmap(data_popv_heatmap, legend=TRUE,
                                                      max(data_popv_heatmap)),
                                    legend_labels = c("-1", "0", "1", "2", "3", "4",
                                      "Percentage (z-scale)\n"))
-
-# Save visualization
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-popv.pdf"),
-       heatmap_plot, width=24, height=12, units="in")
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-popv.png"),
-       heatmap_plot, width=24, height=12, units="in")
 
 # Plot
 heatmap_plot
@@ -548,11 +537,6 @@ heatmap_plot <- pheatmap::pheatmap(data_scproteomics_heatmap, legend=TRUE,
                                   legend_labels = c(-2, -1, 0, 1, 2,
                                                     "Percentage (z-scale)\n"))
 
-# Save visualization
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-scproteomics.pdf"),
-       heatmap_plot, width=12, height=6.5, units="in")
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-scproteomics.png"),
-       heatmap_plot, width=12, height=6.5, units="in")
 
 # Plot
 heatmap_plot
@@ -593,12 +577,6 @@ heatmap_plot <- pheatmap::pheatmap(data_spatial_heatmap, legend=TRUE,
                                                      max(data_spatial_heatmap)),
                                    legend_labels = c("-1", "0", "1", "2",
                                                      "Percentage (z-scale)\n"))
-
-# Save visualization
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-spatial.pdf"),
-       heatmap_plot, width=12, height=5, units="in")
-ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-spatial.png"),
-       heatmap_plot, width=12, height=5, units="in")
 
 # Plot
 heatmap_plot
