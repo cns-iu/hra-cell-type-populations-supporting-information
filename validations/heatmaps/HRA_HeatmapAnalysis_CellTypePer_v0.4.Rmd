@@ -3,6 +3,11 @@ title: "HRA-Pop Cell Type Correlation Analysis Notebook"
 output: html_document
 ---
 
+```{r 'setup', echo = FALSE, cache = FALSE}
+
+```
+
+
 # Environment
 
 ```{r message=FALSE, warning=FALSE}
@@ -422,6 +427,7 @@ ggsave(file=paste0("../output/heatmaps/HRApop_organ_as_celltype-heatmap-azimuth.
        heatmap_plot, width=24, height=12, units="in")
 
 # Plot
+
 heatmap_plot
 ```
 
