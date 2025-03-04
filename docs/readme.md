@@ -305,6 +305,10 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 	}
 ```
 
+# Number of CT per AS 
+
+See the table at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv).
+
 # Interactive 3D visualization of cell type populations for outer cortex of kidney
 This 3D visualization shows 36 unique cell types with a total of ~6,000 cells. These are found in these anatomical structures based on experimental data registered into them (for performance reasons). A 5x5x5 mm tissue block is shown for scale. Please click and drag your left mouse button to rotate the camera around the kidney; click drag the right mouse button to pan; use the mouse scroll wheel to zoom in and out.
 Code to demonstrate how 3D cells can be generated with Python is available here.
