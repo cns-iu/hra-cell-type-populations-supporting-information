@@ -51,7 +51,7 @@ title="Sankey HRApop Universe"
 Explore the Sankey diagram for the HRApop Universe below (embedded) or [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html).
 <iframe 
 src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html" 
-title="Sankey HRApop Universe"
+title="Sankey HRApop Atlas"
   width="100%" 
   height="800"
     frameborder="0" 
