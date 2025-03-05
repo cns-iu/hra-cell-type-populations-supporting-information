@@ -34,13 +34,6 @@ Andreas Bueckle<sup>1+</sup>\*, Bruce William Herr II<sup>1</sup>\*\*, Lu Chen<s
 ## Data
 - [Link to HRApop graph data on HRA LOD server](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/)
 
-# HRApop Extraction Sites
-Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in HRApop.  
-
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
-
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
-
 # Interactive Sankey Diagrams
 
 In total, as of HRApop v0.11.1, there are 11,817 datasets in the HRApop Universe (107 of which are sc-proteomics), and they cover 27 organs. 619 datasets make up the HRApop Atlas. 3680 datasets have an extraction site but no cell summary. Inversely, 5075 datasets have a cell summary but no extraction site. 2324 datasets have neither. The total number of non-atlas datasets is 11,198. The Sankey diagrams below offer an overview of HRApop Universe and Atlas provenance. 
@@ -72,6 +65,13 @@ Shown here are bar graphs for…
 # Number of Cell Types per Anatomical Structure 
 
 See the table at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv).
+
+# HRApop Extraction Sites
+Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in HRApop.  
+
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
+
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
 
 # Exemplary Cell Summaries
 
