@@ -50,6 +50,7 @@ Explore the Sankey diagram for the HRApop Universe below (embedded) or [here](ht
 src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html" 
 title="Sankey HRApop Universe"
   width="100%"
+  height="100%"
     frameborder="0" 
     allowfullscreen>
 </iframe>
@@ -59,6 +60,7 @@ Explore the Sankey diagram for the HRApop Universe below (embedded) or [here](ht
 src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html" 
 title="Sankey HRApop Universe"
   width="100%" 
+  height="100%"
     frameborder="0" 
     allowfullscreen>
 </iframe>
