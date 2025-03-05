@@ -11,25 +11,64 @@ Andreas Bueckle<sup>1,4,\*\*</sup>, Bruce William Herr II<sup>1</sup>, Lu Chen<s
 
 ---
 
-Link to paper on bioRxiv (forthcoming) \
-[Link to hra-pop GitHub repository](https://github.com/x-atlas-consortia/hra-pop/tree/main/) \
-[Link to HRApop graph data on HRA LOD server](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/) \
-[Link to Atlas Enriched Dataset Graph](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v0.10.1/assets/atlas-enriched-dataset-graph.jsonld) \
-[Link to Anatomical Structures (AS) Cell Summaries](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v0.10.1/assets/atlas-as-cell-summaries.jsonld)
-[Link to HuBMAP Portal](https://portal.hubmapconsortium.org/) \
-[Link to CZ CELLxGENE Portal](https://cellxgene.cziscience.com/) \
-[Link to GTEx Portal](https://gtexportal.org/home/) \
-[Link to SenNet Portal](https://data.sennetconsortium.org/) \
-[Link to HRA Workflows Runner](https://github.com/hubmapconsortium/hra-workflows-runner/) \
-[Link to HRA Workflows](https://github.com/hubmapconsortium/hra-workflows/tree/main)
+# Links
+## General
+- Link to paper on bioRxiv (forthcoming)
+- [Link to GitHub repository for Supporting Information](https://github.com/cns-iu/hra-cell-type-populations-supporting-information)
+- [Link to HRA Portal](https://humanatlas.io/)
 
+## Portals
+- [Link to HuBMAP Portal](https://portal.hubmapconsortium.org/)
+- [Link to SenNet Portal](https://data.sennetconsortium.org/)
+- [Link to GTEx Portal](https://gtexportal.org/home/)
+- [Link to CZ CELLxGENE Portal](https://cellxgene.cziscience.com/)
 
-# HRApop extraction sites
+## Code
+- [Link to HRA Workflows](https://github.com/hubmapconsortium/hra-workflows/tree/main)
+- [Link to HRA Workflows Runner](https://github.com/hubmapconsortium/hra-workflows-runner/)
+- [Link to HRApop GitHub repository](https://github.com/x-atlas-consortia/hra-pop/tree/main/)
+
+## Data
+- [Link to HRApop graph data on HRA LOD server](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/)
+
+# HRApop Extraction Sites
 Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in HRApop.  
 
 <a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
 
 <a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
+
+# Interactive Sankey Diagrams
+
+In total, as of HRApop v0.11.1, there are 11,817 datasets in the HRApop Universe (107 of which are sc-proteomics), and they cover 27 organs. 619 datasets make up the HRApop Atlas. 3680 datasets have an extraction site but no cell summary. Inversely, 5075 datasets have a cell summary but no extraction site. 2324 datasets have neither. The total number of non-atlas datasets is 11,198. The Sankey diagrams below offer an overview of HRApop Universe and Atlas provenance. 
+
+- Link to Sankey for HRApop Universe:[https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html]( https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html)
+<iframe 
+src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html" 
+title="Sankey HRApop Universe"
+  width="640" 
+    height="480" 
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
+
+- Link to Sankey for HRApop Atlas: [https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html)
+<iframe 
+src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html" 
+title="Sankey HRApop Universe"
+  width="640" 
+    height="480" 
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
+
+
+# Bar Graphs for Cell Summaries
+Shown here are bar graphs for…
+
+# Number of Cell Types per Anatomical Structure 
+
+See the table at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv).
 
 # Exemplary Cell Summaries
 
@@ -304,30 +343,3 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
       ]
 	}
 ```
-
-# Number of CT per AS 
-
-See the table at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv).
-
-# Interactive 3D visualization of cell type populations for outer cortex of kidney
-This 3D visualization shows 36 unique cell types with a total of ~6,000 cells. These are found in these anatomical structures based on experimental data registered into them (for performance reasons). A 5x5x5 mm tissue block is shown for scale. Please click and drag your left mouse button to rotate the camera around the kidney; click drag the right mouse button to pan; use the mouse scroll wheel to zoom in and out.
-Code to demonstrate how 3D cells can be generated with Python is available here.
-LOAD button to take user to interactive 3D visualization. 
-
-Code to demonstrate how 3D cells can be generated with Python is available [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/3d_cells_in_anatomical_structures/3d_cells_in_anatomical_structures.ipynb).
-
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-3d-visualization/"><img alt="load_button" width="84px" src="images/button_load.png"></a>
-
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-3d-visualization/"><img alt="alt_text" width="75%" src="images/unity_3d_placeholder.png"></a>
-
-# Interactive Sankey Diagram
-Atlas-level data for HRApop v0.10.0 comes from various sources and . The Sankey diagram below offers an overview of the distribution of HRApop datasets along demographic, informatical, and biomedical markers. 
-
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey.html"><img alt="load_button" width="84px" src="images/button_load.png"></a>
-
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey.html"><img alt="alt_text" width="75%" src="images/sankey_preview.png"></a>
-
-
-# Single-cell proteomics data
-
-For HRApop v.10.1, the HRA Workflows Runner handled the download, annotation, and summary of single cell (sc-)transcriptomics datasets; cell summaries for sc-proteomics datasets were compiled on Github at [https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data/tree/main](https://github.com/cns-iu/hra-ct-summaries-mx-spatial-data/tree/main). The HRApop Construction and Enrichment Pipeline gathered cell summaries for these datasets from there. Each dataset features a cell type for each cell but also individual coordinates. 
