@@ -42,22 +42,20 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 
 In total, as of HRApop v0.11.1, there are 11,817 datasets in the HRApop Universe (107 of which are sc-proteomics), and they cover 27 organs. 619 datasets make up the HRApop Atlas. 3680 datasets have an extraction site but no cell summary. Inversely, 5075 datasets have a cell summary but no extraction site. 2324 datasets have neither. The total number of non-atlas datasets is 11,198. The Sankey diagrams below offer an overview of HRApop Universe and Atlas provenance. 
 
-- Link to Sankey for HRApop Universe:[https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html]( https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html)
+Explore the Sankey diagram for the HRApop Universe below (embedded) or [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html).
 <iframe 
 src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html" 
 title="Sankey HRApop Universe"
-  width="640" 
-    height="480" 
+  width="100%"
     frameborder="0" 
     allowfullscreen>
 </iframe>
 
-- Link to Sankey for HRApop Atlas: [https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html)
+Explore the Sankey diagram for the HRApop Universe below (embedded) or [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html).
 <iframe 
 src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html" 
 title="Sankey HRApop Universe"
-  width="640" 
-    height="480" 
+  width="100%" 
     frameborder="0" 
     allowfullscreen>
 </iframe>
