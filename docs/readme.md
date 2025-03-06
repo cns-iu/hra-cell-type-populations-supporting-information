@@ -69,9 +69,9 @@ See the table at [https://github.com/cns-iu/hra-cell-type-populations-supporting
 # HRApop Extraction Sites
 Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in HRApop.  
 
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
+<a target="_blank" href="https://apps.humanatlas.io/eui/hra-pop.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
 
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
+<a target="_blank" href="https://apps.humanatlas.io/eui/hra-pop.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
 
 # Exemplary Cell Summaries
 
