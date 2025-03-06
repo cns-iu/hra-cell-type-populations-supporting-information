@@ -77,9 +77,11 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 
 ## For a Dataset
 
+Shown is a snippet from a cell summary for a dataset in the small intestine. For clarity, we only show four CTs in this cell summary, all assigned by CellTypist, and we only show the top 1- Bs for the last CT (`Tuft`).
+
 ```json
   {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+        "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
       "@type": "Donor",
       "samples": [
         {
@@ -112,79 +114,107 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
                           "cell_id": "ASCTB-TEMP:enterocyte",
                           "cell_label": "Enterocyte",
                           "gene_expr": [
-                            {
-                              "gene_id": "HGNC:11036",
-                              "gene_label": "SLC5A1",
-                              "ensembl_id": "ENSG00000100170.10",
-                              "mean_gene_expr_value": 3.376218795776367
-                            },
-                            {
-                              "gene_id": "HGNC:7154",
-                              "gene_label": "MME",
-                              "ensembl_id": "ENSG00000196549.12",
-                              "mean_gene_expr_value": 3.1750330924987793
-                            },
-                            {
-                              "gene_id": "HGNC:10920",
-                              "gene_label": "SLC15A1",
-                              "ensembl_id": "ENSG00000088386.17",
-                              "mean_gene_expr_value": 2.528520345687866
-                            },
-                            {
-                              "gene_id": "HGNC:8747",
-                              "gene_label": "PCSK5",
-                              "ensembl_id": "ENSG00000099139.14",
-                              "mean_gene_expr_value": 3.862326145172119
-                            },
-                            {
-                              "gene_id": "HGNC:4212",
-                              "gene_label": "GDA",
-                              "ensembl_id": "ENSG00000119125.17",
-                              "mean_gene_expr_value": 3.0900673866271973
-                            },
-                            {
-                              "gene_id": "HGNC:2661",
-                              "gene_label": "DAB1",
-                              "ensembl_id": "ENSG00000173406.15",
-                              "mean_gene_expr_value": 2.3853349685668945
-                            },
-                            {
-                              "gene_id": "HGNC:2638",
-                              "gene_label": "CYP3A5",
-                              "ensembl_id": "ENSG00000106258.15",
-                              "mean_gene_expr_value": 2.978743314743042
-                            },
-                            {
-                              "gene_id": "ensembl:ENSG00000276490.1",
-                              "gene_label": "ENSG00000276490.1",
-                              "ensembl_id": "ENSG00000276490.1",
-                              "mean_gene_expr_value": 2.3606600761413574
-                            },
-                            {
-                              "gene_id": "HGNC:25835",
-                              "gene_label": "THSD4",
-                              "ensembl_id": "ENSG00000187720.14",
-                              "mean_gene_expr_value": 2.495177745819092
-                            },
-                            {
-                              "gene_id": "HGNC:10856",
-                              "gene_label": "SI",
-                              "ensembl_id": "ENSG00000090402.8",
-                              "mean_gene_expr_value": 3.1366496086120605
-                            }
+                           ...
                           ],
                           "count": 3600,
                           "@type": "CellSummaryRow",
                           "percentage": 0.6
+                        },
+                        {
+                          "cell_id": "ASCTB-TEMP:paneth",
+                          "cell_label": "Paneth",
+                          "gene_expr": [
+                            ...
+                            ],
+                          "count": 265,
+                          "@type": "CellSummaryRow",
+                          "percentage": 0.04416666666666667
+                        },
+                        {
+                          "cell_id": "ASCTB-TEMP:cycling-b-cell",
+                          "cell_label": "Cycling B cell",
+                          "gene_expr": [
+                          ...
+                          ],
+                          "count": 43,
+                          "@type": "CellSummaryRow",
+                          "percentage": 0.007166666666666667
+                        },
+                        {
+                          "cell_id": "ASCTB-TEMP:tuft",
+                          "cell_label": "Tuft",
+                          "gene_expr": [
+                            {
+                              "gene_id": "HGNC:29349",
+                              "gene_label": "CCSER1",
+                              "ensembl_id": "ENSG00000184305.15",
+                              "mean_gene_expr_value": 3.573841094970703
+                            },
+                            {
+                              "gene_id": "HGNC:18695",
+                              "gene_label": "ST18",
+                              "ensembl_id": "ENSG00000147488.11",
+                              "mean_gene_expr_value": 2.0579261779785156
+                            },
+                            {
+                              "gene_id": "HGNC:4036",
+                              "gene_label": "FYB1",
+                              "ensembl_id": "ENSG00000082074.18",
+                              "mean_gene_expr_value": 2.106393337249756
+                            },
+                            {
+                              "gene_id": "HGNC:10471",
+                              "gene_label": "RUNX1",
+                              "ensembl_id": "ENSG00000159216.19",
+                              "mean_gene_expr_value": 2.0352487564086914
+                            },
+                            {
+                              "gene_id": "HGNC:8783",
+                              "gene_label": "PDE4D",
+                              "ensembl_id": "ENSG00000113448.19",
+                              "mean_gene_expr_value": 3.152188539505005
+                            },
+                            {
+                              "gene_id": "HGNC:1079",
+                              "gene_label": "BMX",
+                              "ensembl_id": "ENSG00000102010.15",
+                              "mean_gene_expr_value": 1.6486668586730957
+                            },
+                            {
+                              "gene_id": "HGNC:13726",
+                              "gene_label": "KMT2C",
+                              "ensembl_id": "ENSG00000055609.19",
+                              "mean_gene_expr_value": 2.2729785442352295
+                            },
+                            {
+                              "gene_id": "HGNC:9066",
+                              "gene_label": "PLCG2",
+                              "ensembl_id": "ENSG00000197943.10",
+                              "mean_gene_expr_value": 2.123337507247925
+                            },
+                            {
+                              "gene_id": "HGNC:27363",
+                              "gene_label": "ITPRID1",
+                              "ensembl_id": "ENSG00000180347.13",
+                              "mean_gene_expr_value": 1.7490202188491821
+                            },
+                            {
+                              "gene_id": "HGNC:17890",
+                              "gene_label": "HPGDS",
+                              "ensembl_id": "ENSG00000163106.11",
+                              "mean_gene_expr_value": 1.5961321592330933
+                            }
+                          ],
+                          "count": 41,
+                          "@type": "CellSummaryRow",
+                          "percentage": 0.006833333333333334
                         }
-										}
-								}
-						}
-				}
 	}
 ```
 
 ## For an AS
+
+Shown is a snippet from the AS Cell Summary of the cortex of kidney, assgined by Azimuth. 
 
 ```json
   {
@@ -203,146 +233,30 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
           "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/434fbc55d458dc4e06da9ba4961f3840",
           "percentage": 0.343
         },
+        ...],
+      "modality": "sc_transcriptomics",
+      "summary": [
         {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/fbfdd102ecd60d7cf9d3da8c3d83a5c4",
-          "percentage": 0.343
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000692",
+          "cell_label": "Fibroblast",
+          "count": 10336.100000000002,
+          "percentage": 0.01925307293655101
         },
         {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/ac1d4544ab4886b851f74b2c21952378",
-          "percentage": 0.343
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1001108",
+          "cell_label": "Medullary Thick Ascending Limb",
+          "count": 26758.349000000002,
+          "percentage": 0.04984282707778434
         },
         {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/e7bdf34c4da9f1d880f2615226e9713d",
-          "percentage": 0.343
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/9b99c75de2347b9567e33065108488e8",
-          "percentage": 0.343
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/aa93e53df10842c13348a334c8fe423f",
-          "percentage": 0.343
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/254801a318687281ba3e473569d89a45",
-          "percentage": 0.324
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/eb961e5dc50239d35f5398903c64e2b9",
-          "percentage": 0.324
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/524dc341a03c155b6f4140e9d72f9b1d",
-          "percentage": 0.961
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/e375a44f5cf5457c8f9b1132574c2436",
-          "percentage": 0.961
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/2cd4eabca0b653af7f3b79534b2d641f",
-          "percentage": 1
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/d1af36911148fdd7001fd4eebe7222f1",
-          "percentage": 1
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/0a21f3fa27109790483f2a0729be53de",
-          "percentage": 1
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/c1a0c043d0a986d71552091cc1b09742",
-          "percentage": 1
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/7c9e07c96d144536525b1f889acee14d",
-          "percentage": 0.5
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/898138b7f45a67c574e9955fb400e9be",
-          "percentage": 0.5
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/08c1aa2e74700e1170fc9218ae255992",
-          "percentage": 0.039
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/1197c73d127193dd493ff542890a3d3d",
-          "percentage": 0.039
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/8c5e705001d5cc1c40dbd963ad848486",
-          "percentage": 1
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/ccbad4ffd323265937b842ea36ada4ad",
-          "percentage": 1
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/5039cf8619f6f8b5b4a14af1037e1d1f",
-          "percentage": 1
-        },
-        {
-          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/7646a8a89555a123a56446b66c183d58",
-          "percentage": 1
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10012$cortex%20of%20kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#30-10034$cortex%20of%20kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#27-10039$kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10006$cortex%20of%20kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#18-142$cortex%20of%20kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10035$cortex%20of%20kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10008$cortex%20of%20kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10042$kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#18-162$cortex%20of%20kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10016$kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#34-10050$kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#34-10184$kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10040$kidney",
-          "percentage": 0.9
-        },
-        {
-          "aggregated_cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10011$kidney",
-          "percentage": 0.9
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:4030013",
+          "cell_label": "Descending Thin Limb Type 2",
+          "count": 31925.262000000002,
+          "percentage": 0.05946724565401847
         }
-      ]
+        ...
 	}
 ```
