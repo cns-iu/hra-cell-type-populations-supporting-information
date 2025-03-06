@@ -3,11 +3,6 @@ title: "HRA-Pop Cell Type Correlation Analysis Notebook"
 output: html_document
 ---
 
-```{r 'setup', echo = FALSE, cache = FALSE}
-
-```
-
-
 # Environment
 
 ```{r message=FALSE, warning=FALSE}
@@ -31,12 +26,12 @@ knitr::opts_chunk$set(
 
 ```{r data}
 # Data set metadata
-metadata <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas-ad-hoc/as-datasets-modality.csv",
+metadata <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.11.1/reports/atlas-ad-hoc/as-datasets-modality.csv",
                      header=T, fileEncoding = "UTF8")
 
 # Data for heatmaps
 # Includes organ, anatomical structure, cell types measures by tool and donor gender
-data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v6.csv", 
+data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.11.1/reports/atlas/validation-v6.csv", 
                  header=T, fileEncoding = "UTF8")
 
 # Spatial data aggregation: Organs Small & Large Intestines, AS, cell types measures
@@ -541,45 +536,3 @@ heatmap_plot <- pheatmap::pheatmap(data_scproteomics_heatmap, legend=TRUE,
 # Plot
 heatmap_plot
 ```
-
-## Spatial
-
-```{r heatmap_spatial_v0.1, fig.height=5, fig.width=12}
-names(data_spatial) <- c("organ","as_id","as","cell_name","datasets",
-                         "cell_count","mean_cell_ct","total_cell_ct",
-                         "percentage","tool")
-
-# Create pivot
-data_spatial <- 
-  data_spatial %>%
-  select(organ, as, as_id, cell_name, percentage) %>%
-  pivot_wider(names_from = cell_name,
-              values_from = percentage,
-              values_fill = 0,
-              values_fn = sum) %>%
-  arrange(organ, as_id)
-
-# Convert DF to a matrix
-data_spatial_heatmap <- data.matrix(data_spatial[,4:ncol(data_spatial)])
-
-# Assign Row.names as organs
-rownames(data_spatial_heatmap) <- 
-  paste0(data_spatial$organ,"-",data_spatial$as)
-data_spatial_heatmap <- 
-  data_spatial_heatmap[order(row.names(data_spatial_heatmap)),]
-
-# Scale data
-data_spatial_heatmap <- scale(data_spatial_heatmap)
-
-# Generate heatmap
-heatmap_plot <- pheatmap::pheatmap(data_spatial_heatmap, legend=TRUE,
-                                   legend_breaks = c(-1, 0, 1, 2,
-                                                     max(data_spatial_heatmap)),
-                                   legend_labels = c("-1", "0", "1", "2",
-                                                     "Percentage (z-scale)\n"))
-
-# Plot
-heatmap_plot
-```
-
-
