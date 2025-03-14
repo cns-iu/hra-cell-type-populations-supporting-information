@@ -74,7 +74,9 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 <a target="_blank" href="https://apps.humanatlas.io/eui/hra-pop.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
 
 ## z-scores for CTs per organ and AS
-See [https://cns-iu.github.io/hra-cell-type-populations-supporting-information/HRA_HeatmapAnalysis_CellTypePer_v0.4.html](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/HRA_HeatmapAnalysis_CellTypePer_v0.4.html))
+- High-resolution versions of the heatmaps are available [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/tree/main/validations/heatmaps/figs). 
+- The code to generate these heatmaps (exported to HTML) is [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/HRA_HeatmapAnalysis_CellTypePer_v0.4.html). 
+- The R Markdown notebook is [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/validations/heatmaps/HRA_HeatmapAnalysis_CellTypePer_v0.4.Rmd).
 
 # Exemplary Cell Summaries
 
