@@ -73,10 +73,25 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 
 <a target="_blank" href="https://apps.humanatlas.io/eui/hra-pop.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
 
-## z-scores for CTs per organ and AS
+# z-scores for CTs per organ and AS
 - High-resolution versions of the heatmaps are available [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/tree/main/validations/heatmaps/figs). 
 - The code to generate these heatmaps (exported to HTML) is [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/HRA_HeatmapAnalysis_CellTypePer_v0.4.html). 
 - The R Markdown notebook is [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/validations/heatmaps/HRA_HeatmapAnalysis_CellTypePer_v0.4.Rmd).
+
+# Step-by-step Instructions
+**Goal: get Mean B Expressions for a given CT in HRApop Atlas Datasets**
+
+1. When opening [https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ct](https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ct), the first item shown is the SPARQL query running when the endpoint is called:
+![](images/steps_1.png)
+
+2. Below, you can specify your request. The only mandatory field is the `celltype`, which must be a Persistent URL (PURL). You can click the FILL EXAMPLE button to prefill this field with `http://purl.obolibrary.org/obo/CL_0000136`, which is `adipocyte`. Clickt the TRY button to run the query. 
+![](images/steps_2.png)
+
+3. Then, the response area presents the result of the query, which consists of a table with one CT-B record per row. You may copy the results to your clipboard with the COPY button. 
+![](images/steps_3.png)
+
+4. You can also click the tabs in the response area to get the `CURL` command to run the query for the same results:
+![](images/steps_4.png)
 
 # Exemplary Cell Summaries
 
