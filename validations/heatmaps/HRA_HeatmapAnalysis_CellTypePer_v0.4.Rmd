@@ -538,9 +538,9 @@ data_celltypist_heatmap <- scale(data_celltypist_heatmap)
 
 # Generate heatmap
 heatmap_plot <- pheatmap::pheatmap(data_celltypist_heatmap, legend=TRUE,
-                                   legend_breaks = c(-1,0, 1, 2, 3, 4, 5,
+                                   legend_breaks = c(-1,0, 1, 2, 3, 4, 5, 6,
                                                      max(data_celltypist_heatmap)),
-                                   legend_labels = c("-1","0", "1", "2", "3", "4","5",
+                                   legend_labels = c("-1","0", "1", "2", "3", "4","5","6",
                                      "Percentage (z-scale)\n"))
 
 
@@ -575,10 +575,11 @@ data_popv_heatmap <- scale(data_popv_heatmap)
 
 # Generate heatmap
 heatmap_plot <- pheatmap::pheatmap(data_popv_heatmap, legend=TRUE,
-                                   legend_breaks = c(-1, 0, 1, 2, 3, 4, 5,
+                                   legend_breaks = c(-1, 0, 1, 2, 3, 4, 5,6,
                                                      max(data_popv_heatmap)),
                                    legend_labels = c("-1", "0", "1", "2", "3", 
-                                                     "4", "5", "Percentage (z-scale)\n"))
+                                                     "4", "5","6",
+                                                     "Percentage (z-scale)\n"))
 # Plot
 heatmap_plot
 ```
@@ -610,9 +611,9 @@ data_scproteomics_heatmap <- scale(data_scproteomics_heatmap)
 
 # Generate heatmap
 heatmap_plot <- pheatmap::pheatmap(data_scproteomics_heatmap, legend=TRUE,
-                                  legend_breaks = c(-2, -1, 0, 1, 2,
+                                  legend_breaks = c(-2, -1, 0, 1, 2, 3,
                                                     max(data_scproteomics_heatmap)),
-                                  legend_labels = c(-2, -1, 0, 1, 2,
+                                  legend_labels = c(-2, -1, 0, 1, 2, 3,
                                                     "Percentage (z-scale)\n"))
 
 
