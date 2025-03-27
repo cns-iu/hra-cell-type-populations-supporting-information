@@ -83,3 +83,7 @@ validations/heatmaps/HRApop_organ_dataset_metadata_pivot*
 # Authentication tokens
 token.txt
 tokens.txt
+
+# 3D models
+3d-vh-f-united.glb
+3d-vh-m-united.glb

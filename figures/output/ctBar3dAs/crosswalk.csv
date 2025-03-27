@@ -1,0 +1,211 @@
+label,node_name,anatomical_structure_of
+main lactiferous duct,VH_F_main_lactiferous_ducts_L,#VHFLeftMammaryGland
+Interlobar adipose tissue of right mammary gland,VH_F_fat_R,#VHFRightMammaryGland
+main lactiferous duct,VH_F_main_lactiferous_ducts_R,#VHFRightMammaryGland
+transverse colon,VH_F_transverse_colon,#VHFLargeIntestine
+ascending colon,VH_F_ascending_colon,#VHFLargeIntestine
+descending colon,VH_F_descending_colon,#VHFLargeIntestine
+caecum,VH_F_caecum,#VHFLargeIntestine
+sigmoid colon,VH_F_sigmoid_colon,#VHFLargeIntestine
+superior part of duodenum,VH_F_duodenum_superior,#VHFSmallIntestine
+descending part of duodenum,VH_F_duodenum_descending,#VHFSmallIntestine
+ascending part of duodenum,VH_F_duodenum_ascending,#VHFSmallIntestine
+horizontal part of duodenum,VH_F_duodenum_horizontal,#VHFSmallIntestine
+jejunum,VH_F_jejenum,#VHFSmallIntestine
+ileum,VH_F_ileum,#VHFSmallIntestine
+distal part of ileum,VH_F_ileum_terminal,#VHFSmallIntestine
+gastric impression of liver,VH_F_gastric_impression_of_liver,#VHFLiver
+capsule of the liver,VH_F_capsule_of_the_liver,#VHFLiver
+diaphragmatic surface of liver,VH_F_diaphragmatic_surface_of_liver,#VHFLiver
+kidney capsule,VH_F_kidney_capsule_L,#VHFLeftKidneyV1.1
+hilum of kidney,VH_F_hilum_of_kidney_L,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_a,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_b,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_c,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_d,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_e,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_f,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_g,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_h,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_i,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_j,#VHFLeftKidneyV1.1
+renal papilla,VH_F_renal_papilla_L_k,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_a,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_b,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_c,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_d,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_e,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_f,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_g,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_h,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_i,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_j,#VHFLeftKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_L_k,#VHFLeftKidneyV1.1
+renal column,VH_F_renal_column_L,#VHFLeftKidneyV1.1
+outer cortex of kidney,VH_F_outer_cortex_of_kidney_L,#VHFLeftKidneyV1.1
+kidney capsule,VH_F_kidney_capsule_R,#VHFRightKidneyV1.1
+hilum of kidney,VH_F_hilum_of_kidney_R,#VHFRightKidneyV1.1
+outer cortex of kidney,VH_F_outer_cortex_of_kidney_R,#VHFRightKidneyV1.1
+renal column,VH_F_renal_column_R,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_a,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_b,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_c,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_d,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_e,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_f,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_g,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_h,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_i,#VHFRightKidneyV1.1
+renal papilla,VH_F_renal_papilla_R_j,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_a,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_b,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_c,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_d,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_e,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_f,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_g,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_h,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_i,#VHFRightKidneyV1.1
+renal pyramid,VH_F_renal_pyramid_R_j,#VHFRightKidneyV1.1
+fundus of urinary bladder,VH_F_fundus_of_urinary_bladder_dome,#VHFUrinaryBladder
+fundus of urinary bladder,VH_F_fundus_of_urinary_bladder_base,#VHFUrinaryBladder
+trigone of urinary bladder,VH_F_trigone_of_urinary_bladder,#VHFUrinaryBladder
+interventricular septum,VH_F_interventricular_septum,#VHFHeartV1.1
+left cardiac atrium,VH_F_left_cardiac_atrium,#VHFHeartV1.1
+heart left ventricle,VH_F_left_ventricle,#VHFHeartV1.1
+right cardiac atrium,VH_F_right_cardiac_atrium,#VHFHeartV1.1
+heart right ventricle,VH_F_right_ventricle,#VHFHeartV1.1
+Posteromedial head of posterior papillary muscle of left ventricle,VH_F_papillary_muscle_of_heart_posmed,#VHFHeartV1.1
+Left Anterior Bronchopulmonary Segment,VH_F_left_anterior_bronchopulmonary_segment,#VHFLungV1.2
+Left apical bronchopulmonary segment,VH_F_left_apical_bronchopulmonary_segment,#VHFLungV1.2
+Left posterior bronchopulmonary segment,VH_F_left_posterior_bronchopulmonary_segment,#VHFLungV1.2
+left anterior basal bronchopulmonary segment,VH_F_left_anterior_basal_bronchopulmonary_segment,#VHFLungV1.2
+left Lateral Basal Bronchopulmonary Segment,VH_F_left_lateral_basal_bronchopulmonary_segment,#VHFLungV1.2
+Left Medial Basal Bronchopulmonary Segment,VH_F_left_medial_basal_bronchopulmonary_segment,#VHFLungV1.2
+Right Posterior Basal Bronchopulmonary Segment,VH_F_right_posterior_basal_bronchopulmonary_segment,#VHFLungV1.2
+Right anterior basal bronchopulmonary segment,VH_F_right_anterior_basal_bronchopulmonary_segment,#VHFLungV1.2
+Right Medial Bronchopulmonary Segment,VH_F_right_medial_bronchopulmonary_segment,#VHFLungV1.2
+Right Lateral Bronchopulmonary Segment,VH_F_right_lateral_bronchopulmonary_segmennt,#VHFLungV1.2
+Right Anterior Bronchopulmonary Segment,VH_F_right_anterior_bronchopulmonary_segm,#VHFLungV1.2
+Right Posterior Bronchopulmonary Segment,VH_F_right_posterior_bronchopulmonary_segment,#VHFLungV1.2
+Cartilage of segmental bronchus,VH_F_cartilage_of_tertiary_bronchus_L,#VHFLungV1.2
+Left apical segmental bronchus,VH_F_left_apical_bronchus,#VHFLungV1.2
+Left posterior basal segmental bronchus,VH_F_left_posterior_basal_bronchus,#VHFLungV1.2
+Left medial basal segmental bronchus,VH_F_left_medial_basal_bronchus,#VHFLungV1.2
+Left anterior segmental bronchus,VH_F_left_anterior_bronchus,#VHFLungV1.2
+Left lateral basal segmental bronchus,VH_F_left_lateral_basal_bronchus,#VHFLungV1.2
+Cartilage of segmental bronchus,VH_F_cartilage_of_tertiary_bronchus_R,#VHFLungV1.2
+Lateral segmental bronchus,VH_F_right_lateral_bronchus,#VHFLungV1.2
+Right superior segmental bronchus,VH_F_right_superior_bronchus,#VHFLungV1.2
+diaphragmatic surface of spleen,VH_F_diaphragmatic_surface_of_spleen,#VHFSpleenV1.1
+hilum of spleen,VH_F_hilum_of_spleen,#VHFSpleenV1.1
+renal surface of spleen,VH_F_renal_surface_of_spleen,#VHFSpleenV1.1
+peripheral zone of prostate,VH_M_peripheral_zone_of_prostate_R,#VHMProstate
+peripheral zone of prostate,VH_M_peripheral_zone_of_prostate_L,#VHMProstate
+central zone of prostate,VH_M_central_zone_of_prostate_R,#VHMProstate
+central zone of prostate,VH_M_central_zone_of_prostate_L,#VHMProstate
+capsule of the liver,VH_M_liver_capsule,#VHMLiver
+diaphragmatic surface of liver,VH_M_diaphragmatic_surface,#VHMLiver
+gastric impression of liver,VH_M_gastric_impression_of_liver,#VHMLiver
+ileum,VH_M_ileum,#VHMSmallIntestine
+distal part of ileum,VH_M_ileum_terminal,#VHMSmallIntestine
+jejunum,VH_M_jejunum,#VHMSmallIntestine
+ascending part of duodenum,VH_M_duodenum_ascending,#VHMSmallIntestine
+descending part of duodenum,VH_M_duodenum_descending,#VHMSmallIntestine
+horizontal part of duodenum,VH_M_duodenum_horizonal,#VHMSmallIntestine
+superior part of duodenum,VH_M_duodenum_superior,#VHMSmallIntestine
+ascending colon,VH_M_ascending_colon,#VHMColon
+descending colon,VH_M_descending_colon,#VHMColon
+sigmoid colon,VH_M_sigmoid_colon,#VHMColon
+transverse colon,VH_M_transverse_colon,#VHMColon
+caecum,VH_M_caecum,#VHMColon
+kidney capsule,VH_M_kidney_capsule_L,#VHMLeftKidney
+hilum of kidney,VH_M_hilum_of_kidney_L,#VHMLeftKidney
+renal column,VH_M_renal_column_L,#VHMLeftKidney
+outer cortex of kidney,VH_M_outer_cortex_of_kidney_L,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L_a,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L_b,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L_c,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L_d,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L_e,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L_f,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L_g,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L_h,#VHMLeftKidney
+renal papilla,VH_M_renal_papilla_L_i,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L_a,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L_b,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L_c,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L_d,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L_e,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L_f,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L_g,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L_h,#VHMLeftKidney
+renal pyramid,VH_M_renal_pyramid_L_i,#VHMLeftKidney
+kidney capsule,VH_M_kidney_capsule_R,#VHMRightKidney
+hilum of kidney,VH_M_hilum_of_kidney_R,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_j,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_i,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_h,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_g,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_f,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_e,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_d,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_c,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_b,#VHMRightKidney
+renal papilla,VH_M_renal_papilla_R_a,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_R,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_a,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_b,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_c,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_d,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_e,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_f,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_g,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_h,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_i,#VHMRightKidney
+renal pyramid,VH_M_renal_pyramid_j,#VHMRightKidney
+renal column,VH_M_renal_column_R,#VHMRightKidney
+outer cortex of kidney,VH_M_outer_cortex_of_kidney_R,#VHMRightKidney
+fundus of urinary bladder,VH_M_fundus_of_urinary_bladder_dome,#VHMUrinaryBladder
+fundus of urinary bladder,VH_M_fundus_of_urinary_bladder,#VHMUrinaryBladder
+fundus of urinary bladder,VH_M_fundus_of_urinary_bladder_base1,#VHMUrinaryBladder
+trigone of urinary bladder,VH_M_trigone_of_urinary_bladder,#VHMUrinaryBladder
+Posteromedial head of posterior papillary muscle of left ventricle,VH_M_papillary_muscle_of_heart_posteromedial,#VHMHeart
+left cardiac atrium,VH_M_left_cardiac_atrium,#VHMHeart
+right cardiac atrium,VH_M_right_cardiac_atrium,#VHMHeart
+heart right ventricle,VH_M_heart_right_ventricle,#VHMHeart
+interventricular septum,VH_M_interventricular_septum,#VHMHeart
+heart left ventricle,VH_M_heart_left_ventricle,#VHMHeart
+Left posterior bronchopulmonary segment,VH_M_left_posterior_bronchopulmonary_segment,#VHMLungV1.1
+Left Anterior Bronchopulmonary Segment,VH_M_left_anterior_bronchopulmonary_segment,#VHMLungV1.1
+Left apical bronchopulmonary segment,VH_M_left_apical_bronchopulmonary_segment,#VHMLungV1.1
+left anterior basal bronchopulmonary segment,VH_M_left_anterior_basal_bronchopulmonary_segment,#VHMLungV1.1
+left Lateral Basal Bronchopulmonary Segment,VH_M_left_lateral_basal_bronchopulmonary_segment,#VHMLungV1.1
+Left Medial Basal Bronchopulmonary Segment,VH_M_left_medial_basal_bronchopulmonary_segment,#VHMLungV1.1
+Left posterior basal segmental bronchus,VH_M_left_posetrior_basal_bronchopulmonary_segment,#VHMLungV1.1
+Right Lateral Bronchopulmonary Segment,VH_M_right_lateral_bronchopulmonary_segment,#VHMLungV1.1
+Right Medial Bronchopulmonary Segment,VH_M_right_medial_bronchopulmonary_segment,#VHMLungV1.1
+Right anterior basal bronchopulmonary segment,VH_M_right_anterior_basal_bronchopulmonary_segment,#VHMLungV1.1
+Right Posterior Basal Bronchopulmonary Segment,VH_M_right_posterior_basal_bronchopulmonary_segment,#VHMLungV1.1
+Right Posterior Bronchopulmonary Segment,VH_M_right_posterior_bronchopulmonary_segment,#VHMLungV1.1
+Right Anterior Bronchopulmonary Segment,VH_M_right_anterior_bronchopulmonary_segment,#VHMLungV1.1
+Cartilage of segmental bronchus,VH_M_cartilage_of_the_tertiary_bronchus_L,#VHMLungV1.1
+Left posterior basal segmental bronchus,VH_M_left_posterior_basal_bronchus,#VHMLungV1.1
+Left medial basal segmental bronchus,VH_M_left_medial_basal_bronchus,#VHMLungV1.1
+Left apical segmental bronchus,VH_M_left_apical_bronchus,#VHMLungV1.1
+Left anterior segmental bronchus,VH_M_left_anterior_bronchus,#VHMLungV1.1
+Left lateral basal segmental bronchus,VH_M_left_lateral_basal_bronchus,#VHMLungV1.1
+Cartilage of segmental bronchus,VH_M_cartilage_of_the_tertiary_bronchus_R,#VHMLungV1.1
+Lateral segmental bronchus,VH_M_right_lateral_bronchus,#VHMLungV1.1
+Right superior segmental bronchus,VH_M_right_superior_bronchus,#VHMLungV1.1
+Right superior segmental bronchus,VH_M_right_apical_bronchus,#VHMLungV1.1
+diaphragmatic surface of spleen,VH_M_diaphragmatic_surface_of_spleen,#VHMSpleen
+hilum of spleen,VH_M_hilum_of_spleen,#VHMSpleen
+renal surface of spleen,VH_M_renal_surface_of_spleen,#VHMSpleen
