@@ -61,6 +61,8 @@ title="Sankey HRApop Atlas"
 # HRApop Universe Extraction Sites
 Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in the HRApop Universe.  
 
+**Note: This will be replaced with a version showing extraction sites for the HRApop Atlas only.**
+
 <a target="_blank" href="https://apps.humanatlas.io/eui/hra-pop.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
 
 <a target="_blank" href="https://apps.humanatlas.io/eui/hra-pop.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
