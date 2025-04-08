@@ -58,16 +58,8 @@ title="Sankey HRApop Atlas"
     allowfullscreen>
 </iframe>
 
-
-# Bar Graphs for Cell Summaries
-Shown here are bar graphs for…
-
-# Number of Cell Types per Anatomical Structure 
-
-See the table at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/tables/output/table_SdataTableForAs.csv).
-
-# HRApop Extraction Sites
-Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in HRApop.  
+# HRApop Universe Extraction Sites
+Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in the HRApop Universe.  
 
 <a target="_blank" href="https://apps.humanatlas.io/eui/hra-pop.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
 
