@@ -86,7 +86,6 @@ Left posterior bronchopulmonary segment,VH_F_left_posterior_bronchopulmonary_seg
 left anterior basal bronchopulmonary segment,VH_F_left_anterior_basal_bronchopulmonary_segment,#VHFLungV1.2
 left Lateral Basal Bronchopulmonary Segment,VH_F_left_lateral_basal_bronchopulmonary_segment,#VHFLungV1.2
 Left Medial Basal Bronchopulmonary Segment,VH_F_left_medial_basal_bronchopulmonary_segment,#VHFLungV1.2
-Right Posterior Basal Bronchopulmonary Segment,VH_F_right_posterior_basal_bronchopulmonary_segment,#VHFLungV1.2
 Right anterior basal bronchopulmonary segment,VH_F_right_anterior_basal_bronchopulmonary_segment,#VHFLungV1.2
 Right Medial Bronchopulmonary Segment,VH_F_right_medial_bronchopulmonary_segment,#VHFLungV1.2
 Right Lateral Bronchopulmonary Segment,VH_F_right_lateral_bronchopulmonary_segmennt,#VHFLungV1.2
@@ -103,7 +102,6 @@ Lateral segmental bronchus,VH_F_right_lateral_bronchus,#VHFLungV1.2
 Right superior segmental bronchus,VH_F_right_superior_bronchus,#VHFLungV1.2
 diaphragmatic surface of spleen,VH_F_diaphragmatic_surface_of_spleen,#VHFSpleenV1.1
 hilum of spleen,VH_F_hilum_of_spleen,#VHFSpleenV1.1
-renal surface of spleen,VH_F_renal_surface_of_spleen,#VHFSpleenV1.1
 peripheral zone of prostate,VH_M_peripheral_zone_of_prostate_R,#VHMProstate
 peripheral zone of prostate,VH_M_peripheral_zone_of_prostate_L,#VHMProstate
 central zone of prostate,VH_M_central_zone_of_prostate_R,#VHMProstate
@@ -193,7 +191,6 @@ Left posterior basal segmental bronchus,VH_M_left_posetrior_basal_bronchopulmona
 Right Lateral Bronchopulmonary Segment,VH_M_right_lateral_bronchopulmonary_segment,#VHMLungV1.1
 Right Medial Bronchopulmonary Segment,VH_M_right_medial_bronchopulmonary_segment,#VHMLungV1.1
 Right anterior basal bronchopulmonary segment,VH_M_right_anterior_basal_bronchopulmonary_segment,#VHMLungV1.1
-Right Posterior Basal Bronchopulmonary Segment,VH_M_right_posterior_basal_bronchopulmonary_segment,#VHMLungV1.1
 Right Posterior Bronchopulmonary Segment,VH_M_right_posterior_bronchopulmonary_segment,#VHMLungV1.1
 Right Anterior Bronchopulmonary Segment,VH_M_right_anterior_bronchopulmonary_segment,#VHMLungV1.1
 Cartilage of segmental bronchus,VH_M_cartilage_of_the_tertiary_bronchus_L,#VHMLungV1.1
@@ -208,4 +205,3 @@ Right superior segmental bronchus,VH_M_right_superior_bronchus,#VHMLungV1.1
 Right superior segmental bronchus,VH_M_right_apical_bronchus,#VHMLungV1.1
 diaphragmatic surface of spleen,VH_M_diaphragmatic_surface_of_spleen,#VHMSpleen
 hilum of spleen,VH_M_hilum_of_spleen,#VHMSpleen
-renal surface of spleen,VH_M_renal_surface_of_spleen,#VHMSpleen
