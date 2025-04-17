@@ -65,14 +65,14 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 <a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
 
 <div class ="iframe-container">
-<iframe src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html" title="EUI for HRApop" width = "75%">
+<iframe src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html" title="EUI for HRApop">
 </iframe>
 </div>
 
 <style>
   .iframe-container {
     position: relative;
-    width: 75%;
+    width: 100%;
     padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
     overflow: hidden;
     border-radius: 12px; /* optional: rounded corners */
