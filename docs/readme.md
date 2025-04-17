@@ -62,12 +62,32 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 
 **Note: This will be replaced with a version showing extraction sites for the HRApop Atlas only.**
 
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
 
-<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
-
-<iframe src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html" title="EUI for HRApop" width = "75%" height ="100%">
+<div class ="iframe-container">
+<iframe src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html" title="EUI for HRApop" width = "75%">
 </iframe>
+</div>
+
+<style>
+  .iframe-container {
+    position: relative;
+    width: 75%;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+    overflow: hidden;
+    border-radius: 12px; /* optional: rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* optional: soft shadow */
+  }
+
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+</style>
 
 # z-scores for CTs per organ and AS
 - High-resolution versions of the heatmaps are available [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/tree/main/validations/heatmaps/figs). 
