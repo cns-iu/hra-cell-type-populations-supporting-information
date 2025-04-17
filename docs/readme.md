@@ -62,9 +62,12 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 
 **Note: This will be replaced with a version showing extraction sites for the HRApop Atlas only.**
 
-<a target="_blank" href="https://apps.humanatlas.io/eui/hra-pop.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
 
-<a target="_blank" href="https://apps.humanatlas.io/eui/hra-pop.html"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
+<a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/"><img alt="alt_text" width="75%" src="images/eui_preview.png"></a>
+
+<iframe src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html" title="EUI for HRApop" width = "75%" height ="100%">
+</iframe>
 
 # z-scores for CTs per organ and AS
 - High-resolution versions of the heatmaps are available [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/tree/main/validations/heatmaps/figs). 
