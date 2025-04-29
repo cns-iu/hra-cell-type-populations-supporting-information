@@ -25,13 +25,24 @@ knitr::opts_chunk$set(
 # Load Data
 
 ```{r data}
+#### Paths ####
+##### X-Atlas Consortia API #####
+api_url <- c("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/")
+output_data_dir <- c("v0.11.1")
+
+##### Project paths #####
+path_validation <- paste0("./validations/")
+
+#### Load Data ####
 # Data set metadata
-metadata <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.11.1/reports/atlas-ad-hoc/as-datasets-modality.csv",
+metadata <- read.csv(paste0(api_url,output_data_dir,
+                            "/reports/atlas-ad-hoc/as-datasets-modality.csv"),
                      header=T, fileEncoding = "UTF8")
 
 # Data for heatmaps
 # Includes organ, anatomical structure, cell types measures by tool and donor gender
-data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.11.1/reports/atlas/validation-v6.csv", 
+data <- read.csv(paste0(api_url,output_data_dir,
+                        "/reports/atlas/validation-v6.csv"), 
                  header=T, fileEncoding = "UTF8")
 
 # Spatial data aggregation: Organs Small & Large Intestines, AS, cell types measures
@@ -105,8 +116,8 @@ metadata <-
 metadata_pivot <- 
   metadata %>%
   ddply(.(organ), summarise,
-        Tools = length(unique(tool)),
         AS = length(unique(as)),
+        Tools = length(unique(tool)),
         Median_Data_Set_Count = median(ds_count),
         Min_Data_Set_Count = min(ds_count),
         Max_Data_Set_Count = max(ds_count)) %>%
