@@ -77,9 +77,8 @@ popv <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/popv/v1.0/asse
 #Metadata
 metadata$organ_label <- 
   metadata$organ_label %>% 
-    str_replace("left ","") %>%
-    str_replace("right ","") %>%
-    str_replace("Set of lactiferous glands in breast","mammary gland") %>%
+    str_replace("Set of lactiferous glands in right breast","breast") %>%
+    str_replace("Set of lactiferous glands in left breast","breast") %>%
     str_replace("respiratory system", "lung") %>%
     str_replace("male reproductive system","prostate") %>%
     str_replace(" of body","") %>%
@@ -135,23 +134,6 @@ write.csv(metadata_pivot,"../heatmaps/HRApop_organ_dataset_metadata_pivot2.csv",
           row.names = F)
 ```
 
-Notes on organs: 
-
-|Organ              |Tools|AS|Min/Max Data Sets|
-|-------------------|-----|--|-----------------|
-|**Heart**          |    3| 5|            14,64|
-|**Large Intestine**|    3| 6|           2-3,11|
-|**Small Intestine**|    3| 7|           2-3,10|
-|**Lung**           |    3| 4|             3,34|
-|Skin               |    3| 1|              2,8|
-|Liver              |    2| 3|          2 (all)|
-|**Kidney**         | 1 (azi)| 6|         3,117|
-|Ureter             | 1 (azi)| 1|       8 (all)|
-|Mammary Gland      |1 (popv)| 1|       3 (all)|
-|Prostate Gland     |1 (popv)| 2|       4 (all)|
-|Spleen             |1 (popv)| 2|          6,11|
-|Bladder            |1 (popv)| 1|       7 (all)|
-
 # Prepare Data
 
 ```{r data prep}
@@ -169,16 +151,16 @@ celltypist$annotation_label <- str_to_title(celltypist$annotation_label)
 data$sex <- factor(data$sex)
 
 # Prepare Tool
-data$tool <- factor(data$tool, 
-                  levels=c("azimuth","celltypist","popv","sc_proteomics"),
-                  labels=c("Azimuth","CellTypist","popV","SC Proteomics"))
+data$tool <- 
+  factor(data$tool, levels=c("azimuth","celltypist","popv","sc_proteomics"),
+                    labels=c("Azimuth","CellTypist","popV","SC Proteomics"))
 
 # Prepare organ labels
-data$organ <- data$organ %>% 
+data$organ <- 
+  data$organ %>% 
   str_replace("left ", "") %>%
   str_replace("right ", "") %>%
-  str_replace("Set of ", "") %>%
-  str_replace("left ", "") %>%
+  str_replace("Set of lactiferous glands in ", "") %>%
   str_replace(" of body", "") %>% 
   str_replace("respiratory system","lung") %>%
   str_replace("male reproductive system","prostate") %>%
@@ -186,7 +168,8 @@ data$organ <- data$organ %>%
 data$organ <- factor(data$organ)
 
 # Prepare anatomical structure labels
-data$as <- data$as %>% 
+data$as <- 
+  data$as %>% 
   str_replace("heart ","") %>%
   str_replace(" of body","") %>%
   str_replace("part of ","") %>%
@@ -216,33 +199,35 @@ labels <-  c("sex", "tool", "modality", "organ", "organId",
 
 ```{r cell_type_names}
 #### Create Organ based subsets for cleaning cell type labels ####
-# Heart - 1086
-heart <- data[data$organ==levels(data$organ)[1],]
-# Lungs - 826
-lung <- data[data$organ==levels(data$organ)[6],]
-# Kidney - 920
-kidney <- data[data$organ==levels(data$organ)[2],]
-# Large Intestine - 1790
+# 1 Breasts
+breast <- data[data$organ==levels(data$organ)[1],]
+# 2 Heart
+heart <- data[data$organ==levels(data$organ)[2],]
+# 3 Kidney
+kidney <- data[data$organ==levels(data$organ)[3],]
+# 4 Large Intestine
 largeIntestine <- data[data$organ==levels(data$organ)[4],]
-# Small Intestine
-smallIntestine <- data[data$organ==levels(data$organ)[9],]
-# Spleen
-spleen <- data[data$organ==levels(data$organ)[10],]
-# Prostate
+# 5 Lungs
+lung <- data[data$organ==levels(data$organ)[5],]
+# 6 Pancreas 
+pancreas <- data[data$organ==levels(data$organ)[6],]
+# 7 Prostate
 prostate <- data[data$organ==levels(data$organ)[7],]
-#### CHANGES ####
-# Liver
-liver <- data[data$organ==levels(data$organ)[5],]
-# Skin
+# 8 Skin
 skin <- data[data$organ==levels(data$organ)[8],]
-# Urinary bladder
-bladder <- data[data$organ==levels(data$organ)[12],]
-# Lactiferous Glands
-glands <- data[data$organ==levels(data$organ)[3],]
+# 9 Small Intestine
+smallIntestine <- data[data$organ==levels(data$organ)[9],]
+# 10 Spleen
+spleen <- data[data$organ==levels(data$organ)[10],]
+# 11 Thymus
+thymus <- data[data$organ==levels(data$organ)[11],]
+# 12 Ureter 
+ureter <- data[data$organ==levels(data$organ)[12],]
+# 13 Urinary bladder
+bladder <- data[data$organ==levels(data$organ)[13],]
 
-# Excluded - no AZIMUTH crosswalks for organ.
-# Uterer 
-# uterer <- data[data$organ==levels(data$organ)[11],]
+# 5 Liver
+# liver <- data[data$organ==levels(data$organ)[5],]
 
 #### Cleaning Azimuth Author Annotations ####
 # Heart
@@ -266,23 +251,29 @@ tmp3 <-
                azimuth$cell_match=="skos:exactMatch" | 
                azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
+# Pancreas
+tmp4 <- 
+  join(pancreas[pancreas$tool=="Azimuth",c(1:11)],
+       azimuth[azimuth$organ_level=="Pancreas_L1" &
+               azimuth$cell_match=="skos:exactMatch" | 
+               azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
 # # Ureter
-# tmp4 <-
-#   join(uterer[uterer$tool=="Azimuth",c(1:11)],
+# tmp5 <-
+#   join(ureter[ureter$tool=="Azimuth",c(1:11)],
 #        azimuth[azimuth$organ_level=="Kidney_L3" &
 #                azimuth$cell_match=="skos:exactMatch" | 
 #                azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
 #        by="cell_id", type="left")
-
 # Clean names
- names(tmp1) <- names(tmp2) <- names(tmp3) <- #names(tmp4) <-
+ names(tmp1) <- names(tmp2) <- names(tmp3) <- names(tmp4) <- #tmp5 <-
    c("sex","tool","modality","organ","organId","as","as_id",
      "cell_id","cell_label","cell_count", "percentage",
      "annotation_label","annotation_label_id","cell_label2")
  
 # Combine Azimuth temp files
-data_azimuth <- rbind(tmp1,tmp2,tmp3)
-# data_azimuth <- rbind(tmp1,tmp2,tmp3,tmp4) 
+data_azimuth <- rbind(tmp1,tmp2,tmp3,tmp4) 
+rm(tmp1,tmp2,tmp3,tmp4)
 
 #Add back missing cell labels when annotation label is missing
 data_azimuth[is.na(data_azimuth$annotation_label),]$cell_label2 <- 
@@ -317,32 +308,41 @@ tmp4 <-
                   celltypist$cell_match=="skos:exactMatch" | 
                   celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
-#### CHANGES ####
-# Liver
-tmp5 <- 
-  join(liver[liver$tool=="CellTypist",c(1:11)],
-       celltypist[celltypist$organ_level=="liver_L1" &
-                  celltypist$cell_match=="skos:exactMatch" | 
-                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
-       by="cell_id", type="left")
+# # Liver
+# tmp5 <- 
+#   join(liver[liver$tool=="CellTypist",c(1:11)],
+#        celltypist[celltypist$organ_level=="liver_L1" &
+#                   celltypist$cell_match=="skos:exactMatch" | 
+#                   celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+#        by="cell_id", type="left")
 # Skin
-tmp6 <- 
+tmp6 <-
   join(skin[skin$tool=="CellTypist",c(1:11)],
        celltypist[celltypist$organ_level=="Adult_Human_Skin_pkl" &
-                  celltypist$cell_match=="skos:exactMatch" | 
-                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+                  celltypist$cell_match=="skos:exactMatch" |
+                  celltypist$cell_match=="skos:narrowMatch", c(3:6)],
+       by="cell_id", type="left")
+# Pancreas
+tmp7 <- 
+  join(pancreas[pancreas$tool=="CellTypist",c(1:11)],
+       azimuth[azimuth$organ_level=="Pancreas_L1" &
+               azimuth$cell_match=="skos:exactMatch" | 
+               azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
 
 # Clean names
- names(tmp1) <- names(tmp2) <- names(tmp3) <- names(tmp4) <- 
-   names(tmp5) <- names(tmp6) <- 
+ names(tmp1) <- names(tmp2) <- names(tmp3) <- names(tmp4) <- #names(tmp5) <- 
+   names(tmp6) <- names(tmp7) <-
    c("sex","tool","modality","organ","organId","as","as_id",
      "cell_id","cell_label","cell_count", "percentage",
      "annotation_label","annotation_label_id","cell_label2")
  
 # Combine Azimuth temp files
-#data_celltypist <- rbind(tmp1,tmp2,tmp3,tmp4)
- data_celltypist <- rbind(tmp1,tmp2,tmp3,tmp4,tmp5,tmp6)
+data_celltypist <- rbind(tmp1,tmp2,tmp3,tmp4,#tmp5,
+                         tmp6,tmp7)
+rm(tmp1,tmp2,tmp3,tmp4,#tmp5
+   tmp6,tmp7)
+
 #Add back missing cell labels when annotation label is missing
 data_celltypist[is.na(data_celltypist$annotation_label),]$cell_label2 <- 
   data_celltypist[is.na(data_celltypist$annotation_label),]$cell_label
@@ -362,75 +362,98 @@ tmp2 <-
             popv$cell_match=="skos:exactMatch" | 
             popv$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
+# # Liver
+# tmp3 <- 
+#   join(liver[liver$tool=="popV",c(1:11)],
+#        popv[popv$organ_level=="liver" &
+#             popv$cell_match=="skos:exactMatch" | 
+#             popv$cell_match=="skos:narrowMatch", c(3:6)], 
+#        by="cell_id", type="left")
 # Large Intestines
-tmp3 <- 
+tmp4 <- 
   join(largeIntestine[largeIntestine$tool=="popV",c(1:11)],
        popv[popv$organ_level=="large intestine" &
             popv$cell_match=="skos:exactMatch" | 
             popv$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
 # Small Intestines
-tmp4 <- 
+tmp5 <- 
   join(smallIntestine[smallIntestine$tool=="popV",c(1:11)],
        popv[popv$organ_level=="small intestine" &
             popv$cell_match=="skos:exactMatch" | 
             popv$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
 # Spleen
-tmp5 <- 
+tmp6 <- 
   join(spleen[spleen$tool=="popV",c(1:11)],
        popv[popv$organ_level=="spleen" &
             popv$cell_match=="skos:exactMatch" | 
             popv$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
+# Pancreas
+tmp7 <- 
+  join(pancreas[pancreas$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="mammary gland" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Breasts
+tmp8 <- 
+  join(breast[breast$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="mammary gland" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Thymus
+tmp9 <- 
+  join(thymus[thymus$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="mammary gland" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
 # Prostate
-tmp6 <- 
+tmp10 <- 
   join(prostate[prostate$tool=="popV",c(1:11)],
        popv[popv$organ_level=="prostate gland" &
             popv$cell_match=="skos:exactMatch" | 
             popv$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
-#### CHANGES ####
-# Liver
-tmp7 <- 
-  join(liver[liver$tool=="popV",c(1:11)],
-       popv[popv$organ_level=="liver" &
-            popv$cell_match=="skos:exactMatch" | 
-            popv$cell_match=="skos:narrowMatch", c(3:6)], 
-       by="cell_id", type="left")
 # Skin
-tmp8 <- 
+tmp11 <- 
   join(skin[skin$tool=="popV",c(1:11)],
        popv[popv$organ_level=="skin" &
             popv$cell_match=="skos:exactMatch" | 
             popv$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
 # Urinary Bladder
-tmp9 <- 
+tmp12 <- 
   join(bladder[bladder$tool=="popV",c(1:11)],
        popv[popv$organ_level=="urinary bladder" &
             popv$cell_match=="skos:exactMatch" | 
             popv$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
-# Mammary Glands / lacticious glands
-tmp10 <- 
-  join(glands[glands$tool=="popV",c(1:11)],
+# Ureter
+tmp13 <- 
+  join(ureter[ureter$tool=="popV",c(1:11)],
        popv[popv$organ_level=="mammary gland" &
             popv$cell_match=="skos:exactMatch" | 
             popv$cell_match=="skos:narrowMatch", c(3:6)], 
        by="cell_id", type="left")
 
 # Clean names
-names(tmp1) <- names(tmp2) <- names(tmp3) <- names(tmp4) <- 
-  names(tmp5) <- names(tmp6) <- names(tmp7) <- names(tmp8) <- 
-  names(tmp9) <- names(tmp10) <-
+names(tmp1) <- names(tmp2) <- names(tmp4) <- names(tmp5) <- 
+  names(tmp6) <- names(tmp7) <- names(tmp8) <- names(tmp9) <- 
+  names(tmp10) <- names(tmp11) <- names(tmp12) <- names(tmp13) <-
+  #names(tmp3) <-
   c("sex","tool","modality","organ","organId","as","as_id",
     "cell_id","cell_label","cell_count", "percentage",
     "annotation_label","annotation_label_id","cell_label2")
-  
+
 # Combine Azimuth temp files
-data_popv <- rbind(tmp1,tmp2,tmp3,tmp4,tmp5,tmp6,tmp7,tmp8,tmp9,tmp10)
-#data_popv <- rbind(tmp1,tmp2,tmp3,tmp4,tmp5,tmp6)
+data_popv <- rbind(tmp1,tmp2,tmp4,tmp5,tmp6,tmp7,
+                   tmp8,tmp9,tmp10,tmp11,tmp12,tmp13)
+rm(tmp1,tmp2,tmp4,tmp5,tmp6,tmp7,
+   tmp8,tmp9,tmp10,tmp11,tmp12,tmp13)
 
 #Add back missing cell labels when annotation label is missing
 data_popv[is.na(data_popv$annotation_label),]$cell_label2 <- 
@@ -449,22 +472,35 @@ tmp2 <-
   mutate(annotation_label=NA,
          annotation_label_ids=NA,
          cell_label2=NA)
-#### CHANGES ####
 # Skin
 tmp3 <- 
   skin[skin$tool=="SC Proteomics",c(1:11)] %>%
   mutate(annotation_label=NA,
          annotation_label_ids=NA,
          cell_label2=NA)
+# Lung
+tmp4 <- 
+  lung[lung$tool=="SC Proteomics",c(1:11)] %>%
+  mutate(annotation_label=NA,
+         annotation_label_ids=NA,
+         cell_label2=NA)
+# Spleen
+tmp5 <- 
+  spleen[spleen$tool=="SC Proteomics",c(1:11)] %>%
+  mutate(annotation_label=NA,
+         annotation_label_ids=NA,
+         cell_label2=NA)
 
 # Clean names
-names(tmp1) <- names(tmp2) <- names(tmp3) <-
+names(tmp1) <- names(tmp2) <- names(tmp3) <- names(tmp4) <- names(tmp5) <-
    c("sex","tool","modality","organ","organId","as","as_id",
      "cell_id","cell_label","cell_count", "percentage",
      "annotation_label","annotation_label_id","cell_label2")
 
 # Combine Azimuth temp files
-data_scproteomics <- rbind(tmp1, tmp2, tmp3) 
+data_scproteomics <- rbind(tmp1, tmp2, tmp3, tmp4, tmp5)
+rm(tmp1, tmp2, tmp3, tmp4, tmp5)
+
 #Add back missing cell labels when annotation label is missing
 data_scproteomics[is.na(data_scproteomics$annotation_label),]$cell_label2 <- 
   data_scproteomics[is.na(data_scproteomics$annotation_label),]$cell_label
@@ -483,9 +519,8 @@ data_scproteomics$cell_name <-
 names(data_spatial)[4] <- "cell_name"
 
 # # Clean up environment
-rm(tmp1,tmp2,tmp3,tmp4,tmp5,tmp6,tmp7,tmp8,tmp9,tmp10)
-rm(heart,lung,kidney,largeIntestine,smallIntestine,skin,liver,bladder,glands,
-   prostate,spleen)
+rm(heart, lung, kidney, largeIntestine, smallIntestine, skin, bladder, #liver,
+   breast, prostate, spleen, pancreas, thymus, ureter)
 rm(azimuth,popv,celltypist)
 ```
 
