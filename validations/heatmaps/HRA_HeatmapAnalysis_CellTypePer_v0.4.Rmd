@@ -49,7 +49,6 @@ cell_lookup <- read.csv(paste0(api_url,output_data_dir,
                             "/reports/atlas-ad-hoc/cell-types-level-mapping.csv"),
                         header=T, fileEncoding = "UTF8")
 
-
 # Data for heatmaps
 # Includes organ, anatomical structure, cell types measures by tool and donor gender
 data <- read.csv(paste0(api_url,output_data_dir,
@@ -177,10 +176,11 @@ data$as <-
 
 # Update cell_label variable
 data$cell_label <- data$cell_label %>%
-  str_replace("_"," ")
+  str_replace("_"," ") %>%
+  str_to_title()
 
 # Update cell labels for data_spatial
-data_spatial$cell_name <- data_spatial$cell_type
+data_spatial$cell_label <- data_spatial$cell_type
 # data_spatial$cell_label <- str_to_title(data_spatial$cell_label)
 data_spatial <- 
    data_spatial %>%
@@ -189,7 +189,6 @@ data_spatial <-
 ```
 
 ```{r prepare_cell_type_names}
-
 #### Create data subsets based on data analysis tool ####
 # Azimuth
 data_azimuth <-
@@ -215,15 +214,15 @@ data_spatial <-
 # Azimuth
 data_azimuth <-
   left_join(data_azimuth, cell_lookup[,c(2,4)], by="cell_id") %>%
-  rename(c("level_1_cell_label" = "cell_name"))
+  rename(c("level_1_cell_label" = "cell_label.level_1"))
 # Cell Typist
 data_celltypist <-
   left_join(data_celltypist, cell_lookup[,c(2,4)], by="cell_id") %>%
-  rename(c("level_1_cell_label" = "cell_name"))
+  rename(c("level_1_cell_label" = "cell_label.level_1"))
 # PopV
 data_popv <-
   left_join(data_popv, cell_lookup[,c(2,4)], by="cell_id") %>%
-  rename(c("level_1_cell_label" = "cell_name"))
+  rename(c("level_1_cell_label" = "cell_label.level_1"))
 # SC Proteomics 
 # data_spatial <-
 #   left_join(data_spatial, cell_lookup[,c(1,4)], by="cell_label") %>%
@@ -238,8 +237,8 @@ data_popv <-
 # Create pivot
 data_azimuth <- 
   data_azimuth %>%
-  select(organ, as, as_id, cell_name, percentage) %>%
-  pivot_wider(names_from = cell_name,
+  select(organ, as, as_id, cell_label, percentage) %>%
+  pivot_wider(names_from = cell_label,
               values_from = percentage,
               values_fill = 0,
               values_fn = mean) %>%
@@ -274,8 +273,8 @@ heatmap_plot
 # Create pivot
 data_celltypist <- 
   data_celltypist %>% 
-  select(organ, as, as_id, cell_name, percentage) %>%
-  pivot_wider(names_from = cell_name,
+  select(organ, as, as_id, cell_label, percentage) %>%
+  pivot_wider(names_from = cell_label,
               values_from = percentage,
               values_fill = 0,
               values_fn = mean) %>%
@@ -311,8 +310,8 @@ heatmap_plot
 # Create pivot
 data_popv <- 
   data_popv %>%
-  select(organ, as, as_id, cell_name, percentage) %>%
-  pivot_wider(names_from = cell_name,
+  select(organ, as, as_id, cell_label, percentage) %>%
+  pivot_wider(names_from = cell_label,
               values_from = percentage,
               values_fill = 0,
               values_fn = mean) %>%
@@ -347,8 +346,8 @@ heatmap_plot
 # Create pivot
 data_scproteomics <- 
   data_spatial %>%
-  select(organ, as, as_id, cell_name, percentage) %>%
-  pivot_wider(names_from = cell_name,
+  select(organ, as, as_id, cell_label, percentage) %>%
+  pivot_wider(names_from = cell_label,
               values_from = percentage,
               values_fill = 0,
               values_fn = mean) %>%
