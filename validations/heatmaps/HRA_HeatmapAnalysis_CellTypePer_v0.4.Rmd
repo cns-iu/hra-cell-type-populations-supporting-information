@@ -66,29 +66,52 @@ data_spatial <- read.csv("../heatmaps/spatial/HRApop_Spatial_OASCT_CellCount_Per
 #### Prepare Anatomical Structure Metadata ####
 metadata$organ_label <- 
   metadata$organ_label %>% 
-    str_replace("Set of lactiferous glands in right breast","breast") %>%
-    str_replace("Set of lactiferous glands in left breast","breast") %>%
+    str_to_lower() %>%
+    str_replace("set of lactiferous glands in right breast","breast") %>%
+    str_replace("set of lactiferous glands in left breast","breast") %>%
     str_replace("respiratory system", "lung") %>%
     str_replace("male reproductive system","prostate") %>%
     str_replace(" of body","") %>%
+    str_replace("right ","") %>%
+    str_replace("left ","") %>%
     str_to_title()
 
 metadata$as_label <- 
   metadata$as_label %>% 
-    str_replace("heart ","") %>%
-    str_replace(" of body","") %>%
-    str_replace("part of ","") %>%
-    str_replace("Posteromedial head of posterior papillary muscle of ","") %>%
-    str_replace("Right Lateral", "Lateral") %>%
-    str_replace("Right Medial", "Medial") %>%
-    str_replace("Left apical", "Apical") %>%
-    str_replace(" of right mammary gland","") %>%
-    str_replace(" of prostate","") %>%
-    str_replace(" of spleen","") %>%
-    str_replace(" of liver","") %>%
-    str_replace(" of kidney","") %>%
-    str_replace(" of urinary bladder","") %>%
-    str_to_title()
+  str_to_lower() %>%
+  str_replace("right cardiac ","right ") %>%
+  str_replace("left cardiac ","left ") %>%
+  str_replace("posteromedial head of posterior papillary muscle of ","") %>%
+  str_replace("right posterior ","posterior ") %>%
+  str_replace("left posterior ","posterior ") %>%
+  str_replace("right anterior ","anterior ") %>%
+  str_replace("left anterior ","anterior ") %>%
+  str_replace("right medial ","medial ") %>%
+  str_replace("left medial ","medial ") %>%
+  str_replace("right lateral ","lateral ") %>%
+  str_replace("left lateral ","lateral ") %>%
+  str_replace("right apical ","apical ") %>%
+  str_replace("left apical ","apical ") %>%
+  str_replace("right superior ","superior ") %>%
+  str_replace("left superior ","superior ") %>%
+  str_replace("right thymus ","") %>%
+  str_replace("left thymus ","") %>%
+  str_replace("right ureter","ureter") %>%
+  str_replace("left ureter","ureter") %>%
+  str_replace("of right ","") %>%
+  str_replace("of left ","") %>%
+  str_replace("of body ","") %>%
+  str_replace("part of ","") %>%
+  str_replace("heart ","") %>%
+  str_replace("kidney ","") %>%
+  str_replace(" of prostate","") %>%
+  str_replace(" of pancreas","") %>%
+  str_replace(" of spleen","") %>%
+  str_replace(" of the liver","") %>%
+  str_replace(" of liver","") %>%
+  str_replace(" of kidney","") %>%
+  str_replace(" of urinary bladder","") %>%
+  str_to_title()
 
 metadata <-
   metadata %>%
@@ -148,27 +171,50 @@ data$tool <-
 # Prepare organ labels
 data$organ <- 
   data$organ %>% 
-  str_replace("left ", "") %>%
-  str_replace("right ", "") %>%
-  str_replace("Set of lactiferous glands in ", "") %>%
-  str_replace(" of body", "") %>% 
-  str_replace("respiratory system","lung") %>%
+  str_to_lower() %>%
+  str_replace("set of lactiferous glands in right breast","breast") %>%
+  str_replace("set of lactiferous glands in left breast","breast") %>%
+  str_replace("respiratory system", "lung") %>%
   str_replace("male reproductive system","prostate") %>%
+  str_replace(" of body","") %>%
+  str_replace("right ","") %>%
+  str_replace("left ","") %>%
   str_to_title()
 data$organ <- factor(data$organ)
 
 # Prepare anatomical structure labels
 data$as <- 
   data$as %>% 
-  str_replace("heart ","") %>%
-  str_replace(" of body","") %>%
+  str_to_lower() %>%
+  str_replace("right cardiac ","right ") %>%
+  str_replace("left cardiac ","left ") %>%
+  str_replace("posteromedial head of posterior papillary muscle of ","") %>%
+  str_replace("right posterior ","posterior ") %>%
+  str_replace("left posterior ","posterior ") %>%
+  str_replace("right anterior ","anterior ") %>%
+  str_replace("left anterior ","anterior ") %>%
+  str_replace("right medial ","medial ") %>%
+  str_replace("left medial ","medial ") %>%
+  str_replace("right lateral ","lateral ") %>%
+  str_replace("left lateral ","lateral ") %>%
+  str_replace("right apical ","apical ") %>%
+  str_replace("left apical ","apical ") %>%
+  str_replace("right superior ","superior ") %>%
+  str_replace("left superior ","superior ") %>%
+  str_replace("right thymus ","") %>%
+  str_replace("left thymus ","") %>%
+  str_replace("right ureter","ureter") %>%
+  str_replace("left ureter","ureter") %>%
+  str_replace("of right ","") %>%
+  str_replace("of left ","") %>%
+  str_replace("of body ","") %>%
   str_replace("part of ","") %>%
-  str_replace("Right Lateral", "Lateral") %>%
-  str_replace("Right Medial", "Medial") %>%
-  str_replace("Left apical", "Apical") %>%
-  str_replace(" of right mammary gland","") %>%
+  str_replace("heart ","") %>%
+  str_replace("kidney ","") %>%
   str_replace(" of prostate","") %>%
+  str_replace(" of pancreas","") %>%
   str_replace(" of spleen","") %>%
+  str_replace(" of the liver","") %>%
   str_replace(" of liver","") %>%
   str_replace(" of kidney","") %>%
   str_replace(" of urinary bladder","") %>%
@@ -237,12 +283,12 @@ data_popv <-
 # Create pivot
 data_azimuth <- 
   data_azimuth %>%
-  select(organ, as, as_id, cell_label, percentage) %>%
+  select(organ, as, cell_label, percentage) %>%
   pivot_wider(names_from = cell_label,
               values_from = percentage,
               values_fill = 0,
               values_fn = mean) %>%
-  arrange(organ, as_id)
+  arrange(organ, as)
 
 # Convert DF to a matrix
 data_azimuth_heatmap <- data.matrix(data_azimuth[,4:ncol(data_azimuth)])
@@ -273,12 +319,12 @@ heatmap_plot
 # Create pivot
 data_celltypist <- 
   data_celltypist %>% 
-  select(organ, as, as_id, cell_label, percentage) %>%
+  select(organ, as, cell_label, percentage) %>%
   pivot_wider(names_from = cell_label,
               values_from = percentage,
               values_fill = 0,
               values_fn = mean) %>%
-  arrange(organ, as_id)
+  arrange(organ, as)
 
 # Convert DF to a matrix
 data_celltypist_heatmap <- data.matrix(data_celltypist[,4:ncol(data_celltypist)])
@@ -310,12 +356,12 @@ heatmap_plot
 # Create pivot
 data_popv <- 
   data_popv %>%
-  select(organ, as, as_id, cell_label, percentage) %>%
+  select(organ, as, cell_label, percentage) %>%
   pivot_wider(names_from = cell_label,
               values_from = percentage,
               values_fill = 0,
               values_fn = mean) %>%
-  arrange(organ, as_id)
+  arrange(organ, as)
 
 # Convert DF to a matrix
 data_popv_heatmap <- data.matrix(data_popv[,4:ncol(data_popv)])
