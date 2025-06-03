@@ -5,11 +5,15 @@ main lactiferous duct,VH_F_main_lactiferous_ducts_L,#VHFLeftMammaryGland
 Interlobar adipose tissue of right mammary gland,VH_F_fat_R,#VHFRightMammaryGland
 main lactiferous duct,VH_F_main_lactiferous_ducts_R,#VHFRightMammaryGland
 mammary lobe,VH_F_mammary_lobes_R,#VHFRightMammaryGland
+hepatic flexure of colon,VH_F_hepatic_flexure_of_colon,#VHFLargeIntestine
 transverse colon,VH_F_transverse_colon,#VHFLargeIntestine
 ascending colon,VH_F_ascending_colon,#VHFLargeIntestine
 descending colon,VH_F_descending_colon,#VHFLargeIntestine
 caecum,VH_F_caecum,#VHFLargeIntestine
+rectum,VH_F_rectum,#VHFLargeIntestine
 sigmoid colon,VH_F_sigmoid_colon,#VHFLargeIntestine
+superior part of duodenum,VH_F_duodenum_superior,#VHFSmallIntestine
+duodenal ampulla,VH_F_duodenal_ampulla,#VHFSmallIntestine
 descending part of duodenum,VH_F_duodenum_descending,#VHFSmallIntestine
 ascending part of duodenum,VH_F_duodenum_ascending,#VHFSmallIntestine
 horizontal part of duodenum,VH_F_duodenum_horizontal,#VHFSmallIntestine
@@ -138,8 +142,12 @@ jejunum,VH_M_jejunum,#VHMSmallIntestine
 ascending part of duodenum,VH_M_duodenum_ascending,#VHMSmallIntestine
 descending part of duodenum,VH_M_duodenum_descending,#VHMSmallIntestine
 horizontal part of duodenum,VH_M_duodenum_horizonal,#VHMSmallIntestine
+superior part of duodenum,VH_M_duodenum_superior,#VHMSmallIntestine
+duodenal ampulla,VH_M_duodenal_ampulla,#VHMSmallIntestine
 ascending colon,VH_M_ascending_colon,#VHMColon
 descending colon,VH_M_descending_colon,#VHMColon
+hepatic flexure of colon,VH_M_hepatic_flexure_of_colon,#VHMColon
+rectum,VH_M_rectum,#VHMColon
 sigmoid colon,VH_M_sigmoid_colon,#VHMColon
 transverse colon,VH_M_transverse_colon,#VHMColon
 caecum,VH_M_caecum,#VHMColon
