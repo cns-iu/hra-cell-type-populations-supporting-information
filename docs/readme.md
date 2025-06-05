@@ -16,6 +16,7 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 
 # Links
 ## General
+- Link to HuBMAP Publication page: [https://portal.hubmapconsortium.org/browse/publication/f53d60b5994333777a446dd7ad3b0304](https://portal.hubmapconsortium.org/browse/publication/f53d60b5994333777a446dd7ad3b0304)
 - Link to paper on bioRxiv (forthcoming)
 - [Link to GitHub repository for Supporting Information](https://github.com/cns-iu/hra-cell-type-populations-supporting-information)
 - [Link to HRA Portal](https://humanatlas.io/)
