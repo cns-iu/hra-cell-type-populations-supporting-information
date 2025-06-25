@@ -2,6 +2,7 @@ label,node_name,anatomical_structure_of
 Interlobar adipose tissue of left mammary gland,VH_F_fat_L,#VHFLeftMammaryGland
 mammary lobe,VH_F_mammary_lobes_L,#VHFLeftMammaryGland
 main lactiferous duct,VH_F_main_lactiferous_ducts_L,#VHFLeftMammaryGland
+Interlobar adipose tissue of right mammary gland,VH_F_fat_R,#VHFRightMammaryGland
 main lactiferous duct,VH_F_main_lactiferous_ducts_R,#VHFRightMammaryGland
 mammary lobe,VH_F_mammary_lobes_R,#VHFRightMammaryGland
 hepatic flexure of colon,VH_F_hepatic_flexure_of_colon,#VHFLargeIntestine
