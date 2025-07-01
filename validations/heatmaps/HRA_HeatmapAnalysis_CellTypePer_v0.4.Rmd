@@ -27,13 +27,15 @@ knitr::opts_chunk$set(
 ```{r data}
 #### Paths ####
 ##### X-Atlas Consortia API #####
-# Main Branch 
-#api_url <- c("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/")
-#output_data_dir <- c("v0.11.1")
+# Select Branch 
+# Maing
+api_url <- c("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/")
 
-# Testing Branch 
-api_url <- c("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/refs/heads/v0.12.0/output-data/")
-output_data_dir <- c("v0.12.0")
+# Testing
+#api_url <- c("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/refs/heads/v1.0/output-data/")
+
+# Version
+output_data_dir <- c("v1.0")
 
 ##### Project paths #####
 path_validation <- paste0("./validations/")
