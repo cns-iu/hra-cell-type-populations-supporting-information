@@ -35,6 +35,9 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 ## Data
 - [Link to HRApop graph data on HRA LOD server](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/)
 
+# Accessing HRApop Data
+A Jupyter Notebook detailing easy access to cell summaries for AS, extraction sites, and datasets is available at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb). 
+
 # Interactive Sankey Diagrams
 
 In total, as of HRApop v0.11.1, there are 11,817 datasets in the HRApop Universe (107 of which are sc-proteomics), and they cover 27 organs. 619 datasets make up the HRApop Atlas. 3680 datasets have an extraction site but no cell summary. Inversely, 5075 datasets have a cell summary but no extraction site. 2324 datasets have neither. The total number of non-atlas datasets is 11,198. The Sankey diagrams below offer an overview of HRApop Universe and Atlas provenance. 
