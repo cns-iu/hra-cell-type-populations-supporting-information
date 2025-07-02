@@ -35,12 +35,33 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 ## Data
 - [Link to HRApop graph data on HRA LOD server](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/)
 
-# Accessing HRApop Data
+# Usage examples
+
+## Accessing HRApop data
 A Jupyter Notebook detailing easy access to cell summaries for AS, extraction sites, and datasets is available at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb). 
 
-# Interactive Sankey Diagrams
 
-In total, as of HRApop v0.11.1, there are 11,817 datasets in the HRApop Universe (107 of which are sc-proteomics), and they cover 27 organs. 619 datasets make up the HRApop Atlas. 3680 datasets have an extraction site but no cell summary. Inversely, 5075 datasets have a cell summary but no extraction site. 2324 datasets have neither. The total number of non-atlas datasets is 11,198. The Sankey diagrams below offer an overview of HRApop Universe and Atlas provenance. 
+## Running HRA Workflows Runner on a local H5AD file
+A notebook to run the HRA Workflows Runner on Windows with Windows Subsystem for Linux (WSL) is provided at [https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb](https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb).
+
+## Step-by-step instructions
+**Goal: get Mean B Expressions for a given CT in HRApop Atlas Datasets**
+
+1. When opening [https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ct](https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ct), the first item shown is the SPARQL query running when the endpoint is called:
+![](images/steps_1.png)
+
+2. Below, you can specify your request. The only mandatory field is the `celltype`, which must be a Persistent URL (PURL). You can click the FILL EXAMPLE button to prefill this field with `http://purl.obolibrary.org/obo/CL_0000136`, which is `adipocyte`. Clickt the TRY button to run the query. 
+![](images/steps_2.png)
+
+3. Then, the response area presents the result of the query, which consists of a table with one CT-B record per row. You may copy the results to your clipboard with the COPY button. 
+![](images/steps_3.png)
+
+4. You can also click the tabs in the response area to get the `CURL` command to run the query for the same results:
+![](images/steps_4.png)
+
+# Interactive Sankey diagrams
+
+In total, as of HRApop v1.0, there are 16,293 datasets in the HRApop Universe (558 of which are sc-transcriptomics and 104 of which are sc-proteomics), and they cover 49 organs. 662 datasets make up the HRApop Atlas. 5,672 datasets have an extraction site but no cell summary. Inversely, 6,395 datasets have a cell summary but no extraction site. 3,564 datasets have neither. The total number of non-atlas datasets is 15,631. The Sankey diagrams below offer an overview of HRApop Universe and Atlas provenance. 
 
 Explore the Sankey diagram for the HRApop Universe below (embedded) or [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html).
 <iframe 
@@ -62,11 +83,7 @@ title="Sankey HRApop Atlas"
     allowfullscreen>
 </iframe>
 
-# Usage Examples
-
-A notebook to run the HRA Workflows Runner on Windows with Windows Subsystem for Linux (WSL) is provided at [https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb](https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb).
-
-# HRApop Universe Extraction Sites
+# HRApop Universe extraction sites
 Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in the HRApop Universe.  
 
 <a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
@@ -101,27 +118,9 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 - The code to generate these heatmaps (exported to HTML) is [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/HRA_HeatmapAnalysis_CellTypePer_v0.4.html). 
 - The R Markdown notebook is [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/validations/heatmaps/HRA_HeatmapAnalysis_CellTypePer_v0.4.Rmd).
 
-# CTann Tree
-![](images/ctann_tree.png)
+# Exemplary cell summaries
 
-# Step-by-step Instructions
-**Goal: get Mean B Expressions for a given CT in HRApop Atlas Datasets**
-
-1. When opening [https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ct](https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ct), the first item shown is the SPARQL query running when the endpoint is called:
-![](images/steps_1.png)
-
-2. Below, you can specify your request. The only mandatory field is the `celltype`, which must be a Persistent URL (PURL). You can click the FILL EXAMPLE button to prefill this field with `http://purl.obolibrary.org/obo/CL_0000136`, which is `adipocyte`. Clickt the TRY button to run the query. 
-![](images/steps_2.png)
-
-3. Then, the response area presents the result of the query, which consists of a table with one CT-B record per row. You may copy the results to your clipboard with the COPY button. 
-![](images/steps_3.png)
-
-4. You can also click the tabs in the response area to get the `CURL` command to run the query for the same results:
-![](images/steps_4.png)
-
-# Exemplary Cell Summaries
-
-## For a Dataset
+## For a dataset
 
 Shown is a snippet from a cell summary for a dataset in the small intestine. For clarity, we only show four CTs in this cell summary, all assigned by CellTypist, and we only show the top 1- Bs for the last CT (`Tuft`).
 
