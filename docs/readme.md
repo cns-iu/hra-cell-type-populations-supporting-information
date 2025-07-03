@@ -314,3 +314,240 @@ Shown is a snippet from the AS Cell Summary of the cortex of kidney, assgined by
         ...
 	}
 ```
+
+# Dataset counts
+
+| as_label_organ                                                                                 	| tool       	| sex    	| dataset 	|
+|------------------------------------------------------------------------------------------------	|------------	|--------	|---------	|
+| Set of lactiferous glands in left breast   - Interlobar adipose tissue of left mammary gland   	| popv       	| Female 	| 2       	|
+| Set of lactiferous glands in left breast   - main lactiferous duct                             	| popv       	| Female 	| 2       	|
+| Set of lactiferous glands in left breast   - mammary lobe                                      	| popv       	| Female 	| 2       	|
+| Set of lactiferous glands in right breast   - Interlobar adipose tissue of right mammary gland 	| popv       	| Female 	| 3       	|
+| Set of lactiferous glands in right breast   - main lactiferous duct                            	| popv       	| Female 	| 3       	|
+| heart - Posteromedial head of posterior   papillary muscle of left ventricle                   	| azimuth    	| Female 	| 6       	|
+| heart - Posteromedial head of posterior   papillary muscle of left ventricle                   	| celltypist 	| Female 	| 6       	|
+| heart - heart left ventricle                                                                   	| azimuth    	| Female 	| 28      	|
+| heart - heart left ventricle                                                                   	| azimuth    	| Male   	| 37      	|
+| heart - heart left ventricle                                                                   	| celltypist 	| Female 	| 28      	|
+| heart - heart left ventricle                                                                   	| celltypist 	| Male   	| 37      	|
+| heart - heart right ventricle                                                                  	| azimuth    	| Female 	| 14      	|
+| heart - heart right ventricle                                                                  	| azimuth    	| Male   	| 16      	|
+| heart - heart right ventricle                                                                  	| celltypist 	| Female 	| 14      	|
+| heart - heart right ventricle                                                                  	| celltypist 	| Male   	| 16      	|
+| heart - interventricular septum                                                                	| azimuth    	| Female 	| 7       	|
+| heart - interventricular septum                                                                	| azimuth    	| Male   	| 8       	|
+| heart - interventricular septum                                                                	| celltypist 	| Female 	| 7       	|
+| heart - interventricular septum                                                                	| celltypist 	| Male   	| 8       	|
+| heart - left cardiac atrium                                                                    	| azimuth    	| Female 	| 7       	|
+| heart - left cardiac atrium                                                                    	| azimuth    	| Male   	| 7       	|
+| heart - left cardiac atrium                                                                    	| celltypist 	| Female 	| 7       	|
+| heart - left cardiac atrium                                                                    	| celltypist 	| Male   	| 7       	|
+| heart - right cardiac atrium                                                                   	| azimuth    	| Female 	| 9       	|
+| heart - right cardiac atrium                                                                   	| azimuth    	| Male   	| 8       	|
+| heart - right cardiac atrium                                                                   	| celltypist 	| Female 	| 9       	|
+| heart - right cardiac atrium                                                                   	| celltypist 	| Male   	| 8       	|
+| large intestine - ascending colon                                                              	| celltypist 	| Female 	| 6       	|
+| large intestine - ascending colon                                                              	| celltypist 	| Male   	| 8       	|
+| large intestine - ascending colon                                                              	| popv       	| Female 	| 6       	|
+| large intestine - ascending colon                                                              	| popv       	| Male   	| 8       	|
+| large intestine - caecum                                                                       	| celltypist 	| Female 	| 3       	|
+| large intestine - caecum                                                                       	| celltypist 	| Male   	| 1       	|
+| large intestine - caecum                                                                       	| popv       	| Female 	| 3       	|
+| large intestine - caecum                                                                       	| popv       	| Male   	| 1       	|
+| large intestine - descending colon                                                             	| celltypist 	| Female 	| 4       	|
+| large intestine - descending colon                                                             	| celltypist 	| Male   	| 7       	|
+| large intestine - descending colon                                                             	| popv       	| Female 	| 4       	|
+| large intestine - descending colon                                                             	| popv       	| Male   	| 7       	|
+| large intestine - hepatic flexure of   colon                                                   	| celltypist 	| Female 	| 3       	|
+| large intestine - hepatic flexure of   colon                                                   	| celltypist 	| Male   	| 1       	|
+| large intestine - hepatic flexure of   colon                                                   	| popv       	| Female 	| 3       	|
+| large intestine - hepatic flexure of   colon                                                   	| popv       	| Male   	| 1       	|
+| large intestine - rectum                                                                       	| celltypist 	| Female 	| 3       	|
+| large intestine - rectum                                                                       	| popv       	| Female 	| 3       	|
+| large intestine - sigmoid colon                                                                	| celltypist 	| Female 	| 7       	|
+| large intestine - sigmoid colon                                                                	| celltypist 	| Male   	| 8       	|
+| large intestine - sigmoid colon                                                                	| popv       	| Female 	| 7       	|
+| large intestine - sigmoid colon                                                                	| popv       	| Male   	| 8       	|
+| large intestine - transverse colon                                                             	| celltypist 	| Female 	| 3       	|
+| large intestine - transverse colon                                                             	| celltypist 	| Male   	| 5       	|
+| large intestine - transverse colon                                                             	| popv       	| Female 	| 3       	|
+| large intestine - transverse colon                                                             	| popv       	| Male   	| 5       	|
+| left kidney - hilum of kidney                                                                  	| azimuth    	| Male   	| 2       	|
+| left kidney - kidney capsule                                                                   	| azimuth    	| Female 	| 3       	|
+| left kidney - kidney capsule                                                                   	| azimuth    	| Male   	| 2       	|
+| left kidney - outer cortex of kidney                                                           	| azimuth    	| Female 	| 17      	|
+| left kidney - outer cortex of kidney                                                           	| azimuth    	| Male   	| 19      	|
+| left kidney - renal column                                                                     	| azimuth    	| Female 	| 10      	|
+| left kidney - renal column                                                                     	| azimuth    	| Male   	| 2       	|
+| left kidney - renal papilla                                                                    	| azimuth    	| Female 	| 5       	|
+| left kidney - renal pyramid                                                                    	| azimuth    	| Female 	| 37      	|
+| left kidney - renal pyramid                                                                    	| azimuth    	| Male   	| 31      	|
+| left ureter - Left ureter                                                                      	| azimuth    	| Female 	| 4       	|
+| left ureter - Left ureter                                                                      	| azimuth    	| Male   	| 8       	|
+| liver - capsule of the liver                                                                   	| celltypist 	| Female 	| 1       	|
+| liver - capsule of the liver                                                                   	| celltypist 	| Male   	| 1       	|
+| liver - capsule of the liver                                                                   	| popv       	| Female 	| 1       	|
+| liver - capsule of the liver                                                                   	| popv       	| Male   	| 1       	|
+| liver - diaphragmatic surface of liver                                                         	| celltypist 	| Female 	| 1       	|
+| liver - diaphragmatic surface of liver                                                         	| celltypist 	| Male   	| 1       	|
+| liver - diaphragmatic surface of liver                                                         	| popv       	| Female 	| 1       	|
+| liver - diaphragmatic surface of liver                                                         	| popv       	| Male   	| 1       	|
+| liver - gastric impression of liver                                                            	| celltypist 	| Female 	| 1       	|
+| liver - gastric impression of liver                                                            	| celltypist 	| Male   	| 1       	|
+| liver - gastric impression of liver                                                            	| popv       	| Female 	| 1       	|
+| liver - gastric impression of liver                                                            	| popv       	| Male   	| 1       	|
+| male reproductive system - Verumontanum                                                        	| popv       	| Male   	| 2       	|
+| male reproductive system - apex of   prostate                                                  	| popv       	| Male   	| 2       	|
+| male reproductive system - central zone   of prostate                                          	| popv       	| Male   	| 6       	|
+| male reproductive system - peripheral   zone of prostate                                       	| popv       	| Male   	| 6       	|
+| male reproductive system - seminal   vesicle                                                   	| popv       	| Male   	| 2       	|
+| male reproductive system - transition   zone of prostate                                       	| popv       	| Male   	| 2       	|
+| pancreas - Neck of pancreas                                                                    	| azimuth    	| Female 	| 1       	|
+| pancreas - Neck of pancreas                                                                    	| azimuth    	| Male   	| 1       	|
+| pancreas - Neck of pancreas                                                                    	| celltypist 	| Female 	| 1       	|
+| pancreas - Neck of pancreas                                                                    	| celltypist 	| Male   	| 1       	|
+| pancreas - Neck of pancreas                                                                    	| popv       	| Female 	| 1       	|
+| pancreas - Neck of pancreas                                                                    	| popv       	| Male   	| 1       	|
+| pancreas - body of pancreas                                                                    	| azimuth    	| Female 	| 1       	|
+| pancreas - body of pancreas                                                                    	| azimuth    	| Male   	| 1       	|
+| pancreas - body of pancreas                                                                    	| celltypist 	| Female 	| 1       	|
+| pancreas - body of pancreas                                                                    	| celltypist 	| Male   	| 1       	|
+| pancreas - body of pancreas                                                                    	| popv       	| Female 	| 1       	|
+| pancreas - body of pancreas                                                                    	| popv       	| Male   	| 1       	|
+| pancreas - head of pancreas                                                                    	| azimuth    	| Female 	| 1       	|
+| pancreas - head of pancreas                                                                    	| azimuth    	| Male   	| 1       	|
+| pancreas - head of pancreas                                                                    	| celltypist 	| Female 	| 1       	|
+| pancreas - head of pancreas                                                                    	| celltypist 	| Male   	| 1       	|
+| pancreas - head of pancreas                                                                    	| popv       	| Female 	| 1       	|
+| pancreas - head of pancreas                                                                    	| popv       	| Male   	| 1       	|
+| pancreas - tail of pancreas                                                                    	| azimuth    	| Female 	| 1       	|
+| pancreas - tail of pancreas                                                                    	| azimuth    	| Male   	| 1       	|
+| pancreas - tail of pancreas                                                                    	| celltypist 	| Female 	| 1       	|
+| pancreas - tail of pancreas                                                                    	| celltypist 	| Male   	| 1       	|
+| pancreas - tail of pancreas                                                                    	| popv       	| Female 	| 1       	|
+| pancreas - tail of pancreas                                                                    	| popv       	| Male   	| 1       	|
+| pancreas - uncinate process of pancreas                                                        	| azimuth    	| Female 	| 1       	|
+| pancreas - uncinate process of pancreas                                                        	| azimuth    	| Male   	| 1       	|
+| pancreas - uncinate process of pancreas                                                        	| celltypist 	| Female 	| 1       	|
+| pancreas - uncinate process of pancreas                                                        	| celltypist 	| Male   	| 1       	|
+| pancreas - uncinate process of pancreas                                                        	| popv       	| Female 	| 1       	|
+| pancreas - uncinate process of pancreas                                                        	| popv       	| Male   	| 1       	|
+| respiratory system - Cartilage of   segmental bronchus                                         	| azimuth    	| Female 	| 1       	|
+| respiratory system - Cartilage of   segmental bronchus                                         	| azimuth    	| Male   	| 4       	|
+| respiratory system - Cartilage of   segmental bronchus                                         	| celltypist 	| Female 	| 1       	|
+| respiratory system - Cartilage of   segmental bronchus                                         	| celltypist 	| Male   	| 4       	|
+| respiratory system - Cartilage of   segmental bronchus                                         	| popv       	| Female 	| 1       	|
+| respiratory system - Cartilage of   segmental bronchus                                         	| popv       	| Male   	| 4       	|
+| respiratory system - Lateral segmental   bronchus                                              	| azimuth    	| Female 	| 1       	|
+| respiratory system - Lateral segmental   bronchus                                              	| azimuth    	| Male   	| 2       	|
+| respiratory system - Lateral segmental   bronchus                                              	| celltypist 	| Female 	| 1       	|
+| respiratory system - Lateral segmental   bronchus                                              	| celltypist 	| Male   	| 2       	|
+| respiratory system - Lateral segmental   bronchus                                              	| popv       	| Female 	| 1       	|
+| respiratory system - Lateral segmental   bronchus                                              	| popv       	| Male   	| 2       	|
+| respiratory system - Left Medial Basal   Bronchopulmonary Segment                              	| azimuth    	| Male   	| 1       	|
+| respiratory system - Left Medial Basal   Bronchopulmonary Segment                              	| celltypist 	| Male   	| 1       	|
+| respiratory system - Left Medial Basal   Bronchopulmonary Segment                              	| popv       	| Male   	| 1       	|
+| respiratory system - Left anterior   segmental bronchus                                        	| azimuth    	| Male   	| 1       	|
+| respiratory system - Left anterior   segmental bronchus                                        	| celltypist 	| Male   	| 1       	|
+| respiratory system - Left anterior   segmental bronchus                                        	| popv       	| Male   	| 1       	|
+| respiratory system - Left apical   segmental bronchus                                          	| azimuth    	| Male   	| 1       	|
+| respiratory system - Left apical   segmental bronchus                                          	| celltypist 	| Male   	| 1       	|
+| respiratory system - Left apical   segmental bronchus                                          	| popv       	| Male   	| 1       	|
+| respiratory system - Left lateral basal   segmental bronchus                                   	| azimuth    	| Male   	| 1       	|
+| respiratory system - Left lateral basal   segmental bronchus                                   	| celltypist 	| Male   	| 1       	|
+| respiratory system - Left lateral basal   segmental bronchus                                   	| popv       	| Male   	| 1       	|
+| respiratory system - Left medial basal   segmental bronchus                                    	| azimuth    	| Male   	| 1       	|
+| respiratory system - Left medial basal   segmental bronchus                                    	| celltypist 	| Male   	| 1       	|
+| respiratory system - Left medial basal   segmental bronchus                                    	| popv       	| Male   	| 1       	|
+| respiratory system - Left posterior basal   segmental bronchus                                 	| azimuth    	| Female 	| 8       	|
+| respiratory system - Left posterior basal   segmental bronchus                                 	| azimuth    	| Male   	| 21      	|
+| respiratory system - Left posterior basal   segmental bronchus                                 	| celltypist 	| Female 	| 8       	|
+| respiratory system - Left posterior basal   segmental bronchus                                 	| celltypist 	| Male   	| 21      	|
+| respiratory system - Left posterior basal   segmental bronchus                                 	| popv       	| Female 	| 8       	|
+| respiratory system - Left posterior basal   segmental bronchus                                 	| popv       	| Male   	| 21      	|
+| respiratory system - Left posterior   bronchopulmonary segment                                 	| azimuth    	| Male   	| 1       	|
+| respiratory system - Left posterior   bronchopulmonary segment                                 	| celltypist 	| Male   	| 1       	|
+| respiratory system - Left posterior   bronchopulmonary segment                                 	| popv       	| Male   	| 1       	|
+| respiratory system - Right Anterior   Bronchopulmonary Segment                                 	| azimuth    	| Female 	| 1       	|
+| respiratory system - Right Anterior   Bronchopulmonary Segment                                 	| celltypist 	| Female 	| 1       	|
+| respiratory system - Right Anterior   Bronchopulmonary Segment                                 	| popv       	| Female 	| 1       	|
+| respiratory system - Right Lateral   Bronchopulmonary Segment                                  	| azimuth    	| Male   	| 3       	|
+| respiratory system - Right Lateral   Bronchopulmonary Segment                                  	| celltypist 	| Male   	| 3       	|
+| respiratory system - Right Lateral   Bronchopulmonary Segment                                  	| popv       	| Male   	| 3       	|
+| respiratory system - Right Medial   Bronchopulmonary Segment                                   	| azimuth    	| Male   	| 8       	|
+| respiratory system - Right Medial   Bronchopulmonary Segment                                   	| celltypist 	| Male   	| 8       	|
+| respiratory system - Right Medial   Bronchopulmonary Segment                                   	| popv       	| Male   	| 8       	|
+| respiratory system - Right Posterior   Basal Bronchopulmonary Segment                          	| azimuth    	| Female 	| 7       	|
+| respiratory system - Right Posterior   Basal Bronchopulmonary Segment                          	| azimuth    	| Male   	| 9       	|
+| respiratory system - Right Posterior   Basal Bronchopulmonary Segment                          	| celltypist 	| Female 	| 7       	|
+| respiratory system - Right Posterior   Basal Bronchopulmonary Segment                          	| celltypist 	| Male   	| 9       	|
+| respiratory system - Right Posterior   Basal Bronchopulmonary Segment                          	| popv       	| Female 	| 7       	|
+| respiratory system - Right Posterior   Basal Bronchopulmonary Segment                          	| popv       	| Male   	| 9       	|
+| respiratory system - Right anterior basal   bronchopulmonary segment                           	| azimuth    	| Male   	| 1       	|
+| respiratory system - Right anterior basal   bronchopulmonary segment                           	| celltypist 	| Male   	| 1       	|
+| respiratory system - Right anterior basal   bronchopulmonary segment                           	| popv       	| Male   	| 1       	|
+| respiratory system - Right superior   segmental bronchus                                       	| azimuth    	| Male   	| 1       	|
+| respiratory system - Right superior   segmental bronchus                                       	| celltypist 	| Male   	| 1       	|
+| respiratory system - Right superior   segmental bronchus                                       	| popv       	| Male   	| 1       	|
+| respiratory system - Superior lingular   bronchopulmonary segment                              	| azimuth    	| Female 	| 1       	|
+| respiratory system - Superior lingular   bronchopulmonary segment                              	| celltypist 	| Female 	| 1       	|
+| respiratory system - Superior lingular   bronchopulmonary segment                              	| popv       	| Female 	| 1       	|
+| respiratory system - left Lateral Basal   Bronchopulmonary Segment                             	| azimuth    	| Male   	| 1       	|
+| respiratory system - left Lateral Basal   Bronchopulmonary Segment                             	| celltypist 	| Male   	| 1       	|
+| respiratory system - left Lateral Basal   Bronchopulmonary Segment                             	| popv       	| Male   	| 1       	|
+| respiratory system - left anterior basal   bronchopulmonary segment                            	| azimuth    	| Male   	| 1       	|
+| respiratory system - left anterior basal   bronchopulmonary segment                            	| celltypist 	| Male   	| 1       	|
+| respiratory system - left anterior basal   bronchopulmonary segment                            	| popv       	| Male   	| 1       	|
+| right kidney - kidney capsule                                                                  	| azimuth    	| Female 	| 2       	|
+| right kidney - outer cortex of kidney                                                          	| azimuth    	| Female 	| 5       	|
+| right kidney - outer cortex of kidney                                                          	| azimuth    	| Male   	| 75      	|
+| right kidney - renal papilla                                                                   	| azimuth    	| Female 	| 2       	|
+| right kidney - renal papilla                                                                   	| azimuth    	| Male   	| 2       	|
+| right kidney - renal pyramid                                                                   	| azimuth    	| Female 	| 13      	|
+| right kidney - renal pyramid                                                                   	| azimuth    	| Male   	| 4       	|
+| right ureter - Right ureter                                                                    	| azimuth    	| Female 	| 1       	|
+| right ureter - Right ureter                                                                    	| azimuth    	| Male   	| 2       	|
+| skin of body - skin                                                                            	| celltypist 	| Female 	| 1       	|
+| skin of body - skin                                                                            	| celltypist 	| Male   	| 6       	|
+| skin of body - skin                                                                            	| popv       	| Female 	| 1       	|
+| skin of body - skin                                                                            	| popv       	| Male   	| 6       	|
+| small intestine - ascending part of   duodenum                                                 	| celltypist 	| Female 	| 3       	|
+| small intestine - ascending part of   duodenum                                                 	| celltypist 	| Male   	| 8       	|
+| small intestine - ascending part of   duodenum                                                 	| popv       	| Female 	| 3       	|
+| small intestine - ascending part of   duodenum                                                 	| popv       	| Male   	| 8       	|
+| small intestine - descending part of   duodenum                                                	| celltypist 	| Female 	| 4       	|
+| small intestine - descending part of   duodenum                                                	| celltypist 	| Male   	| 7       	|
+| small intestine - descending part of   duodenum                                                	| popv       	| Female 	| 4       	|
+| small intestine - descending part of   duodenum                                                	| popv       	| Male   	| 7       	|
+| small intestine - distal part of ileum                                                         	| celltypist 	| Female 	| 3       	|
+| small intestine - distal part of ileum                                                         	| celltypist 	| Male   	| 7       	|
+| small intestine - distal part of ileum                                                         	| popv       	| Female 	| 3       	|
+| small intestine - distal part of ileum                                                         	| popv       	| Male   	| 7       	|
+| small intestine - duodenal ampulla                                                             	| celltypist 	| Female 	| 2       	|
+| small intestine - duodenal ampulla                                                             	| popv       	| Female 	| 2       	|
+| small intestine - horizontal part of   duodenum                                                	| celltypist 	| Female 	| 3       	|
+| small intestine - horizontal part of   duodenum                                                	| celltypist 	| Male   	| 7       	|
+| small intestine - horizontal part of   duodenum                                                	| popv       	| Female 	| 3       	|
+| small intestine - horizontal part of   duodenum                                                	| popv       	| Male   	| 7       	|
+| small intestine - ileum                                                                        	| celltypist 	| Female 	| 5       	|
+| small intestine - ileum                                                                        	| celltypist 	| Male   	| 1       	|
+| small intestine - ileum                                                                        	| popv       	| Female 	| 5       	|
+| small intestine - ileum                                                                        	| popv       	| Male   	| 1       	|
+| small intestine - jejunum                                                                      	| celltypist 	| Female 	| 4       	|
+| small intestine - jejunum                                                                      	| celltypist 	| Male   	| 8       	|
+| small intestine - jejunum                                                                      	| popv       	| Female 	| 4       	|
+| small intestine - jejunum                                                                      	| popv       	| Male   	| 8       	|
+| small intestine - superior part of   duodenum                                                  	| celltypist 	| Female 	| 2       	|
+| small intestine - superior part of   duodenum                                                  	| celltypist 	| Male   	| 1       	|
+| small intestine - superior part of   duodenum                                                  	| popv       	| Female 	| 2       	|
+| small intestine - superior part of   duodenum                                                  	| popv       	| Male   	| 1       	|
+| spleen - diaphragmatic surface of spleen                                                       	| popv       	| Male   	| 6       	|
+| spleen - hilum of spleen                                                                       	| popv       	| Female 	| 2       	|
+| spleen - hilum of spleen                                                                       	| popv       	| Male   	| 2       	|
+| thymus - left thymus lobe                                                                      	| popv       	| Female 	| 2       	|
+| thymus - left thymus lobe                                                                      	| popv       	| Male   	| 2       	|
+| thymus - right thymus lobe                                                                     	| popv       	| Female 	| 2       	|
+| thymus - right thymus lobe                                                                     	| popv       	| Male   	| 2       	|
+| urinary bladder - fundus of urinary   bladder                                                  	| popv       	| Female 	| 2       	|
+| urinary bladder - fundus of urinary   bladder                                                  	| popv       	| Male   	| 5       	|
+| urinary bladder - trigone of urinary   bladder                                                 	| popv       	| Male   	| 4       	|
