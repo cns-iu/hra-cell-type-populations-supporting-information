@@ -127,6 +127,23 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 - The code to generate these heatmaps (exported to HTML) is [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/HRA_HeatmapAnalysis_CellTypePer_v0.4.html). 
 - The R Markdown notebook is [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/validations/heatmaps/HRA_HeatmapAnalysis_CellTypePer_v0.4.Rmd).
 
+# Exemplary corridor
+
+<div style="width: 100%; height: 500px;">
+  <model-viewer 
+    src="data/1cbd9283-2d58-4a2d-88fe-effb18c3f14f.glb" 
+    alt="Corridor for extraction site" 
+    auto-rotate 
+    camera-controls 
+    touch-action="pan-y"
+    shadow-intensity="1" 
+    ar 
+    style="width: 100%; height: 100%;">
+  </model-viewer>
+</div>
+
+
+
 # Exemplary cell summaries
 
 ## For a dataset
