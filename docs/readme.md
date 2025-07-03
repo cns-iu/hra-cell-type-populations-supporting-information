@@ -35,6 +35,15 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 ## Data
 - [Link to HRApop graph data on HRA LOD server](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/)
 
+# Figures
+![](images/HRApop%20Figures_Figure%20SheatmapTranscriptomics.png)
+
+**Figure C1**. Mean scores for cell types (x-axis) from sc-transcriptomics datasets across organs and AS (y-axis) for (a) Azimuth, (b) CellTypist, and (c) popV.
+
+![](images/HRApop%20Figures_Figure%20SheatmapProteomics.png)
+
+**Figure C2**. Mean scores for cell types (x-axis) from sc-proteomics datasets across organs and AS (y-axis).
+
 # Usage examples
 
 ## Accessing HRApop data
