@@ -49,7 +49,7 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 # Usage examples
 
 ## Accessing HRApop data
-A Jupyter Notebook detailing easy access to cell summaries for AS, extraction sites, and datasets is available at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb). 
+A Jupyter Notebook detailing easy access to cell type populations for AS, extraction sites, and datasets is available at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb). 
 
 
 ## Running HRA Workflows Runner on a local H5AD file
@@ -72,7 +72,7 @@ A notebook to run the HRA Workflows Runner on Windows with Windows Subsystem for
 
 # Interactive Sankey diagrams
 
-In total, as of HRApop v1.0, there are 16,293 datasets in the HRApop Universe (558 of which are sc-transcriptomics and 104 of which are sc-proteomics), and they cover 49 organs. 662 datasets make up the HRApop Atlas. 5,672 datasets have an extraction site but no cell summary. Inversely, 6,395 datasets have a cell summary but no extraction site. 3,564 datasets have neither. The total number of non-atlas datasets is 15,631. The Sankey diagrams below offer an overview of HRApop Universe and Atlas provenance. 
+In total, as of HRApop v1.0, there are 16,293 datasets in the HRApop Universe (558 of which are sc-transcriptomics and 104 of which are sc-proteomics), and they cover 49 organs. 662 datasets make up the HRApop Atlas. 5,672 datasets have an extraction site but no cell type population. Inversely, 6,395 datasets have a cell type population but no extraction site. 3,564 datasets have neither. The total number of non-atlas datasets is 15,631. The Sankey diagrams below offer an overview of HRApop Universe and Atlas provenance. 
 
 Explore the Sankey diagram for the HRApop Universe below (embedded) or [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_universe_plotly.html).
 <iframe 
@@ -148,11 +148,11 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 
 
 
-# Exemplary cell summaries
+# Exemplary cell type populations
 
 ## For a dataset
 
-Shown is a snippet from a cell summary for a dataset in the small intestine. For clarity, we only show four CTs in this cell summary, all assigned by CellTypist, and we only show the top 1- Bs for the last CT (`Tuft`).
+Shown is a snippet from a cell type population for a dataset in the small intestine. For clarity, we only show four CTs in this cell type population, all assigned by CellTypist, and we only show the top 1- Bs for the last CT (`Tuft`).
 
 ```json
   {
@@ -289,7 +289,7 @@ Shown is a snippet from a cell summary for a dataset in the small intestine. For
 
 ## For an AS
 
-Shown is a snippet from the AS Cell Summary of the cortex of kidney, assgined by Azimuth. 
+Shown is a snippet from the AS Cell Type Population of the cortex of kidney, assigned by Azimuth. 
 
 ```json
   {
