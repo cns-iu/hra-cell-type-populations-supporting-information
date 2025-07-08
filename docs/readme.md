@@ -152,7 +152,7 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 
 ## For a dataset
 
-Shown is a snippet from a cell type population for a dataset in the small intestine. For clarity, we only show four CTs in this cell type population, all assigned by CellTypist, and we only show the top 1- Bs for the last CT (`Tuft`).
+Shown is a snippet from a cell type population for a dataset in the small intestine. For clarity, we only show four CTs in this cell type population, all assigned by CellTypist, and we only show the top 10 Bs one CT (`Tuft`).
 
 ```json
   {
