@@ -287,6 +287,902 @@ Shown is a snippet from a cell type population for a dataset in the small intest
 	}
 ```
 
+## For an extraction site
+
+Shown is a cell type population for an extraction site. All mesh-based collisions are listed in the `all_collisions` field. The corresponding corridor is described and linked in the `corridor` field. The `summaries` key contains the cell type population.
+
+```json
+"rui_location": {
+      "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+      "@id": "http://purl.org/ccf/1.5/e240c0a4-5e53-4464-8320-ad775f2c4bf7",
+      "@type": "SpatialEntity",
+      "ccf_annotations": [
+       "http://purl.obolibrary.org/obo/UBERON_0002115",
+       "http://purl.obolibrary.org/obo/UBERON_0002116"
+      ],
+      "creation_date": "2022-02-16",
+      "creator": "Yiing Lin",
+      "creator_first_name": "Yiing",
+      "creator_last_name": "Lin",
+      "dimension_units": "millimeter",
+      "placement": {
+       "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+       "@id": "http://purl.org/ccf/1.5/e240c0a4-5e53-4464-8320-ad775f2c4bf7_placement",
+       "@type": "SpatialPlacement",
+       "placement_date": "2022-02-16",
+       "rotation_order": "XYZ",
+       "rotation_units": "degree",
+       "scaling_units": "ratio",
+       "target": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine",
+       "translation_units": "millimeter",
+       "x_rotation": 0,
+       "x_scaling": 1,
+       "x_translation": 130.806,
+       "y_rotation": 0,
+       "y_scaling": 1,
+       "y_translation": 111.09,
+       "z_rotation": 86,
+       "z_scaling": 1,
+       "z_translation": 54.023
+      },
+      "x_dimension": 3,
+      "y_dimension": 30,
+      "z_dimension": 15,
+      "all_collisions": [
+       {
+        "@type": "CollisionSummary",
+        "collision_method": "MESH",
+        "collisions": [
+         {
+          "@type": "CollisionItem",
+          "reference_organ": "http://purl.org/ccf/latest/ccf.owl#VHFSmallIntestine",
+          "as_3d_id": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum",
+          "as_id": "http://purl.obolibrary.org/obo/UBERON_0002115",
+          "as_label": "jejunum",
+          "as_volume": 28523.456808180017,
+          "percentage": 0.103
+         }
+        ]
+       }
+      ],
+      "corridor": {
+       "@type": "Corridor",
+       "file_format": "model/gltf-binary",
+       "file": "https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v1.0/assets/corridors/e240c0a4-5e53-4464-8320-ad775f2c4bf7.glb"
+      },
+      "summaries": [
+       {
+        "@type": "CellSummary",
+        "sex": "Female",
+        "annotation_method": "celltypist",
+        "aggregated_summary_count": 1,
+        "aggregated_summaries": [
+         {
+          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/3de525fe3e5718f297e8d62e037a042d",
+          "percentage": 1
+         }
+        ],
+        "modality": "sc_transcriptomics",
+        "summary": [
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:enterocyte",
+          "cell_label": "Enterocyte",
+          "count": 3598,
+          "percentage": 0.5996666666666667
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:paneth",
+          "cell_label": "Paneth",
+          "count": 265,
+          "percentage": 0.04416666666666667
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-b-cell",
+          "cell_label": "Cycling B cell",
+          "count": 43,
+          "percentage": 0.007166666666666667
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:tuft",
+          "cell_label": "Tuft",
+          "count": 41,
+          "percentage": 0.006833333333333334
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:trgv2-gdt",
+          "cell_label": "TRGV2 gdT",
+          "count": 120,
+          "percentage": 0.02
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stem-cells",
+          "cell_label": "Stem cells",
+          "count": 110,
+          "percentage": 0.018333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:best4-epithelial",
+          "cell_label": "BEST4+ epithelial",
+          "count": 124,
+          "percentage": 0.020666666666666667
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:goblet-cell",
+          "cell_label": "Goblet cell",
+          "count": 289,
+          "percentage": 0.04816666666666667
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:myofibroblast",
+          "cell_label": "myofibroblast",
+          "count": 57,
+          "percentage": 0.0095
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:eecs",
+          "cell_label": "EECs",
+          "count": 251,
+          "percentage": 0.041833333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:activated-t",
+          "cell_label": "Activated T",
+          "count": 47,
+          "percentage": 0.007833333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mature-arterial-ec",
+          "cell_label": "Mature arterial EC",
+          "count": 11,
+          "percentage": 0.0018333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:branch-a1-imn-",
+          "cell_label": "Branch A1 (iMN)",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:memory-b",
+          "cell_label": "Memory B",
+          "count": 13,
+          "percentage": 0.0021666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mesoderm-1-hand1-",
+          "cell_label": "Mesoderm 1 (HAND1+)",
+          "count": 5,
+          "percentage": 0.0008333333333333334
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stat1-naive-b",
+          "cell_label": "STAT1+ Naive B",
+          "count": 21,
+          "percentage": 0.0035
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:microfold-cell",
+          "cell_label": "Microfold cell",
+          "count": 198,
+          "percentage": 0.033
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:proximal-progenitor",
+          "cell_label": "Proximal progenitor",
+          "count": 106,
+          "percentage": 0.017666666666666667
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stromal-1-ccl11-",
+          "cell_label": "Stromal 1 (CCL11+)",
+          "count": 23,
+          "percentage": 0.003833333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:branch-b1-emn-",
+          "cell_label": "Branch B1 (eMN)",
+          "count": 31,
+          "percentage": 0.005166666666666667
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stromal-2-npy-",
+          "cell_label": "Stromal 2 (NPY+)",
+          "count": 12,
+          "percentage": 0.002
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ec-cells-tac1-",
+          "cell_label": "EC cells (TAC1+)",
+          "count": 20,
+          "percentage": 0.0033333333333333335
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:i-cells-cck-",
+          "cell_label": "I cells (CCK+)",
+          "count": 26,
+          "percentage": 0.004333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smc-part1-capn3-",
+          "cell_label": "SMC (PART1/CAPN3+)",
+          "count": 6,
+          "percentage": 0.001
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:arterial-capillary",
+          "cell_label": "arterial capillary",
+          "count": 30,
+          "percentage": 0.005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lyve1-macrophage",
+          "cell_label": "LYVE1+ Macrophage",
+          "count": 18,
+          "percentage": 0.003
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:m-x-cells-mln-ghrl-",
+          "cell_label": "M/X cells (MLN/GHRL+)",
+          "count": 12,
+          "percentage": 0.002
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:tfh",
+          "cell_label": "Tfh",
+          "count": 33,
+          "percentage": 0.0055
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stromal-3-kcnn3-",
+          "cell_label": "Stromal 3 (KCNN3+)",
+          "count": 18,
+          "percentage": 0.003
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mlto",
+          "cell_label": "mLTo",
+          "count": 5,
+          "percentage": 0.0008333333333333334
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lec6-adamts4-",
+          "cell_label": "LEC6 (ADAMTS4+)",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:glia-1-dhh-",
+          "cell_label": "Glia 1 (DHH+)",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-ec",
+          "cell_label": "cycling EC",
+          "count": 20,
+          "percentage": 0.0033333333333333335
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:d-cells-sst-",
+          "cell_label": "D cells (SST+)",
+          "count": 10,
+          "percentage": 0.0016666666666666668
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:myofibroblast-rspo2-",
+          "cell_label": "myofibroblast (RSPO2+)",
+          "count": 30,
+          "percentage": 0.005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:contractile-pericyte-pln-",
+          "cell_label": "Contractile pericyte (PLN+)",
+          "count": 20,
+          "percentage": 0.0033333333333333335
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:t-reticular",
+          "cell_label": "T reticular",
+          "count": 5,
+          "percentage": 0.0008333333333333334
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:colonocyte",
+          "cell_label": "Colonocyte",
+          "count": 4,
+          "percentage": 0.0006666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cd8-tmem",
+          "cell_label": "CD8 Tmem",
+          "count": 7,
+          "percentage": 0.0011666666666666668
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-plasma-cell",
+          "cell_label": "Cycling plasma cell",
+          "count": 28,
+          "percentage": 0.004666666666666667
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lec4-stab2-",
+          "cell_label": "LEC4 (STAB2+)",
+          "count": 10,
+          "percentage": 0.0016666666666666668
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:dz-gc-cell",
+          "cell_label": "DZ GC cell",
+          "count": 16,
+          "percentage": 0.0026666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:angiogenic-pericyte",
+          "cell_label": "angiogenic pericyte",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:fdc",
+          "cell_label": "FDC",
+          "count": 4,
+          "percentage": 0.0006666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stromal-3-c7-",
+          "cell_label": "Stromal 3 (C7+)",
+          "count": 13,
+          "percentage": 0.0021666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:progenitor-neurog3-",
+          "cell_label": "Progenitor (NEUROG3+)",
+          "count": 12,
+          "percentage": 0.002
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:pdc",
+          "cell_label": "pDC",
+          "count": 5,
+          "percentage": 0.0008333333333333334
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mature-venous-ec",
+          "cell_label": "Mature venous EC",
+          "count": 21,
+          "percentage": 0.0035
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lti-like-ncr-ilc3",
+          "cell_label": "LTi-like NCR- ILC3",
+          "count": 6,
+          "percentage": 0.001
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mait-cell",
+          "cell_label": "MAIT cell",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:trdv2-trgv9-gdt",
+          "cell_label": "TRDV2/TRGV9 gdT",
+          "count": 19,
+          "percentage": 0.0031666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk-cell",
+          "cell_label": "NK cell",
+          "count": 25,
+          "percentage": 0.004166666666666667
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:glia-3-bcan-",
+          "cell_label": "Glia 3 (BCAN+)",
+          "count": 7,
+          "percentage": 0.0011666666666666668
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:activated-cd8-t",
+          "cell_label": "Activated CD8 T",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:neuroblast",
+          "cell_label": "Neuroblast",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:distal-progenitor",
+          "cell_label": "Distal progenitor",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:macrophages",
+          "cell_label": "Macrophages",
+          "count": 15,
+          "percentage": 0.0025
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mast-cell",
+          "cell_label": "Mast cell",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:trgv4-gdt",
+          "cell_label": "TRGV4 gdT",
+          "count": 22,
+          "percentage": 0.0036666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:icc",
+          "cell_label": "ICC",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:k-cells-gip-",
+          "cell_label": "K cells (GIP+)",
+          "count": 8,
+          "percentage": 0.0013333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:pre-b",
+          "cell_label": "Pre-B",
+          "count": 7,
+          "percentage": 0.0011666666666666668
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:l-cells-pyy-",
+          "cell_label": "L cells (PYY+)",
+          "count": 11,
+          "percentage": 0.0018333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:smc-plpp2-",
+          "cell_label": "SMC (PLPP2+)",
+          "count": 16,
+          "percentage": 0.0026666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:adult-glia",
+          "cell_label": "Adult Glia",
+          "count": 10,
+          "percentage": 0.0016666666666666668
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:th1",
+          "cell_label": "Th1",
+          "count": 4,
+          "percentage": 0.0006666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:branch-b3-ipan-",
+          "cell_label": "Branch B3 (IPAN)",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ta",
+          "cell_label": "TA",
+          "count": 13,
+          "percentage": 0.0021666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:sell-cd4-t",
+          "cell_label": "SELL+ CD4 T",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:branch-a2-ipan-in-",
+          "cell_label": "Branch A2 (IPAN/IN)",
+          "count": 8,
+          "percentage": 0.0013333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:immature-pericyte",
+          "cell_label": "Immature pericyte",
+          "count": 4,
+          "percentage": 0.0006666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:clp",
+          "cell_label": "CLP",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cycling-stromal",
+          "cell_label": "cycling stromal",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:transitional-stromal-3-c3-",
+          "cell_label": "Transitional Stromal 3 (C3+)",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:branch-a4-in-",
+          "cell_label": "Branch A4 (IN)",
+          "count": 5,
+          "percentage": 0.0008333333333333334
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lec1-ackr4-",
+          "cell_label": "LEC1 (ACKR4+)",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lec3-adgrg3-",
+          "cell_label": "LEC3 (ADGRG3+)",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:monocytes",
+          "cell_label": "Monocytes",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:sell-cd8-t",
+          "cell_label": "SELL+ CD8 T",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:-cells-ins-",
+          "cell_label": "β cells (INS+)",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mesothelium-rgs5-",
+          "cell_label": "Mesothelium (RGS5+)",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:nk-t-cell",
+          "cell_label": "NK T cell",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:activated-cd4-t",
+          "cell_label": "Activated CD4 T",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:pericyte",
+          "cell_label": "Pericyte",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:fetal-venous-ec",
+          "cell_label": "Fetal venous EC",
+          "count": 4,
+          "percentage": 0.0006666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:fcrl4-memory-b",
+          "cell_label": "FCRL4+ Memory B",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cdc1",
+          "cell_label": "cDC1",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lz-gc-cell",
+          "cell_label": "LZ GC cell",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:gc-b-cell",
+          "cell_label": "GC B cell",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:venous-capillary",
+          "cell_label": "venous capillary",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:cldn10-cells",
+          "cell_label": "CLDN10+ cells",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lymphoid-dc",
+          "cell_label": "Lymphoid DC",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:mmp9-inflammatory-macrophage",
+          "cell_label": "MMP9+ Inflammatory macrophage",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:pro-b",
+          "cell_label": "Pro-B",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:branch-b2-emn-",
+          "cell_label": "Branch B2 (eMN)",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:naive-b",
+          "cell_label": "Naive B",
+          "count": 3,
+          "percentage": 0.0005
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:treg",
+          "cell_label": "Treg",
+          "count": 2,
+          "percentage": 0.0003333333333333333
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stromal-2-ch25h-",
+          "cell_label": "Stromal 2 (CH25H+)",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:best2-goblet-cell",
+          "cell_label": "BEST2+ Goblet cell",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:lec2-madcam1-",
+          "cell_label": "LEC2 (MADCAM1+)",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:ilc2",
+          "cell_label": "ILC2",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "ASCTB-TEMP:stromal-1-adamdec1-",
+          "cell_label": "Stromal 1 (ADAMDEC1+)",
+          "count": 1,
+          "percentage": 0.00016666666666666666
+         }
+        ]
+       },
+       {
+        "@type": "CellSummary",
+        "sex": "Female",
+        "annotation_method": "popv",
+        "aggregated_summary_count": 1,
+        "aggregated_summaries": [
+         {
+          "aggregated_cell_source": "https://entity.api.hubmapconsortium.org/entities/3de525fe3e5718f297e8d62e037a042d",
+          "percentage": 1
+         }
+        ],
+        "modality": "sc_transcriptomics",
+        "summary": [
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000334",
+          "cell_label": "enterocyte of epithelium of small intestine",
+          "count": 5408,
+          "percentage": 0.9016338779593198
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000343",
+          "cell_label": "paneth cell of epithelium of small intestine",
+          "count": 192,
+          "percentage": 0.032010670223407804
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:1000495",
+          "cell_label": "small intestine goblet cell",
+          "count": 215,
+          "percentage": 0.035845281760586864
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0009006",
+          "cell_label": "intestinal enteroendocrine cell",
+          "count": 44,
+          "percentage": 0.007335778592864288
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0009012",
+          "cell_label": "transit amplifying cell of small intestine",
+          "count": 10,
+          "percentage": 0.0016672224074691564
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0009080",
+          "cell_label": "intestinal tuft cell",
+          "count": 26,
+          "percentage": 0.004334778259419807
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000057",
+          "cell_label": "fibroblast",
+          "count": 41,
+          "percentage": 0.006835611870623541
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000131",
+          "cell_label": "gut endothelial cell",
+          "count": 14,
+          "percentage": 0.002334111370456819
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000775",
+          "cell_label": "neutrophil",
+          "count": 38,
+          "percentage": 0.006335445148382794
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000624",
+          "cell_label": "CD4-positive, alpha-beta T cell",
+          "count": 1,
+          "percentage": 0.00016672224074691563
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000625",
+          "cell_label": "CD8-positive, alpha-beta T cell",
+          "count": 6,
+          "percentage": 0.0010003334444814939
+         },
+         {
+          "@type": "CellSummaryRow",
+          "cell_id": "CL:0000786",
+          "cell_label": "plasma cell",
+          "count": 3,
+          "percentage": 0.0005001667222407469
+         }
+        ]
+       }
+      ]
+     }
+```
+
 ## For an AS
 
 Shown is a snippet from the AS Cell Type Population of the cortex of kidney, assigned by Azimuth. 
