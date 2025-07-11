@@ -94,8 +94,8 @@ title="Sankey HRApop Atlas"
     allowfullscreen>
 </iframe>
 
-# HRApop Universe extraction sites
-Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for datasets in the HRApop Universe.  
+# HRApop Atlas Data extraction sites
+Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for HRApop Atlas Data.  
 
 <a target="_blank" href="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/eui.html"><img alt="load_button" width="84px" src="images/button_load.png" /></a>
 
@@ -152,7 +152,7 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 
 ## For a dataset
 
-Shown is a snippet from a cell type population for a dataset in the small intestine. For clarity, we only show four CTs in this cell type population, all assigned by CellTypist, and we only show the top 10 Bs one CT (`Tuft`).
+Shown is a snippet from a cell type population for a dataset in the small intestine, taken from a Dataset and Extraction Site Cell Type Population (DESpop). For clarity, we only show four CTs in this cell type population, all assigned by CellTypist, and we only show the top 10 Bs one CT (`Tuft`).
 
 ```json
   {
@@ -289,7 +289,7 @@ Shown is a snippet from a cell type population for a dataset in the small intest
 
 ## For an extraction site
 
-Shown is a cell type population for an extraction site. All mesh-based collisions are listed in the `all_collisions` field. The corresponding corridor is described and linked in the `corridor` field. The `summaries` key contains the cell type population.
+Shown is a cell type population for an extraction site, taken from a Dataset and Extraction Site Cell Type Population (DESpop). All mesh-based collisions are listed in the `all_collisions` field. The corresponding corridor is described and linked in the `corridor` field. The `summaries` key contains the cell type population.
 
 ```json
 "rui_location": {
@@ -1185,7 +1185,7 @@ Shown is a cell type population for an extraction site. All mesh-based collision
 
 ## For an AS
 
-Shown is a snippet from the AS Cell Type Population of the cortex of kidney, assigned by Azimuth. 
+Shown is a snippet from the AS Cell Type Population of the cortex of kidney, assigned by Azimuth, taken from a AS Cell Type Population (ASpop). 
 
 ```json
   {
