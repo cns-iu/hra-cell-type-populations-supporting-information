@@ -52,7 +52,7 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 A Jupyter Notebook detailing easy access to cell type populations for AS, extraction sites, and datasets is available at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb). 
 
 ## Visualizing Cell Type Populations for AS, ES, and Datasets
-The web interface at XXXXXXXX enables users to create stacked bar graphs for AS, ES, and Datasets, separated by sex and tool.  
+An upcoming web interface enables users to visualize stacked bar graphs for AS, ES, and Datasets, separated by sex and CTann tool. 
 
 ## Running HRA Workflows Runner on a local H5AD file
 A notebook to run the HRA Workflows Runner on Windows with Windows Subsystem for Linux (WSL) is provided at [https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb](https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb). The code also shows how to get confidence scores for each individual cell in addition to cell type populations with biomarker expression values per CT. Finally, this notebook demonstrates how to transform the output from the DCTA Workflow and return confidence scores + a CSV file for the cell type population that the user can then use on [https://apps.humanatlas.io/us2](https://apps.humanatlas.io/us2), using either the web interface or the HRA API ([https://humanatlas.io/user-story/2#apis](https://humanatlas.io/user-story/2#apis)). 
