@@ -58,7 +58,7 @@ The web interface at XXXXXXXX enables users to create stacked bar graphs for AS,
 A notebook to run the HRA Workflows Runner on Windows with Windows Subsystem for Linux (WSL) is provided at [https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb](https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb). The code also shows how to get confidence scores for each individual cell in addition to cell type populations with biomarker expression values per CT. Finally, this notebook demonstrates how to transform the output from the DCTA Workflow and return confidence scores + a CSV file for the cell type population that the user can then use on [https://apps.humanatlas.io/us2](https://apps.humanatlas.io/us2), using either the web interface or the HRA API ([https://humanatlas.io/user-story/2#apis](https://humanatlas.io/user-story/2#apis)). 
 
 ## Step-by-step instructions
-**Goal: get Mean B Expressions for a given CT in HRApop Atlas Datasets**
+**Goal: get mean biomarker expressions for a given CT in HRApop Atlas Datasets**
 
 1. When opening [https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ct](https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ct), the first item shown is the SPARQL query running when the endpoint is called:
 ![](images/steps_1.png)
