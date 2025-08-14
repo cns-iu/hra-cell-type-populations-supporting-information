@@ -52,7 +52,9 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 A Jupyter Notebook detailing easy access to cell type populations for AS, extraction sites, and datasets is available at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb). 
 
 ## Visualizing Cell Type Populations for AS, ES, and Datasets
-An upcoming web interface enables users to visualize stacked bar graphs for AS, ES, and Datasets, separated by sex and CTann tool. 
+[This web application](https://kparekh21.github.io/hra-ui/hra-pop-validation) enables users to visualize stacked bar graphs for AS, ES, and Datasets, separated by sex and CTann tool. A video tutorial is available on [YouTube](https://youtu.be/Ueei7BOctzY) and embedded below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ueei7BOctzY?si=uJo5fJ3UMfdB5JKr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Running HRA Workflows Runner on a local H5AD file
 A notebook to run the HRA Workflows Runner on Windows with Windows Subsystem for Linux (WSL) is provided at [https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb](https://github.com/cns-iu/hra-pop-notebooks/blob/main/annotations/hra-workflows-runner-local-run.ipynb). The code also shows how to get confidence scores for each individual cell in addition to cell type populations with biomarker expression values per CT. Finally, this notebook demonstrates how to transform the output from the DCTA Workflow and return confidence scores + a CSV file for the cell type population that the user can then use on [https://apps.humanatlas.io/us2](https://apps.humanatlas.io/us2), using either the web interface or the HRA API ([https://humanatlas.io/user-story/2#apis](https://humanatlas.io/user-story/2#apis)). 
