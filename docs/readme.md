@@ -52,7 +52,7 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 A Jupyter Notebook detailing easy access to cell type populations for AS, extraction sites, and datasets is available at [https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/notebooks/hra-pop-grlc-queries.ipynb). 
 
 ## Visualizing Cell Type Populations for AS, ES, and Datasets
-[This web application](https://kparekh21.github.io/hra-ui/hra-pop-validation) enables users to visualize stacked bar graphs for AS, ES, and Datasets, separated by sex and CTann tool. A video tutorial is available on [YouTube](https://youtu.be/Ueei7BOctzY) and embedded below:
+[The HRApop Visualizer](https://apps.humanatlas.io/hra-pop-visualizer) enables users to visualize stacked bar graphs for AS, ES, and Datasets, separated by sex and CTann tool. A video tutorial is available on [YouTube](https://youtu.be/Ueei7BOctzY) and embedded below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ueei7BOctzY?si=uJo5fJ3UMfdB5JKr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
