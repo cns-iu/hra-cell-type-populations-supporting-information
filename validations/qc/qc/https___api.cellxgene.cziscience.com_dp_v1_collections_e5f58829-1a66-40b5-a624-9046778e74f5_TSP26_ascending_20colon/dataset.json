@@ -1,0 +1,165 @@
+{
+  "id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$ascending%20colon",
+  "handler": "cellxgene",
+  "organ": "UBERON:0000059",
+  "collection": "e5f58829-1a66-40b5-a624-9046778e74f5",
+  "donor": "TSP26",
+  "tissue": "ascending colon",
+  "assets": [
+    {
+      "id": "3107198e-4990-4a90-bb42-a2ecb3d4c76f",
+      "dataset": "de698978-3267-45c6-b492-4b0636ef564d"
+    },
+    {
+      "id": "c62fc2d3-ab01-422d-8e42-bd7dbbd5e147",
+      "dataset": "f4f99331-40cf-4bc7-bbb5-c4dc4c150840"
+    },
+    {
+      "id": "b9c5637f-3842-4af4-b426-f62d706cd91b",
+      "dataset": "d81eae50-e96d-44a6-876a-540a3a4610dd"
+    },
+    {
+      "id": "ae0b9899-8d81-4749-9d6e-bf0720821b5e",
+      "dataset": "7f2e355e-9944-4477-98f0-2184943d9d2c"
+    },
+    {
+      "id": "3e4a4cf9-69e7-4041-a91d-5de0ee0c6a65",
+      "dataset": "74d7bc5e-ac01-43d6-ae70-8ffe82b8afde"
+    },
+    {
+      "id": "559cefac-b184-4c58-bc66-d56706385483",
+      "dataset": "1c63b188-d097-441f-8922-b7ebaf715cca"
+    },
+    {
+      "id": "ed5585fa-4ca4-47aa-bf88-d2f6feb9568b",
+      "dataset": "01ef7ded-020c-4292-b253-a234f7331757"
+    },
+    {
+      "id": "31b3d51e-57cf-4813-a062-2ae574a95037",
+      "dataset": "4eb58518-23ce-43e8-89ca-9e9fa87c081d"
+    },
+    {
+      "id": "e248be5c-fa89-4a80-877f-235cf02142a7",
+      "dataset": "bbf12ff4-7f22-4cf5-83cf-9cd37ce4d6f4"
+    },
+    {
+      "id": "dedd7b2e-7dde-4f08-9de3-c6d59a0146f8",
+      "dataset": "51233375-325e-4e8e-b05d-208fd8cc4ba4"
+    },
+    {
+      "id": "e3806a4d-28a0-447b-a3f4-8fe34f005547",
+      "dataset": "a77c03ba-0748-4382-94bd-e1c358175d5a"
+    },
+    {
+      "id": "fc7c1c14-cff0-4264-ba27-61c11c9037fa",
+      "dataset": "4ccbfe8d-0e59-4433-b53c-55a717a32d16"
+    },
+    {
+      "id": "1d6ebe90-40e8-43a5-adcc-f1e0039bef5b",
+      "dataset": "832cf70d-ffdd-48c1-b2cc-ffbb30b42e6c"
+    },
+    {
+      "id": "e2571337-ad69-467c-86cd-2cef3ea3d9c7",
+      "dataset": "b7581463-9676-46fd-9b84-73132109b2a4"
+    },
+    {
+      "id": "02bc736a-890e-4348-a543-bd45db894cfd",
+      "dataset": "8a18fafb-9d37-4bae-9a18-00e35368ca23"
+    },
+    {
+      "id": "6e3b412f-2947-4085-8fe9-c008ac060eda",
+      "dataset": "c264e09f-7c3b-4294-b0f4-82a790bd0014"
+    },
+    {
+      "id": "a96b80a5-6155-4a4b-8187-14327fa7dd0f",
+      "dataset": "7c5ee207-950a-4ae3-bd85-2483f75111d7"
+    },
+    {
+      "id": "afada79d-5b37-4f2d-baca-715d1752d7d6",
+      "dataset": "b439da44-6128-483f-9424-10c5618a8b7e"
+    },
+    {
+      "id": "3c44f1fc-d74a-406a-b8b3-2890ff71e8da",
+      "dataset": "c207bca6-a5c8-472e-be14-83b7b8cc83a6"
+    },
+    {
+      "id": "fa774027-c65c-4aa2-a42d-15fa41ba0de1",
+      "dataset": "9bea986b-f7f1-479b-92d9-61a893629399"
+    },
+    {
+      "id": "fd7a6e21-8f0d-44ca-baeb-6a6451ff5b8a",
+      "dataset": "6e4ccce5-532e-401e-b1bf-ce01f4883eff"
+    },
+    {
+      "id": "65fb8812-abcb-4e94-b50d-e320dae0129e",
+      "dataset": "240e2b84-6893-4651-830b-5baebe8b8bfe"
+    },
+    {
+      "id": "03325381-908c-44ec-bc51-0cffa0eab90c",
+      "dataset": "250cb362-68b4-426e-b4b6-1f7c478197d2"
+    },
+    {
+      "id": "e4b94301-3abd-45ff-a7f5-f039429e2d1d",
+      "dataset": "ded561fb-8668-4ed9-b239-f03a01584dda"
+    },
+    {
+      "id": "ae84baa1-01c3-4053-b550-026112fbd911",
+      "dataset": "c458ba64-399b-4afb-b4b9-8ac91b8f43b3"
+    },
+    {
+      "id": "fc1a0f39-c154-4295-92e8-b453d7cdf8a4",
+      "dataset": "a77da5e7-8a67-4351-9ec3-49a9c80060ab"
+    },
+    {
+      "id": "05870fd5-5ed2-4e3c-899b-75391f7291d0",
+      "dataset": "79dd0749-aba8-40b8-80b8-2937377c2bdd"
+    },
+    {
+      "id": "846269fe-9cbd-4da5-bb94-a28ed8e4f60b",
+      "dataset": "70b2a188-2183-4b20-80e2-8c870e6b01f0"
+    },
+    {
+      "id": "18772646-7261-4639-b713-2abc1062c6f8",
+      "dataset": "7ffe124c-b1ac-4998-932c-43e2038aacf9"
+    },
+    {
+      "id": "1f8510ed-eac2-4357-bc1b-afa06448447d",
+      "dataset": "3c5738bc-da1e-4b98-a2a6-685a7748e747"
+    },
+    {
+      "id": "90092bce-a230-4184-838a-a3e0cbd75dac",
+      "dataset": "9e6d1c2e-b77d-4b36-b747-fad671e245f0"
+    },
+    {
+      "id": "b9f1570b-dd11-419b-9417-d21de982fb61",
+      "dataset": "f950a2b4-0761-4ec3-b74e-4d951e2fe30b"
+    },
+    {
+      "id": "8e383d3a-431e-44c4-84eb-aade9d450559",
+      "dataset": "e53087ec-74a9-4a37-b5fb-36911c3a68c7"
+    },
+    {
+      "id": "556f02fa-ad48-4940-9bb0-562eac7a951c",
+      "dataset": "866ad7f6-bf26-4da4-b078-1b5eebee0fd6"
+    }
+  ],
+  "tissueId": "UBERON:0001156",
+  "dataset_link": "https://cellxgene.cziscience.com/collections/e5f58829-1a66-40b5-a624-9046778e74f5",
+  "dataset_technology": "OTHER",
+  "publication": "https://doi.org/10.1126/science.abl4896",
+  "publication_title": "Tabula Sapiens",
+  "publication_lead_author": "undefined undefined",
+  "consortium_name": "CxG",
+  "provider_name": "CxG",
+  "provider_uuid": "f6841a8a-cef2-4421-b632-fc34ff5c27d8",
+  "assay_type": "[{\"label\":\"10x 3' v3\",\"ontology_term_id\":\"EFO:0009922\"},{\"label\":\"10x 5' v2\",\"ontology_term_id\":\"EFO:0009900\"},{\"label\":\"Smart-seq2\",\"ontology_term_id\":\"EFO:0008931\"},{\"label\":\"Smart-seq3\",\"ontology_term_id\":\"EFO:0022488\"}]",
+  "donor_id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26",
+  "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000059",
+  "block_id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$ascending%20colon_Block",
+  "dataset_id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP26$ascending%20colon",
+  "donor_sex": "female",
+  "donor_development_stage": "37-year-old stage",
+  "donor_race": "European",
+  "dataset_cell_count": 1526,
+  "dataset_gene_count": 61759
+}

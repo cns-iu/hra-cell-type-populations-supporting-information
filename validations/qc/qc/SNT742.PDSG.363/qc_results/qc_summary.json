@@ -1,0 +1,23 @@
+{
+    "input_file": "/var/lib/cwl/stg56fe9552-2037-4a72-9c05-73e625a644da/data.h5ad",
+    "total_cells": 10956,
+    "low_quality_cells": 10775,
+    "percent_low_quality": 98.35,
+    "mean_pct_counts_mt": 0.0,
+    "mean_pct_counts_ribo": 0.0,
+    "thresholds": {
+        "min_genes": 200,
+        "max_genes": 7500,
+        "max_mt": 5.0,
+        "min_ribo": null,
+        "mt_prefix": "MT-",
+        "ribo_prefixes": [
+            "RPS",
+            "RPL"
+        ]
+    },
+    "files": {
+        "qc_per_cell_csv": "qc_results/qc_per_cell.csv",
+        "qc_summary_csv": "qc_results/qc_summary.csv"
+    }
+}
