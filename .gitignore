@@ -88,3 +88,6 @@ tokens.txt
 3d-vh-f-united.glb
 3d-vh-m-united.glb
 corridors
+validations/confidence-scores-per-cell/data/sc-transcriptomics-cell-instances.csv.gz
+validations/confidence-scores-per-cell/data/sc-transcriptomics-cell-instances.csv
+validations/confidence-scores-per-cell/data/cell-instances.csv.gz
