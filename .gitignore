@@ -93,3 +93,6 @@ corridors
 validations/confidence-scores-per-cell/data/sc-transcriptomics-cell-instances.csv.gz
 validations/confidence-scores-per-cell/data/sc-transcriptomics-cell-instances.csv
 validations/confidence-scores-per-cell/data/cell-instances.csv.gz
+
+# Unzipped QC results
+unzipped
