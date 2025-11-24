@@ -1,18 +1,18 @@
-organ_name,mean_percent_low_quality,mean_pct_counts_ribo,mean_pct_counts_mt
-Set of lactiferous glands in left breast,1.92,0.0,0.0
-Set of lactiferous glands in right breast,0.0,0.0013333333333333333,0.0
-heart,15.932342342342343,4.5045045045045046e-05,0.0
-large intestine,17.052553191489363,0.0,0.0
-left kidney,31.854021739130438,0.0,0.0
-left ureter,0.9730769230769231,0.0,0.0
-liver,3.7800000000000002,0.0,0.0
-male reproductive system,1.3399999999999999,0.0011666666666666668,0.0
-pancreas,3.155,0.0,0.0
-respiratory system,19.932717391304347,8.695652173913044e-05,0.0
-right kidney,53.42603960396039,0.0,0.0
-right ureter,2.3233333333333333,0.0,0.0
-skin of body,0.0842857142857143,0.0007142857142857143,0.0
-small intestine,13.67304347826087,0.0,0.0
-spleen,19.894,0.0,0.0
-thymus,0.7025,0.0,0.0
-urinary bladder,2.23,0.0,0.0
+Organ Name,Mean percentage ribosomal genes,Median percentage ribosomal genes,SD percentage ribosomal genes,Mean percentage mitochondrial genes,Median percentage mitochondrial genes,SD percentage mitochondrial genes
+Set of lactiferous glands in left breast,0.0,0.0,0.0,0.0,0.0,0.0
+Set of lactiferous glands in right breast,0.0013333333333333333,0.001,0.0005773502691896257,0.0,0.0,0.0
+Heart,4.5045045045045046e-05,0.0,0.00028179731451621393,0.0,0.0,0.0
+Large intestine,0.0,0.0,0.0,0.0,0.0,0.0
+Left kidney,0.0,0.0,0.0,0.0,0.0,0.0
+Left ureter,0.0,0.0,0.0,0.0,0.0,0.0
+Liver,0.0,0.0,0.0,0.0,0.0,0.0
+Male reproductive system,0.0011666666666666668,0.0015,0.000983192080250175,0.0,0.0,0.0
+Pancreas,0.0,0.0,0.0,0.0,0.0,0.0
+Respiratory system,8.695652173913044e-05,0.0,0.0005654058670250983,0.0,0.0,0.0
+Right kidney,0.0,0.0,0.0,0.0,0.0,0.0
+Right ureter,0.0,0.0,0.0,0.0,0.0,0.0
+Skin of body,0.0007142857142857143,0.0,0.0014373357526806553,0.0,0.0,0.0
+Small intestine,0.0,0.0,0.0,0.0,0.0,0.0
+Spleen,0.0,0.0,0.0,0.0,0.0,0.0
+Thymus,0.0,0.0,0.0,0.0,0.0,0.0
+Urinary bladder,0.0,0.0,0.0,0.0,0.0,0.0
