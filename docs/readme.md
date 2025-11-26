@@ -88,15 +88,7 @@ title="Sankey HRApop Universe"
     allowfullscreen>
 </iframe>
 
-Explore the Sankey diagram for the HRApop Universe below (embedded) or [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html).
-<iframe 
-src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html" 
-title="Sankey HRApop Atlas"
-  width="100%" 
-  height="800"
-    frameborder="0" 
-    allowfullscreen>
-</iframe>
+Explore the Sankey diagram for the HRApop Universe [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html).
 
 # HRApop Atlas Data extraction sites
 Assigning a spatial location via the Registration User Interface (RUI, [https://apps.humanatlas.io/rui](https://apps.humanatlas.io/rui/)) is an essential requirement for a dataset to be included in HRApop. Below is an instance of the Exploration User Interface (EUI, see federated version with all registered tissue blocks [here](https://apps.humanatlas.io/eui/)) that only shows extraction sites for HRApop Atlas Data.  
