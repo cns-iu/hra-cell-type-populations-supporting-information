@@ -30,9 +30,9 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 - [Link to CZ CELLxGENE Portal](https://cellxgene.cziscience.com/)
 
 ## Code
-- [Link to HRA Workflows](https://github.com/hubmapconsortium/hra-workflows/tree/main)
-- [Link to HRA Workflows Runner](https://github.com/hubmapconsortium/hra-workflows-runner/)
-- [Link to HRApop GitHub repository](https://github.com/x-atlas-consortia/hra-pop/tree/main/)
+- [Link to CTann Tool Containers](https://github.com/hubmapconsortium/hra-workflows/tree/main)
+- [Link to DCTA Workflow](https://github.com/hubmapconsortium/hra-workflows-runner/)
+- [Link to RUI2CTpop Workflow](https://github.com/x-atlas-consortia/hra-pop/tree/main/)
 
 ## Data
 - [Link to HRApop graph data on HRA LOD server](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/)
