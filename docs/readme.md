@@ -18,24 +18,24 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 
 # Links
 ## General
-- [Link to paper on bioRxiv](https://doi.org/10.1101/2025.08.14.670406)
-- [Link to GitHub repository for Supporting Information](https://github.com/cns-iu/hra-cell-type-populations-supporting-information)
-- [Link to HuBMAP Publication page with links to all HuBMAP datasets, tissue, blocks, and donors used for the HRApop v1.0](https://portal.hubmapconsortium.org/browse/publication/f53d60b5994333777a446dd7ad3b0304)
-- [Link to HRA Portal](https://humanatlas.io/)
+- [Preprint on bioRxiv](https://doi.org/10.1101/2025.08.14.670406)
+- [GitHub repository for Supporting Information](https://github.com/cns-iu/hra-cell-type-populations-supporting-information)
+- [HuBMAP Publication page with links to all HuBMAP datasets, tissue, blocks, and donors used for HRApop v1.0](https://portal.hubmapconsortium.org/browse/publication/f53d60b5994333777a446dd7ad3b0304)
+- [HRA Portal](https://humanatlas.io/)
 
 ## Portals
-- [Link to HuBMAP Portal](https://portal.hubmapconsortium.org/)
-- [Link to SenNet Portal](https://data.sennetconsortium.org/)
-- [Link to GTEx Portal](https://gtexportal.org/home/)
-- [Link to CZ CELLxGENE Portal](https://cellxgene.cziscience.com/)
+- [HuBMAP Portal](https://portal.hubmapconsortium.org/)
+- [SenNet Portal](https://data.sennetconsortium.org/)
+- [GTEx Portal](https://gtexportal.org/home/)
+- [CELLxGENE Portal](https://cellxgene.cziscience.com/)
 
 ## Code
-- [Link to CTann Tool Containers](https://github.com/hubmapconsortium/hra-workflows/tree/main)
-- [Link to DCTA Workflow](https://github.com/hubmapconsortium/hra-workflows-runner/)
-- [Link to RUI2CTpop Workflow](https://github.com/x-atlas-consortia/hra-pop/tree/main/)
+- [CTann Tool Containers](https://github.com/hubmapconsortium/hra-workflows/tree/main)
+- [DCTA Workflow](https://github.com/hubmapconsortium/hra-workflows-runner/)
+- [RUI2CTpop Workflow](https://github.com/x-atlas-consortia/hra-pop/tree/main/)
 
 ## Data
-- [Link to HRApop graph data on HRA LOD server](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/)
+- [HRApop graph data on HRA LOD server](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/latest/)
 
 # Figures
 ![](images/HRApop%20Figures_Figure%20SheatmapTranscriptomics.png)
