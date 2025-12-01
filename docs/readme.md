@@ -1,6 +1,6 @@
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-# **Companion Website for "Constructing and Using Cell Type Populations of the Human Reference Atlas"**
+# **Companion Website for "Cell Type Populations for 3D Anatomical Structures of the Human Reference Atlas"**
 
 Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</sup>, Daniel Bolin<sup>1</sup>, Danial Qaurooni<sup>1</sup>, Michael Ginda<sup>1</sup>, Yashvardhan Jain<sup>1</sup>, Aleix Puig Barbe <sup>3</sup>, Kristin Ardlie<sup>4</sup>, Fusheng Wang<sup>2</sup>, Katy Börner<sup>1</sup>\*
 
