@@ -93,6 +93,8 @@ corridors
 validations/confidence-scores-per-cell/data/sc-transcriptomics-cell-instances.csv.gz
 validations/confidence-scores-per-cell/data/sc-transcriptomics-cell-instances.csv
 validations/confidence-scores-per-cell/data/cell-instances.csv.gz
+hra-pop-v1.0-qc.zip
 
 # Unzipped QC results
 unzipped
+validations/mitochondrial-ribosomal-gene-counts/data/hra-pop-v1.0-qc.zip
