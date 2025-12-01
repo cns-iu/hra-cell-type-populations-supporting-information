@@ -1,4 +1,4 @@
-Organ name,Mean percentage ribosomal genes,Median percentage ribosomal genes,SD percentage ribosomal genes,Mean percentage mitochondrial genes,Median percentage mitochondrial genes,SD percentage mitochondrial genes,Mean number of genes by counts,Mean total counts,Mean percentage counts in top 20 genes,Mean percentage counts in top 50 genes
+Organ name,Mean % ribosomal genes,Median % ribosomal genes,SD % ribosomal genes,Mean % mitochondrial genes,Median % mitochondrial genes,SD % mitochondrial genes,Mean number of genes by counts,Mean total counts,Mean % counts in top 20 genes,Mean % counts in top 50 genes
 Set of lactiferous glands in left breast,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,3346.58500,3387.70200,2.56700,5.68600
 Set of lactiferous glands in right breast,0.00133,0.00100,0.00058,0.00000,0.00000,0.00000,658.06733,1706.83800,5.10033,11.70200
 Heart,0.00005,0.00000,0.00028,0.00000,0.00000,0.00000,1154.91895,1114.92800,20.40530,26.36761
