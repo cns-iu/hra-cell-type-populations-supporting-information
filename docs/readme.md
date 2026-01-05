@@ -104,6 +104,7 @@ Assigning a spatial location via the Registration User Interface (RUI, [https://
 - The code to generate these heatmaps (exported to HTML) is [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/HRA_HeatmapAnalysis_CellTypePer_v0.4.html). 
 - The R Markdown notebook is [here](https://github.com/cns-iu/hra-cell-type-populations-supporting-information/blob/main/validations/heatmaps/HRA_HeatmapAnalysis_CellTypePer_v0.4.Rmd).
 
+
 # Exemplary corridor
 
 <div style="width: 100%; height: 500px;">
@@ -1443,3 +1444,43 @@ Shown is a snippet from the AS Cell Type Population of the cortex of kidney, ass
 | urinary bladder - fundus of urinary   bladder                                                  	| popv       	| Female 	| 2       	|
 | urinary bladder - fundus of urinary   bladder                                                  	| popv       	| Male   	| 5       	|
 | urinary bladder - trigone of urinary   bladder                                                 	| popv       	| Male   	| 4       	|
+
+# Outlook
+
+To improve coverage and quality of HRApop, the following steps are planned:
+
+Here’s your markdown text with the `<sup>` tags added for the in-text citations:
+
+---
+
+**Long-term sustainability**: The HRA and, by extension, HRApop is currently funded via the HuBMAP, SenNet, KPMP, Common Fund Data Ecosystem (CFDE), GTEx, and NIDDK. Funding that has been acquired since HRApop v1.0 was released comes via the Whole Person Reference Physiome Research and Coordination Center (WPP, [1U24AT013504-01](https://reporter.nih.gov/search/TJAFVzPxvk64YuUPEy5Rlw/project-details/11224772)<sup>1</sup>), the Canadian Institute for Advanced Research (CIFAR) MacMillan Multiscale Human ([cifar.ca/research-programs/cifar-macmillan-multiscale-human](https://cifar.ca/research-programs/cifar-macmillan-multiscale-human/)<sup>2</sup>), and the Stiftung Charité via Berlin Institute of Health at Charité (BIH). This funding supports regular HRApop releases, with data products made available via Zenodo<sup>3</sup> and the HRA KG<sup>4</sup> ([lod.humanatlas.io/graph/hra-pop](https://lod.humanatlas.io/graph/hra-pop)).
+
+**Increase number of RUI registered datasets**: As of January 2026, the HuBMAP and SenNet portals list 908 and 172 datasets with 3D extraction sites that are currently in QA/QC status but will be published soon. Outreach efforts to authors of peer-reviewed, published papers are ongoing to register their data for use in the DCTA Workflow. The HRApop effort will also integrate data from Tabula Sapiens<sup>5</sup>, KPMP, the Helmsley Gut Cell Atlas<sup>6</sup>, and the Deeply Integrated human Single-Cell Omics (DISCO) database<sup>7</sup>, which has a total of 21,330 datasets, out of which 32.8% of the total data is from a healthy human body, across 166 unique ASs. Other potential sources for high-quality datasets have been captured in Hemberg et al.’s recent article on large cell atlases<sup>8</sup>.
+
+**Scale up tissue registration via millitomes**: A millitome<sup>9</sup> (from Latin *mille*, meaning “thousand,” and the Greek *temnein*, meaning "to cut") is a device designed to hold a freshly procured organ and facilitate cutting it into many small tissue blocks of well-defined size for usage in sc-analysis and HRA construction. It is used to produce uniformly sized slices or cubes of tissue material that can be registered to 3D reference objects. Using a millitome improves efficiency by enabling consistent, high-throughput sampling. Recently, 209 brain tissue blocks have been added and will be included in the next HRApop run as part of the 10th HRA release.
+
+**Improve generalizability**: The 104 sc-proteomics datasets in HRApop v1.0 were presented as a generalization from sc-transcriptomics datasets. In the future, and in synergy with HRA Vasculature Common Coordinate Framework (VCCF) construction efforts<sup>10</sup>,<sup>11</sup> around endothelial cell environments<sup>12</sup>, more CODEX<sup>13</sup> datasets and new modalities, such as the Spatial Multiomics Single-Cell Imaging platform CosMx<sup>14</sup>, will be added to HRApop. A recent paper<sup>15</sup> analyzed 399 spatially resolved omics datasets from 14 studies comprising 12 tissue types with a total of 47,349,496.
+
+**Increase number of CTann tools used to enable more benchmarking**: Currently, HRApop uses three well-established CTann tools backed by scientific publications describing the methods, results, and validations for each tool. Results are presented as CT populations by CTann tool—users can pick their favorite tool and data or perform comparisons and benchmarks between CTann tools<sup>16</sup>. Future HRA releases will feature additional CTann tools such as FR-Match<sup>17</sup> and Pan-Human Azimuth ([satijalab.org/pan_human_azimuth](https://satijalab.org/pan_human_azimuth/)) in support of improved cell type annotation, CTann tool comparisons and benchmarking.
+
+**Add biomarker sets**: For HRApop v1.0, the top biomarkers per CT per dataset were computed using *scanpy*’s *rank_gene_groups()* method ([scanpy.readthedocs.io/en/stable/generated/scanpy.tl.rank_genes_groups.html](https://scanpy.readthedocs.io/en/stable/generated/scanpy.tl.rank_genes_groups.html))<sup>18</sup>. In future HRApop releases, additional sets of top biomarkers will be provided to the user by running, e.g., NS-Forest<sup>19</sup> during the annotation phase of the DCTA.
+
+**Decrease run time for HRApop code**: For HRApop v1.0, the DCTA Workflow started on Thu, May 15, 2025, ran for about 10 days, and finished on Sunday, May 25, 2025. It averaged 87.63 dataset annotation runs per hour. Annotations took about 8.59 days to finish. This long runtime is primarily due to the complexity of the annotation pipeline, including annotation, crosswalking, and mean gene expression per cell type, to cover over 10,000 datasets and tens of millions of cells. Targeted optimization of the algorithms and workflows combined with more hardware resources and re-using annotations from prior runs will be required to reduce runtime. Work is underway to save annotations between runs to skip the re-annotation step. After a 22-day QA phase, the RUI2CTpop Workflow started on June 16 at 5:55:27 PM EDT and finished about four hours later at 10:07:11 PM EDT the same day. A full log is linked in **Table S1**. In the future, the run time for the DCTA Workflow will be decreased by using high performance computing (HPC), e.g., Big Red at Indiana University ([kb.iu.edu/d/brcc](https://kb.iu.edu/d/brcc))<sup>20</sup>. Also, the crosswalking will be moved to the RUI2CTpop Workflow, which will decrease runtime and increase the modularity of both workflows.
+
+# References
+
+1\.	Bueckle, A., Herr II, B. W. & Börner, K. HRApop v1.0. Zenodo https://doi.org/10.5281/zenodo.15603820 (2025). https://doi.org/10.5281/zenodo.15603820.   
+2\.	Bueckle, A. *et al.* Construction, Deployment, and Usage of the Human Reference Atlas Knowledge Graph. *Sci. Data* **12**, 1100 (2025). https://doi.org/10.1038/s41597-025-05183-6.   
+3\.	The Tabula Sapiens Consortium\* *et al.* The Tabula Sapiens: A multiple-organ, single-cell transcriptomic atlas of humans. *Science* **376**, eabl4896 (2022). https://doi.org/10.1126/science.abl4896.   
+4\.	Zilbauer, M. *et al.* A Roadmap for the Human Gut Cell Atlas. *Nat. Rev. Gastroenterol. Hepatol.* **20**, 597–614 (2023). https://doi.org/10.1038/s41575-023-00784-1.   
+5\.	Li, M. *et al.* DISCO: a database of Deeply Integrated human Single-Cell Omics data. *Nucleic Acids Res.* **50**, D596–D602 (2022). https://doi.org/10.1093/nar/gkab1020.   
+6\.	Hemberg, M. *et al.* Insights, opportunities, and challenges provided by large cell atlases. *Genome Biol.* **26**, 358 (2025). https://doi.org/10.1186/s13059-025-03771-8.   
+7\.	Börner, K. *et al.* Human BioMolecular Atlas Program (HuBMAP): 3D Human Reference Atlas construction and usage. *Nat. Methods* 1–16 (2025). https://doi.org/10.1038/s41592-024-02563-5.   
+8\.	Weber, G. M., Ju, Y. & Börner, K. Considerations for Using the Vasculature as a Coordinate System to Map All the Cells in the Human Body. *Front. Cardiovasc. Med.* **7**, (2020). https://doi.org/10.3389/fcvm.2020.00029.   
+9\.	Ghose, S. *et al.* 3D reconstruction of skin and spatial mapping of immune cell density, vascular distance and effects of sun exposure and aging. *Commun. Biol.* **6**, 718 (2023). https://doi.org/10.1038/s42003-023-04991-z.   
+10\.	Jain, Y. *et al.* Exploring endothelial cell environments across organs in spatially resolved omics data. 2025.09.23.678129 Preprint at https://www.biorxiv.org/content/10.1101/2025.09.23.678129v1 (2025). https://doi.org/10.1101/2025.09.23.678129.   
+11\.	Black, S. *et al.* CODEX multiplexed tissue imaging with DNA-conjugated antibodies. *Nat. Protoc.* **16**, 3802–3835 (2021). https://doi.org/10.1038/s41596-021-00556-8.   
+12\.	He, S. *et al.* High-plex imaging of RNA and proteins at subcellular resolution in fixed tissue by spatial molecular imaging. *Nat. Biotechnol.* **40**, 1794–1806 (2022). https://doi.org/10.1038/s41587-022-01483-z.   
+13\.	Hu, J. *et al.* Benchmarking single cell transcriptome matching methods for incremental growth of reference atlases. 2025.04.10.648034 Preprint at https://www.biorxiv.org/content/10.1101/2025.04.10.648034v1 (2025). https://doi.org/10.1101/2025.04.10.648034.   
+14\.	Zhang, Y., Aevermann, B., Gala, R. & Scheuermann, R. H. Cell type matching in single-cell RNA-sequencing data using FR-Match. *Sci. Rep.* **12**, 9996 (2022). https://doi.org/10.1038/s41598-022-14192-z.   
+15\.	Liu, A. *et al.* Discovery of optimal cell type classification marker genes from single cell RNA sequencing data. *BMC Methods* **1**, 15 (2024). https://doi.org/10.1186/s44330-024-00015-2. 
