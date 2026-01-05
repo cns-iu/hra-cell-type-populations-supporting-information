@@ -1449,10 +1449,6 @@ Shown is a snippet from the AS Cell Type Population of the cortex of kidney, ass
 
 To improve coverage and quality of HRApop, the following steps are planned:
 
-Here’s your markdown text with the `<sup>` tags added for the in-text citations:
-
----
-
 **Long-term sustainability**: The HRA and, by extension, HRApop is currently funded via the HuBMAP, SenNet, KPMP, Common Fund Data Ecosystem (CFDE), GTEx, and NIDDK. Funding that has been acquired since HRApop v1.0 was released comes via the Whole Person Reference Physiome Research and Coordination Center (WPP, [1U24AT013504-01](https://reporter.nih.gov/search/TJAFVzPxvk64YuUPEy5Rlw/project-details/11224772)<sup>1</sup>), the Canadian Institute for Advanced Research (CIFAR) MacMillan Multiscale Human ([cifar.ca/research-programs/cifar-macmillan-multiscale-human](https://cifar.ca/research-programs/cifar-macmillan-multiscale-human/)<sup>2</sup>), and the Stiftung Charité via Berlin Institute of Health at Charité (BIH). This funding supports regular HRApop releases, with data products made available via Zenodo<sup>3</sup> and the HRA KG<sup>4</sup> ([lod.humanatlas.io/graph/hra-pop](https://lod.humanatlas.io/graph/hra-pop)).
 
 **Increase number of RUI registered datasets**: As of January 2026, the HuBMAP and SenNet portals list 908 and 172 datasets with 3D extraction sites that are currently in QA/QC status but will be published soon. Outreach efforts to authors of peer-reviewed, published papers are ongoing to register their data for use in the DCTA Workflow. The HRApop effort will also integrate data from Tabula Sapiens<sup>5</sup>, KPMP, the Helmsley Gut Cell Atlas<sup>6</sup>, and the Deeply Integrated human Single-Cell Omics (DISCO) database<sup>7</sup>, which has a total of 21,330 datasets, out of which 32.8% of the total data is from a healthy human body, across 166 unique ASs. Other potential sources for high-quality datasets have been captured in Hemberg et al.’s recent article on large cell atlases<sup>8</sup>.
