@@ -1,8 +1,6 @@
 label,node_name,anatomical_structure_of
-Interlobar adipose tissue of left mammary gland,VH_F_fat_L,#VHFLeftMammaryGland
 mammary lobe,VH_F_mammary_lobes_L,#VHFLeftMammaryGland
 main lactiferous duct,VH_F_main_lactiferous_ducts_L,#VHFLeftMammaryGland
-Interlobar adipose tissue of right mammary gland,VH_F_fat_R,#VHFRightMammaryGland
 main lactiferous duct,VH_F_main_lactiferous_ducts_R,#VHFRightMammaryGland
 mammary lobe,VH_F_mammary_lobes_R,#VHFRightMammaryGland
 hepatic flexure of colon,VH_F_hepatic_flexure_of_colon,#VHFLargeIntestine
@@ -27,7 +25,6 @@ tail of pancreas,VH_F_tail_of_pancreas,#VHFPancreas
 body of pancreas,VH_F_body_of_pancreas,#VHFPancreas
 uncinate process of pancreas,VH_F_ucinate_process1,#VHFPancreas
 head of pancreas,VH_F_head_of_pancreas,#VHFPancreas
-Neck of pancreas,VH_F_neck_of_pancreas,#VHFPancreas
 kidney capsule,VH_F_kidney_capsule_L,#VHFLeftKidneyV1.1
 hilum of kidney,VH_F_hilum_of_kidney_L,#VHFLeftKidneyV1.1
 renal papilla,VH_F_renal_papilla_L,#VHFLeftKidneyV1.1
@@ -82,6 +79,8 @@ renal pyramid,VH_F_renal_pyramid_R_g,#VHFRightKidneyV1.1
 renal pyramid,VH_F_renal_pyramid_R_h,#VHFRightKidneyV1.1
 renal pyramid,VH_F_renal_pyramid_R_i,#VHFRightKidneyV1.1
 renal pyramid,VH_F_renal_pyramid_R_j,#VHFRightKidneyV1.1
+right ureter,VH_F_right_ureter,#VHFRightUreter
+left ureter,VH_F_left_ureter,#VHFLeftUreter
 fundus of urinary bladder,VH_F_fundus_of_urinary_bladder_dome,#VHFUrinaryBladder
 fundus of urinary bladder,VH_F_fundus_of_urinary_bladder_base,#VHFUrinaryBladder
 trigone of urinary bladder,VH_F_trigone_of_urinary_bladder,#VHFUrinaryBladder
@@ -90,32 +89,12 @@ left cardiac atrium,VH_F_left_cardiac_atrium,#VHFHeartV1.1
 heart left ventricle,VH_F_left_ventricle,#VHFHeartV1.1
 right cardiac atrium,VH_F_right_cardiac_atrium,#VHFHeartV1.1
 heart right ventricle,VH_F_right_ventricle,#VHFHeartV1.1
-Posteromedial head of posterior papillary muscle of left ventricle,VH_F_papillary_muscle_of_heart_posmed,#VHFHeartV1.1
-Superior lingular bronchopulmonary segment,VH_F_lingula_superior_bronchopulmonary_segment,#VHFLungV1.2
-Left posterior bronchopulmonary segment,VH_F_left_posterior_bronchopulmonary_segment,#VHFLungV1.2
 left anterior basal bronchopulmonary segment,VH_F_left_anterior_basal_bronchopulmonary_segment,#VHFLungV1.2
-left Lateral Basal Bronchopulmonary Segment,VH_F_left_lateral_basal_bronchopulmonary_segment,#VHFLungV1.2
-Left Medial Basal Bronchopulmonary Segment,VH_F_left_medial_basal_bronchopulmonary_segment,#VHFLungV1.2
-Right Posterior Basal Bronchopulmonary Segment,VH_F_right_posterior_basal_bronchopulmonary_segment,#VHFLungV1.2
-Right anterior basal bronchopulmonary segment,VH_F_right_anterior_basal_bronchopulmonary_segment,#VHFLungV1.2
-Right Medial Bronchopulmonary Segment,VH_F_right_medial_bronchopulmonary_segment,#VHFLungV1.2
-Right Lateral Bronchopulmonary Segment,VH_F_right_lateral_bronchopulmonary_segmennt,#VHFLungV1.2
-Right Anterior Bronchopulmonary Segment,VH_F_right_anterior_bronchopulmonary_segm,#VHFLungV1.2
-Cartilage of segmental bronchus,VH_F_cartilage_of_tertiary_bronchus_L,#VHFLungV1.2
-Left apical segmental bronchus,VH_F_left_apical_bronchus,#VHFLungV1.2
-Left posterior basal segmental bronchus,VH_F_left_posterior_basal_bronchus,#VHFLungV1.2
-Left medial basal segmental bronchus,VH_F_left_medial_basal_bronchus,#VHFLungV1.2
-Left anterior segmental bronchus,VH_F_left_anterior_bronchus,#VHFLungV1.2
-Left lateral basal segmental bronchus,VH_F_left_lateral_basal_bronchus,#VHFLungV1.2
-Cartilage of segmental bronchus,VH_F_cartilage_of_tertiary_bronchus_R,#VHFLungV1.2
-Lateral segmental bronchus,VH_F_right_lateral_bronchus,#VHFLungV1.2
-Right superior segmental bronchus,VH_F_right_superior_bronchus,#VHFLungV1.2
 diaphragmatic surface of spleen,VH_F_diaphragmatic_surface_of_spleen,#VHFSpleenV1.1
 hilum of spleen,VH_F_hilum_of_spleen,#VHFSpleenV1.1
 left thymus lobe,VH_F_thymus_lobe_L,#VHFThymusV1.1
 right thymus lobe,VH_F_thymus_lobe_R,#VHFThymusV1.1
 seminal vesicle,VH_M_seminal_vesicle,#VHMProstate
-Verumontanum,VH_M_seminal_colliculus,#VHMProstate
 apex of prostate,VH_M_apex_of_prostate,#VHMProstate
 peripheral zone of prostate,VH_M_peripheral_zone_of_prostate_R,#VHMProstate
 peripheral zone of prostate,VH_M_peripheral_zone_of_prostate_L,#VHMProstate
@@ -129,7 +108,6 @@ gastric impression of liver,VH_M_gastric_impression_of_liver,#VHMLiver
 body of pancreas,VH_M_body_of_pancreas,#VHMPancreas
 tail of pancreas,VH_M_tail_of_pancreas,#VHMPancreas
 head of pancreas,VH_M_head_of_pancreas,#VHMPancreas
-Neck of pancreas,VH_M_neck_of_pancreas,#VHMPancreas
 uncinate process of pancreas,VH_M_uncinate_process_of_the_pancreas,#VHMPancreas
 ileum,VH_M_ileum,#VHMSmallIntestine
 distal part of ileum,VH_M_ileum_terminal,#VHMSmallIntestine
@@ -146,6 +124,8 @@ rectum,VH_M_rectum,#VHMColon
 sigmoid colon,VH_M_sigmoid_colon,#VHMColon
 transverse colon,VH_M_transverse_colon,#VHMColon
 caecum,VH_M_caecum,#VHMColon
+right ureter,VH_M_ureter_R,#VHMRightUreter
+left ureter,VH_M_ureter_L,#VHMLeftUreter
 kidney capsule,VH_M_kidney_capsule_L,#VHMLeftKidney
 hilum of kidney,VH_M_hilum_of_kidney_L,#VHMLeftKidney
 renal column,VH_M_renal_column_L,#VHMLeftKidney
@@ -200,33 +180,12 @@ fundus of urinary bladder,VH_M_fundus_of_urinary_bladder_dome,#VHMUrinaryBladder
 fundus of urinary bladder,VH_M_fundus_of_urinary_bladder,#VHMUrinaryBladder
 fundus of urinary bladder,VH_M_fundus_of_urinary_bladder_base1,#VHMUrinaryBladder
 trigone of urinary bladder,VH_M_trigone_of_urinary_bladder,#VHMUrinaryBladder
-Posteromedial head of posterior papillary muscle of left ventricle,VH_M_papillary_muscle_of_heart_posteromedial,#VHMHeart
 left cardiac atrium,VH_M_left_cardiac_atrium,#VHMHeart
 right cardiac atrium,VH_M_right_cardiac_atrium,#VHMHeart
 heart right ventricle,VH_M_heart_right_ventricle,#VHMHeart
 interventricular septum,VH_M_interventricular_septum,#VHMHeart
 heart left ventricle,VH_M_heart_left_ventricle,#VHMHeart
-Superior lingular bronchopulmonary segment,VH_M_left_lingula_superior_bronchopulmonary_segment,#VHMLungV1.1
-Left posterior bronchopulmonary segment,VH_M_left_posterior_bronchopulmonary_segment,#VHMLungV1.1
 left anterior basal bronchopulmonary segment,VH_M_left_anterior_basal_bronchopulmonary_segment,#VHMLungV1.1
-left Lateral Basal Bronchopulmonary Segment,VH_M_left_lateral_basal_bronchopulmonary_segment,#VHMLungV1.1
-Left Medial Basal Bronchopulmonary Segment,VH_M_left_medial_basal_bronchopulmonary_segment,#VHMLungV1.1
-Left posterior basal segmental bronchus,VH_M_left_posetrior_basal_bronchopulmonary_segment,#VHMLungV1.1
-Right Lateral Bronchopulmonary Segment,VH_M_right_lateral_bronchopulmonary_segment,#VHMLungV1.1
-Right Medial Bronchopulmonary Segment,VH_M_right_medial_bronchopulmonary_segment,#VHMLungV1.1
-Right anterior basal bronchopulmonary segment,VH_M_right_anterior_basal_bronchopulmonary_segment,#VHMLungV1.1
-Right Posterior Basal Bronchopulmonary Segment,VH_M_right_posterior_basal_bronchopulmonary_segment,#VHMLungV1.1
-Right Anterior Bronchopulmonary Segment,VH_M_right_anterior_bronchopulmonary_segment,#VHMLungV1.1
-Cartilage of segmental bronchus,VH_M_cartilage_of_the_tertiary_bronchus_L,#VHMLungV1.1
-Left posterior basal segmental bronchus,VH_M_left_posterior_basal_bronchus,#VHMLungV1.1
-Left medial basal segmental bronchus,VH_M_left_medial_basal_bronchus,#VHMLungV1.1
-Left apical segmental bronchus,VH_M_left_apical_bronchus,#VHMLungV1.1
-Left anterior segmental bronchus,VH_M_left_anterior_bronchus,#VHMLungV1.1
-Left lateral basal segmental bronchus,VH_M_left_lateral_basal_bronchus,#VHMLungV1.1
-Cartilage of segmental bronchus,VH_M_cartilage_of_the_tertiary_bronchus_R,#VHMLungV1.1
-Lateral segmental bronchus,VH_M_right_lateral_bronchus,#VHMLungV1.1
-Right superior segmental bronchus,VH_M_right_superior_bronchus,#VHMLungV1.1
-Right superior segmental bronchus,VH_M_right_apical_bronchus,#VHMLungV1.1
 diaphragmatic surface of spleen,VH_M_diaphragmatic_surface_of_spleen,#VHMSpleen
 hilum of spleen,VH_M_hilum_of_spleen,#VHMSpleen
 left thymus lobe,VH_M_thymus_lobe_L,#VHMThymus
