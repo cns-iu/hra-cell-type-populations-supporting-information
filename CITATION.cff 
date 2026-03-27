@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+title: "Cell Type Populations for 3D Anatomical Structures of the Human Reference Atlas"
+message: "If you use this work, please cite it as below."
+type: article
+authors:
+  - family-names: Bueckle
+    given-names: Andreas
+  - family-names: Herr
+    given-names: Bruce W.
+  - family-names: Chen
+    given-names: Lu
+  - family-names: Bolin
+    given-names: Daniel
+  - family-names: Qaurooni
+    given-names: Danial
+  - family-names: Ginda
+    given-names: Michael
+  - family-names: Jain
+    given-names: Yashvardhan
+  - family-names: Puig-Barbe
+    given-names: Aleix
+  - family-names: Ardlie
+    given-names: Kristin
+  - family-names: Wang
+    given-names: Fusheng
+  - family-names: Börner
+    given-names: Katy
+journal: "Scientific Data"
+publisher: "Nature Publishing Group"
+year: 2026
+month: 3
+doi: "10.1038/s41597-026-06642-4"
+url: "https://www.nature.com/articles/s41597-026-06642-4"
+abstract: >
+  The human body contains approximately 27–37 trillion cells of up to 10,000 cell types (CTs)
+  within a volume of approximately 62–120 liters (males) and 52–89 liters (females).
+  The Human Reference Atlas (HRA) v2.3 provides a quantitative 3D framework...
+keywords:
+  - Data integration
+  - Data processing
+  - Data publication and archiving
+  - Databases
+  - Software
+license: "© 2026 The Author(s)"
+language: en
