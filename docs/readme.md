@@ -18,7 +18,7 @@ Andreas Bueckle<sup>1</sup>\*, Bruce W. Herr II<sup>1</sup>\*, Lu Chen<sup>2</su
 
 # Links
 ## General
-- [Preprint on bioRxiv](https://doi.org/10.1101/2025.08.14.670406)
+- [Published paper *in Nature Scientific Data*](https://www.nature.com/articles/s41597-026-06642-4)
 - [GitHub repository for Supporting Information](https://github.com/cns-iu/hra-cell-type-populations-supporting-information)
 - [HuBMAP Publication page with links to all HuBMAP datasets, tissue, blocks, and donors used for HRApop v1.0](https://portal.hubmapconsortium.org/browse/publication/f53d60b5994333777a446dd7ad3b0304)
 - [HRA Portal](https://humanatlas.io/)
