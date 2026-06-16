@@ -85,7 +85,7 @@ title="Sankey HRApop Universe"
     allowfullscreen>
 </iframe>
 
-Explore the Sankey diagram for HRApop ATlas Datasets below (embedded) or [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html).
+Explore the Sankey diagram for HRApop Atlas Datasets below (embedded) or [here](https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html).
 <iframe 
 src="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/sankey_atlas_plotly.html" 
 title="Sankey HRApop Atlas"
